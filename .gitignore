@@ -1,0 +1,5 @@
+# Python (experiments/)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
