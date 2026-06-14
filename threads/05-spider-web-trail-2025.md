@@ -31,9 +31,30 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
    and a **"?" carving on an out-of-bounds mountain**, where it goes cold → [06](06-bird-carving-giant-wapiti.md). **No
    secondary source supports the wiki-only "Spider Gorge" reading** (see SPECULATION below + [U13](../findings/unknowns.md)).
 
+> **Corroboration + bounded negative ([K12], deep-research 2026-06-14, [#60], resolves [U1]).** The verbatim chain above was
+> **single-sourced** before this pass; it is now **multiply B-tier corroborated** (Fandom-via-API, ScreenRant, PCGamesN,
+> GameRant, GamingBolt, Dexerto, RDR2.org). The **five**-glyph count on the north pole is **unanimous**; the **guitar identity is
+> hedged by every source** (a flat "it IS a guitar" reading was refuted 0-3 — see [U12]). **Steps 4–5 are the ONLY two
+> shot-to-reveal poles on the trail, and the `NW`+guitar pole is the LAST documented under-pole message — no third pole
+> inscription is documented anywhere.** Everything "past" it is *non-pole* content: the Fort Wallace **bird carvings** (the
+> verified frontier [K16]) and the out-of-bounds **"?"** (pareidolia) — neither is an under-pole inscription. The centre `N`
+> (step 3) is an **alignment/overlay** reveal, *not* a shot pole — don't conflate the two mechanics.
+
 ## [KNOWN] — feather file data
 - Web feathers are internally called **"spiderdream"**; they **respawn** when shot; texture **`wap_gen_feather01`**.
 - **Total: 5 black feathers + 3 red feathers** across the webs found. *(This 5/3 split is a candidate code — see U14/U15.)*
+
+## [KNOWN] — the boundary / feather respawn mechanics (investigator data; full detail → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md))
+- **[K21] Respawn is boundary-gated:** a shot feather falls to the ground (can't be picked up) and **won't respawn while you stay
+  inside the boundary that web is tied to**; leaving respawns it. **Three boundaries** — top (north), connector, bottom (south).
+- **[K31] Membership firsthand-confirmed** (resolves [U22]): **Top** `B34` · **Connector** `B23,B45,B56,B56L` · **Bottom**
+  `R23,R45,R34`; the boundaries **overlap**, so each also contains *untied* adjacent webs (shooting those fires the wrong despawn).
+- **[K29] State persists across nights + camping** (≥12 in-game days) while in-boundary — the fallen feather's exact floor spot
+  is stored and restored; it returns to the web only after you **leave** the boundary. The ground position is shot-physics
+  (encodes nothing). ⟹ a solver has many in-game days to work the order ([U29]/[H20]).
+- **[K30] Render-gating:** a web/feather won't spawn while you look straight at the spot (look away/back), and won't despawn
+  while in view (you can hold one rendered past its hour by keeping line of sight). Open: hit counts by visibility or by hour
+  ([U30]).
 
 ## [KNOWN] — discovery credits (for provenance, not solution)
 - First web(s): **goldenplaysterraria, pariah87, u/fthen2k02, u/FL4VA-01**.
@@ -41,7 +62,9 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
 - The **connection to the mystery + the Fort Brennand markings**: **Strange Man** (YouTube).
 
 ## [UNKNOWN]
-- **Verbatim content of the under-wood inscriptions** beyond `W ✞✞✞✞✞` and `NW`+guitar — are there more poles/messages?
+- ~~**Verbatim content of the under-wood inscriptions** beyond `W ✞✞✞✞✞` and `NW`+guitar — are there more poles/messages?~~
+  **[RESOLVED 2026-06-14 → [K12]/[U1]]:** no — exactly **two** shot-to-reveal poles; `NW`+guitar is the **last** documented
+  under-pole message; no third is documented in any source (deep-research [#60]).
 - **Exact map coordinates** of the start pole, each of the 7 webs, the center webs, and the two inscription poles.
 - **What the guitar means** and whether **Fort Wallace** is the destination or a misdirect.
 - **Is the puzzle finished?** Confirmed **still unsolved with NO payoff as of June 2026** (Popverse, Kotaku, comicbook,
@@ -67,7 +90,9 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
   real (the geometry-hidden-symbol trick is otherwise **only** used at the Butcher Creek outhouses).
   → [`fort-wallace_bird-symbols_tower.webp`](../images/fort-wallace/fort-wallace_bird-symbols_tower.webp)
 - **Strange Man's extension:** the birds point to a nearby **flock leading to the Giant's cave**, and a **question-mark
-  shape** is visible off-map from there — widely called **pareidolia**.
+  shape** is visible off-map from there — **not a popular or widely accepted theory; widely called pareidolia** (it fails the
+  [carving test](../analysis/carving-technique.md)). The **bird carvings are the last *verified* clue** ([K16]); this and the
+  Bacchus heart sit past it as **contested** leads.
   → [`fort-wallace_questionmark_view1.webp`](../images/fort-wallace/fort-wallace_questionmark_view1.webp), [`fort-wallace_questionmark_view2.webp`](../images/fort-wallace/fort-wallace_questionmark_view2.webp)
 - **Native connection:** feathers + spider may invoke the **Spider Grandmother** myth / the game's Native storyline.
 
@@ -96,4 +121,5 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
 
 ## Sources
 **Primary:** Red Dead Wiki *Spider Dream Mystery* Parts 2–4. Secondary: RDR2.org, GamesRadar, Dexerto, Johnny5Arcade,
-DailyDot, X/@SynthPotato, Strange Man (YouTube). See [sources/sources.md](../sources/sources.md).
+DailyDot, X/@SynthPotato, Strange Man (YouTube). **Inscription chain multiply corroborated** by the 2026-06-14 deep-research
+pass ([#60]: + ScreenRant, PCGamesN, GameRant, GamingBolt). See [sources/sources.md](../sources/sources.md).

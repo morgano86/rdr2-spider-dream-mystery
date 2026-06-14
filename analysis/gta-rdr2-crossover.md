@@ -84,6 +84,15 @@ fortunes. Not found so far.
 - **Open ([U18]):** is this a deliberate shared puzzle, or just reused tech + an atmospheric homage? The shared shader + the
   shared time-gate argue for *intentional*; there is **no confirmed shared solution.**
 
+> **Corroboration — the in-game object names (2026-06-13, Reddit C-tier).** A Butcher Creek datamine gallery (u/fireflighTim,
+> "Decoding Butcher Creek") surfaces the **entity names** of the relevant props, consistent with the "all spider-dream content
+> lives in one cable/telegraph data folder" reading behind [K24]/[K15]: the telegraph poles are `but_pignpole07x###`, the
+> outhouses `but_01 outhouse cliff 000–004`, and the ritual/pentagram site is literally named **`but_01_magicstuff001`**. Images:
+> [`butcher-creek_pole-datamine-names.png`](../images/butcher-creek/butcher-creek_pole-datamine-names.png) and
+> [`butcher-creek_outhouse-datamine-names_pentagram.png`](../images/butcher-creek/butcher-creek_outhouse-datamine-names_pentagram.png).
+> The names corroborate the asset grouping; the post's wider pentagram/constellation overlays are **one author's speculation**,
+> not adopted here. → [source #53](../sources/sources.md)
+
 ---
 
 ## Bottom line

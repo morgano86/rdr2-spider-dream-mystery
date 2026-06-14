@@ -69,6 +69,11 @@ dream + Native imagery** — which is why it keeps surfacing in community thread
   → **This is strong evidence the web-trail's "lines that form a shape" is an established RDR2 design language, NOT
   pareidolia** — exactly the anti-pareidolia argument in [carving-technique.md](carving-technique.md). The Dreamcatcher is the
   *shipped, solved* proof-of-concept for the same mechanic.
+  - **Companion precedent — the [Saint Denis Vampire](saint-denis-vampire.md) ([K27]/[H15]).** A *second* shipped, solved egg
+    runs the same "connect fixed points → a shape → go to a feature" mechanic, and it is **stronger on shape than H6**: its
+    five wall-writings map to the **literal pentagram** that Butcher Creek reproduces ([K5]) — not merely "a drawn animal."
+    Where the Dreamcatcher payoff is the **eye** of the drawn shape ([H7]), the Vampire payoff is its **centre**. Together the
+    two eggs make the "lines → deliberate shape → a specific point" grammar firmly established RDR2 design language.
 - **H7 — The "eye" motif recurs.** Dreamcatcher reward = **in the eye** of a painted **bison**. Spider engraving = the
   spider's **"eye"** points the way. Worth watching for an "eye" along the trail's NW cold frontier (Fort Wallace onward).
 - **H8 — The "unfinished business" theory (the specific, falsifiable link).** The dreamcatcher mission log entry **never
@@ -87,6 +92,12 @@ dream + Native imagery** — which is why it keeps surfacing in community thread
 - The spider mystery and the dreamcatchers do **not literally share a log bug** — the spider mystery has **no log at all**
   ([K20](../findings/known-facts.md)); only the dreamcatchers have the lingering entry. H8 above is a *theory that connects*
   them, not an observed shared trait.
+- **New corroboration of the spider↔dreamcatcher link (2026-06-13, Reddit C-tier).** A datamine write-up (u/C0d3M3chan1c,
+  "gamedev take," since removed by mods) reports the **web feathers share the *exact* particle-effect configuration as the
+  dreamcatcher props — same `fxName`, same colour, same flags, same offset.** *If accurate*, that's a concrete asset-level tie
+  between the two systems, beyond the thematic "dream"/feather rhyme — and adds weight to **H8** (the spider mystery as the
+  dreamcatcher log's unfinished trigger) and to **H6** (shared "connect-the-points" design language). Still a single
+  unverifiable C-tier source (post deleted); not promoted past a lead. → [source #52](../sources/sources.md)
 
 ---
 

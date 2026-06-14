@@ -43,6 +43,30 @@ real clue because it's dressed up as an obvious "dev in-joke" or real-world refe
 B. Ward → *Batman*, per unconfirmed wiki speculation). Camouflage-as-joke is plausible deliberate design, so don't discard a
 candidate on "that's just a gag" alone — apply the same evidence test instead. See [findings/speculation.md](../findings/speculation.md) S13.
 
+## The shared medium — a unifying signature and a search heuristic — [SPECULATION → H13]
+*(user observation, 2026-06-13)*
+
+Step back from any single carving and the clues share a strikingly **consistent medium** — which is itself a soft argument
+for one authored system, and a practical heuristic for **where to look next**:
+
+- **Wood, almost everywhere.** The outhouses are wood; the Butcher Creek and Fort Brennand carvings are in wood; the Fort
+  Wallace bird/"w" symbols are in the tower's wooden slats; the spider engraving and every web sit on **wooden telegraph /
+  telephone poles**. The clues are *carved into, or hidden in, wood.*
+- **The railway / telegraph-pole network is the canvas.** The spider engraving is on a pole by the Cornwall railway; the **8
+  webs** spawn on telegraph poles **along the railway track**; and **two of the trail inscriptions are hidden *inside* the pole
+  wood** (the `W ✞✞✞✞✞` and `NW`+guitar messages, revealed by shooting the poles — [U1]). The poles aren't just signposts,
+  they're **where the message is stored.**
+- **Time-gated visibility.** Webs, centre cluster, and the pentagram only appear in narrow night windows (tests 3 above) —
+  things that **appear and disappear at set hours.**
+- **Deliberately hard to see.** The geometry-under-texture disguise (and the ~7-year gap before discovery) means the clues
+  are **engineered to be missed** until you know to look.
+
+**Why it's useful, not just tidy:** if "wood + poles + a night hour + near-invisible" is the signature, it tells you the
+**unexplored frontier is more of the same** — check **wooden** structures and **telegraph poles** on the NW heading, at night,
+for low-contrast carvings — rather than chasing painted textures or rock shapes (which is exactly what the pareidolia test
+already rejects below). **Caveat:** "it's wood" describes *most* of RDR2's rural world, so the medium **narrows where to look,
+it does not by itself certify a find** — a candidate still has to pass tests 1–4. [SPECULATION], tracked as **H13**.
+
 ## Where the boundary actually sits — [KNOWN / honest]
 - **Confirmed-method clues (trust):** Butcher Creek tallies + `LJ`/`SM` + Fort Brennand icon; the pentagram; the spider
   engraving; the 8 webs + feathers; the `W`/`NW`+guitar inscriptions. All pass tests 1–4.
@@ -53,6 +77,15 @@ candidate on "that's just a gag" alone — apply the same evidence test instead.
 - **Fails the test (treat as pareidolia until proven):** the off-map **"question mark"** shapes in the mountains; assorted
   "symbols in rocks." Keep these in [speculation](../findings/speculation.md).
   → [`../images/fort-wallace/fort-wallace_questionmark_view1.webp`](../images/fort-wallace/fort-wallace_questionmark_view1.webp)
+
+> **Where the verified trail actually ends (working stance, 2026-06-13).** The **last clue that passes this test** — and the
+> point we treat as the **end of the *verified* trail** — is the **Fort Wallace bird/"w" carvings** ([K16]): they share the
+> confirmed geometry-hiding method. **Everything past them is unverified or contested**, and two leads are explicitly *not*
+> widely accepted: (1) the off-map **"?" carving** is **not a popular or established theory** — it's widely judged pareidolia
+> and fails tests 1–4; and (2) the **Bacchus Bridge empty heart** ([K22]/[H10]) — while the carving itself is real
+> (investigator data) — is **as controversial as the "?"** in terms of *relevance to the mystery*: its tie to the spider trail
+> is unproven. **Unless new evidence promotes one of these, we work forward from the Fort Wallace bird carvings as the last
+> confirmed step.**
 
 ## The "is it dev-confirmed?" question — [DISPUTED]
 - A former Rockstar **QA tester, reportedly Adam Butterworth**, publicly reacted to the find — quote circulated as *"Absolutely

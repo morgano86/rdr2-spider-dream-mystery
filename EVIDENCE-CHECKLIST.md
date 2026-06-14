@@ -20,12 +20,14 @@ direction is this a true in-game capture. Per-web grid + standard → [WEBS-MANI
 - [ ] Pull feather orientation per web from video; fall back to in-game only where frames are unclear.
 - [ ] Confirm/extend the non-respawn chain `B23→B45→B56→BL56`; test whether feather direction predicts it.
 
-### 2. The under-wood pole messages, verbatim — [U1]  · 🌐
-Documented in community videos/threads — pull and transcribe each **exactly**, verifying against a second source:
-- [ ] Centre cluster (1–2 AM) → **`N` + telephone-pole glyph**.
-- [ ] North pole → **`W` + five pole glyphs** (`W ✞✞✞✞✞` = five poles west).
-- [ ] Five poles west → **`NW` + the "guitar"** symbol (is it actually a guitar? — [U12]).
-- [ ] Any further message **past Fort Wallace** on the NW frontier ([thread 06](threads/06-bird-carving-giant-wapiti.md)).
+### 2. The under-wood pole messages, verbatim — [U1]  · 🌐 — ✅ RESOLVED 2026-06-14 (deep-research [#60])
+Multiply B-tier corroborated; chain was single-sourced before. Each transcribed + verified against ≥2 independent sources:
+- [x] Centre cluster (1–2 AM) → **`N` + telephone-pole glyph** — ⚠️ an **alignment/overlay** reveal ([K11]), *not* a shot pole.
+- [x] North pole → **`W` + five pole glyphs** (`W ✞✞✞✞✞` = five poles west) — **five count unanimous** across 6+ outlets ([K12]).
+- [x] Five poles west → **`NW` + the "guitar"** symbol — **`NW` solid; guitar identity hedged by every source** (rock/map-shape/red-herring rivals) → **meaning still open at [U12]**.
+- [x] Any further message **past Fort Wallace** → **NO.** Exactly **two** shot-to-reveal poles; `NW`+guitar is the **last** documented under-pole message; nothing past it is under-pole text (it's the [K16] birds or out-of-bounds pareidolia). Holds the verified-trail boundary.
+
+> Residual (now under other IDs, not U1): the poles' **map coordinates** (uncaptured) and the **guitar's meaning** ([U12]).
 
 ### 3. Gertrude's number sequence — [U6], [S5]  · 🌐  — ⚠️ PARTLY RESOLVED (2026-06-13)
 The **opening is sourced and confirmed deliberate**: `1 2 3 7 6 4 5 1 1 2` (`123 7645112`) is **RDR2-original** and Rockstar

@@ -49,7 +49,14 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   to its roof). ⚠️ **Updated 2026-06-13:** Fort Wallace is a **waypoint, not the terminus** — the trail continues past it (the
   current cold frontier is further NW, [06](../threads/06-bird-carving-giant-wapiti.md)). **No secondary source ties the guitar
   marker to Spider Gorge** — that is wiki-only speculation ([U13](unknowns.md)). *(Verified pass, 2026-06-13, 3-0.)*
-  → [05](../threads/05-spider-web-trail-2025.md)
+  **Corroboration + bounded negative (deep-research 2026-06-14, [#60]):** both inscriptions are now **multiply B-tier
+  corroborated** (Fandom-via-API, ScreenRant, PCGamesN, GameRant, GamingBolt, Dexerto, RDR2.org — the **five** glyph-count is
+  unanimous; the **guitar identity is hedged by every source**, never asserted as fact — a flat "it IS a guitar" reading was
+  refuted 0-3). The verbatim chain was **single-sourced before this pass**. Critically, **these are the ONLY TWO shot-to-reveal
+  pole inscriptions on the trail; the `NW`+guitar pole is the LAST documented under-pole message** — **no third pole inscription
+  is documented in any source.** Everything "past" it is *non-pole* content of two kinds: the Fort Wallace **bird carvings**
+  (tower-geometry, the verified frontier [K16]) and the out-of-bounds mountain **"?"** (pareidolia) — neither is an under-pole
+  message. This **resolves the verbatim-content question** ([U1]). → [05](../threads/05-spider-web-trail-2025.md)
 - **K13.** There are **5 black + 3 red feathers** total; the feather files are named **"spiderdream"** (texture
   `wap_gen_feather01`). *(Primary wiki, file-data.)* → [05](../threads/05-spider-web-trail-2025.md)
 - **K13a.** **The 8 webs are catalogued** (community research site + file names `spiderdream01–08`): **5 black** = Cornwall(B34),
@@ -63,7 +70,71 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   boundary that web is tied to**, and **respawns once you leave** that boundary. This is a deliberate mechanic. There are
   **three boundaries**: one in the **north**, one in the **south**, and a **connector** that links the north boundary to the
   south. Multiple webs can share a boundary. *(Firsthand investigator data, 2026-06-13 — recorded high-trust per CLAUDE.md;
-  the per-web assignment is hypothesis [H9], the exact membership is open question [U22].)* → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+  the per-web membership, first hypothesis [H9] / open question [U22], is now **firsthand-confirmed → [K31]**.)* →
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+- **K28.** The three [K21] respawn boundaries have a **definite shape and overlap**: the **North** boundary spans **east–west**;
+  the **Connector** spans **north–south** (the vertical spine linking North to South); the **South** boundary spans
+  **east–west**. **All three overlap slightly near the map centre**, and that **central overlap does *not* include the central
+  featherless web** ([K11]). Picture an **I-beam / "工"**: two horizontal bars (N, S) joined by a vertical spine (Connector).
+  This matches the [H9] partition geographically — the lone index black **B34**/Cornwall sits in the North bar, the four
+  connector blacks run down the vertical spine, and the three **reds** lie along the far South bar (consistent with Saint Denis
+  & the other reds being deep south). **The North/top bar is notably OVERSIZED:** B34's boundary extends **well beyond** what its
+  single spawn needs, reaching west to **Valentine** and east to **Butcher Creek** AND **Fort Brennand**. ⚠️ **Correction
+  (2026-06-14, same investigator, later pass):** an earlier note here said *"no boundary contains Fort Brennand"* and that
+  Butcher Creek was *uniquely* inside a zone — **that was wrong: Fort Brennand IS inside the top boundary** (its centre-west
+  edge envelops the fort). So **both** feather-less 2018-origin Roanoke nodes — **Butcher Creek and Fort Brennand** — sit inside
+  the top boundary; **only Fort Wallace remains outside** any boundary. **Per-boundary POI envelopment** (firsthand, the
+  geography is incidental to the web placements, *not* artificially extended): **Top** envelops **Valentine** (NE edge),
+  **Butcher Creek** (NW edge), **Fort Brennand** (centre-west edge); **Middle/Connector** envelops **Rhodes** (centre-south),
+  **Strange Man's house** + **Caliga Hall** (SE edge); **Bottom** naturally contains **Saint Denis, Rhodes, Caliga Hall,
+  Strange Man's house**, and its SE edge covers **part** of **Braithwaite Manor** — but **not Gertrude's outhouse**, which falls
+  **outside** the boundary. The **triple-overlap** of all three boundaries is a thin horizontal sliver running the full width of
+  the Middle boundary's centre; its **only POI is the [whiskey/bottle tree](../locations/whiskey-tree.md)** (see [S23]). See the
+  speculative readings [S22] (the top zone may deliberately encompass the 2018 origin thread, echoing the [K8] pointer — now
+  *strengthened* in that it holds **both** BC and Fort Brennand) and [H21] (the oversize exists to *carry* the B34 shot-state to
+  Butcher Creek without resetting); or the extent may simply be coarse (Valentine has no known mystery role).
+  *(Firsthand investigator data, 2026-06-14 — recorded high-trust per CLAUDE.md; refines [K21], grounds [H9]/[U22] (membership
+  now firsthand-confirmed → [K31]), and is the geographic basis for the multi-night reading [H20].)* →
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+- **K29.** **A shot feather's state PERSISTS across nights and camping, for as long as you stay inside its tied boundary**
+  (refines [K21]). A 13-in-game-day experiment (B34 + B56) established: (a) once shot, a feather **falls to the floor** and
+  **stays out of the web night after night** while you remain in-boundary — observed unbroken for **≥12 in-game days**; (b) when
+  the web despawns (~4 AM) the *fallen* feather despawns too, and on the next spawn (~3 AM) it **respawns at the exact location
+  it fell** — the game **stores the precise floor position**, rather than just deleting the feather (it survives camping/sleeping
+  to pass time and even being **kicked/nudged** by horse or on foot — the feather **can't be picked up**, but its final resting
+  spot is retained); (c) the feather only **returns to the web after you LEAVE the boundary** (cross the despawn edge) and come
+  back. So persistence is **boundary-scoped, effectively indefinite** within the zone — meaning a solver has **many in-game days**
+  to work an order, not a single night. **The fallen feather's position/direction is pure shot-physics** (driven by shot angle +
+  gun power; tested on consecutive nights at B56 → it lands differently each time) — so the *ground* feather **encodes nothing**
+  (reinforces [U0]/[H4]: no orientation message). (d) **How you pass time or move within the boundary doesn't matter** —
+  **camping**, **sleeping at a hotel** (verified: shoot B34 → fast-travel to **Valentine** (same top boundary) → sleep at the
+  Valentine Hotel to the next evening → return to B34 = feather still on the ground, state retained), and **fast travel** all
+  preserve state. ⚠️ But **fast travel advances game time** (~**+1 h** B34→Valentine, ~**+2 h** B34→Butcher Creek), so it
+  relocates you within a zone without a reset, yet may **overshoot a web's spawn hour** — so its usefulness for hopping *between
+  web spawns* is unclear (cf. [U30]). **This answers the central [U29]/[H20] persistence-across-nights crux: YES, within a
+  boundary.** *(Firsthand investigator data, 2026-06-14 — high-trust per CLAUDE.md.)* →
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [U29](unknowns.md), [H20](speculation.md)
+- **K30.** **Webs/feathers are RENDER-GATED against direct observation: they will not spawn while you are looking at the spot,
+  and (once spawned) will not despawn until you look away.** To see a web appear at its hour you must **look away and look back**;
+  if you stare at the empty spot through the spawn time, nothing renders. The despawn is the mirror: at ~4 AM a web you're
+  staring at **stays** until you break line of sight, then vanishes. **Useful corollary (investigator, 2026-06-14):** because a
+  web won't despawn while in view, **if you have line of sight on a web and keep it in sight as you ride over, it stays
+  rendered even if you arrive after its hour** — so a slow approach is fine as long as you don't break line of sight. A feather
+  **shot off this way** registered normally and **retained its shot status** across a camp + the next day (ties [K29]).
+  **Probably an anti-discovery mechanic, not puzzle logic** (it stops a passing player from confirming a half-glimpsed web by
+  simply stopping to stare) — but it dictates **capture method**: arrive at the known spawn hour and *look away/back* (or keep
+  it in view), don't wait while staring. ⚠️ **Open ([U30]):** this can't distinguish whether a hit counts **whenever the feather
+  is shot while visible** (so a line-of-sight-held shot past the hour is valid) **or only during the web's specific spawn hour** —
+  untestable without knowing the solution order. *(Firsthand investigator data, observed early, extended 2026-06-14 — high-trust
+  per CLAUDE.md.)* → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [U30](unknowns.md)
+- **K31.** **The web↔boundary membership is now FIRSTHAND-CONFIRMED** (was hypothesis [H9] off the C-tier Jay_0048 map; this
+  **resolves [U22]**). Each web is **tied** to exactly one boundary: **Top** (E–W) = `B34`; **Middle/Connector** (N–S) = `B23,
+  B45, B56, B56L`; **Bottom** (E–W) = `R23, R45, R34` — exactly the [H9] partition, and the Middle set is exactly the [K13b]
+  non-respawn chain. **Because the boundaries OVERLAP ([K28]), each boundary also CONTAINS (but is not *tied* to) webs of the
+  adjacent boundary** — shooting these triggers the *wrong* boundary's despawn: **Top** also holds `B56, B23, B45` (untied);
+  **Middle** also holds `B34` (untied — only on the **east** side of the pole; crossing to its west side triggers the Middle
+  despawn), `R23`, `R45` (untied); **Bottom** also holds `B56L` (untied). *(Firsthand investigator data, 2026-06-14 — high-trust
+  per CLAUDE.md; confirms [H9], resolves [U22].)* → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [U22](unknowns.md)
 
 ## Carving technique (how we separate clue from pareidolia)
 - **K15.** The signature symbols (`LJ`/`SM`, Fort Brennand icons, Fort Wallace birds) are **modelled into the mesh geometry and
@@ -73,7 +144,11 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
 
 ## Northwest / Wapiti lead
 - **K16.** Fort Wallace's **two "w"/bird symbols** use the **same hidden-geometry technique** (pcgamesn: "intentionally
-  designed"). Meaning disputed. → [06](../threads/06-bird-carving-giant-wapiti.md)
+  designed"). Meaning disputed. **These are the LAST clue that passes the carving test — the end of the *verified* trail
+  (working stance, 2026-06-13):** everything past them (Calumet/Giant, the **"?" carving**, the Bacchus heart's relevance) is
+  unverified or contested, so investigation works **forward from here**. The off-map "?" is **not a widely accepted theory**
+  (pareidolia); the [Bacchus heart](../locations/bacchus-bridge.md)'s relevance is **about as contested as the "?"**. →
+  [06](../threads/06-bird-carving-giant-wapiti.md)
 - **K17.** **The Giant** (cave E of Fairvale Shanty, Grizzlies East) — **heard but never seen**; a **flock spawning at Calumet
   Ravine** leads you there; gated by **studying ≥30 species** (excl. fish/horses); he professes a love of animals. → [06](../threads/06-bird-carving-giant-wapiti.md)
 - **K18.** The **Strange Statues mural** (Window Rock, Grizzlies **West**) is the clue to a *separate solved* puzzle: count tail
@@ -117,6 +192,46 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   RDR2↔GTA V web link was popularized **~Jan 2026 (Oddheader)**. **So the webs in *both* games are original-to-launch — neither
   came from DLC** (only the 2019 Nazar number callback did). *(B-tier: Dexerto #45.)* Bears on [U18](unknowns.md). →
   [gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md), [05](../threads/05-spider-web-trail-2025.md)
+
+## Shipped precedents — solved RDR2 eggs that use the mystery's mechanics
+- **K27.** The **Saint Denis Vampire** (a.k.a. **Nosferatu**) is a **base-game (Oct 2018) Easter egg, documented in the
+  in-game journal.** The player finds **five mysterious wall-writings** around **Saint Denis** (any order; each is copied into
+  the **journal** with its location). With all five found, **the journal auto-draws a map connecting them into a crude
+  pentagram**, whose **centre** — a dead-end alley by the cathedral/butcher — is the Vampire's lair, encounterable **only
+  12:00–1:00 AM** (a mini-map **"x"** marks it just after midnight). Killing him drops the **Ornate Dagger** (missable) + 1
+  Stringy Meat + 2 Bat Wings; he is one of only **four one-hit-kill enemies**. Doable as **Arthur (main game)** or **John
+  (epilogue)** — both journal drawings exist. **Why it's here:** this is a **shipped, solved instance of the exact
+  "5 points → pentagram → go to the centre" mechanic Butcher Creek uses** ([K5]) — but **fully hand-held** (the game draws the
+  shape and marks the centre), making it the clearest precedent/"seed" for the spider mystery's unaided version ([H15]); and
+  its journal documentation contrasts with the spider mystery's **total lack of any in-game tracking** ([K20]). *(Red Dead Wiki
+  — Vampire, source #58; mechanic/reward in-game-verifiable.)* → [saint-denis-vampire.md](../analysis/saint-denis-vampire.md)
+
+## Rockstar's letter/number coordinate convention (precedent for the grid-reading)
+- **K25.** RDR2 has an in-fiction **coordinate convention where *letters = latitude* and *numbers = longitude*,** tied to the
+  in-game **world / fast-travel map** (the *Central Union Railroad* mapping — letter rows down the side, number columns across
+  the top). The game's **loading-screen photographs** (credited to fictional photographers) carry **coordinate annotations** in
+  this system — the handwritten text is **visible in-game (A)** — which the community **decoded** as a deliberate, *obfuscated*
+  coordinate Easter egg: letters drawn to mimic look-alike digits (**`O`→`0`**, **`Q`→`2`**, a **`7` shaped like `4`**), with
+  formatting varying photographer-to-photographer. Decoded location examples: **Sisika Penitentiary, Hennigan's Stead,
+  Milesani's Claim, Tall Trees**. ⚠️ **Tier:** the annotations *exist* in-game (A), but the lat/long **system + the decode trace
+  to a single community finding** (BlueVelvetFrank, r/reddeadredemption, ~3,697 upvotes, **Feb 2019**), echoed by mirrors →
+  **C-tier, interpretive, not Rockstar-confirmed.** **Why it's here:** it is **precedent that Rockstar encodes map locations as
+  letter+number coordinates in this very game** — directly bearing on whether the mystery's letters/numbers are **coordinates**
+  ([H14]) and reframing the grid-reading question ([U26]). → [connections §1a](../analysis/connections.md),
+  [source #57](../sources/sources.md)
+- **K26.** RDR2 renders **lettered + numbered coordinate grids on in-game map props** — confirmed firsthand (investigator,
+  PS5, **2026-06-13**; high-trust per CLAUDE.md). Two *"A Partial and Correct Railroad and State Map of the United States"*
+  prop maps, photographed at a **stranger's camp** (reportedly near the *"Mysterious House"*/turtle house — camp identity
+  uncertain), each carry a printed grid: **Map 1 (continental US frame)** = columns **1–30** (numbers, L→R) × rows **A–U**
+  (letters, top→bottom), 30 × 21, letter-axis vertical (**same letter=latitude assignment as [K25]**); **Map 2 (regional,
+  grid drawn over the playable world)** = columns **A–O** (letters, L→R) × rows **1–7** (numbers, bottom→top), 15 × 7, axes
+  flipped. **This answers the empirical half of [U26]** (RDR2 *does* have an in-game letter/number map grid — the web-negative
+  is superseded). The interpretive half — do the markings encode grid cells? — tests **negative-leaning** ([U26]/[H14]): on
+  Map 2 only `EC` falls in range. **Tier:** firsthand in-game observation (A) for the grids' existence/dimensions; the link to
+  the spider mystery is [SPECULATION]. Images:
+  [`maps/railroad-state-map_continental-grid_1-30x-a-u.jpg`](../images/maps/railroad-state-map_continental-grid_1-30x-a-u.jpg),
+  [`maps/railroad-state-map_regional-grid_a-ox-1-7.jpg`](../images/maps/railroad-state-map_regional-grid_a-ox-1-7.jpg).
+  → [connections §1a(d)](../analysis/connections.md), [`number_grid.py`](../experiments/number_grid.py)
 
 ---
 

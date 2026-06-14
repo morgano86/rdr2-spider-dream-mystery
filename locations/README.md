@@ -24,5 +24,6 @@ Why this matters: the clue chain is a **tour of specific places**, and several a
 | [Spider Gorge](spider-gorge.md) | nr Grizzlies | NW heading "points to its tip" (**wiki-only, uncorroborated**); guitar-shaped section | — |
 | [Heartland Oil Fields](heartland-oil-fields.md) | The Heartlands | "KEEP YOUR DREAMS LIGHT" carving; final native battle site | **Strong** (My Last Boy) |
 | [Braithwaite Manor](braithwaite-manor.md) | Scarlett Meadows | Gertrude's outhouse + numbers (disconnected thread) | — |
+| [Whiskey Tree](whiskey-tree.md) | central (hilltop) | **Lead** — lone POI in the **triple-boundary overlap** ([K28]); anomalous red fire pit shared with BC pentagram + Fort Brennand ([S23]) | — |
 
 *(Files marked "pending" are stubs awaiting the in-flight research agents; fill on arrival.)*

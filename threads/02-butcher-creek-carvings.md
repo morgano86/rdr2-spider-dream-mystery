@@ -14,12 +14,23 @@ the entry point to the Spider Dream clue chain.
   the glowing red **floorboard pentagram** that appears under one of the houses **between ~4:00 and 5:00 AM** in-game.
 - **Outhouse #4** carries extra carvings beyond its tally: the letters **`LJ`**, the letters **`SM`**, and a **symbol that
   depicts Fort Brennand**. *(This is the "LJ SM" carving on the back of toilet number 4 the user flagged.)*
+- **The `LJ`/`SM` letters are directly part of the mystery — this is [KNOWN], not a guess** (only their *meaning* is open,
+  [U4]). Three independent facts pin them to the chain: (1) they use the **same hidden-geometry carving technique** as the
+  confirmed clues ([K15]); (2) they are **physically on the same carving** as the **Fort Brennand pointer symbol**, the next
+  confirmed node; and (3) they sit on **outhouse #4**, beside **tally 4** and the Fort Brennand clue. So when we test the
+  letters, `LJ`/`SM` are the **most firmly-tied** pair — they anchor the letter set ([H12]).
 - The **Fort Brennand symbol** directs the player to Fort Brennand (also in Roanoke Ridge). Inside Fort Brennand:
   - additional **tally marks** (reported as **six** in one outhouse, **seven** at a tower entrance), and
   - **three symbols inside the tower**, depicting a **telegraph/telephone pole**, a **factory/industrial building**, and a
     **third symbol read as an oil pool/puddle** — pointing the player toward the **Heartlands / oil fields** (see thread
     [03](03-matchstick-letters.md)). *(The third symbol's reading is debated; see [Register Rock] below.)*
 - The Butcher Creek pentagram/tally system is the **documented start** of the Spider Dream chain.
+- **The pentagram-mapping mechanic has a shipped, solved precedent — the [Saint Denis Vampire](../analysis/saint-denis-vampire.md)
+  ([K27]).** That separate Easter egg runs the *identical* puzzle — **find 5 fixed map points → they form a pentagram → go to
+  the centre** — but **fully hand-held** (the in-game **journal draws the pentagram** and marks the centre with an "x").
+  Butcher Creek is the **same puzzle unaided**: the player must connect the five outhouses themselves, with the floorboard
+  pentagram as a check. This is why we read the Vampire as the game's **tutorial / "seed"** for this mechanic ([H15]) and the
+  Butcher Creek → spider trail as an **escalating difficulty curve** ([H16]).
 
 ## [UNKNOWN]
 
@@ -29,6 +40,17 @@ the entry point to the Spider Dream clue chain.
   one carving or two distinct marks. Needs a clean in-game screenshot.
 - **Why six and seven tallies** appear at Fort Brennand when Butcher Creek used 1–5. Is the count itself a code
   (continuing a sequence 1,2,3,4,5 … 6,7 …)?
+- **U27 — why does the chain branch from outhouse #4 (tally 4), not #5 (tally 5)?** The Fort Brennand pointer carving is on
+  **outhouse #4**, so the trail leaves the 1–5 tally sequence **one short of its end** — you'd expect the onward clue to sit
+  on the *last* tally (#5), not the fourth. Odd enough to flag (user, 2026-06-13). It may be **deliberate** — a "4" signal
+  that rhymes with the other small numbers the mystery leans on (the floorboard pentagram appears at **4 AM**; there are **8**
+  webs; Rockstar has form with **8/infinity**, e.g. GTA V's *Infinite Eight* — see [S20]) — or simply incidental. Open.
+- **U28 — the peculiar line of droppings on outhouse #4's roof.** On top of outhouse #4 sit **two large scats side by side,
+  a gap, then one very small scat right at the edge above the doorframe — three in a row** (investigator data, 2026-06-13;
+  [`butcher-creek_outhouse4-roof-droppings.jpg`](../images/butcher-creek/butcher-creek_outhouse4-roof-droppings.jpg)).
+  **Most likely ambient bird/critter scenery** and meaningless — but it is *another* peculiarity clustering on outhouse #4
+  (the same stall that carries `LJ`/`SM` + the Fort Brennand pointer + tally 4), so it is recorded for completeness rather
+  than chased. No reading proposed; do not elevate without a reason to.
 - Whether the **pentagram** is occult flavor for the "curse" story, a literal map key, or both.
 - **U24 — does the third Fort Brennand symbol depict [Register Rock](../locations/register-rock.md), not an "oil puddle"?**
   Register Rock (central Heartlands, exactly where the symbols point) is a **names-and-dates memorial boulder**. If the
@@ -44,6 +66,10 @@ the entry point to the Spider Dream clue chain.
 - The tally counts could be a **numeric key** that links to Gertrude's number recitation (thread
   [04](04-gertrude-numbers.md)) — both are "numbers hidden in/near outhouses."
 - The pentagram + early-morning visibility may encode a **time + shape** lock (be here, at this hour, read the shape).
+- **S20 — a number/timing motif.** The branch-from-#4 ([U27]), the **4 AM** pentagram, and the **8** webs may be a deliberate
+  small-number pattern, in keeping with Rockstar's documented **8 / infinity** affinity (GTA V's *Infinite Eight* killer —
+  *"8 is just infinity stood up"*). **Weak and pattern-seeking** — a prompt to watch the numbers, not evidence. See
+  [connections §3](../analysis/connections.md) and [speculation.md](../findings/speculation.md).
 - **H11 — the third symbol = [Register Rock](../locations/register-rock.md); its names are a name-puzzle.** The rock's
   **complete carving list is now sourced** ([dossier](../locations/register-rock.md#complete-inscription-list)) — beyond the
   headline **J. Brooks, Frank Heck, Otis Miller, Billy Midnight, S. Gray, A. West, B. Ward** it adds **J. V. Henry, Jasper

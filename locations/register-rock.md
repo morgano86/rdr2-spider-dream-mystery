@@ -69,7 +69,7 @@ Munson) · loose numerals **41 · 75 · 78 · 98 · 135**.
 
 ## [UNKNOWN]
 - **U24 — do the Register Rock names/initials encode anything, or match the mystery's letters?** Now that the **full** list
-  is sourced, the initial cross-check against the mystery set `LJ` · `SM` · `EC` · `J+M` · `S+J` (multiset **{C,E,J,J,L,M,S,S}**)
+  is sourced, the initial cross-check against the mystery set `LJ` · `SM` · `EC` · `J+M` · `S+J` (multiset **{C,E,J,J,J,L,M,M,S,S}**)
   gives a **mixed** result — recorded here as a lead, **not** a solved match:
   - **🟢 J.M appears TWICE** — the bare mark **"Jm"** and the full name **"Jasper Munson"** — directly echoing the **`J+M`**
     matchstick pair at **Cornwall Kerosene & Tar** (the web-trail start, [K9]). This is the strongest new hit.

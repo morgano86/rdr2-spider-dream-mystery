@@ -6,8 +6,10 @@ unsolved threads (Butcher Creek outhouse carvings, Heartland Oil Fields, Gertrud
 
 > Status as of **2026-06-13**: **UNSOLVED — no confirmed reward or payoff** (Jan 2026 coverage: *"no new loot, tools, or
 > cutscenes"*; vindication is the only "reward"). A major clue chain was decoded by the community in late 2025; the trail
-> reaches **Fort Wallace — a waypoint, not the end** — and now runs cold further **NW** (toward Calumet / a "?" carving). A
-> **former Rockstar QA tester, Adam Butterworth**, publicly confirmed the egg is *real* — but **not** that he designed it.
+> reaches **Fort Wallace — a waypoint, not the end**. The **last *verified* clue is the Fort Wallace bird carvings**;
+> everything past them is unverified/contested — the off-map **"?" carving is not a widely accepted theory** (pareidolia),
+> and the **Bacchus Bridge heart's relevance is about as contested as the "?"**. A **former Rockstar QA tester, Adam
+> Butterworth**, publicly confirmed the egg is *real* — but **not** that he designed it.
 
 ---
 
@@ -26,7 +28,7 @@ unsolved threads (Butcher Creek outhouse carvings, Heartland Oil Fields, Gertrud
 | [`threads/`](threads/) | One file per investigative thread (01–06). Each separates **KNOWN / UNKNOWN / SPECULATION**. |
 | [`locations/`](locations/) | A dossier per place the mystery touches (geography, story role, the clue physically there). |
 | [`findings/`](findings/) | Cross-thread rollups: [known facts](findings/known-facts.md), [open questions](findings/unknowns.md), [speculation](findings/speculation.md). |
-| [`analysis/`](analysis/) | Working theories: [connections/letters](analysis/connections.md), [carving technique vs pareidolia](analysis/carving-technique.md), [narrative tie](analysis/narrative-connection.md), [cheat codes](analysis/cheat-codes.md), [dreamcatchers](analysis/dreamcatchers.md), [GTA↔RDR2 crossover](analysis/gta-rdr2-crossover.md). |
+| [`analysis/`](analysis/) | Working theories: [connections/letters](analysis/connections.md), [carving technique vs pareidolia](analysis/carving-technique.md), [narrative tie](analysis/narrative-connection.md), [cheat codes](analysis/cheat-codes.md), [dreamcatchers](analysis/dreamcatchers.md), [Saint Denis Vampire precedent](analysis/saint-denis-vampire.md), [GTA↔RDR2 crossover](analysis/gta-rdr2-crossover.md). |
 | [`experiments/`](experiments/) | Small Python scripts that **test** findings (combinatorics, ciphers, geometry, likelihoods) when reasoning isn't enough — results are evidence, not fact. |
 | [`sources/`](sources/) | [Source list](sources/sources.md) + the [full primary wiki text](sources/PRIMARY-wiki-spider-dream.md). |
 | [`images/`](images/) | Screenshots/maps by location. Key file: the [**webs manifest**](images/webs/WEBS-MANIFEST.md) (per-web location · time · feather colour · position). |
@@ -72,10 +74,19 @@ maps the locations of **7 more webs** (each with a feather, time-locked to diffe
 no feathers) that line up to spell **`N`** + a telephone pole. Going **north** and shooting the indicated pole reveals an
 inscription **`W ✞✞✞✞✞`** (= five poles **west**; the "crosses" are telephone-pole glyphs); five poles west, another pole
 reveals **`NW`** + a symbol **believed to be a guitar** — pointing to **Fort Wallace** (which holds **two guitars**). Fort
-Wallace is a **waypoint, not the end**: the trail continues **NW** (toward Calumet Ravine / the Giant's birds and a **"?"
-carving** on an out-of-bounds mountain) where it currently goes cold. *(The wiki's **Spider Gorge** reading is uncorroborated
-by any secondary source.)* There are **5 black + 3 red feathers** (files named *"spiderdream"*). Whether the matchstick
+Wallace is a **waypoint, not the end** — but its **bird carvings are the last *verified* clue**. Past them the trail runs into
+**contested** leads (Calumet Ravine / the Giant's birds, a **"?" carving** on an out-of-bounds mountain that is **widely judged
+pareidolia, not an accepted theory**, and the empty **Bacchus Bridge heart** whose relevance is **about as contested as the
+"?"**) where it currently goes cold; we work forward from the bird carvings. *(The wiki's **Spider Gorge** reading is
+uncorroborated by any secondary source.)* There are **5 black + 3 red feathers** (files named *"spiderdream"*). Whether the matchstick
 letters and Gertrude's numbers feed this same puzzle, and what the payoff is, remains **unconfirmed**.
+
+> **Shipped precedents worth knowing.** Two *solved* RDR2 eggs use the same "connect fixed points → a deliberate shape → go to
+> a specific point" grammar the spider trail uses: the **[Dreamcatchers](analysis/dreamcatchers.md)** (20 points → a drawn
+> animal → the reward in its **eye**) and the **[Saint Denis Vampire](analysis/saint-denis-vampire.md)** (5 wall-writings →
+> the journal **auto-draws a pentagram** → the Vampire at its **centre**). The Vampire is the **same pentagram-mapping puzzle
+> as Butcher Creek**, but fully hand-held — reading it as the game's **tutorial / "seed"** for the technique ([H15]), with the
+> whole chain then climbing a **difficulty curve** that strips the assistance away ([H16]).
 
 ---
 

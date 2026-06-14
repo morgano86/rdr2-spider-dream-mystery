@@ -31,6 +31,29 @@ Cite the strongest tier available and never let a C-tier lead masquerade as a fa
 [`sources/PRIMARY-wiki-spider-dream.md`](sources/PRIMARY-wiki-spider-dream.md); corrections it forces supersede
 earlier secondary-source passes.
 
+### The verified-trail boundary — do NOT chase speculation past it (read this before theorising)
+
+The trail has a hard line between what is **verified** and what is **contested**, and previous sessions have repeatedly
+burned effort treating downstream community guesses (and users relaying them) as established steps — the classic failure
+mode is "the `?` carving leads to a hidden loft/reward." **Hold this line:**
+
+- **The Fort Wallace bird carvings ([K16]) are the LAST verified clue.** They pass the
+  [carving test](analysis/carving-technique.md) (hidden-geometry technique). Everything *up to and including* the birds is
+  sourced; **everything past them is not.** Treat the bird carvings as the working **frontier** — build forward from there.
+- **Past the birds is contested, not "the trail."** The Calumet/Giant continuation, the off-map **`?` carving**, and the
+  **Bacchus Bridge heart's relevance** are all **unverified or disputed**:
+  - The **`?` carving is widely judged pareidolia** (no named asset, not time-gated, visible only in distant out-of-bounds
+    mountain noise, doesn't reproducibly point onward) and is **NOT a widely accepted theory.** Do not present it as a
+    destination or build a chain on top of it.
+  - The **Bacchus heart exists** (firsthand investigator data, [K22]) — that is not in doubt — but whether it has **anything
+    to do with the spider mystery is as contested as the `?`.** Don't present it as an established next step.
+- **A user asserting a downstream claim is not sourcing it.** Users can (and in this case sometimes do) relay **incorrect
+  community speculation as fact.** Firsthand *in-game observations* are still high-trust investigator data (record them as
+  such); but a downstream *theory/interpretation* a user repeats is a **tagged `[SPECULATION]` lead**, promotable only by the
+  normal tier rules — never silently elevated because the user believes it.
+- **Why this rule exists:** the case is **UNSOLVED with no confirmed payoff** ([U2]); the strongest pull toward false
+  confidence is exactly these post-Fort-Wallace theories. When in doubt, stay on the disciplined side of [K16] and say so.
+
 ## How the corpus fits together
 
 **The spine (read/maintain these first):**
