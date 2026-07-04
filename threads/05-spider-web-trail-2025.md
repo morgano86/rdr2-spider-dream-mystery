@@ -15,7 +15,7 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
    **"eye" directs the player toward more poles**. Each web is **time-locked to a different night hour** (2–3am, 3–4am, …)
    and won't appear otherwise. One web is **near Saint Denis** (3–4am).
    → [`web_map-overlay_all-locations.webp`](../images/webs/web_map-overlay_all-locations.webp),
-   [`web_saint-denis_r34.webp`](../images/webs/web_saint-denis_r34.webp)
+   [`web_saint-denis_r34_front.jpg`](../images/webs/feather-positions/web_saint-denis_r34_front.jpg)
 3. **Center webs.** At the **center** of the spider is another set of webs that appear **1–2am** and have **no feathers**.
    Lined up, they spell an **`N`** and a **telephone pole** (= go **north**).
    → [`web_centre_n-pole_1-2am.webp`](../images/webs/web_centre_n-pole_1-2am.webp)
@@ -42,7 +42,16 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
 
 ## [KNOWN] — feather file data
 - Web feathers are internally called **"spiderdream"**; they **respawn** when shot; texture **`wap_gen_feather01`**.
-- **Total: 5 black feathers + 3 red feathers** across the webs found. *(This 5/3 split is a candidate code — see U14/U15.)*
+- **Total: 5 "black" feathers + 3 red feathers** across the webs found. *(This 5/3 split is a candidate code — see U14/U15.)*
+  ⚠️ **The 5 non-red feathers are two-toned** — dirty white/grey on one side, black on the other (investigator data,
+  2026-07-03) — so community sources describing them as "white" or "grey" are probably the same feathers, not an error;
+  see [K13].
+- **[K40] Every feather is DOUBLED** — a **main feather + a smaller secondary feather attached at the same socket, on all
+  8 webs** (investigator data, 2026-07-04, verified in-game; desk-corroborated in the [#59] front shots —
+  [feather-positions/README.md](../images/webs/feather-positions/README.md#doubling-reads)). A uniform feature of the
+  **shared feather model**, colour-tinted per group — it carries **no per-web or per-colour signal**. The secondary can
+  be invisible from a front-on angle (capture caveat). Partly reinterprets the two-tone note above (some "two-tone"
+  sightings may have been the two overlapping feathers).
 
 ## [KNOWN] — the boundary / feather respawn mechanics (investigator data; full detail → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md))
 - **[K21] Respawn is boundary-gated:** a shot feather falls to the ground (can't be picked up) and **won't respawn while you stay
@@ -81,11 +90,40 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
   Spider Gorge reading is **wiki-only (Part 4 speculation)** — a deep-research pass found **no secondary source corroborates
   it**, and journalism consistently points the `NW`+guitar marker at **Fort Wallace** instead. Keep as thematically appealing
   [SPECULATION], not a co-equal destination.
-- **Window Rock "Strange Statues" mural:** depicts **birds with differing black/red feather counts** — note the webs' own
-  **5 black / 3 red** feathers — plus many symbols; possibly a second layer.
+- **Window Rock "Strange Statues" mural:** ~~depicts **birds with differing black/red feather counts** — note the webs' own
+  **5 black / 3 red** feathers — plus many symbols; possibly a second layer.~~ ⚠️ **[U14] tested NEGATIVE 2026-06-21:** the
+  "black & red" wording is from the wiki's *Directional Theory* (a speculation block); the actual mural is a **single red/ochre
+  pigment** ([`mural_colour_count.py`](../experiments/mural_colour_count.py) — 100% chromatic ink red-hued, 0% other), coded by
+  **count + orientation**, not colour. The mural is **not** the web order key ([H3]/[S12] refuted).
   → [`window-rock_strange-statues-mural.webp`](../images/window-rock/window-rock_strange-statues-mural.webp)
 - **Feather-trigger theory:** shooting the feathers in a **specific pattern/condition** may fire a hidden trigger (guitar =
-  red herring).
+  red herring). **Two fresh-pass readings added 2026-07-02 ([analysis/decoy-and-dream-hypotheses.md](../analysis/decoy-and-dream-hypotheses.md)):
+  [H24]** — the 3 reds are **decoys** and the pattern is simply the 5 blacks, across ~2 nights with `BL56` before `B34`
+  (the colour×hour lattice as an hourly black-vs-red fork; dissolves the [H22] seam contradiction; the boundary geometry
+  itself forces "`B34` last"); **[H25]** — the missing *condition* is
+  **sleeping in-boundary on the completed set** (the egg is internally named `spiderdream`; [K10]'s "KEEP YOUR DREAMS LIGHT"
+  sits at the final-hour `B56` site). **Dry-checked 2026-07-02 ([#67]): no public solver has ever run the sleep step**
+  (~1,989-comment master-thread sweep; proposals only; nearest miss = mid-chain sleeps → off-hour featherless spawns, no
+  dream) — it remains the cheapest untested action. Field protocol: [web-order-field-test.md §Test C](../analysis/web-order-field-test.md).
+  **A third, premise-level reading added later the same day ([H27], [solve-grammar.md](../analysis/solve-grammar.md)):
+  the feather-trigger theory's own premise — that shooting is the input — is a community import no verified clue supports.**
+  The verified chain's only shooting is the two shot-to-**reveal** poles; scored against the solve grammar of the game's
+  three solved eggs the web system reads as a **witness/navigate relay** (0/8 as a shooting puzzle, 8/8 as a read layer;
+  the centre's `N` message = the layer's payoff, already collected), with the [U29] reset lore as boundary-geometry
+  epiphenomena (desk check: **no 8-order is even visible-state feasible**, 0/40320 —
+  [`web_file_order_concordance.py`](../experiments/web_file_order_concordance.py); the [K39] file numbers also order
+  nothing, [S38]). Cheapest test = **Test D** (witness-only tour + dream coda), run before any shooting protocol.
+- **🆕 The mechanics themselves re-modelled ([S39], Reddit sweep 2026-07-02):** the [#52] datamine + the Feb-2026 test
+  cluster ([#70]) split each web site into **two assets with two rule systems** — the `cablemesh` **web** (visibility:
+  hour window, [K30] gaze-gating, holdable past its hour via Dead-Eye/Eagle-Eye look-away or a gaze-walked camp; wiped by
+  save/reload = the **one-session rule**) and the `spiderdream` **feather** (shot-state: [K21]/[K29] boundary persistence —
+  Jay_0048's *despawn zones*, now publicly sourced [#69]). Community reports that "contradicted" [K29]/[K30] were
+  describing the other object. C-tier, unverified firsthand.
+- **🆕 Fort Riggs as a rival "guitar" referent ([S40], [#72], 2026-07-02):** six months of community work read the NW
+  guitar silhouette as an **overlay of Fort Riggs' layout** (neck → the ritual-sacrifice site) instead of "the fort with
+  guitars in it" — plus an intermittent **feather map icon** there (claimed trigger: the drunk ex-soldier confession
+  encounter), night-only ambient schoolhouse webs, and the Waziya poem. A structured rival on the **open** [U12], not a
+  step past [K16]; pareidolia-prone; not promoted.
 - **Birds theory at Fort Wallace:** two **"w"/bird** symbols hidden in the tower geometry/moss — could be dev initials or
   real (the geometry-hidden-symbol trick is otherwise **only** used at the Butcher Creek outhouses).
   → [`fort-wallace_bird-symbols_tower.webp`](../images/fort-wallace/fort-wallace_bird-symbols_tower.webp)
@@ -115,7 +153,8 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
 
 ## Open tasks
 - [ ] Capture every inscription verbatim + coordinates for all poles/webs; build a labeled map overlay in `images/maps/`.
-- [ ] Test the **5 black / 3 red** feather split against the **Window Rock mural** bird-feather counts.
+- [x] ~~Test the **5 black / 3 red** feather split against the **Window Rock mural** bird-feather counts.~~ **DONE 2026-06-21 —
+  NEGATIVE:** the mural is a single red pigment, no black/red split ([U14]/[H3] refuted).
 - [ ] Investigate **Spider Gorge** (guitar-shaped section) as the true target; log results.
 - [ ] Determine whether the trail is complete or cut content (compare NW heading vs known beta locations).
 

@@ -7,8 +7,9 @@
 - Hosts the cheat-code carving **"KEEP YOUR DREAMS LIGHT"** (buggy cheat) in a **desk drawer**, bottom floor of the main
   building. Thematically loaded ("Spider **Dream**") but **relevance to the mystery is not wiki-confirmed** — see
   [cheat-codes.md](../analysis/cheat-codes.md). *(Caption discrepancy with "KEEP YOUR DREAMS SIMPLE"/Cairn Lake — verify in-game.)*
-- One of the 8 webs is here: **Oil Fields / `spiderdream02` / B56** (black feather, 5–6 AM). See
-  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md).
+- One of the 8 webs is here: **Oil Fields / `spiderdream02` / B56** (black feather, 5–6 AM) — *(the `02` file number is
+  now **publicly sourced, C-tier** — Artem_ab6 datamine [#65], [U32] resolved 2026-07-02 → [K39](../findings/known-facts.md))*.
+  See [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md).
 - Fort Brennand's **oil-puddle** symbol matches this kind of site (though the chain's documented resolution is the **Cornwall**
   pole, not here).
 

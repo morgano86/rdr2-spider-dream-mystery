@@ -23,6 +23,16 @@ counter-theory.
   test**; everything beyond them (the Calumet/Giant continuation, the **"?" carving**, and the Bacchus heart's *relevance*) is
   **unverified or contested** — see the SPECULATION section. Until new evidence promotes one of those, **investigation works
   forward from here**, not from the "?" or the heart. *(User direction, 2026-06-13.)*
+- **Image analysis of the glyph itself (2026-06-16):** each is a **shallow scalloped double-arch with a central peak**,
+  **bistable** between "two birds in flight" and "two rounded W's"; **moss fills the recesses** (real depth, [carving
+  test](../analysis/carving-technique.md) #1 passes; method #2/[K15] too). It is **daylight-visible** ("Thu 04:31 PM") — but
+  ⚠️ **CORRECTED (investigator, same day):** that's **not distinguishing** — the *confirmed* Butcher Creek and Fort Brennand
+  carvings are equally always-visible; only spawned phenomena (webs/centre/pentagram) are time-gated, so the birds simply
+  **pattern with the verified static-carving class** ([H23]). Full referent/symbolism catalogue in
+  **[analysis/fort-wallace-bird-carving.md](../analysis/fort-wallace-bird-carving.md)**: **[S24]** eagles → "Eagle Flies"
+  (the only reading specific to *this* fort, where he's imprisoned — but **symbolism only**: investigator place-check of the
+  grave NW + Calumet eagle spawns is **negative**); **[S25]** the glyphs *label/point*, they don't *encode*; **[H23]**
+  static-carving class (non-time-gating is not evidence either way).
 
 ### The Bacchus Bridge empty heart — [K22] *(investigator data, 2026-06-13)*
 - Carved into a **leg of [Bacchus Bridge](../locations/bacchus-bridge.md)** (Cumberland Forest — the same region as Fort
@@ -60,9 +70,18 @@ counter-theory.
 ### Window Rock & the Strange Statues mural *(correction to an earlier assumption)*
 - Window Rock is **Grizzlies WEST** (not East), below Granite Pass. Under an overhang is the **Strange Statues cave painting**.
 - **The mural is the clue to the separate "Strange Statues" finger-puzzle POI:** you **count the tail feathers on each bird
-  (excluding upside-down birds)** → counts **2, 3, 5, 7** → activate the matching finger-count statues → reward **3 gold
-  bars**. This is a **solved, documented** puzzle, distinct from the Spider mystery.
+  (excluding upside-down birds)** → the prime counts **2, 3, 5, 7** → press the matching-finger statues → reward **4 gold
+  bars** (~$1500 fenced). This is a **solved, documented** puzzle, distinct from the Spider mystery.
   → [`../images/window-rock/window-rock_strange-statues-poi.png`](../images/window-rock/window-rock_strange-statues-poi.png)
+- **[U14] RESOLVED-NEGATIVE 2026-06-21 — the mural has NO black/red colour split.** [H3]/[S12] hoped the mural's birds split
+  **5 black / 3 red** to mirror the web feathers, making the mural the web order key. **Two independent lines kill it:**
+  **(1)** a pixel test of the colour-faithful wiki texture ([`../experiments/mural_colour_count.py`](../experiments/mural_colour_count.py))
+  finds the mural is a **single red/ochre pigment** — **100% of chromatic pixels red-hued, 0% any other hue**; the dark
+  "black"-looking figures are deep/shaded red, not a second pigment (the on-file `_extracted.png` looks ~half-black only because
+  it was contrast-boosted — its chromatic pixels are *also* 100% red). **(2)** Every walkthrough (GamesRadar, Shacknews,
+  ScreenRant, Fandom) codes the mural by feather **count + orientation** (upside-down = decoy), **never colour**. ⟹ there is no
+  black/red bird set to count; **[H3]/[S12] are refuted.** Note: the webs' own 5/3 colour grouping is *unaffected* — it rests on
+  the [K21]/[H9] boundaries and [U29] reset data, not on the mural.
 - **[SPECULATION → [H18]] The mural read as a mechanic-"seed" for the web order (user lead, 2026-06-14).** The mural's solve
   rule is *count a per-element feature (tail feathers) while **excluding decoys** (upside-down birds)*. Read as transferable
   RDR2 design grammar — the same precedent-argument family as the **Vampire** ([H15]) and the **Dreamcatchers** ([H6]) — its
@@ -70,8 +89,11 @@ counter-theory.
   **cuts against [H4]** (orientation-as-heading, already refuted) and — because feather orientation is **uniform** (tip-down)
   — pushes the filter onto the only other binary axis, **colour**, predicting **red vs black is the include/exclude partition**
   — which [H9]/[U29] already show. ⚠️ **Precedent/intent only, not evidence the mural and webs are one puzzle** (shared
-  bird/feather theming is common in RDR2); the per-web "count" does **not** transfer (one feather per web). Full reasoning +
-  the [KNOWN] colour×hour lattice it surfaced: [analysis/connections.md §5c](../analysis/connections.md);
+  bird/feather theming is common in RDR2); the per-web "count" does **not** transfer (one feather per web). ⚠️ **Refined
+  2026-06-21 ([U14] above):** the mural's decoy axis is **orientation** (upside-down birds) and the mural has **no colour
+  dimension at all** — so it is genuine precedent for "appearance is a filter," but it does **not** itself point to colour
+  (H18's jump to colour is by-elimination only). The mural↔web *colour* claim ([H3]/[S12]) is dead; H18-as-precedent survives.
+  Full reasoning + the [KNOWN] colour×hour lattice it surfaced: [analysis/connections.md §5c](../analysis/connections.md);
   [`../experiments/web_colour_group_order.py`](../experiments/web_colour_group_order.py).
 
 ## [UNKNOWN]

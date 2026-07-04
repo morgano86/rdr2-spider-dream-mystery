@@ -6,8 +6,9 @@
 ## Mystery role — [KNOWN]
 - The **start of the spider-web trail.** Fort Brennand's three symbols (telephone pole, factory, oil puddle) direct the
   player **here**, to a **telephone pole bearing the spider engraving** — the index/map glyph for the 8 webs.
-- In the web catalogue this is web **Cornwall / `spiderdream03` / B34** (black feather, 3–4 AM). See
-  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md).
+- In the web catalogue this is web **Cornwall / `spiderdream03` / B34** (black feather, 3–4 AM) — *(the `03` file number is
+  now **publicly sourced, C-tier** — Artem_ab6 datamine [#65], [U32] resolved 2026-07-02 → [K39](../findings/known-facts.md))*.
+  See [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md).
 - ⭐ **Also holds the `J + M` matchstick set** (investigator data, 2026-06-13) — i.e. a **letter clue co-located with the
   web-trail start**, strong evidence the matchsticks belong to the puzzle. → thread [03](../threads/03-matchstick-letters.md).
 - Image: [`../images/webs/web_cornwall_b34_engraving.webp`](../images/webs/web_cornwall_b34_engraving.webp).

@@ -1,0 +1,233 @@
+# Fresh-pass readings (2026-07-02) — the decoy reading, the dream trigger, and two side leads
+
+**Status: [SPECULATION] throughout — home file for [H24], [H25], [S34], [S35].** A deliberate fresh-eyes pass over the
+corpus (new session, instruction: re-interpret, don't just extend). Everything here is built **only from already-established
+facts** ([K13a] lattice, [K21]/[K28]/[K29]/[K31] boundaries, [U29] reset data, [K10], [K30]) re-read from a different angle;
+nothing chases past the **[K16] frontier**. Each section states its falsifiable test. Null results are loggable findings.
+
+---
+
+## 1. [H24] — The reds are DECOYS: the lattice is an hourly fork, and the solve is the 5 blacks only
+
+### The re-read
+The corpus treats the colour×hour lattice (§5c of [connections](connections.md)) as *twinning*: each 2–3 / 3–4 / 4–5 AM hour
+carries **one black + one red**, so each red is "hour-twinned to a black." Read the same [KNOWN] table from the player's seat
+instead and it is not a twinning — it is a **fork**. A solver riding one night faces, at each hour, a **mutually exclusive
+choice** (the black and its same-hour red are far apart — firsthand feasibility says black+red in one hour/night is
+solo-impossible, the very data [H20] rests on):
+
+| Hour | The fork |
+|------|----------|
+| 1–2 AM | centre cluster — read the `N`+pole message (no shot) |
+| 2–3 AM | **B23** *or* R23 |
+| 3–4 AM | **B34** *or* R34 |
+| 4–5 AM | **B45** *or* R45 |
+| 5–6 AM | **B56 + BL56** (no red offered — the run "opens up" at the end) |
+
+*(Boundary colours — orange/yellow/red — are **community identification labels only**, not an in-game visual; the
+boundaries exist purely in code. Provenance note below.)*
+
+[H20] read the black/red one-night infeasibility as "multi-night intended." [H24] reads the same fact the other way:
+**the game never intended you to take the red branch at all.** The reds are **placed decoys** — the wrong answer offered
+at every hour — and the intended solve is the **5 blacks only**.
+
+> **⚠️ CORRECTED (investigator, 2026-07-02) — the "one chronological night" form is geometrically impossible; the solve is
+> ~2 nights with `BL56` before `B34`.** The black super-group has its own internal seam the first draft missed: the four
+> northern blacks (`B34` orange-tied; `B23`/`B45`/`B56` yellow-tied) all sit physically inside **both** the orange and
+> yellow zones, so they can be shot and *held* together — but **`BL56` (Ringneck) lies outside the orange boundary
+> entirely**, down in the yellow∩red overlap. Reaching it after shooting `B34` means **exiting orange → `B34` visibly
+> resets.** Two consequences: **(1)** the geometry **forces the order constraint `BL56` before `B34`** — and since BL56's
+> hour (5–6) falls *after* B34's (3–4), `B34` must move to a **later night** → the within-black geometry alone **derives
+> the community's "B34 is last" suspicion ([U29]) mechanically** (it was a hunch; it is now a forced consequence of
+> holding all 5 states). **(2)** An all-5-visibly-down state is still reachable, via [K29] persistence:
+> **Night 1** = the [K13b] chain `B23 → B45 → B56 → BL56` (the doubled 5–6 is the hard extra), never leaving yellow;
+> hold state in-yellow through the day ([K29], indefinite); **Night 2** = `B34` at 3–4 AM from the orange∩yellow overlap
+> (east of the pole) → **all 5 blacks down at once, player standing in the central overlap** — where the natural camp
+> spot is the **whiskey tree** ([S23], the lone POI in the triple overlap, with its anomalous red fire pit). Note the
+> [K13b] community chain *already* excludes `B34` — consistent with this structure. The RED↔BLACK claim below is
+> unaffected: there is still **no red↔black crossing** under [H24]; the one crossing hazard is the within-black
+> `B34`↔`BL56` ordering, which the 2-night order dissolves.
+
+### Why this is attractive (five independent legs)
+1. **It takes the corpus's own [H18] filter grammar at face value.** The Window Rock mural's shipped lesson is *appearance
+   is a per-element filter — decoys are EXCLUDED, not sequenced* (upside-down birds are simply never counted). [H18]
+   already concluded the webs' filter axis must be **colour**; but every solve attempt since ([H20]/[H22] R1/R2) still
+   tries to *sequence both groups*. The literal transfer of the mural lesson is: **include blacks, exclude reds. Don't
+   shoot decoys.**
+2. **It dissolves — rather than resolves — the case's #1 bottleneck.** The whole [H22] impasse ([K29] resets-on-exit vs
+   [H20] multi-night) exists **only if all 8 must be shot**: the RED↔BLACK crossing is the one hard seam. Under [H24]
+   there is **no red↔black crossing**: the solve lives entirely in the black system (see the correction box above — the
+   one internal `B34`↔`BL56` ordering hazard is dissolved by running `BL56` first, across ~2 nights via [K29]). The
+   celebrated contradiction becomes an artefact of an unexamined premise ("all 8").
+3. **It is consistent with every documented reset observation ([U29], C-tier).** Reds hold in *any* internal order (an
+   inert decoy group has no order *because it has no role*); mixed chains "work"/don't punish (the mural's decoys don't
+   punish either — they just don't count); *"a unique function to the red feathers"* (decoy **is** a unique function); and
+   the one red-specific punish rule — *"choosing any Red after BL56 resets"* — triggers **exactly at the black chain's
+   terminus** (`BL56`), i.e. the game appears to *guard the completed black state against a red shot*. No observed datum
+   contradicts "only blacks count."
+4. **The 5–6 AM asymmetry stops being an anomaly.** Why do the reds shadow the blacks at 2–5 AM but vanish at 5–6? Under
+   twinning it's an oddity; under the fork it's design: the temptation is offered while you still have choices to get
+   wrong, and the final hour — when you're committed — offers only the two remaining correct targets.
+5. **Even the naturalistic gloss points the same way.** [S15] (cardinal dimorphism): red = the **male** cardinal — the
+   conspicuous, eye-catching one. Red-as-lure is the oldest trick in both nature and game design.
+
+### Honest counters
+- **Three elaborately time-gated red webs are expensive decoys.** True — but the mural ships exactly that (whole painted
+  decoy birds), and [S13] (plausible-deniability camouflage) is the corpus's own account of why this designer over-builds.
+- **The [U29] reset data is C-tier and partial** — "mixed chains work" is equally consistent with reds being *required*.
+  This re-read doesn't outrank the data; it re-partitions it.
+- **Real machinery exists for the reds** (their own tied boundary, any-order hold). Counter-counter: the boundary system
+  looks generic per-web ([K21]); machinery ≠ role.
+- ~~**`B34` "suspected last"** ([U29]) sits awkwardly with a chronological run (where `B34` is 2nd).~~ **Resolved by the
+  2026-07-02 correction (above): the boundary geometry *forces* `BL56`-before-`B34`, i.e. `B34` on the final night** — the
+  suspicion is now a derived constraint, and this counter has flipped into a support.
+- ⚠️ The per-web hour/colour cells inherit the manifest's **C-tier lattice risk** (provenance note in
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)).
+
+### The test (~2 nights, no red↔black seam)
+**Night 1:** the [K13b] chain `B23`(2–3) → `B45`(4–5) → `B56`+`BL56`(5–6, the hard doubled hour), never approaching a red,
+all shots at spawn hour ([U30] control), **never leaving the yellow spine**. **Hold state in-yellow through the day**
+([K29]). **Night 2:** `B34` at 3–4 AM from the orange∩yellow overlap (**east of the pole**, [K31]) → all 5 visibly down;
+**camp at the whiskey tree** ([S23]) and apply the [H25] dream coda. **Optional leg:** next, ride `B34`'s oversized orange
+boundary north to Butcher Creek for the 4–5 AM pentagram window ([H21] corridor — accepts the yellow four visibly
+resetting; hidden-flag reasoning, [H22]-R2). Full protocol in [web-order-field-test.md](web-order-field-test.md) (Test C).
+Under [H24] this is the *complete* candidate solve, so any trigger/dream/state change is the payoff; a clean null is a
+real negative that pushes back toward "reds required" ([H20]/[H22]).
+
+### Provenance note — how the boundaries were actually mapped (recorded 2026-07-02)
+Per the investigator: the boundaries were charted by **two players using the CodeX datamine tool** — shoot a feather,
+**teleport the player position via coordinates**, return, observe whether the feather had reset; repeat until each
+boundary's edges were fixed. So the boundaries are **code-only entities** (no in-game visual; the orange/yellow/red names
+are community labels), discovered by systematic probing, whose **only observed function is resetting feather state on
+player exit** — yet overlaid on the map they look intentional (clean N bar / S bar / connecting spine + deliberate
+overlaps). *Why* they exist — and why `B34` alone gets a private, **oversized** boundary reaching Butcher Creek, Fort
+Brennand and Valentine — remains the open heart of [S22]/[H21]/[U29].
+
+---
+
+## 2. [H25] — The payoff is a DREAM: sleep in-boundary on a completed set (answers [U11]'s "how")
+
+### The re-read
+The mystery is named — **by Rockstar's own internal assets** — the *spider **dream*** (`spiderdream01–08`, [K13]). Seven
+years of searching have looked for a *place* payoff (loot, cutscene, carving, [U2]: "no new loot, tools, or cutscenes").
+Nobody appears to have asked what a **dream** payoff would mechanically require: **sleeping.** RDR2 ships a dream-vision
+system (the honor-gated deer/wolf visions during story sleeps) — the engine can deliver a vision on sleep, and does.
+
+Put three established facts together:
+- **[K29]:** shot-feather state **survives camping/hotel sleep** while in-boundary — i.e. the mechanic is *built to let
+  you sleep on a live state*. Why store state across sleep at all if sleep isn't part of the loop?
+- **[K10]/[S6]:** *"KEEP YOUR DREAMS LIGHT"* is carved at **Heartland Oil Fields — the site of web `B56`**, one of the two
+  final-hour (5–6 AM) webs where a chronological run ends. Re-read as an **instruction placed at the finish line**: the run
+  ends at **first light** (5–6 AM = dawn), and what you do then is *dream* — "keep your dreams light" ≈ *dream at
+  (first) light*. The carving's relevance — flagged "not wiki-confirmed" since day one — would finally have a function.
+- **The gap is real:** during the [K29] experiments the investigator slept repeatedly on a *single* shot feather; the
+  community brute-forcers completed chains but are documented riding on to the next test, not sleeping. **"Complete a
+  valid group, then sleep before leaving the boundary" is, as far as the corpus records, untested by anyone.**
+
+This also rhymes with [H8] (the *dreamcatcher* log that never clears — dreamcatchers *catch dreams*) without depending on it.
+
+### Honest counters
+- The asset name "spiderdream" may just label the spooky vibe; Rockstar names things loosely.
+- [K10] is a cheat-code carving; [S6]'s signpost reading was always speculative — this sharpens it but can't promote it.
+- The honor dream-visions are story-scripted, not free-sleep triggers; a free-sleep vision would be a new mechanism
+  (though that's exactly what an undiscovered egg would be).
+- Gertrude ([U6]) and the "dream" theme stay unlinked; nothing here touches her thread.
+
+### The test (nearly free — bolt it onto every protocol)
+**The dream coda:** at the end of *any* candidate completion state — Test A's reds-down, Test B's full combine, Test C's
+blacks-only — **camp/sleep in-boundary before leaving**, ideally in the 5–6→dawn window, and watch the sleep/wake cycle
+for any vision, sound, or journal change. Costs minutes per run; covers [U11]'s mechanism question every time. Log nulls.
+
+### Dry-check (desk, 2026-07-02) — the gap is CONFIRMED real: no documented complete-set + sleep test exists
+Swept the full **master thread** ([#64], ~1,989 comments via Arctic Shift) plus the community-site timeline for any executed
+sleep-on-completed-set attempt ([#67] bundles the citations). Findings:
+- **No one has run the H25 protocol.** The community-site timeline records **zero** sleep/camp/rest test entries (checked
+  explicitly), and the master thread contains **proposals only**: u/pacmankillers ("*sleeping or setting up a rest area…
+  since it's about dreams, it doesn't sound far-fetched*") and u/breakfast-hotcakes both suggest it; neither reports doing it.
+- **Nearest miss — u/lopfeh (2026-01-04, 18 pts, Xbox/no mods):** slept (camp) repeatedly *while working* the black chain
+  (`B23, B45, BL56` → `B56`); **no dream/vision**, but on night 3, after sleeping at `B23` until midnight, found **featherless
+  webs spawned OFF-HOUR** — `B23` up at **12:20 AM**, then `B56` and `B34` also up at wrong hours, all **without feathers** —
+  before a `B34` shot reset things. Self-doubted (wore the trapper **Dreamcatcher outfit**); Xbox clips linked in [#67].
+  ⚠️ C-tier single report, but it is the corpus's first sign that **sleeping on a live shot-state perturbs the web system's
+  spawn schedule** — consistent with sleep being a *watched input* ([K29] built-to-survive-sleep now has a sibling:
+  sleep may *do* something, not just preserve). Unminted lead; if the [H25] coda ever reproduces off-hour featherless
+  spawns, mint it and treat it as the mechanism's tell.
+- **A completion-without-sleep null exists — u/Leadcountydude:** all non-red feathers shot fast in one run, no sleeping/passing
+  time → "*seems nothings happens*." Under [H24]+[H25] that null is *expected* (no coda applied); under "completion alone
+  triggers" it's a negative. Either way it raises the marginal value of the sleep step.
+**Net: [H25] survives its dry-check as the cheapest untested in-game action** — silence in ~1,989 comments + the timeline is
+as close to "nobody has tried it" as desk work can establish. Logged 2026-07-02.
+
+---
+
+## 3. [S34] — The "guitar" glyph read as an HOURGLASS / figure-8 (a [U12] candidate)
+
+Every B-tier source hedges the second inscription's symbol ("believed to be a guitar", [K12]/[U12]) — the reading is open
+by the corpus's own standards. A guitar body **is** an hourglass-with-a-neck; squint and the glyph offers two on-theme
+alternatives nobody has logged:
+- **The black widow's hourglass.** The species' field mark is the **red hourglass on the black widow's underside** — and
+  the letter-thread's one spider-flagged object is literally a **Black Widow cigarette card** ([K9], beside `EC`). A
+  black-widow hourglass would make the glyph *spider-branded* rather than music-branded, and would quietly bind the
+  matchstick thread to the pole trail. It even echoes the palette: **red mark on black body ↔ 3 red / 5 black feathers.**
+- **A figure-8 / "8 stood up."** Rockstar's documented 8/infinity affinity ([S20], *Infinite Eight*: "8 is just infinity
+  stood up") — and this mystery has **8 webs**. An "8" glyph at the trail's last inscription would be in-house numerology.
+- Functionally, an hourglass is the universal **"time" icon** — on a trail whose every element is hour-gated ([H13]), a
+  glyph meaning *"the next step is time-gated"* fits the design language at least as well as "guitar" (and Fort Wallace's
+  two physical guitars would then be the camouflage/decoy layer, [S13]).
+
+**Weak by construction** (glyph pareidolia risk cuts both ways — that's why it's [S], not [H]). **Checkable:** re-examine
+the on-file extraction ([`trail-marker_nw-guitar-inscription.webp`](../images/trail-markers/trail-marker_nw-guitar-inscription.webp))
+for the discriminating features — a guitar has a **neck + headstock**; an hourglass has a **pinched waist + flat caps**;
+an 8 closes both loops. If the "neck" is actually short/absent, the hourglass/8 reading strengthens.
+
+---
+
+## 4. [S35] — The Strange Man's shack as the SOUTHERN state-carry target (the missing twin of [H21])
+
+[H21] noticed that `B34`'s North boundary is oversized to include **Butcher Creek** and read it as a **state-carry
+corridor** — complete the blacks, carry the live state north, look for a gated payoff. Nobody ran the same logic on the
+**south**. But [K28]'s own POI inventory (firsthand) lists the **Strange Man's house** inside **both** the Middle *and*
+Bottom boundaries — it sits in boundary overlap, exactly like the whiskey tree ([S23]) — and the Bottom boundary is the
+**red group's** tied zone.
+
+Why that specific POI is not just another name on the list: the Strange Man's shack is the game's **one location that
+demonstrably watches hidden player state** (its portrait egg changes across visits) and its NPC is the franchise's
+supernatural accountant. If the reds have a *"unique function"* ([U29]) and boundaries carry state to POIs ([H21]'s
+logic), then the natural southern reading is: **solve the red group (any order, [U29]), stay inside the South boundary,
+and walk into the Strange Man's shack with the state live** — check the portrait, the mirror, the interior for anything
+state-gated. This would also give [H5]'s old "colour ↔ honor" hunch a concrete venue (the Strange Man *is* the honor
+figure).
+
+⚠️ Tensions, stated plainly: under [H24] the reds are decoys and this test should produce nothing — **the two hypotheses
+are rivals on the reds' role**, which is precisely what makes the pair valuable (the red-group/shack test discriminates
+them for the price of one short session: 3 reds, any order, one walk). Under [H22]-R2 it's complementary (reds set a flag
+→ the flag's checker could be the shack). The shack's exact position vs the tied South rectangle must be confirmed on
+arrival ([K28] lists it; "inside which exact boundary at the door" matters — control #6 of the field protocol).
+
+---
+
+## Unminted asides (recorded, deliberately not ID'd)
+
+- **Gertrude's permutation omits an 8th element — and the geometry singles one out. ⚡ UNPARKED 2026-07-02 → minted [S37].**
+  Her confirmed opening permutes **1–7** ([K23]); the web system has **8** feathered elements. The condition this aside was
+  parked on has been met: **[U32] resolved positive** (the `spiderdream0X` numbering is a sourced public datamine, [K39]),
+  so the omitted `08` **is Saint Denis** — the same web [S31]/[S30] make structurally singular on three independent lines.
+  Now a mintable, falsifiable order candidate: **shoot the webs by file number in Gertrude's order `1,2,3,7,6,4,5` with
+  Saint Denis (`08`) excluded (or last)** — in web terms `BL56, B56, B34, R45, R23, B45, B23`. ⚠️ Still coincidence-prone
+  (7-vs-8 numerology; Gertrude↔spider link itself unproven, [U6]) and the order crosses colour groups, so it inherits the
+  [H22] seam problem — a low-priority rival of [H24]/[H20], not a favourite. → [S37] in
+  [findings/speculation.md](../findings/speculation.md), [INDEX](../INDEX.md).
+- **`LJ` = "Little Jack"?** The roster pass ([S16]) matched formal names/initials only. In-fiction, Jack Marston is
+  routinely called **"little Jack"** — a nickname reading the script would miss, and it would put *both* bare carved pairs
+  on named persons (`SM` Sean, `LJ` Jack) with `J+M` = John Marston at the trail's start pole. Nickname-space is
+  untested in [`name_match.py`](../experiments/name_match.py); one-line lead for the letters thread ([U4]).
+- **"Scarlett" Meadows.** All 3 red webs sit in the Lemoyne/deep-south band, and the red web `R23`'s home region is
+  literally named **Scarlett** (= red) Meadows. Almost certainly just Rockstar naming flavour layered on the geographic
+  partition already known from [H9] — logged so nobody re-derives it as a discovery.
+
+---
+
+*Discipline note: [H24]+[H25] compose into one cheap ~2-night field run (the [K13b] chain → hold → `B34` from the overlap →
+whiskey-tree sleep coda) written into [web-order-field-test.md](web-order-field-test.md) as **Test C**; [S35] is a second
+cheap session on the red side. All four IDs registered in [INDEX.md](../INDEX.md) and rolled up in
+[findings/speculation.md](../findings/speculation.md). Nothing here moves the [K16] frontier.*
