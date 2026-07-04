@@ -2,6 +2,23 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-04 (repo hygiene 2) — Commit discipline codified; INDEX slimmed back to a one-line registry; STATUS dashboard rows de-accreted
+
+**What we did.** A second hygiene pass following the audit that found the 3-week uncommitted backlog (now committed by
+the investigator). **(1) Norm codified:** "commit whenever you add information" added to CLAUDE.md's Working norms.
+**(2) `.gitattributes` added** (text pinned LF, images binary) — kills the per-command CRLF warning noise; renormalize
+was a no-op (repo already LF). **(3) STATUS de-accreted:** the rank-1 [U29] and rank-3 [U6] cells had stacked every
+successive reframe into one run-on paragraph; rewritten to state only the *current* frame + tests, pointing here for
+history. **(4) INDEX.md slimmed ~29k → ~15k tokens:** every K/U/H/S row cut back to a true one-liner + status + home,
+per its own "(short)" spec; tables re-sorted numerically (H16/U24 were stranded out of order); the S table given a
+proper Home column; a "Rows stay ONE line" guardrail added to the header. **Safety check first:** a full audit compared
+every long row against its rollup + home — **0 rows carried unique content**, except H8's [#66] asset-level negative,
+which was missing from `findings/speculation.md` (present only in `dreamcatchers.md`) and was **back-filled into the
+rollup** before trimming. The full prose of every trimmed row survives in the rollups and in git history.
+
+**What changed.** No claims changed, no IDs minted/moved, no tag changes, frontier unchanged ([K16] stands). Files:
+CLAUDE.md, .gitattributes (new), STATUS.md, INDEX.md, findings/speculation.md (H8 back-fill), this log.
+
 ## 2026-07-04 (U6 structure battery) — S42 statistically supported; the L2-only Fibonacci fork isolated; audio-confirm priority raised
 
 **What we did.** Investigator-requested analysis pass on Gertrude's numbers ([U6]). The confirmed opening `1237645112`

@@ -397,7 +397,9 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
 - **H8.** **"Unfinished business"** (falsifiable). The dreamcatcher mission log entry **never clears**; the candidate
   unfinished trigger is the **spider mystery** (which exposes no completion state — [K20](known-facts.md)). **Prediction:**
   completing the spider trail would **clear the dreamcatcher log.** Untested; the wiki files the lingering entry as a plain
-  *Oversight* (bug). Do not state as fact. → [dreamcatchers.md](../analysis/dreamcatchers.md), [U17](unknowns.md)
+  *Oversight* (bug). Do not state as fact. ⚠️ Asset-level negative (2026-07-02, [#66], C-tier): the 8 web-feather entity
+  hashes appear on **no** dreamcatcher (and dreamcatcher feathers show no hash) — weakens a *direct asset* link, doesn't
+  touch the log-clearing form (detail in the home file). → [dreamcatchers.md](../analysis/dreamcatchers.md), [U17](unknowns.md)
 - **H9.** **The 3 [K21] boundaries partition all 8 webs**, per the Jay_0048 community map ([`web_map-overlay_despawn-zones_jay0048.jpg`](../images/webs/web_map-overlay_despawn-zones_jay0048.jpg)):
   **North** = `B34` (Cornwall); **Connector** = `B23, B45, B56, B56L` (Overflow, Emerald, Oil Fields, Ringneck); **South** =
   `R23, R45, R34` (Scarlett, Southfield, Saint Denis). The **Connector set is exactly the [K13b] non-respawn chain** — which

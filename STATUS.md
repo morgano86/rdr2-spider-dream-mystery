@@ -101,6 +101,9 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-07-04 (repo hygiene 2)** — commit-every-session norm codified in CLAUDE.md (after a 3-week uncommitted
+  backlog was found + committed); `.gitattributes` added; INDEX rows slimmed to true one-liners (audit-verified
+  lossless; H8's [#66] note back-filled to the rollup); STATUS rank-1/-3 cells de-accreted.
 - **2026-07-04 (U6 structure battery)** — **[S42] statistically supported**: new exact-null experiment
   ([`gertrude_tail_structure.py`](experiments/gertrude_tail_structure.py)) on the provisional 9-line tail — prefixes
   capped at 5, post-derail re-rail runs, tails' additive structure = chance (p 0.44); **lone fragile counter-flag** =
