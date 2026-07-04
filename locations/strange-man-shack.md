@@ -1,0 +1,88 @@
+# The Strange Man's shack — **Bayall Edge** (Bayou Nwa)
+
+**Why this dossier exists:** [S35] proposes walking into this shack **with the red-group feather state live** (the southern
+twin of [H21]'s state-carry reading). To recognise *anything* state-gated on arrival, the field session needs a precise
+baseline of what the shack **canonically** does — every stock behaviour below is a thing the session must NOT mistake for a
+spider-mystery reaction. Corpus pass 2026-07-02, B-tier first (Red Dead Wiki *Bayall Edge* + *Strange Man* via MediaWiki API,
+Gameranx guide — source [#68](../sources/sources.md)).
+
+## Geography — [KNOWN]
+- Canonical name: **Bayall Edge** (the game's index misspells it "Baygall Edge"). A cabin in **Bayou Nwa, Lemoyne**,
+  **northwest of Caliga Hall**, on a small peninsula curled into a small lake, near the railroad tracks (Gameranx: southwest
+  of the "B" in "BAYOU" on the map).
+- In both *RDR2* and *Red Dead Online*.
+- **Spider-mystery geometry (firsthand, [K28]):** the investigator's boundary POI inventory lists the shack inside **both**
+  the Middle/Connector *and* Bottom/South respawn boundaries — i.e. it sits in boundary **overlap**, like the whiskey tree
+  ([S23]). *(Which exact boundary contains the door must be re-confirmed on arrival — control #6 of the field protocol.)*
+- Note **Caliga Hall** — the `S+J` matchstick site ([K9]) — is its nearest named neighbour; the red webs' South boundary is
+  the tied zone of `R23, R45, R34` ([K31]).
+
+## The portrait mechanic (the state machine to compare against) — [KNOWN]
+The centre of the room holds an **unfinished painting** that completes across **four unique visits**:
+1. **As Arthur:** the painting is (and stays) unfinished.
+2. **As John** (post-epilogue): it becomes "more and more complete **over the next few days**" across return visits.
+3. **Fourth visit** — the portrait is **finished, revealing the Strange Man**. Gate discrepancy between B-tier sources,
+   flagged as an open sub-point: the **wiki** says the 4th visit is available "**after the epilogue**"; **Gameranx** says
+   "once you hit **100% Completion**". *(Which gate is real matters for scheduling the [S35] session — if the user's save is
+   post-epilogue but <100%, the two sources predict different baseline portrait states.)* → [U35]
+4. **Mirror apparition:** with the portrait complete, looking in the **mirror to the left of the painting** shows the
+   Strange Man **standing behind you**; he vanishes if you turn around or try to photograph/screenshot him. He appears
+   **only** in the mirror.
+5. **Terminal state:** on visits after the fourth, the portrait **has disappeared** — along with all the honor-reactive
+   paintings (below). "After a few days pass, the painting will disappear" (Gameranx). **The egg is consumable.**
+6. Examining the finished picture (4th visit) awards the **"Painting in Cabin"** point of interest — **the only POI in the
+   game discoverable solely by John** (Arthur has a *cut* drawing + journal entry for it). John's journal sketch: *"This
+   place made me feel like I was being watched. Queerest feeling I ever felt. Hard to explain. Fascinating and awful and
+   seductive, all at once."*
+
+## Everything else the shack canonically watches — [KNOWN]
+The shack is the game's densest **hidden-state reader**. Stock reactive channels:
+| Channel | State read | Behaviour |
+|---------|-----------|-----------|
+| Animal paintings around the room | **Current honor** (live) | High honor → **eagles and bucks**; low honor → **vultures and coyotes**; they "constantly change depending on the player's current honor level" |
+| Nightstand limerick | **Past choice** (Jimmy Brooks, Chapter 1 train) | Spared → "…That Jimmy isn't as dumb as he looks"; killed → "…Now Jimmy's family don't see him very much" |
+| Central portrait | **Story epoch + visit count** | Arthur = frozen unfinished; John = progresses per visit/days; see the state machine above |
+| Mirror | **Portrait completion** | Apparition only once the portrait is done |
+
+## Fixed interior/lore inventory (non-reactive baseline) — [KNOWN]
+- Facade derelict; interior dark and curated: paintings on the floor, a long table with candles, a **stuffed crow** on a
+  podium; a caged **rotting alligator corpse** under the house.
+- **Six wall messages** (verbatim, wiki): **I KNOW YOU** · **THE MOON WILL SHINE ON IN THE DARKNESS** · **THE WATER IS
+  BLACK WITH VENOM** · **HIS FINAL TOLL WILL SOUND MY GREATEST COMING** · **FROM THE SNOW TO THE CAVE** · **I GAVE TOO MUCH
+  FOR ART AND I LEARNED TOO MUCH AND NOTHING AT ALL**.
+- A map of **Armadillo** by the mirror captioned *"I offered you happiness or two generations, you made your choice"* (the
+  Herbert Moon deal; Moon hangs a small copy of the Strange Man portrait in his Armadillo store, which John recognises).
+- **Beta history:** the shack belonged to a **serial killer** in cut content — Social Club photos taken here are
+  location-tagged "**Serial Killer**", and the LOD model shows the pre-remodel look. *(Deflationary context: some of the
+  shack's weirdness is remodel residue, not current design.)*
+- **Flora:** Gator Eggs, **Lady of the Night Orchid**, and the **Spider Orchid** grow in/around Bayall Edge (wiki).
+- The NPC: the **Strange Man** (*"I'm an accountant… in a way"*), the franchise's supernatural honor-auditor (RDR1's
+  *I Know You* strand tests John with moral choices; bullets pass through him). Internal model name
+  **`cs_mysteriousstranger`**.
+
+## Relevance to the spider mystery — [SPECULATION], stated honestly
+- **No source connects Bayall Edge to the webs/feathers.** The link is entirely our [S35] geometry+mechanics argument
+  (in-boundary-overlap POI + the game's one hidden-state reader). Nothing here moves the [K16] frontier.
+- Resonances worth logging, not weighing: the **Spider Orchid** at the doorstep; *"THE WATER IS BLACK WITH VENOM"* (venom —
+  the wiki itself floats a **Butcher Creek** curse association, the mystery's 2018 origin site); the honor channel is
+  exactly where [H5]'s colour↔honor hunch would surface; and a crow, not a raven, watches the room.
+- **Tension unchanged:** under [H24] the reds are decoys and the [S35] visit should produce a clean stock baseline — which
+  is precisely why the session discriminates the rivals cheaply.
+
+## Field checklist for the [S35] red-side session (record BEFORE and AFTER state goes live)
+1. **Baseline visit first** (no feather state): photograph the portrait stage, all animal paintings, the limerick, the six
+   wall messages, the mirror. Note honor level + story epoch (this fixes every stock channel).
+2. Solve the **3 reds** (any internal order, [U29]), **stay inside the South boundary**, ride to the shack.
+3. **At the door:** confirm which boundary the doorway physically sits in ([K28] control #6).
+4. **Inside with state live:** re-photograph every channel from step 1 — the *diff* is the result. Check especially the
+   mirror and the portrait (the two supernatural channels), then any new object/message.
+5. Apply the **[H25] dream coda** before leaving the boundary: sleep/camp at or near the shack; watch the wake cycle.
+6. **Log a null as a finding** — under [H24] a null here is *expected* and still discriminates.
+
+## Open sub-questions
+- **[U35]** — which gate really controls the 4th visit/finished portrait: **post-epilogue + days passed** (wiki) or
+  **100% completion** (Gameranx)? Also: what exactly advances a "visit" (interior entry? days elapsed? both)? B-tier sources
+  are thin; settle by the user's own save behaviour or a dedicated guide pass.
+
+*Sources: [#68](../sources/sources.md) (Red Dead Wiki "Bayall Edge" + "Strange Man" via MediaWiki API; Gameranx guide).
+Created 2026-07-02 for [S35]; see [analysis/decoy-and-dream-hypotheses.md §4](../analysis/decoy-and-dream-hypotheses.md).*
