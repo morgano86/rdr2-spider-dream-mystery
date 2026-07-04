@@ -12,7 +12,10 @@ Keep it short; when something changes here, also touch the canonical file and th
 > is confirmed *real* by a former Rockstar QA tester ([K3](INDEX.md)), but authorship is unconfirmed.
 
 - **Best one-paragraph understanding:** see [README.md](README.md#one-paragraph-summary-of-the-current-best-understanding).
-- **Last verified clue / working frontier:** the **Fort Wallace bird carvings** ([K16]) → [thread 06](threads/06-bird-carving-giant-wapiti.md).
+- **Last verified clue / working frontier:** the **Fort Wallace bird carvings** ([K16]) → [thread 06](threads/06-bird-carving-giant-wapiti.md);
+  glyph referent/symbolism deep-dive → [fort-wallace-bird-carving.md](analysis/fort-wallace-bird-carving.md) ([S24] eagles/"Eagle
+  Flies", *symbolism only — place-check negative* / [S25] label-not-cipher / [H23] the birds pattern with the verified
+  **static-carving class** — non-time-gating is shared by all wood carvings, ⚠️ not distinguishing).
   Past them (Calumet / Giant / "?" / Bacchus heart) is **contested**, not the established trail.
 
 ---
@@ -22,53 +25,72 @@ Full set + IDs in [findings/unknowns.md](findings/unknowns.md). The ones that co
 
 | Rank | ID | Question | Best source |
 |------|----|----------|-------------|
-| 1 | [U29](findings/unknowns.md) | The **feather order mechanic** — group/boundary-based, not one sequence ([H9]/[K31]). **✅ The multi-night persistence crux is now ANSWERED ([K29], 2026-06-14): shot feathers persist ≥12 in-game days while in-boundary**, so multi-night solving ([H20]) is viable. **Still open:** the central-overlap **state-hold across a crossing** (tested negative-leaning), `B34`'s role, the red-feather function | 🌐 community testing / 🎮 |
-| ~~2~~ | [U1](findings/unknowns.md) | ~~The **under-wood pole messages**, verbatim~~ **✅ RESOLVED 2026-06-14 → [K11]/[K12]:** chain multiply B-tier corroborated; **exactly 2 shot-poles, `NW`+guitar is the last, no 3rd documented**. Guitar *meaning* still open at [U12] | 🌐 done ([#60]) |
-| 3 | [U3](findings/unknowns.md) | **One puzzle or two?** New traction ([S22]/[H21]/[K31]): the top boundary holds **both** 2018-origin nodes (Butcher Creek + Fort Brennand) and the web shot-state persists into them ([K29]) — a *mechanical* link, not just thematic | 🧠 analysis / 🎮 |
-| 4 | [U14](findings/unknowns.md) | **Window Rock mural** birds **by colour** — is it 5 black / 3 red (the order key, [H3])? Also now read as a mechanic-**seed** ([H18]): its solve-rule (count a feature, **exclude decoys**) argues **colour is a filter**, reinforcing the [H9]/[U29] group reading | 🌐 mural images we hold (hi-res extract now on file) |
-| 5 | [U2](findings/unknowns.md) | Is there an **intended payoff at all**, or is it cut content? | 🌐 new coverage / community |
+| 1 | [U29](findings/unknowns.md) | The **feather order mechanic** — group/boundary-based, not one sequence ([H9]/[K31]). **🔑 REFRAMED 2026-06-14 ([H22]): the order is 3 already-SOLVED per-boundary sub-chains** (South any-order / Connector chain / North=`B34` last); under "`B34` last" the global problem is just **2 meta-orders** to test, not 180. **The real bottleneck is the cross-boundary COMBINE — where [K29] (state resets on boundary EXIT) CONTRADICTS [H20] (multi-night).** Frontier = a cross-boundary STATE test with 3 exits (R1 overlap-holds / R2 hidden-flag / R3 no-combine) — **executable field protocol now written: [analysis/web-order-field-test.md](analysis/web-order-field-test.md)**. `B34`'s role + the red function remain open within that. **⚠️ Third frame added 2026-07-02 ([H24]): the seam may not exist at all** — if the reds are decoys the solve is the 5 blacks across ~2 nights, `BL56` before `B34` (geometry-forced — *derives* "B34 last"); **Test C**, cheapest first, + the [H25] sleep/dream coda. **⚠️ Fourth frame added later 2026-07-02 ([H27], premise-drop): shooting may never have been the input at all** — the webs as a witness/READ layer, the reset lore as boundary-geometry epiphenomena (desk: no 8-order visible-state feasible 0/40320; the [K39] file numbers order nothing, [S38]) → **Test D (witness-only tour + dream coda), now the cheapest test, run before anything that fires a gun** | 🎮 targeted test / 🌐 |
+| 2 | [U2](findings/unknowns.md) | Is there an **intended payoff at all**, or is it cut content? | 🌐 new coverage / community |
+| 3 | [U6](findings/unknowns.md) | **Gertrude's numbers** — opening `1237645112` sourced & confirmed deliberate ([K23]); **⚡ tail ADVANCED 2026-07-04:** the fullest transcription on record recovered (9 sequences, max 29, **no identical loop**; hoaxer + [#43] debunker agree on the raw numbers) + the StrangeMan video's claims captured verbatim → **rated hoax-leaning**; [S42] deflationary rival documented (tail = failed-counting madness texture) **and statistically supported by the 2026-07-04 structure battery** ([`gertrude_tail_structure.py`](experiments/gertrude_tail_structure.py), exact nulls: prefixes never pass 5, re-rail runs, tails' additive structure = chance p 0.44; lone fragile counter-flag = the **L2-only Fibonacci chain `3,5,8,13`**, p 0.039, which collapses under the near-duplicate L7 parse); [K41] outhouse-interior closed-negative. Open: **clean-audio confirm of the tail (priority RAISED — it now also decides the L2/L7 Fibonacci fork)**, what (if anything) it encodes, **which mystery it serves** | 🌐 sourcing / 🧠 |
 
-> **Note (2026-06-14):** [U22] (exact web↔boundary membership) is **RESOLVED → [K31]** (firsthand: the [H9] partition is
-> confirmed; boundaries overlap) — it leaves the top-5 as a closed question.
+> **Note (2026-07-04):** [U3] (one puzzle or two?) **left the top-3 — REFRAMED / PARTLY DECIDED** ([S41],
+> [one-puzzle-or-two.md](analysis/one-puzzle-or-two.md)): the 2018 chain and the 2025 trail adjudicate to **one
+> continuous designed relay** ([K8] hand-off retro-validated; shared Oil-Fields node; shared signature; both base-game).
+> Its live residue is already tracked elsewhere — the mechanic layer at [U29] (rank 1) and satellite membership at [U6]
+> (promoted to rank 3, replacing it).
 
-> **Note (2026-06-13):** [U0] (feather position/orientation) — long the #1 item — is **resolved on orientation**: the full
-> 8-web photo set ([#59]) shows every feather **hangs tip-down by gravity**, so **[H4] is refuted** and the order is **not**
-> feather-encoded. What was "the order key" question now lives at **[U29]** (group-based mechanic). Only the weak per-web
-> *attachment point* survives under [U0].
-
-> **Note (2026-06-13):** [U6] (Gertrude's numbers) sits just off the top-5. Its opening `1237645112` is now **sourced and
-> confirmed deliberate** (RDR2-original, Rockstar-echoed cross-game via Nazar, [K23]) — but its **link to the spider trail
-> specifically is undecided**, so it ranks below the four trail-direct items above. Tracked in
-> [analysis/gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md).
+> **Adjacent-egg watch-items (NOT trail steps — boundary discipline):**
+> **(1) Francis Sinclair / "Geology for Beginners"** ([K32]–[K34], [thread 08](threads/08-francis-sinclair-mural.md)) — a
+> separate, well-documented "time-traveller" egg with **no verified spider link**; touches us only via geography (a winged
+> rock carving NE of Fort Wallace, in the frontier cluster — [K33]/[S26]). Open: mural-as-puzzle/payoff ([U31], deflated —
+> HQ mural on file, close-crop pass negative).
+> **(2) Mount Shann "giant sundial"** ([K35]–[K38], [thread 09](threads/09-mount-shann-sundial.md)) — stone-circle sundial
+> with 7 red/orange/yellow arrows ([K36]) + a ~2 AM UFO ([K37]); **no verified spider link** — only the shared GTA V
+> Chiliad nod ([K38]/[K24]) + a ~2 AM gate. Held skeptical ([U34]); the decode branch is closed-negative ([U33]).
 
 ---
 
 ## Next actions, by channel
 **Default to web sourcing + verification.** Most open questions are already documented in the wiki, community sites,
 forum threads, or the Strange Man video — find the evidence and corroborate it. Reserve in-game capture for detail no
-online source records (in practice, only the feather *orientation*).
+online source records.
 
 ### 🌐 Web / video sourcing (the default) → [EVIDENCE-CHECKLIST.md](EVIDENCE-CHECKLIST.md)
-The actionable worklist, ordered by value. Headline items: the **under-wood pole messages** (U1, in community videos),
-**Gertrude's full sequence** (U6, transcribed in late-2025 videos), the **Window Rock mural birds by colour** (H3/U14),
-and **feather orientation** (U0) — pull from video frames first.
-- Build the RDR2 **character/credits name list** to test `LJ`/`SM`/`J+M` ([U4](findings/unknowns.md), [U16](findings/unknowns.md)).
+The actionable worklist, ordered by value. Current headline items: **per-node content for attempt B** ([U6]), a
+**clean-audio confirm of the Gertrude tail** (transcription captured 2026-07-04 — downgraded residual), a clean
+**arrow-set image** (Old Trail Rise), and the **pole count/labels** ([U9]). *(The old headliners — U1 pole messages,
+U14 mural colours, U0 orientation, the Gertrude tail + Strange Man video verbatim — are all resolved/captured; see the
+checklist's Completed section.)*
 
 ### 🎮 In-game (only when strictly necessary)
-Used only where the web genuinely comes up empty: confirming **feather orientation** (U0) if video frames don't resolve
-it, and the long-horizon **H8 test** (does completing the trail clear the dreamcatcher log?). **[U26] map-grid: DONE
-2026-06-13** — investigator captured two in-game prop-map grids ([K26]; Map 1 = 1–30 × A–U, Map 2 = A–O × 1–7); the per-cell
-reading tested **negative-leaning** ([`number_grid.py`](experiments/number_grid.py): Map 2 admits only `EC`). [H14] survives
-only as a free coordinate plot.
+Run cheapest-first. **Full step-by-step protocols (confound controls + decision tables) live in
+[analysis/web-order-field-test.md](analysis/web-order-field-test.md) — follow that file in-game, not this summary.**
+- **⚡ 1. Test D — the witness-only tour ([H27], NO shots).** Visit all 8 webs at their hours + the 1–2 AM centre, force
+  each spawn with the look-away trick ([K30]), fire nothing, finish with the [H25] dream coda at the whiskey tree. Under
+  [H27] (webs = a READ layer — [solve-grammar.md](analysis/solve-grammar.md)) this is the *complete* candidate solve; it
+  leaves no state to corrupt, so running it first costs nothing.
+- **⚡ 2. Test C — the blacks-only solve + dream coda ([H24]/[H25], ~2 nights).** Night 1: `B23→B45→B56→BL56` staying in
+  yellow; hold state through the day ([K29]). Night 2: `B34` at 3–4 AM from the overlap (geometry forces `BL56` before
+  `B34`). **Never touch a red.** Camp at the whiskey tree ([S23]) and **sleep at dawn** ([H25] — dry-check [#67]: no
+  documented solver has ever slept on a completed set). Companion red-side session ([S35]): solve the 3 reds, stay in
+  South, walk into the **Strange Man's shack** with state live — baseline dossier + checklist:
+  [locations/strange-man-shack.md](locations/strange-man-shack.md) (no-state baseline visit first; gate caveat [U35]).
+- **🔑 3. Tests A/B — the cross-boundary STATE battery ([H22]/[U29]).** Discriminates the three exits at the RED↔BLACK
+  seam (R1 overlap-holds / R2 hidden-flag / R3 no-combine); reasoning in
+  [`web_boundary_solve_protocol.py`](experiments/web_boundary_solve_protocol.py).
+- **🆕 Letter-sweep ([H26]) — cheap, combinable with any web session.** Sweep for undiscovered letter-pairs with the
+  [K15] viewing discipline (odd angles, changing light, moss/wood seams): Fort Brennand tower + outhouses, the 8 web
+  pole sites (esp. Cornwall's START pole), the Fort Wallace walls around the birds [K16]. Log a careful negative too.
+- **🆕 Persistence CONTROL ([S36], cheap):** shoot/displace a comparable ambient object far from any web and sleep
+  several nights in place — tests whether the feathers' [K29] persistence is genuinely special.
+- Residuals: feather *attachment* detail ([U0], deflated) only if images fail; the long-horizon **[H8] test** (does
+  completing the trail clear the dreamcatcher log?).
 
 ### 🧠 Analysis (desk work, no sourcing needed)
 From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 - Test Gertrude attempt B (read the 7 tally nodes in her number order) once U6 lands.
-- Re-pair the letters `{C,E,J,J,J,L,M,M,S,S}`; test the dev-initials-down hypothesis against the name list.
-- Decide [U3](findings/unknowns.md): is this one layered puzzle or two parallel eggs?
-- **[U22] DONE → [K31]** (2026-06-14): the 3-boundary partition is firsthand-confirmed and the boundaries overlap. Live
-  follow-on: does shooting a *contained-but-untied* web (wrong-boundary despawn) break a run? And **[U30]** — does a hit count
-  whenever the feather is shot while visible, or only during its specific spawn hour? (untestable without the solution order).
+- Re-pair the letters `{C,E,J,J,J,L,M,M,S,S}` against candidate name lists. *(Dev-initials: **CLOSED as a working line
+  2026-07-02** — counts + coherence + placement; see [connections §1](analysis/connections.md). Newest frame: [H26] waymarks.)*
+- ~~Decide [U3]: one layered puzzle or two parallel eggs?~~ **DONE 2026-07-04 → [S41]** (one relay;
+  [one-puzzle-or-two.md](analysis/one-puzzle-or-two.md)).
+- Live [U29] follow-ons: does shooting a *contained-but-untied* web (wrong-boundary despawn) break a run? And **[U30]** —
+  does a hit count whenever the feather is shot while visible, or only during its spawn hour?
 
 > **🧮 When reasoning isn't enough** (combinations, ciphers, geometry, coincidence odds), write a quick Python test in
 > [`experiments/`](experiments/) — e.g. [`feather_order.py`](experiments/feather_order.py). Results are evidence, not
@@ -76,171 +98,68 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 
 ---
 
-## Recently added (2026-06-14)
-- **[U1] RESOLVED — under-pole inscription chain multiply corroborated + bounded (deep-research [#60]).** A fan-out/verify pass
-  (15 sources, 25 claims adversarially verified) confirmed the verbatim chain that was **single-sourced** before: centre
-  `N`+telephone-pole (an **alignment** reveal, 1–2 AM, [K11]) → north pole `W ✞✞✞✞✞` (**five** glyphs, unanimous across 6+
-  B-tier outlets) → fifth pole west `NW`+guitar-**like** symbol ([K12]; identity hedged by *every* source — a flat "it IS a
-  guitar" claim was refuted 0-3, keeps [U12] open). **Bounded negative:** these are the **only two shot-to-reveal poles**; the
-  `NW`+guitar pole is the **last documented under-pole message** — **no third is documented anywhere**; content "past" Fort
-  Wallace is the [K16] bird carvings or out-of-bounds pareidolia, *not* under-pole text (holds the verified-trail boundary).
-  Also: "bird carvings confirmed intentional via datamine" **refuted 0-3** (consistent with the [K3] Butterworth walk-back).
-  Propagated: K12 (known-facts, INDEX), U1 RESOLVED + U12 strengthened (unknowns, INDEX), thread 05 ([KNOWN] note + [UNKNOWN]
-  struck + sources), source [#60], [log](INVESTIGATION_LOG.md) top.
-- **Boundary membership confirmed + feather persistence + render-gating (firsthand investigator data).** Major mechanic pass:
-  (1) **[K31]** web↔boundary membership **firsthand-confirmed** (Top `B34` / Connector `B23,B45,B56,B56L` / South `R23,R45,R34`)
-  → **resolves [U22]** and confirms **[H9]**; boundaries **overlap**, so each also contains *untied* adjacent webs (shooting them
-  fires the wrong despawn). (2) **[K29]** shot-feather state **persists across nights + camping for ≥12 in-game days while
-  in-boundary** (exact floor position stored/restored; resets only on boundary exit) → **answers the [U29]/[H20] persistence
-  crux: yes, within-boundary** — multi-night solving is viable. The central-overlap *state-hold across a crossing* tested
-  **negative-leaning**. Fallen-feather position is pure shot-physics (encodes nothing). (3) **[K30]** webs/feathers are
-  **render-gated**: won't spawn while you look at the spot (look away/back), won't despawn while kept in line of sight — so you
-  can **hold a web rendered past its hour by keeping it in view as you approach**. (4) **[U30]** new open question: does a hit
-  count whenever the feather is shot *while visible*, or only during its *spawn hour*? (untestable without the solution).
-  (5) ⚠️ **[K28] corrected:** **Fort Brennand is inside** the top boundary (not outside) — so both 2018-origin nodes (BC + Fort
-  Brennand) sit in the top zone (strengthens [S22]/[H21]/[U3]); only Fort Wallace is outside. (6) **[S23]** anomalous red-hue
-  fire-pit motif (BC pentagram = Fort Brennand pit = the new **[whiskey-tree](locations/whiskey-tree.md)** pit, the lone POI in
-  the triple overlap). Propagated: K28–K31/S23/U30 (INDEX, known-facts, speculation, unknowns), H9/H20/S22/H21 (speculation),
-  connections §5a, WEBS-MANIFEST, locations (whiskey-tree new + README + fort-brennand + butcher-creek), [log](INVESTIGATION_LOG.md) top.
-- **Solve-attempt pass — colour×hour lattice, mural-as-seed ([H18]), + CLAUDE.md anti-speculation guardrail.** (1) **CLAUDE.md
-  now codifies the verified-trail boundary** (new section): the **Fort Wallace bird carvings [K16] are the last verified clue**;
-  the **"?" is pareidolia, not accepted**; the **Bacchus heart's relevance is as contested as the "?"**; **a user repeating a
-  downstream theory is not sourcing it.** Work forward from the birds. (2) **Timings — new [KNOWN] structure:** the **colour×hour
-  lattice** (re-tabulation of [K13a]) — each 2/3/4 AM hour carries **1 black + 1 red**, 5–6 AM carries **2 blacks** (`B56`/`BL56`
-  = the [K13b] interchangeable pair, because they collide on the hour); each red is **hour-twinned** to a black. (3) **[H18]
-  (mural-as-seed):** the Window Rock Strange Statues mural is solved by *counting a feature while **excluding decoys** (upside-down
-  birds)* — read as RDR2 design grammar (family of [H6]/[H15]) its lesson is **appearance = a per-element FILTER, not a heading.**
-  The per-web count doesn't transfer (one feather/web), but the filter lesson does and **cuts against [H4]**: orientation is
-  uniform → the filter falls to **colour** → red/black = the include/exclude partition, which [H9]/[U29] already show. **Three
-  lines converge on colour/group** vs a feather sequence ([H4]/[H17] dead). (4) Experiment
-  [`web_colour_group_order.py`](experiments/web_colour_group_order.py): [U29] rules collapse 8! → **180** orders ("`B34` last");
-  the colour-group order is **consistent** (not singled out). ⚠️ **[H18] is precedent/intent only — not evidence the mural and
-  webs are one puzzle, not a confirmed key.** Propagated: H18 (INDEX, speculation, connections §5c, thread 06), lattice
-  (WEBS-MANIFEST), [log](INVESTIGATION_LOG.md) top.
-- **[U0] socket gap CLOSED FROM IMAGES ([H19]).** Re-read each feather's socket **against the web's own central radial**
-  (camera-invariant) → `L/C/R` for all 8, **agreeing 8/8** with the old screen-relative reads (the confound never flipped the
-  gross call → socket is a usable weak signal). Tested ([`web_socket_position.py`](experiments/web_socket_position.py)):
-  **colour↔side NOT significant** (reds-right lean p=0.125); the only crisp pattern is the **3 hour-twinned blacks sweeping
-  `L→C→R`** with the clock (p≈0.04) + the **5–6 AM pair B56/BL56 sharing hour AND socket** (reinforces [K13b]). **Reds do NOT
-  reproduce the black time-sweep** (their sockets are C/R only, never left). Net: weak colour-axis line ([H9]/[U29]/[H18]); does
-  **not** revive [H4] (socket ≠ orientation). Propagated: H19 (INDEX, speculation, connections §5d), U0 (INDEX, unknowns,
-  WEBS-MANIFEST, feather-positions README), [log](INVESTIGATION_LOG.md) top.
-- **Boundary geometry [K28] + the multi-night reading [H20] (firsthand investigator data, 2026-06-14).** The 3 [K21] boundaries
-  form an **I-beam**: North E–W, South E–W, Connector N–S spine, **overlapping near centre** (overlap excludes the central web).
-  Combined with the colour×hour lattice (each hour = 1 black + 1 red) and feasibility (**black+red in one night impossible
-  solo**; all-black hard-but-doable incl. doubled 5–6; all-red very hard), this forces a **multi-night, one-colour-group-per-night**
-  solve — likely **all 8 across nights, not one sequence.** Makes **persistence across nights** the decisive [U29] crux (and the
-  central overlap a candidate state-holding mechanism). Propagated: K28 (INDEX, known-facts), H20 (INDEX, speculation,
-  connections §5a), U29 (unknowns, STATUS), WEBS-MANIFEST, [log](INVESTIGATION_LOG.md) top.
-- **B34's OVERSIZED boundary → candidate payoff location ([S22]/[H21], investigator data + user speculation, 2026-06-14).**
-  B34's North zone uniquely includes **Butcher Creek** + Valentine (forts excluded) — echoing the [K8] Butcher Creek→Cornwall
-  pointer → "one puzzle" argument ([U3]). Since shot-state persists only *inside* a boundary ([K21]), the oversize may be a
-  **state-carry corridor**: successful web activation could unlock a **state-gated result at Butcher Creek (or Valentine)**,
-  which would **explain the missing payoff** ([U2]) as a rarely-met precondition and **dovetails with the [U2] "flags checked
-  but never set" datamine lead.** ⚠️ No payoff ever confirmed — [SPECULATION], not a destination. Propagated: S22/H21 (INDEX,
-  speculation, known-facts §K28), U3/U2 (unknowns), connections §5a, [log](INVESTIGATION_LOG.md) top.
+## Session headlines (newest first)
+One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
-## Recently added (2026-06-13)
-- **Solve-attempt pass — feather ORDER deflated and feather ORIENTATION resolved.** (1) **[U0] orientation is settled:** the
-  full 8-web front+side photo set (u/dropthepress, [#59] → [`feather-positions/`](images/webs/feather-positions/README.md))
-  shows **every feather hangs tip-down by gravity** → **[H4] refuted** (orientation is *not* a heading to the next web). (2)
-  **The order mechanic is group-based, not a sequence ([U29]):** sourced brute-force testing ([#36]) shows reds work in *any*
-  internal order (incl. non-chronological `R34→R45→R23`), mixed chains work, and `B34`/Cornwall is special (suspected **last**
-  feather; "unique red-feather function"). (3) I proposed **[H17]** ("order = the clock," since the [K13b] chain is exactly
-  chronological — [`web_time_order.py`](experiments/web_time_order.py)) and then **refuted its strict form** with that red data —
-  the order collapses onto the **[H9] boundary partition**, not the clock. **Net:** the "secret feather-encoded sequence"
-  reading is doubly dead; the live frontier for the order is `B34`'s role + the red function + time-lock-vs-persistence ([U29]).
-  Also filed 5 investigator-supplied extracted symbol assets (spider etching, NW-guitar, W-5-poles, hi-res Window Rock mural).
-- **Saint Denis Vampire added as a shipped pentagram-mapping precedent ([K27]) + difficulty-curve framing ([H15]/[H16], user
-  lead).** New dossier [analysis/saint-denis-vampire.md](analysis/saint-denis-vampire.md). The Vampire egg runs the **identical
-  mechanic as the Butcher Creek pentagram** ([K5]) — *find 5 fixed points → they form a pentagram → go to the centre* — but is
-  **fully journal-assisted** (the game **draws the pentagram and marks the centre** with an "x"; encounter 12–1 AM; reward =
-  Ornate Dagger; documented in the **in-game journal**, unlike the spider mystery's total lack of tracking [K20]). So it's the
-  game's **tutorial / "seed"** for the technique ([H15], stronger-on-shape sibling of the dreamcatcher precedent [H6]). The
-  user's broader read — the whole chain is an **escalating difficulty curve** whose **clue form mutates** (tallies → carvings →
-  no-overlay engraving-as-map → directional glyphs → guitars-as-pointers → the ambiguous, unsolved bird carving [K16]) — is
-  logged as **[H16]**; it **reframes [U2]** (the cold frontier is *expected* of such a curve, so it doesn't decide
-  buried-continuation vs cut-content). Propagated: K27/H15/H16 (INDEX, known-facts, speculation), thread 02, connections §4,
-  dreamcatchers.md, source #58 + `vampire_api.json`, [log](INVESTIGATION_LOG.md) top.
-- **In-game map grid CAPTURED → grid-cell reading deflated ([K26], investigator data).** The [U26] capture landed: the
-  investigator photographed **two *"Railroad & State Map"* prop maps** at a stranger's camp, each with a printed
-  letter/number coordinate grid — **Map 1** cols 1–30 × rows A–U (30×21, continental); **Map 2** cols A–O × rows 1–7 (15×7,
-  drawn over the playable world). So RDR2 *does* render in-game map grids ([K26]) — the old web-negative is superseded. **But
-  the per-cell reading of the markings tests negative-leaning** ([`number_grid.py`](experiments/number_grid.py) re-run): on the
-  game-world grid (Map 2) **only `EC` is in range** (`E3`/`C5`); `LJ`/`SM`/`J+M`/`S+J` all exceed the 7-row cap; no single grid
-  validates all five. **[U26]** moves from "🎮 pending" to **deflated**; **[H14]** survives only as a free coordinate plot
-  (precedent [K25]). Propagated: K26 (INDEX/known-facts), U26/H14 reframed, connections §1a(d), `number_grid.py` (both grids +
-  re-run), images/maps provenance, [log](INVESTIGATION_LOG.md) top.
-- **Loading-screen coordinate system → a coordinate reading of the letters/numbers ([K25]/[H14], user lead).** RDR2 hides a
-  documented **letter=latitude / number=longitude** coordinate device: the **loading-screen photographs** encode locations as
-  *obfuscated* lat/long (letters disguised as digits `O`→`0`, `Q`→`2`, `7`~`4`) on the in-game **fast-travel / Central Union
-  Railroad** map grid — community decode (BlueVelvetFrank, r/reddeadredemption, ~3.7k upvotes, Feb 2019; C-tier, but the
-  annotations are in-game). **[K25]** records the precedent; **[H14]** applies it: read the carved/matchstick **letters as
-  latitude** and the **[S21] numbers (53/23/29) as longitude** (or the pairs as cells) → *places, not people*. **This reframes
-  [U26]:** the earlier "web found no grid" is **partially overturned** — a coordinate reading now has documented precedent; the
-  *per-cell* A1/B1 grid was the remaining gap (**since captured → [K26], see the newer entry above; the per-cell test came back
-  negative-leaning**). Propagated: K25/H14 (INDEX, known-facts, speculation), connections §1a(d), U26/U25,
-  [`number_grid.py`](experiments/number_grid.py), source #57, [log](INVESTIGATION_LOG.md) top.
-- **Letter groups, number/medium motifs, and the verified-trail boundary (user steer).** (1) **`LJ`/`SM` are directly part of
-  the mystery — [KNOWN]**, not a guess (carving technique [K15] + co-location with the Fort Brennand pointer & tally 4); only
-  their *meaning* is open ([U4]). (2) New **[H12] letter-grouping framework** so experiments test the markings *by connection
-  confidence*, not as one flat set: **Group 1** carved `LJ`/`SM` · **Group 2** matchstick `EC`/`J+M`/`S+J` · **hybrid**
-  `LJ`/`SM`/`EC` (`EC` by the Black Widow card) · **`J+M`** singled out (its site = the trail START node).
-  [`name_match.py`](experiments/name_match.py) now reports per-group. (3) **[U27]** the chain branches from outhouse **#4**,
-  not #5 — flagged; **[S20]** a weak number/timing motif (8 webs, 4 AM pentagram, Rockstar's *Infinite Eight*). (4) **[U28]**
-  the 3-in-a-row droppings on outhouse #4's roof (investigator image; likely scenery). (5) **[H13]** the clues share a
-  **medium** — wood + railway telegraph poles + time-gating + near-invisibility — a search heuristic for the frontier.
-  (6) **Verified-trail boundary set:** the **Fort Wallace bird carvings are the last verified clue**; the **"?" is not widely
-  accepted** and the **Bacchus heart's relevance is as contested as the "?"** — we work forward from the bird carvings.
-- **Letters work — name-list built, non-name readings tested, terminology tightened.** New
-  [thread 07 (Van der Linde gang roster)](threads/07-van-der-linde-roster.md) — full roster · fates · death mission/timing ·
-  graves — doubles as the in-fiction name list. Cross-check ([`name_match.py`](experiments/name_match.py)): exact hits
-  **`SM`=Sean MacGuire, `J+M`=John Marston**, gang supplies the `L` Register Rock lacked ([S16]); **`EC` matches nothing**
-  ([S17]). Non-name readings ([`letters_cipher.py`](experiments/letters_cipher.py) + a gazetteer pass): whole-set **anagram
-  ruled out** (vowel-starved); **place reading mostly negative** — survives only `EC`=Emerald Crossing / `SM`=Scarlett Meadows
-  ([S19]); A1Z26 flag `EC`=5,3 = feather split ([S18]). **[U16]** resolved-negative (Annabella poems unsigned). **Framing
-  [U25] (user):** call them **"letters," not "initials"** — the name-reading is [SPECULATION]. Multiset corrected to
-  `{C,E,J,J,J,L,M,M,S,S}`. Full detail: [connections §1/1a](analysis/connections.md); see [log](INVESTIGATION_LOG.md) top.
-- **Reddit screenshot-mining pass (Arctic Shift + `i.redd.it`).** First **feather-in-web captures** filed (one black, one red;
-  location-unconfirmed) → the repo's #1 still-wanted item. **Orientation read for [U0]:** both feathers **hang tip-down by
-  gravity**, not along a heading — a *weak lead against* [H4]'s "orientation = compass direction." Plus: **[S15]** (feathers =
-  Northern Cardinal dimorphism — a deflationary rival to the colour-cipher reading); a **cut-content lead on [U2]** (gamedev
-  datamine: two flags checked-but-never-set — C-tier, post since removed); the **feather↔dreamcatcher particle-config** tie
-  ([H8]/[K20]); and **[K24] corroboration** (Butcher Creek datamine names `pignpole`/`magicstuff`/`outhouse cliff`). All C-tier,
-  tagged. See [log](INVESTIGATION_LOG.md) top entry.
-- **[K23]/[K24] GTA↔RDR2 crossover dossier — new file [analysis/gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md).**
-  Gertrude's recitation **opens `1237645112`**, the *same* string the **Madam Nazar "Nazar Speaks"** machine speaks in
-  **GTA Online** (multi-outlet B-tier). ⚠️ **Chronology corrected (user-flagged):** the number is **RDR2-original (base game,
-  Oct 2018)**; the GTA echo is a **later callback (Dec 12, 2019)**, **not** a prior origin — so it **corroborates the number is
-  deliberate**, it does **not** demote the RDR2 reading. **[K24]:** GTA V's two **Mt Chiliad webs are base-game since 2013, not
-  DLC** (same cable shader + 1–2 AM gate as RDR2) — so the webs in *both* games are original-to-launch; only the Nazar number
-  callback was added later. Nazar's machine also names our nodes (**Window Rock, Roanoke Ridge, Grizzlies**, the web fortune
-  [U19]) → **[S14]** (weak — coincidence-prone). **Net:** the crossover raises confidence this is **deliberate**; the
-  **decode/spider-link is exactly as open as before**. A C-tier exposé ([#43]) separately alleges the Strange Man "Gertrude
-  solved" *video* is a **hoax** (⇒ treat his Gertrude claim as disputed). Propagated across K23 (reworded)/K24/S14, U6/U18/U19,
-  connections §2/§3/§6, speculation, sources #40–46.
-- **[U24] Register Rock — full carving list sourced.** Pulled the **complete** inscription set (wiki + reddeadreference
-  transcription blog + our journal image): ~14 named carvings + ~10 bare marks ([dossier](locations/register-rock.md#complete-inscription-list)).
-  Desk-test vs the matchstick letters: 🟢 **J.M appears twice** ("Jm" + "Jasper Munson") → echoes **`J+M`**; 🟢 **S. Gray** →
-  Caliga Hall **`S+J`**; 🔴 but **no `LJ`/`SM`/`EC`, and no `L`-initial at all** — a real partial-negative. Still gated on
-  whether the Fort Brennand third symbol actually depicts the rock ([H11]).
-- **[K21] boundary respawn mechanic** (investigator data): shot feathers stay down only while you're **inside the web's tied
-  boundary**; **3 boundaries** — north, south, + a connector. Sourced the **Jay_0048 boundary map**
-  ([`web_map-overlay_boundaries.png`](images/webs/web_map-overlay_boundaries.png)) → partition **[H9]**: N `B34` / Connector
-  `B23,B45,B56,B56L` / S `R23,R45,R34`. The **Connector == the [K13b] non-respawn chain** — the spatial mechanic *is* the
-  chain. Verify membership next (**[U22]**).
-- **+8 images** from the community Google Site (boundary/labelled/chain/trail maps, cable-mesh datamine, Cornwall pole, Fort
-  Wallace guitars & birds).
-- **Two new frontier leads (investigator data):** **[K22]** a hidden **empty heart** on [Bacchus Bridge](locations/bacchus-bridge.md)
-  (blank twin of the Flatneck "Lillie ♥ Alfred" heart) **in line of sight of the bird carving** → [H10]/[U23]; and **[H11]**
-  the Fort Brennand "3rd symbol" may depict **[Register Rock](locations/register-rock.md)**, whose carved **names** (incl.
-  **S. Gray** → Caliga Hall `S+J`) could be a name-puzzle → [U24]. The earlier "Lillie ♥ Alfred" texture is **re-framed** from
-  "rejected" to the heart-motif reference.
+- **2026-07-04 (U6 structure battery)** — **[S42] statistically supported**: new exact-null experiment
+  ([`gertrude_tail_structure.py`](experiments/gertrude_tail_structure.py)) on the provisional 9-line tail — prefixes
+  capped at 5, post-derail re-rail runs, tails' additive structure = chance (p 0.44); **lone fragile counter-flag** =
+  the L2-only Fibonacci chain `3,5,8,13` (p 0.039), which collapses under the L7 parse → **clean-audio confirm priority
+  raised** (it decides the fork); L1≈L6/L2≈L7 near-dup template structure found (least-reliable tokens identified); one
+  audio-dump route (Tumblr compilation) checked negative. No decode attempted — the tail-cipher gate stands.
+- **2026-07-04 (U6 sourcing pass)** — **Gertrude tail transcription RECOVERED** (9 sequences, max 29, no identical loop —
+  from StrangeMan's own frames via the [#43] exposé, **fully captured** through the 🆕 Fandom Discussions API recipe);
+  StrangeMan's Gertrude video **rated hoax-leaning** (5-point refutation incl. the manor family-photo counter-evidence);
+  **[K41]** outhouse-interior negative + **[S42]** failed-counting reading minted; Nazar number primary-sourced ([#75]:
+  callable `123-764-5112`); 4 images filed to `images/gertrude/`. *(Arctic Shift under maintenance today.)*
+- **2026-07-04 (U3 adjudication)** — **[U3] decided-in-part → [S41]:** the 2018 chain + 2025 trail = **one designed
+  relay** (K8 hand-off retro-validated; "parallel eggs" rejected); residue routed to [U29] (mechanic) + [U6]/matchsticks
+  (satellites); U6 promoted into the top-3.
+- **2026-07-04 (later)** — All 8 feather-position fronts **re-shot firsthand (PS5 4K)** and swapped in file-for-file;
+  socket reads re-verified 8/8, all high-confidence (Scarlett resolves to `R`); image set upgraded C-tier → firsthand.
+- **2026-07-04** — **[K40]** minted: every web feather is **DOUBLED** (main + smaller secondary at one socket, all 8
+  webs) — uniform model feature, **no order/count signal**; capture caveat recorded; 3 superseded web images removed.
+- **2026-07-03** — [K13] corrected: the 5 "black" feathers are **two-toned** (white/grey ↔ black); GameRant's "white"
+  reconciled rather than dismissed.
+- **2026-07-02 (Reddit sweep)** — 358 posts triaged (Jan–Jun 2026, Arctic Shift): the [#52] datamine **fully recovered**
+  (zero `spiderdream` refs in 1,639 scripts → strongest desk evidence for [H27]); boundary map has a **public source**
+  ([#69], provenance corrected); **[S39]** two-object model + **[S40]** Fort Riggs minted; Test C prior-art bounded ([#71]).
+- **2026-07-02 (analysis-only)** — **[S38]** file-numbers-as-order tested negative-leaning (index, not sequence);
+  **[U33]** sundial decode closed-negative; **[H27]** witness/READ-layer hypothesis minted + **Test D** written.
+- **2026-07-02 (desk sourcing)** — **[U32] → [K39]**: per-web `spiderdream0X` mapping publicly sourced ([#65], 8/8 match;
+  [S29] activated); **[H25] dry-check passed** ([#67]: no documented complete-set + sleep test); Strange Man shack
+  dossier built ([#68], [U35] minted).
+- **2026-07-02 (letters pass)** — **dev-initials CLOSED** as a working line (counts + coherence + placement); **[H26]**
+  waymarks reading minted (→ the 🎮 letter-sweep); [S34] "rock → Rockstar" rival for the guitar glyph.
+- **2026-07-02 (fresh-eyes pass)** — **[H24]** reds-as-decoys + **[H25]** payoff-is-a-DREAM minted → **Test C**;
+  corrected same day (geometry forces `BL56` before `B34`, ~2 nights); [S34]/[S35] + unminted asides logged
+  (home file: [decoy-and-dream-hypotheses.md](analysis/decoy-and-dream-hypotheses.md)).
+- **2026-06-21** — **[S31]** the 8 web positions form a body-centred figure (Saint Denis the lone far leg, p=0.0001);
+  **[S30]** the Cornwall engraving is a stylised spider, **not** a decodable bearing-map; [U32]/[S29] provenance audit
+  minted; **[K3]** Butterworth credits-corroborated (source #62); the **web-order field-test protocol** written;
+  Gertrude cipher battery → **null**; **[S28]** `EC`-as-key consolidation; **[U14] resolved-negative** (the mural is a
+  single red pigment → [H3]/[S12] refuted).
+- **2026-06-14** — **[H22]**: web order reframed to 3 solved sub-chains + an open cross-boundary COMBINE ([K29]
+  contradicts [H20]); **[U1] RESOLVED** → [K11]/[K12] (deep-research [#60]: exactly 2 shot-poles, no 3rd documented);
+  firsthand mechanics pass → **[K28]–[K31]** (I-beam boundaries, ≥12-day persistence, render-gating, membership
+  confirmed); the **colour×hour lattice** + [H18] filter grammar; [H19] socket reads; [H20] multi-night; [S22]/[H21]
+  B34 state-carry; CLAUDE.md verified-trail guardrail codified.
+- **2026-06-13** — Feather **orientation resolved** (tip-down → [H4] refuted) + order deflated to group-based ([U29]);
+  Saint Denis Vampire precedent ([K27]/[H15]/[H16]); in-game map grids captured ([K26], per-cell reading negative);
+  coordinate precedent [K25]/[H14]; letter-groups framework [H12] + "letters, not initials" ([U25]); thread 07 gang
+  roster + name-match pass ([S16]–[S19]); Reddit mining ([K21] boundaries, [K22] Bacchus heart, [K23]/[K24] GTA
+  crossover, [U24] Register Rock list); first feather captures filed.
 
 ## Recently resolved (don't re-litigate)
-- **[U8] → [K3]:** dev quote is **Adam Butterworth, ex-Rockstar QA** — confirms *real*, not *authored* (B/C-tier, single X post).
-- **[U13] downgraded:** **Spider Gorge** is wiki-only speculation; no secondary source — journalism points the marker at Fort Wallace.
-- **[U17] reframed / [K20]:** the spider mystery has **no in-game log at all**; the lingering log entry is the **dreamcatchers'** ([H8](findings/speculation.md) tests the link).
+- **[U1] → [K11]/[K12]:** the under-pole chain verbatim, multiply corroborated; **exactly 2 shot-poles, no 3rd**. Guitar *meaning* open at [U12].
+- **[U14] → resolved-negative:** the Window Rock mural is a **single red pigment** — no black/red split; codes by count + orientation → [H3]/[S12] refuted.
+- **[U0] orientation:** all 8 feathers hang **tip-down by gravity** → [H4] refuted; only the weak socket residual survives ([H19]).
+- **[U22] → [K31]:** web↔boundary membership firsthand-confirmed; boundaries overlap.
+- **[U26] deflated:** in-game grids captured ([K26]) but the per-cell reading tests negative (Map 2 admits only `EC`); [H14] survives as a free plot only.
+- **[U32] → [K39]:** the per-web file-number mapping is publicly sourced, not our back-fit.
+- **[U8] → [K3]:** dev quote is **Adam Butterworth, ex-Rockstar QA** — confirms *real*, not *authored*.
+- **[U13] downgraded:** **Spider Gorge** is wiki-only speculation; journalism points the marker at Fort Wallace.
+- **[U17] reframed / [K20]:** the spider mystery has **no in-game log at all**; the lingering log entry is the **dreamcatchers'** ([H8] tests the link).
 
 ---
 

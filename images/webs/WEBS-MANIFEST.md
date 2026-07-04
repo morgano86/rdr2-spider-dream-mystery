@@ -26,11 +26,34 @@ is our most likely encoding of that order, and capturing it is the single highes
   [`web_cable-mesh_datamine.png`](web_cable-mesh_datamine.png), which also marks the feather attach-points in the mesh). So
   each web is **not** a unique asset — what varies per web is **which attach-point/position the feather occupies**, confirmed by
   the 8 front shots showing visibly different positions. Deliberate per-web positioning: yes; unique per-feather files: no.
-- **Feather colours: 5 BLACK + 3 RED.** *(GameRant's "white" is imprecise journalism — the wiki + game-file dump agree it's
-  black.)* The **3 red** webs are **Saint Denis, Southfield, Scarlett**; the **5 black** are **Cornwall, Oil Fields, Overflow,
-  Emerald, Ringneck**.
+  ✅ The per-location numbers are now **publicly sourced (C-tier)** — [U32] resolved 2026-07-02, see the provenance note below ([K39]).
+- **Feather colours: 5 BLACK + 3 RED** (operative label — wiki + game-file dump agree on "black"). The **3 red** webs are
+  **Saint Denis, Southfield, Scarlett**; the **5 "black"** are **Cornwall, Oil Fields, Overflow, Emerald, Ringneck**.
+  ⚠️ **Correction (investigator data, 2026-07-03):** the non-red feathers are **two-toned** — a dirty white/grey on one
+  side, black on the other — visible depending on viewing angle/lighting. This means **GameRant's "white" was likely NOT
+  imprecise journalism** (the earlier dismissal here was wrong): it's plausibly the same feather described from its other
+  side, not a distinct error. Treat community mentions of these feathers as **"black," "white," "grey," or "dirty
+  white"** as probably referring to the **same 5-feather group** (vs the unambiguous 3 red) unless a source clearly
+  distinguishes a genuinely different asset — don't discard "white/grey" sightings as noise when cross-referencing sources.
+- **🆕 [K40] Every feather is DOUBLED — a main feather + a smaller secondary feather attached at the same socket, on all
+  8 webs** (investigator data, 2026-07-04: observed in-game across the set, final red confirmed the same day;
+  desk-corroborated in the [#59] front shots — see
+  [`feather-positions/README.md`](feather-positions/README.md#doubling-reads)). The doubling is a **uniform feature of
+  the shared feather model** — the same two-feather asset colour-tinted per group — so it carries **no per-web or
+  per-colour signal**. ⚠️ **Capture note:** the secondary can be **invisible from a front-on angle** (confirmed in-game
+  at a web whose front shot shows only one feather) — don't read a single-feather *photo* as a single-feather *asset*.
+  Partly reinterprets the 2026-07-03 "two-toned" note above: some "two-tone" sightings may actually have been the two
+  overlapping feathers (one greyer, one blacker).
 - Community **location codes** encode colour+time: first letter = colour (**B**=black, **R**=red, **BL**=a black variant),
   digits = the hour pair (e.g. `34` = 3–4 AM).
+
+> **⚠️ TIER on the per-web colour×hour data (provenance audit, 2026-06-21).** The **primary wiki ([B]) independently confirms
+> only**: the **aggregate** 5 black / 3 red ([K13]), **Saint Denis = 3–4 AM** (gallery), the **centre = 1–2 AM / no feathers /
+> `N`+pole**, and the *general* "2–3am, 3–4am, etc." night pattern. **Every other per-web hour AND per-web colour** in the table
+> below — i.e. the rest of the **colour×hour lattice** the corpus reasons from (§5c hour-twinning, [H19], [H20], [S29]) — comes from
+> the **[C]-tier community research site**, which has **already shown one error here** (the `R56`/`R34` Saint Denis mislabel, see
+> the caveat near the bottom). The lattice is most likely correct (it's internally clean and the de-facto authority for this egg),
+> but **deliberateness arguments built on its per-web precision inherit C-tier risk** until a per-web hour/colour is A/B-confirmed.
 
 ## The 8 webs + centre — master table
 *(Location/time/colour: KNOWN. Feather **orientation**: now CAPTURED for all 8 — uniformly **tip-down by gravity**, see the ★
@@ -38,16 +61,30 @@ note + [`feather-positions/`](feather-positions/); the per-web *attachment point
 names beyond Cornwall & Saint Denis are community-assigned, [LIKELY] not Rockstar-canonical. No published in-game coordinates
 exist for any pole.)*
 
+> **✅ PROVENANCE RESOLVED on the `File` column ([U32] → [K39], 2026-07-02).** The number→location assignment in this table is
+> **publicly sourced**: u/**Artem_ab6**'s datamine comment in the r/reddeadmysteries master thread (2026-01-02, [#65] — *"I was
+> able to locate in-game coordinates for each of the feathers, so here's the order according to the game files (testing)"*),
+> whose map overlay ([`web_map-overlay_file-numbers_datamine.png`](web_map-overlay_file-numbers_datamine.png)) **matches this
+> table 8/8**; the community site's Facts/Timeline pages echo it (same origin). So the numbering is a **genuine community
+> datamine, not a back-fit by our own corpus** — the back-fit-by-us worry raised on 2026-06-21 is closed, and the [#59]
+> *"Clockwise Order"* was that author's own photo sequence, not a rival file-mapping. **Consequence:** the structural finding
+> (colour-grouped 1–5=blacks / 6–8=reds; hour-twins sum to 11; ≈1/3360 by chance —
+> [`web_file_number_structure.py`](../../experiments/web_file_number_structure.py)) now attaches to **real file data**, activating
+> [S29] as a live (no longer conditional) C-tier deliberateness lead. ⚠️ **Residual tier:** single dataminer, self-flagged
+> *"(testing)"*, unreproduced — the same C-tier risk class as the per-web colour×hour lattice above; an independent dump would
+> upgrade C→A. Back-fit *by the source* can't be fully excluded, but "located in-game coordinates" is a concrete, checkable claim
+> and the author has a multi-year datamine track record.
+
 | # | Location | File | Code | Time | Feather | **Feather position / orientation** | Image | Status |
 |---|----------|------|------|------|---------|-----------------------------------|-------|--------|
-| 1 | **Cornwall** (Cornwall Kerosene & Tar — railway btwn Citadel Rock & Heartland Oil Fields) — **START / index pole, bears the spider engraving** | spiderdream03 | B34 | 3–4 AM | Black | tip-down; **centre** (head-on, high-conf) | [front](feather-positions/web_cornwall_b34_front.jpg)·[side](feather-positions/web_cornwall_b34_side.jpg) · `web_cornwall_b34_engraving.webp` | pos ✅ ([#59]) |
-| 2 | **Oil Fields** (Heartland Oil Fields) | spiderdream02 | B56 | 5–6 AM | Black | tip-down; **left** (head-on, high-conf) | [front](feather-positions/web_oil-fields_b56_front.jpg)·[side](feather-positions/web_oil-fields_b56_side.jpg) | pos ✅ ([#59]) |
-| 3 | **Overflow** (Heartland Overflow, New Hanover) | spiderdream05 | B23 | 2–3 AM | Black | tip-down; **left** (angled view, low-conf) | [front](feather-positions/web_overflow_b23_front.jpg)·[side](feather-positions/web_overflow_b23_side.jpg) | pos ~ ([#59]) |
-| 4 | **Emerald** (Emerald Ranch / Station) | spiderdream04 | B45 | 4–5 AM | Black | tip-down; **right** (angled view, low-conf) | [front](feather-positions/web_emerald_b45_front.jpg)·[side](feather-positions/web_emerald_b45_side.jpg) | pos ~ ([#59]) |
-| 5 | **Saint Denis** | spiderdream08 | R34 | 3–4 AM | **Red** | tip-down; **right** (angled view, low-conf) | [front](feather-positions/web_saint-denis_r34_front.jpg)·[side](feather-positions/web_saint-denis_r34_side.jpg) · `web_saint-denis_r34.webp` | pos ~ ([#59]) |
-| 6 | **Ringneck** (Ringneck Creek, Lemoyne) | spiderdream01 | BL56 | 5–6 AM | Black | tip-down; **left-of-centre** (angled, low-conf) | [front](feather-positions/web_ringneck_bl56_front.jpg)·[side](feather-positions/web_ringneck_bl56_side.jpg) | pos ~ ([#59]) |
-| 7 | **Southfield** (Southfield Flats, nr Saint Denis) | spiderdream07 | R45 | 4–5 AM | **Red** | tip-down; **centre** (med-conf) | [front](feather-positions/web_southfield_r45_front.jpg)·[side](feather-positions/web_southfield_r45_side.jpg) | pos ✅ ([#59]) |
-| 8 | **Scarlett** (Scarlett Meadows, Lemoyne) | spiderdream06 | R23 | 2–3 AM | **Red** | tip-down; **right** (angled view, low-conf) | [front](feather-positions/web_scarlett_r23_front.jpg)·[side](feather-positions/web_scarlett_r23_side.jpg) | pos ~ ([#59]) |
+| 1 | **Cornwall** (Cornwall Kerosene & Tar — railway btwn Citadel Rock & Heartland Oil Fields) — **START / index pole, bears the spider engraving** | spiderdream03 | B34 | 3–4 AM | Black | tip-down; **centre** (just right of axis; 4K firsthand, high-conf) | [front](feather-positions/web_cornwall_b34_front.jpg) · `web_cornwall_b34_engraving.webp` | pos ✅ (FH 4K) |
+| 2 | **Oil Fields** (Heartland Oil Fields) | spiderdream02 | B56 | 5–6 AM | Black | tip-down; **left** (4K firsthand, high-conf) | [front](feather-positions/web_oil-fields_b56_front.jpg) | pos ✅ (FH 4K) |
+| 3 | **Overflow** (Heartland Overflow, New Hanover) | spiderdream05 | B23 | 2–3 AM | Black | tip-down; **left** (4K firsthand, high-conf) | [front](feather-positions/web_overflow_b23_front.jpg) | pos ✅ (FH 4K) |
+| 4 | **Emerald** (Emerald Ranch / Station) | spiderdream04 | B45 | 4–5 AM | Black | tip-down; **right** (4K firsthand, high-conf) | [front](feather-positions/web_emerald_b45_front.jpg) | pos ✅ (FH 4K) |
+| 5 | **Saint Denis** | spiderdream08 | R34 | 3–4 AM | **Red** | tip-down; **right** (4K firsthand, high-conf) | [front](feather-positions/web_saint-denis_r34_front.jpg) | pos ✅ (FH 4K) |
+| 6 | **Ringneck** (Ringneck Creek, Lemoyne) | spiderdream01 | BL56 | 5–6 AM | Black | tip-down; **left-of-centre** (4K firsthand, high-conf) | [front](feather-positions/web_ringneck_bl56_front.jpg) | pos ✅ (FH 4K) |
+| 7 | **Southfield** (Southfield Flats, nr Saint Denis) | spiderdream07 | R45 | 4–5 AM | **Red** | tip-down; **centre** (hangs just right of the axis; 4K firsthand, high-conf) | [front](feather-positions/web_southfield_r45_front.jpg) | pos ✅ (FH 4K) |
+| 8 | **Scarlett** (Scarlett Meadows, Lemoyne) | spiderdream06 | R23 | 2–3 AM | **Red** | tip-down; **right** (4K firsthand, high-conf — old C-vs-R ambiguity resolved) | [front](feather-positions/web_scarlett_r23_front.jpg) | pos ✅ (FH 4K) |
 | C | **Centre cluster** (spider "body", between New Hanover & Lemoyne) | — | — | 1–2 AM | none | n/a — spells **`N`** + pole | `web_centre_n-pole_1-2am.webp` | image ✅ |
 
 Feather tally check: Black = Cornwall, Oil Fields, Overflow, Emerald, Ringneck = **5 ✅** · Red = Saint Denis, Southfield,
@@ -80,19 +117,75 @@ Scarlett = **3 ✅**.
 > (p=0.125); the only crisp structure is the **3 hour-twinned blacks sweeping `L→C→R` with the clock** (B23=L→B34=C→B45=R) and
 > the **5–6 AM pair B56/BL56 sharing hour+socket** (both `L`, reinforcing [K13b]). Socket is now a usable **weak** signal; raw
 > entity data would upgrade C→A but isn't needed to characterise it. Does **not** revive [H4] (socket ≠ orientation). Full
-> reads + method in [`feather-positions/README.md`](feather-positions/README.md). *(Supersedes the two `*_loc-unconfirmed.jpg`
-> "Zoological" captures.)*
+> reads + method in [`feather-positions/README.md`](feather-positions/README.md). *(Superseded the two "Zoological"
+> loc-unconfirmed captures, removed 2026-07-04.)*
+>
+> **🆕 Image-set upgrade (2026-07-04): the 8 front shots are now FIRSTHAND PS5 4K captures** (investigator photo mode,
+> 3840×2160), swapped in **file-for-file under the same names** — the [#59] originals (including the 8 side views,
+> removed the same day) remain in git history. Backgrounds independently confirm each web's location. **All 8 socket
+> reads re-verified at 4K: 8/8 unchanged, all now high-confidence** (Scarlett's C-vs-R ambiguity resolves to a clear
+> `R`); the reads are no longer C-tier-image-dependent, though still eyeballed pending raw entity data. The table
+> above reflects this; full detail in [`feather-positions/README.md`](feather-positions/README.md).
 
 ## Interaction ORDER (the most important open mechanic)
+> **⚡ File-numbers-as-order TESTED (desk, 2026-07-02 → [S38]).** First systematic test of this table's `File` column read
+> as an ordering ([`web_file_order_concordance.py`](../../experiments/web_file_order_concordance.py),
+> [results](../../experiments/results/web_file_order_concordance.md)): **negative-leaning** — no ordering principle
+> (chronology, [K13b] chain, [H19] socket sweep, geometry) beats chance; the numbers read as a structured **index**
+> ([S29]'s colour blocks), not a sequence. Two conditional candidates survive, forking on [H22] R1/R2: blacks **1→5 ASC**
+> (`BL56>B56>B34>B45>B23`, the one visible-state-feasible file-order read) and blacks **5→1 DESC** (= the [K13b] chain
+> with `B34` mid-run — hidden-flag-only). Byproducts: blacks feasibility ≡ "`BL56` before `B34`" (60/120, re-deriving the
+> [H24]-correction geometry); **all-8-visibly-down impossible (0/40320)**. A second premise-level frame was also minted
+> the same day: **[H27]** — the webs as a **witness/read layer** where shooting was never the input at all
+> ([solve-grammar.md](../../analysis/solve-grammar.md); cheapest discriminator = **Test D**, the no-shots tour).
+>
+> **⚡ Fresh-pass frame (2026-07-02, [H24]/[H25]; corrected same day).** The lattice below can be read as an **hourly
+> black-vs-red FORK** rather than a twinning — under [H24] the 3 reds are **decoys** and the candidate solve is the 5
+> blacks only, in **~2 nights** (investigator geometry correction: **`BL56` lies outside the orange boundary**, so it must
+> precede `B34` → `B34` on the later night, mechanically deriving the [U29] "B34 last" suspicion; night 1 = the [K13b]
+> chain in yellow, hold via [K29], night 2 = `B34` from the overlap), ending with the [H25] **sleep-in-boundary "dream
+> coda"** at the whiskey tree ([S23]). See [decoy-and-dream-hypotheses.md](../../analysis/decoy-and-dream-hypotheses.md)
+> and [web-order-field-test.md §Test C](../../analysis/web-order-field-test.md); rival readings [H20]/[H22] remain live.
+>
+> **Provenance of the boundaries themselves (investigator, 2026-07-02):** the [K21] boundaries were mapped by **two players
+> using the CodeX datamine tool** — shoot a feather, **teleport via coordinates**, return, observe reset; repeated until
+> each boundary's edges were fixed. They are **code-only entities** with no in-game visual (the orange/yellow/red names are
+> **community identification labels**, not game art), whose only observed function is **resetting feather state on player
+> exit** — yet overlaid on the map they read as intentional (N bar / S bar / N–S spine + deliberate overlaps). Why they
+> exist — and why `B34` alone gets a private oversized boundary reaching Butcher Creek/Fort Brennand/Valentine — is open
+> ([S22]/[H21]/[U29]).
+>
+> **⚠️ Provenance note (investigator, 2026-07-02) — CORRECTED by the same-day Reddit sweep:** the mapping *work* was done
+> **privately, in a Discord** the investigator is a member of, and most of the community still doesn't know the feathers
+> are boundary-bound — **but the outcome artefact WAS published:** u/Jay_0048 posted **"Feather's despawn zones"** to
+> r/reddeadmysteries on **2026-01-16** (122 pts, [#69](../../sources/sources.md)), stating the same method (*"shooting a
+> feather, and teleporting away as far as possible, testing each feathers despawn zone many times for accuracy"*) and
+> attaching the three-boundary map — saved as
+> [`web_map-overlay_despawn-zones_jay0048.jpg`](web_map-overlay_despawn-zones_jay0048.jpg) (the lower-quality Google-Site
+> duplicate of the same map has since been removed). So the earlier "do not expect a
+> public source" instruction was **too strong** (walked back, not deleted, per corpus norms); what remains firsthand-only
+> is the deeper *membership/persistence* layer ([K29]/[K31]). The mechanic itself stays **verified in-game firsthand**
+> (shoot → stay → feather stays down; leave → next night it's back; endurance → [K29], 14 consecutive nights, live-updated
+> moved position). See also [S36] — the boundary *shapes* argue hand-authored design, not engine-default state culling.
+>
+> **🆕 Community mechanics addenda (2026-H1 sweep, C-tier unverified — [#70], → [S39]):** the Feb-2026 test cluster splits
+> the rules by OBJECT, matching the [#52] two-object datamine (web = `cablemesh` drawable / feather = `spiderdream`
+> fragment): **(a)** webs can be **held active past their hour** — back away *without breaking gaze* to camping distance
+> and sleep (u/Distinct_Low353; 4 webs stacked at once), or **look away with active Dead Eye/Eagle Eye** (u/ColonelMakepeace;
+> web still up ~12 h later; works once per web) — both **web-visibility** exploits that extend [K30]'s gaze rules;
+> **(b)** a held web's **un-shot feather still vanishes** at its hour while the web persists — feather and web run separate
+> clocks; **(c)** **save/reload wipes web state** (the "ONE-SESSION rule") — untested against *feather shot-state* ([K29]
+> used camping/hotels, never reload) → **field-protocol implication: never save/reload mid-run.** None of this contradicts
+> the firsthand feather-state rules; it complements them.
 - **[KNOWN — investigator data, 2026-06-13 → [K21]]** **Feather respawn is boundary-gated.** A shot feather **drops to the
   ground (can't be picked up/interacted with)** and **does not respawn while you stay inside the boundary that web is tied
   to**; **leave the boundary and it respawns.** There are **three boundaries — north, south, and a connector linking them** —
   and multiple webs can share one. This is the *mechanism* behind the non-respawn "chain" below: it's **spatial**, not just a
   shot sequence.
 - **[KNOWN — investigator data, 2026-06-14 → [K31]; confirms [H9], resolves [U22]] The web↔boundary membership.** The *tied*
-  partition (firsthand-confirmed, matching the **Jay_0048 boundary map** [`web_map-overlay_boundaries.png`](web_map-overlay_boundaries.png)):
+  partition (firsthand-confirmed, matching the **Jay_0048 boundary map** [`web_map-overlay_despawn-zones_jay0048.jpg`](web_map-overlay_despawn-zones_jay0048.jpg)):
   **Top/North** = `B34` (Cornwall); **Middle/Connector** = `B23, B45, B56, B56L`; **Bottom/South** = `R23, R45, R34`. That
-  accounts for all 8 (1+4+3), and the **Connector set == the non-respawn chain** below. The map's legend typo "R56" = `R34`.
+  accounts for all 8 (1+4+3), and the **Connector set == the non-respawn chain** below.
   **Refinement — the boundaries OVERLAP**, so each boundary also physically *contains* (but is **not tied to**) some adjacent
   webs; shooting a contained-but-untied web triggers the **wrong** boundary's despawn (routing hazard):
 
@@ -120,7 +213,10 @@ Scarlett = **3 ✅**.
   hour** — a slow ride is fine if you don't look away; a feather shot this way registered and **kept its shot status** across a
   camp/night ([K29]). Likely anti-discovery, not puzzle logic — but it means: visit at the known spawn hour and *look away/back*
   (or keep it in view), don't wait while staring. ⚠️ **Open ([U30]):** can't tell whether a hit counts **whenever the feather is
-  shot while visible** or **only during the spawn hour** — untestable without the solution order.
+  shot while visible** or **only during the spawn hour** — untestable without the solution order. **Web-specific (investigator
+  2026-06-15):** the Butcher Creek **pentagram** ([K5], same [K15] technique + time-gating) **appears/disappears even while looked
+  at** — so render-gating is *not* a blanket engine behaviour, only the webs are hidden this way; reads as deliberate "hide the
+  webs, show the pentagram," a weak point *for* web intentionality ([U2]/[H22] R3).
 - **[KNOWN — investigator data, 2026-06-14 → [K28]] Boundary GEOMETRY = an I-beam / "工".** **North** spans **east–west**,
   **South** spans **east–west**, the **Connector** spans **north–south** (the vertical spine joining them); **all three overlap
   slightly near the map centre**, and that overlap **excludes the central featherless web**. Geographically grounds [H9]
@@ -164,22 +260,32 @@ Scarlett = **3 ✅**.
   "next-target" encoding can't be carried by the feathers. **What remains open** is the weaker *attachment-point* reading
   (which strand/quadrant), which does vary between webs — tracked under [U0], but it is not "orientation." Net: [H4] is largely
   dead; the order looks **group/boundary-based** ([H9]/[U29]), not feather-encoded.
-- **[SPECULATION]** Colour meaning (5 black / 3 red): honor mechanic? train lines? grouping? — debated, unresolved. Cross-ref
-  the **Window Rock Strange Statues** mural (documented tail-feather counts **2,3,5,7**) — note **5** and **3** both appear
-  there. See [analysis/connections.md](../../analysis/connections.md).
+- **[SPECULATION]** Colour meaning (5 black / 3 red): honor mechanic? train lines? grouping? — debated, unresolved. ⚠️ The
+  **Window Rock Strange Statues** mural cross-ref (tail-feather counts **2,3,5,7**; 5 and 3 appear there) is **dead as a colour
+  key**: [U14] tested the mural 2026-06-21 → it is a **single red pigment** with no black/red split
+  ([`mural_colour_count.py`](../../experiments/mural_colour_count.py)), so it codes by count+orientation, not colour. The web 5/3
+  split stands on its own ([H9]/[U29]). See [analysis/connections.md §5c](../../analysis/connections.md).
 
 ## Reference images we now hold (sourced 2026-06-13)
 - **All-webs labelled overlay** — [`web_map-overlay_all-labeled.jpg`](web_map-overlay_all-labeled.jpg): every web by name +
   code + hour on the in-game map, plus the Centre Web, the W-5-poles pole, and the NW Guitar Pole. The cleanest single map
   of *where* every web is (locations only — no feather orientation).
-- **Shooting-chain overlay** — [`web_map-overlay_shooting-chain.png`](web_map-overlay_shooting-chain.png) (credit Jay_0048):
-  colour-codes the non-respawn chain (`B23,B45,B56,B56L` yellow) — a visual of the Order section below.
-- **Boundary map** — [`web_map-overlay_boundaries.png`](web_map-overlay_boundaries.png) (credit Jay_0048): draws the **three
-  [K21] respawn boundaries** (north/south/connector) as coloured rectangles and assigns each web to one ([H9]). The richer
-  sibling of the shooting-chain map.
+- **Boundary / shooting-chain map** — [`web_map-overlay_despawn-zones_jay0048.jpg`](web_map-overlay_despawn-zones_jay0048.jpg)
+  (credit Jay_0048): draws the **three [K21] respawn boundaries** (north/south/connector) as coloured rectangles and
+  assigns each web to one ([H9]); also colour-codes the non-respawn chain (`B23,B45,B56,B56L` yellow) — a visual of the
+  Order section below.
 - **Cable-mesh datamine** — [`web_cable-mesh_datamine.png`](web_cable-mesh_datamine.png) (credit thecochiti): the web is built
   from four `cablemesh*` models; **yellow marks the feather positions in the mesh.** This is the closest thing online to
   feather-position data, but it's the *model's* attach points, **not** each pole's in-world feather orientation ([U0] still open).
+- **File-number datamine overlay** — [`web_map-overlay_file-numbers_datamine.png`](web_map-overlay_file-numbers_datamine.png)
+  (credit u/Artem_ab6, [#65], sourced 2026-07-02): every web labelled with its `spiderdream0X` file number on the game map —
+  **the public source of this table's `File` column** ([K39]; resolves [U32]).
+- **All-8 feather-position vector diagram** — [`web_diagram_feather-positions_vector.jpeg`](web_diagram_feather-positions_vector.jpeg)
+  (community-made, user-supplied 2026-07-04 — user recalls finding it on **Reddit**, exact post unpinned; C-tier): all 8
+  webs drawn as clean vectors, labelled hour+colour, feather at its socket. **Matches the [#59] socket table 8/8**
+  (including the two subtle calls — `B34` just right of the central radial, `R45` near-centre). ⚠️ One known inaccuracy:
+  it draws the **red feathers single**, but in-game **all 8 feathers are doubled** ([K40]). Because it so exactly
+  mirrors [#59], treat it as a **derived illustration, not independent evidence**.
 
 ## Best capture aids
 - **Video (lingers on each web):** *"Spider Webs Found After 7 Years! New RDR2 Mystery Explained"* —
@@ -188,10 +294,6 @@ Scarlett = **3 ✅**.
   (Timeline + Facts pages; a Canva decision-tree is linked there but wasn't machine-fetchable — open it manually).
   *Note: the site is JS-rendered — `WebFetch` strips its images; extract `lh3.googleusercontent.com` URLs from the raw page
   HTML instead. Its Facts page corroborates this table's location/time/colour data exactly.*
-
-> **Caveat — one community map mislabels Saint Denis.** Jay_0048's index legend lists the reds as `R23,R45,R56`, but the
-> markers (and the primary wiki) put the Saint Denis web at **R34** (3–4 AM). Trust **R34** per
-> [PRIMARY-wiki-spider-dream.md](../../sources/PRIMARY-wiki-spider-dream.md); the `R56` legend entry looks like a typo.
 
 ## Capture checklist (tick as done)
 **All 8 webs now have front+side feather-position shots** ([#59], 2026-06-13 → [`feather-positions/`](feather-positions/)).
@@ -203,4 +305,5 @@ attachment point — a desk task, not a capture task.
 - [x] **Read each web's socket** (L/C/R vs central radial) and test colour/[H9] correlation — done 2026-06-14 ([H19]): reads
   agree 8/8 with prior; colour↔side **not** significant (p=0.125); blacks sweep `L→C→R`; B56/BL56 co-located
 - [ ] Confirm/extend the shooting-order chain ([U29]); the feather-direction test is now closed (no per-web heading exists)
-- [ ] *(stretch)* upgrade the C-tier socket reads with raw per-instance entity placement (game files) — test the black `L→C→R` sweep
+- [x] **Re-shoot the 8 fronts firsthand** — done 2026-07-04 (PS5 photo mode, 4K); socket reads re-verified 8/8, all high-conf
+- [ ] *(stretch)* upgrade the eyeballed socket reads with raw per-instance entity placement (game files) — test the black `L→C→R` sweep

@@ -25,12 +25,12 @@ unsolved threads (Butcher Creek outhouse carvings, Heartland Oil Fields, Gertrud
 | [`INDEX.md`](INDEX.md) | **ID registry** — every `K`/`U`/`H`/`S` claim, its status, and the file that owns it. |
 | [`EVIDENCE-CHECKLIST.md`](EVIDENCE-CHECKLIST.md) | **Evidence worklist**, ordered by value — web-sourced + verified first, in-game capture only when strictly necessary. |
 | [`README.md`](README.md) | This file — overview, map of the mystery, and quick status. |
-| [`threads/`](threads/) | One file per investigative thread (01–06). Each separates **KNOWN / UNKNOWN / SPECULATION**. |
+| [`threads/`](threads/) | One file per investigative thread (01–09). Each separates **KNOWN / UNKNOWN / SPECULATION**. |
 | [`locations/`](locations/) | A dossier per place the mystery touches (geography, story role, the clue physically there). |
 | [`findings/`](findings/) | Cross-thread rollups: [known facts](findings/known-facts.md), [open questions](findings/unknowns.md), [speculation](findings/speculation.md). |
-| [`analysis/`](analysis/) | Working theories: [connections/letters](analysis/connections.md), [carving technique vs pareidolia](analysis/carving-technique.md), [narrative tie](analysis/narrative-connection.md), [cheat codes](analysis/cheat-codes.md), [dreamcatchers](analysis/dreamcatchers.md), [Saint Denis Vampire precedent](analysis/saint-denis-vampire.md), [GTA↔RDR2 crossover](analysis/gta-rdr2-crossover.md). |
+| [`analysis/`](analysis/) | Working theories: [connections/letters](analysis/connections.md), [carving technique vs pareidolia](analysis/carving-technique.md), [narrative tie](analysis/narrative-connection.md), [cheat codes](analysis/cheat-codes.md), [dreamcatchers](analysis/dreamcatchers.md), [Saint Denis Vampire precedent](analysis/saint-denis-vampire.md), [GTA↔RDR2 crossover](analysis/gta-rdr2-crossover.md), [Fort Wallace bird carving](analysis/fort-wallace-bird-carving.md), [decoy + dream hypotheses](analysis/decoy-and-dream-hypotheses.md), [solve grammar](analysis/solve-grammar.md), [web-order field test](analysis/web-order-field-test.md). |
 | [`experiments/`](experiments/) | Small Python scripts that **test** findings (combinatorics, ciphers, geometry, likelihoods) when reasoning isn't enough — results are evidence, not fact. |
-| [`sources/`](sources/) | [Source list](sources/sources.md) + the [full primary wiki text](sources/PRIMARY-wiki-spider-dream.md). |
+| [`sources/`](sources/) | [Per-claim source ledger](sources/sources.md), [resource directory + fetch recipes](sources/RESOURCES.md), the [full primary wiki text](sources/PRIMARY-wiki-spider-dream.md), and raw data (API JSON, `rdr2-credits.txt`). |
 | [`images/`](images/) | Screenshots/maps by location. Key file: the [**webs manifest**](images/webs/WEBS-MANIFEST.md) (per-web location · time · feather colour · position). |
 | [`INVESTIGATION_LOG.md`](INVESTIGATION_LOG.md) | Chronological log of what we did and decided. |
 
@@ -58,6 +58,13 @@ unsolved threads (Butcher Creek outhouse carvings, Heartland Oil Fields, Gertrud
    feathers) + a centre web marked **`N`**, and a directional puzzle (N → W×5 → NW + guitar) toward Fort Wallace / Spider Gorge.
 6. **[The bird carving → Calumet → the Giant](threads/06-bird-carving-giant-wapiti.md)** — your NW/Wapiti lead: the Fort
    Wallace bird symbols, the flock to the Giant (30-animals gate), and the (debunked) "Birds of Paradise plants."
+7. **[Van der Linde gang roster](threads/07-van-der-linde-roster.md)** — the full gang roster · fates · graves; doubles
+   as the in-fiction name list for testing the letter markings (`SM`=Sean MacGuire, `J+M`=John Marston hits, [S16]).
+8. **[Francis Sinclair / "Geology for Beginners" mural](threads/08-francis-sinclair-mural.md)** — a **separate**,
+   well-documented time-traveller egg with **no verified spider link**; watched because one of its rock carvings sits
+   NE of Fort Wallace, inside the frontier cluster ([K33]).
+9. **[Mount Shann sundial](threads/09-mount-shann-sundial.md)** — a **separate** mystery (stone-circle sundial with 7
+   painted arrows + a ~2 AM UFO); only bridge to us is the shared GTA V Mount Chiliad nod ([K38]/[K24]). Held skeptical.
 
 See **[analysis/connections.md](analysis/connections.md)** for the letter/number cross-links,
 **[carving-technique.md](analysis/carving-technique.md)** for the real-carving-vs-pareidolia test, and

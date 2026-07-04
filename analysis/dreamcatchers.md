@@ -92,12 +92,21 @@ dream + Native imagery** — which is why it keeps surfacing in community thread
 - The spider mystery and the dreamcatchers do **not literally share a log bug** — the spider mystery has **no log at all**
   ([K20](../findings/known-facts.md)); only the dreamcatchers have the lingering entry. H8 above is a *theory that connects*
   them, not an observed shared trait.
-- **New corroboration of the spider↔dreamcatcher link (2026-06-13, Reddit C-tier).** A datamine write-up (u/C0d3M3chan1c,
-  "gamedev take," since removed by mods) reports the **web feathers share the *exact* particle-effect configuration as the
-  dreamcatcher props — same `fxName`, same colour, same flags, same offset.** *If accurate*, that's a concrete asset-level tie
-  between the two systems, beyond the thematic "dream"/feather rhyme — and adds weight to **H8** (the spider mystery as the
-  dreamcatcher log's unfinished trigger) and to **H6** (shared "connect-the-points" design language). Still a single
-  unverifiable C-tier source (post deleted); not promoted past a lead. → [source #52](../sources/sources.md)
+- **New corroboration of the spider↔dreamcatcher link (2026-06-13, Reddit C-tier; full body recovered 2026-07-02).** A
+  datamine write-up (u/C0d3M3chan1c, "gamedev take," removed by mods but archived via Arctic Shift) reports the **web feathers
+  share the *exact* particle-effect configuration as the dreamcatcher props — same `fxName` (`vYYFKTA_0xC5876498`), same
+  colour (`4283860405`, steel-blue glow), same `flags=1`, near-identical offset** — a combination the author says appears
+  **only** on Native American/dreamcatcher props and the web feathers, game-wide. *If accurate*, a concrete asset-level tie
+  beyond the thematic "dream"/feather rhyme — weight for **H8** and **H6**. Single C-tier source, unreproduced (AI-assist
+  alleged; see the [#52] caveats); not promoted past a lead. → [source #52](../sources/sources.md)
+  **🔑 And it RECONCILES the [#66] tension (2026-07-02):** the recovered body makes an explicit distinction — the VFX link
+  runs through the **`p_indiandream` prop TEMPLATE**, while the **world-placed collectible dreamcatchers**
+  (`p_disdreamcatcherwind01x-05x`) **have no particle effects at all** (wind-sway only). That is exactly why slaytanic_666's
+  per-feather hashes ([#66]) found **nothing on the collectible dreamcatchers**: the two datamines probed **different asset
+  layers** and are **both consistent** — the link is at the *template* level, absent at the *collectible* level. The
+  standing "tension" between #52 and #66 is resolved as a layering artefact, not a contradiction. Implication for **H8**:
+  any wiring between the systems would live in shared templates/engine config, not in the collectibles the player touches —
+  which is also consistent with the same post's "zero script references" finding.
 
 ---
 
@@ -110,6 +119,12 @@ dream + Native imagery** — which is why it keeps surfacing in community thread
   name — but it's a **collectible's secret**, not a triggerable dream *sequence*. Doesn't confirm a cutscene exists.
 - **The trail's NW cold frontier (Fort Wallace onward):** the "find the **eye** of the drawn shape" mechanic (H7) is a
   concrete thing to look for before calling it cut content.
+
+> **⚠️ Asset-level negative added 2026-07-02 ([#66], C-tier).** u/slaytanic_666 pulled the 8 web-feather **entity hashes**
+> via Rampage and cross-checked: **none of them appears on any dreamcatcher** (the dreamcatchers' own feathers didn't even
+> show a hash), nor at Wapiti / the Native Burial Site. That's a datum *against* a direct **asset-level** feather↔dreamcatcher
+> link — in tension with [#52]'s (mod-removed, unreproduced) "same particle config" claim; different asset layers, both
+> C-tier. It does **not** touch [H8]'s log-clearing form, which is about quest-state, not shared assets.
 
 ## Open tasks
 - [ ] In-game: after completing the strand, screenshot the **journal drawing** and identify the **animal** (the eye = Elysian

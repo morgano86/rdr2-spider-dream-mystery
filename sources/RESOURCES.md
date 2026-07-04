@@ -54,7 +54,10 @@ see [`sources.md`](sources.md). When you find a resource you'll use again, add i
 - **Reddit r/reddeadmysteries** — https://www.reddit.com/r/reddeadmysteries/ · **C** — community discovery/discussion, and the
   **best source for in-world props the wiki ignores** (e.g. the `J+M`/`S+J`/arrow matchstick sets — [src #48–50](sources.md)).
   *Gotcha:* Reddit's own site + `.json` API **403-block** our fetcher (egress-IP block, UA tricks don't help) — use the **Arctic
-  Shift** mirror instead (recipe below). *To do:* locate a spider-mystery master thread ([gap](#gaps--still-wanted)).
+  Shift** mirror instead (recipe below). ✅ **The spider-mystery MASTER THREAD is pinned:** *"The Evergrowing Spiderweb
+  Theories"* (`1pzutww`, mod consolidation post, ~1,989 comments — [src #64](sources.md)); fetch its full comment tree with
+  `api/comments/tree?link_id=1pzutww` (the `comments/search?link_id=` route returns empty — use **tree**). It carries the
+  Iittlebird timeline (= the Google Site author), the Artem_ab6 file-number datamine ([#65]), and the slaytanic_666 hashes ([#66]).
 - **Community Google Site — "Spider Dreams Mystery"** — https://sites.google.com/view/spider-dreams-mystery/timeline · **C**
   A community tracker with **overlay maps, the web boundary/shooting-chain diagrams, and datamines** (credits visible on the
   images: **Jay_0048**, **thecochiti**). Source of several `webs/` images. *Gotcha:* JS-rendered — extract image URLs from the
@@ -86,11 +89,21 @@ Fandom and GTAForums **block automated fetch (HTTP 403)**. These are the workaro
   Fandom serves **WebP** regardless of the `.png` filename — name the saved file `.webp`.
 - **Tumblr images** (`64.media.tumblr.com/...`): same `curl`, but add a **referer** so the CDN serves it:
   `curl.exe -L -A "Mozilla/5.0" -e "https://reddeadreference.tumblr.com/" -o out.jpg "<url>"`.
+- **🆕 Fandom Discussions / forum posts (`fandom.com/f/p/<id>` — 403s + JS-rendered) — the Discussions API works (found
+  2026-07-04, used to fully capture [#43]):**
+  `https://reddead.fandom.com/wikia.php?controller=DiscussionThread&method=getThread&threadId=<id>&format=json`
+  (the `/f/p/<id>` number **is** the threadId for an OP). The OP text is in `jsonModel` (a JSON-encoded rich-text doc —
+  walk `content[]` nodes for `type:"text"`), plus `title`, `createdBy.name`, `creationDate.epochSecond`, `postCount`.
+  **Embedded images** are listed in `_embedded.contentImages[].url` → plain `static.wikia.nocookie.net/<uuid>` URLs,
+  downloadable with the standard CDN curl. *(Caveat: the reply-fetch endpoint `controller=DiscussionPost&method=getPosts`
+  returned the wiki's global recent posts, not the thread's replies — unsolved; OP + images usually suffice.)* Works for
+  `gta.fandom.com` too (same platform).
 - **GTAForums / any 403 page with no API:** browse manually, paste **verbatim** excerpts into the relevant thread file, cite the
-  source number in [`sources.md`](sources.md).
+  source number in [`sources.md`](sources.md). *(Wayback checked 2026-07-04 for the [#15] Gertrude thread: no snapshot.)*
 - **Reddit (403-blocks our fetcher — site, old.reddit, and `.json` alike; it's an egress-IP block, so UA spoofing won't help):**
   use the **Arctic Shift** community mirror, which is *not* blocked. Search a sub, then download the `i.redd.it` image (the CDN
-  is reachable). Worked first try 2026-06-13 to grab the matchstick sets:
+  is reachable). Worked first try 2026-06-13 to grab the matchstick sets. ⚠️ **Availability note:** on 2026-07-04 the API
+  returned `{"data":null,"error":"Under maintenance"}` — if that hits, retry later rather than assuming a block:
   - Search: `https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=SUB&query=QUERY&limit=25`
     (omit `subreddit` for a site-wide search → **400**; a subreddit is required). Each result's `url` field is the image link.
   - Full post detail (selftext, gallery `media_metadata`): `https://arctic-shift.photon-reddit.com/api/posts/ids?ids=ID1,ID2`.
@@ -104,5 +117,9 @@ Fandom and GTAForums **block automated fetch (HTTP 403)**. These are the workaro
 
 ## Gaps — still wanted
 - **Canonical Strange Man video URL(s)** — the originating documentation of the 2025 trail (currently only a search link).
-- **A Reddit r/reddeadmysteries master thread** for the spider mystery.
+- ~~**A Reddit r/reddeadmysteries master thread** for the spider mystery.~~ ✅ Found 2026-07-02 → `1pzutww` ([src #64](sources.md)).
 - **Rockstar credits / artbook scans** — only if the `LJ`/`SM` dev-initial question ever needs settling.
+- **An independent RDR2 asset dump** listing the `spiderdream0X` instance placements — would upgrade the [K39] mapping C→A.
+  *(Partial progress 2026-07-02: the recovered [#52] datamine independently confirms the 8 `spiderdream01x–08x` archetypes as
+  timed fragments — the file **structure** — but gives no per-web coordinates, so the [K39] number→location **mapping** is
+  still single-source.)*

@@ -47,8 +47,11 @@ were added in DLC/updates** — only the Nazar *callback* was. *(This is the use
 ## Madam Nazar's GTA Online fortune-machine lines that reference Red Dead
 
 The "Nazar Speaks" arcade machine cycles cryptic fortunes; **many name RDR2/RDO locations and characters that do not exist on
-GTA V's map** (confirming they're cross-game pointers, not GTA flavour). Documented list (#44; primary list = GTA Wiki *Nazar
-Speaks*, which 403s to auto-fetch):
+GTA V's map** (confirming they're cross-game pointers, not GTA flavour). Documented list (#44; **primary list = GTA Wiki *Nazar
+Speaks*, fetched directly 2026-07-04 via the MediaWiki API → [#75]** — the page route 403s but the API doesn't; the #44
+secondhand list checks out against it). 🆕 Primary-sourced detail on the number egg: the digits come as **three separate
+fortunes** (`123` / `764` / `5112`) and *"after hearing all three sequences, the player can reach Madam Nazar by **calling
+123-764-5112**"* — the callback is a functional **3-3-4 phone number** inside GTA Online (machine VA: Daniella Rabbani):
 
 | Fortune (quoted) | Refers to | Bears on our mystery? |
 |------------------|-----------|------------------------|
@@ -92,6 +95,32 @@ fortunes. Not found so far.
 > [`butcher-creek_outhouse-datamine-names_pentagram.png`](../images/butcher-creek/butcher-creek_outhouse-datamine-names_pentagram.png).
 > The names corroborate the asset grouping; the post's wider pentagram/constellation overlays are **one author's speculation**,
 > not adopted here. → [source #53](../sources/sources.md)
+>
+> **🆕 Extended 2026-07-02 ([#73], same author, 270 pts): the `magicstuff` pole located PHYSICALLY.** The entity
+> `but_01_magicstuff01` is a real telegraph pole standing at the centre of the Butcher Creek stick-effigy "ritual" —
+> **surrounded by 5 bundles of effigies (files: `teststicks`) laid out in a pentagram**; 4 groupings of 2 poles + 1 of 4;
+> tied-stick counts of **2, 3, or 5** per pole (primes — cf. the Strange Statues 2/3/5/7, though 7 is absent; noted, not
+> pressed). The pole visually duplicates a numbered `but_phpole07x00X` model yet is a **separately named entity** — i.e.
+> someone hand-placed a uniquely-named duplicate at the ritual's centre. No trigger or destructibility found. Also from the
+> [#52] recovery, the datamine layer now adds: **the Butcher Creek pentagram is built from the same timed-cablemesh system
+> (`CTimeArchetypeDef`) in the same cables folder as the webs** — a second *mechanical* (not just thematic) BC↔webs link,
+> feeding [U3]/[S22]/[H21]. All C-tier; corroborates [K24]'s asset-grouping claim from two directions.
+
+---
+
+## A *second* RDR2 egg that points at Mount Chiliad — the Mount Shann sundial ([K38], thread 09)
+
+Logged 2026-07-02 (user request) as a **separate mystery**, but it belongs in this file because it independently lands on the
+**same GTA V node** the webs use. The Red Dead Wiki's own Trivia for **Mount Shann** states its *"mysterious landmarks and the
+UFO… are a nod to Mount Chiliad from Grand Theft Auto V… which similarly features a UFO and some strange murals."*
+
+- So RDR2 nods at Chiliad from **two directions**: the **spider webs** (via shader + 1–2 AM gate, [K24]) and **Mount Shann**
+  (via a wiki-stated UFO/mural homage, [K38]). Mount Shann's **UFO is gated to ~2 AM** ([K37]) — the **same small-hours window**
+  as the webs' 1–2 AM ([K11]) and GTA V's Chiliad webs.
+- **What this does / doesn't mean.** It strengthens the general picture that Rockstar reuses a **"sacred mountain · UFO/mural ·
+  specific-hour reveal"** motif family across titles — but it is **not** evidence the sundial and the spider trail are one
+  puzzle. Most likely they are **siblings under that reused template**, resembling each other **without** a solvable in-RDR2
+  link ([S33]). Held open + skeptical at **[U34]**; the sundial's own arrow puzzle is **[U33]**. Detail: [thread 09](../threads/09-mount-shann-sundial.md).
 
 ---
 

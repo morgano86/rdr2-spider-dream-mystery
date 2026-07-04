@@ -66,7 +66,8 @@ mode is "the `?` carving leads to a hidden loft/reward." **Hold this line:**
   records (in practice, only feather *orientation*). Don't ask for an in-game screenshot when a verifiable web image exists.
 
 **The corpus:**
-- **`threads/01–06`** — one investigative thread each; the primary unit of detail.
+- **`threads/01–09`** — one investigative thread each; the primary unit of detail. (07–09 are adjacent context: the
+  gang-roster name list and two **separate** eggs — Francis Sinclair, Mount Shann — held at the boundary, not trail steps.)
 - **`findings/`** — cross-thread rollups (`known-facts.md`, `unknowns.md`, `speculation.md`). These **aggregate**
   the threads, so they must stay in sync: a fact stated in a thread should be reflected here and vice-versa.
 - **`analysis/`** — working theories (letter/number connections, carving-vs-pareidolia test, narrative tie, cheat codes).
