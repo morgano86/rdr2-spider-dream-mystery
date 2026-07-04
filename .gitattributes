@@ -1,0 +1,14 @@
+# Keep text files LF in the working copy on all platforms (stops autocrlf churn/warnings)
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+
+# Images are binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
