@@ -92,6 +92,9 @@ every `U#` in `findings/unknowns.md` — even when the detailed write-up lives i
 
 - **Log every working session** at the top of `INVESTIGATION_LOG.md`: what you did, what you learned, what changed.
 - **Convert relative dates to absolute** (this repo dates entries explicitly, e.g. `2026-06-13`).
+- **Commit whenever you add information.** Every session that changes the corpus ends with a `git commit` (themed
+  commits are fine when a session did distinct things). Never leave evidence unversioned across sessions — firsthand
+  captures especially are irreplaceable (a 3-week uncommitted backlog nearly lost the PS5 4K image set, 2026-07-04).
 - **Firsthand investigator data** (the user's in-game observations) is recorded as high-trust even when web search
   can't corroborate it — label it as investigator data with the date, don't discard it for lacking an online source.
 - When you adversarially refute a claim, **say so and soften the wording** rather than deleting the history (see how
