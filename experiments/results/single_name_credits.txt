@@ -1,0 +1,11 @@
+# Single-name (mononym) credits -- LEAD LIST, not matches.
+# Source: rdr2-credits.txt (6345 people); 2 credited by a single name.
+# Why they matter: a mononym/stage name can hide a fuller REAL name whose initials match a marking
+# (e.g. 'Lazlow' = Jeffrey Crawford "Lazlow" Jones -> LJ). The auto first+last rule skips these,
+# so they need a by-hand real-name check. Inclusion here is NOT a match. [SPECULATION] until sourced.
+
+Ajay
+Associate AI/Gameplay Programmer, Rockstar India
+
+Lazlow
+Director Audio Content, Rockstar Games

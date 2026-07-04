@@ -1,0 +1,303 @@
+# Outhouse carved initials (LJ, SM) [K6] -- credits matches
+# Source: rdr2-credits.txt (6345 credited people)
+# Rule: FORWARD-ONLY -- first-name initial = X AND last-name initial = Y, in the marking's written order
+#       (e.g. EC = E.____ firstname, C.____ lastname; reversed C/E is NOT a match).
+# Tier = seniority HEURISTIC to aid elimination, NOT fact.
+# A match here is [SPECULATION] at most -- with ~6.3k staff, some match is near-certain (see summary).
+
+======================================================================
+== LJ  (letters L/J)  -- 5 auto matches (4 senior+; 0 exec/dir, 1 lead) + 1 manual ==
+======================================================================
+
+--- MANUAL (auto rule can't catch; provenance + [SPECULATION]) ---
+Lazlow   [manual]
+Director Audio Content, Rockstar Games
+    ^ Credited mononymously as 'Lazlow' = Jeffrey Crawford "Lazlow" Jones (Wikipedia, B/C). Community reading: LJ = Lazlow Jones. Tie is thin -- as Director of Audio Content you'd expect AUDIO-led clues; only the guitar near the trail end is audio-adjacent (user note, 2026-06-21). [SPECULATION]
+
+--- LEAD ---
+Lee Johnson
+HR Manager, Rockstar Lincoln
+
+--- SENIOR ---
+Lavanya Jayaram
+Senior Administrator: Network Operations Center, Rockstar India
+
+Lino 'Lean' Jean
+Senior Learning & Engagement Specialist, Rockstar Games
+
+Lewis Johnstone
+Senior QA Tester: Functionality, Rockstar Dundee
+
+--- CRAFT ---
+Lillian Joyce
+Associate Production Coordinator: Dialogue Design, Rockstar Games
+
+======================================================================
+== SM  (letters S/M)  -- 87 auto matches (51 senior+; 7 exec/dir, 9 lead) ==
+======================================================================
+
+--- EXEC/DIR ---
+Silas Morse
+Design Director: Systems, Rockstar San Diego
+
+Scott Mitchell
+Design Producer: Missions & Story Flow, Rockstar North
+
+Stefan Mohrhardt
+Producer: Environment, Rockstar North
+
+Simon Miele
+Producer: Live Operations, Rockstar North
+
+Steven Messinger
+Senior Design Director: Open World Events, Rockstar San Diego
+
+Sean MacKenzie
+Senior Vice President of Information Technology, Rockstar Games
+
+Sean Macaluso
+Vice President of Talent Relations, Rockstar Games
+
+--- LEAD ---
+Stephen Mears
+Lead Asset Specialist: Resource, Rockstar North
+
+Suresh Madhavan
+Lead Systems Administrator, Rockstar India
+
+Steve McGagh
+Lead Tools Programmer, Rockstar Lincoln
+
+Sabrina Malana
+Lead UI/UX Designer, Creator Platform, Rockstar Leeds
+
+Simon Moles
+Principal Designer: Systems, Rockstar North
+
+Steve Macpherson
+Principal Engine Programmer, Rockstar North
+
+Siddhant Mohan
+Production Manager, Rockstar India
+
+Stuart Massie
+Project Manager, Rockstar San Diego
+
+Steve Martin
+Studio Manager, Rockstar San Diego
+
+--- SENIOR ---
+Suresh Mariyani
+Assistant Manager - Facilities, Rockstar India
+
+Sharan Mudoor
+Associate CX LiveOps Manager, Rockstar India
+
+Samit Marandi
+Associate Lead Asset Specialist: Face Resource, Rockstar India
+
+Steven Mulholland
+Associate Principal Artist: Environment, Rockstar North
+
+Sathish Manoharan
+Associate Principal Artist: Vehicles, Rockstar India
+
+Shreya Menon
+Senior Animation Content Developer: Gesture, Rockstar India
+
+Siddharth Mundi
+Senior Animator: Ambient, Rockstar India
+
+Siva Ramakrishna Marri
+Senior Animator: Ambient, Rockstar India
+
+Sagar Morje
+Senior Animator: Face, Rockstar India
+
+Shoban Kumar Mageswari
+Senior Animator: Face, Rockstar India
+
+Sanoj Madaswamy
+Senior Animator: Gameplay, Rockstar India
+
+Sumanth Matlapudi
+Senior Animator: Gameplay, Rockstar India
+
+Shane Mitchell
+Senior Animator: Gameplay, Rockstar Leeds
+
+Sambhaji Madhav
+Senior Artist: Environment, Rockstar India
+
+Siva Prasad Manepalli
+Senior Artist: Environment, Rockstar India
+
+Srinivas Mamadapalli
+Senior Artist: Environment, Rockstar India
+
+Sarah Matulis
+Senior Artist: Environment, Rockstar North
+
+Soumen Chandra Mandal
+Senior Artist: Props, Rockstar India
+
+Scott MacAulay
+Senior Code Production Associate, Rockstar North
+
+Simon J. McDonnell
+Senior Game Tools Programmer, Rockstar North
+
+Scott McLean
+Senior Graphic Designer: 2D Design, Rockstar North
+
+Sebastian Maldonado
+Senior Nuke Compositor, Rockstar Games
+
+Sarah McFadden
+Senior Production Coordinator, Rockstar North
+
+Sagnik Mukherjee
+Senior Production Coordinator: Face, Rockstar India
+
+Snehal Mahajan
+Senior Production Coordinator: Gameplay, Rockstar India
+
+Sahil Mathur
+Senior Production Coordinator: Technical Content, Rockstar India
+
+Samuel David Mills
+Senior QA Tester: Functionality, Rockstar Lincoln
+
+Simon Moss-Carbert
+Senior QA Tester: Functionality, Rockstar Lincoln
+
+Sam Madden
+Senior QA Tester: Functionality, Rockstar North
+
+Sean McClenaghan
+Senior Software Analyst, Rockstar San Diego
+
+Sanjivi Muttena
+Senior Software Engineer, Data Engineering, Rockstar Games
+
+Shane McKee
+Senior Systems Engineer, Rockstar London
+
+Shriram Moni
+Senior Technical Artist, Rockstar India
+
+Shibu Menon
+Senior Technical Artist: Animation, Rockstar London
+
+Stuart McInally
+Senior Technical Artist: Rigging, Rockstar North
+
+--- CRAFT ---
+Sagar Mehta
+Animator: Gameplay, Rockstar India
+
+Sayantan Mukherjee
+Animator: Gameplay, Rockstar India
+
+Steven Mirasola
+Animator: Motion Capture, Rockstar Toronto
+
+Shubhroneel Mukherjee
+Animator: Scripted, Rockstar India
+
+Sadguna Mohanty
+Artist: Environment, Rockstar India
+
+Sreenath Miriyala
+Artist: Environment, Rockstar India
+
+Sunny Mallurkar
+Artist: Environment, Rockstar India
+
+Shubham Mittal
+Artist: Props, Rockstar India
+
+Sourav Mazumdar
+Associate Animator: Ambient, Rockstar India
+
+Shyamajeet Majumdar
+Associate Animator: Cinematics, Rockstar India
+
+Subhayan Mukherjee
+Associate Artist: Props, Rockstar India
+
+Suraj Menon
+Associate Artist: Props, Rockstar India
+
+Sarkis Martikian
+Associate Designer: World & Population, Rockstar Toronto
+
+Slater McArdle
+Associate Software Engineer, Rockstar San Diego
+
+Simonas Maziliauskas
+Community Coordinator, Creator Platform, Rockstar Games
+
+Samantha Martin
+Designer: Missions, Rockstar North
+
+Salah Malik
+Financial Analyst, Rockstar Games
+
+Shantanu Mane
+Gameplay Programmer, Rockstar Toronto
+
+Sam Mellor
+Graphics Programmer, Rockstar Australia
+
+Shobha Mohan
+Production Coordinator, Rockstar India
+
+Sarah Malikov
+Production Coordinator: QA, Rockstar North
+
+Salvatore Manzella
+Technical Artist, Rockstar London
+
+--- junior ---
+Soumak Motayed
+Administrator: Network Operations Center, Rockstar India
+
+Sai Radha M.
+Associate Animation Content Developer: Retargeting, Rockstar India
+
+Shankar Kovili Menon
+Associate QA Tester: Art, Rockstar India
+
+Samrat Mukherjee
+Associate QA Tester: Functionality, Rockstar India
+
+Sasanka Medhi
+Associate QA Tester: Functionality, Rockstar India
+
+Sheena Malam
+Associate QA Tester: Functionality, Rockstar Lincoln
+
+Suraj Mehan
+HR Advisor, Rockstar Dundee
+
+Stanley Maria
+NOC Administrator, Rockstar India
+
+Shane Mitchell
+QA Tester, Rockstar Lincoln
+
+Sahil Memon
+QA Tester: Art, Rockstar India
+
+Steven Mewhirter
+QA Tester: Functionality, Rockstar Dundee
+
+Sam Miller
+QA Tester: Functionality, Rockstar Lincoln
+
+Stefano Massetto
+QA Tester: Localisation - Italian, Rockstar International
+
+Samuel Montano
+Systems Administrator, Rockstar San Diego

@@ -34,8 +34,12 @@ the entry point to the Spider Dream clue chain.
 
 ## [UNKNOWN]
 
-- **What `LJ` and `SM` stand for.** Common community claim: **developer initials**. The user disagrees and suspects they are
-  an in-fiction clue. Unresolved — this is a core question for us. See [the initials analysis](../analysis/connections.md).
+- **What `LJ` and `SM` stand for** ([U4]). Common community claim: **developer initials** — **CLOSED as a working line
+  2026-07-02** (user call + three stacked desk grounds: counts unfalsifiable across 6,345 credits; coherence asymmetry — `LJ`,
+  the tightest-tied marking, has *zero* world-building senior matches, and Lazlow fits only via a stage name as an **audio**
+  director on a chain with **no audio clues**; and the letters are co-carved with a *functional* pointer). The in-fiction
+  reading is the frame; the *meaning* stays open. Newest candidate: the **waymark reading [H26]** — see
+  [connections §1/§1b](../analysis/connections.md).
 - **Exact placement/orientation** of each carving on outhouse #4 ("back of toilet number 4") and whether `LJ` and `SM` are
   one carving or two distinct marks. Needs a clean in-game screenshot.
 - **Why six and seven tallies** appear at Fort Brennand when Butcher Creek used 1–5. Is the count itself a code
@@ -59,10 +63,16 @@ the entry point to the Spider Dream clue chain.
 
 ## [SPECULATION]
 
-- **User hypothesis (flagged for testing):** `LJ` / `SM` are **not** developer initials but a **clue internal to the
-  mystery** — e.g., character initials, or a cipher that pairs with the oil-field matchsticks `J+M`. Note the shared
-  letters **J, M** appear in *both* the toilet carving and the oil-field matchsticks, but **connect differently** (`LJ SM`
-  vs `J+M`). See [connections](../analysis/connections.md) for the letter-set analysis (L, J, S, M).
+- **User hypothesis (flagged for testing → now the working stance, [S1]):** `LJ` / `SM` are **not** developer initials but a
+  **clue internal to the mystery** — e.g., character initials, or a cipher that pairs with the oil-field matchsticks `J+M`. Note
+  the shared letters **J, M** appear in *both* the toilet carving and the oil-field matchsticks, but **connect differently**
+  (`LJ SM` vs `J+M`). See [connections](../analysis/connections.md) for the letter-set analysis (L, J, S, M).
+- **H26 (fresh-pass, 2026-07-02) — the letters as WAYMARKS:** the pair's *presence* marks a designed node; the content decodes
+  keep failing because there is no payload. Predicts **undiscovered letter-pairs at other verified nodes** — a live 🎮 sweep
+  (Fort Brennand, pole sites, Fort Wallace). Motivated partly by this thread's own **discovery-lag precedent** (user,
+  2026-07-02): the Fort Brennand pointer carving on outhouse #4 took **~7–8 years** to find despite sitting beside a tally
+  known for years — hidden content clusters *at* known sites, closer than anyone looked.
+  → [connections §1b](../analysis/connections.md)
 - The tally counts could be a **numeric key** that links to Gertrude's number recitation (thread
   [04](04-gertrude-numbers.md)) — both are "numbers hidden in/near outhouses."
 - The pentagram + early-morning visibility may encode a **time + shape** lock (be here, at this hour, read the shape).

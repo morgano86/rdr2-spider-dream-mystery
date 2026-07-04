@@ -1,0 +1,83 @@
+Mystery-letter <-> candidate-name matcher
+====================================================================
+Markings: LJ, SM, EC, J+M, S+J
+Full multiset: {C, E, J, J, J, L, M, M, S, S}  (unique: C, E, J, L, M, S)
+Candidate pool: 26 Register Rock entries + 3 notable-dev (PROVISIONAL)
+GATE: Register Rock relevance depends on H11 (unconfirmed).
+
+RULE A  -- marking = ONE person's two initials (order-insensitive)
+--------------------------------------------------------------------
+  LJ   -> none
+  SM   -> none
+  EC   -> none
+  J+M  -> HIT   Jasper Munson  [rock:full]
+  J+M  -> HIT   mark: Jm  [rock:mark]
+  S+J  -> none
+
+RULE B  -- marking = TWO people, one letter each (Register Rock only)
+--------------------------------------------------------------------
+  LJ    L: NONE  |  J: 4 (J. Brooks, J. V. Henry, Jasper Munson...)  <-- has an empty leg
+  SM    S: 5 (S. Gray, mark: R.S, mark: R.S.G...)  |  M: 10 (Jasper Munson, R. Mack, Henry Matilda...)
+  EC    E: 1 (mark: E M / S)  |  C: 1 (C. Riley)
+  J+M   J: 4 (J. Brooks, J. V. Henry, Jasper Munson...)  |  M: 10 (Jasper Munson, R. Mack, Henry Matilda...)
+  S+J   S: 5 (S. Gray, mark: R.S, mark: R.S.G...)  |  J: 4 (J. Brooks, J. V. Henry, Jasper Munson...)
+
+RULE C  -- does each mystery letter appear as ANY initial? (Register Rock)
+--------------------------------------------------------------------
+  C: present
+  E: present
+  J: present
+  L: ABSENT
+  M: present
+  S: present
+
+Letters in the mystery set MISSING from Register Rock: L
+
+VAN DER LINDE GANG  (thread 07) -- the in-fiction character name list
+--------------------------------------------------------------------
+RULE A  -- marking = ONE gang member's two initials (first + last):
+  LJ   -> none
+  SM   -> HIT   Sean MacGuire  [gang]
+  EC   -> none
+  J+M  -> HIT   John Marston  [gang]
+  J+M  -> HIT   Jack Marston  [gang]
+  S+J  -> none
+
+RULE C  -- each mystery letter present as a gang initial?
+  C: present
+  E: present
+  J: present
+  L: present
+  M: present
+  S: present
+  -> MISSING from the gang: (none)
+
+PER-GROUP [H12] -- Rule-A one-person hits vs Register Rock (gated on H11)
+--------------------------------------------------------------------
+  group1_carved      {J,L,M,S}  -> 0/2 markings hit (none)
+  group2_matchstick  {C,E,J,J,M,S}  -> 1/3 markings hit (J+M)
+  hybrid_LJ_SM_EC    {C,E,J,L,M,S}  -> 0/3 markings hit (none)
+  jplusM_node        {J,M}  -> 1/1 markings hit (J+M)
+
+PER-GROUP [H12] -- Rule-A one-person hits vs Van der Linde gang (thread 07)
+--------------------------------------------------------------------
+  group1_carved      {J,L,M,S}  -> 1/2 markings hit (SM)
+  group2_matchstick  {C,E,J,J,M,S}  -> 1/3 markings hit (J+M)
+  hybrid_LJ_SM_EC    {C,E,J,L,M,S}  -> 1/3 markings hit (SM)
+  jplusM_node        {J,M}  -> 1/1 markings hit (J+M)
+
+SUMMARY (evidence, not fact -- [SPECULATION]; coincidence-odds caution applies)
+--------------------------------------------------------------------
+  REGISTER ROCK (gated on H11):
+    + J+M = 'Jasper Munson' + 'Jm' mark;  S+J <- 'S. Gray' (S leg, Caliga Hall)
+    - no LJ/SM/EC as one person; L and a clean E.C absent.
+  VAN DER LINDE GANG (thread 07):
+    + EXACT one-person hits: SM = Sean MacGuire;  J+M/JM = John (& Jack) Marston
+    + supplies the L the rock lacked (Lenny Summers / Leopold Strauss)
+    - EC: no single E.C. member and no E-FIRST-NAME (E exists only as
+      Javier Escuella's surname) -> EC stays the odd one out, matching its
+      isolated graph component + the Annabella-desk negative (U16).
+  NB ~27 gang members => some initial overlap is expected by chance; the
+     signal is that the EXACT hits are MAJOR characters (Sean, John), not the
+     proof. EC's persistent non-match across every name source is itself the
+     interesting result.

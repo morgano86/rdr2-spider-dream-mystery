@@ -62,7 +62,10 @@ spelling **"EC"** beside the **Black Widow spider cigarette card**. `J+M` is one
   (above) — the open question is the **cipher/relationship**, not the spots.
 - **The arrow match-set's location** (the other three are pinned). Treated as a stash pointer regardless.
 - **Whether the oil-field "KEEP YOUR DREAMS LIGHT" carving is connected** to the mystery at all, or is just a cheat-code
-  Easter egg that happens to say "dreams."
+  Easter egg that happens to say "dreams." **Candidate function proposed 2026-07-02 → [H25]:** the carving's site is also
+  **web `B56`'s location** — the final-hour (5–6 AM = first light) stop of the chronological black run — re-read as a
+  **finish-line instruction**: finish at dawn, then **sleep/dream in-boundary** (the never-tried step, [U11]). Sharpened
+  [S6]; still [SPECULATION]. → [decoy-and-dream-hypotheses.md](../analysis/decoy-and-dream-hypotheses.md)
 
 ## [SPECULATION]
 
@@ -102,7 +105,14 @@ spelling **"EC"** beside the **Black Widow spider cigarette card**. `J+M` is one
   creative leads** (e.g. Sam & Dan Houser, key directors) would plausibly be honoured this way, and even then not as a *set of
   matchstick puzzles next to a Black Widow card at four themed locations*. **Working stance:** treat the matchstick letters as
   an **in-fiction mystery** (related to the spider puzzle or a parallel one); only bother checking dev initials against the
-  **short list of high-ranking/notable people**, and even a hit there is suggestive, not proof.
+  **short list of high-ranking/notable people**, and even a hit there is suggestive, not proof. **⚠️ CLOSED as a working line
+  2026-07-02** — the full-credits counts + coherence tests ([connections §1](../analysis/connections.md)) confirmed this
+  empirically; dev-initials is no longer tested by default (history retained; reopenable by a sourced dev statement).
+- **H26 (fresh-pass, 2026-07-02) — the WAYMARK reading:** the letters (carved *and* matchstick) may be a **signature system
+  marking designed nodes**, not a cipher payload — which would explain why every content decode in this file fails while the
+  *placement* keeps landing on mystery sites. Under [H26], "are the matchsticks part of the spider puzzle or a separate
+  mystery?" partially dissolves: they mark membership in **one designed constellation**; whether that constellation is one
+  puzzle or several is the same open [U3]. → [connections §1b](../analysis/connections.md)
 - **⚠️ "Initials" is itself a hypothesis ([U25], user 2026-06-13).** The **[KNOWN]** is only that these are **letters** displayed
   as bare pairs (`LJ`,`SM`) and `+`-pairs (`J+M`,`S+J`,`EC`). Whether they're **initials of names** is [SPECULATION]. Two
   **non-name** readings were tested (see [connections §1a](../analysis/connections.md)):
@@ -123,6 +133,9 @@ spelling **"EC"** beside the **Black Widow spider cigarette card**. `J+M` is one
 - [x] Read the **letters to Annabella** at Vetter's Echo in full *(2026-06-13)* — **two poems**; recipient "Annabella" (first
       name only), author **unsigned** (implied Vetter / P.H.V.). **No `E.C.`** — closes [U16] negative.
 - [ ] Investigate **why these four sites** — is there a relationship between the letter-pairs and their locations?
+- [ ] **Prop-correspondence check (2026-07-02):** catalogue every named prop *beside* each match set and test initial-matches —
+      e.g. the **Maude Engel photo** beside `J+M` supplies an **M** (the William Sletcher card does not supply a J, so this is
+      1-of-2 at best — a small test, not a theory). Do the `EC` and `S+J` sites have any named props at all?
 - [ ] If checking dev initials at all, check **only** founders/senior leads (Houser brothers, key directors) — not the full
       credits (see the weighted-down note above). Treat any hit as suggestive, not proof.
 

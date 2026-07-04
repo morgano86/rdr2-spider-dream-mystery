@@ -1,0 +1,311 @@
+# Matchstick initials (EC, J+M, S+J) [K9] -- credits matches
+# Source: rdr2-credits.txt (6345 credited people)
+# Rule: FORWARD-ONLY -- first-name initial = X AND last-name initial = Y, in the marking's written order
+#       (e.g. EC = E.____ firstname, C.____ lastname; reversed C/E is NOT a match).
+# Tier = seniority HEURISTIC to aid elimination, NOT fact.
+# A match here is [SPECULATION] at most -- with ~6.3k staff, some match is near-certain (see summary).
+
+======================================================================
+== EC  (letters E/C)  -- 13 auto matches (7 senior+; 2 exec/dir, 3 lead) ==
+======================================================================
+
+--- EXEC/DIR ---
+Elizabeth Cho
+Animation Producer: Cinematics, Rockstar San Diego
+
+Eoin Callan
+Art Director: Props, Rockstar North
+
+--- LEAD ---
+Eilidh Crawford
+HR Operations Manager, Rockstar North
+
+Euan Craik
+Lead QA: Technical, Rockstar North
+
+Elliott Chatham
+Principal Artist: Environment, Rockstar North
+
+--- SENIOR ---
+Expedi Castilla
+Senior Artist: In-Game Media, Rockstar North
+
+Erica Campbell
+Senior QA Tester: Art, Rockstar Lincoln
+
+--- CRAFT ---
+Ewan Michael Alexander Clarke
+Associate Systems Engineer, Rockstar Lincoln
+
+Eric Chu
+Gameplay Programmer, Rockstar Toronto
+
+--- junior ---
+Eleanor Campbell
+Associate QA Tester: Localisation - French, Rockstar Lincoln
+
+Ed Corcoran
+On-Set Continuity Operator, Rockstar Games
+
+Eliyahu Cohen
+Production Assistant, Rockstar Games
+
+Emma Cotton
+QA Tester: Build Verification, Rockstar Lincoln
+
+======================================================================
+== J+M  (letters J/M)  -- 58 auto matches (32 senior+; 6 exec/dir, 12 lead) ==
+======================================================================
+
+--- EXEC/DIR ---
+Javi Martin
+Associate Music Producer, Rockstar North
+
+Justin Moriarty
+Cinematic Video Artist Director, Rockstar Games
+
+John MacPherson
+Senior Design Director: World & Population, Rockstar Toronto
+
+Jurgen Mol
+Senior Producer: Release Management, Rockstar International
+
+James Miller
+Vice President of Technology: R&D, Rockstar Los Angeles
+
+Josh Moskovitz
+Vice President, Product and Brand Marketing, Rockstar Games
+
+--- LEAD ---
+Jon Mayes
+Lead Media Systems Engineer, Rockstar Games
+
+James Morrison
+Lead QA: Functionality, Rockstar Lincoln
+
+Janyne Martini
+Lead QA: Localisation, Rockstar Lincoln
+
+Jonathan Martin
+Lead Software Engineer, Rockstar North
+
+Jose-Andres Medina
+Manager, Software, Rockstar North
+
+John Ma
+Manager: Operations, Rockstar Games
+
+Jill Menzies
+Principal Graphic Designer: 2D Design, Rockstar Games
+
+John Mariakis
+Project Manager: In-World Photography, Rockstar Games
+
+Jennifer Ma
+Senior Advertising Manager, Rockstar Games
+
+John Moore
+Senior Lead PC Client Engineer, Rockstar Toronto
+
+Jack Mackay-Stokes
+Senior Manager, Partnerships, Rockstar International
+
+James McHale
+Workplace Manager, Rockstar Leeds
+
+--- SENIOR ---
+Jonny Martyr
+Associate Lead UX Designer: Tools, Rockstar North
+
+Jeremie Mallette-Lachance
+Associate Principal AI/Gameplay Programmer, Rockstar Toronto
+
+John Marcial
+Associate Principal Designer: World & Population Content, Rockstar Toronto
+
+John McAlonan
+QA Senior, Rockstar Lincoln
+
+Jenna Memmolo
+Senior AI/Gameplay Programmer, Rockstar Toronto
+
+Jorgie Mathew
+Senior Administrator: Network Operations Center, Rockstar India
+
+James Martinchek
+Senior Animator, Rockstar San Diego
+
+Jitesh Yashavanth Mangarshi
+Senior Animator: Face, Rockstar India
+
+Jayanta Mazumder
+Senior Artist: Blendshape, Rockstar India
+
+Joseph Meehan
+Senior Illustrator, Rockstar Games
+
+Jay Males
+Senior Programmer, Rockstar Australia
+
+Jordan Malcolm
+Senior Systems Engineer, Rockstar North
+
+John R. Moriarity
+Senior Tools Automation Programmer, Rockstar New England
+
+John McDermott
+Senior UX Designer: Tools, Rockstar North
+
+--- CRAFT ---
+Jay Marsden-Bullen
+AI/Gameplay Programmer, Rockstar North
+
+Jason Mak
+Animation Systems Programmer, Rockstar San Diego
+
+Joshua Matthews
+Animator: Motion Capture, Rockstar Games
+
+Jared Miller
+Artist: Characters, Rockstar San Diego
+
+Jack Mouat-Harrison
+Artist: In-World Photography, Rockstar Dundee
+
+Joshua Maye
+Associate Artist: Interiors, Rockstar San Diego
+
+Joseph Martin
+Associate Designer: Missions, Rockstar North
+
+Jack McPherson
+Content Designer, Rockstar North
+
+James Martin
+Designer: Exploration & Ambient Content, Rockstar San Diego
+
+Jaba Makharashvili
+Designer: Systems, Rockstar North
+
+James McCutcheon
+Designer: Systems, Rockstar North
+
+Jan Mencfel
+Designer: Systems, Rockstar North
+
+Joseph Moyle
+Designer: Systems, Rockstar San Diego
+
+Jason Osorio Marin
+DevOps Engineer: Windows Operations, Rockstar Games
+
+Justin Mazzola
+Engineer, Rockstar Games
+
+Jess Migliaccio
+Engineer: Linux Operations, Rockstar Games
+
+Jamie Medeiros
+Gameplay Capture Artist, Rockstar Games
+
+James Moorehead
+Production Coordinator: AI/Gameplay, Rockstar North
+
+--- junior ---
+Jay Miller
+Associate QA Tester: Functionality, Rockstar Dundee
+
+Jordan James Alec Mitchell
+Associate QA Tester: Functionality, Rockstar Dundee
+
+Jordan Mellor
+Game Tester, Rockstar Lincoln
+
+Jessica Miangolarra
+Housekeeping, Rockstar Games
+
+James Mamone
+QA Tester: Compliance, Rockstar Lincoln
+
+Joe Mackle
+QA Tester: Functionality, Rockstar Dundee
+
+Jonathan Magen
+QA Tester: Functionality, Rockstar Lincoln
+
+Jamie McClelland
+Social Club QA Tester, Rockstar Lincoln
+
+======================================================================
+== S+J  (letters S/J)  -- 22 auto matches (7 senior+; 0 exec/dir, 3 lead) ==
+======================================================================
+
+--- LEAD ---
+Sapam Jimmy
+Lead Artist: Technical Content, Rockstar India
+
+Sahil Jhangiani
+Manager, Data Engineering, Rockstar Games
+
+Stephanie Johnson
+Motion Capture Supervisor, Rockstar North
+
+--- SENIOR ---
+Shine Jamal
+Senior Animator: Scripted, Rockstar India
+
+Shivam Jakhmola
+Senior Artist: Props, Rockstar India
+
+Siddharth Jayakumar
+Senior Artist: Technical Content, Rockstar India
+
+Soraya Javan
+Senior Production Coordinator: Design, Rockstar Games
+
+--- CRAFT ---
+Steven Jerome
+Animator: Gameplay, Rockstar Toronto
+
+Suraj Jangid
+Artist: Environment, Rockstar India
+
+Sunny Jamwal
+Artist: Props, Rockstar India
+
+Sooraj Jose
+Artist: Technical Content, Rockstar India
+
+Shyamsundar Jaikumar
+Associate Artist: Technical Content, Rockstar India
+
+Sam Joel
+Associate Build Engineer, Rockstar India
+
+Szymon Jackiewicz
+Network Programmer, Rockstar North
+
+Stephen Jahns
+Programmer, Rockstar Toronto
+
+Stephen Jones
+UI Programmer, Rockstar North
+
+Stacy Jargowsky
+Workplace Systems Specialist, Rockstar Games
+
+--- junior ---
+Shrinand Anand Jitekar
+Associate QA Tester: Functionality, Rockstar India
+
+Suhee Jang
+Korean Localisation Tester, Rockstar Lincoln
+
+Shashank Jamadagni
+QA Tester: Art, Rockstar India
+
+Sergio Campos Jurado
+QA Tester: Compliance, Rockstar Lincoln
+
+Saif Rahuman Jamaludeen
+QA Tester: Functionality, Rockstar India

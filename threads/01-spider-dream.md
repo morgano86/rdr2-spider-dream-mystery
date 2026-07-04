@@ -33,7 +33,10 @@ trail is the newest and most active branch.
 - **Former Rockstar QA tester Adam Butterworth** (now at Remedy) publicly reacted on **5 Jan 2026**: *"Absolutely wild people
   have found this. I remember hearing about this and thinking it would never be discovered."* → corroborates the egg is
   **real/deliberate**, but **NOT** that he designed it (he was *aware* of it, didn't claim authorship). The name + quote are
-  **widely reported but single-origin** (one X post; B/C-tier). ⚠️ This **supersedes** both our earlier framings — the first
+  **widely reported but single-origin** (one X post; B/C-tier). ⚠️ **Bona fides now credits-corroborated (2026-06-21):** the
+  RDR2 end credits (`rdr2-credits.txt`, A-tier provenance) list **Adam Butterworth — Game Tester, Rockstar Lincoln**, so he
+  genuinely was RDR2 QA — no longer just a self-identified account (raises confidence in the comment; authorship still
+  untouched). ⚠️ This **supersedes** both our earlier framings — the first
   over-claimed "confirmed design intent" (wrong), the second stripped his name as "unsourced" (over-corrected). See
   [K3](../findings/known-facts.md) and [U8](../findings/unknowns.md).
 
