@@ -18,6 +18,12 @@ to Annesburg. Overview image: [`bacchus-bridge_overview.webp`](../images/bacchus
 - **Location/role.** Cumberland Forest rail bridge over the Dakota River gorge (the same region as **Fort Wallace**, which
   bears the bird/"w" carving) — so a line of sight between the two is geographically plausible.
 
+> **Same pocket — a third feature (separate egg, 2026-06-21):** one of the **"Geology for Beginners" rock carvings** (a
+> **winged figure**) sits on a **Dakota River cliff NE of Fort Wallace**, between here and Cotorra Springs ([K33]). It's part
+> of the **Francis Sinclair** time-traveller egg — **NOT verified-linked to the spider mystery** ([thread 08](../threads/08-francis-sinclair-mural.md),
+> watch-item [S26]) — but worth knowing this gorge holds three distinct carved/anomalous things ([K16] birds, [K22] heart,
+> [K33] winged figure) within a short ride.
+
 ## [UNKNOWN]
 - **U23 — what does the empty heart denote?** Is the blank heart-and-arrow a **deliberate clue** (a marker, a "shoot here," a
   pointer along the bird-carving sightline), or incidental scenery / a reused decorative asset? Is the **line of sight to the
