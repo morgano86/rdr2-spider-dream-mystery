@@ -678,7 +678,28 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   beyond chance globally (p = 0.44)**. One fragile counter-flag: the **L2-only 4-term Fibonacci chain `3,5,8,13`**
   (p = 0.039 pre-discount) — but it collapses under the near-duplicate L7 parse of the same line, so it's a **fork decided
   by the clean-audio confirm**, not a finding (details in thread 04). All on PROVISIONAL C-tier transcription data.
-  Home: [thread 04](../threads/04-gertrude-numbers.md). → [U6](unknowns.md), [K23](known-facts.md)
+  **⚡ Update 2026-07-05 ([K42]):** the canonical inventory is now on file from game text (12 lines, [#78]); the fork is
+  decided (**both** L2/L7 variants real — the `3,5,8,13` run is verbatim in line A, and line B's inserted 4 breaks it,
+  which leans deflationary); the qualitative S42 shape survives by inspection (prefixes still cap at 5; 12 still never
+  said), but **quote no p-values until the battery is re-run on the K42 set** (open 🧠 task, thread 04).
+  Home: [thread 04](../threads/04-gertrude-numbers.md). → [U6](unknowns.md), [K23](known-facts.md), [K42](known-facts.md)
+- **S43 (node-content pass, 2026-07-05). The GREEN BOTTLES as a per-tally-node marker system** (u/Stock-Hat9530,
+  [#81], 20-image gallery — C-tier, single author, unreplicated). Claim: a green **McCarthy Brewing Co.** bottle sits
+  close to **each of the five** Butcher Creek tally outhouses; at Fort Brennand the 6-node has a green **"Saint Dymphna"
+  Merlot** bottle directly across from it (author searched ~2h for a McCarthy, found none — a deliberate-looking
+  *substitution* if the pattern holds at all) and the 7-tower has a bottle **at its top**, from which Saint Denis is
+  clearly visible. **Why it matters:** it is the **only candidate per-node differentiator anyone has found** — but note
+  the Butcher Creek bottles are claimed *identical* (1–5), so they **cannot encode order** ([U6] attempt B stays closed);
+  at most they'd be [H26]-style waymarks. ⚠️ Ambient bottle props are everywhere in RDR2 — high pareidolia risk; needs an
+  in-game check (fold into the [H26] letter-sweep). Home: [thread 02](../threads/02-butcher-creek-carvings.md).
+  → [U10](unknowns.md), [H26], [#81](../sources/sources.md)
+- **S44 (node-content pass, 2026-07-05). The three Fort Brennand tower symbols read as the SAINT DENIS SKYLINE** seen
+  from the 7-tower's top (u/Stock-Hat9530, [#81] — C-tier): pole → church steeple, factory → industrial stacks, third
+  blob → the pond/water. A third rival for the third symbol alongside the wiki's "oil puddle" and [H11]'s Register Rock
+  — and the community's own documentation carries the split verbatim ("Oil Puddle or Register Rock", Marmaluke420).
+  ⚠️ Weakness: the *undisputed* pole+factory readings already point at the Heartlands oil fields ([K8] hand-off,
+  retro-validated by what sits there), which the skyline reading would have to explain away. Kept as a recorded rival,
+  not adopted. Home: [thread 02](../threads/02-butcher-creek-carvings.md). → [U10](unknowns.md), [U24](unknowns.md), [H11]
 
 ## On the Fort Wallace bird carving — what it refers to / symbolises (2026-06-16)
 *(Downstream interpretation of the verified [K16] mark; full catalogue + tests in [fort-wallace-bird-carving.md](../analysis/fort-wallace-bird-carving.md). None of this moves the frontier or licenses chasing the contested `?`/Bacchus leads.)*

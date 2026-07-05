@@ -25,6 +25,17 @@ below are wiki-/in-game-verifiable (`[KNOWN]`); the links to the Spider Dream My
   3. The **eye of that drawn animal** falls on **[Elysian Pool](../locations/) (behind the waterfall)**, inside a wide
      branched cave. Keep **left**, follow the water trail; on the right of the large cave a path branches off.
   4. There are **cave paintings** to inspect; **in the eye of a painted bison lies the [Ancient Arrowhead]** — the reward.
+- **Which animal? (sourced 2026-07-05, [#82]) — buffalo/bison at guide/community consensus; the wiki never names it.**
+  Precision that matters: **the Red Dead Wiki leaves the journal drawing's animal unnamed** ("the drawn animal"); its
+  famous *"in the eye of a bison"* sentence describes the **cave painting inside the Elysian Pool cave**, not the journal
+  drawing — an easy conflation to import, now flagged. The naming comes one tier down: **RDR2.org** (long-standing
+  dedicated fan site): *"the connected dots are in the shape of a buffalo, but one of them is not connected: the one
+  above Elysian Pool"*; community posts agree (buffalo/bison/bull wording only — **no rival animal proposed anywhere**).
+  Note RDR2.org's variant pointer reading: **the one unconnected dot** marks Elysian Pool, rather than "the drawn eye" —
+  both converge on the same place, so the *location* is solid while the eye-vs-dot mechanism detail is unconfirmed
+  (the **painted bison's eye holding the arrowhead** is hard A/B fact either way — the "eye" does real design work at
+  the payoff end). Our own image is consistent with a horned quadruped but not self-evidently a bison — pareidolia
+  caution applies to our asset too.
 - **Why it's required:** the Ancient Arrowhead / completing the strand is needed for **100% Completion**. Relevant
   achievements: **Collector's Item** (Silver — *"Complete one of the Collectible strands"*) and **Best in the West** (Gold —
   *"Attain 100% Completion"*).
@@ -69,6 +80,11 @@ dream + Native imagery** — which is why it keeps surfacing in community thread
   → **This is strong evidence the web-trail's "lines that form a shape" is an established RDR2 design language, NOT
   pareidolia** — exactly the anti-pareidolia argument in [carving-technique.md](carving-technique.md). The Dreamcatcher is the
   *shipped, solved* proof-of-concept for the same mechanic.
+  - **Community echo (2026-07-05):** the analogy is not repo-invented — u/fireflighTim's "Decoding Butcher Creek"
+    ([#53], the post already cited for the datamine names) states it verbatim: *"The buffalo map overlay that Arthur
+    draws in his journal is a great parallel to what we later must do with the Spider Dream 'scratching' symbol."*
+    C-tier, but it means H6 has independent community currency. *(Precise negative from the same pass: **no B-tier
+    source connects the dreamcatcher mechanic to the spider trail** — the analogy lives only at C-tier + here.)*
   - **Companion precedent — the [Saint Denis Vampire](saint-denis-vampire.md) ([K27]/[H15]).** A *second* shipped, solved egg
     runs the same "connect fixed points → a shape → go to a feature" mechanic, and it is **stronger on shape than H6**: its
     five wall-writings map to the **literal pentagram** that Butcher Creek reproduces ([K5]) — not merely "a drawn animal."
@@ -127,8 +143,9 @@ dream + Native imagery** — which is why it keeps surfacing in community thread
 > C-tier. It does **not** touch [H8]'s log-clearing form, which is about quest-state, not shared assets.
 
 ## Open tasks
-- [ ] In-game: after completing the strand, screenshot the **journal drawing** and identify the **animal** (the eye = Elysian
-  Pool); file under `images/` with provenance.
+- [x] ~~Identify the **animal** in the journal drawing~~ — **answered at consensus level 2026-07-05** ([#82]):
+  **buffalo/bison** (guide-site + community; the wiki deliberately leaves it unnamed; no rival animal anywhere). The
+  in-game screenshot sub-task is superseded — we hold the wiki's drawing image; a firsthand capture would add nothing.
 - [ ] Map the 20 Dreamcatcher pins against the 8 web locations + trail poles — is the **#17 Heartland Overflow / #2 Window
   Rock / #15 Elysian Pool** overlap more than chance?
 - [ ] Check whether the **Ancient Arrowhead** or the **bison cave painting** at Elysian Pool carries any of the

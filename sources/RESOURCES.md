@@ -42,10 +42,13 @@ see [`sources.md`](sources.md). When you find a resource you'll use again, add i
 - **Fextralife RDR2 wiki** — https://reddeadredemption2.wiki.fextralife.com/ · **B** — secondary cross-check when Fandom is thin.
 
 ### The spider-trail documenters (video)
-- **Strange Man (YouTube)** — search: https://www.youtube.com/results?search_query=strange+man+rdr2+spider+web+mystery · **C**
+- **Strange Man (YouTube)** — https://www.youtube.com/@StrangeManChannel (`UCmQyHj6O6US8Jgj1WrXWZYg`) · **C**
   The lead documenter of the **2025 telegraph-pole web trail**. Best (often only) source for the pole headings (N → W×5 → NW +
-  guitar), and the most promising place to **frame-pull feather orientation** ([U0]). *To do:* pin the canonical video URLs
-  ([gap](#gaps--still-wanted)).
+  guitar). ✅ **Canonical spider-series URLs pinned 2026-07-05 → [source #80](sources.md)** (7 dated videos, 2025-12-23 →
+  2026-01-14; the 12-23 explainer `OSQPMaU7yz8` is the originating documentation). **Two standing cautions:** (1) the channel's
+  **2026-04-01 "I Finally Solved…" video is an April Fools joke** (`F5ugykizAU0`) — never cite it; (2) the channel is also the
+  author of the **hoax-rated Gertrude videos** ([#17]/[#18] — the [#43] exposé target), so treat its *interpretive* claims as
+  C-tier theory even where its *documentation* footage is the best available.
 - Topic-specific videos are catalogued in [`sources.md`](sources.md) (#16–19) — Gertrude's numbers, outhouse carvings.
 
 ### Community theory / discovery
@@ -100,10 +103,26 @@ Fandom and GTAForums **block automated fetch (HTTP 403)**. These are the workaro
   `gta.fandom.com` too (same platform).
 - **GTAForums / any 403 page with no API:** browse manually, paste **verbatim** excerpts into the relevant thread file, cite the
   source number in [`sources.md`](sources.md). *(Wayback checked 2026-07-04 for the [#15] Gertrude thread: no snapshot.)*
+- **🆕 YouTube metadata without a renderable page (2026-07-05 — how the [#80] corpus was pinned):** watch pages render
+  empty for WebFetch, but **(a) oEmbed** gives title + channel attribution: `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=<ID>&format=json`
+  (`author_name`/`author_url` = the channel — how the April-Fools and copycat videos were told apart from Strange Man's);
+  **(b) upload dates** come from the watch page's embedded JSON-LD via plain curl:
+  `curl -s -A "Mozilla/5.0" "https://www.youtube.com/watch?v=<ID>" | grep -o '"uploadDate":"[^"]*"'`; **(c) a channel's
+  recent uploads** via RSS: `https://www.youtube.com/feeds/videos.xml?channel_id=<UC…>` (channel_id greppable from any
+  watch page; ⚠️ only the latest ~15 videos); **(d) video descriptions** via `grep -o '"shortDescription":"[^"]*"'` on the
+  watch page (how the Robbin-Rams "cinematic/mods" self-disclosure was caught). GitHub file/commit provenance:
+  `https://api.github.com/repos/<owner>/<repo>/commits` + `raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>`
+  (how [#78] was pinned to its 2019-12-01 commit).
+- **🆕 WebFetch vs curl on APIs (2026-07-05):** `reddead.fandom.com/api.php` intermittently returns **402** and Arctic
+  Shift returns **422** *to WebFetch* while plain `curl -A "Mozilla/5.0"` on the identical URL works — when an API
+  misbehaves under WebFetch, drop to curl before concluding it's blocked.
 - **Reddit (403-blocks our fetcher — site, old.reddit, and `.json` alike; it's an egress-IP block, so UA spoofing won't help):**
   use the **Arctic Shift** community mirror, which is *not* blocked. Search a sub, then download the `i.redd.it` image (the CDN
-  is reachable). Worked first try 2026-06-13 to grab the matchstick sets. ⚠️ **Availability note:** on 2026-07-04 the API
-  returned `{"data":null,"error":"Under maintenance"}` — if that hits, retry later rather than assuming a block:
+  is reachable). Worked first try 2026-06-13 to grab the matchstick sets. ⚠️ **Availability notes:** on 2026-07-04 the API
+  returned `{"data":null,"error":"Under maintenance"}` — retry later rather than assuming a block (it was back 2026-07-05).
+  Separately, `{"data":null,"error":"Timeout. Maybe slow down a bit"}` = **rate limiting** — space calls ~20s apart and
+  don't run parallel agents against it (they share the egress IP). A date-bounded sweep works:
+  `posts/search?subreddit=SUB&after=YYYY-MM-DD&limit=100&sort=asc` (no `query` needed):
   - Search: `https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=SUB&query=QUERY&limit=25`
     (omit `subreddit` for a site-wide search → **400**; a subreddit is required). Each result's `url` field is the image link.
   - Full post detail (selftext, gallery `media_metadata`): `https://arctic-shift.photon-reddit.com/api/posts/ids?ids=ID1,ID2`.
@@ -116,7 +135,8 @@ Fandom and GTAForums **block automated fetch (HTTP 403)**. These are the workaro
 ---
 
 ## Gaps — still wanted
-- **Canonical Strange Man video URL(s)** — the originating documentation of the 2025 trail (currently only a search link).
+- ~~**Canonical Strange Man video URL(s)**~~ ✅ Pinned 2026-07-05 → [source #80](sources.md) (channel-verified via oEmbed;
+  dates from watch-page JSON-LD; method below).
 - ~~**A Reddit r/reddeadmysteries master thread** for the spider mystery.~~ ✅ Found 2026-07-02 → `1pzutww` ([src #64](sources.md)).
 - **Rockstar credits / artbook scans** — only if the `LJ`/`SM` dev-initial question ever needs settling.
 - **An independent RDR2 asset dump** listing the `spiderdream0X` instance placements — would upgrade the [K39] mapping C→A.

@@ -27,7 +27,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K4 | Butcher Creek: 5 outhouses, tally marks 1–5 | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
 | K5 | Outhouses in order → pentagram; mirrors glowing red floorboard pentagram ~4–5 AM | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
 | K6 | Outhouse #4 bears `LJ`, `SM`, + a Fort Brennand symbol | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
-| K7 | Fort Brennand: tallies 6 & 7 + tower symbols (pole, factory, oil puddle) | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
+| K7 | Fort Brennand: tallies 6 & 7 (B×2-confirmed) + tower symbols (pole, factory + a 3rd disputed at source: puddle/[H11]/[S44]) | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
 | K8 | Symbols point to the spider-engraving pole near Cornwall Kerosene & Tar (corrects "oil-fields refinery") | LIVE | [thread 05](threads/05-spider-web-trail-2025.md) |
 | K9 | Four match-sets: `EC`@Vetter's Echo, `J+M`@Cornwall K&T, `S+J`@Caliga Hall, arrow→stash (TBD) | LIVE | [thread 03](threads/03-matchstick-letters.md) |
 | K10 | "KEEP YOUR DREAMS LIGHT" carved at Heartland Oil Fields (relevance not wiki-confirmed) | LIVE | [thread 03](threads/03-matchstick-letters.md) |
@@ -64,6 +64,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K39 | The per-web `spiderdream0X`→location mapping is **publicly sourced** (datamine [#65], matches the manifest 8/8; correctness stays C-tier) — resolves [U32] | LIVE | [known-facts.md](findings/known-facts.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) |
 | K40 | Every web feather is **doubled** (main + smaller secondary at one socket, all 8 webs) — uniform model feature, no order/count signal | LIVE | [known-facts.md](findings/known-facts.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) · [feather-positions](images/webs/feather-positions/README.md) |
 | K41 | Gertrude's outhouse **interior holds nothing** (2025 glitch-verified, [#77]) — closes the inside-the-outhouse line for [U6] | LIVE | [thread 04](threads/04-gertrude-numbers.md) · [known-facts.md](findings/known-facts.md) |
+| K42 | Gertrude's **complete 12-line recitation set confirmed from game subtitle text** (2019 dump, [#78]) — tail settled; "eleven"; both L2/L7 variants real; no hidden extra set | LIVE | [thread 04](threads/04-gertrude-numbers.md) · [known-facts.md](findings/known-facts.md) |
 
 ---
 
@@ -79,11 +80,11 @@ Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted.
 | U3 | One puzzle or two (2018 chain vs 2025 trail)? | **REFRAMED 2026-07-04 → [S41]** (one relay; residue → [U29] + [U6]) | [one-puzzle-or-two.md](analysis/one-puzzle-or-two.md) · [unknowns.md](findings/unknowns.md) |
 | U4 | What do `LJ` / `SM` mean? (dev-initials CLOSED 2026-07-02; in-fiction frame; newest candidate = [H26] waymarks) | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) · [thread 07](threads/07-van-der-linde-roster.md) |
 | U5 | What do the matchstick letters MEAN? (`J+M`=John Marston exact hit [S16]; `EC` matches nothing [S17]) | LIVE (locations pinned) | [thread 03](threads/03-matchstick-letters.md) · [thread 07](threads/07-van-der-linde-roster.md) |
-| U6 | Gertrude's numbers — opening confirmed deliberate ([K23]); tail transcribed but hoax-leaning ([S42]); open: clean-audio confirm, encoding, which mystery it serves | LIVE | [thread 04](threads/04-gertrude-numbers.md) · [gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md) |
+| U6 | Gertrude's numbers — opening deliberate ([K23]); full set game-text-confirmed ([K42]); attempt B closed-inexecutable; open: encoding (battery re-run first), which mystery it serves | LIVE (narrowed) | [thread 04](threads/04-gertrude-numbers.md) · [gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md) |
 | U7 | Are the tally counts themselves a running sequence (1…7…10–11)? | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
 | U8 | The dev quote attribution | **RESOLVED → [K3]** | [thread 01](threads/01-spider-dream.md) |
 | U9 | Pole count: 8 + central (9) vs "9 poles" — confirm + label | LIVE | [thread 05](threads/05-spider-web-trail-2025.md) |
-| U10 | Fort Brennand tally counts (6,7) + precise three tower symbols | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
+| U10 | Fort Brennand tally counts (6,7) + precise three tower symbols | PARTLY RESOLVED (counts B×2-confirmed; 3rd symbol disputed at source — puddle/[H11]/[S44]) | [thread 02](threads/02-butcher-creek-carvings.md) |
 | U11 | Is a literal "dream" sequence triggerable, or thematic only? | LIVE | [thread 01](threads/01-spider-dream.md) |
 | U12 | What the guitar symbol denotes | LIVE (partly: → Fort Wallace) | [thread 05](threads/05-spider-web-trail-2025.md) |
 | U13 | Spider Gorge as a destination | **DOWNGRADED** (wiki-only) | [thread 05](threads/05-spider-web-trail-2025.md) |
@@ -193,4 +194,6 @@ Home for all: [findings/speculation.md](findings/speculation.md) ↔ the file no
 | S39 | TWO-OBJECT model: web VISIBILITY rules ≠ feather STATE rules — dissolves community contradictions; protocol rule: never save/reload mid-run | [speculation.md](findings/speculation.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) |
 | S40 | Fort Riggs as an underweighted node / rival [U12] guitar referent — pareidolia-prone, mechanically unlinked; cheap 🎮 check | [speculation.md](findings/speculation.md) · [thread 05](threads/05-spider-web-trail-2025.md) |
 | S41 | The 2018 chain + 2025 trail are ONE continuous designed relay — adopted working frame (design-inference, not promoted) | [one-puzzle-or-two.md](analysis/one-puzzle-or-two.md) · [speculation.md](findings/speculation.md) |
-| S42 | Gertrude's recitations = FAILED COUNTING (madness texture), not a cipher — statistically supported; the clean-audio confirm decides | [thread 04](threads/04-gertrude-numbers.md) · [speculation.md](findings/speculation.md) |
+| S42 | Gertrude's recitations = FAILED COUNTING (madness texture), not a cipher — shape survives on the [K42] canonical set; p-values await the battery re-run | [thread 04](threads/04-gertrude-numbers.md) · [speculation.md](findings/speculation.md) |
+| S43 | Green bottles as per-tally-node markers (McCarthy ×5 / Dymphna @6 / tower-top @7) — only candidate node differentiator; C-tier, unreplicated | [thread 02](threads/02-butcher-creek-carvings.md) · [speculation.md](findings/speculation.md) |
+| S44 | The 3 tower symbols as the Saint Denis skyline seen from the 7-tower — recorded rival to puddle/[H11]; not adopted | [thread 02](threads/02-butcher-creek-carvings.md) · [speculation.md](findings/speculation.md) |

@@ -196,10 +196,17 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   global additive structure p = 0.44 = chance), with **one fragile counter-flag** — an L2-only 4-term Fibonacci chain
   `3,5,8,13` (p = 0.039 pre-discount) that **collapses under the near-duplicate L7 parse** of the same line, so the
   clean-audio confirm now decides both the tail text and that fork (**priority raised**; one dump route — the Tumblr RDR2
-  audio compilation — checked negative, gang dialogue only). **Still open:** clean-audio/dialogue-file confirmation of that
-  tail; what (if anything) it encodes ([S42] = the documented deflationary rival: tail = failed-counting madness texture,
-  only the signature string deliberate); and **which** mystery the number serves — spider trail, standalone
-  Braithwaite/Nazar puzzle, or nothing decipherable. Interior-of-outhouse line **closed-negative** ([K41] — players glitched in, 2025: only
+  audio compilation — checked negative, gang dialogue only). **⚡⚡ TAIL CONFIRMED FROM GAME TEXT 2026-07-05 → [K42]** ([#78]:
+  a 2019-12-01 GitHub dump of the game's own subtitles carries her complete file — **12 canonical number lines**, table in
+  [thread 04](../threads/04-gertrude-numbers.md)). The clean-source residual is **DONE**; the fork is **decided — both L2/L7
+  variants are real distinct lines** (the `3,5,8,13` run is verbatim in line A; line B's inserted 4 breaks it); video-L3 was
+  an artifact; "eleven" (not "1, 1") is the RDR2-side parse; **no hidden extra recitation exists in the dump**. **Also
+  2026-07-05: attempt B (tally-node reorder) CLOSED-INEXECUTABLE** — the node-content sweep ([#81], [thread 02](../threads/02-butcher-creek-carvings.md))
+  found nodes 5 and 6 bare, so the {4,5,6,7} reorder has nothing to read (reopens only via an [H26]-sweep find).
+  **Still open:** what (if anything) the canonical set encodes — 🧠 **first: re-run the structure battery on the [K42]
+  inventory** ([S42] = the documented deflationary rival: tail = failed-counting madness texture, only the signature
+  string deliberate); and **which** mystery the number serves — spider trail, standalone Braithwaite/Nazar puzzle, or
+  nothing decipherable. Interior-of-outhouse line **closed-negative** ([K41] — players glitched in, 2025: only
   Gertrude's model, no objects). → [04](../threads/04-gertrude-numbers.md),
   [gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md)
 - **U24. Do the [Register Rock](../locations/register-rock.md) names/initials encode anything?** *If* Fort Brennand's third
@@ -232,7 +239,12 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   discovered."* Confirms the egg is **real/deliberate**, **not** that he authored it. Caveat: single-origin (one X post),
   widely re-reported = **B/C-tier**, not primary-verified. Promoted to [K3](known-facts.md). → [01](../threads/01-spider-dream.md)
 - **U9.** Pole count: **8 + central (9)** vs "9 poles." Confirm and label each. → [05](../threads/05-spider-web-trail-2025.md)
-- **U10.** Fort Brennand tally counts (6 and 7) and the precise three tower symbols. → [02](../threads/02-butcher-creek-carvings.md)
+- **U10. [PARTLY RESOLVED 2026-07-05]** Fort Brennand tally counts and the three tower symbols. **Counts CONFIRMED B-tier
+  ×2** (wiki + GameRant, [#81] pass): **6** (the fort's one outhouse, five-bar gate + 1) and **7** (gate + 2, above the
+  **guard-tower** entrance, exterior; symbols opposite/above the interior doorframe). Symbols 1–2 undisputed (**telegraph
+  pole**, **factory + chimney**); **the third is disputed at source level**: wiki "oil puddle" vs the community's own
+  verbatim "Oil Puddle **or Register Rock**" ([U24]/[H11]) vs the new Saint-Denis-skyline reading ([S44]). Open residue =
+  the third symbol's identity only. → [02](../threads/02-butcher-creek-carvings.md)
 - **U11.** Whether a literal **"dream" sequence** is triggerable in-game, or "dream" is purely thematic. **A candidate
   *mechanism* proposed 2026-07-02 → [H25]:** the untested step is **sleeping in-boundary on a completed feather set** (RDR2
   ships a sleep-vision system; [K29] state survives sleep; [K10]'s "KEEP YOUR DREAMS LIGHT" sits at the final-hour web site) —

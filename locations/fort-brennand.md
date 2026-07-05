@@ -5,9 +5,16 @@
 
 ## Mystery role — [KNOWN]
 - **2nd node** in the chain. Butcher Creek outhouse #4's **Fort Brennand symbol** sends the player here.
-- Here: **tally marks — 6** (in the outhouse) and **7** (a tower entrance) — and, inside that tower, **three symbols**: a
-  **telephone pole**, a **factory**, and an **oil puddle** → these point onward to **Cornwall Kerosene & Tar**.
-- Image: [`../images/butcher-creek/fort-brennand_tower-symbols.webp`](../images/butcher-creek/fort-brennand_tower-symbols.webp).
+- Here: **tally marks — 6** (the fort's one outhouse; five-bar gate + 1) and **7** (above the **guard-tower** entrance,
+  exterior; gate + 2) — **counts B-tier ×2 confirmed 2026-07-05** (wiki + GameRant, [#81]) — and, inside that tower
+  (opposite/above the interior doorframe), **three symbols**: a **telephone pole**, a **factory** (both undisputed), and
+  a **third disputed at source level** (wiki "oil puddle" / community "Oil Puddle **or Register Rock**" [H11] / skyline
+  rival [S44]) → on the two undisputed symbols, these point onward to **Cornwall Kerosene & Tar** ([K8]).
+- Image: [`../images/butcher-creek/fort-brennand_tower-symbols.webp`](../images/butcher-creek/fort-brennand_tower-symbols.webp)
+  (the third symbol is a flat-bottomed blob — puddle *or* boulder, undecidable from imagery).
+- **Nothing else is documented at either tally site** beyond the counts ([#81] per-node sweep → [thread 02](../threads/02-butcher-creek-carvings.md#per-node-content-sweep-2026-07-05--a-sourced-negative)).
+  C-tier leads only: the [S43] wine-bottle-across-from-the-outhouse / bottle-atop-the-tower claims; a chance
+  **Butcher Creek woman random encounter** while camping in the 7-tower; `1tzk1vh`'s "moving spirals" (light shafts?).
 
 ## Inside the top respawn boundary — [KNOWN] (investigator, 2026-06-14)
 - Fort Brennand is **enveloped by the top (B34/Cornwall) respawn boundary** ([K28]) — its centre-west edge covers the fort.

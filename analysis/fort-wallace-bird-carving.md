@@ -139,8 +139,14 @@ place the birds firmly in the **verified carving class** ([H23]).
 
 **None of this moves the frontier.** [K16] remains the last verified clue; A1/A5 still bottom out in the contested `?` zone,
 which we do not chase. New leads to *watch* (not assert): a second set of bird symbols was claimed near **Fairvale Shanty**
-(YouTube, C-tier) — but in this pass it resolves into the **same contested `?`/"markers-form-a-question-mark" cluster**, not a
-verified second carving, so it is logged, not built upon. Separately (2026-06-21), a **"Geology for Beginners" rock carving of
+(YouTube, C-tier — **pinned 2026-07-05**: RedsDeadBaby, `a7HFaF17lak`, uploaded 2026-01-07; its own timestamps route through
+the "question mark on mountain" → [#80] triage) — but in this pass it resolves into the **same contested
+`?`/"markers-form-a-question-mark" cluster**, not a verified second carving, so it is logged, not built upon. *(Related
+checked-negatives, 2026-07-05: the "I Solved The Two Bird Carvings!" video (Robbin Rams, 2026-06-03) self-describes as
+mods/Rockstar-Editor **cinematics** — not investigation ([#80]); and a July claim of a bird carving on a rock seen in the
+"Icarus and Friends" cutscene was **self-debunked by its own poster via CodeX** — "just a rock, no special geometry (like
+in Fort Wallace where the bird carvings have special cut outs), just a texture pattern" (`1ukekhv`) — the community
+independently applying this repo's [carving test](carving-technique.md).)* Separately (2026-06-21), a **"Geology for Beginners" rock carving of
 a winged figure** is documented on a **Dakota River cliff NE of this fort** ([K33]), read by the investigator as roughly *in
 line with* these birds — but it belongs to the **separate Francis Sinclair egg** (a tracked Stranger collectible, not a [K15]
 hidden-geometry mark), so it is a geographic **watch-item only** ([S26], [thread 08](../threads/08-francis-sinclair-mural.md)),

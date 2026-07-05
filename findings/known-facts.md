@@ -31,8 +31,10 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   → [02](../threads/02-butcher-creek-carvings.md)
 - **K6.** **Outhouse #4** bears extra carvings: **`LJ`**, **`SM`**, and a **Fort Brennand symbol** (the user's "LJ SM on the
   back of toilet 4"). → [02](../threads/02-butcher-creek-carvings.md)
-- **K7.** **Fort Brennand** contains more **tally marks** (**6** in the outhouse, **7** at a tower entrance) and **three
-  tower symbols**: a **telephone pole**, a **factory**, and an **oil puddle**. *(Primary wiki.)* → [02](../threads/02-butcher-creek-carvings.md)
+- **K7.** **Fort Brennand** contains more **tally marks** (**6** in the outhouse, **7** above the guard-tower entrance —
+  counts B-tier ×2 confirmed 2026-07-05, [#81] pass) and **three tower symbols**: a **telephone pole**, a **factory**, and
+  a **third symbol whose identity is disputed at source level** (wiki: "oil puddle"; community verbatim: "Oil Puddle or
+  Register Rock" [H11]; skyline rival [S44]). *(Primary wiki + GameRant; symbols 1–2 undisputed.)* → [02](../threads/02-butcher-creek-carvings.md)
 - **K8.** Those symbols direct the player to a **telephone pole near Cornwall Kerosene & Tar** bearing the **spider
   engraving** — the start of the web trail. *(Primary wiki; corrects the earlier "points to the oil-fields refinery"
   reading.)* → [05](../threads/05-spider-web-trail-2025.md)
@@ -244,6 +246,17 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   fortunes** (`123` / `764` / `5112`) and *"after hearing all three sequences, the player can reach Madam Nazar by calling
   `123-764-5112`"* — a **functional 3-3-4 phone number** in GTA Online.
   Ties [U6](unknowns.md), [U18](unknowns.md), [U19](unknowns.md). → [04](../threads/04-gertrude-numbers.md)
+- **K42.** **Gertrude's complete recitation set is confirmed from the game's own subtitle text** (2026-07-05, [#78]): a
+  public GitHub dump of RDR2's PC text (committed **2019-12-01** — predates all community transcriptions and the 2025
+  trail era) carries her full voice-line file with **exactly 12 number lines, verbatim with string hashes** (canonical
+  table → [thread 04](../threads/04-gertrude-numbers.md); in-repo copy →
+  [`sources/gertrude-lines_0xFD1BB3EB.txt`](../sources/gertrude-lines_0xFD1BB3EB.txt)). Settles: the tail text (the
+  long-open clean-source confirm); the **"eleven"** parse RDR2-side (the subtitle writes "eleven"; `…5,1,1,2` is the
+  GTA phone-format callback only — refines [K23], both true in their own games); the L2/L7 fork (**both** tail
+  variants are real, distinct lines at edit distance 1 — the `3,5,8,13` additive run is verbatim in line A, while line
+  B's inserted 4 breaks it); video-L3 = a transcription artifact; and **no other recitation lines exist anywhere in
+  the dump** (the `wm5p7h` "hidden dying recitation" community claim is unsupported). [S42]'s statistics await the
+  re-run on this inventory. → [04](../threads/04-gertrude-numbers.md), [S42](speculation.md), [U6](unknowns.md)
 - **K41.** **Gertrude's outhouse *interior* contains no additional content.** Players found a way inside in 2025 (drag an
   animal carcass against the outhouse and skin it at the right angle → glitch through; r/reddeadredemption video, covered by
   **GamingBible 2025-07-31 + ScreenRant** — B ×2, [#77]): inside is **only Gertrude's fully-modelled character** (curled up;

@@ -363,7 +363,17 @@ The sequence `1,2,3,7,6,4,5` looks like a **reordering of 1–7** (the exact tal
 > reorder into a word, so the test isn't cleanly executable **without more node-content data** (what, beyond a number, is at
 > each node?). **Net: attempt B is a legitimate test, but blocked on node content — gather that first.**
 
-*(Caveat retained: the **tail** past `1237645112` is still transcription-only.)*
+> **⛔ CLOSED-INEXECUTABLE (2026-07-05).** The node-content sweep ([#81] → [thread 02](../threads/02-butcher-creek-carvings.md#per-node-content-sweep-2026-07-05--a-sourced-negative))
+> answered the blocking question with a **sourced negative**: **nodes 5 and 6 carry nothing beyond their bare tallies**
+> (nodes 1–3 likewise; only 4 and 7 have content). Since the permutation is identity on {1,2,3} and reorders only
+> {4,5,6,7} = {content, empty, empty, content}, **there is nothing to read/spell under any assignment** — attempt B is
+> closed in its current form. The only residue, recorded and not pursued: in Gertrude order the two *pointer* nodes (4, 7)
+> land mid-sequence and the run **ends on the bare node 5** — no source proposes an interpretation, and none suggests
+> itself. **Reopener:** the 🎮 [H26] letter-sweep finding content at node 5 or 6. *(The [S43] green bottles can't reopen
+> it — claimed identical at nodes 1–5, they can't encode a reorder.)*
+
+*(Caveat resolved 2026-07-05: the tail is no longer transcription-only — the full recitation set is **game-text
+confirmed**, [K42]/[#78]; canonical 12-line table in [thread 04](../threads/04-gertrude-numbers.md).)*
 
 ### Systematic cipher harness — [`gertrude_cipher.py`](../experiments/gertrude_cipher.py) (2026-06-21)
 The two hand-attempts above were finally run as **one deterministic battery** on the **confirmed** string
@@ -836,7 +846,9 @@ harness for Gertrude's numbers, a coincidence-odds calc for the dev-initials arg
   retro-validated by what sits at the Cornwall pole; shared Oil-Fields node [K10]+`B56`; shared [H13] signature; both
   base-game). "Parallel eggs" rejected; the live residue is the **mechanic layer** ([U29], §5a — the verdict is
   invariant to it) and **satellite membership** ([U6] Gertrude, the matchsticks — scorecard in the file).
-- [ ] Verify Gertrude's exact sequence, then test attempt B (read tally nodes in her order) — scriptable once U6 lands.
+- [x] ~~Verify Gertrude's exact sequence, then test attempt B (read tally nodes in her order)~~ — **DONE both halves
+  2026-07-05:** sequence **game-text confirmed** ([K42]/[#78]); attempt B **closed-inexecutable** (§3 above — nodes 5/6
+  bare; reopens only via an [H26]-sweep find).
 - [ ] Confirm the `J+M` matchsticks and compare the carving "hand"/style to outhouse #4.
 - [ ] Capture the under-wood messages (thread 05) — they may directly state what the letters/numbers mean.
 - [ ] Once images are in, overlay the spider symbol on a real map and label all poles.

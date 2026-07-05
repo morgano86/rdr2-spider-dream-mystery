@@ -2,6 +2,59 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-05 (parallel desk sweep) — ⭐ K42: Gertrude's numbers GAME-TEXT CONFIRMED; attempt B closed-inexecutable; Strange Man corpus pinned; checklist Tier-2 items cleared
+
+**What we did.** Four desk tasks in parallel (three research subagents + a direct pass): (1) a hunt for a clean-source
+confirm of the Gertrude tail; (2) a per-node content sweep of the seven tally nodes (attempt B's blocker); (3) the
+dreamcatcher journal-animal ID (checklist #5); (4) the canonical Strange Man video URLs (a RESOURCES gap since the
+repo began) + a July r/reddeadmysteries sweep (Arctic Shift back up after the 07-04 maintenance; rate-limited — recipe
+updated). All subagent claims were independently verified before integration (the GitHub file re-fetched at its pinned
+commit and checked line-by-line; every YouTube attribution re-pulled via oEmbed; the fireflighTim post ID checked via
+Arctic Shift — the agent's "2024-08" date was wrong, it's [#53] `1qzmuk2`).
+
+**What we learned.**
+- **⭐ [K42] (the session headline): Gertrude's complete recitation set is confirmed from the game's own subtitle
+  text** ([#78] — a public GitHub dump of RDR2's PC text, committed **2019-12-01**, i.e. *before* the first community
+  transcription (2019-12-17, [#79]) and the whole 2025 era). Her voice-line file carries **exactly 12 number lines**
+  (canonical table → thread 04; verbatim copy → `sources/gertrude-lines_0xFD1BB3EB.txt`). Settled at a stroke: the
+  **tail text** (the checklist's long-open confirm — via text, better than audio); the **"eleven" parse** (subtitle
+  says eleven; `5,1,1,2` is GTA-side phone formatting only); the **L2/L7 Fibonacci fork** from the 07-04 battery —
+  **both variants are real distinct lines** (the `3,5,8,13` run is verbatim in line A; line B's inserted 4 breaks it,
+  which leans deflationary); **video-L3 was a transcription artifact** (mis-segmented F+E); and **no hidden extra
+  recitation exists** anywhere in the dump (the `wm5p7h` "dying recitation" claim: debunked-leaning). Provenance
+  correction: our "two independent transcriptions concur" weight was **circular** — the StrangeMan frame almost
+  certainly copies [#79]. **Queued 🧠 next:** re-run `gertrude_tail_structure.py` on the canonical inventory; S42's
+  shape survives by inspection (prefixes still cap at 5; **12 is still never said**) but its p-values are unquotable
+  until then.
+- **Attempt B ([U6]×[K23] tally-node reorder) CLOSED-INEXECUTABLE** ([#81]): nodes **1,2,3,5,6 carry nothing beyond
+  their bare tallies** in any source — the `(4 7 5 6)` permutation reorders {content, empty, empty, content}; nothing
+  to read under any assignment. [U10] counts **6/7 confirmed B×2** (guard tower); the **third tower symbol is disputed
+  at source level** (community verbatim: "Oil Puddle or Register Rock" — [U24]/[H11] is community-native). Minted:
+  **[S43]** green-bottles-as-node-markers (C, unreplicated; can't encode order — identical at 1–5) and **[S44]**
+  skyline reading (recorded rival, not adopted). [K7] softened accordingly.
+- **Dreamcatcher animal = buffalo/bison at consensus level** ([#82]); the **wiki never names the drawing's animal** —
+  its "eye of a bison" names the *cave painting* (conflation now flagged in dreamcatchers.md); rdr2.org's variant:
+  the pointer is the one **unconnected dot**. [H6] is **community-echoed** ([#53] verbatim buffalo-overlay parallel);
+  precise negative: **no B-tier source links the dreamcatcher mechanic to the spider trail**. Checklist #5 cleared.
+- **Canonical Strange Man corpus pinned → [#80]** (7 videos, 2025-12-23 → 2026-01-14, all oEmbed-verified + dated):
+  the 12-23 explainer is the originating documentation; the 01-06 video documents the [K16] birds. **⚠️ April Fools
+  "I Finally Solved…" video flagged** (2026-04-01 — never cite). Ledger corrections: **[#17] and [#18] are BOTH
+  Strange Man's own** ("second creator" was wrong) — the [#43] exposé (2025-12-17) targets the **2021 original**
+  ([#18]), and [#17] (2026-01-24) re-asserted the claim *after* the refutation. Triaged: Jeshua Games ES video
+  (2026-01-05, postdates the originator); the Fairvale lead now pinned (RedsDeadBaby, `a7HFaF17lak`); Robbin Rams
+  "I Solved The Two Bird Carvings!" (2026-06-03) = **self-described mods/Editor cinematics** — checked-negative.
+- **July Reddit sweep (quiet — 3 posts):** the `1ukekhv` "bird carving on a rock" (Icarus-and-Friends cutscene)
+  **self-debunked by its own poster via CodeX** — *"just a rock, no special geometry (like Fort Wallace where the bird
+  carvings have special cut outs)"* — the community independently running this repo's carving test. Watch-item: a
+  claimed **third web in a leaked GTA V beta build** (cut from release; post removed) — [K24]-adjacent, unverified.
+  Frontier unchanged: **[K16] stands.**
+
+**What changed.** IDs minted: **K42, S43, S44**. U6 narrowed (sourcing → analysis); U10 partly resolved; K7 softened;
+[#17]/[#18]/[#53] ledger rows corrected; sources #78–#82 added; `gertrude-lines_0xFD1BB3EB.txt` filed;
+EVIDENCE-CHECKLIST items 3/5/6 cleared; RESOURCES gains the YouTube-metadata + curl-vs-WebFetch + Arctic-Shift
+rate-limit recipes; STATUS rank-3 rewritten. Files: threads/02+04, findings ×3, INDEX, STATUS, EVIDENCE-CHECKLIST,
+connections.md, dreamcatchers.md, fort-wallace-bird-carving.md, fort-brennand.md, sources ×3, this log.
+
 ## 2026-07-04 (repo hygiene 2) — Commit discipline codified; INDEX slimmed back to a one-line registry; STATUS dashboard rows de-accreted
 
 **What we did.** A second hygiene pass following the audit that found the 3-week uncommitted backlog (now committed by

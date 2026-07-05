@@ -30,17 +30,18 @@ decision tables: [analysis/web-order-field-test.md](analysis/web-order-field-tes
 - [ ] **🔑 Tests A/B — the cross-boundary STATE battery ([U29]/[H22]).** Separates R1/R2/R3 at the RED↔BLACK seam.
 - [ ] Confirm/extend the non-respawn chain `B23→B45→B56→BL56` (the feather-direction half is closed: no per-web heading exists).
 
-### 3. Gertrude's number sequence — [U6], [S5]  · 🌐  — ⚠️ PARTLY RESOLVED (2026-06-13)
-The **opening is sourced and confirmed deliberate**: `1 2 3 7 6 4 5 1 1 2` (`123 7645112`) is **RDR2-original** and Rockstar
-**echoed it cross-game** via the Madam Nazar "Nazar Speaks" machine ([K23] — the GTA echo is a *later* callback, not the
-source; see [gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md)). So the number is a real cipher-candidate; what's open is
-its **meaning** and **which** mystery it serves. Remaining items:
-- [x] ~~Capture the **tail** past `1237645112` (does the loop repeat identically?)~~ — **⚡ DONE-in-substance 2026-07-04:**
-  the fullest transcription on record recovered from StrangeMan's own frames via the [#43] exposé (9 sequences, max 29,
-  **no identical loop** — hoaxer + debunker agree on the raw numbers; [thread 04](threads/04-gertrude-numbers.md)).
-  **Residual (downgraded):** confirm vs clean audio / a dialogue-file dump before cipher-testing the tail.
-- [ ] **Get the node content for attempt B:** what (beyond a tally number) is at each of the 7 tally nodes? Without per-node
-  content there's nothing to reorder by `1,2,3,7,6,4,5`. See [connections.md §3](analysis/connections.md).
+### 3. Gertrude's number sequence — [U6], [S5]  · 🌐  — ✅ SOURCING COMPLETE (2026-07-05); residue is 🧠 analysis
+The **opening is confirmed deliberate** ([K23]) and the **complete recitation set is now GAME-TEXT CONFIRMED → [K42]**.
+What's open is **meaning** and **which** mystery it serves — an analysis question, no longer a sourcing one.
+- [x] ~~Capture the **tail** past `1237645112`~~ — transcription 2026-07-04 ([#43] frames), then **⚡ SETTLED 2026-07-05
+  → [K42]**: the [#78] GitHub dump of the game's subtitle text (2019-12-01, predates everything) carries all **12
+  number lines verbatim** (in-repo copy: [`sources/gertrude-lines_0xFD1BB3EB.txt`](sources/gertrude-lines_0xFD1BB3EB.txt)).
+  No identical loop; "eleven" settled; L2/L7 both real; video-L3 artifact; no hidden extra set (`wm5p7h` debunked).
+  **→ next step is 🧠:** re-run [`gertrude_tail_structure.py`](experiments/gertrude_tail_structure.py) on the canonical set.
+- [x] ~~**Get the node content for attempt B**~~ — **DONE 2026-07-05, and the answer is a decisive NEGATIVE** ([#81],
+  [thread 02](threads/02-butcher-creek-carvings.md#per-node-content-sweep-2026-07-05--a-sourced-negative)): nodes
+  1,2,3,5,6 carry **nothing beyond their tallies** → **attempt B closed-inexecutable**
+  ([connections §3](analysis/connections.md)). Reopens only via an [H26]-sweep find at node 5/6.
 - [x] ~~Capture the Strange Man "Gertrude solved" video's *claimed* solution **verbatim**~~ — **DONE 2026-07-04** via the
   [#43] full capture (Fandom Discussions API): claims = possession/Butcher-Creek-curse + Doyle's Tavern photo + outhouse
   alignment; **rated hoax-leaning** (5-point refutation incl. the 🆕 manor family-photo counter-evidence). Frames on file
@@ -49,13 +50,6 @@ its **meaning** and **which** mystery it serves. Remaining items:
 ---
 
 ## Tier 2 — strong leads (all web-sourceable)
-
-### 5. Dreamcatcher journal drawing — [H6], [H7]  · 🌐
-The wiki has the completed journal drawing (we hold it). Identify the **animal** (eye = Elysian Pool / Ancient Arrowhead
-cave) — confirms the "connect points → shape → find the eye" mechanic the web-trail reuses.
-
-### 6. Fort Brennand — tallies + tower symbols — [U10]  · 🌐
-Confirm from wiki/community: tally counts (**6** outhouse, **7** tower) and the **three tower symbols** (pole, factory, oil puddle).
 
 ### 7. Butcher Creek — pentagram + #4 carving — [K5], [K6]  · 🌐
 We hold wiki images for the floorboard pentagram (~4–5 AM) and outhouse **#4** (`LJ`/`SM`/Fort Brennand symbol); verify
@@ -98,6 +92,14 @@ clarity and source a cleaner shot if one exists.
 - **U32 (Tier 3) → RESOLVED 2026-07-02: the per-web `spiderdream0X` mapping is publicly SOURCED → [K39]** (u/Artem_ab6
   datamine comment [#65], overlay matches the manifest 8/8; [S29] activated). Residual: an independent asset-dump
   reproduction would upgrade C→A.
+- **#5: dreamcatcher journal-drawing animal — ANSWERED at consensus level 2026-07-05** ([#82]): **buffalo/bison**
+  (guide/community; the wiki names only the *cave-painting* bison and leaves the drawing's animal unnamed — conflation
+  flagged; rdr2.org's pointer variant = the one *unconnected dot*). The connect→shape mechanic is A/B-documented; [H6]
+  is community-echoed ([#53] verbatim parallel). → [dreamcatchers.md](analysis/dreamcatchers.md)
+- **#6: Fort Brennand tallies + tower symbols — CONFIRMED 2026-07-05** ([#81]): counts **6/7 B-tier ×2** (guard tower,
+  not "water tower"); symbols pole + factory undisputed; the **third is disputed at source level** (wiki puddle /
+  community "or Register Rock" [H11] / skyline [S44]) — an interpretive residue ([U10]), not a capture gap.
+  → [thread 02](threads/02-butcher-creek-carvings.md), [fort-brennand.md](locations/fort-brennand.md)
 
 ---
 

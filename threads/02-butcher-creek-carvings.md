@@ -20,10 +20,17 @@ the entry point to the Spider Dream clue chain.
   confirmed node; and (3) they sit on **outhouse #4**, beside **tally 4** and the Fort Brennand clue. So when we test the
   letters, `LJ`/`SM` are the **most firmly-tied** pair — they anchor the letter set ([H12]).
 - The **Fort Brennand symbol** directs the player to Fort Brennand (also in Roanoke Ridge). Inside Fort Brennand:
-  - additional **tally marks** (reported as **six** in one outhouse, **seven** at a tower entrance), and
-  - **three symbols inside the tower**, depicting a **telegraph/telephone pole**, a **factory/industrial building**, and a
-    **third symbol read as an oil pool/puddle** — pointing the player toward the **Heartlands / oil fields** (see thread
-    [03](03-matchstick-letters.md)). *(The third symbol's reading is debated; see [Register Rock] below.)*
+  - additional **tally marks** — **six** in the fort's one outhouse (five-bar gate + 1), **seven** above the
+    **guard-tower** entrance, exterior (gate + 2). **Counts CONFIRMED B-tier ×2** (wiki + GameRant; [#81] pass,
+    2026-07-05). *(Nobody calls it a water tower — guard tower.)*
+  - **three symbols inside that tower** (opposite/above the interior doorframe), depicting a **telegraph/telephone
+    pole**, a **factory/industrial building** (both undisputed across tiers), and a **third symbol disputed at source
+    level**: the wiki reads an **oil pool/puddle**; the community's own documentation writes, verbatim, *"Oil Puddle
+    **or Register Rock**"* (Marmaluke420, [#81]) — the [U24]/[H11] split is native to the community, not our invention —
+    and a third rival reads all three as the **Saint Denis skyline** seen from the tower top ([S44], not adopted).
+    Net: the symbols point toward the **Heartlands / oil fields** (see thread [03](03-matchstick-letters.md)) on the
+    strength of the two undisputed symbols; the third's identity is the open residue of [U10].
+
 - The Butcher Creek pentagram/tally system is the **documented start** of the Spider Dream chain.
 - **The pentagram-mapping mechanic has a shipped, solved precedent — the [Saint Denis Vampire](../analysis/saint-denis-vampire.md)
   ([K27]).** That separate Easter egg runs the *identical* puzzle — **find 5 fixed map points → they form a pentagram → go to
@@ -31,6 +38,23 @@ the entry point to the Spider Dream clue chain.
   Butcher Creek is the **same puzzle unaided**: the player must connect the five outhouses themselves, with the floorboard
   pentagram as a check. This is why we read the Vampire as the game's **tutorial / "seed"** for this mechanic ([H15]) and the
   Butcher Creek → spider trail as an **escalating difficulty curve** ([H16]).
+
+### Per-node content sweep (2026-07-05) — a sourced NEGATIVE
+**The seven tally nodes were swept for per-node content beyond the bare counts** (wiki + GameRant + the r/reddeadmysteries
+documentation corpus + the community Google Site + reddeadreference; [#81]). Result — decisive for [U6] attempt B:
+- **Nodes 1, 2, 3, 5 (Butcher Creek) and 6 (Fort Brennand outhouse): NOTHING beyond the tally** in any source. The only
+  extras anywhere: a file-level **blood-trail decal** from outhouse 3 toward the butcher shed (ambient-plausible,
+  fireflighTim [#53]); spatial adjacencies (node 1 ↔ the pentagram shack; node 4 ↔ the "magic stuff" ritual pole [#73]);
+  and the **[S43] green-bottle claim** (see SPECULATION below — identical bottles at 1–5, so incapable of encoding order).
+- **Node 4** stays the rich one (`LJ`/`SM` + the fort glyph — behind boards that must be **shot away**; "built into the
+  model. Just like the tally marks", Marmaluke420 [#81] — consistent with [K15]); **node 7** carries the three symbols.
+- **Consequence:** Gertrude's permutation `(4 7 5 6)` reorders {4,5,6,7} = {content, empty, empty, content} → **attempt B
+  is closed-inexecutable as a symbol-reading** (see [connections §3](../analysis/connections.md)); it reopens only if the
+  [H26] letter-sweep finds content at node 5 or 6.
+- Watch-items (C, leads only): an alleged **"6th outhouse" at Butcher Creek** "which doesn't fit the pentagram" (Andyssue,
+  `1qebx6v`) — exactly what the 🎮 [H26] sweep should check while on site; a chance **random encounter with a Butcher
+  Creek woman** triggerable while camping inside the 7-tower; "moving spiral things" seen in the tower (`1tzk1vh`,
+  probably light shafts).
 
 ## [UNKNOWN]
 
@@ -88,6 +112,18 @@ the entry point to the Spider Dream clue chain.
   Hall** `S+J` ([K9]); 🔴 but **no `LJ`/`SM`/`EC` and no `L`** at all. **Keep all names live** ([S13]) — the wiki's "West/Ward
   = *Batman*" reading is unconfirmed and a puzzle may use real-world-looking names as camouflage. A lead to test ([U24]), not
   a confirmed match.
+- **S43 (2026-07-05) — the GREEN BOTTLES as per-tally-node markers** (u/Stock-Hat9530, [#81] — C-tier, single author,
+  unreplicated, 20-image gallery): a green **McCarthy Brewing Co.** bottle near each of the 5 Butcher Creek tally
+  outhouses; a green **"Saint Dymphna" Merlot** directly across from the Fort Brennand 6-outhouse (author searched ~2h
+  for a McCarthy there, found none — a deliberate-looking *substitution* if the pattern is real); a bottle **atop the
+  7-tower**, from which Saint Denis is clearly visible. The **only candidate per-node differentiator found anywhere** —
+  but identical at 1–5, so it can't encode order; at most an [H26]-style waymark system. High pareidolia risk (ambient
+  bottles are everywhere); fold the check into the 🎮 [H26] sweep. Full text → [speculation.md](../findings/speculation.md).
+- **S44 (2026-07-05) — the three tower symbols as the SAINT DENIS SKYLINE** seen from the 7-tower top (same author,
+  [#81]): pole → steeple, factory → stacks, third blob → the pond. Recorded as a third rival for the third symbol
+  (alongside wiki-puddle and [H11] Register Rock) — **not adopted**: the two undisputed symbols already point at the
+  Heartlands oil fields, and the [K8] hand-off is retro-validated by what sits there. Full text →
+  [speculation.md](../findings/speculation.md).
 
 ---
 
@@ -100,7 +136,10 @@ the entry point to the Spider Dream clue chain.
 ## Open tasks
 - [ ] Screenshot each of the 5 outhouse tally marks (1–5) and the outhouse-pentagram overlay on the map.
 - [ ] High-res capture of outhouse #4 `LJ` / `SM` / Fort Brennand carving — settle whether it's one or two carvings.
-- [ ] Screenshot Fort Brennand's three tower symbols + tally counts.
+- [x] ~~Screenshot Fort Brennand's three tower symbols + tally counts~~ — **web-settled 2026-07-05** ([#81] pass): counts
+      6/7 B-tier ×2 confirmed; symbols image already on file (`fort-brennand_tower-symbols.webp`); the third symbol is
+      **undecidable from imagery** (flat-bottomed blob — puddle *or* boulder), so the residue is interpretive ([U10]),
+      not a capture gap.
 - [ ] Test the "LJ/SM = character initials" idea against the cast list (see connections).
 
 ## Sources
