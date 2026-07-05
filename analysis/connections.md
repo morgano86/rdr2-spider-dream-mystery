@@ -803,7 +803,9 @@ is a **dream** — sleep in-boundary on the completed set (assets say `spiderdre
 [K10] "KEEP YOUR DREAMS LIGHT" sits at the final-hour `B56` site = a finish-line instruction; answers [U11]'s mechanism —
 no documented solver has slept on a completed set). Composed into **Test C + a universal dream coda** in
 [web-order-field-test.md](web-order-field-test.md) — the cheapest in-game test on the board. Side leads: **[S34]** the
-"guitar" glyph as an **hourglass/figure-8** ([U12] candidate; black-widow field mark / Rockstar 8 [S20] / time icon [H13]);
+"guitar" glyph as an **hourglass/figure-8** ([U12] candidate; black-widow field mark / Rockstar 8 [S20] / time icon [H13])
+— *checked against the extraction 2026-07-05: **guitar-leaning** (long neck + asymmetric bouts + waist sound-hole; the
+hourglass/8 fail their own diagnostics → weighed down, [decoy-and-dream-hypotheses.md §3](decoy-and-dream-hypotheses.md))*;
 **[S35]** the **Strange Man's shack** (inside Middle+Bottom boundaries, [K28]; the game's one state-watching location) as
 the southern [H21]-twin state-carry target for the reds — the designed **rival** of [H24] on the reds' role. All
 [SPECULATION]; rival frames [H20]/[H22] stay live; nothing moves the [K16] frontier.

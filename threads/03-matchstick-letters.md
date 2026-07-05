@@ -126,6 +126,31 @@ spelling **"EC"** beside the **Black Widow spider cigarette card**. `J+M` is one
 
 ---
 
+## Style / "hand" comparison across the letter sets (checklist #8 — run 2026-07-05, desk, on-file images)
+
+**Result: mostly-NULL on letterforms; the shared signature is the TABLEAU, not the hand.**
+- **Letterform comparison is medium-dominated.** The matchstick letters are built from whole, unbroken matches — every
+  stroke is one straight stick, so the angular all-caps look (`E` = 4 sticks, `C` = a 3-stick bracket, `S` = a 3-stick
+  zigzag, `M` = 4 sticks) is **forced by the medium** and carries no comparable "hand." The carved Butcher Creek
+  `LJ`/`SM` ([K6] image) are broad **filled-silhouette** glyphs of the [K15] hidden-geometry class — visibly the same
+  class as the trail-marker `NW`/`W` letters (extractions on file). The one directly comparable form — the 3-stroke
+  angular `S` of `S+J` vs the blocky angular `S` of `SM` — is consistent-but-uninformative (angular is the default in
+  both media). **No letterform evidence for or against common authorship is extractable; [H12]'s grouping (carved =
+  Group 1, matchstick = Group 2 via co-location/props) stands unchanged.** A null, logged as such.
+- **What the images DO share is a set-dresser kit.** Every matchstick site is a *table tableau*: a **Diablo's Matches
+  box** + **smoking paraphernalia** (an ashtray with cigarettes at both `J+M` and `S+J`) + at least one **named
+  card/photo** (`EC`: the Black Widow card + journal; `J+M`: the William Sletcher card + Maude Engel photo; `S+J`: the
+  on-file screenshot shows a **"Vistas of America Card 1"** — Dr. Hawthorne's, *New York* — being examined at the table,
+  ⚠️ its fixed spawn needs verifying against a card-location guide before it counts as a site prop). One consistent
+  grammar → the three tableaux read as **one authored family** — the [H12] Group-2 tie restated from the props side.
+- **Prop-initial correspondence (the open task below) — advanced, NEGATIVE-leaning:** across the sites' named props,
+  only **Maude Engel** supplies a letter (`M`, 1 of `J+M`'s 2); the `EC` props supply no E/C, and the `S+J` card (if a
+  site prop at all) no S/J. ≈1 partial hit across 5 letter-slots ≈ chance — the beside-props don't look like the
+  letters' key. Not fully closed: screenshots may not show every named prop at each site.
+- *Micro-aside (unminted):* the match-heads are visible as dark tips in all three sets and their placement is not
+  obviously uniform; whether head-orientation encodes anything (cf. the feather-socket residual [H19]) is unresolved at
+  image resolution — a free 🎮 glance if ever at a site, not worth a trip.
+
 ## Open tasks
 - [x] Pin match-set locations: `EC`=Vetter's Echo, `J+M`=Cornwall K&T, `S+J`=Caliga Hall *(investigator data, 2026-06-13)*.
 - [x] Screenshot the `J+M` (Cornwall K&T) and `S+J` (Caliga Hall) match sets + what's beside each *(images on file, 2026-06-13)*;
@@ -133,9 +158,12 @@ spelling **"EC"** beside the **Black Widow spider cigarette card**. `J+M` is one
 - [x] Read the **letters to Annabella** at Vetter's Echo in full *(2026-06-13)* — **two poems**; recipient "Annabella" (first
       name only), author **unsigned** (implied Vetter / P.H.V.). **No `E.C.`** — closes [U16] negative.
 - [ ] Investigate **why these four sites** — is there a relationship between the letter-pairs and their locations?
-- [ ] **Prop-correspondence check (2026-07-02):** catalogue every named prop *beside* each match set and test initial-matches —
+- [x] **Prop-correspondence check (2026-07-02):** catalogue every named prop *beside* each match set and test initial-matches —
       e.g. the **Maude Engel photo** beside `J+M` supplies an **M** (the William Sletcher card does not supply a J, so this is
       1-of-2 at best — a small test, not a theory). Do the `EC` and `S+J` sites have any named props at all?
+      **→ ADVANCED FROM HELD IMAGES 2026-07-05, negative-leaning** (see the style/hand section above: Maude Engel's `M` is
+      the lone partial hit; `EC`/`S+J` props supply none of their letters). Residual: confirm the `S+J` "Vistas of America
+      Card 1" spawn + whether any named prop escaped the screenshots.
 - [ ] If checking dev initials at all, check **only** founders/senior leads (Houser brothers, key directors) — not the full
       credits (see the weighted-down note above). Treat any hit as suggestive, not proof.
 

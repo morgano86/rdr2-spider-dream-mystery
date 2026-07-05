@@ -75,7 +75,10 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
   **[RESOLVED 2026-06-14 → [K12]/[U1]]:** no — exactly **two** shot-to-reveal poles; `NW`+guitar is the **last** documented
   under-pole message; no third is documented in any source (deep-research [#60]).
 - **Exact map coordinates** of the start pole, each of the 7 webs, the center webs, and the two inscription poles.
-- **What the guitar means** and whether **Fort Wallace** is the destination or a misdirect.
+- **What the guitar means** and whether **Fort Wallace** is the destination or a misdirect. *(Depiction check run
+  2026-07-05 on the on-file extraction → **guitar-leaning**: long neck + asymmetric bouts + a sound-hole-like waist hole;
+  the [S34] hourglass/figure-8 rivals fail their own diagnostics — headstock absent keeps the identity hedged, [U12].
+  → [decoy-and-dream-hypotheses.md §3](../analysis/decoy-and-dream-hypotheses.md))*
 - **Is the puzzle finished?** Confirmed **still unsolved with NO payoff as of June 2026** (Popverse, Kotaku, comicbook,
   Dexerto, all Jan 2026): *"No new loot, tools, or cutscenes"* — **vindication is the only reported "reward."** The wiki flags
   it may be **cut content** (NW points toward a **beta location** — Wapiti / an army camp / Iron Cloud); note this is **one

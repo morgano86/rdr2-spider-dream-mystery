@@ -118,7 +118,12 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   the waymark frame [H26]), or simply the universal
   **"time" icon** on a trail where everything is hour-gated ([H13]) — with Fort Wallace's two physical guitars as the
   camouflage layer ([S13]). Weak/pareidolia-prone both ways; checkable against the on-file glyph extraction (a guitar needs a
-  neck + headstock; an hourglass a pinched waist + flat caps). → [decoy-and-dream-hypotheses.md](../analysis/decoy-and-dream-hypotheses.md)
+  neck + headstock; an hourglass a pinched waist + flat caps). **⚡ CHECKED 2026-07-05 (desk, on the extraction) — outcome:
+  GUITAR-LEANING, hourglass/8 weighed down.** The glyph has a **long neck** (the feature whose absence would have
+  strengthened S34), **asymmetric solid lobes** (lower > upper = guitar bouts; hourglass bulbs are symmetric; an 8 needs
+  two closed loops) and a **sound-hole-like waist hole** (an hourglass has none). Headstock absent → "guitar-like" stays
+  hedged, not promoted; the hourglass/figure-8 rivals fail 2–3 of their own diagnostics each. Full scoring →
+  [decoy-and-dream-hypotheses.md §3](../analysis/decoy-and-dream-hypotheses.md)
 
 ## Outward / meta
 - **S8.** Connection to **GTA V Mount Chiliad** mystery aesthetics (UFO/jetpack-style slow-burn ARG). *(Now grounded by [K24]:
@@ -584,8 +589,9 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   → [decoy-and-dream-hypotheses.md](../analysis/decoy-and-dream-hypotheses.md), [U29](unknowns.md), [U15](unknowns.md)
 - **H25 (fresh-pass, 2026-07-02). The payoff is a DREAM — complete a valid feather set, then SLEEP in-boundary before
   leaving.** The mechanism answer to [U11] that seven years of place-searching never tried: Rockstar's own assets name the
-  egg `spiderdream` ([K13]); RDR2 **ships a sleep-vision system** (the honor-gated deer/wolf dreams), so the engine can pay
-  off in a dream; [K29] shows the shot-state is deliberately **built to survive camping/hotel sleep** in-boundary (why store
+  egg `spiderdream` ([K13]); ~~RDR2 **ships a sleep-vision system** (the honor-gated deer/wolf dreams)~~ *(premise
+  corrected 2026-07-05 → see the machinery check below)*; [K29] shows the shot-state is deliberately **built to survive
+  camping/hotel sleep** in-boundary (why store
   state across sleep if sleep isn't in the loop?); and [K10]'s *"KEEP YOUR DREAMS LIGHT"* sits at **web `B56`'s own site**, the
   final-hour (5–6 AM = first light) stop of the chronological run — re-read as a **finish-line instruction** (finally giving
   that never-wiki-confirmed carving a function, sharpening [S6]). The gap is real: the investigator slept only on *partial*
@@ -599,6 +605,15 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   no-sleep completion null exists (u/Leadcountydude, "seems nothings happens"), which raises the sleep step's marginal
   value. H25 remains the cheapest untested in-game action. Full dry-check in
   [decoy-and-dream-hypotheses.md §2](../analysis/decoy-and-dream-hypotheses.md).
+  **⚠️ MACHINERY CHECK FAILED (desk, 2026-07-05 → [#85], [U11] answered-negative):** RDR2 has **no sleep-triggered dream
+  machinery at all** — every in-game dream/vision is a story-scripted cinematic (the honor "dreams" are post-mission
+  interstitials / a waking trance / the death vision, **not** sleep-fired); the wiki's *Sleeping* page (re-verified
+  firsthand) has zero dream content; no free-roam sleep→vision instance exists in ~7.5 years of record; `dreamanim.c`
+  ([#74]) is near-empty = cut. **H25's literal form is downgraded** (a sleep-fired dream would need never-exhibited
+  machinery); the surviving **weakened form** is the **Hani's Bethel presence-at-hour pattern** ("just being in the
+  cabin when 2 am arrives is sufficient" — sleep is only the time-skip), i.e. *be in-boundary at the key hour on a
+  completed set, watching the world on waking*. The dream coda stays in Tests C/D at ≈zero cost, run with these
+  recalibrated expectations. Full check in [decoy-and-dream-hypotheses.md §2](../analysis/decoy-and-dream-hypotheses.md).
   → [decoy-and-dream-hypotheses.md](../analysis/decoy-and-dream-hypotheses.md), [U11](unknowns.md), [K10](known-facts.md)
 - **H26 (fresh-pass, 2026-07-02). The letters are WAYMARKS/signatures, not a cipher payload — presence is the data, not
   content.** Every content-decode has failed or come back coincidence-grade ([connections §1a](../analysis/connections.md):

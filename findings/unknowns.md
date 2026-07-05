@@ -257,10 +257,24 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   pole**, **factory + chimney**); **the third is disputed at source level**: wiki "oil puddle" vs the community's own
   verbatim "Oil Puddle **or Register Rock**" ([U24]/[H11]) vs the new Saint-Denis-skyline reading ([S44]). Open residue =
   the third symbol's identity only. → [02](../threads/02-butcher-creek-carvings.md)
-- **U11.** Whether a literal **"dream" sequence** is triggerable in-game, or "dream" is purely thematic. **A candidate
-  *mechanism* proposed 2026-07-02 → [H25]:** the untested step is **sleeping in-boundary on a completed feather set** (RDR2
-  ships a sleep-vision system; [K29] state survives sleep; [K10]'s "KEEP YOUR DREAMS LIGHT" sits at the final-hour web site) —
-  see the "dream coda" in [web-order-field-test.md](../analysis/web-order-field-test.md). → [01](../threads/01-spider-dream.md)
+- **U11. [RESEARCH HALF ANSWERED — NEGATIVE 2026-07-05 → [#85]]** Whether a literal **"dream" sequence** is triggerable
+  in-game, or "dream" is purely thematic. **Answer: RDR2 ships NO sleep-triggered dream machinery at all** (high
+  confidence, comprehensive pass): every dream/vision in the game is a **story-scripted cinematic** (the Guarma
+  unconscious-dream; the Chapter-6 post-mission honor interstitials — deer vs wolf/coyote; the *Fork in the Road*
+  waking trance; the death vision) — none fires from the player choosing to sleep. The wiki's *Sleeping* page (full
+  wikitext **re-verified firsthand**) documents the whole mechanic with **zero** dream/vision content — sleep is a
+  fade + time-skip + stat restore; no free-roam sleep→vision instance exists in any wiki, guide, or community record
+  in ~7.5 years; **no peyote in story mode**; dreamcatcher completion plays no vision; the one datamined dream-flavoured
+  script (`dreamanim.c`, [#74]) is **near-empty = cut**. ⟹ The earlier premise here ("RDR2 ships a sleep-vision
+  system") was **wrong** — the correction cascades to [H25]: its literal form ("sleep → a dream plays") would need
+  machinery the game has never exhibited → **downgraded to mechanically-implausible-on-known-machinery**. The
+  defensible weakened form is the **Hani's Bethel UFO pattern** — a *presence-at-hour* event in the waking world, where
+  sleeping is merely the time-skip to reach the hour ("you don't need to specifically sleep in the bed — just being in
+  the cabin when 2 am arrives is sufficient") — an **established Rockstar pattern** the trail's own hour-gating rhymes
+  with. The in-game dream-coda step stays in Tests C/D (it costs ~nothing and the desk negative can't rule out
+  engine-side content, cf. [U2]'s checked-but-never-set flags) — but run with recalibrated expectations: **watch the
+  wake cycle AND the location at the key hour**, not just the sleep. → [01](../threads/01-spider-dream.md),
+  [H25](speculation.md), [decoy-and-dream-hypotheses.md §2](../analysis/decoy-and-dream-hypotheses.md)
 - **U12.** What the **guitar** symbol denotes (still "believed to be a guitar" — never confirmed). **Partly answered:** the
   `NW`+guitar marker points to **Fort Wallace** (two guitars there), but Fort Wallace is a **waypoint, not the destination** —
   the trail continues NW past it ([06](../threads/06-bird-carving-giant-wapiti.md)). **Corroborated 2026-06-14 ([#60]):** *every*
@@ -269,7 +283,13 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   genuinely contested, not just unstated. **New candidate reading 2026-07-02 → [S34]:** an **hourglass / figure-8** (the black
   widow's field mark — echoing the Black Widow card [K9] — or Rockstar's 8/infinity motif [S20], or simply the "time" icon on
   an hour-gated trail [H13]); checkable against the on-file glyph extraction (guitar needs a neck+headstock; hourglass a
-  pinched waist). → [05](../threads/05-spider-web-trail-2025.md), [decoy-and-dream-hypotheses.md](../analysis/decoy-and-dream-hypotheses.md)
+  pinched waist). **⚡ [S34] CHECK RUN 2026-07-05 (desk, on the extraction): GUITAR-LEANING.** The glyph has a **long neck**
+  joining the top lobe, **asymmetric solid lobes** (lower > upper = guitar bouts) and a **sound-hole-like waist hole** —
+  the hourglass (no neck, no hole, symmetric) and figure-8 (needs two closed loops) fail their own diagnostics; the only
+  missing guitar feature is a headstock, so "guitar-like instrument" is now the best-supported reading, still hedged,
+  never promoted to [KNOWN]. A "spider on its dragline" rival was weighed and set aside (the same carving family's
+  Cornwall spider [S30] has 8 prominent legs; this glyph has none). →
+  [05](../threads/05-spider-web-trail-2025.md), [decoy-and-dream-hypotheses.md §3](../analysis/decoy-and-dream-hypotheses.md)
 
 ## New leads from the primary wiki (Part 4 — wiki-flagged speculative)
 - **U13. [DOWNGRADED 2026-06-13].** **Spider Gorge** — the wiki (Part 4) says NW of the guitar pole "points directly to the
@@ -372,13 +392,20 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   the datamine number→location mapping, or downgrade the numbers to a flagged assignment.** Upstream of the [K16] frontier. →
   [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [S29](speculation.md)
 
-- **U35. What gates the Strange Man portrait's 4th/final visit — post-epilogue + days passed, or 100% completion? And what
-  advances a "visit"? [Strange Man corpus pass, 2026-07-02].** The two B-tier sources **disagree**: the Red Dead Wiki says the
-  fourth visit (finished portrait + mirror apparition) is available "**after the epilogue**"; Gameranx says "once you hit
-  **100% Completion**." Neither documents what increments portrait progress (interior entry? in-game days? both). Matters
-  practically: it fixes the **expected baseline portrait state** for the [S35] red-side session (a post-epilogue, <100% save
-  predicts different stock behaviour under each gate). Settle from the user's own save or a dedicated guide pass. →
-  [locations/strange-man-shack.md](../locations/strange-man-shack.md), [S35](speculation.md), src [#68](../sources/sources.md)
+- **U35. [MAIN QUESTION ADJUDICATED 2026-07-05 → [#84]] What gates the Strange Man portrait's 4th/final visit? And what
+  advances a "visit"? [Strange Man corpus pass, 2026-07-02].** The two B-tier sources disagreed (wiki: "**after the
+  epilogue**"; Gameranx: "**100% Completion**"). **A dedicated research pass settled the headline: the gate is
+  POST-EPILOGUE + 4 unique visits with multi-in-game-day spacing (as John) — NOT 100%.** Counterexamples run both
+  directions (finished portrait + mirror + journal at **88%** completion, `llc7lq` re-verified verbatim; a
+  "still not finished after 100%" GameFAQs report); an OP-solve is explicit (*"It just requires being in the
+  epilogue"*); and the 100% claim **traces to its origin** — a 2018 correlation guess (`9wuk1g`: 95–100% players have
+  necessarily finished the epilogue + passed many days) that Gameranx and aggregators propagated. **Still open (narrow
+  residual):** the exact stage-advance mechanic (visit count with a ~3-day cooldown vs pure days-elapsed) and whether
+  **Arthur-era visits count** (wiki says John-only; two firsthand reports say per-chapter progression as Arthur; one
+  unverified 2018 anomaly reports the apparition *as Arthur*). Practical for [S35]: baseline portrait state on a
+  post-epilogue <100% save is predicted by **prior visit count**; and one finished-portrait-but-no-apparition report
+  means a missing mirror apparition is **not** a spider-state signal. →
+  [locations/strange-man-shack.md](../locations/strange-man-shack.md), [S35](speculation.md), src [#84](../sources/sources.md)
 
 #### Mount Shann sundial — a *separate* mystery (thread 09, user request 2026-07-02)
 - **U33. What do the sundial's 7 arrows encode, and is the red/orange/yellow colour-coding meaningful?** Documented behaviour

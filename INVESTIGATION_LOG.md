@@ -2,6 +2,51 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-05 (glyph + letters desk pass; U11/U35 research) — U35 gate ADJUDICATED (post-epilogue, NOT 100%); U11 answered-NEGATIVE (no sleep-dream machinery → H25 weakened); S34 glyph check → guitar-leaning; checklist #8 closed
+
+**What we did.** Four tasks: (1) the [S34]/[U12] glyph depiction check on the on-file `NW`-inscription extraction;
+(2) checklist #8 — the "hand"/style comparison across the three matchstick sets vs outhouse #4, plus the thread-03
+prop-correspondence task (incl. a web confirm of the `S+J` site's named card); (3) a research pass on [U35] (the Strange
+Man 4th-visit gate); (4) a research pass on [U11] (is a literal dream triggerable). (3)+(4) ran as parallel subagents;
+load-bearing claims **re-verified before integration** (the wiki *Sleeping* page re-fetched via the MediaWiki API — 0
+dream/vision/trance hits in the full 5,869-char wikitext; the three decisive [U35] Reddit posts re-pulled verbatim via
+Arctic Shift).
+
+**What we learned.**
+- **⭐ [U35] ADJUDICATED-IN-MAIN ([#84]):** the finished-portrait/mirror gate is **post-epilogue + 4 unique visits with
+  multi-in-game-day spacing (as John) — NOT 100% completion.** Counterexamples both directions (finished at **88%**,
+  `llc7lq`, re-verified verbatim; a "not finished after 100%" GameFAQs report); OP-solve explicit ("*It just requires
+  being in the epilogue*"); the 100% claim **traced to its origin** — a 2018 correlation guess (`9wuk1g`), confounded
+  and propagated by Gameranx. Residual: the stage-advance mechanic (visit-count-with-~3-day-cooldown vs days-elapsed);
+  Arthur-era progression disputed. Practical for [S35]: baseline portrait = f(prior visit count); one
+  finished-portrait-but-no-apparition report ⇒ a missing apparition is **not** a spider-state signal.
+- **⭐ [U11] research half ANSWERED — NEGATIVE ([#85]):** RDR2 ships **no sleep-triggered dream machinery at all** —
+  every dream/vision is a story-scripted cinematic (Guarma; Chapter-6 honor interstitials; the *Fork in the Road*
+  **waking** trance; the death vision); sleep = fade + time-skip + stat restore; **no free-roam sleep→vision case in
+  ~7.5 years** of wiki/guide/community record; no story-mode peyote; dreamcatcher completion plays no vision;
+  `dreamanim.c` ([#74]) near-empty = cut. **[H25]'s literal form downgraded**; the surviving weakened form is the
+  **Hani's Bethel presence-at-hour pattern** (sleep = time-skip only; watch the *world* on waking — which is also what
+  the lopfeh anomaly looked like). H25's wrong premise sentence ("ships a sleep-vision system") corrected in every home;
+  the Tests C/D dream coda **stays** (≈zero cost; engine-side content undisprovable from the desk, cf. [U2]'s
+  checked-but-never-set flags) with recalibrated watch-priorities.
+- **[S34] CHECKED → guitar-leaning ([U12]):** the extraction resolves into a **long neck** (the feature whose absence
+  would have strengthened the hourglass), **asymmetric solid lobes** (lower > upper = guitar bouts) and a
+  **sound-hole-like waist hole** — the hourglass (no neck, no hole, symmetric) and figure-8 (needs two closed loops)
+  fail their own diagnostics; headstock absent keeps "guitar-like" hedged, never [KNOWN]. A spider-on-dragline rival
+  was weighed and set aside (the same carving family draws spiders with 8 prominent legs — Cornwall, [S30]).
+- **Checklist #8 CLOSED (mostly-null):** no letterform "hand" is extractable (the matchstick medium forces angularity;
+  the carved sets are the [K15] silhouette class); the real cross-set signature is the **tableau kit** (Diablo's box +
+  smoking props + a named card/photo at all three sites) — the [H12] Group-2 tie restated from the props side.
+  Prop-initial correspondence **negative-leaning** (Maude Engel's `M` = the lone partial hit). 🆕 The `S+J` site's named
+  card is **confirmed a genuine site prop**: Vistas of America **#1 (New York)**, fixed spawn = the Caliga Hall porch
+  table ([#83], Shacknews + reddead.gg) — and it supplies no `S`/`J`.
+
+**What changed.** sources.md (#83–#85); locations/strange-man-shack.md (gate adjudicated); findings/unknowns.md
+([U35], [U11], [U12]); threads 01 ([U11] + open task), 03 (style/hand section + prop task), 05 ([U12] note);
+analysis/decoy-and-dream-hypotheses.md (§2 machinery check + §3 glyph check); analysis/web-order-field-test.md (dream
+coda reframed); analysis/connections.md (§5g note); findings/speculation.md ([H25], [S34]); EVIDENCE-CHECKLIST (#8 +
+Tier-3 U11 closed); INDEX ([U11]/[U12]/[U35]/[H25]/[S34] rows); STATUS (Test C row, headline).
+
 ## 2026-07-05 (battery re-run + U9) — [S42] statistically supported on CANONICAL data; [U9] resolved (the 9th "pole" is a TREE); [K40] independently corroborated in print
 
 **What we did.** Three desk tasks: (1) the queued 🧠 re-run of the Gertrude structure battery on the canonical [K42]

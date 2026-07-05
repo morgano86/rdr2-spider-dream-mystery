@@ -68,9 +68,12 @@ Run cheapest-first. **Full step-by-step protocols (confound controls + decision 
 - **⚡ 2. Test C — the blacks-only solve + dream coda ([H24]/[H25], ~2 nights).** Night 1: `B23→B45→B56→BL56` staying in
   yellow; hold state through the day ([K29]). Night 2: `B34` at 3–4 AM from the overlap (geometry forces `BL56` before
   `B34`). **Never touch a red.** Camp at the whiskey tree ([S23]) and **sleep at dawn** ([H25] — dry-check [#67]: no
-  documented solver has ever slept on a completed set). Companion red-side session ([S35]): solve the 3 reds, stay in
-  South, walk into the **Strange Man's shack** with state live — baseline dossier + checklist:
-  [locations/strange-man-shack.md](locations/strange-man-shack.md) (no-state baseline visit first; gate caveat [U35]).
+  documented solver has ever slept on a completed set; ⚠️ machinery check 2026-07-05 [#85]: no sleep-fired dream system
+  exists — expect a **presence-at-hour world event on waking**, not a vision). Companion red-side session ([S35]): solve
+  the 3 reds, stay in South, walk into the **Strange Man's shack** with state live — baseline dossier + checklist:
+  [locations/strange-man-shack.md](locations/strange-man-shack.md) (no-state baseline visit first; [U35] gate settled
+  2026-07-05: post-epilogue + 4 spaced visits, **not** 100% — baseline portrait = f(prior visits); a missing mirror
+  apparition is NOT a spider signal).
 - **🔑 3. Tests A/B — the cross-boundary STATE battery ([H22]/[U29]).** Discriminates the three exits at the RED↔BLACK
   seam (R1 overlap-holds / R2 hidden-flag / R3 no-combine); reasoning in
   [`web_boundary_solve_protocol.py`](experiments/web_boundary_solve_protocol.py).
@@ -105,6 +108,12 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-07-05 (glyph/letters + U11/U35)** — **[U35] adjudicated** (Strange Man 4th-visit gate = post-epilogue + 4
+  spaced visits, **NOT 100%** — the 100% claim traced to a 2018 myth; [#84]); **[U11] answered-negative** ([#85]: RDR2
+  has **no sleep-triggered dream machinery** → **[H25] weakened to presence-at-hour**, coda stays in Tests C/D);
+  **[S34] glyph check → guitar-leaning** (long neck + waist sound-hole on the extraction; hourglass/8 fail their own
+  diagnostics); **checklist #8 closed** (hand = medium-forced null; shared tableau kit; `S+J`'s NY card = confirmed
+  Caliga Hall spawn, [#83]).
 - **2026-07-05 (battery re-run + U9)** — **[S42] statistically supported on the canonical [K42] set** (attempts cap at
   5; global additive p = 0.335; line-A `3,5,8,13` suggestive-not-significant — ~0.16 whole-line, B-take breaks it;
   🆕 the 12 lines = windows on one VO babble stream); **[U9] resolved** (8 pole-webs + the centre web in a **TREE**

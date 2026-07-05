@@ -58,7 +58,11 @@ clarity and source a cleaner shot if one exists.
 ### 8. Matchstick sets — remaining items — [K9], [U5]  · 🌐
 `EC`/`J+M`/`S+J` images are all sourced + verified (see Completed). Remaining:
 - [ ] Source a clean **arrow**-set image (Old Trail Rise) if one surfaces (deprioritised — a standard stash pointer, not a letter).
-- [ ] Compare the carving "hand"/style across the three letter sets and vs outhouse #4 [K6].
+- [x] ~~Compare the carving "hand"/style across the three letter sets and vs outhouse #4 [K6]~~ — **DONE 2026-07-05,
+  mostly-null**: the matchstick medium forces the angular style (no "hand" extractable); carved `LJ`/`SM` = the [K15]
+  filled-silhouette class like the trail markers. Real shared signature = the **tableau kit** (matches box + smokes +
+  named card/photo at all three sites); prop-initial correspondence negative-leaning →
+  [thread 03](threads/03-matchstick-letters.md#style--hand-comparison-across-the-letter-sets-checklist-8--run-2026-07-05-desk-on-file-images)
 
 ---
 
@@ -68,7 +72,11 @@ clarity and source a cleaner shot if one exists.
   flock → the Giant, any **"?" carving** on the out-of-bounds mountain, and an **"eye"** ([H7]).
 - [ ] **H8 test** · 🎮 — genuinely needs play: after completing the spider trail, check whether the **dreamcatcher log
   entry finally clears** (the cleanest single proof of a dreamcatcher↔spider link; falsifiable).
-- [ ] **U11** — research whether any literal **"dream" sequence** is triggerable vs purely thematic.
+- [x] ~~**U11** — research whether any literal **"dream" sequence** is triggerable vs purely thematic~~ — **DONE
+  2026-07-05, NEGATIVE ([#85])**: no sleep-triggered dream machinery exists (all in-game dreams are story-scripted;
+  sleep = time-skip; no free-roam sleep→vision case in ~7.5 years); [H25] downgraded to its **presence-at-hour**
+  weakened form (the Hani's Bethel pattern) — the Test C/D dream coda stays, with recalibrated watch-priorities. →
+  [decoy-and-dream-hypotheses.md §2](analysis/decoy-and-dream-hypotheses.md)
 
 ---
 

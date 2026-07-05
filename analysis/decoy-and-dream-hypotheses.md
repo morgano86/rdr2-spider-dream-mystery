@@ -110,8 +110,11 @@ Brennand and Valentine — remains the open heart of [S22]/[H21]/[U29].
 ### The re-read
 The mystery is named — **by Rockstar's own internal assets** — the *spider **dream*** (`spiderdream01–08`, [K13]). Seven
 years of searching have looked for a *place* payoff (loot, cutscene, carving, [U2]: "no new loot, tools, or cutscenes").
-Nobody appears to have asked what a **dream** payoff would mechanically require: **sleeping.** RDR2 ships a dream-vision
-system (the honor-gated deer/wolf visions during story sleeps) — the engine can deliver a vision on sleep, and does.
+Nobody appears to have asked what a **dream** payoff would mechanically require: **sleeping.** ~~RDR2 ships a dream-vision
+system (the honor-gated deer/wolf visions during story sleeps) — the engine can deliver a vision on sleep, and does.~~
+*(⚠️ Premise corrected 2026-07-05 — see the machinery check below: the honor visions are **post-mission cutscene
+interstitials / a waking trance / the death vision**, not sleep-fired; no sleep-triggered vision exists anywhere in the
+game. The engine renders dream *content*, but no shipped hook fires it from sleeping.)*
 
 Put three established facts together:
 - **[K29]:** shot-feather state **survives camping/hotel sleep** while in-boundary — i.e. the mechanic is *built to let
@@ -158,6 +161,29 @@ sleep-on-completed-set attempt ([#67] bundles the citations). Findings:
 **Net: [H25] survives its dry-check as the cheapest untested in-game action** — silence in ~1,989 comments + the timeline is
 as close to "nobody has tried it" as desk work can establish. Logged 2026-07-02.
 
+### Machinery check (desk, 2026-07-05) — the sleep-vision premise FAILS; [H25] downgraded to its weakened form ([#85])
+A dedicated [U11] research pass asked what the game's dream machinery actually is. **Answer: there is no sleep-triggered
+dream machinery in RDR2 at all.** Every dream/vision the game ships is a **story-scripted cinematic** — the Guarma
+unconscious-dream, the Chapter-6 post-mission honor interstitials (deer vs wolf/coyote), the *Fork in the Road* **waking**
+trance, the death vision; none fires from the player choosing to sleep. The wiki's *Sleeping* page (full wikitext
+re-verified firsthand: **zero** occurrences of dream/vision/trance/hallucin-) documents sleep as a fade + **time-skip** +
+stat restore; ~7.5 years of wiki/guide/community record contain **no free-roam sleep→vision instance under any
+condition**; story mode has no peyote; dreamcatcher completion plays no vision; and the one datamined dream-flavoured
+script — `dreamanim.c` ([#74]) — is **near-empty = cut**, which *reconciles* rather than contradicts (cut machinery is
+exactly what [U2]'s checked-but-never-set flags predict). **Consequences, stated honestly:**
+- **[H25]'s literal form** ("sleep on a completed set → a dream plays") **would require machinery the game has never
+  exhibited** → downgraded to mechanically-implausible-on-known-machinery. The [K29]-survives-sleep argument above loses
+  its "why else store state across sleep?" force (state survives sleep because sleep is just a time-skip).
+- **The defensible weakened form is the Hani's Bethel UFO pattern** — RDR2's one real "sleep-adjacent" egg is a
+  **presence-at-hour** event in the *waking* world ("you don't need to specifically sleep in the bed — just being in the
+  cabin when 2 am arrives is sufficient"; sleep is merely the time-skip). On a trail whose every element is hour-gated
+  ([H13]), "**be in-boundary at the key hour on a completed set**" is the H25 variant an established Rockstar pattern
+  actually supports. The lopfeh off-hour-spawn anomaly above fits this frame too (the perturbation appeared in the
+  *world*, on *waking* — not as a vision).
+- **The dream coda stays in Tests C/D** (cost ≈ zero; a desk negative can't rule out engine-side content) — but run it
+  watching **the wake cycle AND the surroundings at the key hour**, not an expected vision overlay; and log the null
+  without surprise if none comes.
+
 ---
 
 ## 3. [S34] — The "guitar" glyph read as an HOURGLASS / figure-8 (a [U12] candidate)
@@ -179,6 +205,24 @@ alternatives nobody has logged:
 the on-file extraction ([`trail-marker_nw-guitar-inscription.webp`](../images/trail-markers/trail-marker_nw-guitar-inscription.webp))
 for the discriminating features — a guitar has a **neck + headstock**; an hourglass has a **pinched waist + flat caps**;
 an 8 closes both loops. If the "neck" is actually short/absent, the hourglass/8 reading strengthens.
+
+**⚡ CHECK RUN 2026-07-05 (desk, on the on-file extraction
+[`trail-marker_nw-guitar-inscription_extracted.png`](../images/trail-markers/trail-marker_nw-guitar-inscription_extracted.png)) —
+outcome: GUITAR-LEANING; hourglass/8 weighed down.** At extraction scale the glyph resolves cleanly into: **a long
+neck** (a straight stem roughly the body's own length, joining the **top** of the upper lobe — the exact feature whose
+absence would have strengthened this reading); **two solid lobes with the LOWER one visibly larger** (asymmetric =
+guitar upper/lower bouts; an hourglass's bulbs are symmetric); and **one small polygonal hole at the waist**
+(sound-hole-like — an hourglass has no hole at all, and a figure-8 needs **two** closed loops, where these lobes are
+solid fill). Scored against this section's own discriminators: neck **present** (hourglass/8 predicted short/absent) ·
+flat caps **absent** · loops **not closed** · waist-pinch present but shared by both readings. The lone guitar feature
+missing is a **headstock** (the stem ends blunt) — so "guitar-like instrument" stays hedged, not promoted; but the
+hourglass and figure-8 rivals fail 2–3 of their own diagnostics each. The "time-icon" and "rock-pun" sub-readings
+inherit the demotion only partly (they ride on the glyph's *meaning*, but both lose their shape argument). One further
+rival was weighed and set aside during the check: a **spider hanging from its dragline** (stem = silk thread, two lobes
+= cephalothorax + abdomen at a pedicel waist — thematically perfect) — rejected because the same carving family
+demonstrably draws spiders **with 8 prominent legs** (the Cornwall start-pole engraving, [S30]); a legless spider from
+that hand is unmotivated. Net for [U12]: on the extraction's geometry the B-tier hedge "believed to be a guitar" is the
+**best-supported reading**; Fort Wallace's two physical guitars keep their referent.
 
 ---
 

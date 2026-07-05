@@ -175,14 +175,20 @@ costs the later tests nothing.*
 
 ### The dream coda ([H25]) — bolt this onto EVERY test, A, B, C, and D
 
-The egg is internally named `spiderdream` ([K13]) and RDR2 ships a sleep-vision system, yet no documented solver has ever
+The egg is internally named `spiderdream` ([K13]) ~~and RDR2 ships a sleep-vision system~~ *(premise corrected
+2026-07-05, [#85]/[U11]: **no sleep-triggered dream machinery exists** — every in-game dream is story-scripted; sleep is
+a fade + time-skip. The coda survives in its **weakened, Hani's-Bethel form**: a payoff, if any, would be a
+**presence-at-hour event in the waking world**, with sleep merely the time-skip — so the watch-priority on waking is the
+**surroundings**, not an expected vision overlay)*, and no documented solver has ever
 **slept on a completed candidate state** (the [K29] sleeps were on partial states — **dry-check confirmed 2026-07-02
 ([#67]):** a ~1,989-comment master-thread sweep + the community timeline found *proposals only*, zero executed tests). So:
 **at the end of any completed group/combine/chain — before leaving the boundary — camp or hotel-sleep in-boundary, ideally
 into first light** (the chronological run ends 5–6 AM = dawn; note [K10] *"KEEP YOUR DREAMS LIGHT"* is carved at the `B56`
-Oil Fields site). Watch the sleep/wake cycle for any vision, audio, or journal change — **and for off-hour/featherless web
-spawns**: the one mid-chain sleeper on record (u/lopfeh, [#67]) woke to featherless webs up at **12:20 AM**, the nearest
-thing to a sleep-reaction the corpus holds. Costs minutes; covers [U11] on every run; log the nulls.
+Oil Fields site). Watch the sleep/wake cycle for any vision, audio, or journal change — **and above all, on waking, the
+world at the key hour: off-hour/featherless web spawns**, new objects, sounds — the one mid-chain sleeper on record
+(u/lopfeh, [#67]) woke to featherless webs up at **12:20 AM**, the nearest thing to a sleep-reaction the corpus holds,
+and it appeared *in the world*, not as a vision (exactly the weakened form's prediction). Costs minutes; covers [U11]'s
+in-game residual on every run; log the nulls without surprise.
 
 ### R3 by elimination (do not conclude early)
 

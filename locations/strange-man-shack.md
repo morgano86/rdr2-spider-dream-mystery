@@ -21,10 +21,15 @@ Gameranx guide — source [#68](../sources/sources.md)).
 The centre of the room holds an **unfinished painting** that completes across **four unique visits**:
 1. **As Arthur:** the painting is (and stays) unfinished.
 2. **As John** (post-epilogue): it becomes "more and more complete **over the next few days**" across return visits.
-3. **Fourth visit** — the portrait is **finished, revealing the Strange Man**. Gate discrepancy between B-tier sources,
-   flagged as an open sub-point: the **wiki** says the 4th visit is available "**after the epilogue**"; **Gameranx** says
-   "once you hit **100% Completion**". *(Which gate is real matters for scheduling the [S35] session — if the user's save is
-   post-epilogue but <100%, the two sources predict different baseline portrait states.)* → [U35]
+3. **Fourth visit** — the portrait is **finished, revealing the Strange Man**. ~~Gate discrepancy between B-tier sources~~
+   **→ ADJUDICATED 2026-07-05 ([#84]): the gate is POST-EPILOGUE + 4 unique visits with multi-in-game-day spacing (as
+   John) — NOT 100% completion.** Both-directions counterexamples on record (finished at **88%**, `llc7lq`; a
+   100%-without-portrait GameFAQs report); an OP-solve states it plainly (*"It just requires being in the epilogue…
+   took several days of sleeping, saving and loading"*); the 100% claim traces to a **2018 correlation guess**
+   (`9wuk1g` — 95–100% players have necessarily finished the epilogue + passed many days) propagated by Gameranx.
+   *(Practical for [S35]: a post-epilogue <100% save predicts the portrait state from **prior visit count**, not
+   completion %.)* Residual at [U35]: what exactly advances a stage (Arthur-era progression is disputed — wiki says
+   John-only, two firsthand comments report per-chapter progression as Arthur).
 4. **Mirror apparition:** with the portrait complete, looking in the **mirror to the left of the painting** shows the
    Strange Man **standing behind you**; he vanishes if you turn around or try to photograph/screenshot him. He appears
    **only** in the mirror.
@@ -80,9 +85,15 @@ The shack is the game's densest **hidden-state reader**. Stock reactive channels
 6. **Log a null as a finding** — under [H24] a null here is *expected* and still discriminates.
 
 ## Open sub-questions
-- **[U35]** — which gate really controls the 4th visit/finished portrait: **post-epilogue + days passed** (wiki) or
-  **100% completion** (Gameranx)? Also: what exactly advances a "visit" (interior entry? days elapsed? both)? B-tier sources
-  are thin; settle by the user's own save behaviour or a dedicated guide pass.
+- **[U35]** — ~~which gate really controls the 4th visit/finished portrait~~ **MAIN QUESTION ADJUDICATED 2026-07-05
+  ([#84], dedicated research pass): post-epilogue + 4 spaced unique visits; the 100%-completion claim is a
+  traced-and-contradicted 2018 community myth.** Still open (narrow residual): what exactly advances a stage —
+  interior-entry count with a ~3-day cooldown (the game's standard refresh timer, per firsthand reports) vs pure
+  days-elapsed — and whether **Arthur-era visits count** (sources genuinely disagree; one unverified 2018 anomaly even
+  reports the mirror apparition as *Arthur*). Also logged: one report of finished-portrait-but-**no**-apparition (the
+  mirror trigger is finicky — the [S35] session should **not** read a missing apparition as a spider-state signal).
+  Settleable by the user's own save (4 visits spaced 3+ in-game days on a post-epilogue, <100% file).
 
-*Sources: [#68](../sources/sources.md) (Red Dead Wiki "Bayall Edge" + "Strange Man" via MediaWiki API; Gameranx guide).
+*Sources: [#68](../sources/sources.md) (Red Dead Wiki "Bayall Edge" + "Strange Man" via MediaWiki API; Gameranx guide);
+[#84] (the 2026-07-05 gate adjudication cluster).
 Created 2026-07-02 for [S35]; see [analysis/decoy-and-dream-hypotheses.md §4](../analysis/decoy-and-dream-hypotheses.md).*

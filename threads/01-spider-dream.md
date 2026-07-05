@@ -42,8 +42,16 @@ trail is the newest and most active branch.
 
 ## [UNKNOWN]
 
-- **What "the dream" actually is.** The name implies a literal dream sequence, but secondary sources describe symbols and
-  webs, not a cutscene. Is there an actual triggerable dream, or is "dream" thematic (cf. "KEEP YOUR DREAMS LIGHT")?
+- **What "the dream" actually is ([U11] — research half ANSWERED-NEGATIVE 2026-07-05, [#85]).** The name implies a literal
+  dream sequence, but secondary sources describe symbols and webs, not a cutscene. **A dedicated machinery pass found
+  RDR2 ships NO sleep-triggered dream system at all**: every in-game dream/vision is a story-scripted cinematic (Guarma
+  dream, Chapter-6 honor interstitials, the *Fork in the Road* waking trance, the death vision); sleep itself is a
+  fade + time-skip + stat restore (wiki *Sleeping* page re-verified firsthand: zero dream content); no free-roam
+  sleep→vision case exists in ~7.5 years of record; `dreamanim.c` ([#74]) is near-empty = cut. So on shipped, known
+  machinery "dream" is **thematic**, and [H25]'s literal sleep→dream form is downgraded to its weakened
+  **presence-at-hour** variant (the Hani's Bethel UFO pattern — sleep only as time-skip). What remains open here is the
+  residual an engine-side/cut payoff could hide behind ([U2]'s checked-but-never-set flags). →
+  [decoy-and-dream-hypotheses.md §2](../analysis/decoy-and-dream-hypotheses.md), [U11](../findings/unknowns.md)
 - **The payoff.** No confirmed reward, cutscene, unlock, or final message.
 - **Whether all threads are one puzzle.** The Butcher Creek chain and the 2025 telegraph-pole web trail may be the same
   puzzle or two overlapping ones.
@@ -68,7 +76,8 @@ trail is the newest and most active branch.
 
 ## Open tasks for this thread
 - [ ] Capture the live wiki page text + every image (browser, since fetch is 403).
-- [ ] Confirm whether a literal "dream" sequence exists in-game and how it triggers.
+- [x] ~~Confirm whether a literal "dream" sequence exists in-game and how it triggers~~ — **DONE 2026-07-05, negative**
+      ([#85]): all in-game dreams are story-scripted; no sleep-triggered machinery exists; see the [UNKNOWN] entry above.
 - [ ] Pin down and attribute the ex-Rockstar developer quote.
 - [ ] Decide: are the 2018-era clues and the 2025 web trail one puzzle? (See [connections](../analysis/connections.md).)
 

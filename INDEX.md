@@ -85,8 +85,8 @@ Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted.
 | U8 | The dev quote attribution | **RESOLVED → [K3]** | [thread 01](threads/01-spider-dream.md) |
 | U9 | Pole count: 8 + central (9) vs "9 poles" — confirm + label | RESOLVED 2026-07-05 (8 pole-webs, labeled; 9th = centre web in a TREE per #8/#10; minor one-web-vs-several residual) | [unknowns.md](findings/unknowns.md) |
 | U10 | Fort Brennand tally counts (6,7) + precise three tower symbols | PARTLY RESOLVED (counts B×2-confirmed; 3rd symbol disputed at source — puddle/[H11]/[S44]) | [thread 02](threads/02-butcher-creek-carvings.md) |
-| U11 | Is a literal "dream" sequence triggerable, or thematic only? | LIVE | [thread 01](threads/01-spider-dream.md) |
-| U12 | What the guitar symbol denotes | LIVE (partly: → Fort Wallace) | [thread 05](threads/05-spider-web-trail-2025.md) |
+| U11 | Is a literal "dream" sequence triggerable, or thematic only? | **RESEARCH HALF ANSWERED-NEG 2026-07-05** ([#85]: no sleep-triggered machinery; all dreams story-scripted; [H25] → weakened presence-at-hour form) | [thread 01](threads/01-spider-dream.md) |
+| U12 | What the guitar symbol denotes | LIVE (partly: → Fort Wallace; depiction check 2026-07-05 → guitar-leaning, [S34] rivals down) | [thread 05](threads/05-spider-web-trail-2025.md) |
 | U13 | Spider Gorge as a destination | **DOWNGRADED** (wiki-only) | [thread 05](threads/05-spider-web-trail-2025.md) |
 | U14 | Window Rock mural — black/red feather counts as a key? | **RESOLVED-NEGATIVE 2026-06-21** (single red pigment, no split; kills [H3]/[S12]) | [thread 06](threads/06-bird-carving-giant-wapiti.md) |
 | U15 | Do 5 black + 3 red feathers, shot in an order, trigger something? (the "shot" premise itself flagged → [H27]) | LIVE | [thread 05](threads/05-spider-web-trail-2025.md) |
@@ -109,7 +109,7 @@ Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted.
 | U32 | Is the `spiderdream0X` mapping sourced or a back-fit? | **RESOLVED 2026-07-02 → [K39]** (sourced) | [unknowns.md](findings/unknowns.md) · [K39](findings/known-facts.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) |
 | U33 | What do the sundial's 7 arrows encode? Decode branch closed-negative (faithful shadow clock); open = the in-game POI question only | LIVE (decode closed) | [thread 09](threads/09-mount-shann-sundial.md) · [mount-shann.md](locations/mount-shann.md) |
 | U34 | Is Mount Shann connected to the spider mystery, or only Chiliad-homage siblings ([S33])? Held skeptical | LIVE | [thread 09](threads/09-mount-shann-sundial.md) |
-| U35 | What gates the Strange Man portrait's final visit (post-epilogue+days vs 100%), and what advances a "visit"? | LIVE | [strange-man-shack.md](locations/strange-man-shack.md) · [unknowns.md](findings/unknowns.md) |
+| U35 | What gates the Strange Man portrait's final visit, and what advances a "visit"? | **ADJUDICATED-IN-MAIN 2026-07-05** ([#84]: post-epilogue + 4 spaced visits; 100% = traced myth; residual: stage-advance mechanic / Arthur-era visits) | [strange-man-shack.md](locations/strange-man-shack.md) · [unknowns.md](findings/unknowns.md) |
 
 ---
 
@@ -142,7 +142,7 @@ Home for all: [findings/speculation.md](findings/speculation.md) ↔ the file no
 | H22 | Order = 2 functional groups (RED south / BLACK connector+`B34`); the open part is the cross-boundary COMBINE (exits R1/R2/R3 at the seam) | [speculation.md](findings/speculation.md) · [connections §5a](analysis/connections.md) |
 | H23 | The Fort Wallace birds pattern with the verified static-carving class (corrected: non-time-gating is not differential evidence) | [speculation.md](findings/speculation.md) · [fort-wallace-bird-carving.md](analysis/fort-wallace-bird-carving.md) |
 | H24 | The 3 reds are DECOYS — the solve is the 5 blacks only, ~2 nights, `BL56` before `B34` (geometry-forced) → **Test C** | [decoy-and-dream-hypotheses.md](analysis/decoy-and-dream-hypotheses.md) |
-| H25 | The payoff is a DREAM — complete a valid set, then SLEEP in-boundary (dry-check passed: never publicly tested) → the dream coda | [decoy-and-dream-hypotheses.md](analysis/decoy-and-dream-hypotheses.md) |
+| H25 | The payoff is a DREAM — complete a valid set, then SLEEP in-boundary (dry-check passed: never publicly tested) → the dream coda. **Machinery check failed 2026-07-05** ([#85]: no sleep-triggered dream system exists → downgraded to the presence-at-hour weakened form) | [decoy-and-dream-hypotheses.md](analysis/decoy-and-dream-hypotheses.md) |
 | H26 | The letters are WAYMARKS/signatures, not a cipher payload — predicts undiscovered pairs at verified nodes → the 🎮 letter-sweep | [connections §1b](analysis/connections.md) |
 | H27 | The webs are a WITNESS/READ layer, not a shooting input — predicts Tests A/B/C null → **Test D** | [solve-grammar.md](analysis/solve-grammar.md) |
 
@@ -186,7 +186,7 @@ Home for all: [findings/speculation.md](findings/speculation.md) ↔ the file no
 | S31 | The 8 webs form a body-centred figure; Saint Denis the singular far "leg" (p=0.0001; singular on 4 independent lines) | [connections §5f](analysis/connections.md) · [speculation.md](findings/speculation.md) |
 | S32 | The sundial arrows as a deliberate puzzle layer — counter QUANTIFIED (faithful shadow clock); survives only via [U33]'s POI question | [thread 09](threads/09-mount-shann-sundial.md) · [speculation.md](findings/speculation.md) |
 | S33 | Sundial + webs = siblings under a Rockstar "sacred mountain" template, not directly linked — watch-item for [U34] | [thread 09](threads/09-mount-shann-sundial.md) · [speculation.md](findings/speculation.md) |
-| S34 | The "guitar" glyph as hourglass / figure-8 / "rock → Rockstar" pun — weak/pareidolia-prone all ways ([U12] candidates) | [decoy-and-dream-hypotheses.md](analysis/decoy-and-dream-hypotheses.md) |
+| S34 | The "guitar" glyph as hourglass / figure-8 / "rock → Rockstar" pun ([U12] candidates) — checked 2026-07-05: guitar-leaning, hourglass/8 weighed down | [decoy-and-dream-hypotheses.md](analysis/decoy-and-dream-hypotheses.md) |
 | S35 | The Strange Man's shack is the SOUTHERN state-carry target — test: solve the reds, enter with state live (dossier on file) | [decoy-and-dream-hypotheses.md](analysis/decoy-and-dream-hypotheses.md) · [strange-man-shack.md](locations/strange-man-shack.md) |
 | S36 | The boundary shapes argue HAND-AUTHORED design, not engine culling — 🎮 persistence-control test open | [speculation.md](findings/speculation.md) |
 | S37 | Gertrude's 1–7 permutation as a file-number shooting order (`08`=Saint Denis omitted) — weak, hidden-flag-only after the [S38] check | [speculation.md](findings/speculation.md) · [decoy-and-dream-hypotheses.md](analysis/decoy-and-dream-hypotheses.md) |
