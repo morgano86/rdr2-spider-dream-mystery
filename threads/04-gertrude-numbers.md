@@ -44,7 +44,8 @@ the Spider Dream chain even if the developers intended her only as a tragic vign
   purely the GTA/Nazar phone-format callback ([K23]/[#75]; both remain true in their own games). (3) **The L2/L7
   Fibonacci fork ([S42] battery): both lines are REAL** — A's tail (`…3 5 8 13 14`, no 4) and B's tail (`…4 5 8 13 14 1`,
   with the 4) are **two distinct canonical strings at edit distance 1**, not one take transcribed twice; the additive
-  run `3,5,8,13` is verbatim game text in line A (statistical weight still needs the re-run, see Open tasks). (4) The
+  run `3,5,8,13` is verbatim game text in line A (statistical weight settled by the 2026-07-05 battery re-run:
+  suggestive-not-significant, deflationary lean — see the [SPECULATION] battery note). (4) The
   9-line video transcription **reconciles as chains of these 12 lines** (video L1+L2 = A; L4+L5 = C(+K); L6 = D + B's
   head; L7 = B's tail; L8 = J/H/I/G; L9 = F+E) — **except video-L3 (`1 2 3 4 17 29 13`), which matches no game line**
   and is a mis-segmented F+E with the 5 dropped: **demoted to a transcription artifact, not data.** (5) A corpus-wide
@@ -207,6 +208,20 @@ preserving it in the variant would be the natural choice, which leans deflationa
 was an artifact. The qualitative S42 shape **survives on the canonical data by inspection** (every full line still
 prefixes 1,2…-to-≤5 then derails; re-rails `3,4,5`/`8,9`/`13,14` still present; **12 is still never said** across all
 12 lines) — but the p-values need the **re-run on K42's inventory** before being quoted (→ Open tasks).
+**⚡ Battery RE-RUN on the canonical set, 2026-07-05** ([`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py)
+rewritten in place on the A-tier [K42] inventory; [results](../experiments/results/gertrude_tail_structure.md) supersede
+the provisional run): **S42 survives on clean data.** Every counting attempt in the game's own strings caps at **5**;
+the derailed tails carry **no additive structure beyond chance (global exact p = 0.335**, was 0.44 provisional); re-rail
+runs (`4,5`/`13,14`/`8,9`/`3,4`) and the babble vocabulary persist; **12 is still never said**. 🆕 Canonical-only
+structural finding: **the prefix-0 lines are continuation fragments of one babble stream** — B's head is *verbatim* A's
+tokens 7–13 (full relation: one inserted `4` + one appended `1`), and L (`8,9,3`) is *verbatim* C's tail-end; the 12
+lines read as **windows cut from one long VO take** (a standard barks-recording shape), which explains the fragment
+lines *inside* S42 and why the 2019 listeners chained them. The **line-A `3,5,8,13` chain** lands as a fixed fact of
+the text but **suggestive-not-significant**: per-unit exact p = 0.039, **~0.23 after the family-selection discount**,
+and — the fairer weight — only **p ≈ 0.16 for a ≥4-term chain anywhere in line A as one stream** (seeded MC, seed
+printed). Combined with B (the only other take of the passage) *breaking* the chain, verdict: **deflationary — do not
+build on the Fibonacci run without an independent hook.** The tail-cipher gate's audio-confirm clause is moot (the text
+is canonical); what gates decoding now is the absence of any sourced key.
 
 ### Reframe (2026-06-13, corrected): RDR2-original numbers, later Rockstar-flagged via Nazar — meaning still open
 The first version of this note had the chronology backwards. Corrected position: the `1237645112` string is **RDR2-original
@@ -230,10 +245,11 @@ confirmed. (Madam Nazar is, in-fiction, a guide-to-hidden-things, which is *cons
       **✅ DONE 2026-07-05 → [K42]**: the game-text dump ([#78]) confirms the tail, resolves the L2/L7 fork (both lines
       real), and collapses the 9 utterances to the true recorded-line set (12 lines). *(Historic negative kept: the
       fangirl-ramblings Tumblr audio compilation is gang-camp dialogue only, no Gertrude.)*
-- [ ] 🧠 **Re-run the structure battery on the canonical [K42] inventory** (12 lines replace the 9 provisional ones;
-      video-L3 dropped; L2/L7 → lines A/B, both real). Decides what survives of the S42 p-values and puts the line-A
-      Fibonacci run's weight on clean data. Update
-      [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py) inputs — mark the old run superseded.
+- [x] 🧠 ~~**Re-run the structure battery on the canonical [K42] inventory**~~ — **DONE 2026-07-05** (script rewritten
+      in place; old run marked superseded in its docstring, old headline numbers preserved there + in the log):
+      **S42 survives** (attempts cap at 5; global additive p = 0.335; 12 never said); line-A Fibonacci chain =
+      **suggestive-not-significant, deflationary lean** (per-unit p 0.039 → ~0.23 family-discounted → ~0.16 whole-line;
+      B-take breaks it); 🆕 fragment/windowing structure (see the ⚡ 2026-07-05 battery note above).
 - [x] **Structure battery on the provisional 9-line tail** *(2026-07-04, investigator-requested)* —
       [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py)
       ([results](../experiments/results/gertrude_tail_structure.md)): S42 shape statistically supported (prefixes capped at

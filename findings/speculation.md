@@ -680,8 +680,16 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   by the clean-audio confirm**, not a finding (details in thread 04). All on PROVISIONAL C-tier transcription data.
   **⚡ Update 2026-07-05 ([K42]):** the canonical inventory is now on file from game text (12 lines, [#78]); the fork is
   decided (**both** L2/L7 variants real — the `3,5,8,13` run is verbatim in line A, and line B's inserted 4 breaks it,
-  which leans deflationary); the qualitative S42 shape survives by inspection (prefixes still cap at 5; 12 still never
-  said), but **quote no p-values until the battery is re-run on the K42 set** (open 🧠 task, thread 04).
+  which leans deflationary). **⚡ Battery RE-RUN on the canonical set (2026-07-05, same day)** —
+  [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py) now runs on the A-tier [K42] inventory →
+  **S42 survives on clean data**: every counting attempt in the game's own strings caps at **5**; the derailed tails
+  carry **no additive structure beyond chance (global exact p = 0.335)**; re-rail runs + babble vocabulary persist; **12
+  is still never said**. 🆕 canonical-only finding: the prefix-0 lines are **continuation fragments of one babble
+  stream** (B = a window onto A's stream with one inserted `4` + appended `1`; L = C's tail-end verbatim) — the 12 lines
+  read as windows cut from one long VO take, which *explains* the fragment lines inside S42. The line-A `3,5,8,13` chain
+  is now a fixed fact of the text but **suggestive-not-significant**: per-unit exact p = 0.039, ~0.23 after the
+  family-selection discount, and only **p ≈ 0.16 at the whole-line level** (the fairer weight) — plus the only other
+  take of the same passage (B) breaks it. Don't build on it without an independent hook.
   Home: [thread 04](../threads/04-gertrude-numbers.md). → [U6](unknowns.md), [K23](known-facts.md), [K42](known-facts.md)
 - **S43 (node-content pass, 2026-07-05). The GREEN BOTTLES as a per-tally-node marker system** (u/Stock-Hat9530,
   [#81], 20-image gallery — C-tier, single author, unreplicated). Claim: a green **McCarthy Brewing Co.** bottle sits
