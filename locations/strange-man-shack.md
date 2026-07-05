@@ -108,6 +108,8 @@ The shack is the game's densest **hidden-state reader**. Stock reactive channels
   reports the mirror apparition as *Arthur*). Also logged: one report of finished-portrait-but-**no**-apparition (the
   mirror trigger is finicky — the [S35] session should **not** read a missing apparition as a spider-state signal).
   Settleable by the user's own save (4 visits spaced 3+ in-game days on a post-epilogue, <100% file).
+  **Converse check 2026-07-05 → [K44]:** the 100%-completion system's only scripted consumer is the Arthur's-grave
+  scene ([#87]) — completion never gates the easel from its side either; NOT-100% now holds in both directions.
 
 *Sources: [#68](../sources/sources.md) (Red Dead Wiki "Bayall Edge" + "Strange Man" via MediaWiki API; Gameranx guide);
 [#84] (the 2026-07-05 gate adjudication cluster).

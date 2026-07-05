@@ -457,7 +457,9 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   story-registry entry 6 (`mudtown3`) + a state bit — referent unresolved, added to the shack dossier as a 🎮
   watch-item. Practical for [S35]: baseline portrait state on a post-epilogue <100% save is predicted by **prior visit
   count (with ≥5-day gaps)**; and one finished-portrait-but-no-apparition report
-  means a missing mirror apparition is **not** a spider-state signal. →
+  means a missing mirror apparition is **not** a spider-state signal. **Converse check 2026-07-05 → [K44]:** the
+  100%-completion system's *only* scripted consumer is the Arthur's-grave scene — completion never gates the easel from
+  its side either; the NOT-100% adjudication is now confirmed from both directions. →
   [locations/strange-man-shack.md](../locations/strange-man-shack.md), [S35](speculation.md), src [#84](../sources/sources.md)
 
 #### Mount Shann sundial — a *separate* mystery (thread 09, user request 2026-07-02)

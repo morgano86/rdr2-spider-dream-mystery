@@ -2,6 +2,41 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-05 (script-dump session 3: the 100%-gate sweep) — [K44] minted: the game's ONLY scripted 100% gate is the Arthur's-grave scene; the completion formula is script-visible and contains NOTHING mystery-related; graves = formula components, not a separate trigger
+
+**What we did.** User asked to (a) find the known 100%-completion gate (the Arthur's-grave teleport) in the [#87]
+dump and mint it, and (b) sweep for any *other* 100% gates. Both done; user also proposed a future project (own
+decompiler pass on a PC copy) — recorded below.
+
+**What we learned.**
+- **⭐ [K44] minted — the full chain decoded:** total completion = savegame stat `TOTAL_PROGRESS_MADE`
+  (joaat `0x486CDCFF`), recomputed from scratch by a shared routine (`flow_controller.ysc.c:41806 func_1382`,
+  compiled into ~250 mission/activity scripts). The trigger (`flow_controller.ysc.c:34886 func_1133`, copies in
+  `long_update` + `pause_menu_replay_launcher`) requires **finale3 ("American Venom", registry idx 77) complete +
+  ~10 s safe/idle + stat ≥ 100.0** → one-shot unlock `SP_ARTHURS_GRAVE_SCENE` (`0x0D119015`) → fade + teleport into
+  animscene `script@story@fin3@arthurs_grave` at (797.03, 1780.72, 279.89).
+- **The graves nuance:** the 9 companion graves are **discoverables setting bits 0–8 of `Global_40.f_8863.f_154`**
+  (grave strings enumerate exactly 9 names), worth **1/9 % each** *inside* the formula — "visit all graves + 100%"
+  is really just "100%"; there is no separate grave check in the trigger.
+- **Exhaustiveness (the user's question 2):** **no other script consumes the stat at any threshold** — every other
+  reference is the recompute-write, the pause-menu display, or a telemetry ping on increase. The trophy is
+  engine-side. **⇒ No hidden scripted 100% gates exist**, and *nothing spider/web/dream-related appears in the
+  completion formula* — any "mystery payoff at 100%" theory has no script-side hook (converse confirmation of the
+  [U35] NOT-100% adjudication; noted in [U35] + the shack dossier).
+- **Bonus code-confirms:** `discoverable_found` counts as `3 × min(1, n)` — the famous "only 1 point of interest
+  needed" rule, verbatim in code; the 9 challenge categories = 3 %; chapter missions carry fixed per-mission weights.
+- **Hygiene:** [K43]'s known-facts entry had been mis-filed under the Gertrude section — moved to the thread-06
+  cluster (placement note left in the entry).
+
+**Future project (user, 2026-07-05):** get RDR2 on PC and **build/run our own decompilation pass** rather than
+trusting third-party dumps — motivation: [#87]-class dumps are decompiler-mediated (dropped local names, possible
+misdecompiles like the `/*74*/` stride confusion, unknown file coverage) and we can't audit their completeness.
+Would also unlock the **data-side** ([#52]'s unreproduced claims: timeFlags, propsets, particles) that scripts
+can't see. Saved as a project memory.
+
+**What changed.** [K44] minted (known-facts + INDEX); [U35] converse-check lines (unknowns + shack dossier); [#87]
+row annotated with the session-3 read; K43 rollup placement fixed; STATUS headline; this entry.
+
 ## 2026-07-05 (script-dump session 2: game-logic reads) — [U35]'s portrait mechanic SCRIPT-DECODED (visits × ≥5-day spacing × a late progress bit, John-gated); [K43] minted (the Calumet flock = scripted, but it's the GIANT's egg); [H8] weakened (no log-clear path exists)
 
 **What we did.** User asked what the script access enables; ran four game-logic reads against the [#87] dump.

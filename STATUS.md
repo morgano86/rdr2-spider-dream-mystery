@@ -109,6 +109,13 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-07-05 (script-dump session 3: the 100%-gate sweep)** — **⭐ [K44] minted: the game's ONLY scripted
+  100%-completion gate is the Arthur's-grave scene** (`TOTAL_PROGRESS_MADE` ≥ 100 + finale3 → one-shot
+  `SP_ARTHURS_GRAVE_SCENE` → animscene teleport; user's target found + decoded end-to-end); completion formula
+  fully script-visible — **nothing mystery-related in it**, graves = 9 discoverable bits worth 1/9 % each (a formula
+  component, not a separate trigger); **no other 100% gate exists script-side** → "payoff at 100%" theories have no
+  hook, [U35]'s NOT-100% now confirmed from both directions. 🆕 Future project logged: own decompiler pass on a PC
+  copy (dump-completeness audit + the data side scripts can't see).
 - **2026-07-05 (script-dump session 2: game-logic reads)** — **⭐ [U35]'s portrait mechanic SCRIPT-DECODED**
   (`discoverable_easel.ysc.c`: stage int 0–3, advance = visit flag + **≥5-day spacing** + late-stage **progress bit
   45**, John-gated; honor paintings confirmed; 🆕 undocumented `stranger_cryptic_lives/dies` propsets → shack-dossier

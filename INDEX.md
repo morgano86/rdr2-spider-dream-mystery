@@ -66,6 +66,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K41 | Gertrude's outhouse **interior holds nothing** (2025 glitch-verified, [#77]) — closes the inside-the-outhouse line for [U6] | LIVE | [thread 04](threads/04-gertrude-numbers.md) · [known-facts.md](findings/known-facts.md) |
 | K42 | Gertrude's **complete 12-line recitation set confirmed from game subtitle text** (2019 dump, [#78]) — tail settled; "eleven"; both L2/L7 variants real; no hidden extra set | LIVE | [thread 04](threads/04-gertrude-numbers.md) · [known-facts.md](findings/known-facts.md) |
 | K43 | The Calumet guide flock = dedicated scripted content (`spd_giant_birds`, pheasants @ ≈620,2195 → the Giant's cave site, [#87]) — designed, but it's the **Giant's** egg; no spider-trail membership shown | LIVE | [thread 06](threads/06-bird-carving-giant-wapiti.md) · [known-facts.md](findings/known-facts.md) |
+| K44 | The game's **only scripted 100%-gate** is the Arthur's-grave scene (`TOTAL_PROGRESS_MADE` ≥ 100 → one-shot `SP_ARTHURS_GRAVE_SCENE`, [#87]); the completion formula is fully script-visible — **nothing mystery-related in it**; the 9 graves are formula components (1/9 % each), not a separate gate | LIVE | [known-facts.md](findings/known-facts.md) |
 
 ---
 

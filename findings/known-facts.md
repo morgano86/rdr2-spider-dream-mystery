@@ -221,6 +221,14 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   twin of the Flatneck "Lillie ♥ Alfred" heart** (identical shape, **no names/text**); hard to find; reported **in line of
   sight of the bird carving** [K16]. *(Investigator data, 2026-06-13 — undocumented online; meaning is [U23]/[H10].)* →
   [bacchus-bridge.md](../locations/bacchus-bridge.md), [06](../threads/06-bird-carving-giant-wapiti.md)
+- **K43.** **The Calumet "guide flock" is dedicated scripted content — and it belongs to the GIANT's easter egg**
+  (script-dump read 2026-07-05, [#87]): the decompiled scripts carry a purpose-built **`spd_giant_birds.ysc.c`**
+  spawning **pheasants** in a tight cluster at **(≈620, 2195)** — the Calumet Ravine flock spawn — with a second
+  working point **~25 m from the Giant's own script anchor** (`spd_giant.ysc.c`, 1706.7, 2183.5). So the flock is
+  **designed guide behaviour, not ambient pareidolia** — but the script files it under the **Giant** egg (`spd_`
+  special-ped family), so its membership in the *spider* trail remains **undemonstrated** ([K16] boundary discipline
+  unchanged). Decompiled-dump caveat per [#87]. → [thread 06](../threads/06-bird-carving-giant-wapiti.md)
+  *(Rollup-placement fixed 2026-07-05: this entry was mis-filed under the Gertrude section at first commit.)*
 
 ## How the mystery presents in-game
 - **K20.** The **Spider Dream mystery has NO in-game tracking of any kind**: no mission/quest-log entry, no notification, no
@@ -230,6 +238,32 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   that mistakenly said the spider mystery "does not properly disappear from the log" — that lingering **log entry belongs to
   the *dreamcatchers* side mission**, which the spider wiki cites only by analogy. → [01](../threads/01-spider-dream.md),
   [dreamcatchers.md](../analysis/dreamcatchers.md), [U17](unknowns.md)
+- **K44.** **The game's ONLY scripted 100%-completion gate is the Arthur's-grave scene — and the completion formula itself is
+  fully script-visible, with nothing mystery-related in it** (script-dump read 2026-07-05, [#87], decompiled — our reading):
+  - **The stat:** total completion is savegame stat **`TOTAL_PROGRESS_MADE`** (joaat `0x486CDCFF`), *recomputed from scratch*
+    by a shared routine (`flow_controller.ysc.c:41806`, `func_1382`; the recompute is compiled into ~250 mission/activity
+    scripts) — chapter missions at fixed per-mission weights, the 9 challenge categories (3 %), collections, compendium
+    categories, robberies, recipes, baths/shows/theatre, gang hideouts, etc. Notably **`discoverable_found` counts as
+    `3 × min(1, n)`** — the famous *"only 1 point of interest needed"* rule, confirmed in code.
+  - **Where the graves live:** the 9 companion graves are **discoverables setting bits 0–8 of savegame mask
+    `Global_40.f_8863.f_154`** (the grave-name strings enumerate exactly 9: Arthur, Davey, Jenny, Hosea, Sean, Kieran,
+    Lenny, Susan, Eagle Flies), worth **1/9 % each** in the formula. So the community phrasing "visit all graves **+**
+    100 %" is really just "100 %" — the graves are *inside* the formula (without them you top out at ~99 %), not a
+    separate trigger condition.
+  - **The gate:** one function (`flow_controller.ysc.c:34886` `func_1133`; identical copies in `long_update` +
+    `pause_menu_replay_launcher`) requires **finale3 ("American Venom", registry idx 77) complete**, a ~10 s safe/idle
+    window (screen faded in, no UI apps, not kneeling at a campfire…), and **`TOTAL_PROGRESS_MADE ≥ 100.0`** → sets the
+    **one-shot unlock `SP_ARTHURS_GRAVE_SCENE`** (joaat `0x0D119015`), fades out, stows horse + carriable at fixed
+    coords, and teleports the player into animscene **`script@story@fin3@arthurs_grave`** at **(797.03, 1780.72, 279.89)**
+    — Arthur's grave. This is the known 100 % grave cutscene, now decoded end-to-end.
+  - **Exhaustive at script level:** no other script compares the stat to any threshold — every other reference is the
+    recompute-write, the pause-menu display binding, or a telemetry ping on increase. The platform trophy ("Best in the
+    West") is not script-side (engine/platform watches the stat).
+  - **Mystery corollaries:** nothing spider/web/dream-related appears anywhere in the completion formula, and completion's
+    single consumer is this grave scene — so **any "mystery payoff unlocks at 100 %" theory has no script-side hook**
+    (converse confirmation of the [U35] adjudication: the easel never reads completion, *and* completion never gates the
+    easel). Decompiled-dump caveat per [#87]; engine-side and data-side behaviour not visible in scripts. →
+    [U35](unknowns.md), [U2](unknowns.md), src [#87](../sources/sources.md)
 
 ## Gertrude Braithwaite (Scarlett Meadows)
 - **K14.** Gertrude is found locked in the Braithwaite **outhouse** (epilogue), implied to have **starved**, **reciting a
@@ -249,13 +283,6 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   fortunes** (`123` / `764` / `5112`) and *"after hearing all three sequences, the player can reach Madam Nazar by calling
   `123-764-5112`"* — a **functional 3-3-4 phone number** in GTA Online.
   Ties [U6](unknowns.md), [U18](unknowns.md), [U19](unknowns.md). → [04](../threads/04-gertrude-numbers.md)
-- **K43.** **The Calumet "guide flock" is dedicated scripted content — and it belongs to the GIANT's easter egg**
-  (script-dump read 2026-07-05, [#87]): the decompiled scripts carry a purpose-built **`spd_giant_birds.ysc.c`**
-  spawning **pheasants** in a tight cluster at **(≈620, 2195)** — the Calumet Ravine flock spawn — with a second
-  working point **~25 m from the Giant's own script anchor** (`spd_giant.ysc.c`, 1706.7, 2183.5). So the flock is
-  **designed guide behaviour, not ambient pareidolia** — but the script files it under the **Giant** egg (`spd_`
-  special-ped family), so its membership in the *spider* trail remains **undemonstrated** ([K16] boundary discipline
-  unchanged). Decompiled-dump caveat per [#87]. → [thread 06](../threads/06-bird-carving-giant-wapiti.md)
 - **K42.** **Gertrude's complete recitation set is confirmed from the game's own subtitle text** (2026-07-05, [#78]): a
   public GitHub dump of RDR2's PC text (committed **2019-12-01** — predates all community transcriptions and the 2025
   trail era) carries her full voice-line file with **exactly 12 number lines, verbatim with string hashes** (canonical
