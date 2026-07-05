@@ -53,7 +53,9 @@ trail is the newest and most active branch.
   residual an engine-side/cut payoff could hide behind (engine-side content is invisible to script datamining — [U2];
   note the [#87] correction: the known never-set flags are kill-switches, not payoff gates). →
   [decoy-and-dream-hypotheses.md §2](../analysis/decoy-and-dream-hypotheses.md), [U11](../findings/unknowns.md)
-- **The payoff.** No confirmed reward, cutscene, unlock, or final message.
+- **The payoff.** No confirmed reward, cutscene, unlock, or final message. *(Cut-content side of [U2], 2026-07-05:
+  the most specific dormant artifact yet is **[S46]** — `dreamanim`, a dream-named mission slot shipped **registered in
+  the finale mission group but with an empty script** ([#88] verified against [#87]); no spider-web tie demonstrated.)*
 - **Whether all threads are one puzzle.** The Butcher Creek chain and the 2025 telegraph-pole web trail may be the same
   puzzle or two overlapping ones.
 - **Whether it connects outward** (to GTA V's Mount Chiliad mystery, "Birds of Paradise" plants, or GTA VI teasing) — all

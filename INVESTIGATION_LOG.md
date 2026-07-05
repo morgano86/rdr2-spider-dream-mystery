@@ -2,6 +2,35 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-05 (dreamanim verification, user-relayed) — [S46] minted: `dreamanim` ships REGISTERED IN THE FINALE MISSION GROUP with an empty script (code `TL21`, John blip, bayou coords) — verified against the [#87] dump; post errors corrected
+
+**What we did.** The user relayed u/JAZZMASTAMIKE89's *"Dreamanim.c and the possibility of cut content"* (a crosspost
+of `1rk7300` — the [#74] digest's one-liner). Captured it in full (post + 8 comments, Arctic Shift; raw JSON saved
+in-repo) and **verified every script-side claim against the [#87] dump** still on disk → **[#88]**, **[S46]**.
+
+**What we learned.**
+- **⭐ The registration is real and richer than the post knew:** `init_all_sp.ysc.c:5150` registers
+  `func_282(78, 19, "dreamanim", "TL21", 0, "", "def_intro_script", 2106.68f, -2041.11f, 40.73f,
+  joaat("blip_mission_john"), 45000)` — verbatim-verified. **Our addition: group 19 = the FINALE mission group**
+  (only other members: `finale1`/`FIN1`, `finale2`/`FIN2`, `finale3`/`FIN3`) → `dreamanim` ships as a **fourth
+  finale-era mission slot**: unmatched 4-char mission code `TL21`, John mission blip, bayou-area coordinates
+  (author's map placement, C-tier), **highest used registry slot** (78 of ≤80; 79/80 empty), **empty script body**,
+  and — unique across all 80 registrations — the generic `def_intro_script` intro (a compiled script referenced
+  nowhere else). The strongest *specific* [U2] cut-content artifact on file.
+- **Post corrected:** the "index 78 exceeds the 74-length struct" leg is a decompiler misread (`/*74*/` = element
+  stride; bound = `> -1 && <= 80` — 78 in-bounds; the overflow-remnant argument is void, the cut-content case doesn't
+  need it). **Comment rivals fail:** "dreamcatcher completion animation" (dreamcatchers run through the
+  `discoverable_*` family; arrowhead = Elysian Pool, not the Lannahechee); "default 0,0,0 coords" (explicit coords;
+  `func_282` rejects near-zero positions). The hash comment checks out (joaat(`dreamanim`) = `0x9824FF7F`).
+- **Boundary discipline:** no spider-web tie demonstrated — the connection is the name + loose bayou geography, and
+  the webs have **no script layer at all** ([#87]), so this slot can't be their handler. Cheap next step recorded:
+  sweep text/data dumps for `TL21` (joaat `0xFCFCEB0C`) — a hit would name the cut mission.
+- Spotted in passing, unpursued: a `rock_carvings.ysc.c` script exists in the dump — a future desk lead for
+  thread 08's carving set ([K33]).
+
+**What changed.** [S46] minted (INDEX + speculation.md home); **[#88]** added (+ raw JSON captures in `sources/`);
+[#74]'s dreamanim bullet annotated; [U2]'s ⚡ block extended; thread 01 payoff line annotated; log + STATUS.
+
 ## 2026-07-05 (script-dump reproduction + U7) — #52's script-side claims REPRODUCED from a public GitHub dump (zero `spiderdream` refs; the two flags real — but they're kill-switches, gloss corrected); U7's Gertrude-continuation half answered-negative on [K42]
 
 **What we did.** Two desk tasks: (1) found and machine-checked a **public GitHub dump of RDR2's 1,638 decompiled

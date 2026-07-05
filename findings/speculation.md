@@ -738,6 +738,31 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   ⚠️ Counter: the markings don't sit at their couples' homes (placement rule unexplained). Control negatives:
   Beau+Penelope {B,P} and Cooper+Lilly {C,L} match nothing. Home: [thread 03](../threads/03-matchstick-letters.md).
   → [U5](unknowns.md), [U4](unknowns.md), [S2], [S3], [H26], [#86](../sources/sources.md)
+- **S46 (user-relayed lead, captured + verified 2026-07-05). `dreamanim` is a CUT FINALE-GROUP MISSION SLOT — the most
+  specific dormant/cut-content artifact on file for [U2].** u/JAZZMASTAMIKE89's post ([#88] — the [#74] digest's
+  `dreamanim.c` one-liner, now fully captured) found the registration; **we verified every script-side claim against the
+  [#87] dump.** In `init_all_sp.ysc.c:5150` (verbatim-confirmed): `func_282(78, 19, "dreamanim", "TL21", 0, "",
+  "def_intro_script", 2106.6777f, -2041.1085f, 40.7255f, joaat("blip_mission_john"), 45000)`. What the dump adds
+  around it: **group 19 = the FINALE mission group** — its only other members are `finale1`/`FIN1`, `finale2`/`FIN2`,
+  `finale3`/`FIN3` (the story's ending missions) — so `dreamanim` ships registered as a **fourth finale-era mission**;
+  its 4-char code **`TL21` matches no shipped mission prefix**; it carries a **John mission blip** (`blip_mission_john`
+  vs the finales' companion blips) at coordinates the author places **mid-Lannahechee river, S of Crawdad Willies / SE
+  of Shady Belle** (his map placement, C-tier — if right, the greater bayou region, [S35]-adjacent flavour); it sits at
+  **index 78, the highest used slot** of the 0–80 registry (79/80 empty); its **script body is empty** ([#87]: `main()`
+  sets two floats, returns); and it is the **only one of all 80 registrations** whose intro is the generic
+  `def_intro_script` (every shipped mission uses its own `<name>_intro` or none) — itself a compiled script referenced
+  nowhere else. **Corrections from our verification:** the post's "index 78 exceeds the 74-length struct" leg is a
+  decompiler misread (`/*74*/` = element *stride*; the bound check is `> -1 && <= 80`, so 78 is in-bounds — the
+  "registry overflow remnant" argument is void, the cut-content case doesn't need it); comment rivals fail — *"it's the
+  dreamcatcher completion animation"* (dreamcatchers run through the `discoverable_*` script family, and the arrowhead
+  site is Elysian Pool, not the Lannahechee) and *"the coords are a default 0,0,0"* (they're explicit, and `func_282`
+  **rejects** near-zero positions); the commenter's script hash is right (joaat(`dreamanim`) = `0x9824FF7F`). **What
+  this is and isn't:** a dream-named, finale-grouped, John-flagged mission slot that ships registered-but-empty — the
+  strongest *specific* [U2] cut-content artifact. **No spider-web tie is demonstrated:** the connection is the name
+  ("dream") + loose bayou geography, suggestive flavour only — and the webs have **no script layer at all** ([#87]), so
+  this slot cannot be their handler. Next cheap step: sweep text/data dumps for **`TL21`** (joaat `0xFCFCEB0C`) — a hit
+  would name the cut mission. Home: this entry. → [U2](unknowns.md), [#88]/[#87]/[#74](../sources/sources.md),
+  [thread 01](../threads/01-spider-dream.md)
 
 ## On the Fort Wallace bird carving — what it refers to / symbolises (2026-06-16)
 *(Downstream interpretation of the verified [K16] mark; full catalogue + tests in [fort-wallace-bird-carving.md](../analysis/fort-wallace-bird-carving.md). None of this moves the frontier or licenses chasing the contested `?`/Bacchus leads.)*

@@ -132,7 +132,11 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   when true (`→ cleanup + bail`), so both flags are **dormant kill-switches** (never-set ⇒ the content stays ON; shipping
   an unused master disable is normal engineering), **not** a payoff gate. What carries the cut-content lean after the
   correction: (i) the webs have **no script layer at all** (now reproduced — either engine-side or never wired, the [U2]
-  fork restated); (ii) `dreamanim.c` (confirmed near-empty). Flavour aside, recorded not built on: a checked-but-never-set
+  fork restated); (ii) `dreamanim.c` (confirmed near-empty — **and now fully contextualized 2026-07-05 → [S46]/[#88]:**
+  it ships **registered in the FINALE mission group** alongside `finale1/2/3`, with a John mission blip at
+  bayou-area coordinates, an unmatched mission code `TL21`, the registry's highest used slot, and — uniquely across all
+  80 registrations — the generic `def_intro_script` intro: a dream-named finale-era mission slot, registered but empty;
+  **no spider-web tie demonstrated**). Flavour aside, recorded not built on: a checked-but-never-set
   per-discoverable *termination* bit rhymes with the never-clearing **dreamcatcher log entry** ([K20]/[U17], the wiki's
   own "Oversights" bug) — a candidate mundane mechanism for that bug, unverified. → [source #87](../sources/sources.md)
   - **Candidate payoff LOCATION (2026-06-14, [H21], speculative):** if a payoff exists, the oversized B34 boundary ([K28],

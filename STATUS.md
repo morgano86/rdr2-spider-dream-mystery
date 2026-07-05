@@ -109,6 +109,12 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-07-05 (dreamanim verification, user-relayed)** — **⭐ [S46] minted: `dreamanim` ships REGISTERED IN THE FINALE
+  MISSION GROUP (group 19 with `finale1–3`) with an EMPTY script** — unmatched mission code `TL21`, John blip, bayou
+  coords, highest used registry slot, unique generic intro ([#88], fully captured + verified against the [#87] dump;
+  post's index-overflow argument corrected — decompiler stride misread; dreamcatcher/zero-coords comment rivals fail).
+  The strongest specific [U2] cut-content artifact; **no spider-web tie demonstrated**. Next cheap step: sweep dumps
+  for `TL21` (joaat `0xFCFCEB0C`).
 - **2026-07-05 (script-dump reproduction + U7)** — **⭐ [#52]'s script-side claims REPRODUCED firsthand from a public
   June-2024 GitHub script dump ([#87])**: zero `spiderdream` refs (string/joaat/entity-hash) in all 1,638 scripts —
   the "no script touches the webs" leg is no longer single-sourced ([H27]/[U2]); the `DiscoDisable`/bit-4 flags are
