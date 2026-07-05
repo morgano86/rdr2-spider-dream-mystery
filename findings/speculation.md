@@ -87,7 +87,11 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   (~10–11) **continue the sequence** — i.e., all the "numbers" threads are one counter. Testable by alignment. *(Note
   2026-06-13: Gertrude's opening is now confirmed [K23] and is **RDR2-original**, so it's a fair input to test — but it's also
   the Nazar phone-style string, so a "continuation" match would need independent support. The BC/Brennand 1→7 count stands
-  on its own regardless.)*
+  on its own regardless.)* **⚠️ Continuation half REFUTED-leaning (2026-07-05, aligned against the canonical [K42] game
+  text — [U7], [thread 02](../threads/02-butcher-creek-carvings.md)):** no ascending consecutive run crosses 7 in any of
+  the 12 lines (`7` → only `6/5/6/3`, `6` never → `7`, `8` entered only by derail); `10`/`11` occur solely inside
+  derailed babble; **12 is never said**. The "one counter across sites + Gertrude" reading is dropped as a working line;
+  the BC/Brennand 1→7 site count survives untouched. Consistent with [S42].
 - **S5.** Gertrude's sequence is a **cipher/coordinate/date.** E.g., A1Z26 letter-mapping, or digits as map-grid refs, or as
   "count N poles" instructions echoing the trail's "five poles west." Run the attempts in
   [connections](../analysis/connections.md). *(Note 2026-06-13: still live. The opening `1237645112` is confirmed and

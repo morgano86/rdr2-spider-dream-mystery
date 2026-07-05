@@ -26,7 +26,7 @@ Full set + IDs in [findings/unknowns.md](findings/unknowns.md). The ones that co
 | Rank | ID | Question | Best source |
 |------|----|----------|-------------|
 | 1 | [U29](findings/unknowns.md) | The **feather order mechanic**. Within-group orders are solved (reds any-order; connector chain; `B34` folds into the black run — [H22]); the open crux is the **cross-boundary COMBINE** ([K29] boundary-exit reset vs [H20] multi-night) — and whether **shooting is the input at all**. Three live frames, run cheapest-first: **[H27]** webs = witness/READ layer → **Test D** (no shots); **[H24]** reds = decoys, solve = 5 blacks over ~2 nights + the [H25] dream coda → **Test C**; **[H22]** seam battery (R1/R2/R3) → **Tests A/B**. Protocols: [web-order-field-test.md](analysis/web-order-field-test.md); how the frames evolved: the [log](INVESTIGATION_LOG.md) | 🎮 targeted test / 🌐 |
-| 2 | [U2](findings/unknowns.md) | Is there an **intended payoff at all**, or is it cut content? | 🌐 new coverage / community |
+| 2 | [U2](findings/unknowns.md) | Is there an **intended payoff at all**, or is it cut content? *(2026-07-05: the [#52] script-side evidence is now reproduced, [#87] — the webs have **no script layer**; the "never-set flags" turned out to be kill-switches, not a payoff gate)* | 🌐 new coverage / community |
 | 3 | [U6](findings/unknowns.md) | **Gertrude's numbers** — the opening is deliberate ([K23]) and the **complete 12-line set is now GAME-TEXT CONFIRMED** ([K42], 2026-07-05 — a 2019 subtitle dump, [#78]: tail settled, "eleven" parse settled, both L2/L7 tail variants real, no hidden extra set); attempt B (tally-node reorder) **closed-inexecutable** (nodes 5/6 bare, [#81]); [K41] interior closed-negative; **battery re-run DONE on the canonical set (2026-07-05): [S42] statistically supported on A-tier data** (attempts cap at 5; global additive p = 0.335; line-A `3,5,8,13` suggestive-not-significant, B-take breaks it). Open: what (if anything) the deliberate *opening* string encodes, and **which mystery it serves** — a 🌐 watch + desk question now, not a battery | 🌐 / 🧠 |
 
 > **Note (2026-07-04):** [U3] (one puzzle or two?) **left the top-3 — REFRAMED / PARTLY DECIDED** ([S41],
@@ -109,6 +109,13 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-07-05 (script-dump reproduction + U7)** — **⭐ [#52]'s script-side claims REPRODUCED firsthand from a public
+  June-2024 GitHub script dump ([#87])**: zero `spiderdream` refs (string/joaat/entity-hash) in all 1,638 scripts —
+  the "no script touches the webs" leg is no longer single-sourced ([H27]/[U2]); the `DiscoDisable`/bit-4 flags are
+  real and never script-set, **but they're disable kill-switches, not a payoff gate** — the [U2] gloss corrected,
+  [H21]'s flag-dovetail weakened; `dreamanim.c` near-empty confirmed ([#74]). Plus **[U7]'s Gertrude-continuation half
+  answered-negative on [K42]** (no ascending run crosses 7 in the canonical text; 12 never said; [S4] leg
+  refuted-leaning).
 - **2026-07-05 (couples pass + watch + audit)** — **⭐ [S45] minted: the `+` markings match documented TRAGIC COUPLES**
   (`J+M` = **Joshua+Miriam, the Emerald Ranch / web `B45` tragedy**; `S+J` = **Sadie+Jake Adler**; bare pairs 0/3 — the
   split lands exactly on the lovers'-styling line; initials-cheap p≈0.11, weight is structural; the *Letter to Miriam

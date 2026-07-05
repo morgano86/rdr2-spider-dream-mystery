@@ -50,7 +50,8 @@ trail is the newest and most active branch.
   sleep→vision case exists in ~7.5 years of record; `dreamanim.c` ([#74]) is near-empty = cut. So on shipped, known
   machinery "dream" is **thematic**, and [H25]'s literal sleep→dream form is downgraded to its weakened
   **presence-at-hour** variant (the Hani's Bethel UFO pattern — sleep only as time-skip). What remains open here is the
-  residual an engine-side/cut payoff could hide behind ([U2]'s checked-but-never-set flags). →
+  residual an engine-side/cut payoff could hide behind (engine-side content is invisible to script datamining — [U2];
+  note the [#87] correction: the known never-set flags are kill-switches, not payoff gates). →
   [decoy-and-dream-hypotheses.md §2](../analysis/decoy-and-dream-hypotheses.md), [U11](../findings/unknowns.md)
 - **The payoff.** No confirmed reward, cutscene, unlock, or final message.
 - **Whether all threads are one puzzle.** The Butcher Creek chain and the 2025 telegraph-pole web trail may be the same

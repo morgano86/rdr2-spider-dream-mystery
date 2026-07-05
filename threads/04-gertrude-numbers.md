@@ -144,7 +144,10 @@ the Spider Dream chain even if the developers intended her only as a tragic vign
 
 - **User's lead:** Gertrude's numbers may be **a clue or key** for the wider mystery. Plausible mechanisms to test:
   - The numbers as an **index** into the Butcher Creek tally marks (1–5) / Fort Brennand tallies (6, 7) — note her sequence
-    contains values **up to 10–11**, which would *extend past* the 1–7 tallies. Worth lining up.
+    contains values **up to 10–11**, which would *extend past* the 1–7 tallies. ~~Worth lining up.~~ **Lined up 2026-07-05
+    → NEGATIVE ([U7], [thread 02](02-butcher-creek-carvings.md)):** on the canonical [K42] text no ascending run crosses
+    7 (`6` never → `7`, `7` never → `8`); 10/11 appear only inside derails; 12 is never said. The index form was
+    separately **closed-inexecutable** (attempt B, nodes 5/6 bare).
   - The numbers as **map references** (e.g., grid, pole counts on the 2025 web trail — "five poles west" echoes counting).
   - The numbers as a **letter cipher** (1→A, 2→B …): "1,2,3,7,6,4,5,11,2,1,2,10,3" → A,B,C,G,F,D,E,K,B,A,B,J,C — does any
     substring spell something? (e.g., **…B,A,B,J… / J,C**?). Speculative; record attempts in

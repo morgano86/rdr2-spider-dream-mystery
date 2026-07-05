@@ -66,8 +66,19 @@ documentation corpus + the community Google Site + reddeadreference; [#81]). Res
   [connections §1/§1b](../analysis/connections.md).
 - **Exact placement/orientation** of each carving on outhouse #4 ("back of toilet number 4") and whether `LJ` and `SM` are
   one carving or two distinct marks. Needs a clean in-game screenshot.
-- **Why six and seven tallies** appear at Fort Brennand when Butcher Creek used 1–5. Is the count itself a code
-  (continuing a sequence 1,2,3,4,5 … 6,7 …)?
+- **U7 — the tally counts as a running sequence (1…7), and does Gertrude continue it? [GERTRUDE HALF ANSWERED-NEGATIVE
+  2026-07-05, on the canonical game text].** Why six and seven tallies at Fort Brennand when Butcher Creek used 1–5? The
+  **site-level half** — 1→7 as one deliberate running count across the two [K8]-chained sites — stays open and plausible
+  (the pointer chain walks BC → Fort Brennand in exactly that order). The **continuation half** ([S4]: Gertrude's numbers,
+  reaching ~10–11, extend the counter past 7) now **tests negative against the canonical [K42] recitation set**: a
+  continuation predicts an ascending consecutive run *crossing* 7 (…6, 7, 8…), and none exists in any of the 12 game
+  lines — `7` occurs four times (lines A, C-tail, D, G) followed only by `6, 5, 6, 3`; `6` is **never** followed by `7`;
+  `8` is only ever entered by a derail jump (`17, 8, 9` / `5, 8, 13`), never from a 7. Her only correct ascending runs
+  are the 1–5 prefixes (capped at 5 — the [S42] battery) and short re-rails (`3,4,5` / `8,9` / `13,14`); `10`/`11` occur
+  solely inside derailed babble (`…4, 5, eleven` / `1, 2, ten, 3`); and **12 — the very next number a 1→11 counter would
+  need — is never said** in any line. So "Gertrude extends the tally count" fails on the game's own text (consistent with
+  [S42]); what survives of [U7] is the modest site-level question only. → [S4](../findings/speculation.md),
+  [K42]/[thread 04](04-gertrude-numbers.md)
 - **U27 — why does the chain branch from outhouse #4 (tally 4), not #5 (tally 5)?** The Fort Brennand pointer carving is on
   **outhouse #4**, so the trail leaves the 1–5 tally sequence **one short of its end** — you'd expect the onward clue to sit
   on the *last* tally (#5), not the fourth. Odd enough to flag (user, 2026-06-13). It may be **deliberate** — a "4" signal

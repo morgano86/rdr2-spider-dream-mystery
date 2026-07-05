@@ -116,7 +116,14 @@ Fandom and GTAForums **block automated fetch (HTTP 403)**. These are the workaro
 - **🆕 WebFetch vs curl on APIs (2026-07-05):** `reddead.fandom.com/api.php` intermittently returns **402** and Arctic
   Shift returns **422** *to WebFetch* while plain `curl -A "Mozilla/5.0"` on the identical URL works — when an API
   misbehaves under WebFetch, drop to curl before concluding it's blocked.
-- **Reddit (403-blocks our fetcher — site, old.reddit, and `.json` alike; it's an egress-IP block, so UA spoofing won't help):**
+- **🆕 RDR2 decompiled-script dumps on GitHub (2026-07-05 — how the [#52] script-side claims were reproduced, [#87]):**
+  full public dumps of the game's decompiled `.ysc.c` scripts exist and are shallow-clonable + greppable in minutes —
+  `creativewild/rdr2-scripts-decompiled` (build 1491.50, 1,638 scripts, committed 2024-06; mirrors: outsider31000,
+  JayKoZa — same decompiler lineage, not independent). Recipe: `git clone --depth 1`, then grep strings AND computed
+  **joaat hashes** (Jenkins one-at-a-time on the lowercased name — decompiled output renders unknown hashes as `0x…`
+  literals; a 10-line stdlib Python computes them). ⚠️ Scripts only — entity placements/particle configs/timeFlags live
+  in *data* files no public dump covers yet; local names aren't preserved by the decompiler (savegame string literals
+  are). Any claim "script X does/doesn't reference Y" is now cheaply checkable — check before trusting.
   use the **Arctic Shift** community mirror, which is *not* blocked. Search a sub, then download the `i.redd.it` image (the CDN
   is reachable). Worked first try 2026-06-13 to grab the matchstick sets. ⚠️ **Availability notes:** on 2026-07-04 the API
   returned `{"data":null,"error":"Under maintenance"}` — retry later rather than assuming a block (it was back 2026-07-05).

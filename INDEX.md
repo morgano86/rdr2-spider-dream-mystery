@@ -76,12 +76,12 @@ Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted.
 |----|------------------|--------|-------------|
 | U0 | The 8 feathers' position/orientation — orientation resolved (tip-down, [H4] refuted); socket residual read out ([H19], mostly-negative) | LIVE (deflated) | [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) · [feather-positions](images/webs/feather-positions/README.md) |
 | U1 | The under-wood pole messages, verbatim | **RESOLVED → [K11]/[K12]** (guitar *meaning* still open at [U12]) | [thread 05](threads/05-spider-web-trail-2025.md) |
-| U2 | Is there an intended payoff at all, or cut content? | LIVE (confirmed: still none Jun 2026) | [thread 01](threads/01-spider-dream.md) |
+| U2 | Is there an intended payoff at all, or cut content? | LIVE (still none Jun 2026; [#52] script-side claims reproduced + flag semantics corrected 2026-07-05, [#87]) | [thread 01](threads/01-spider-dream.md) |
 | U3 | One puzzle or two (2018 chain vs 2025 trail)? | **REFRAMED 2026-07-04 → [S41]** (one relay; residue → [U29] + [U6]) | [one-puzzle-or-two.md](analysis/one-puzzle-or-two.md) · [unknowns.md](findings/unknowns.md) |
 | U4 | What do `LJ` / `SM` mean? (dev-initials CLOSED 2026-07-02; in-fiction frame; newest candidate = [H26] waymarks) | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) · [thread 07](threads/07-van-der-linde-roster.md) |
 | U5 | What do the matchstick letters MEAN? (`J+M`=John Marston exact hit [S16]; `EC` matches nothing [S17]; couples test → [S45]) | LIVE (locations pinned) | [thread 03](threads/03-matchstick-letters.md) · [thread 07](threads/07-van-der-linde-roster.md) |
 | U6 | Gertrude's numbers — opening deliberate ([K23]); full set game-text-confirmed ([K42]); attempt B closed-inexecutable; open: encoding (battery re-run first), which mystery it serves | LIVE (narrowed) | [thread 04](threads/04-gertrude-numbers.md) · [gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md) |
-| U7 | Are the tally counts themselves a running sequence (1…7…10–11)? | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
+| U7 | Are the tally counts themselves a running sequence (1…7…10–11)? | **Gertrude-continuation half ANSWERED-NEG 2026-07-05** (no ascending run crosses 7 in [K42]; 12 never said); site-level 1→7 half open | [thread 02](threads/02-butcher-creek-carvings.md) |
 | U8 | The dev quote attribution | **RESOLVED → [K3]** | [thread 01](threads/01-spider-dream.md) |
 | U9 | Pole count: 8 + central (9) vs "9 poles" — confirm + label | RESOLVED 2026-07-05 (8 pole-webs, labeled; 9th = centre web in a TREE per #8/#10; minor one-web-vs-several residual) | [unknowns.md](findings/unknowns.md) |
 | U10 | Fort Brennand tally counts (6,7) + precise three tower symbols | PARTLY RESOLVED (counts B×2-confirmed; 3rd symbol disputed at source — puddle/[H11]/[S44]) | [thread 02](threads/02-butcher-creek-carvings.md) |
@@ -156,7 +156,7 @@ Home for all: [findings/speculation.md](findings/speculation.md) ↔ the file no
 | S1 | `LJ`/`SM` are in-fiction clues, not dev initials (user) | [speculation.md](findings/speculation.md) |
 | S2 | The four letters form two pairs naming two couples / four people | [speculation.md](findings/speculation.md) |
 | S3 | `J+M` (lovers' carving) names a romantic pair; puzzle wants you to re-pair the letters | [speculation.md](findings/speculation.md) |
-| S4 | All "numbers" threads are one running counter; Gertrude continues it | [speculation.md](findings/speculation.md) |
+| S4 | All "numbers" threads are one running counter; Gertrude continues it — **continuation half REFUTED-leaning 2026-07-05** ([U7]: no run crosses 7 in [K42]); the BC/Brennand 1→7 count stands | [speculation.md](findings/speculation.md) |
 | S5 | Gertrude's sequence is a cipher / coordinate / date | [speculation.md](findings/speculation.md) |
 | S6 | "KEEP YOUR DREAMS LIGHT" is an intentional signpost for the dream trail | [speculation.md](findings/speculation.md) |
 | S7 | Trail ends at a buried reward / song / cutscene — OR cut content — OR a troll dead-end | [speculation.md](findings/speculation.md) |

@@ -78,7 +78,10 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   scripts**: *no script spawns, detects, tracks, or responds to the webs*; visibility is pure engine timeFlags. If accurate,
   **no script-level shooting-order handler exists** — the entire order question would be either engine-side (C++, invisible
   to datamining) or moot ([H22]-R3 / [H27]). C-tier with specific caveats (AI-assist alleged; its hour-window list fails
-  2/8 against the observed lattice — see the source row), so it *leans*, not settles. Also new from the sweep ([#70]/[#71]):
+  2/8 against the observed lattice — see the source row), so it *leans*, not settles. **⚡ The zero-refs leg REPRODUCED
+  firsthand 2026-07-05 ([#87]):** 0 hits for `spiderdream` — string, all computed joaat hashes, and the [#66] feather
+  entity hashes — across all 1,638 scripts of an independent public June-2024 dump; the strongest [#52] leg is no longer
+  single-sourced (the hour-window caveat stands — the data-file side remains unreproduced). Also new from the sweep ([#70]/[#71]):
   the **"one-session rule"** (save/reload wipes web state — never reload mid-run) and **two more all-blacks-one-night
   completion nulls** (no sleep step run — the [H25] gap stands).
   **⚠️ A THIRD FRAME added 2026-07-02 → [H24]:** the seam contradiction may be an **artefact of the "all 8 must be shot"
@@ -110,16 +113,37 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   gated on a state nothing in the shipped scripts ever turns on. *If accurate*, the strongest technical argument yet that the
   trail is **incomplete/cut** (or finished engine-side, beyond script reach) — the author's own fork is exactly our [U2]:
   *Option A "real and huge, trigger in engine C++"* vs *Option B "art layer finished, gameplay layer never wired."* Treat as a
-  lead, not proof: single C-tier author, unreproduced, AI-assist alleged by commenters (and its hour-window list fails our 2/8
+  lead, not proof: single C-tier author, ~~unreproduced~~, AI-assist alleged by commenters (and its hour-window list fails our 2/8
   lattice check — trust structure over numbers). Related sweep finds: `dreamanim.c`, a near-empty decompiled script registered
   with a John Marston mission blip in the Lanahachee river ([#74]) — same cut-content flavour. → [source #52](../sources/sources.md)
+  **⚡ REPRODUCED-IN-PART + one CORRECTION (2026-07-05, [#87] — firsthand grep of a public June-2024 GitHub script dump,
+  `creativewild/rdr2-scripts-decompiled`, build 1491.50; committed **before** the trail decode and the [#52] post, so it
+  can't be contaminated by either):** the script-side claims all check out — **1,638 scripts** (claim: 1,639); **zero
+  `spiderdream` references** (as a string, as any of the 9 independently-computed joaat hashes of
+  `spiderdream`/`spiderdream01–08`, and via the 8 [#66] feather entity hashes — every "spider" string in the scripts is a
+  mundane asset: spider-orchid herb/collectible, the `WATER_SPIDER_GORGE` water volume); **both flags are real** —
+  `startup.ysc.c:3763` registers the savegame BOOL `"DiscoDisable"` in the Discoverables save block ("Disco" =
+  *discoverable*), **all 15 `discoverable_*.ysc.c` scripts** guard `if (func_11(state, 4) || Global_40.f_8863.f_156)`,
+  and **no script ever assigns the global**; and `dreamanim.ysc.c` is **24 lines whose `main()` sets two floats and
+  returns** ([#74] confirmed). The script-side structural claims are **no longer single-sourced** (treat as B-equivalent);
+  the data-file claims (two-object web/feather, particle configs, hour windows) stay C-tier unreproduced, and whether
+  bit 4 is ever *set* was not traced. **The correction:** the gloss above — *"a payoff gated on a state nothing in the
+  shipped scripts ever turns on"* — had the semantics **backwards**. The reproduced guard **disables** the discoverable
+  when true (`→ cleanup + bail`), so both flags are **dormant kill-switches** (never-set ⇒ the content stays ON; shipping
+  an unused master disable is normal engineering), **not** a payoff gate. What carries the cut-content lean after the
+  correction: (i) the webs have **no script layer at all** (now reproduced — either engine-side or never wired, the [U2]
+  fork restated); (ii) `dreamanim.c` (confirmed near-empty). Flavour aside, recorded not built on: a checked-but-never-set
+  per-discoverable *termination* bit rhymes with the never-clearing **dreamcatcher log entry** ([K20]/[U17], the wiki's
+  own "Oversights" bug) — a candidate mundane mechanism for that bug, unverified. → [source #87](../sources/sources.md)
   - **Candidate payoff LOCATION (2026-06-14, [H21], speculative):** if a payoff exists, the oversized B34 boundary ([K28],
     uniquely holding **Butcher Creek** inside a zone, forts excluded) makes **Butcher Creek (or Valentine)** the natural place a
     **state-gated** result would surface — reachable from the webs with shot-state intact ([K21]). This **dovetails with the
     "checked-but-never-set flags" lead** in a pointed way: H21's predicted state-setter would be *exactly such a flag* — so
     either web activation **is** what sets it (and the script-scan missed an engine-side/out-of-scope setter), or it genuinely is
-    **never set** (→ the gate can't fire → cut content). Distinguishing these is the crux. ⚠️ No payoff ever confirmed; do not
-    present Butcher Creek as a destination. → [H21](speculation.md), [K28](known-facts.md)
+    **never set** (→ the gate can't fire → cut content). Distinguishing these is the crux. *(⚠️ Dovetail weakened 2026-07-05:
+    the two flags reproduced from the public dump ([#87]) are **disable**-flags — H21 predicts an *enable*-flag; the
+    dovetail survives only as "dormant flag machinery exists in the shipped scripts," not as a matching flag found.)*
+    ⚠️ No payoff ever confirmed; do not present Butcher Creek as a destination. → [H21](speculation.md), [K28](known-facts.md)
   - **Argument *against* the "pure decoration" reading (investigator 2026-06-15, [K30]):** the webs are **render-gated** (won't
     spawn/despawn while looked at), but the Butcher Creek **pentagram** — same [K15] technique, same time-gating — is **not**
     (it appears/disappears even while stared at). So the concealment is **web-specific and selective**, not blanket LOD. You don't
@@ -223,8 +247,13 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   from **{C,E,J,J,J,L,M,M,S,S}** but not the `L`/`E` legs. **Don't pre-filter:** the wiki's "A. West/B. Ward = *Batman*" reading is
   **unconfirmed speculation**, and a puzzle may use names that double as real-world references as **camouflage** ([S13]) — keep
   every name live; the scripted match decides. → [02](../threads/02-butcher-creek-carvings.md), [connections](../analysis/connections.md)
-- **U7. The tally counts as a sequence.** Butcher Creek 1–5, Fort Brennand 6 & 7 — is the count itself the message (a
-  running 1,2,3,4,5,6,7…)? Does Gertrude's sequence (which reaches ~10–11) continue it?
+- **U7. The tally counts as a sequence — [GERTRUDE HALF ANSWERED-NEGATIVE 2026-07-05].** Butcher Creek 1–5, Fort
+  Brennand 6 & 7 — is the count itself the message (a running 1,2,3,4,5,6,7…)? The **site-level half** (1→7 as one
+  deliberate running count across the two [K8]-chained sites) stays open-plausible. The **continuation half** ([S4]:
+  Gertrude, reaching ~10–11, extends it past 7) is **answered-negative on the canonical [K42] game text**: no ascending
+  consecutive run crosses 7 anywhere in the 12 lines (`7` → only `6/5/6/3`; `6` never → `7`; `8` entered only by derail
+  from 17 or 5); `10`/`11` appear only inside derailed babble; **12 is never said**. Consistent with [S42] (failed
+  counting, capped at 5). → [thread 02](../threads/02-butcher-creek-carvings.md), [S4](speculation.md)
 - **U27. Why does the chain branch from outhouse #4 (tally 4), not #5 (tally 5)? [user, 2026-06-13].** The Fort Brennand
   pointer carving sits on **outhouse #4**, so the trail leaves the 1–5 tally run **one short of its end** — you'd expect the
   onward clue on the *last* tally, #5. Either **deliberate** (a "4" signal that rhymes with the 4 AM pentagram, the 8 webs, and
@@ -298,7 +327,9 @@ The live problem set. Anything here that gets resolved should move to [known-fac
 - **U13. [DOWNGRADED 2026-06-13].** **Spider Gorge** — the wiki (Part 4) says NW of the guitar pole "points directly to the
   very tip" of it; it has *"spider"* in the name and a **guitar-shaped section**. **But a deep-research pass found NO secondary
   source corroborates Spider Gorge** — journalism points the `NW`+guitar marker at **Fort Wallace** instead. Keep as
-  **wiki-only [SPECULATION]**, not a co-equal destination; verify in-game if visiting the NW area. → [05](../threads/05-spider-web-trail-2025.md)
+  **wiki-only [SPECULATION]**, not a co-equal destination; verify in-game if visiting the NW area. *(Script-dump aside
+  2026-07-05, [#87]: `WATER_SPIDER_GORGE` is a named water volume in the decompiled scripts — the toponym is a first-class
+  engine asset, but nothing in the scripts ties it to the webs; changes nothing here.)* → [05](../threads/05-spider-web-trail-2025.md)
 - **U14. [RESOLVED-NEGATIVE 2026-06-21].** **Window Rock "Strange Statues" mural** — *do its birds carry a black/red feather
   split that mirrors the **5 black + 3 red** web feathers, making the mural the order key ([H3]/[S12])?* **No.** Two
   independent lines: **(1) the source art has no second pigment** — a pixel test of the colour-faithful wiki texture

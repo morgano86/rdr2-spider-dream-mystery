@@ -2,6 +2,41 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-05 (script-dump reproduction + U7) — #52's script-side claims REPRODUCED from a public GitHub dump (zero `spiderdream` refs; the two flags real — but they're kill-switches, gloss corrected); U7's Gertrude-continuation half answered-negative on [K42]
+
+**What we did.** Two desk tasks: (1) found and machine-checked a **public GitHub dump of RDR2's 1,638 decompiled
+scripts** (`creativewild/rdr2-scripts-decompiled`, build 1491.50, committed **June 2024** — predates the trail decode
+and the [#52] post, so uncontaminated) against [#52]'s script-side claims → **[#87]**; (2) ran the long-open [U7]
+running-counter test properly for the first time, against the canonical [K42] 12-line game text.
+
+**What we learned.**
+- **⭐ [#52] script-side claims REPRODUCED ([#87]):** **zero `spiderdream` references** in all 1,638 scripts — as a
+  string, as any of the 9 joaat hashes we computed independently (`spiderdream`, `spiderdream01–08`), and via the 8
+  [#66] feather entity hashes (every "spider" string in scripts = mundane assets: spider-orchid, `WATER_SPIDER_GORGE`).
+  *No script spawns, detects, tracks, or responds to the webs* is **no longer single-sourced** → strengthens the
+  [H27]/[H22]-R3 side of [U29] and [U2]'s engine-side-or-never-wired fork. Also confirmed: `dreamanim.ysc.c` is 24
+  lines, `main()` sets two floats and returns ([#74] ✓); script count 1,638 ≈ the claimed 1,639.
+- **⭐ The two "checked-but-never-set" flags are REAL — with a semantic CORRECTION:** `startup.ysc.c` registers the
+  savegame BOOL `"DiscoDisable"` in the Discoverables save block; all 15 `discoverable_*.ysc.c` scripts guard
+  `if (bit4(state) || Global_40.f_8863.f_156) { cleanup; bail }`; no script ever assigns the global. **But the guard
+  DISABLES content when true** — the flags are dormant **kill-switches** (never-set ⇒ content stays ON), not a payoff
+  gate; the on-file gloss *"a payoff gated on a state nothing ever turns on"* was **backwards** → [U2] corrected, the
+  [H21] flag-dovetail weakened (it predicts an *enable*-flag), and a new unbuilt-on aside logged (a never-set
+  per-discoverable *termination* bit rhymes with the never-clearing dreamcatcher log entry [K20]/[U17]).
+- **Scope honesty:** only script-side claims are checkable — [#52]'s data-file claims (two-object web/feather,
+  particles, hour windows) stay C-tier unreproduced; [K39] (entity mapping) is scripts-unverifiable; bit-4 *setting*
+  untraced.
+- **[U7] Gertrude-continuation half ANSWERED-NEGATIVE on [K42]:** a running-counter continuation predicts an ascending
+  run crossing 7 — none exists in the 12 canonical lines (`7` → only `6/5/6/3`; `6` never → `7`; `8` entered only by
+  derail from 17/5); `10`/`11` occur solely inside derailed babble; **12 is never said**. [S4]'s continuation leg
+  refuted-leaning (consistent with [S42] failed-counting); the site-level 1→7 count (BC → Fort Brennand, the [K8]
+  chain's own order) stays open. Sync fix: U7 now has its entry in thread 02 (INDEX named it home; it was absent).
+
+**What changed.** Source **[#87]** added + [#52] row annotated (script-side → B-equivalent); [U2] corrected in
+unknowns.md (+ thread 01 phrasing, [H21] dovetail note, U13 `WATER_SPIDER_GORGE` aside, U29 [H27] paragraph); [U7]
+adjudicated in thread 02 + unknowns.md + thread 04 + [S4] (speculation.md); INDEX rows U2/U7/S4 updated; script-dump
+recipe added to RESOURCES.md; STATUS headline updated.
+
 ## 2026-07-05 (couples pass + watch + audit) — S45 minted (`+` markings = tragic couples: J+M=Joshua+Miriam @ Emerald/B45, S+J=Sadie+Jake); watch quiet; rollup audit clean
 
 **What we did.** Three desk tasks: (1) a 🌐 watch pass (Arctic Shift date-bounded sweep of r/reddeadmysteries since
