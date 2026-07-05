@@ -56,7 +56,8 @@ We hold wiki images for the floorboard pentagram (~4–5 AM) and outhouse **#4**
 clarity and source a cleaner shot if one exists.
 
 ### 8. Matchstick sets — remaining items — [K9], [U5]  · 🌐
-`EC`/`J+M`/`S+J` images are all sourced + verified (see Completed). Remaining:
+`EC`/`J+M`/`S+J` images are all sourced + verified (see Completed). 🆕 2026-07-05: the **couples reading tested → [S45]**
+(`J+M`=Joshua+Miriam, `S+J`=Sadie+Jake; see [thread 03](threads/03-matchstick-letters.md)). Remaining:
 - [ ] Source a clean **arrow**-set image (Old Trail Rise) if one surfaces (deprioritised — a standard stash pointer, not a letter).
 - [x] ~~Compare the carving "hand"/style across the three letter sets and vs outhouse #4 [K6]~~ — **DONE 2026-07-05,
   mostly-null**: the matchstick medium forces the angular style (no "hand" extractable); carved `LJ`/`SM` = the [K15]

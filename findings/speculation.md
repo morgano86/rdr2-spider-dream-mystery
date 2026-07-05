@@ -723,6 +723,17 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   ⚠️ Weakness: the *undisputed* pole+factory readings already point at the Heartlands oil fields ([K8] hand-off,
   retro-validated by what sits there), which the skyline reading would have to explain away. Kept as a recorded rival,
   not adopted. Home: [thread 02](../threads/02-butcher-creek-carvings.md). → [U10](unknowns.md), [U24](unknowns.md), [H11]
+- **S45 (couples pass, 2026-07-05). The `+` markings read as documented TRAGIC COUPLES** — the first run of the test the
+  lovers'-styling readings ([S2]/[S3]) actually predict ([`couples_match.py`](../experiments/couples_match.py) vs 14
+  wiki-documented couples, [#86]): **`J+M` = Joshua Burgess + Miriam Wegner** (the **Emerald Ranch / web `B45`** secret
+  lovers; Joshua shot dead 1898, Miriam confined since) and **`S+J` = Sadie + Jake Adler** (Jake murdered 1899) — while
+  the three **bare** markings match **no** documented couple, landing the split exactly on the styling line (2/2 `+` vs
+  0/3 bare). Nexus: the *Letter to Miriam Wegner* (cousin Annabelle) spawns **SW of Fort Wallace** ([K16] frontier) and
+  name-drops the other Emerald couple (Cooper + Lilly Millet). ⚠️ Initials alone are cheap (null p ≈ 0.11; exact
+  styling-split ≈ 0.054 post-hoc); the weight is styling alignment + both couples being death-severed + the geography.
+  ⚠️ Counter: the markings don't sit at their couples' homes (placement rule unexplained). Control negatives:
+  Beau+Penelope {B,P} and Cooper+Lilly {C,L} match nothing. Home: [thread 03](../threads/03-matchstick-letters.md).
+  → [U5](unknowns.md), [U4](unknowns.md), [S2], [S3], [H26], [#86](../sources/sources.md)
 
 ## On the Fort Wallace bird carving — what it refers to / symbolises (2026-06-16)
 *(Downstream interpretation of the verified [K16] mark; full catalogue + tests in [fort-wallace-bird-carving.md](../analysis/fort-wallace-bird-carving.md). None of this moves the frontier or licenses chasing the contested `?`/Bacchus leads.)*

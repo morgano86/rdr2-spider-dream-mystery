@@ -2,6 +2,43 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-05 (couples pass + watch + audit) — S45 minted (`+` markings = tragic couples: J+M=Joshua+Miriam @ Emerald/B45, S+J=Sadie+Jake); watch quiet; rollup audit clean
+
+**What we did.** Three desk tasks: (1) a 🌐 watch pass (Arctic Shift date-bounded sweep of r/reddeadmysteries since
+07-04 + a news search on [U2]/post-[K16] movement); (2) the long-open letters re-pair task, run against the one name
+list never tried — **documented in-game couples**, which is what the `+` lovers'-styling ([S2]/[S3]) actually predicts
+(all prior tests matched *individuals*); core couples sourced live from the Red Dead Wiki API ([#86]); (3) 🆕
+[`rollup_completeness_audit.py`](experiments/rollup_completeness_audit.py) — a mechanical INDEX↔rollup cross-check.
+
+**What we learned.**
+- **⭐ [S45] minted ([`couples_match.py`](experiments/couples_match.py), [results](experiments/results/couples_match.md)):**
+  matched against 14 wiki-documented couples by first-name initials, **both `+` markings hit canonical TRAGIC couples** —
+  **`J+M` = Joshua Burgess + Miriam Wegner**, the **Emerald Ranch secret-lovers story (Emerald Ranch = web `B45`)**:
+  Joshua shot dead in the saloon Aug 1898, Miriam confined by her father since, grave by the decommissioned saloon; and
+  **`S+J` = Sadie + Jake Adler** (married 1896, Jake murdered by O'Driscolls May 1899). **The three bare markings match
+  no documented couple** — the split lands exactly on the styling line (2/2 `+` vs 0/3 bare).
+- **Nexus object:** the ***Letter to Miriam Wegner*** (from cousin **Annabelle**, NY actress) spawns in the abandoned
+  mail wagon **southwest of Fort Wallace** — the [K16] frontier — and name-drops the *other* Emerald Ranch couple,
+  **Cooper + Lilly Millet** (abusive; {C,L} matches no marking — a control negative, as does Beau+Penelope {B,P}, the
+  flagship forbidden lovers at the very Gray/Braithwaite estates).
+- **Honest weights (in the script):** partner-reshuffle null → initials alone are cheap (p≈0.11; exact styling-split
+  config ≈0.054 *post-hoc*); the load-bearing legs are structural (styling alignment, both couples death-severed
+  1898–99, the Emerald/Fort-Wallace geography). **Open counter:** the markings don't sit at their couples' homes.
+  Checked near-miss: Vetter's "Annabell**a**" ≠ the cousin "Annabell**e**" (different spellings, held distinct).
+  Aside (low weight): Register Rock's "A. West" also reads as RDR1's **Annabel West** (another death-severed spouse) —
+  the Batman reading stays primary.
+- **Watch pass QUIET:** 1 new r/reddeadmysteries post since 07-04 (unrelated GTA5 content); news search surfaced only
+  already-held coverage (Kotaku/GamesRadar/GameRant/G2A). [U2] unchanged.
+- **Rollup audit CLEAN:** all 151 registered INDEX IDs (44 K / 36 U / 27 H / 44 S) appear in their rollups; no
+  unregistered own-type IDs in any rollup. Script kept as a reusable hygiene tool.
+- **Correction (typo-grade):** thread 03 once mis-listed `EC` among the `+`-pairs; the on-file Vetter's Echo image
+  confirms **`EC` is bare** (consistent with [S21]'s concatenate rule) — fixed in place.
+
+**What changed.** [S45] minted (INDEX + [speculation.md](findings/speculation.md) + home write-up in
+[thread 03](threads/03-matchstick-letters.md) + [connections §1](analysis/connections.md) couples workstream); [U5]
+updated (unknowns + INDEX row); source **[#86]** added; STATUS headline + 🧠 task line updated; checklist #8 annotated;
+2 new experiments + 1 results file.
+
 ## 2026-07-05 (glyph + letters desk pass; U11/U35 research) — U35 gate ADJUDICATED (post-epilogue, NOT 100%); U11 answered-NEGATIVE (no sleep-dream machinery → H25 weakened); S34 glyph check → guitar-leaning; checklist #8 closed
 
 **What we did.** Four tasks: (1) the [S34]/[U12] glyph depiction check on the on-file `NW`-inscription extraction;

@@ -114,6 +114,16 @@ provenance in the [dossier](../locations/register-rock.md#complete-inscription-l
   legs; if it were the single name-key, that absence is awkward. **A lead to test, not a match** — and per the caution above,
   the "obvious" outside references stay in too.
 
+**Couples workstream — the `+`-styling test finally run (2026-07-05 → [S45]).** All prior name tests matched *individuals*;
+the lovers'-styling readings ([S2]/[S3]) predict *couples*. [`couples_match.py`](../experiments/couples_match.py) vs 14
+wiki-documented couples ([#86]): **`J+M` = Joshua Burgess + Miriam Wegner** (the **Emerald Ranch / web `B45`** secret-lovers
+tragedy, Joshua shot dead 1898) and **`S+J` = Sadie + Jake Adler** (Jake murdered 1899) — while the three **bare** markings
+match no documented couple: the split lands exactly on the styling line (2/2 `+` vs 0/3 bare). Nexus object: the *Letter to
+Miriam Wegner* spawns **SW of Fort Wallace** and name-drops the other Emerald couple (Cooper + Lilly). ⚠️ Initials alone are
+cheap (partner-reshuffle null p ≈ 0.11); the weight is structural (styling + both couples death-severed + geography), and the
+placement mismatch (markings ≠ the couples' homes) is an open counter. Full write-up + falsifiability:
+[thread 03](../threads/03-matchstick-letters.md); results: [`results/couples_match.md`](../experiments/results/couples_match.md).
+
 **Counter-hypothesis — "developer initials" — explicitly weighted DOWN (user's reasoning):**
 - RDR2 had **thousands** of credited workers. For *any* two-letter pair, you can almost certainly find *some* matching
   staffer — so a coincidental match is **near-certain and therefore near-worthless as evidence**. "We found a dev with those

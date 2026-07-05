@@ -180,7 +180,10 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   `J+M` = **John Marston** is an exact hit ([S16]); **`EC` matches nothing** in any name source ([S17], investigator's point —
   its non-match argues the initials are deliberate). **Number-reading alternative ([S21]):** read as A1Z26 with the `+` as
   *add* and bare pairs *concatenated* → `EC`=53, `J+M`=23, `S+J`=29 (all prime; `EC`=53=the 5/3 feather split) — weak but live.
-  → [03](../threads/03-matchstick-letters.md), [connections](../analysis/connections.md)
+  **🆕 Couples test run 2026-07-05 → [S45]:** matched against documented in-game **couples** (what the `+` lovers' styling
+  actually predicts) — **`J+M` = Joshua+Miriam (the Emerald Ranch / web `B45` tragedy)** and **`S+J` = Sadie+Jake Adler**,
+  with the three bare markings matching none (2/2 vs 0/3 on the styling line); initials-cheap (p≈0.11), the weight is
+  structural. → [03](../threads/03-matchstick-letters.md), [connections](../analysis/connections.md)
 - **U6. Gertrude's number sequence — [PARTLY RESOLVED 2026-06-13].** The **opening is now multi-outlet sourced**: she begins
   `1 2 3 7 6 4 5 1 1 2` (`123 7645112`), which Rockstar **deliberately echoed cross-game** — the **Madam Nazar "Nazar Speaks"**
   machine in **GTA Online** speaks the same string ([K23]). ⚠️ **Chronology (corrected, user-flagged):** the number is

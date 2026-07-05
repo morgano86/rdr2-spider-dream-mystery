@@ -113,8 +113,40 @@ spelling **"EC"** beside the **Black Widow spider cigarette card**. `J+M` is one
   *placement* keeps landing on mystery sites. Under [H26], "are the matchsticks part of the spider puzzle or a separate
   mystery?" partially dissolves: they mark membership in **one designed constellation**; whether that constellation is one
   puzzle or several is the same open [U3]. → [connections §1b](../analysis/connections.md)
+- **S45 (couples pass, 2026-07-05) — the `+` markings read as documented TRAGIC COUPLES.** The lovers'-styling readings
+  ([S2]/[S3]) predict *couples*, yet every prior name test matched *individuals* — so the couples test had never been run.
+  [`couples_match.py`](../experiments/couples_match.py) ([results](../experiments/results/couples_match.md)) matched the five
+  markings against **14 wiki-documented in-game couples** by first-name initials ([#86]). Result — the split lands exactly
+  on the styling line:
+  - **`J+M` → Joshua Burgess + Miriam Wegner** — the **Emerald Ranch** secret lovers (Emerald Ranch = **web `B45`**):
+    Joshua shot dead in the saloon Aug 1898, Miriam confined in the house by her father since. His grave stands by the
+    decommissioned saloon.
+  - **`S+J` → Sadie + Jake Adler** — married 1896, **Jake murdered by O'Driscolls May 1899**, Sadie left widowed.
+  - **The three bare markings (`LJ`, `SM`, `EC`) match no documented couple** — consistent with only the `+` form being
+    lovers' syntax. *(`EC`'s bareness re-verified against the on-file image this pass — earlier drafts occasionally
+    mis-listed it as a `+`-pair.)*
+  - **Nexus object:** the one in-game document narrating the `J+M` couple — the ***Letter to Miriam Wegner*** (from cousin
+    **Annabelle**, a New York actress) — spawns in the abandoned mail wagon **southwest of Fort Wallace** ([K16], the trail
+    frontier), begs Uncle **E**ugene not to imprison Miriam, and name-drops **L**illy Millet and **C**ooper (the *other*
+    Emerald Ranch couple, an abusive one). One letter's cast thus carries C, E, J, L, M — 5 of the 6 unique mystery letters
+    (⚠️ that last observation is pattern-prone; logged, not leaned on).
+  - **Honest weights:** initial-coincidence null p ≈ 0.11 (cheap — J is the commonest initial; the [S16] lesson), the
+    exact styling-split configuration ≈ 0.054 *post-hoc*. The load-bearing legs are structural: styling alignment (2/2 `+`
+    vs 0/3 bare), thematic coherence (both couples death-severed 1898–99), geography (Emerald `B45`; the letter at the
+    Fort Wallace frontier). **Control negatives:** Beau+Penelope ({B,P} — the flagship forbidden lovers at the Gray/
+    Braithwaite estates) and Cooper+Lilly ({C,L}) match **no** marking. Checked near-miss: Vetter's addressee is
+    "Annabell**a**", Miriam's cousin "Annabell**e**" — different spellings, treated as different people.
+  - **Honest counter — placement mismatch:** the markings do **not** sit at their couples' homes: `J+M` is at Cornwall
+    K&T (the couple's story is Emerald Ranch — though *both* are web nodes, `B34`-adjacent START and `B45`), and `S+J` is
+    at Caliga Hall (the Adlers' ranch is near Colter, no known node). If the couples reading is right, the placement rule
+    is still unexplained — "memorial placed elsewhere" is an extra assumption the reading has to carry.
+  - **What it would mean + falsifiability:** the matchsticks would be **memorials/echoes of severed couples**, coherent
+    with the dream/grief register of the mystery ("KEEP YOUR DREAMS LIGHT", [S6]) — and it *re-pairs* with [H26]: waymarks
+    whose letters carry flavour-level meaning. Weakens if a sourced non-couple referent for `J+M`/`S+J` lands; strengthens
+    if a documented couple ever matches a *bare* pair (breaking the styling line) fails to materialise while more couple
+    evidence accrues at nodes. [SPECULATION] — upstream of nothing past [K16].
 - **⚠️ "Initials" is itself a hypothesis ([U25], user 2026-06-13).** The **[KNOWN]** is only that these are **letters** displayed
-  as bare pairs (`LJ`,`SM`) and `+`-pairs (`J+M`,`S+J`,`EC`). Whether they're **initials of names** is [SPECULATION]. Two
+  as bare pairs (`LJ`,`SM`,`EC`) and `+`-pairs (`J+M`,`S+J`). Whether they're **initials of names** is [SPECULATION]. Two
   **non-name** readings were tested (see [connections §1a](../analysis/connections.md)):
   - **Anagram/whole-set cipher — NEGATIVE** ([`letters_cipher.py`](../experiments/letters_cipher.py)): the set
     `{C,E,J,J,J,L,M,M,S,S}` is vowel-starved (1 vowel) + J-heavy → can't form words; meant to be read as **pairs**. A

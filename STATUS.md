@@ -93,7 +93,8 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 - ~~Test Gertrude attempt B (read the 7 tally nodes in her number order) once U6 lands.~~ **CLOSED-INEXECUTABLE
   2026-07-05** (nodes 5/6 bare — [connections §3](analysis/connections.md); reopens only via an [H26]-sweep find).
 - Re-pair the letters `{C,E,J,J,J,L,M,M,S,S}` against candidate name lists. *(Dev-initials: **CLOSED as a working line
-  2026-07-02** — counts + coherence + placement; see [connections §1](analysis/connections.md). Newest frame: [H26] waymarks.)*
+  2026-07-02**; **couples list RUN 2026-07-05 → [S45]** — the `+` pairs hit two death-severed couples, bare pairs none;
+  see [connections §1](analysis/connections.md). Frames now: [H26] waymarks + [S45] couples.)*
 - ~~Decide [U3]: one layered puzzle or two parallel eggs?~~ **DONE 2026-07-04 → [S41]** (one relay;
   [one-puzzle-or-two.md](analysis/one-puzzle-or-two.md)).
 - Live [U29] follow-ons: does shooting a *contained-but-untied* web (wrong-boundary despawn) break a run? And **[U30]** —
@@ -108,6 +109,12 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-07-05 (couples pass + watch + audit)** — **⭐ [S45] minted: the `+` markings match documented TRAGIC COUPLES**
+  (`J+M` = **Joshua+Miriam, the Emerald Ranch / web `B45` tragedy**; `S+J` = **Sadie+Jake Adler**; bare pairs 0/3 — the
+  split lands exactly on the lovers'-styling line; initials-cheap p≈0.11, weight is structural; the *Letter to Miriam
+  Wegner* spawns **SW of Fort Wallace** and names the other Emerald couple, Cooper+Lilly); `EC`-is-bare image-verified
+  (thread-03 slip fixed); watch pass **quiet** (1 unrelated Reddit post since 07-04; news = known coverage);
+  🆕 [`rollup_completeness_audit.py`](experiments/rollup_completeness_audit.py) — all 151 INDEX IDs ↔ rollups **clean**.
 - **2026-07-05 (glyph/letters + U11/U35)** — **[U35] adjudicated** (Strange Man 4th-visit gate = post-epilogue + 4
   spaced visits, **NOT 100%** — the 100% claim traced to a 2018 myth; [#84]); **[U11] answered-negative** ([#85]: RDR2
   has **no sleep-triggered dream machinery** → **[H25] weakened to presence-at-hour**, coda stays in Tests C/D);
