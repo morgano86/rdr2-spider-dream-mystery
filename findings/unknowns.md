@@ -368,7 +368,14 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   no log at all** ([K20](known-facts.md)). The *Dreamcatchers* wiki files its own never-clearing entry under **Oversights**
   (a bug); the spider wiki only cites it **by analogy**. **The live question (H8):** is the dreamcatcher entry stuck because
   there is **something left to finish — possibly the spider mystery itself**? If so, **completing the spider mystery would
-  clear the dreamcatcher log** — a **falsifiable** prediction, currently untested. Separately, the strongest dreamcatcher↔spider
+  clear the dreamcatcher log** — a **falsifiable** prediction, currently untested. **⚡ Script-side pass 2026-07-05
+  ([#87]):** the dreamcatchers are the discoverable **`disco_drm_obj`** with progress label **`MISSION_COLLECTDREAM`**
+  (the game's own "dream" naming on the dreamcatcher side — a small thematic leg beside `spiderdream`), journal
+  drawings for both Arthur and John — and a targeted pass found **no journal/log removal path anywhere in the
+  discoverable scripts**: the never-clearing entry is consistent with **no clear mechanism existing at script level**,
+  which mechanically **weakens [H8]'s prediction** (a completion-triggered clear would need engine-side machinery —
+  the same shape as the [U11] negative). The in-game H8 test stays falsifiable and cheap; run it with expectations
+  recalibrated. Separately, the strongest dreamcatcher↔spider
   ties are *thematic/mechanical* (a dreamcatcher is a **spider-web-shaped, dream-themed Native craft**; reward = **connect 20
   points → drawn animal → treasure in its eye**, the web trail's own mechanic). Full write-up →
   [analysis/dreamcatchers.md](../analysis/dreamcatchers.md). → [01](../threads/01-spider-dream.md)
@@ -437,11 +444,19 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   directions (finished portrait + mirror + journal at **88%** completion, `llc7lq` re-verified verbatim; a
   "still not finished after 100%" GameFAQs report); an OP-solve is explicit (*"It just requires being in the
   epilogue"*); and the 100% claim **traces to its origin** — a 2018 correlation guess (`9wuk1g`: 95–100% players have
-  necessarily finished the epilogue + passed many days) that Gameranx and aggregators propagated. **Still open (narrow
-  residual):** the exact stage-advance mechanic (visit count with a ~3-day cooldown vs pure days-elapsed) and whether
-  **Arthur-era visits count** (wiki says John-only; two firsthand reports say per-chapter progression as Arthur; one
-  unverified 2018 anomaly reports the apparition *as Arthur*). Practical for [S35]: baseline portrait state on a
-  post-epilogue <100% save is predicted by **prior visit count**; and one finished-portrait-but-no-apparition report
+  necessarily finished the epilogue + passed many days) that Gameranx and aggregators propagated. ~~**Still open (narrow
+  residual):** the exact stage-advance mechanic~~ **⚡ STAGE MECHANIC SCRIPT-DECODED 2026-07-05 ([#87] dump,
+  `discoverable_easel.ysc.c` — decompiled, our reading):** the portrait is a **discoverable**; its stage is savegame int
+  `Global_40.f_8863.f_145` (0–3 → `SK2_Painting_set_01–04`); an advance needs a **pending-visit flag + ≥5 elapsed
+  units of a packed saved date (almost certainly in-game days) + for stage ≥2 persistent progress bit 45** (natural
+  post-epilogue candidate, unproven) — **visits × ≥5-day spacing × a late progress gate, John-gated**
+  (`player_three` check), no completion-% read anywhere; honor-reactive paintings confirmed in code. Still open:
+  whether **Arthur-era visits count** (the John check's exact scope in the flow wasn't fully traced; wiki says
+  John-only; two firsthand reports say per-chapter progression as Arthur; one unverified 2018 anomaly reports the
+  apparition *as Arthur*). 🆕 Script also carries two **undocumented propsets** `stranger_cryptic_lives/dies` keyed to
+  story-registry entry 6 (`mudtown3`) + a state bit — referent unresolved, added to the shack dossier as a 🎮
+  watch-item. Practical for [S35]: baseline portrait state on a post-epilogue <100% save is predicted by **prior visit
+  count (with ≥5-day gaps)**; and one finished-portrait-but-no-apparition report
   means a missing mirror apparition is **not** a spider-state signal. →
   [locations/strange-man-shack.md](../locations/strange-man-shack.md), [S35](speculation.md), src [#84](../sources/sources.md)
 

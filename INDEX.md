@@ -65,6 +65,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K40 | Every web feather is **doubled** (main + smaller secondary at one socket, all 8 webs) — uniform model feature, no order/count signal | LIVE | [known-facts.md](findings/known-facts.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) · [feather-positions](images/webs/feather-positions/README.md) |
 | K41 | Gertrude's outhouse **interior holds nothing** (2025 glitch-verified, [#77]) — closes the inside-the-outhouse line for [U6] | LIVE | [thread 04](threads/04-gertrude-numbers.md) · [known-facts.md](findings/known-facts.md) |
 | K42 | Gertrude's **complete 12-line recitation set confirmed from game subtitle text** (2019 dump, [#78]) — tail settled; "eleven"; both L2/L7 variants real; no hidden extra set | LIVE | [thread 04](threads/04-gertrude-numbers.md) · [known-facts.md](findings/known-facts.md) |
+| K43 | The Calumet guide flock = dedicated scripted content (`spd_giant_birds`, pheasants @ ≈620,2195 → the Giant's cave site, [#87]) — designed, but it's the **Giant's** egg; no spider-trail membership shown | LIVE | [thread 06](threads/06-bird-carving-giant-wapiti.md) · [known-facts.md](findings/known-facts.md) |
 
 ---
 

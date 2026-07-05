@@ -2,6 +2,36 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-05 (script-dump session 2: game-logic reads) — [U35]'s portrait mechanic SCRIPT-DECODED (visits × ≥5-day spacing × a late progress bit, John-gated); [K43] minted (the Calumet flock = scripted, but it's the GIANT's egg); [H8] weakened (no log-clear path exists)
+
+**What we did.** User asked what the script access enables; ran four game-logic reads against the [#87] dump.
+
+**What we learned.**
+- **⭐ [U35] residual answered (as far as scripts go):** the Bayall Edge portrait is a **discoverable**
+  (`discoverable_easel.ysc.c` — same system + `DiscoDisable`/bit-4 guard as the dreamcatchers). Stage = savegame int
+  `Global_40.f_8863.f_145` (0–3 → `SK2_Painting_set_01–04`; `SK2` matches the beta serial-killer history). Advance =
+  pending-visit flag (`f_147`) **+ ≥5 elapsed units of a packed saved date (`f_144`) — almost certainly in-game days**
+  **+ for stage ≥2 persistent progress bit 45** (natural post-epilogue candidate, unproven). **John-only check**
+  (`player_three`) in the flow; honor-reactive paintings confirmed in code (honor sign → high/low-moral swap). Nothing
+  reads completion %. 🆕 **Undocumented propsets found:** `stranger_cryptic_lives`/`_dies`, keyed to story-registry
+  entry 6 (`mudtown3`/MUD3) + a state bit — referent unresolved; added to the shack dossier as a 🎮 watch-item.
+- **⭐ [K43] minted:** the Calumet "guide flock" is **dedicated scripted content** — `spd_giant_birds.ysc.c` spawns
+  pheasants at (≈620, 2195) with a second point ~25 m from `spd_giant`'s anchor (1706.7, 2183.5). Designed, not
+  pareidolia — **but it's the Giant's egg** (spd_ special-ped family): no spider-trail membership shown; [K16]
+  boundary discipline unchanged.
+- **[H8]/[U17] weakened mechanically:** dreamcatchers = discoverable `disco_drm_obj`, label **`MISSION_COLLECTDREAM`**
+  (the game's own "dream" naming beside `spiderdream` — small thematic leg); journal drawings for Arthur AND John;
+  **no journal/log removal path exists in any discoverable script** → the never-clearing entry likely has no clear
+  mechanism at all; an H8 clear would have to be engine-side (same shape as the [U11] negative). Test stays cheap.
+- **Negatives logged:** `TL21` appears nowhere in the scripts beyond the [S46] registration (text/asset dumps remain);
+  `spd_johnmadman` = the **baptizing madman** (`cs_johnthebaptisingmadman`, Kamassa ≈2183,1502 — not the dreamanim
+  coords); `butchercreek.ysc.c` carries **no** magic/effigy/pentagram strings (the town script has no mystery hooks —
+  consistent with the pentagram being engine/data-side per [#52] claim 5).
+
+**What changed.** [K43] minted (thread 06 + known-facts + INDEX); [U35] entry + shack dossier updated (stage mechanic
++ the two undocumented propsets); [H8] notes in unknowns [U17], dreamcatchers.md + checklist recalibration; [S46]
+TL21-script-side negative; [#87] row annotated with the session-2 reads; STATUS headline.
+
 ## 2026-07-05 (dreamanim verification, user-relayed) — [S46] minted: `dreamanim` ships REGISTERED IN THE FINALE MISSION GROUP with an empty script (code `TL21`, John blip, bayou coords) — verified against the [#87] dump; post errors corrected
 
 **What we did.** The user relayed u/JAZZMASTAMIKE89's *"Dreamanim.c and the possibility of cut content"* (a crosspost

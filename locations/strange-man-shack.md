@@ -30,6 +30,21 @@ The centre of the room holds an **unfinished painting** that completes across **
    *(Practical for [S35]: a post-epilogue <100% save predicts the portrait state from **prior visit count**, not
    completion %.)* Residual at [U35]: what exactly advances a stage (Arthur-era progression is disputed — wiki says
    John-only, two firsthand comments report per-chapter progression as Arthur).
+   **⚡ STAGE MECHANIC SCRIPT-DECODED (2026-07-05, from the [#87] dump — `discoverable_easel.ysc.c`; decompiled, our
+   reading):** the portrait is a **discoverable** (same system as the dreamcatchers, same `DiscoDisable`/bit-4 guard).
+   The stage is a **savegame int `Global_40.f_8863.f_145` (0–3, clamped at 3)** selecting interior propsets
+   `SK2_Painting_set_01–04` (`SK2` = the shack's internal codename, matching the beta *serial-killer* history). An
+   advance fires only when **(a)** a pending-visit flag (`f_147`) is set, **(b)** **≥5 units of a packed saved date
+   (`f_144`) have elapsed since the last advance — almost certainly in-game DAYS** (refines "multi-day spacing" to a
+   number; matches the "several days of sleeping" OP-solve), and **(c)** for the later stages (stage ≥2) additionally
+   **persistent progress bit 45** is set — the natural candidate for the post-epilogue gate [#84] adjudicated (bit
+   identity unproven). A **John-only check** (`Global_40.f_39 == joaat("player_three")`) gates the flow, and the
+   honor-reactive paintings are confirmed in code (honor sign → `SK2_Painting_high_moral`/`low_moral` swap). So:
+   **stage = f(visits × ≥5-day spacing × late-stage progress bit), John-gated** — not a pure visit count, not
+   days-alone, and nothing reads completion %. 🆕 **Two propsets no source on file documents:**
+   `stranger_cryptic_lives` / `stranger_cryptic_dies` — an interior swap keyed to the state of **story-mission
+   registry entry 6 (`mudtown3`/MUD3)** plus a saved state bit; referent unresolved (a distinct channel from the
+   Jimmy-Brooks limerick below) — a cheap 🎮 watch-item for any shack visit.
 4. **Mirror apparition:** with the portrait complete, looking in the **mirror to the left of the painting** shows the
    Strange Man **standing behind you**; he vanishes if you turn around or try to photograph/screenshot him. He appears
    **only** in the mirror.

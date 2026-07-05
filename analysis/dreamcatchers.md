@@ -99,7 +99,13 @@ dream + Native imagery** — which is why it keeps surfacing in community thread
   should be what finally **drops the dreamcatcher log entry.** This is **testable** and would be the cleanest single proof of
   a connection. **Against it:** the *Dreamcatchers* wiki files the lingering entry under *Oversights* (i.e. calls it a bug),
   and no one has a confirmed "spider mystery complete" state to test the prediction with. **Untested either way — do not state
-  as fact.**
+  as fact.** **⚡ Script-side pass 2026-07-05 ([#87], `discoverable_generic_location.ysc.c` + family):** the
+  dreamcatchers are the discoverable **`disco_drm_obj`**, progress label **`MISSION_COLLECTDREAM`** (the game's own
+  "dream" naming — a small thematic leg beside `spiderdream`); journal drawings exist for both Arthur and John. A
+  targeted pass found **no journal/log removal path in any discoverable script** — so the lingering entry likely has
+  **no clear mechanism at script level at all**, which **weakens H8's prediction mechanically** (a
+  completion-triggered clear would need engine-side machinery). The in-game test stays cheap and falsifiable; run it
+  with recalibrated expectations.
 
 **What this does NOT establish (kept honest):**
 - The Dreamcatchers are a **fully solved, self-contained 2018 collectible** with a **known reward** (Ancient Arrowhead). There

@@ -761,8 +761,9 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   strongest *specific* [U2] cut-content artifact. **No spider-web tie is demonstrated:** the connection is the name
   ("dream") + loose bayou geography, suggestive flavour only — and the webs have **no script layer at all** ([#87]), so
   this slot cannot be their handler. Next cheap step: sweep text/data dumps for **`TL21`** (joaat `0xFCFCEB0C`) — a hit
-  would name the cut mission. Home: this entry. → [U2](unknowns.md), [#88]/[#87]/[#74](../sources/sources.md),
-  [thread 01](../threads/01-spider-dream.md)
+  would name the cut mission *(script side swept 2026-07-05: `TL21` appears nowhere in the 1,638 scripts beyond the
+  registration itself — the residue is text/asset dumps)*. Home: this entry. → [U2](unknowns.md),
+  [#88]/[#87]/[#74](../sources/sources.md), [thread 01](../threads/01-spider-dream.md)
 
 ## On the Fort Wallace bird carving — what it refers to / symbolises (2026-06-16)
 *(Downstream interpretation of the verified [K16] mark; full catalogue + tests in [fort-wallace-bird-carving.md](../analysis/fort-wallace-bird-carving.md). None of this moves the frontier or licenses chasing the contested `?`/Bacchus leads.)*

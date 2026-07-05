@@ -249,6 +249,13 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   fortunes** (`123` / `764` / `5112`) and *"after hearing all three sequences, the player can reach Madam Nazar by calling
   `123-764-5112`"* — a **functional 3-3-4 phone number** in GTA Online.
   Ties [U6](unknowns.md), [U18](unknowns.md), [U19](unknowns.md). → [04](../threads/04-gertrude-numbers.md)
+- **K43.** **The Calumet "guide flock" is dedicated scripted content — and it belongs to the GIANT's easter egg**
+  (script-dump read 2026-07-05, [#87]): the decompiled scripts carry a purpose-built **`spd_giant_birds.ysc.c`**
+  spawning **pheasants** in a tight cluster at **(≈620, 2195)** — the Calumet Ravine flock spawn — with a second
+  working point **~25 m from the Giant's own script anchor** (`spd_giant.ysc.c`, 1706.7, 2183.5). So the flock is
+  **designed guide behaviour, not ambient pareidolia** — but the script files it under the **Giant** egg (`spd_`
+  special-ped family), so its membership in the *spider* trail remains **undemonstrated** ([K16] boundary discipline
+  unchanged). Decompiled-dump caveat per [#87]. → [thread 06](../threads/06-bird-carving-giant-wapiti.md)
 - **K42.** **Gertrude's complete recitation set is confirmed from the game's own subtitle text** (2026-07-05, [#78]): a
   public GitHub dump of RDR2's PC text (committed **2019-12-01** — predates all community transcriptions and the 2025
   trail era) carries her full voice-line file with **exactly 12 number lines, verbatim with string hashes** (canonical

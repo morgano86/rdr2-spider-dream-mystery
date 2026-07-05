@@ -59,6 +59,16 @@ counter-theory.
   different species** (Compendium "Studied" status), **excluding fish and horses**.
 - **He loves animals — confirmed and on-theme:** a **flock of birds guides you to him**, and he **mentions he's good with
   animals**. Sample dialogue: *"Hello there, friend. How are you?"* / *"I'm rather lonely, you see... I'm too big."*
+- **K43 — the guide flock is DEDICATED SCRIPTED CONTENT, and it belongs to the GIANT's egg (script-dump read
+  2026-07-05, [#87]).** The dump carries a purpose-built script **`spd_giant_birds.ysc.c`** (865 lines) that spawns
+  **pheasants (`a_c_pheasant_01`)** in a tight cluster at **(≈620, 2195, 222)** — the Calumet Ravine spawn — with a
+  second working point at **(1708.8, 2160.9, 319)**, i.e. **~25 m from the Giant's own script anchor**
+  (`spd_giant.ysc.c` at 1706.7, 2183.5, 323). Two consequences, one each way: **(a)** the flock is **designed guide
+  behaviour, not ambient pareidolia** — the community was right that the birds are "real"; **(b)** the script's very
+  name files it under the **Giant** easter egg (`spd_` = the special-ped/easter-egg family: `spd_vampire`,
+  `spd_agnesdowd`, `spd_gavin`…), so the flock is the Giant's breadcrumb — **its membership in the spider trail
+  remains undemonstrated** (the [K16]→flock hop stays [SPECULATION], boundary discipline unchanged). Decompiled-dump
+  caveat as at [#87].
 - **Cut content:** he was originally meant to be **physically seen** (1899 & 1907 models exist), with cut dialogue about
   escaping a circus; likeness based on actor Rondo Hatton. A second, unused cave exists nearby.
 

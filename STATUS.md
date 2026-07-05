@@ -109,6 +109,13 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-07-05 (script-dump session 2: game-logic reads)** — **⭐ [U35]'s portrait mechanic SCRIPT-DECODED**
+  (`discoverable_easel.ysc.c`: stage int 0–3, advance = visit flag + **≥5-day spacing** + late-stage **progress bit
+  45**, John-gated; honor paintings confirmed; 🆕 undocumented `stranger_cryptic_lives/dies` propsets → shack-dossier
+  watch-item); **⭐ [K43] minted** (the Calumet flock = **scripted** pheasant guide content, `spd_giant_birds` — but
+  it's the **Giant's** egg, no spider membership shown); **[H8] weakened** (no log-clear path exists in the
+  discoverable scripts — dreamcatchers = `disco_drm_obj`/`MISSION_COLLECTDREAM`); negatives: TL21 script-side clean,
+  `spd_johnmadman` = baptizing madman (≠ dreamanim coords), `butchercreek.ysc.c` has no mystery hooks.
 - **2026-07-05 (dreamanim verification, user-relayed)** — **⭐ [S46] minted: `dreamanim` ships REGISTERED IN THE FINALE
   MISSION GROUP (group 19 with `finale1–3`) with an EMPTY script** — unmatched mission code `TL21`, John blip, bayou
   coords, highest used registry slot, unique generic intro ([#88], fully captured + verified against the [#87] dump;

@@ -72,7 +72,9 @@ clarity and source a cleaner shot if one exists.
 - [ ] **NW cold frontier** — [thread 06](threads/06-bird-carving-giant-wapiti.md): track community coverage of the Calumet
   flock → the Giant, any **"?" carving** on the out-of-bounds mountain, and an **"eye"** ([H7]).
 - [ ] **H8 test** · 🎮 — genuinely needs play: after completing the spider trail, check whether the **dreamcatcher log
-  entry finally clears** (the cleanest single proof of a dreamcatcher↔spider link; falsifiable).
+  entry finally clears** (the cleanest single proof of a dreamcatcher↔spider link; falsifiable). *(⚠️ Expectation
+  recalibrated 2026-07-05, [#87]: no log-clear path exists in the discoverable scripts at all — a clear would have to
+  be engine-side. Still worth running; a positive would now be even more significant.)*
 - [x] ~~**U11** — research whether any literal **"dream" sequence** is triggerable vs purely thematic~~ — **DONE
   2026-07-05, NEGATIVE ([#85])**: no sleep-triggered dream machinery exists (all in-game dreams are story-scripted;
   sleep = time-skip; no free-roam sleep→vision case in ~7.5 years); [H25] downgraded to its **presence-at-hour**
