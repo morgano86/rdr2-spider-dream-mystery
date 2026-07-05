@@ -90,6 +90,12 @@ exist for any pole.)*
 Feather tally check: Black = Cornwall, Oil Fields, Overflow, Emerald, Ringneck = **5 ✅** · Red = Saint Denis, Southfield,
 Scarlett = **3 ✅**.
 
+> **Centre substrate ([U9] resolution, 2026-07-05):** the centre site is **not a pole** — both Jan-2026 discovery pieces
+> (#8 RDR2.org, #10 Daily Dot) put the ninth/central web **in a TREE** ("a ninth, larger web hidden within a tree at the
+> center of the formation"). Wording residual: journalism = *one huge web*; the primary wiki = *"another set of webs"*
+> (plural) lining up to spell `N`+pole — unpinned until a 🎮 glance. ⚠️ **Not** the whiskey tree on current data (the
+> triple-overlap sliver excludes the centre web — see the boundary note below).
+
 > **★ Colour×hour lattice ([KNOWN] re-tabulation of [K13a], 2026-06-14 — [`web_colour_group_order.py`](../../experiments/web_colour_group_order.py)).**
 > Laid out by hour, the structure is clean: **each of 2–3 / 3–4 / 4–5 AM carries exactly one black + one red**, and **5–6 AM
 > carries two blacks and no red** (1–2 AM is the featherless centre). So each red is **hour-twinned to a black** — `B23↔R23`,

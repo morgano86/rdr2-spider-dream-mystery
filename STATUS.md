@@ -27,7 +27,7 @@ Full set + IDs in [findings/unknowns.md](findings/unknowns.md). The ones that co
 |------|----|----------|-------------|
 | 1 | [U29](findings/unknowns.md) | The **feather order mechanic**. Within-group orders are solved (reds any-order; connector chain; `B34` folds into the black run — [H22]); the open crux is the **cross-boundary COMBINE** ([K29] boundary-exit reset vs [H20] multi-night) — and whether **shooting is the input at all**. Three live frames, run cheapest-first: **[H27]** webs = witness/READ layer → **Test D** (no shots); **[H24]** reds = decoys, solve = 5 blacks over ~2 nights + the [H25] dream coda → **Test C**; **[H22]** seam battery (R1/R2/R3) → **Tests A/B**. Protocols: [web-order-field-test.md](analysis/web-order-field-test.md); how the frames evolved: the [log](INVESTIGATION_LOG.md) | 🎮 targeted test / 🌐 |
 | 2 | [U2](findings/unknowns.md) | Is there an **intended payoff at all**, or is it cut content? | 🌐 new coverage / community |
-| 3 | [U6](findings/unknowns.md) | **Gertrude's numbers** — the opening is deliberate ([K23]) and the **complete 12-line set is now GAME-TEXT CONFIRMED** ([K42], 2026-07-05 — a 2019 subtitle dump, [#78]: tail settled, "eleven" parse settled, both L2/L7 tail variants real, no hidden extra set); attempt B (tally-node reorder) **closed-inexecutable** (nodes 5/6 bare, [#81]); [K41] interior closed-negative. Open: 🧠 **re-run the structure battery on the canonical set** (decides what survives of [S42]'s statistics), then what (if anything) it encodes, and **which mystery it serves** | 🧠 first / 🌐 |
+| 3 | [U6](findings/unknowns.md) | **Gertrude's numbers** — the opening is deliberate ([K23]) and the **complete 12-line set is now GAME-TEXT CONFIRMED** ([K42], 2026-07-05 — a 2019 subtitle dump, [#78]: tail settled, "eleven" parse settled, both L2/L7 tail variants real, no hidden extra set); attempt B (tally-node reorder) **closed-inexecutable** (nodes 5/6 bare, [#81]); [K41] interior closed-negative; **battery re-run DONE on the canonical set (2026-07-05): [S42] statistically supported on A-tier data** (attempts cap at 5; global additive p = 0.335; line-A `3,5,8,13` suggestive-not-significant, B-take breaks it). Open: what (if anything) the deliberate *opening* string encodes, and **which mystery it serves** — a 🌐 watch + desk question now, not a battery | 🌐 / 🧠 |
 
 > **Note (2026-07-04):** [U3] (one puzzle or two?) **left the top-3 — REFRAMED / PARTLY DECIDED** ([S41],
 > [one-puzzle-or-two.md](analysis/one-puzzle-or-two.md)): the 2018 chain and the 2025 trail adjudicate to **one
@@ -52,10 +52,11 @@ forum threads, or the Strange Man video — find the evidence and corroborate it
 online source records.
 
 ### 🌐 Web / video sourcing (the default) → [EVIDENCE-CHECKLIST.md](EVIDENCE-CHECKLIST.md)
-The actionable worklist, ordered by value. Current headline items: a clean **arrow-set image** (Old Trail Rise) and the
-**pole count/labels** ([U9]). *(The old headliners are all resolved/captured — 2026-07-05 cleared three at once: the
-Gertrude tail is **game-text confirmed** ([K42]), attempt-B node content is **closed-negative** ([#81]), and the
-dreamcatcher animal + Fort Brennand counts are settled; see the checklist's Completed section.)*
+The actionable worklist, ordered by value. Current headline item: a clean **arrow-set image** (Old Trail Rise) —
+deprioritised, so the web tier is effectively **watch-mode** (new coverage on [U2], community movement past [K16]).
+*(2026-07-05 cleared the rest: [K42] game-text confirm, attempt-B closed-negative ([#81]), dreamcatcher animal + Fort
+Brennand counts, and now **[U9] resolved** — 8 pole-webs + a centre web in a **tree**, not "9 poles"; byproduct: [K40]
+independently corroborated in print (#10). See the checklist's Completed section.)*
 
 ### 🎮 In-game (only when strictly necessary)
 Run cheapest-first. **Full step-by-step protocols (confound controls + decision tables) live in
@@ -83,9 +84,9 @@ Run cheapest-first. **Full step-by-step protocols (confound controls + decision 
 
 ### 🧠 Analysis (desk work, no sourcing needed)
 From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
-- **🆕 Re-run [`gertrude_tail_structure.py`](experiments/gertrude_tail_structure.py) on the canonical [K42] 12-line
-  inventory** (the 9 provisional lines are superseded; video-L3 was an artifact; L2/L7 = lines A/B, both real). Decides
-  what survives of [S42]'s p-values and weighs line A's verbatim `3,5,8,13` run on clean data.
+- ~~Re-run [`gertrude_tail_structure.py`](experiments/gertrude_tail_structure.py) on the canonical [K42] 12-line
+  inventory~~ — **DONE 2026-07-05**: [S42] survives on A-tier data (global additive p = 0.335); line-A `3,5,8,13` =
+  suggestive-not-significant (~0.16 whole-line), deflationary lean; 🆕 fragment/windowing structure (thread 04).
 - ~~Test Gertrude attempt B (read the 7 tally nodes in her number order) once U6 lands.~~ **CLOSED-INEXECUTABLE
   2026-07-05** (nodes 5/6 bare — [connections §3](analysis/connections.md); reopens only via an [H26]-sweep find).
 - Re-pair the letters `{C,E,J,J,J,L,M,M,S,S}` against candidate name lists. *(Dev-initials: **CLOSED as a working line
@@ -104,6 +105,11 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-07-05 (battery re-run + U9)** — **[S42] statistically supported on the canonical [K42] set** (attempts cap at
+  5; global additive p = 0.335; line-A `3,5,8,13` suggestive-not-significant — ~0.16 whole-line, B-take breaks it;
+  🆕 the 12 lines = windows on one VO babble stream); **[U9] resolved** (8 pole-webs + the centre web in a **TREE**
+  per #8/#10 — not "9 poles"; ≠ whiskey tree on current data); **[K40] corroborated in print** (#10 "two feathers");
+  watch pass quiet (Dexerto mesh-cables + NW-as-dev already held; Arctic Shift 0 new posts since 07-04).
 - **2026-07-05 (parallel desk sweep)** — **⭐ [K42] minted: Gertrude's full 12-line recitation set confirmed from the
   game's own subtitle text** (2019 GitHub dump [#78], independently verified at the pinned commit — tail settled,
   "eleven" settled, L2/L7 fork decided *both-real*, no hidden extra set; battery re-run queued); **attempt B

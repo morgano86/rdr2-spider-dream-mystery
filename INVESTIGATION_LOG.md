@@ -2,6 +2,46 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-07-05 (battery re-run + U9) — [S42] statistically supported on CANONICAL data; [U9] resolved (the 9th "pole" is a TREE); [K40] independently corroborated in print
+
+**What we did.** Three desk tasks: (1) the queued 🧠 re-run of the Gertrude structure battery on the canonical [K42]
+12-line inventory (`gertrude_tail_structure.py` rewritten in place onto A-tier inputs; provisional 9-line run marked
+superseded, its headline numbers preserved in the docstring + this log); (2) closed the Tier-3 checklist item **[U9]**
+(pole count/labels) from already-held sources #8/#10; (3) a [U2]/frontier watch pass (web coverage + Arctic Shift).
+
+**What we learned.**
+- **⭐ [S42] survives the move to canonical data.** On the game's own strings: every counting attempt caps at **5**
+  (the "counts up to five" caption is literally true in game text); the derailed tails carry **no additive structure
+  beyond chance (global exact p = 0.335**; was 0.44 provisional); re-rail runs (`4,5`/`13,14`/`8,9`/`3,4`) and the
+  babble vocabulary persist; **12 is still never said**. The **line-A `3,5,8,13` chain** is now a fixed fact of the
+  text but lands **suggestive-not-significant**: per-unit exact p = 0.039 → ~0.23 after the family-selection discount
+  → and only **p ≈ 0.16 for a ≥4-term chain anywhere in line A as one stream** (seeded MC — the fairer weight, and
+  *more* deflationary than the unit view); plus B, the only other take of the passage, **breaks** the chain. Verdict:
+  deflationary — don't build on the Fibonacci run without an independent hook.
+- **🆕 Fragment/windowing structure (canonical-only finding):** the prefix-0 lines are **continuation fragments of one
+  babble stream** — B's head is *verbatim* A's tokens 7–13 (full relation: one inserted `4` + appended `1`); L
+  (`8,9,3`) is *verbatim* C1's tail-end; E opens mid-count. The 12 lines read as **windows cut from one long VO take**
+  (standard barks-session shape) — which explains the fragment lines *inside* S42 and why the 2019 listeners chained
+  them. The tail-cipher gate's audio-confirm clause is moot (text canonical); what gates decoding is the absence of a
+  sourced key.
+- **[U9] RESOLVED (small residual):** **8 telegraph-pole webs** (START + 7 — labels = the WEBS-MANIFEST table), and
+  the **9th/central site is NOT a pole but a TREE** — #8 RDR2.org: "a ninth, larger web hidden within a **tree** at
+  the center of the formation"; #10 Daily Dot: "At the symbol's center sits a **tree** in which a huge spider's web
+  will appear." Residual: one-huge-web (journalism) vs several aligned webs spelling `N`+pole (primary wiki) — a 🎮
+  glance. ⚠️ Non-conflation note recorded: the centre tree ≠ the **whiskey tree** on current data ([K28] triple-overlap
+  excludes the centre web).
+- **[K40] byproduct:** Daily Dot (#10, Jan 5 2026 — *predating* our firsthand capture) describes the Cornwall web as
+  hanging **"two feathers"** — an independent, unprompted print sighting of the doubling. Evidence note upgraded.
+- **Watch pass: quiet.** Dexerto's Jan-21 "oldest mystery solved" (pentagram = same mesh cables as the webs) and the
+  "NW = Nickolas Warseck" dev-signature reading are **both already held** (carving-technique.md / log 2026-06-1x,
+  C-tier); r/reddeadmysteries via Arctic Shift: **0 new posts since 2026-07-04 noon** (possible 1–2-day ingest lag —
+  treat as quiet, not proven-empty).
+
+**What changed.** `experiments/gertrude_tail_structure.py` + results (rewritten, canonical); thread 04 (battery note,
+K42 parenthetical, open task closed); findings/speculation.md [S42]; findings/unknowns.md [U9]; findings/known-facts.md
+[K40]; thread 05 (pole-count bullet); WEBS-MANIFEST (centre-substrate note); EVIDENCE-CHECKLIST (U9 → Completed);
+sources.md (#8/#10 annotations); INDEX (S42/U9 rows); STATUS (rank-3 row, 🧠+🌐 sections, headline); experiments/README.
+
 ## 2026-07-05 (parallel desk sweep) — ⭐ K42: Gertrude's numbers GAME-TEXT CONFIRMED; attempt B closed-inexecutable; Strange Man corpus pinned; checklist Tier-2 items cleared
 
 **What we did.** Four desk tasks in parallel (three research subagents + a direct pass): (1) a hunt for a clean-source

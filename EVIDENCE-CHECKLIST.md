@@ -69,7 +69,6 @@ clarity and source a cleaner shot if one exists.
 - [ ] **H8 test** · 🎮 — genuinely needs play: after completing the spider trail, check whether the **dreamcatcher log
   entry finally clears** (the cleanest single proof of a dreamcatcher↔spider link; falsifiable).
 - [ ] **U11** — research whether any literal **"dream" sequence** is triggerable vs purely thematic.
-- [ ] **U9** — settle the pole count (8 outer + central = 9?) from sources and label each.
 
 ---
 
@@ -100,6 +99,11 @@ clarity and source a cleaner shot if one exists.
   not "water tower"); symbols pole + factory undisputed; the **third is disputed at source level** (wiki puddle /
   community "or Register Rock" [H11] / skyline [S44]) — an interpretive residue ([U10]), not a capture gap.
   → [thread 02](threads/02-butcher-creek-carvings.md), [fort-brennand.md](locations/fort-brennand.md)
+- **U9 (Tier 3) → RESOLVED 2026-07-05: the pole count is settled from the already-held sources** — **8 telegraph-pole
+  webs** (START + 7, all labeled in the [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md)); the **9th/central site is not a
+  pole but a TREE** (#8 RDR2.org + #10 Daily Dot, both quoted at [U9](findings/unknowns.md)). Minor residual: one huge
+  web (journalism) vs several aligned webs (wiki) at the centre — a 🎮 glance, folded into any web session. Byproduct:
+  #10's *"web from which hangs two feathers"* = independent print corroboration of **[K40]** (doubled feathers).
 
 ---
 

@@ -99,7 +99,10 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   **no per-web or per-colour signal**. ⚠️ Capture caveat: the secondary can be **invisible from a front-on angle** (one
   web's front shot shows a single feather; in-game inspection confirms its secondary). Partly **reinterprets [K13]'s
   2026-07-03 "two-toned" refinement** — some two-tone sightings may have been the two overlapping feathers (one greyer,
-  one blacker). → [05](../threads/05-spider-web-trail-2025.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+  one blacker). **⚡ Independent print corroboration found 2026-07-05:** the Daily Dot discovery piece (#10, Jan 5 2026 —
+  *predating* our firsthand capture) writes of the Cornwall START pole: *"Near the top of the pole is a conspicuous web
+  from which hangs **two feathers**"* — B-tier journalism seeing the doubling unprompted. Evidence grade rises from
+  firsthand+frame-corroborated to firsthand+**independently reported**. → [05](../threads/05-spider-web-trail-2025.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
 - **K21.** Feather respawn is **boundary-gated**. When you shoot/hit a feather it **falls to the ground and cannot be picked up
   or interacted with**; crucially, it **stays down — does not respawn in the web — for as long as you remain inside the
   boundary that web is tied to**, and **respawns once you leave** that boundary. This is a deliberate mechanic. There are

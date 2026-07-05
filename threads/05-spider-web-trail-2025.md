@@ -80,8 +80,12 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
   Dexerto, all Jan 2026): *"No new loot, tools, or cutscenes"* — **vindication is the only reported "reward."** The wiki flags
   it may be **cut content** (NW points toward a **beta location** — Wapiti / an army camp / Iron Cloud); note this is **one
   possibility, not "the leading theory"** (that characterisation was killed in an earlier pass).
-- The exact pole **count** (the engraving implies the start + **7 others** + a **central** cluster; reconcile with secondary
-  "8 + center" phrasing).
+- ~~The exact pole **count** (the engraving implies the start + **7 others** + a **central** cluster; reconcile with secondary
+  "8 + center" phrasing).~~ **[RESOLVED 2026-07-05 → [U9]]:** **8 telegraph-pole webs** (START + 7, all labeled in the
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)); the **9th site is not a pole** — both Jan-2026 discovery pieces (#8
+  RDR2.org, #10 Daily Dot) put the ninth/central web **in a TREE** ("a ninth, larger web hidden within a tree at the
+  center"). Minor residual at [U9]: one-huge-web (journalism) vs several aligned webs spelling `N`+pole (primary wiki);
+  ⚠️ distinct from the whiskey tree on current boundary data — don't conflate.
 
 ## [SPECULATION] (wiki Part 4 — explicitly speculative)
 - **Directional theory:** following the guitars' heading lands at **Dodd's Bluff**, **Vetter's Echo**, **Window Rock**. NW

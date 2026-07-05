@@ -238,7 +238,19 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   **5 Jan 2026**: *"Absolutely wild people have found this. I remember hearing about this and thinking it would never be
   discovered."* Confirms the egg is **real/deliberate**, **not** that he authored it. Caveat: single-origin (one X post),
   widely re-reported = **B/C-tier**, not primary-verified. Promoted to [K3](known-facts.md). → [01](../threads/01-spider-dream.md)
-- **U9.** Pole count: **8 + central (9)** vs "9 poles." Confirm and label each. → [05](../threads/05-spider-web-trail-2025.md)
+- **U9. [RESOLVED 2026-07-05, small residual]** Pole count: **8 + central (9)** vs "9 poles." **Settled: there are
+  exactly 8 telegraph-POLE webs** (Cornwall START + 7 more — all labeled since 2026-07-04 in the
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md) master table, `spiderdream01–08` + hour codes), **and the 9th site is
+  NOT a pole**: both Jan-2026 discovery pieces describe the centre as a **TREE** — RDR2.org (#8): *"a ninth, larger web
+  hidden within a tree at the center of the formation"*; Daily Dot (#10): *"At the symbol's center sits a tree in which
+  a huge spider's web will appear for only an hour each night."* So the "9 poles" phrasing is a miscount — 8 poles + 1
+  non-pole centre site. **Residual (minor):** journalism says *one huge web in a tree*; the primary wiki says *"another
+  set of webs"* (plural, featherless, 1–2 AM) that **line up** to spell `N`+pole — likely journalistic compression of
+  the same site (the two articles are same-week and plausibly share an upstream), but the centre's exact web count +
+  substrate stays unpinned; a 🎮 glance settles it. ⚠️ Boundary-discipline note, recorded so nobody conflates: a lone
+  **tree** at the centre invites the [whiskey tree](../locations/whiskey-tree.md) ([S23]) — but the firsthand boundary
+  geometry already places the centre web **outside** the triple-overlap sliver the whiskey tree sits in ([K28] pass), so
+  they are **distinct trees** on current data. → [05](../threads/05-spider-web-trail-2025.md)
 - **U10. [PARTLY RESOLVED 2026-07-05]** Fort Brennand tally counts and the three tower symbols. **Counts CONFIRMED B-tier
   ×2** (wiki + GameRant, [#81] pass): **6** (the fort's one outhouse, five-bar gate + 1) and **7** (gate + 2, above the
   **guard-tower** entrance, exterior; symbols opposite/above the interior doorframe). Symbols 1–2 undisputed (**telegraph

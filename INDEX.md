@@ -83,7 +83,7 @@ Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted.
 | U6 | Gertrude's numbers — opening deliberate ([K23]); full set game-text-confirmed ([K42]); attempt B closed-inexecutable; open: encoding (battery re-run first), which mystery it serves | LIVE (narrowed) | [thread 04](threads/04-gertrude-numbers.md) · [gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md) |
 | U7 | Are the tally counts themselves a running sequence (1…7…10–11)? | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
 | U8 | The dev quote attribution | **RESOLVED → [K3]** | [thread 01](threads/01-spider-dream.md) |
-| U9 | Pole count: 8 + central (9) vs "9 poles" — confirm + label | LIVE | [thread 05](threads/05-spider-web-trail-2025.md) |
+| U9 | Pole count: 8 + central (9) vs "9 poles" — confirm + label | RESOLVED 2026-07-05 (8 pole-webs, labeled; 9th = centre web in a TREE per #8/#10; minor one-web-vs-several residual) | [unknowns.md](findings/unknowns.md) |
 | U10 | Fort Brennand tally counts (6,7) + precise three tower symbols | PARTLY RESOLVED (counts B×2-confirmed; 3rd symbol disputed at source — puddle/[H11]/[S44]) | [thread 02](threads/02-butcher-creek-carvings.md) |
 | U11 | Is a literal "dream" sequence triggerable, or thematic only? | LIVE | [thread 01](threads/01-spider-dream.md) |
 | U12 | What the guitar symbol denotes | LIVE (partly: → Fort Wallace) | [thread 05](threads/05-spider-web-trail-2025.md) |
@@ -194,6 +194,6 @@ Home for all: [findings/speculation.md](findings/speculation.md) ↔ the file no
 | S39 | TWO-OBJECT model: web VISIBILITY rules ≠ feather STATE rules — dissolves community contradictions; protocol rule: never save/reload mid-run | [speculation.md](findings/speculation.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) |
 | S40 | Fort Riggs as an underweighted node / rival [U12] guitar referent — pareidolia-prone, mechanically unlinked; cheap 🎮 check | [speculation.md](findings/speculation.md) · [thread 05](threads/05-spider-web-trail-2025.md) |
 | S41 | The 2018 chain + 2025 trail are ONE continuous designed relay — adopted working frame (design-inference, not promoted) | [one-puzzle-or-two.md](analysis/one-puzzle-or-two.md) · [speculation.md](findings/speculation.md) |
-| S42 | Gertrude's recitations = FAILED COUNTING (madness texture), not a cipher — shape survives on the [K42] canonical set; p-values await the battery re-run | [thread 04](threads/04-gertrude-numbers.md) · [speculation.md](findings/speculation.md) |
+| S42 | Gertrude's recitations = FAILED COUNTING (madness texture), not a cipher — statistically supported on the [K42] canonical set (global additive p = 0.335; line-A Fibonacci run suggestive-not-significant) | [thread 04](threads/04-gertrude-numbers.md) · [speculation.md](findings/speculation.md) |
 | S43 | Green bottles as per-tally-node markers (McCarthy ×5 / Dymphna @6 / tower-top @7) — only candidate node differentiator; C-tier, unreplicated | [thread 02](threads/02-butcher-creek-carvings.md) · [speculation.md](findings/speculation.md) |
 | S44 | The 3 tower symbols as the Saint Denis skyline seen from the 7-tower — recorded rival to puddle/[H11]; not adopted | [thread 02](threads/02-butcher-creek-carvings.md) · [speculation.md](findings/speculation.md) |
