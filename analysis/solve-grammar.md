@@ -96,6 +96,29 @@ layer it is a textbook instance of the established grammar**, one relay step in 
   intended *read-out***, not a key to a shooting order. *(Recorded as an extension leg on [S28], not a
   new ID — the 5,3 coincidence-proneness is already flagged there and doesn't shrink here.)*
 
+## 3b. ⚡ File data, 2026-09-01 ([#89]) — three of [H27]'s legs move from inference to evidence
+
+The CodeX read of the shipped files lands squarely on this hypothesis, and mostly in its favour:
+
+- **"The reset apparatus is display-repair, not a lock" is now a mechanism, not a metaphor.** The three boundaries are
+  the `entitiesExtents`/`streamingExtents` of **three ordinary region `.ymap` files** ([K48]); the reset is almost
+  certainly the ymap unloading when you leave and **re-streaming from authored data** when you return ([H28]). That is
+  literally display repair. Every "order that works" being a **boundary-geometry epiphenomenon** — [H27]'s reading of
+  [U29] — is exactly what you would predict, and **[S36]'s hand-authored-zones counterargument is superseded**.
+- **"No 8-order is even visible-state feasible" hardens from combinatorics to geometry.** [S38]'s 0/40320 was a desk
+  result about shooting sequences; [K49] shows **at most 6 feathers can be down at once and never a set containing
+  `B34`** — so no complete visible state exists to *be* the solution. The shooting frame now needs a hidden flag to
+  survive at all.
+- **The webs carry no per-web data to read as an input.** All 8 feather fragments are byte-identical bar `lodDist`,
+  texture dictionary and a reds-only palette that is itself identical across the 3 reds ([K46]/[K47]) — consistent with
+  [H27]'s "positions and colours are the message; the objects are just markers."
+- ⚠️ **Counter #1 below is untouched and is still the strongest one.** [K29]'s exact-position, live-updated,
+  ≥14-night fidelity is **not** explained by plain re-streaming, and [H28] ships a sharper version of the discriminating
+  control ([S36]'s successor): does a comparable prop **inside these same 3 ymaps** behave identically?
+- ⚠️ **Also unresolved:** [U40] — if each outer web turns out to have its **own** strand archetypes (rather than 4
+  reused models), there is a per-web geometry channel nobody has read, and it could carry exactly the kind of data
+  [H27] says isn't there.
+
 ## 4. Honest counters (stated at full strength)
 
 1. **The state fidelity is expensive for scenery repair.** [K29] stores each fallen feather's exact
@@ -130,8 +153,10 @@ and the chain's remaining payoff, if any, lies past [K16].
 **Falsifiable predictions:**
 - **P1:** Tests A/B/C (and any shooting protocol) return **null** on the web side — no feather-state
   combination triggers anything. Any shooting-triggered payoff **refutes [H27]** outright.
-- **P2:** The [S36] persistence control finds feather-state fidelity is **generic engine behaviour**
-  (supports); feather-specific fidelity weakens [H27] (counter #1).
+- **P2:** The persistence control finds feather-state fidelity is **generic engine behaviour** (supports);
+  feather-specific fidelity weakens [H27] (counter #1). *(2026-09-01: run this as the **[H28]** control — a prop
+  **inside** one of the 3 web ymaps vs one outside them — which discriminates more sharply than [S36]'s version, now
+  superseded.)*
 - **P3:** No future verified clue will instruct feather-state manipulation (desk-checkable as sourcing
   continues).
 - **P4 (the cheap test — Test D):** a **witness-only tour** — visit all 8 webs at their hours across

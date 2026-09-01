@@ -18,9 +18,15 @@
   by eye is error-prone; RDR2 reuses fire VFX; no named asset or pointer links the tree to a mystery node).
 
 ## Why it matters — and the caveat
-- **No confirmed connection** to the spider mystery. It earns a dossier on **two coincidences only**: (i) its position in the
-  **sole triple-overlap zone**, and (ii) the **anomalous red fire pit** shared with two confirmed mystery sites. Both are
-  suggestive, neither is sourced. Recorded as a **lead to test**, held firmly on the [SPECULATION] side.
+- **No confirmed connection** to the spider mystery. It earned a dossier on **two coincidences**: (i) ~~its position in the
+  **sole triple-overlap zone**~~ and (ii) the **anomalous red fire pit** shared with two confirmed mystery sites.
+  ⚠️⚠️ **LEG (i) IS VOID as of 2026-09-01 ([K49], [#89]): there is no triple-overlap zone.** The three "boundaries" are
+  three ordinary region-ymap extent boxes ([K48]); the North and South boxes are **disjoint** (a 10.50 m gap), and only
+  the Connector spine touches both. The tree therefore sits inside **one** boundary like any other spot on the spine —
+  an unremarkable position, not a unique one. **Only leg (ii), the fire-pit hue, still stands**, and it is an eyeball
+  match ([S23]). ⟹ **This dossier now rests on a single unsourced visual coincidence.** Keep it — the hue question is
+  still worth one test — but its standing has dropped, and the "camp here to hold both groups' state" role it played in
+  [H22]-R1 / [H24] / [H25] protocols is **gone** (those protocols are updated).
 
 ## Open questions / to verify
 - [ ] Do the fire-pit hues at the whiskey tree, Fort Brennand, and the Butcher Creek pentagram **actually match** a single

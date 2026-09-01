@@ -77,6 +77,14 @@ Run **Test A first** (it's one session and cleanly settles R1). Its result tells
 
 1. Solve the **RED group fully** — `R23`, `R34`, `R45`, any order ([U29]), across as many nights as needed, **staying inside
    the South boundary** the whole time so the reds stay down ([K29]). All three must be visibly **down**.
+> **⚠️⚠️ TEST A IS NOW MOOT (2026-09-01, [K49]/[#89]) — do not spend a session on it.** It tests whether the **central
+> triple overlap** holds cross-boundary visible state; the file extents show **there is no triple overlap**. The North
+> and South ymap boxes are **disjoint** (10.50 m gap in Y), and only the Connector spine touches both — so **`B34` and
+> any red can never be loaded at the same time**, and no standing spot exists from which a red set survives a crossing
+> north. **R1 is settled NEGATIVE by geometry.** The steps below are retained for the record and because their *middle*
+> section (does a fully-down red group survive a Connector crossing?) is still a valid, smaller question — but the
+> "camp in the triple overlap" premise is void. **Go run Test D and the [H28] control instead.**
+
 2. Move into the **central overlap** (camp at the **whiskey tree** [S23], the lone POI in the triple overlap [K28]) **without
    leaving South's tied rectangle en route.**
 3. Cross from the overlap into the **Connector** to begin blacks — i.e. make the RED→BLACK crossing.
@@ -122,6 +130,17 @@ red↔black crossing.*
 > since BL56's hour (5–6) is after B34's (3–4), `B34` must fall on a **later night**. (Pleasing side-effect: the geometry
 > *derives* the community's "B34 last" suspicion, [U29] — and note the [K13b] community chain already excludes `B34`.)
 
+> **⚠️⚠️ SUPERSEDING CONSTRAINT (2026-09-01, [K49]/[#89]) — the 2-night plan cannot produce a visibly complete set.**
+> The file extents show the real binding constraint is not orange-vs-yellow membership but that **`B34` sits 50 m WEST
+> of the Connector ymap's streaming box**: riding to `B34` at all **unloads that ymap and re-streams `B23`/`B45`/`B56`/
+> `BL56` back into their webs.** **At most 6 feathers can be down at once, and never a set containing `B34`** — so
+> "all 5 blacks visibly down" is impossible, on any night count. ⚠️ This also **explains the two published
+> all-5-blacks-in-one-night completions that found nothing** ([#71]) without blaming their execution. **Test C is
+> therefore no longer an [H24] test; it is a probe of [H22]-R2** (does an invisible flag count blacks as they are
+> shot?). **Run it anyway** — it is still cheap, and the reset itself is data — but: expect the earlier blacks to be
+> back up, **photograph each web on the way past to record exactly when they return**, and do not read a reset as
+> having "broken the chain."
+
 1. **Never shoot or approach a red web at its hour, either night.** Under [H24] a red shot is at best noise and at worst
    the mistake the puzzle punishes.
 2. **Night 1 — the yellow four:** `B23` Overflow (2–3 AM) → `B45` Emerald (4–5 AM) → `B56` Oil Fields + `BL56` Ringneck
@@ -132,8 +151,8 @@ red↔black crossing.*
 4. **Night 2 — `B34`:** at 3–4 AM, from the orange∩yellow overlap, **staying east of the Cornwall pole** (control #2).
    All 5 blacks are now **visibly down at once** and you are standing in the central overlap — the complete [H24]
    candidate solve state.
-5. **Camp at the whiskey tree** ([S23], the lone POI in the triple overlap — both boundaries' states held) and apply the
-   **dream coda** (below); watch/listen for any trigger, sound, vision, journal change, or new interactable.
+5. **Camp at the whiskey tree** ([S23] — ⚠️ *not* a triple overlap; [K49] shows none exists, so this is simply a camp on
+   the Connector spine, chosen for [S23]'s fire-pit coincidence) and apply the **dream coda** (below); watch/listen for any trigger, sound, vision, journal change, or new interactable.
 6. **Optional leg (C2):** ride `B34`'s oversized orange boundary **north to Butcher Creek** for the 4–5 AM pentagram
    window ([K5], the [H21] corridor) — this exits yellow, so the four yellow blacks visibly reset; you are now testing
    the hidden-flag reading ([H22]-R2) with `B34` as carrier. Camp and sleep there (dream coda again).

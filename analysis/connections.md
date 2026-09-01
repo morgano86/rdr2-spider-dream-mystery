@@ -505,15 +505,20 @@ despawn — a routing hazard, and the reason the order problem is **scoped per-b
 
 **Boundary GEOMETRY now pinned ([K28], firsthand investigator data 2026-06-14).** The three boundaries aren't arbitrary
 rectangles — they form an **I-beam / "工"**: the **North** boundary spans **east–west**, the **South** boundary spans
-**east–west**, and the **Connector** spans **north–south**, the vertical spine joining them. **All three overlap slightly near
-the map centre**, and that overlap **excludes the central featherless web** ([K11]). This maps straight onto the [H9]
+**east–west**, and the **Connector** spans **north–south**, the vertical spine joining them. ~~**All three overlap slightly near
+the map centre**~~ ⚠️ **CORRECTED 2026-09-01 ([K49], [#89]): there is NO triple overlap** — each bar overlaps only the
+Connector spine, and the North and South boxes are **disjoint by 10.50 m**. (The overlap in any case **excluded the
+central featherless web** ([K11]), whose file coordinates are (1282.0, −131.6) — [K51].) This maps straight onto the [H9]
 partition: **B34**/Cornwall sits in the North bar, the four connector blacks run down the spine, and the three reds lie along
-the far South bar (consistent with Saint Denis being deep south). The overlap is the one place you can be inside more than one
-boundary at once — so it is the natural candidate **mechanism** for *holding* one group's shot-off state while you work another.
-⚠️ **First direct test (2026-06-14) is negative-leaning:** camping in the triple overlap (whiskey tree, the lone POI there
-[S23]) then *leaving* the boundary **reset** the shot feather to its web — the overlap did **not** carry state across the
-crossing (consistent with [K21]/[K29]: leaving any boundary resets). An invisible internal flag may still persist and only
-re-flag on re-entry (untested), so this is a single negative-leaning probe, not a refutation. Tied to [U29].
+the far South bar (consistent with Saint Denis being deep south). ~~The overlap is the one place you can be inside more than one
+boundary at once — so it is the natural candidate **mechanism** for *holding* one group's shot-off state while you work
+another.~~ ⚠️ **First direct test (2026-06-14) was negative-leaning:** camping in the "triple overlap" (whiskey tree)
+then *leaving* the boundary **reset** the shot feather to its web. **⚡ 2026-09-01 — that probe's negative result is now
+EXPLAINED and generalised ([K48]/[K49]/[H28], [#89]):** the boundaries are ordinary region-ymap extents, the North and
+South boxes are **disjoint**, and no spot exists inside both — so there was never an overlap to hold state in, and no
+amount of re-testing would have changed the answer. **[H22]-R1 is settled negative by geometry**, and the corresponding
+**Test A is moot**. The hidden-internal-flag possibility ([H22]-R2) is untouched and is now where the whole
+shooting-input family lives. Tied to [U29].
 
 **What the geometry + the lattice force: a MULTI-NIGHT, one-colour-per-night solution ([H20], 2026-06-14).** Put three things
 together — the colour×hour lattice (§5c: each 2/3/4 AM hour = exactly **1 black + 1 red**), the geometry just above (an hour's

@@ -43,7 +43,9 @@ at every hour — and the intended solve is the **5 blacks only**.
 > **Night 1** = the [K13b] chain `B23 → B45 → B56 → BL56` (the doubled 5–6 is the hard extra), never leaving yellow;
 > hold state in-yellow through the day ([K29], indefinite); **Night 2** = `B34` at 3–4 AM from the orange∩yellow overlap
 > (east of the pole) → **all 5 blacks down at once, player standing in the central overlap** — where the natural camp
-> spot is the **whiskey tree** ([S23], the lone POI in the triple overlap, with its anomalous red fire pit). Note the
+> spot is the **whiskey tree** ([S23], the lone POI in the triple overlap, with its anomalous red fire pit).
+> ⚠️⚠️ *(Both italicised premises died 2026-09-01 — see the second correction below: **there is no central overlap**,
+> and **all 5 blacks down at once is impossible**. Retained to show how the reading was built.)* Note the
 > [K13b] community chain *already* excludes `B34` — consistent with this structure. The RED↔BLACK claim below is
 > unaffected: there is still **no red↔black crossing** under [H24]; the one crossing hazard is the within-black
 > `B34`↔`BL56` ordering, which the 2-night order dissolves.
@@ -83,6 +85,26 @@ at every hour — and the intended solve is the **5 blacks only**.
   suspicion is now a derived constraint, and this counter has flipped into a support.
 - ⚠️ The per-web hour/colour cells inherit the manifest's **C-tier lattice risk** (provenance note in
   [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)).
+
+### ⚠️⚠️ Second correction (file data, 2026-09-01 — [K49], [#89]): the visible-state form of H24 is IMPOSSIBLE
+
+The 2026-07-02 correction above had the right shape from the wrong cause. Read from the shipped ymaps, the binding
+constraint is not that `BL56` lies outside the orange zone — it is that **`B34` (X = 338) sits 50 m west of the
+Connector ymap's streaming box (X ≥ 388)**. Travelling to `B34` **leaves that box, unloads it, and re-streams
+`B23`/`B45`/`B56`/`BL56` back into their webs.** Likewise `R34` (X = 2880) is 638 m east of it. So:
+
+- **At most 6 feathers can be displaced at once** — `B23, B45, B56, B56L, R23, R45`, exactly those whose own position
+  lies inside the Connector box. **No reachable state contains `B34`.**
+- ⟹ **"all 5 blacks visibly down" cannot happen**, on any night count. H24's distinctive prediction is gone.
+- **H24 is not dead — it is restated in hidden-flag form:** the game would have to *count* blacks as they are shot
+  rather than hold them simultaneously down. That is exactly [H22]-**R2**, into which H24 now collapses.
+- **A bonus this explains:** the two published all-5-blacks-in-one-night completions ([#71]) that found nothing were
+  not mis-run — under [K49] their earlier blacks were already back up before the run ended.
+- The north/south "hold state in the central overlap" option ([H22]-R1) is separately dead: **there is no triple
+  overlap** ([K49] corrects [K28]).
+
+See [H28] — the whole boundary system reads as ordinary ymap streaming, which is also why [S36]'s "hand-authored
+zones" argument no longer supports the reset rules meaning anything.
 
 ### The test (~2 nights, no red↔black seam)
 **Night 1:** the [K13b] chain `B23`(2–3) → `B45`(4–5) → `B56`+`BL56`(5–6, the hard doubled hour), never approaching a red,

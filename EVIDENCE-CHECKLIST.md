@@ -21,13 +21,30 @@ decision tables: [analysis/web-order-field-test.md](analysis/web-order-field-tes
   force each spawn with the look-away trick ([K30]), fire nothing, finish with the [H25] dream coda at the whiskey tree.
   Leaves no state to corrupt → free insurance ahead of the shooting battery
   ([solve-grammar.md](analysis/solve-grammar.md)).
-- [ ] **⚡ Then Test C — the blacks-only solve + dream coda ([H24]/[H25]): ~2 nights, no red↔black seam.** Night 1:
-  `B23→B45→B56→BL56` staying in yellow; hold state ([K29]). Night 2: `B34` from the overlap (geometry forces
-  `BL56`-before-`B34`). **Never touch a red.** Camp at the whiskey tree, **sleep at dawn** ([H25] — dry-check [#67]: no
+- [ ] **⚡ Then Test C — now an [H22]-R2 hidden-flag probe, not an [H24] test ([H24]/[H25]): ~2 nights, no red↔black
+  seam.** ⚠️ **Re-scoped 2026-09-01 ([K49], [#89]):** riding to `B34` leaves the Connector ymap's streaming box and
+  **re-streams the other four blacks back into their webs**, so **all 5 blacks visibly down is impossible** — expect the
+  reset, photograph each web on the way past to record when they return, and log that as the data. Night 1:
+  `B23→B45→B56→BL56` staying in yellow; hold state ([K29]). Night 2: `B34`. **Never touch a red.** Camp at the whiskey tree, **sleep at dawn** ([H25] — dry-check [#67]: no
   documented solver has ever run the sleep step). Companion red-side session ([S35]): 3 reds any order → the **Strange
   Man's shack** with state live ([locations/strange-man-shack.md](locations/strange-man-shack.md); no-state baseline
   visit first; gate caveat [U35]).
-- [ ] **🔑 Tests A/B — the cross-boundary STATE battery ([U29]/[H22]).** Separates R1/R2/R3 at the RED↔BLACK seam.
+- [ ] **🔑 Test B — the hidden-flag probe ([U29]/[H22]-R2).** ⚠️ **Test A is MOOT (2026-09-01):** it depends on the
+  central triple overlap, which [K49] shows **does not exist** (North and South are disjoint by 10.50 m) — **R1 is
+  settled negative by geometry.**
+- [ ] **🆕 Confirm the [K49] six-feather cap in-game (cheapest decisive check on the list).** Shoot `B23` (2–3 AM), ride
+  to `B34` and back, and look at `B23`: the file geometry predicts it is **back in its web**. A positive result nails the
+  cap and [H28] together; a negative one would mean displaced-state is *not* container-scoped and the whole derivation
+  needs revisiting.
+- [ ] **🆕 The [H28] streaming control (cheap, replaces the old [S36] control).** Displace a comparable prop **inside**
+  one of the 3 web ymaps, ride past the box edge and back; repeat with a control prop **outside** all 3. Divergence ⇒
+  the reset is ordinary streaming and the boundary "rules" carry no message. Capture [K29]'s exact-position fidelity
+  specifically — that is the leg streaming does *not* explain.
+- [ ] **🆕 File-side follow-ups ([#89], same CodeX tooling — best value per effort right now):** **[U40]** do the 8 webs
+  really reuse 4 `cablemesh` models, or does each have its own strand archetypes (**a possible unread per-web
+  channel**)? · **[U36]** which ymap holds the pentagram / does it define Group 1's corner? · **[U38]** what makes the
+  [K40] second feather, given `DrawableArrayCount = 0`? · **[U37]** resolve `vYYFKTA_0xC5876498` · **[U39]** is the Fort
+  Wallace 21/22/23/00 ladder reused elsewhere?
 - [ ] Confirm/extend the non-respawn chain `B23→B45→B56→BL56` (the feather-direction half is closed: no per-web heading exists).
 
 ### 3. Gertrude's number sequence — [U6], [S5]  · 🌐  — ✅ SOURCING COMPLETE (2026-07-05); residue is 🧠 analysis

@@ -244,6 +244,11 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   ⚠️ C-tier datamine + C-tier tests, mutually consistent but none investigator-verified; the datamine's numeric details
   carry known errors ([#52] caveats). → [K29]/[K30](known-facts.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md),
   [source #52/#69/#70](../sources/sources.md)
+  **⚡ FILE-VERIFIED 2026-09-01 ([K45], [#89]):** the object split is no longer an inference from the C-tier [#52]
+  datamine post — the 8 archetypes read out of the shipped `.ytyp` as `ASSET_TYPE_FRAGMENT` resolving to their own
+  `spiderdreamNNx.yft` breakables, distinct from the `cablemesh*_hvlit001` strand drawables. S39's *premise* is now
+  fact; what stays [SPECULATION] is the protocol conclusion drawn from it (that the two objects run two separate
+  rule systems, hence "never save/reload mid-run").
 - **S40 (Reddit sweep, 2026-07-02) — FORT RIGGS as an underweighted node: a rival "guitar" referent + its own
   feather/Native signals.** Six months of sustained community work ([#72]) converge on Fort Riggs (the burned Native
   school-fort in Big Valley — *outside* our trail's NW corridor): **(a)** the NW pole's "guitar" silhouette **overlays Fort
@@ -311,8 +316,18 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   the same boundary **also envelops Fort Brennand** (earlier mis-recorded as outside) — so the top zone holds **both** 2018-origin
   Roanoke nodes (Butcher Creek **and** Fort Brennand), which **strengthens** the "echoes the narrative pointer" reading (the
   zone now covers the whole BC→Fort Brennand→Cornwall origin chain, not just one node), though **Valentine**'s inclusion (no
-  mystery role) remains the coarse-design counter. The "uniquely Butcher Creek" framing is **withdrawn**. → [K28](known-facts.md),
-  [U3](unknowns.md), [connections §5a](../analysis/connections.md)
+  mystery role) remains the coarse-design counter. The "uniquely Butcher Creek" framing is **withdrawn**.
+  **⚠️⚠️ HEAVILY DEFLATED 2026-09-01 ([K48]/[K52], [#89]).** The "North boundary" is the extent box of the ordinary region
+  ymap `jklm_7_10_rds_props_strm_0`, so its size is set by **what that region file contains**, not by design intent about
+  the mystery — and the coarse-design counter (Valentine, no mystery role) was the right read all along. Worse for S22's
+  strong form: the **Butcher Creek pentagram sits within ~1.1 m of that box's own X-max corner** (2592.52 vs 2593.6), i.e.
+  the boundary very likely reaches Butcher Creek **because the pentagram is one of the entities the box is drawn around**
+  ([U36] pins this down). That is a mundane cause for the whole "the zone encompasses the 2018 origin thread" observation.
+  ⚠️ **What is NOT deflated:** the pentagram and the webs turn out to be the **same `cablemesh*_hvlit001` asset family**
+  ([K52]) and to sit in the **same region container** — a real, if weaker and more prosaic, sense in which the 2018 and
+  2025 halves are one body of work ([S41]). S22 survives only as that, not as boundary-shape intent. → [K28](known-facts.md),
+  [K48](known-facts.md), [K52](known-facts.md), [U36](unknowns.md), [U3](unknowns.md),
+  [connections §5a](../analysis/connections.md)
 - **S36 (user, 2026-07-02) — the boundary SHAPES argue HAND-AUTHORED design, not engine-default state culling (the
   anti-optimization argument).** An engine's default persistence policy is per-object and uniform: keep an object's state
   for a **fixed radius** around it (e.g. "reset if the player moves 500 m away") or a **fixed time**, identical for every
@@ -329,7 +344,20 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   running (🎮, cheap):** shoot/displace a comparable ambient object (a bottle, a lantern) far from any web, sleep several
   nights in place — if *generic* object state also persists ~14 nights, leg (c) weakens; if it resets fast, the feathers'
   persistence is confirmed special. Inference [SPECULATION]; the shape/persistence facts themselves are [K28]/[K29].
-  → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [connections §5a](../analysis/connections.md)
+  **⚠️⚠️ SUPERSEDED 2026-09-01 by [H28] + file data ([K48], [#89]) — legs (a) and (b) are ANSWERED, and mundanely.** The
+  three zones are the **`entitiesExtents`/`streamingExtents` of three ordinary region `.ymap` files**
+  (`jklm_7_10_rds_props_strm_0` · `jklm_11_14_rds_props_strm_0` · `nopq_11_14_rds_props_strm_0`), read straight out of the
+  shipped game. That explains leg (a) exactly — the zones are **shared across webs because a ymap is a container**, not
+  because someone linked webs to zones — and leg (b) likewise: the boxes are **wildly asymmetric because they are drawn
+  around whatever content each region file happens to hold**, which is why **no distance-from-web value reproduces them.**
+  The "anti-optimization" reasoning was sound; the premise that these were *bespoke* zones was wrong. **What survives:**
+  leg **(c)** — the ≥14-night, exact-position, live-updated persistence of [K29] is *not* explained by streaming and is
+  still the interesting fact; the 🎮 **control test remains worth running for exactly that leg** (does any prop in these
+  same 3 ymaps behave the same? — see [H28]'s falsifiable prediction, which is a sharper version of the same test). **What
+  dies:** S36 as an **intentionality argument for the whole web system** ([U2]) — it can no longer be cited for that, and
+  anything leaning on it ([U29], [H22]-R3's counterweight) loses that support. Kept in place per corpus norms rather than
+  deleted. → [H28](#our-own-working-hypotheses-log-new-ones-here), [K48](known-facts.md), [K49](known-facts.md),
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [connections §5a](../analysis/connections.md)
 - **S23 (investigator, 2026-06-14) — an anomalous red-hue ever-smouldering fire-pit motif recurs at mystery sites.** Firsthand:
   the **Butcher Creek pentagram glows a very specific hue of red** ([K5]); the **same unusual red hue** appears in an
   **ever-smouldering fire pit at Fort Brennand** and in an **ever-smouldering fire pit at the [whiskey/bottle tree](../locations/whiskey-tree.md)**.
@@ -541,8 +569,18 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   **design-inference [SPECULATION]**, not observed; **Valentine has no known mystery role**, so the boundary may just be coarse
   ([S22] counter). Do **not** present a Butcher-Creek payoff as real. **Test:** complete a web activation, ride into the
   boundary to Butcher Creek (watch the B34 feather stays down the whole way = confirms extent), and check for any new
-  state-gated element (the [K5] pentagram ~4–5 AM, outhouse #4, etc.); repeat for Valentine. → [K28](known-facts.md),
-  [U3](unknowns.md), [U2](unknowns.md), [U15](unknowns.md), [connections §5a](../analysis/connections.md)
+  state-gated element (the [K5] pentagram ~4–5 AM, outhouse #4, etc.); repeat for Valentine.
+  **⚠️⚠️ PREMISE DEFLATED 2026-09-01 ([K48], [#89]):** the "oversize" is not a design choice — the North boundary is the
+  extent box of an ordinary region ymap, sized by its contents ([S22]'s update; [U36] likely pins the exact cause). So the
+  *"the oversize exists on purpose"* inference, H21's core, **loses its premise**, and with it the argument that the
+  geometry mechanically links the web trail to the 2018 thread. **The test is still worth running, and is now CHEAPER and
+  better-motivated than before:** [K49] shows `B34`'s state can be carried to Butcher Creek (both are in Group 1, and
+  Group 1 is a single container), so *if* a state-gated element exists there it is reachable — you just no longer have a
+  reason from geometry to expect one. Demoted to a **cheap opportunistic check on a web session**, not a hypothesis with
+  independent support. ⚠️ Note also [#87]'s earlier blow: the `DiscoDisable`/bit-4 flags H21 once dovetailed with are
+  kill-switches, not payoff gates. → [K28](known-facts.md), [K48](known-facts.md), [K49](known-facts.md),
+  [U36](unknowns.md), [U3](unknowns.md), [U2](unknowns.md), [U15](unknowns.md),
+  [connections §5a](../analysis/connections.md)
 - **H22 (2026-06-14, desk reframing). The web order decomposes into 3 already-solved per-boundary sub-chains; the only open part
   is the cross-boundary COMBINE — and there [K29] contradicts [H20].** Take the [K31] partition seriously and the *within-boundary*
   order is already solved on every boundary: **South** = {`R23`,`R34`,`R45`} works in **any** internal order ([U29]); **Connector**
@@ -590,7 +628,20 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   expensive decoys (but the mural ships placed decoys, and [S13] is the corpus's own camouflage doctrine); [U29] data is
   C-tier/partial. **Rival of [H20]/[H22]-R2 and of [S35] on the reds' role. Test = Test C** (~2 nights, no red↔black seam)
   in [web-order-field-test.md](../analysis/web-order-field-test.md).
-  → [decoy-and-dream-hypotheses.md](../analysis/decoy-and-dream-hypotheses.md), [U29](unknowns.md), [U15](unknowns.md)
+  **⚠️⚠️ SECOND CORRECTION 2026-09-01 ([K49], [#89]) — the ~2-night visible-state solve is IMPOSSIBLE, and the reason is
+  the same geometry, read from files instead of the overlay.** `B34` sits **50 m west of Group 2's streaming box**, so
+  travelling to it **unloads Group 2 and restores its four blacks** — the night-1-then-night-2 plan resets night 1 the
+  moment you ride to `B34`. **At most 6 feathers can be down at once, and never a set containing `B34`**; "all 5 blacks
+  visibly down" cannot occur. (The corrected first-draft geometry was directionally right — `BL56` before `B34` — but the
+  binding constraint is not orange-vs-yellow membership, it is that *reaching* `B34` leaves Group 2 at all.) **H24 is not
+  dead, but it must now be stated in hidden-flag form:** the game would have to count blacks as they are shot rather than
+  hold them simultaneously down — i.e. H24 collapses into [H22]-**R2**, and its distinctive prediction (a visibly
+  completed blacks set) is gone. **This also explains the two published all-5-blacks-in-one-night completions ([#71])
+  finding nothing** without needing them to have run it wrong: under [K49] their earlier blacks were back up before the
+  run ended. **Test C survives only as an R2 probe** — run it, but expect no visible completed set, and record the reset
+  as data.
+  → [decoy-and-dream-hypotheses.md](../analysis/decoy-and-dream-hypotheses.md), [U29](unknowns.md), [U15](unknowns.md),
+  [K49](known-facts.md), [H28](#our-own-working-hypotheses-log-new-ones-here)
 - **H25 (fresh-pass, 2026-07-02). The payoff is a DREAM — complete a valid feather set, then SLEEP in-boundary before
   leaving.** The mechanism answer to [U11] that seven years of place-searching never tried: Rockstar's own assets name the
   egg `spiderdream` ([K13]); ~~RDR2 **ships a sleep-vision system** (the honor-gated deer/wolf dreams)~~ *(premise
@@ -657,6 +708,34 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   navigational relay, one grammar); gains [S28] a direction (the webs' intended *read-out* = the 5/3 count `EC` echoes).
   Home file: [solve-grammar.md](../analysis/solve-grammar.md).
   → [U29](unknowns.md), [U15](unknowns.md), [U3](unknowns.md), [K29](known-facts.md), [K30](known-facts.md)
+- **H28 (CodeX file readout, 2026-09-01 — [#89]). The feather boundary/reset mechanic is ORDINARY DISTANCE-BASED YMAP
+  STREAMING, not bespoke puzzle logic — the "boundaries" are region files, and the reset is a re-stream.** The premise
+  drop: that anything about the reset zones was authored *for the webs*. **The mechanism:** the 8 webs live in exactly 3
+  ordinary region `.ymap` files ([K48]); every ymap in RDR2 declares a `streamingExtents` box that drives its load/unload;
+  leaving that box unloads the ymap (nothing visibly changes — it is already out of view), and crossing back into range
+  **re-streams it fresh from its authored data**, which is the moment the feathers snap back into the webs. **Five things
+  it explains at once, several of which the corpus had filed as puzzle-shaped mysteries:** (1) *"leaving the boundary
+  alone doesn't trigger the reset — leaving AND THEN RE-ENTERING does"* (investigator, 2026-07-23) — exactly a
+  load/unload cycle, and **not** what a designed "you failed, reset" rule would look like; (2) the boundaries being
+  **shared by several webs** ([K21]) — a ymap is a container; (3) their **asymmetric, non-radius shapes** ([S36] legs a/b)
+  — boxes drawn around region contents; (4) the [K31] firsthand oddity that `B34` counts as inside the Middle boundary
+  *"only on the east side of the pole"* — G2's file-declared western streaming edge is at **X = 388** and the pole is at
+  **X = 338**, so the player crossing "to its west" is crossing a real, invisible, ~50 m-away box edge ([K49]c); (5) why
+  **no script touches any of it** ([#87]/[#52]) — no script needs to. **Consequence: no decompiler is needed to account
+  for this mechanic**, in pointed contrast to the feather-*visibility* system, which genuinely has no script hooks and
+  remains unexplained. **Falsifiable prediction (🎮, cheap, sharper than [S36]'s control test):** any other
+  movable/breakable prop **inside these same 3 ymaps** should show the identical "stays displaced while you're nearby,
+  resets on leave-and-return" behaviour. If a control prop **outside** the 3 ymaps but similarly far from any settlement
+  does **not** reset that way, H28 is strongly supported; if *every* prop everywhere behaves this way, the finding
+  degrades to "RDR2 has generic prop persistence" (a related but distinct question — the corpus's standing persistence
+  control). ⚠️ **What H28 does NOT explain, and where the honest residual sits:** [K29]'s ≥14-night, **exact-position,
+  live-updated** retention of a fallen feather (re-shoot it along the ground and the *moved* position is restored) is
+  more state than a plain re-stream implies — that is the leg to test. ⚠️ **Tier:** the ymap facts are A-tier file data
+  ([K48]/[K49]); **"therefore the reset is streaming" is a technical [SPECULATION]** — well-motivated and predictive, but
+  not yet verified in-game. **Supersedes [S36]** (whose intentionality argument no longer stands), **deflates [S22]/[H21]**,
+  and feeds [H27] (if the reset rules are epiphenomena, the "working orders" they generate carry no message).
+  → [K48](known-facts.md), [K49](known-facts.md), [K29](known-facts.md), [K31](known-facts.md), [U29](unknowns.md),
+  [U2](unknowns.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
 - **H17 (2026-06-13) — TESTED → REFUTED-leaning. "The feather non-respawn order is keyed by the clock (chronological)."** A
   synthesis the corpus hadn't made: the [K13b] black chain `B23→B45→B56→BL56` is **exactly chronological** (2–3 → 4–5 → 5–6 →
   5–6), and [`web_time_order.py`](../experiments/web_time_order.py) shows that **sorting the [H9] Connector boundary by hour
@@ -680,8 +759,18 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   [U3]'s live residue: the mechanic layer ([U29] — [H27]/[H24]/[H20]/[H22], to which this verdict is invariant) and
   satellite membership ([U6] Gertrude, the matchsticks). **Reopeners:** a sourced dev statement splitting them; a [U10]
   capture showing the tower symbols don't depict a pole/factory; the Cornwall engraving reading failing verification.
+  **⚡ NEW ANCHOR 2026-09-01 — an ASSET-LEVEL one, the first S41 has had ([K52], [#89]):** the **Butcher Creek
+  pentagram** (2018 half) is `cablemesh277747_hvlit001` — the **same `cablemesh*_hvlit001` drawable family** as the 8
+  spider-web strands (2025 half) — and it is time-gated by the same `timeFlags` channel, at hour **04:00**. Until now
+  every S41 leg was narrative, geographic or stylistic ([K8] pointer, shared node, [H13] signature); this one is
+  **shared implementation**, read out of the shipped files: the two halves were built with the same tool by the same
+  hand. It also makes [K15]'s loose *"the webs + pentagram are mesh cables"* precise, with asset names. ⚠️ **Weight it
+  honestly:** a reused engine asset family is weaker than a reused *bespoke* asset would be — `cablemesh` is a generic
+  drawable class, and the two are also close geographic neighbours in the same region container ([K48]), which is a
+  mundane reason to share one. It raises S41's floor; it does not promote it.
   Home: [one-puzzle-or-two.md](../analysis/one-puzzle-or-two.md).
-  → [U3](unknowns.md), [U29](unknowns.md), [U6](unknowns.md), [K8](known-facts.md), [K10](known-facts.md)
+  → [U3](unknowns.md), [U29](unknowns.md), [U6](unknowns.md), [K8](known-facts.md), [K10](known-facts.md),
+  [K52](known-facts.md)
 - **S42 (desk sourcing, 2026-07-04). Gertrude's recitations are FAILED COUNTING — insanity characterisation, not a
   cipher** (the deflationary reading of [U6], now properly documented). Both hostile parties converge on it from opposite
   directions: **StrangeMan's own video frame** highlights `1 2 3 4 5` in red with *"she only manages to count up to five"*,
@@ -766,6 +855,22 @@ Keep hype quarantined here so it never contaminates [known-facts](known-facts.md
   [#88]/[#87]/[#74](../sources/sources.md), [thread 01](../threads/01-spider-dream.md)
 
 ## On the Fort Wallace bird carving — what it refers to / symbolises (2026-06-16)
+- **S47 (CodeX `timeFlags` census, 2026-09-01 — [#89]) — Fort Wallace's FOUR buildings carry four different
+  hand-authored night-lighting schedules, laddering 21 → 22 → 23 → 00, the densest cluster of schedule deviation in the
+  game.** From the file census ([K50]): `old_01_bsmith_em` (blacksmith) lit **21:00–24:00** · `old_01_quater2_em`
+  (quarters 2) **22:00–03:00** · `old_01_quater_em` (quarters) **23:00–05:00** · `old_01_capt_em` (captain)
+  **00:00–06:00**. (Dev region code `old_` = "Old Fort Wallace", confirmed via the `AIMEMLOC_CML_OldFortWallace` /
+  `establisher_old_fort_wallace_1` strings.) For scale: **921 of the game's 994 time-gated props are on the single
+  standard 21:00–07:00 schedule**, and *four distinct deviations in one settlement* occurs nowhere else. 🔴 **The
+  deflationary reading is the favoured one and should stay favoured:** this reads exactly like authored set dressing — a
+  fort settling down for the night watch by watch, the sort of texture Rockstar puts everywhere. 🟢 **Why it is logged
+  anyway:** Fort Wallace is the mystery's **last verified clue** ([K16]), the corpus's own [H13] signature is
+  "time-gated + near-invisible," and a **four-step hour sequence at that exact location** is the kind of datum a future
+  session would want on file rather than rediscover. **It is data, not a lead:** no mechanism, no pointer, nothing to
+  act on, and it must **not** be chained onto the post-[K16] frontier — see CLAUDE.md's verified-trail boundary. **The
+  one cheap way to settle it** is in [U39]: check the same census for a 21/22/23/00 ladder at *other* forts/camps. If
+  the pattern is reused elsewhere, S47 is closed as ordinary craft. → [K50](known-facts.md), [U39](unknowns.md),
+  [K16](known-facts.md), [06](../threads/06-bird-carving-giant-wapiti.md)
 *(Downstream interpretation of the verified [K16] mark; full catalogue + tests in [fort-wallace-bird-carving.md](../analysis/fort-wallace-bird-carving.md). None of this moves the frontier or licenses chasing the contested `?`/Bacchus leads.)*
 
 - **S24 (2026-06-16) — the two glyphs read as EAGLES → "Eagle Flies" / the Wapiti tragedy.** The wings-spread silhouette fits

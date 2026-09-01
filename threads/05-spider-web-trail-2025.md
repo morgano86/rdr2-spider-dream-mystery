@@ -52,6 +52,21 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
   **shared feather model**, colour-tinted per group — it carries **no per-web or per-colour signal**. The secondary can
   be invisible from a front-on angle (capture caveat). Partly reinterprets the two-tone note above (some "two-tone"
   sightings may have been the two overlapping feathers).
+- **⚡ [K45]/[K46]/[K47] — the archetypes read out of the shipped files (2026-09-01, [#89]).** The 8 `spiderdream01x`–`08x`
+  archetypes are **fragments** (`ASSET_TYPE_FRAGMENT` → `spiderdreamNNx.yft`), confirming the two-object model
+  (feather fragment + separate `cablemesh*_hvlit001` strand drawable) **from raw files** rather than the C-tier [#52]
+  post. All 8 are **identical** — 48 verts / 48 tris, same bounding box to the millimetre, the same breakability
+  (`strength=100, minDamageForce=100, damageHealth=1000` — every feather takes exactly the same force), identity
+  rotation on every placement, the same entity flags, the same particle-effect extension. **Only three axes differ:**
+  `lodDist` = 37 except **Saint Denis = 31** (file-confirming [#52]'s render-distance anomaly); the
+  `textureDictionary`, in **3 sets matching the 3 region ymaps** — with **Cornwall/03x alone carrying its textures
+  internally**, a file-level echo of its index/START role; and a **reds-only `tintpalettetex`**, the byte-level
+  mechanism behind the red/black split — whose **three red palettes are pixel-identical**, so it encodes nothing but
+  "red". ⟹ **A real negative for [U29]: no hidden order field exists in the feather data.**
+- **⚡ [K51] — the CENTRE web is file-confirmed at hour `01:00`**, at **(1282.0, −131.6, ~99.7)**: four `cablemesh*`
+  meshes within ~1 m, **no pole entity, no feather**, and **no 9th `spiderdream` archetype anywhere in the game**. Two
+  of the four carry a `_thvy` name variant found nowhere else. ⚠️ Those four names are the same four the corpus had
+  filed as "the 8 webs' reused geometry" — an unresolved tension, now [U40].
 
 ## [KNOWN] — the boundary / feather respawn mechanics (investigator data; full detail → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md))
 - **[K21] Respawn is boundary-gated:** a shot feather falls to the ground (can't be picked up) and **won't respawn while you stay
@@ -63,7 +78,19 @@ chain assembled in **late 2025**). This thread now follows the **primary Red Dea
   (encodes nothing). ⟹ a solver has many in-game days to work the order ([U29]/[H20]).
 - **[K30] Render-gating:** a web/feather won't spawn while you look straight at the spot (look away/back), and won't despawn
   while in view (you can hold one rendered past its hour by keeping line of sight). Open: hit counts by visibility or by hour
-  ([U30]).
+  ([U30]). **⚡ File-confirmed as an authored per-asset flag (2026-09-01, [K52]):** the Butcher Creek pentagram is the
+  **only** single-hour prop in the game with the on-screen-change bit set, while all 8 webs + the centre are
+  off-screen-only — exactly the asymmetry observed in-game in 2026-06-15.
+- **⚡⚡ [K48]/[K49]/[H28] — the boundaries are ORDINARY YMAP EXTENTS (2026-09-01, [#89]).** The 8 webs sit in exactly
+  **3 region `.ymap` files** (`jklm_7_10_rds_props_strm_0` = Top · `jklm_11_14_rds_props_strm_0` = Connector ·
+  `nopq_11_14_rds_props_strm_0` = Bottom) whose ordinary `entitiesExtents`/`streamingExtents` reproduce the three
+  boundary groups **1:1**, including [K31]'s "also contains" column; all three carry `flags = 0` (not script-gated), and
+  the game's town cull-box system references none of them. **[H28]** reads the reset as plain distance-based streaming
+  (leave → unload; re-enter → re-stream from authored data → the feathers snap back), which matches the investigator's
+  *"leaving alone doesn't trigger it, leaving AND re-entering does"* and lands within ~50 m of [K31]'s firsthand
+  "west of the `B34` pole" edge. **This supersedes [S36]** and deflates [S22]/[H21]. **Two hard consequences ([K49]):**
+  Top and Bottom are **disjoint** (10.50 m gap — **correcting [K28]'s triple overlap**), and **at most 6 feathers can
+  be down at once**, never a set containing `B34` — so *"all 5 blacks visibly down"* is **geometrically impossible**.
 
 ## [KNOWN] — discovery credits (for provenance, not solution)
 - First web(s): **goldenplaysterraria, pariah87, u/fthen2k02, u/FL4VA-01**.

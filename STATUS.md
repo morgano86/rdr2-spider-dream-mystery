@@ -10,6 +10,13 @@ Keep it short; when something changes here, also touch the canonical file and th
 > unverified/contested — the off-map **"?" carving is NOT a widely accepted theory** (pareidolia), and the **Bacchus heart's
 > relevance is about as contested as the "?"**. We work **forward from the bird carvings** unless new evidence lands. The egg
 > is confirmed *real* by a former Rockstar QA tester ([K3](INDEX.md)), but authorship is unconfirmed.
+>
+> **Update 2026-09-01 (file data, [#89]):** the **mechanical** picture just got much harder-edged and more deflationary.
+> The feather data contains **no hidden order field** ([K46]/[K47]), the "designed" reset boundaries are **ordinary ymap
+> streaming extents** ([K48]/[H28], superseding [S36]), and their geometry makes **"all 5 blacks visibly down"
+> impossible** ([K49]). Net: the shooting-input family of solutions now survives only in **hidden-flag** form, which
+> raises the standing of **[H27]** (the webs are a read layer, not a shooting puzzle). None of this touches the
+> verified-trail boundary — it is all upstream of [K16].
 
 - **Best one-paragraph understanding:** see [README.md](README.md#one-paragraph-summary-of-the-current-best-understanding).
 - **Last verified clue / working frontier:** the **Fort Wallace bird carvings** ([K16]) → [thread 06](threads/06-bird-carving-giant-wapiti.md);
@@ -25,7 +32,7 @@ Full set + IDs in [findings/unknowns.md](findings/unknowns.md). The ones that co
 
 | Rank | ID | Question | Best source |
 |------|----|----------|-------------|
-| 1 | [U29](findings/unknowns.md) | The **feather order mechanic**. Within-group orders are solved (reds any-order; connector chain; `B34` folds into the black run — [H22]); the open crux is the **cross-boundary COMBINE** ([K29] boundary-exit reset vs [H20] multi-night) — and whether **shooting is the input at all**. Three live frames, run cheapest-first: **[H27]** webs = witness/READ layer → **Test D** (no shots); **[H24]** reds = decoys, solve = 5 blacks over ~2 nights + the [H25] dream coda → **Test C**; **[H22]** seam battery (R1/R2/R3) → **Tests A/B**. Protocols: [web-order-field-test.md](analysis/web-order-field-test.md); how the frames evolved: the [log](INVESTIGATION_LOG.md) | 🎮 targeted test / 🌐 |
+| 1 | [U29](findings/unknowns.md) | The **feather order mechanic** — **heavily reshaped 2026-09-01 by first-party file data ([#89])**. Two hard results: (i) **no hidden order field exists** — all 8 feather fragments are byte-identical bar `lodDist`, texture dictionary and a reds-only palette that is itself byte-identical across the 3 reds ([K46]/[K47]); (ii) the boundaries are **ordinary ymap streaming extents** ([K48]/[H28]) whose geometry allows **at most 6 feathers down at once and never a set containing `B34`** ([K49]) ⟹ **"all 5 blacks visibly down" is impossible** and **there is no triple overlap**. That **kills [H22]-R1 (Test A moot)** and **collapses [H24] into the hidden-flag exit [H22]-R2 (Test C is now an R2 probe)**. Surviving frames: **[H27]** webs = witness/READ layer → **Test D** (no shots, cheapest, run first); **[H22]-R2** hidden flag; and the **[H28] control test** (does an unrelated prop in the same 3 ymaps reset identically?). Protocols: [web-order-field-test.md](analysis/web-order-field-test.md) | 🎮 targeted test / 🧠 file-side |
 | 2 | [U2](findings/unknowns.md) | Is there an **intended payoff at all**, or is it cut content? *(2026-07-05: the [#52] script-side evidence is now reproduced, [#87] — the webs have **no script layer**; the "never-set flags" turned out to be kill-switches, not a payoff gate)* | 🌐 new coverage / community |
 | 3 | [U6](findings/unknowns.md) | **Gertrude's numbers** — the opening is deliberate ([K23]) and the **complete 12-line set is now GAME-TEXT CONFIRMED** ([K42], 2026-07-05 — a 2019 subtitle dump, [#78]: tail settled, "eleven" parse settled, both L2/L7 tail variants real, no hidden extra set); attempt B (tally-node reorder) **closed-inexecutable** (nodes 5/6 bare, [#81]); [K41] interior closed-negative; **battery re-run DONE on the canonical set (2026-07-05): [S42] statistically supported on A-tier data** (attempts cap at 5; global additive p = 0.335; line-A `3,5,8,13` suggestive-not-significant, B-take breaks it). Open: what (if anything) the deliberate *opening* string encodes, and **which mystery it serves** — a 🌐 watch + desk question now, not a battery | 🌐 / 🧠 |
 
@@ -65,7 +72,10 @@ Run cheapest-first. **Full step-by-step protocols (confound controls + decision 
   each spawn with the look-away trick ([K30]), fire nothing, finish with the [H25] dream coda at the whiskey tree. Under
   [H27] (webs = a READ layer — [solve-grammar.md](analysis/solve-grammar.md)) this is the *complete* candidate solve; it
   leaves no state to corrupt, so running it first costs nothing.
-- **⚡ 2. Test C — the blacks-only solve + dream coda ([H24]/[H25], ~2 nights).** Night 1: `B23→B45→B56→BL56` staying in
+- **⚡ 2. Test C — the blacks-only solve + dream coda ([H24]/[H25], ~2 nights).** ⚠️ **Re-scoped 2026-09-01:** it can
+  no longer produce a visibly complete blacks set ([K49] — riding to `B34` re-streams the other four), so run it as an
+  **[H22]-R2 hidden-flag probe** and photograph each web on the way past to record exactly when the earlier blacks
+  return. (This also explains the two published all-blacks-in-a-night nulls, [#71], without blaming their execution.) Night 1: `B23→B45→B56→BL56` staying in
   yellow; hold state through the day ([K29]). Night 2: `B34` at 3–4 AM from the overlap (geometry forces `BL56` before
   `B34`). **Never touch a red.** Camp at the whiskey tree ([S23]) and **sleep at dawn** ([H25] — dry-check [#67]: no
   documented solver has ever slept on a completed set; ⚠️ machinery check 2026-07-05 [#85]: no sleep-fired dream system
@@ -74,14 +84,21 @@ Run cheapest-first. **Full step-by-step protocols (confound controls + decision 
   [locations/strange-man-shack.md](locations/strange-man-shack.md) (no-state baseline visit first; [U35] gate settled
   2026-07-05: post-epilogue + 4 spaced visits, **not** 100% — baseline portrait = f(prior visits); a missing mirror
   apparition is NOT a spider signal).
-- **🔑 3. Tests A/B — the cross-boundary STATE battery ([H22]/[U29]).** Discriminates the three exits at the RED↔BLACK
-  seam (R1 overlap-holds / R2 hidden-flag / R3 no-combine); reasoning in
+- **🔑 4. Test B — the hidden-flag probe ([H22]-R2, [U29]).** ⚠️ **Test A is MOOT as of 2026-09-01** ([K49]: the
+  central triple overlap it depends on does not exist — **R1 settled negative by geometry**). **R2 is now where the
+  whole shooting-input family lives**, since [H24] collapses into it. Reasoning in
   [`web_boundary_solve_protocol.py`](experiments/web_boundary_solve_protocol.py).
 - **🆕 Letter-sweep ([H26]) — cheap, combinable with any web session.** Sweep for undiscovered letter-pairs with the
   [K15] viewing discipline (odd angles, changing light, moss/wood seams): Fort Brennand tower + outhouses, the 8 web
   pole sites (esp. Cornwall's START pole), the Fort Wallace walls around the birds [K16]. Log a careful negative too.
-- **🆕 Persistence CONTROL ([S36], cheap):** shoot/displace a comparable ambient object far from any web and sleep
-  several nights in place — tests whether the feathers' [K29] persistence is genuinely special.
+- **⚡ 3. The [H28] STREAMING CONTROL — now the sharpest cheap test on the board** *(replaces the old [S36] control;
+  [S36] itself is superseded — the boundaries turned out to be ordinary ymap extents, [K48])*. Displace a comparable
+  movable/breakable prop **inside one of the 3 web ymaps**, ride out past the box edge and back: under [H28] it should
+  show the identical "stays displaced nearby, resets on leave-and-return" behaviour. Then repeat with a control prop
+  **outside** all 3 ymaps but equally far from any settlement. **Divergence ⇒ [H28] confirmed** and the reset rules
+  carry no message; **identical behaviour everywhere ⇒** it degrades to generic RDR2 prop persistence (still fatal to
+  [S36], but a different fact). ⚠️ Whatever the outcome, the honest residual stands: [K29]'s ≥14-night **exact-position,
+  live-updated** retention is more state than plain re-streaming implies — capture that specifically.
 - Residuals: feather *attachment* detail ([U0], deflated) only if images fail; the long-horizon **[H8] test** (does
   completing the trail clear the dreamcatcher log?).
 
@@ -100,6 +117,14 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 - Live [U29] follow-ons: does shooting a *contained-but-untied* web (wrong-boundary despawn) break a run? And **[U30]** —
   does a hit count whenever the feather is shot while visible, or only during its spawn hour?
 
+- **🆕 File-side follow-ups from [#89] (cheap, same CodeX tooling — the highest value-per-effort items on the board):**
+  **[U40]** does the "8 webs reuse 4 `cablemesh` models" claim survive? (the 4 named meshes read as the **centre**
+  cluster — if each outer web has its own strand archetypes, that is a **per-web channel nobody has read**);
+  **[U36]** which ymap holds the pentagram, and does it define Group 1's corner (settles [S22]/[H21]);
+  **[U38]** what produces the [K40] second feather, given `DrawableArrayCount = 0`;
+  **[U37]** resolve the particle-effect hash `vYYFKTA_0xC5876498`; **[U39]** is the Fort Wallace 21/22/23/00 ladder
+  reused elsewhere in the census (settles [S47]).
+
 > **🧮 When reasoning isn't enough** (combinations, ciphers, geometry, coincidence odds), write a quick Python test in
 > [`experiments/`](experiments/) — e.g. [`feather_order.py`](experiments/feather_order.py). Results are evidence, not
 > fact; log null results too.
@@ -109,6 +134,20 @@ From [analysis/connections.md](analysis/connections.md#open-analysis-tasks):
 ## Session headlines (newest first)
 One line per session — **the full entries live in [INVESTIGATION_LOG.md](INVESTIGATION_LOG.md)** (newest at top).
 
+- **2026-09-01 (CodeX file-readout integration — [#89])** — **⭐ 8 new K-facts from a first-party read of the shipped
+  game files.** **[K45]–[K47]:** the feathers are **fragments** (two-object model now file-verified, not [#52]-only) and
+  all 8 are **byte-identical** bar three already-known axes — **a real negative on [U29]: no hidden order field exists.**
+  **[K48]/[K49] + ⭐ [H28]:** the three "respawn boundaries" are the **`entitiesExtents`/`streamingExtents` of three
+  ordinary region ymaps**, and the reset is almost certainly plain streaming (leave → unload, re-enter → re-stream) —
+  **[S36] superseded**, **[S22]/[H21] deflated**, and the geometry proves **no triple overlap** (**corrects [K28]**) plus
+  a **hard cap of 6 feathers down at once, never including `B34`** ⟹ all-5-blacks-visible is impossible, **Test A moot**,
+  **[H24] collapses into [H22]-R2**, and the [#71] all-blacks nulls are explained. **[K50]–[K52]:** a game-wide
+  `timeFlags` census (994 props, 19 patterns) **closes the time-gating channel**, and pins the **centre web @ 01:00**
+  (no pole, no feather, no 9th archetype) and the **Butcher Creek pentagram @ 04:00** as `cablemesh277747_hvlit001` —
+  the **same asset family as the web strands** (a new asset-level anchor for [S41]) and the game's **only** single-hour
+  prop allowed to change on-screen (file-confirming [K30]). New: [U36]–[U40], [S47]. ⚠️ **[U40] is the sharp one:** the
+  four `cablemesh` models the corpus called "the 8 webs' shared geometry" read out as the **centre cluster** — if each
+  outer web has its own strand archetypes, that is an unread per-web channel.
 - **2026-07-05 (script-dump session 3: the 100%-gate sweep)** — **⭐ [K44] minted: the game's ONLY scripted
   100%-completion gate is the Arthur's-grave scene** (`TOTAL_PROGRESS_MADE` ≥ 100 + finale3 → one-shot
   `SP_ARTHURS_GRAVE_SCENE` → animscene teleport; user's target found + decoded end-to-end); completion formula

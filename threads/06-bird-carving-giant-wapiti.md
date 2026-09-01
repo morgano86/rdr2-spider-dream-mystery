@@ -34,6 +34,17 @@ counter-theory.
   grave NW + Calumet eagle spawns is **negative**); **[S25]** the glyphs *label/point*, they don't *encode*; **[H23]**
   static-carving class (non-time-gating is not evidence either way).
 
+> **🆕 File-data aside, 2026-09-01 ([K50]/[S47]/[U39], [#89]) — logged as DATA, not a lead.** A game-wide census of
+> time-gated props found that **four Fort Wallace buildings each carry their own hand-authored night-lighting schedule**,
+> laddering **21→22→23→00**: `old_01_bsmith_em` 21:00–24:00 · `old_01_quater2_em` 22:00–03:00 · `old_01_quater_em`
+> 23:00–05:00 · `old_01_capt_em` 00:00–06:00. (Dev region code `old_` = "Old Fort Wallace", confirmed via the
+> `AIMEMLOC_CML_OldFortWallace` / `establisher_old_fort_wallace_1` strings.) For scale, **921 of the game's 994
+> time-gated props sit on one standard 21:00–07:00 schedule**, and four distinct deviations in a single settlement occurs
+> **nowhere else in the game**. 🔴 **The favoured reading is ordinary set dressing** — a fort settling down watch by
+> watch — and it should stay favoured; this is **not** a step past [K16] and nothing here points anywhere. It is on file
+> because it is a four-step hour sequence at the mystery's last verified clue, and [U39] names the one cheap check that
+> settles it (is the 21/22/23/00 ladder reused at other forts/camps in the same census?).
+
 ### The Bacchus Bridge empty heart — [K22] *(investigator data, 2026-06-13)*
 - Carved into a **leg of [Bacchus Bridge](../locations/bacchus-bridge.md)** (Cumberland Forest — the same region as Fort
   Wallace) is a **cupid-style heart with an arrow through it**, **hard to find**, and reported to sit **in direct line of

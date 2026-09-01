@@ -83,7 +83,7 @@ leads corroborated against the manifest, **not** primary.
 |------|-------|-----------|
 | `webs/web_map-overlay_all-labeled.jpg` | **Best all-webs reference map** — every web labelled by name + code + hour (Cornwall/B34 3–4 … Saint Denis/R34 3–4), plus Centre Web (1–2), the W-5-poles pole, and the NW Guitar Pole | Google Site Timeline |
 | `webs/web_map-overlay_nw-trail.jpg` | Spider-shape overlay with the **trail drawn NW past the guitar pole to a "?"** — the cold frontier ([thread 06](../threads/06-bird-carving-giant-wapiti.md)) | Google Site Timeline |
-| `webs/web_cable-mesh_datamine.png` | **Datamined web wireframe** — the four `cablemesh*` models (`87399_thvy001`, `87405_hvlit001`, `87397_thvy001`, `87455_hvlit001`); yellow = feather positions in the mesh. Corroborates the shared GTA V/RDR2 cable-shader build | Google Site (credit **thecochiti**) |
+| `webs/web_cable-mesh_datamine.png` | **Datamined web wireframe** — the four `cablemesh*` models (`87399_thvy001`, `87405_hvlit001`, `87397_thvy001`, `87455_hvlit001`); yellow = feather positions in the mesh. Corroborates the shared GTA V/RDR2 cable-shader build. ⚠️ **2026-09-01: those four names read out of the archetype table as the CENTRE cluster at hour 1** ([K51]/[#89]) — so this may depict the *centre* web, not the 8 outer webs' shared geometry, and the "feather positions" annotation would be the author's inference (the centre is featherless). See [U40]. | Google Site (credit **thecochiti**) |
 | `webs/web_cornwall_b34_pole-carving.jpg` | The Cornwall **spider/"W" carving on the actual telegraph pole** in-world (daytime), railway behind — complements the engraving-as-map shot | Google Site Timeline |
 | `fort-wallace/fort-wallace_two-guitars_map.png` | Fort Wallace's **two guitars** annotated — "Tower Guitar" vs "Out-in-the-open Guitar" (they point different ways) | Google Site Timeline |
 | `fort-wallace/fort-wallace_bird-symbols_tower_view2.jpg` | **Clearer daytime view of the two moss "w"/bird symbols** on the tower-roof slats (cf. `fort-wallace_bird-symbols_tower.webp`) | Google Site Timeline |
@@ -273,3 +273,17 @@ then verify it** — only fall back to firsthand in-game capture for detail that
 > **Sourcing note:** fandom + GTAForums block automated download (403); use the wiki **CDN** + **API**, community sites, or
 > video frames. A **web-sourced image, verified against a second source**, is preferred and usually sufficient — reserve
 > in-game capture for the rare detail no online source records (e.g. feather orientation). Always log the source here.
+
+### Added 2026-09-01 — CodeX ymap-extent renders (source [#89])
+
+Four plots generated **from the shipped game files** by the investigator's CodeX diagnostic harness (matplotlib
+renders, not screenshots): the 3 boundary-group `.ymap` extent boxes drawn against the 8 feather positions. They are
+the visual evidence for [K48]/[K49] and the deflation of [S36]/[S22] — see
+[H28](../findings/speculation.md) and the [WEBS-MANIFEST](webs/WEBS-MANIFEST.md) file-data banner.
+
+| File (current path) | Shows | Source / credit |
+|------|-------|-----------|
+| `webs/web_ymap-extents_boundary-groups.png` | **First render (2026-07-23)** — the three **parent** `*_rds_props` ymaps' `entitiesExtents` (solid fill) + `streamingExtents` (dashed) vs all 8 feather positions, colour-coded black/red and labelled with code + file number + location. The plot that prompted the investigator's "no triple overlap" correction to [K28] | Investigator / CodeX file read, 2026-07-23 ([#89]) |
+| `webs/web_ymap-extents_strm0-annotated.png` | **The load-bearing one (2026-07-25)** — same view built from the `*_strm_0` **child** ymaps (the ones that actually stream), with each group's exact `stream`/`ents` X·Y numbers printed, and the derivation footnote: **max 6 feathers displaceable at once**; `B34` 50 m west / `R34` 638 m east of Group 2's box; **G1 and G3 disjoint by 10.5 m** ⟹ `B34` and any red can never be loaded together ([K49]) | Investigator / CodeX file read, 2026-07-25 ([#89]) |
+| `webs/web_ymap-extents_strm0-clean.png` | The same `*_strm_0` plot **without** the numeric callouts or footnote (2026-07-26) — the legible version for quick reference | Investigator / CodeX file read, 2026-07-26 ([#89]) |
+| `webs/web_ymap-extents_g1-g3-gap.png` | **Zoom on the gap (2026-07-26)** — G1 bottom edge `Y = −277.81`, G3 top edge `Y = −288.31`, the **10.50 m band covered by neither**, with G2 spanning straight through it. The image that kills the [K28] triple-overlap (and with it the whiskey tree's "only POI in the triple overlap" role) | Investigator / CodeX file read, 2026-07-26 ([#89]) |

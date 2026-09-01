@@ -55,6 +55,19 @@ documentation corpus + the community Google Site + reddeadreference; [#81]). Res
   `1qebx6v`) — exactly what the 🎮 [H26] sweep should check while on site; a chance **random encounter with a Butcher
   Creek woman** triggerable while camping inside the 7-tower; "moving spiral things" seen in the tower (`1tzk1vh`,
   probably light shafts).
+- **⚡ [K52] The pentagram is a named, coordinated asset: `cablemesh277747_hvlit001` @ (2592.52, 831.74, 82.79), active
+  hour `04:00`** *(first-party file read, 2026-09-01 — [#89]; found blind by a game-wide `timeFlags` census with no prior
+  knowledge of the mystery, then identified by the investigator)*. It sits 1–3 m from `but_house_hd002` and its porch
+  props. **Two things follow.** (a) **It is the same `cablemesh*_hvlit001` drawable family as the 2025 spider-web
+  strands** — the first *asset-level* link between the 2018 Butcher Creek chain and the web trail, and the hardest
+  evidence yet for [S41]'s "one continuous designed relay" (it also makes [K15]'s loose "the webs + pentagram are mesh
+  cables" precise, with names). ⚠️ Weight it honestly: `cablemesh` is a generic class and the two sites are near
+  neighbours in the same region file, both mundane reasons to share one. (b) Its flags are **`0x1000010`** — the **only
+  single-hour prop in the entire game allowed to change while on screen**, where all 8 webs and the centre are
+  off-screen-only. That **file-confirms the firsthand [K30] observation** (the pentagram appears/disappears while you
+  watch; the webs don't) and shows render-gating is an **authored per-asset choice**, not engine behaviour.
+  ⚠️ The pentagram's coordinates also fall within ~1.1 m of the Top boundary ymap's own corner — which probably explains
+  why that boundary "reaches Butcher Creek" ([S22] deflation, pinned at [U36]).
 
 ## [UNKNOWN]
 

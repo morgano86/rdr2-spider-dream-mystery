@@ -96,13 +96,53 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   CLAUDE.md; desk-corroborated in the [#59] front shots — Cornwall & Oil Fields show the two feathers unmistakably distinct;
   → [feather-positions/README.md §Doubling reads](../images/webs/feather-positions/README.md#doubling-reads).)* The doubling
   is a **uniform feature of the shared feather model** ([K13] `wap_gen_feather01`), colour-tinted per group — it carries
-  **no per-web or per-colour signal**. ⚠️ Capture caveat: the secondary can be **invisible from a front-on angle** (one
+  **no per-web or per-colour signal**. ⚠️ **File-side puzzle (2026-09-01, [K46]/[#89]):** every `spiderdreamNNx.yft` fragment has
+  **`DrawableArrayCount = 0`** — there is **no second drawable slot inside the feather's own fragment data** — so
+  whatever produces the second feather is a **separate entity or part of the strand geometry**, not a doubled model.
+  The doubling itself is not in doubt (firsthand + [#10] print); its *mechanism* is now an open question, [U38].
+  ⚠️ Capture caveat: the secondary can be **invisible from a front-on angle** (one
   web's front shot shows a single feather; in-game inspection confirms its secondary). Partly **reinterprets [K13]'s
   2026-07-03 "two-toned" refinement** — some two-tone sightings may have been the two overlapping feathers (one greyer,
   one blacker). **⚡ Independent print corroboration found 2026-07-05:** the Daily Dot discovery piece (#10, Jan 5 2026 —
   *predating* our firsthand capture) writes of the Cornwall START pole: *"Near the top of the pole is a conspicuous web
   from which hangs **two feathers**"* — B-tier journalism seeing the doubling unprompted. Evidence grade rises from
   firsthand+frame-corroborated to firsthand+**independently reported**. → [05](../threads/05-spider-web-trail-2025.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+- **K45.** **The 8 `spiderdream01x`–`08x` archetypes are FRAGMENTS, not plain drawables** — every one carries
+  `assetType = ASSET_TYPE_FRAGMENT` in its `.ytyp` `CTimeArchetypeDef` and resolves to its own `spiderdreamNNx.yft`
+  (breakable physics object), **not** a `.ydr`. This **independently confirms the two-object model from raw shipped
+  files** — *feather* = the breakable fragment, *web strand* = a separate `cablemesh*_hvlit001` drawable — which the
+  corpus previously held on the strength of the C-tier "gamedev" datamine post ([#52]) alone. That sub-claim's sourcing
+  is upgraded **C → file-verified**; the object split it implies ([S39]: web-visibility rules ≠ feather-state rules) now
+  rests on file data. *(First-party CodeX file readout, 2026-07-23 — [#89].)* →
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [05](../threads/05-spider-web-trail-2025.md)
+- **K46.** **The 8 feather fragments are IDENTICAL to each other on every axis the files expose except three ([K47]).**
+  Field-by-field from the archetypes, fragments and placements: **geometry** — 1 LOD, **48 verts / 48 tris**, the same
+  bounding box **to the millimetre** on all 8; **breakability** (`Rsc8FragPhysLOD`/`Rsc8FragPhysGroup`) — 1 group, 1
+  child, `strength=100, minDamageForce=100, damageHealth=1000`, mass 1.0/1.0 pristine/damaged, i.e. **every feather takes
+  exactly the same force to knock down — no per-web "toughness" or hit-count difference exists anywhere in the data**;
+  **entity rotation** — the **identity quaternion** on all 8 placements (no orientation signal at entity level,
+  independently agreeing with the [U0] capture result that all feathers hang tip-down under gravity and reinforcing the
+  [H4] refutation); **entity flags** — `0x00180000` (cast static + dynamic shadows) on all 8; **`DrawableArrayCount = 0`**
+  on every fragment (→ [U38]); and an **identical `CExtensionDefParticleEffect`** on every archetype
+  (`fxName = vYYFKTA_0xC5876498`, same offset/colour/probability, only the meaningless per-item `guid` differing — an
+  matching, at file level, the [#52] datamine claim of a particle glow on the feather that the corpus carried at C-tier — see [S39]/[U37]; identical on all 8, so it is not a per-web channel). **This is a real negative on [U29]:** across a source class the corpus had never checked
+  at byte level, **nothing encodes a 1–8 order or any per-web asymmetry** beyond position, hour, and [K47]'s three axes —
+  arguing against a "hidden data field" solution and for a state/behaviour-based mechanic. *([#89].)* →
+  [U29](unknowns.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+- **K47.** **Exactly three per-web axes differ in the file data — and all three are already-known distinctions, not a new
+  channel.** (a) **`lodDist` = 37 for all eight except `spiderdream08x` (Saint Denis) = 31** — this **confirms from files**
+  the previously single-source, unreproduced render-distance anomaly reported in [#52] (upgraded C → file-verified), and
+  is a **fifth independent line** on which Saint Denis is the singular outlier (cf. [S31]). (b) **`textureDictionary`
+  groups into exactly 3 sets matching the 3 region `.ytyp`/`.ymap` files** of [K48]: `jklm_11_14_rd_p_d` (01x, 02x, 04x,
+  05x), a private/unresolved-hash dictionary **unique to 03x** — Cornwall, which is also the **only** one of the 8 with
+  its textures embedded in its own file rather than resolved externally (a file-level echo of Cornwall's role as the
+  index/START pole bearing the spider engraving, [K8]/[K11]) — and `nopq_11_14_rd_p_d` (06x, 07x, 08x). (c) **The
+  `tintpalettetex` shader param is populated — with an embedded 256×4 palette texture — ONLY for the 3 RED feathers
+  (06x/07x/08x), and is null/unassigned for all 5 blacks.** That is the **byte-level mechanism behind the community's
+  red/black split** ([K13]). ⚠️ **But MD5-verified: all three red palettes are pixel-for-pixel identical** (the same 4096
+  bytes, `B8G8R8A8_UNORM_SRGB`, a dark-red→pale-pink gradient) — so the palette carries **no per-web signal beyond "this
+  one is red."** Clean negative: **"the palette encodes an order" is ruled out.** *([#89].)* → [U29](unknowns.md),
+  [S29](speculation.md), [S31](speculation.md)
 - **K21.** Feather respawn is **boundary-gated**. When you shoot/hit a feather it **falls to the ground and cannot be picked up
   or interacted with**; crucially, it **stays down — does not respawn in the web — for as long as you remain inside the
   boundary that web is tied to**, and **respawns once you leave** that boundary. This is a deliberate mechanic. There are
@@ -126,8 +166,16 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   **Butcher Creek** (NW edge), **Fort Brennand** (centre-west edge); **Middle/Connector** envelops **Rhodes** (centre-south),
   **Strange Man's house** + **Caliga Hall** (SE edge); **Bottom** naturally contains **Saint Denis, Rhodes, Caliga Hall,
   Strange Man's house**, and its SE edge covers **part** of **Braithwaite Manor** — but **not Gertrude's outhouse**, which falls
-  **outside** the boundary. The **triple-overlap** of all three boundaries is a thin horizontal sliver running the full width of
-  the Middle boundary's centre; its **only POI is the [whiskey/bottle tree](../locations/whiskey-tree.md)** (see [S23]). See the
+  **outside** the boundary. ~~The **triple-overlap** of all three boundaries is a thin horizontal sliver running the full width of
+  the Middle boundary's centre; its **only POI is the [whiskey/bottle tree](../locations/whiskey-tree.md)** (see [S23]).~~
+  ⚠️⚠️ **CORRECTED 2026-09-01 by file data ([K49], [#89]) — THERE IS NO TRIPLE OVERLAP.** The North and South boxes are
+  **disjoint**, separated by a 10.50 m band (G1 bottom `Y = -277.81`, G3 top `Y = -288.31`) that neither covers; only the
+  **Middle/Connector spine bridges them.** The investigator accepted the correction on reviewing the render — the
+  hand-mapped overlay recorded shape and orientation but not exact edges, and the "thin sliver" was an artefact of that.
+  The **I-beam picture survives** (two bars + a spine, each bar overlapping the spine); what dies is the *central*
+  overlap and everything that leaned on it: the whiskey tree is **not** in a triple overlap (its role in [S23]/[H25]
+  drops to "a camp inside the Middle spine"), and **`B34` and any red can never be loaded together** — see [K49] part (b) for
+  the hard six-feather cap that follows. See the
   speculative readings [S22] (the top zone may deliberately encompass the 2018 origin thread, echoing the [K8] pointer — now
   *strengthened* in that it holds **both** BC and Fort Brennand) and [H21] (the oversize exists to *carry* the B34 shot-state to
   Butcher Creek without resetting); or the extent may simply be coarse (Valentine has no known mystery role).
@@ -168,8 +216,10 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   simply stopping to stare) — but it dictates **capture method**: arrive at the known spawn hour and *look away/back* (or keep
   it in view), don't wait while staring. ⚠️ **Open ([U30]):** this can't distinguish whether a hit counts **whenever the feather
   is shot while visible** (so a line-of-sight-held shot past the hour is valid) **or only during the web's specific spawn hour** —
-  untestable without knowing the solution order. **Render-gating is WEB-SPECIFIC, not a blanket behaviour for hidden-geometry
-  time-gated assets (investigator, 2026-06-15):** the **Butcher Creek floorboard pentagram** ([K5]) — built with the **same
+  untestable without knowing the solution order. **⚡ FILE-CONFIRMED 2026-09-01 ([K52], [#89]):** the render-gating asymmetry is an **authored per-asset flag** — the
+  pentagram's `timeFlags` carry the on-screen-change bit (`0x1000010`, the only single-hour prop in the game that does),
+  while all 8 webs + the centre are off-screen-only. **Render-gating is WEB-SPECIFIC, not a blanket behaviour for
+  hidden-geometry time-gated assets (investigator, 2026-06-15; now file-verified):** the **Butcher Creek floorboard pentagram** ([K5]) — built with the **same
   hidden-geometry technique** ([K15]) and likewise time-gated (~4–5 AM) — **appears and disappears at its set times even while you
   are looking directly at it**, the exact opposite of the webs. So the engine is *not* simply LOD/streaming every such prop the same
   way; only the webs are gated against direct observation. **Design-intent reading [SPECULATION]:** the asymmetry looks deliberate —
@@ -185,6 +235,104 @@ later proves shaky, demote it to [unknowns](unknowns.md) with a note.
   **Middle** also holds `B34` (untied — only on the **east** side of the pole; crossing to its west side triggers the Middle
   despawn), `R23`, `R45` (untied); **Bottom** also holds `B56L` (untied). *(Firsthand investigator data, 2026-06-14 — high-trust
   per CLAUDE.md; confirms [H9], resolves [U22].)* → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [U22](unknowns.md)
+- **K48.** **The 8 webs are split across exactly 3 `.ymap` files, and those files' ordinary streaming/entity extents
+  reproduce the three [K21]/[K31] boundary groups 1:1.** Every RDR2 ymap declares its own non-uniform, axis-aligned
+  `entitiesExtents` (the box its content occupies) and a looser `streamingExtents` (which actually drives load/unload
+  distance). Read straight from the shipped files:
+
+  | Boundary group (community name) | ymap | `entitiesExtents` min -> max | `streamingExtents` X · Y | shape |
+  |---|---|---|---|---|
+  | **Group 1 = Top/North** (`B34`) | `jklm_7_10_rds_props_strm_0` | (-362.2, -134.2, 23.8) -> (2593.6, 880.6, 133.2) | [-397, 2626] · [-278, 981] | wide, north |
+  | **Group 2 = Middle/Connector** (`B23,B45,B56,B56L`) | `jklm_11_14_rds_props_strm_0` | (537.4, -1313.0, 41.0) -> (2183.9, 789.8, 123.2) | [388, 2242] · [-1371, 933] | tall, centre |
+  | **Group 3 = Bottom/South** (`R23,R34,R45`) | `nopq_11_14_rds_props_strm_0` | (506.0, -1675.6, 40.0) -> (2918.9, -344.1, 93.1) | [424, 3068] · [-1815, -288] | wide, south |
+
+  The three boxes match the firsthand-mapped north-horizontal / centre-vertical / south-horizontal geometry of [K28], and
+  their **membership matches [K31] on both the tied AND the untied ("also contains") columns** — Group 1's box does hold
+  `B56/B23/B45`, Group 2's does hold `R23/R45`, Group 3's does hold `B56L`. All three ymaps carry header **`flags = 0`**
+  -> **not script-gated containers** (bit 0 marks those; these are not that), consistent with [#87]'s finding that no
+  script touches the webs. **Ruled out and worth not re-checking:** RDR2's generic town/district cull-box system
+  (`mapdatacullboxes_new.meta`, ~129 entries — the CORNWALL / Rhodes / Emerald Ranch / Van Horn boxes that hide distant
+  content while you are in a town) references **none** of these 3 containers and its box shapes don't match (small,
+  town-centred, a different LOD system entirely). Renders:
+  [`web_ymap-extents_boundary-groups.png`](../images/webs/web_ymap-extents_boundary-groups.png) (parents) ·
+  [`web_ymap-extents_strm0-clean.png`](../images/webs/web_ymap-extents_strm0-clean.png) (the `*_strm_0` children).
+  ⚠️ **The deflationary consequence is the point:** these are **ordinary region-file boundaries**, not geometry
+  bespoke-shaped for a puzzle — see [H28], which supersedes [S36], and the reframing of [S22]/[H21].
+  *(First-party CodeX file readout, 2026-07-23/25 — [#89].)* → [K28](known-facts.md), [K31](known-facts.md),
+  [H28](speculation.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+- **K49.** **Geometric consequences of [K48]'s boxes — including a hard cap on how many feathers can be down at once.**
+  (a) **Group 1 and Group 3 are DISJOINT.** G1's bottom edge is `Y = -277.81`; G3's top edge is `Y = -288.31` — a
+  **10.50 m band covered by neither** ([`web_ymap-extents_g1-g3-gap.png`](../images/webs/web_ymap-extents_g1-g3-gap.png)).
+  G2 spans straight through that band (Y -1370.75 … +933.01), so **only Group 2 bridges the other two, and `B34` and any
+  red can never be loaded together.** ⚠️ This **CORRECTS [K28]'s "all three overlap slightly near the map centre" /
+  triple-overlap sliver** — there is **no triple overlap**; each horizontal bar overlaps the central spine, but not each
+  other. (Correction accepted by the investigator on reviewing the render — the earlier reading came from the
+  hand-mapped overlay, on which shape and orientation, but not exact edges, were recorded.) (b) **At most SIX feathers
+  can be displaced at once** — `B23, B45, B56, B56L, R23, R45`, exactly those whose own position lies inside Group 2's
+  box. Shooting a feather means travelling to it, and **`B34` (X = 338, 50 m west of G2's streaming box) and `R34`
+  (X = 2880, 638 m east of it) each force you out of G2**, unloading it and restoring its four blacks. **So "all 5 blacks
+  visibly down at the same time" is geometrically impossible**, as is any all-8 state — sharpening [S38]'s desk finding
+  that no 8-order is visible-state feasible (0/40320), and putting a hard constraint under [H24]'s blacks-only solve and
+  [H22]'s R1/R2 fork (a payoff requiring simultaneous visible state cannot exist; only a hidden flag, or a non-state
+  reading like [H27], survives). ⚠️ **Tier note on (b):** the *extents* are A-tier file data, but the six-feather cap
+  is a **derivation** that assumes displaced-feather state is scoped to the container's load — which is precisely what
+  the firsthand record already says ([K21] "stays down while you remain inside the boundary"; [K31] "crossing to `B34`'s
+  west triggers the Middle despawn"), so file geometry and in-game observation agree here rather than one standing in
+  for the other. It has still **not been run as a deliberate in-game test** (ride from a downed `B23` to `B34` and look
+  back) — that is a cheap, decisive confirmation worth taking. (c) **Strong corroboration of [H28]:** the firsthand [K31] note that `B34` is inside the
+  Middle boundary *"only on the east side of the pole — crossing to its west triggers the Middle despawn"* lands within
+  ~50 m of G2's **file-declared** western streaming edge (X = 388 vs the pole at X = 338), a boundary edge no player
+  could see. Annotated render:
+  [`web_ymap-extents_strm0-annotated.png`](../images/webs/web_ymap-extents_strm0-annotated.png).
+  *([#89], derived from A-tier file numbers; the mechanism reading is [H28], [SPECULATION].)* → [U29](unknowns.md),
+  [H28](speculation.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+- **K50.** **The game-wide `timeFlags` (time-gated archetype) channel is now exhaustively enumerated — and it is CLOSED.**
+  A census of every `CTimeArchetypeDef` in the RDR2 install found **994 archetypes / 994 placements** (1:1 — each is a
+  unique baked prop) in **19 distinct flag patterns**, of which one dominates: **`0x1E0007F` = lit 21:00–07:00 with
+  on-screen change allowed, on 921 of 994** — the `*_em*` emissive night-variant props used for building windows
+  game-wide. **Any other pattern is a hand-authored deviation.** The complete deviation list is: the 8 spiderdream webs +
+  their `cablemesh` strands; the **centre web** ([K51]); the **Butcher Creek pentagram** ([K52]); **Valentine church**
+  (`val_05__em001` @ -226.59, 804.00, 133.63 — lit **21:00–01:00**, `0x1E00001`: the only deviating emissive in all of
+  Valentine, and the **only deviant church in the game** — Rhodes and Blackwater churches are both normal 21–07);
+  **four Fort Wallace buildings** with a **staggered 21->22->23->00 ladder** ([S47]); **five Wapiti props** which turn out
+  to be **teepee doors/flaps, not lamp emissives** (`wap_mstr_ptchd_dr` 18:00–05:00; `wap_master_tp009_dr` +
+  `wap_master_tpr7_flap` 20:00–06:00 *without* the on-screen bit; `wap_master_tp006_dr` 22:00–07:00;
+  `wap_mstr_ptchd001_dr` 21:00–07:00 but without the on-screen bit — all in ymap `0x3BD21365`, clustered at ≈448–482,
+  2222–2268, ~249); **Annesburg town-wide** (`ann_04`, 20 props) **+ MacFarlane's Ranch main house**
+  (`mfr_04_mainhouse_em`) at **21:00–08:00** (the complete "off at 8" list); and Saint Denis `new_*_vfx_helper_*` timed
+  smoke emitters (mundane — factory/house smoke). **Negatives worth keeping:** no time-gated archetype anywhere in the
+  game is defined but never placed (0 unplaced); and with the centre web and pentagram identified there is **no remaining
+  unexplained single-hour or short-window content in the game.** ⟹ **Any further conditional-appearance content must come
+  from a different mechanism** (scripts — already swept clean of `spiderdream` refs, [#87] — map/entity-set states, or
+  engine logic), **not from archetype time-gating.** *(First-party CodeX file readout, 2026-07-23 — [#89].)* ⚠️ Note the
+  method validation: the census flagged the centre web and the pentagram **blind**, with no prior knowledge of the
+  mystery, and the investigator then identified them. → [U2](unknowns.md), [S47](speculation.md)
+- **K51.** **The CENTRE web is file-confirmed, and its active hour is `01:00` exactly.** The census surfaced it *blind*
+  as an anomaly at **(1282.0, -131.6, ~99.7)**: **four** time-gated `cablemesh*` meshes — `cablemesh87397_thvy001`,
+  `cablemesh87399_thvy001`, `cablemesh87405_hvlit001`, `cablemesh87455_hvlit001` — active **only at hour 1**, clustered
+  within ~1 m, with **nothing else within 12 m: no telegraph-pole entity and no `spiderdreamNNx` feather.** This
+  **confirms from files** three things previously held on wiki/community sourcing: the centre cluster is **featherless**
+  ([K11]), it is **not on a pole** ([U9]'s "in a tree" resolution — the files show strand meshes with no pole entity),
+  and **no 9th `spiderdream` archetype exists** (strings and the archetype table both checked). It also **sharpens the
+  hour**: the corpus's "1–2 AM" is a file-verified **active hour 01**, completing the ladder — centre = 1, then the
+  numbered webs cover 2, 3, 4, 5 twice each. 🆕 The **`_thvy` name variant appears nowhere else in the game**, and two of
+  the four meshes carry it — plausibly the letter/symbol-bearing meshes (the `N` + pole glyph of [K11]), though the files
+  don't say so. *([#89].)* → [K11](known-facts.md), [U9](unknowns.md), [05](../threads/05-spider-web-trail-2025.md)
+- **K52.** **The Butcher Creek pentagram is `cablemesh277747_hvlit001` — the same asset family as the spider webs —
+  its active hour is `04:00`, and it is the ONLY single-hour prop in the entire game with the on-screen-change bit set.**
+  Found blind by the same census at **(2592.52, 831.74, 82.79)**, 1–3 m from `but_house_hd002` and its porch props. Two
+  file-level facts follow. (a) **The 2018 pentagram and the 2025 webs are built from the same `cablemesh*_hvlit001`
+  drawable family** — an asset-level link between the two halves of the mystery that no community source has stated, and
+  the hardest evidence yet for [S41] ("one continuous designed relay"). It also makes [K15]'s "the webs + pentagram are
+  mesh cables" precise, with names. (b) Its flags are **`0x1000010`** — single-hour, **on-screen change allowed** — where
+  all 8 webs plus the centre are off-screen-only. **That is exactly the firsthand [K30] asymmetry, now file-confirmed:**
+  the pentagram *does* appear and disappear while you watch it; the webs do not. Render-gating is therefore a **per-asset
+  authored flag**, not an engine-wide behaviour — the flag was set differently for the webs deliberately, which is a
+  modest point *for* web intentionality ([U2]). ⚠️ The pentagram's coordinates also sit within ~1.1 m of Group 1's
+  `entitiesExtents` **X-max corner** (2593.6, 880.6) — see [U36], which asks whether it is literally the entity defining
+  that corner, and thus the mundane cause of [S22]'s "oversized North boundary reaching Butcher Creek."
+  *([#89].)* → [K5](known-facts.md), [K30](known-facts.md), [S41](speculation.md), [U36](unknowns.md),
+  [02](../threads/02-butcher-creek-carvings.md)
 
 ## Carving technique (how we separate clue from pareidolia)
 - **K15.** The signature symbols (`LJ`/`SM`, Fort Brennand icons, Fort Wallace birds) are **modelled into the mesh geometry and

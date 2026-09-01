@@ -15,6 +15,36 @@ is our most likely encoding of that order, and capturing it is the single highes
 > that is the genuine capture-only task (try frame-pulling the video below first).
 
 ## Established facts (primary wiki + community research site)
+
+> **⚡⚡ FILE-DATA PASS, 2026-09-01 ([#89] — first-party CodeX read of the shipped `.ytyp`/`.ymap`/`.yft`). Read this
+> before using anything below on boundaries, order, or per-web signal.** Four results change how this file should be
+> used:
+> 1. **[K45]/[K46]/[K47] — there is no per-web signal in the data.** All 8 feather fragments are identical in geometry
+>    (48 verts/48 tris, same bbox to the millimetre), breakability (every feather takes *exactly* the same force),
+>    rotation (identity quaternion on all 8 — agreeing with the tip-down capture result) and entity flags. Only three
+>    axes differ: `lodDist` (Saint Denis 31 vs 37 — confirming [#52]'s render-distance anomaly from files), the
+>    `textureDictionary` (3 sets matching the 3 region ymaps; **Cornwall/03x alone carries its textures internally**),
+>    and a **reds-only `tintpalettetex`** whose three palettes are **byte-identical**. ⟹ *"the palette / a hidden field
+>    encodes the order"* is **ruled out**; the [U29] mechanic must be state or behaviour.
+> 2. **[K48] — the three "boundaries" are three ordinary region `.ymap` files' extents**, not bespoke puzzle geometry:
+>    `jklm_7_10_rds_props_strm_0` (= Top/`B34`) · `jklm_11_14_rds_props_strm_0` (= Middle) · `nopq_11_14_rds_props_strm_0`
+>    (= Bottom). They reproduce the firsthand [K31] membership on **both** the tied and the "also contains" columns.
+>    See **[H28]** for the mechanism reading (leaving unloads the ymap; re-entering re-streams it → the feathers snap
+>    back), which **supersedes [S36]**.
+> 3. **[K49] — the triple overlap does not exist, and at most 6 feathers can be down at once.** Top and Bottom are
+>    **disjoint** (10.50 m gap); only the Middle spine bridges them. Reaching `B34` (50 m west of Middle's streaming box)
+>    or `R34` (638 m east) **unloads the Middle and restores its four blacks** ⟹ **"all 5 blacks visibly down" is
+>    geometrically impossible.** Every protocol below that assumed a hold-through-the-overlap or an all-blacks visible
+>    set is affected — see the Interaction ORDER section.
+> 4. **[K51]/[K52] — the centre web and the Butcher Creek pentagram are now named, coordinated assets** on file-verified
+>    hours **01:00** and **04:00**; the pentagram is `cablemesh277747_hvlit001`, the **same drawable family as the web
+>    strands**, and the only single-hour prop in the game allowed to change on-screen (file-confirming [K30]).
+>
+> Renders: [`web_ymap-extents_strm0-annotated.png`](web_ymap-extents_strm0-annotated.png) ·
+> [`web_ymap-extents_strm0-clean.png`](web_ymap-extents_strm0-clean.png) ·
+> [`web_ymap-extents_g1-g3-gap.png`](web_ymap-extents_g1-g3-gap.png) ·
+> [`web_ymap-extents_boundary-groups.png`](web_ymap-extents_boundary-groups.png) (the earlier parent-ymap version).
+
 - **8 outer feathered webs + 1 CENTRE cluster.** Outer webs sit on telegraph poles, each with one feather, each time-locked
   to a night hour. The centre cluster (the spider's "body") appears **1–2 AM**, has **NO feathers**, and lines up to spell
   **`N` + a telephone-pole glyph** (= go north).
@@ -26,6 +56,13 @@ is our most likely encoding of that order, and capturing it is the single highes
   [`web_cable-mesh_datamine.png`](web_cable-mesh_datamine.png), which also marks the feather attach-points in the mesh). So
   each web is **not** a unique asset — what varies per web is **which attach-point/position the feather occupies**, confirmed by
   the 8 front shots showing visibly different positions. Deliberate per-web positioning: yes; unique per-feather files: no.
+  ⚠️⚠️ **THE "4 REUSED MODELS" HALF IS NOW SUSPECT (2026-09-01 → [U40]).** The [#89] archetype census reads those **same
+  four names** as a single cluster within ~1 m at (1282.0, −131.6) active **only at hour 1** — i.e. **the CENTRE web**
+  ([K51]) — and reports **994 archetypes / 994 placements, 1:1, "each is a unique baked prop."** If that is right, the 8
+  outer webs have their **own** uniquely-named strand archetypes and thecochiti's wireframe is a picture of the *centre*
+  cluster (whose "feather attach points" would be an inference — the centre is featherless). **Do not cite the
+  "4 reused models" line as established** until [U40] settles it; the *feather-side* uniqueness finding
+  (one shared `wap_gen_feather01` texture, identical fragments — [K46]) is unaffected and stands.
   ✅ The per-location numbers are now **publicly sourced (C-tier)** — [U32] resolved 2026-07-02, see the provenance note below ([K39]).
 - **Feather colours: 5 BLACK + 3 RED** (operative label — wiki + game-file dump agree on "black"). The **3 red** webs are
   **Saint Denis, Southfield, Scarlett**; the **5 "black"** are **Cornwall, Oil Fields, Overflow, Emerald, Ringneck**.
@@ -93,8 +130,13 @@ Scarlett = **3 ✅**.
 > **Centre substrate ([U9] resolution, 2026-07-05):** the centre site is **not a pole** — both Jan-2026 discovery pieces
 > (#8 RDR2.org, #10 Daily Dot) put the ninth/central web **in a TREE** ("a ninth, larger web hidden within a tree at the
 > center of the formation"). Wording residual: journalism = *one huge web*; the primary wiki = *"another set of webs"*
-> (plural) lining up to spell `N`+pole — unpinned until a 🎮 glance. ⚠️ **Not** the whiskey tree on current data (the
-> triple-overlap sliver excludes the centre web — see the boundary note below).
+> (plural) lining up to spell `N`+pole. **⚡ Largely settled from files 2026-09-01 ([K51], [#89]):** the site is **four**
+> `cablemesh*` meshes within ~1 m at **(1282.0, −131.6, ~99.7)**, active **only at hour 01**, with **no pole entity and
+> no feather** — so the wiki's *plural* is the accurate description and the journalism's "one huge web" is the
+> compression, and the **non-pole** finding is file-confirmed. (The files show no *tree* either way — a tree is scenery,
+> not a time-gated prop — so the substrate itself still wants a 🎮 glance.) ⚠️ **Not** the whiskey tree: the centre web's
+> file coordinates simply aren't the tree's. *(The old argument here — "the triple-overlap sliver excludes the centre
+> web" — is void: [K49] shows there is no triple overlap.)*
 
 > **★ Colour×hour lattice ([KNOWN] re-tabulation of [K13a], 2026-06-14 — [`web_colour_group_order.py`](../../experiments/web_colour_group_order.py)).**
 > Laid out by hour, the structure is clean: **each of 2–3 / 3–4 / 4–5 AM carries exactly one black + one red**, and **5–6 AM
@@ -133,6 +175,16 @@ Scarlett = **3 ✅**.
 > `R`); the reads are no longer C-tier-image-dependent, though still eyeballed pending raw entity data. The table
 > above reflects this; full detail in [`feather-positions/README.md`](feather-positions/README.md).
 
+> **⚠️ READ FIRST (2026-09-01): the file geometry constrains every protocol below ([K49]).** At most **6** feathers
+> can be displaced simultaneously — `B23, B45, B56, B56L, R23, R45`, exactly those inside the Middle ymap's box —
+> because travelling to `B34` or `R34` leaves that box and re-streams the four blacks back into their webs. **No
+> visible state containing `B34` is reachable**, so: the [H24]/**Test C** two-night blacks solve cannot end in a
+> visibly-complete set (it collapses into [H22]-**R2**, the hidden-flag exit); [H22]-**R1** (hold state through the
+> central overlap) is dead, because that overlap does not exist; and the two published all-5-blacks-in-one-night
+> completions ([#71]) that found nothing are **explained** — their earlier blacks were back up before the run ended.
+> The cheapest surviving discriminators are **Test D** ([H27], no shots at all) and the [H28] control test (does an
+> unrelated prop in the same 3 ymaps reset the same way?).
+
 ## Interaction ORDER (the most important open mechanic)
 > **⚡ File-numbers-as-order TESTED (desk, 2026-07-02 → [S38]).** First systematic test of this table's `File` column read
 > as an ordering ([`web_file_order_concordance.py`](../../experiments/web_file_order_concordance.py),
@@ -159,7 +211,12 @@ Scarlett = **3 ✅**.
 > **community identification labels**, not game art), whose only observed function is **resetting feather state on player
 > exit** — yet overlaid on the map they read as intentional (N bar / S bar / N–S spine + deliberate overlaps). Why they
 > exist — and why `B34` alone gets a private oversized boundary reaching Butcher Creek/Fort Brennand/Valentine — is open
-> ([S22]/[H21]/[U29]).
+> ([S22]/[H21]/[U29]). **⚡ ANSWERED-MUNDANE 2026-09-01 ([K48]/[H28], [#89]):** they exist because they are **region
+> `.ymap` files**. `B34` gets its "own" boundary because Cornwall falls in a different region tile
+> (`jklm_7_10_…`) from the other four northern blacks (`jklm_11_14_…`); the box reaches Butcher Creek because the
+> **Butcher Creek pentagram is ~1.1 m from that box's own corner** ([K52]/[U36]). The "overlaid on the map they read as
+> intentional" impression — [S36] — does not survive: the shapes are region-file extents. What is *not* explained by
+> streaming, and stays the interesting residual, is [K29]'s exact-position, live-updated, ≥14-night retention.
 >
 > **⚠️ Provenance note (investigator, 2026-07-02) — CORRECTED by the same-day Reddit sweep:** the mapping *work* was done
 > **privately, in a Discord** the investigator is a member of, and most of the community still doesn't know the feathers
@@ -224,8 +281,10 @@ Scarlett = **3 ✅**.
   at** — so render-gating is *not* a blanket engine behaviour, only the webs are hidden this way; reads as deliberate "hide the
   webs, show the pentagram," a weak point *for* web intentionality ([U2]/[H22] R3).
 - **[KNOWN — investigator data, 2026-06-14 → [K28]] Boundary GEOMETRY = an I-beam / "工".** **North** spans **east–west**,
-  **South** spans **east–west**, the **Connector** spans **north–south** (the vertical spine joining them); **all three overlap
-  slightly near the map centre**, and that overlap **excludes the central featherless web**. Geographically grounds [H9]
+  **South** spans **east–west**, the **Connector** spans **north–south** (the vertical spine joining them); ~~**all three overlap
+  slightly near the map centre**~~ ⚠️ **CORRECTED 2026-09-01 ([K49], [#89]): there is NO triple overlap** — North and
+  South are disjoint by a 10.50 m band; each bar overlaps only the Connector spine. The overlap in any case
+  **excludes the central featherless web** (whose file coordinates are (1282.0, −131.6), [K51]). Geographically grounds [H9]
   (index black `B34` = North bar; the 4 connector blacks = spine; the 3 reds = far South bar). The central overlap is the only
   spot inside >1 boundary at once → candidate mechanism for *holding* a group's shot-off state ([U29]).
 - **[SPECULATION → [H20]] The solution is MULTI-NIGHT, one colour-group per night.** Geometry ([K28]) + the colour×hour lattice

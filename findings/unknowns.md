@@ -56,8 +56,28 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   **STILL OPEN:** (a) the **central-overlap state-hold** sub-question tested **negative-leaning** (camping in the overlap did
   *not* preserve state across a boundary exit; the feather reset — though an invisible internal flag may persist, untested);
   (b) **`B34`'s role** (start vs last feather); (c) the **red-feather function**; (d) whether you must shoot **all** of a
-  boundary's feathers before crossing. → [K29](known-facts.md), [H20](speculation.md), [K28](known-facts.md),
-  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md), [connections §5a](../analysis/connections.md)
+  boundary's feathers before crossing.
+  **⚡⚡ FILE-DATA PASS 2026-09-01 ([#89]) — two hard results, both deflationary, and the crux moves.**
+  **(1) There is no hidden order field.** A byte-level read of all 8 archetypes/fragments/placements ([K46]/[K47]) shows
+  them **identical** in geometry, breakability, rotation and entity flags, with only three differing axes — `lodDist`
+  (Saint Denis 31 vs 37), `textureDictionary` (3 region sets), and a reds-only `tintpalettetex` whose **three red
+  palettes are byte-identical**. Nothing encodes a 1–8 order or any asymmetry beyond position, hour and colour. The
+  "the data knows the order" family of solutions is **closed**; whatever the mechanic is, it is **state/behaviour**, not
+  a field.
+  **(2) The reset boundaries are ordinary ymap streaming extents ([K48]), and their geometry caps the puzzle
+  ([K49]).** North and South are **disjoint** (10.50 m gap — no triple overlap, correcting [K28]); **at most 6 feathers
+  can ever be down at once** (`B23,B45,B56,B56L,R23,R45`), because reaching `B34` or `R34` forces a Group-2 unload. ⟹
+  **"all 5 blacks visibly down" is geometrically impossible**, killing the visible-state form of [H24]'s solve and of
+  [H22]-R1; only a **hidden flag** ([H22]-R2) or a **non-state reading** ([H27]) survives. Sub-question (a) above is
+  therefore **resolved-negative in its visible form**: the central overlap that was supposed to hold state does not
+  exist.
+  **What U29 now is:** given that the ruleset is streaming behaviour ([H28]) and nothing in the files encodes an order,
+  either the mechanic is a hidden flag no observation has yet caught, or **the feather-shooting premise itself is wrong
+  ([H27])**. That makes **Test D (witness-only) the discriminator to run first**, and [S36]'s hand-authored-design
+  argument — a load-bearing plank under "the reset rules mean something" — no longer stands.
+  → [K29](known-facts.md), [H20](speculation.md), [K28](known-facts.md), [K46](known-facts.md), [K48](known-facts.md),
+  [K49](known-facts.md), [H28](speculation.md), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md),
+  [connections §5a](../analysis/connections.md)
   **🔑 REFRAMED 2026-06-14 → [H22]:** the *within-boundary* order is **already solved on all three** (South any-order /
   Connector chain / North=`B34` last), so the order isn't bottlenecked on "which sequence." Under "`B34` last" the **global**
   problem is just **2 meta-orders** (reds-first / blacks-first), each needing ≥1 boundary crossing — and there **[K29]
@@ -286,7 +306,16 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   substrate stays unpinned; a 🎮 glance settles it. ⚠️ Boundary-discipline note, recorded so nobody conflates: a lone
   **tree** at the centre invites the [whiskey tree](../locations/whiskey-tree.md) ([S23]) — but the firsthand boundary
   geometry already places the centre web **outside** the triple-overlap sliver the whiskey tree sits in ([K28] pass), so
-  they are **distinct trees** on current data. → [05](../threads/05-spider-web-trail-2025.md)
+  they are **distinct trees** on current data. ⚠️ *(That particular argument is now void in its stated form — [K49]
+  shows there is **no triple overlap** for the whiskey tree to sit in. The conclusion survives on other grounds: the
+  centre web's file coordinates are **(1282.0, -131.6)**, which is not the whiskey tree.)*
+  **⚡ RESIDUAL LARGELY CLOSED 2026-09-01 ([K51], [#89]):** the centre site reads out of the files as **four**
+  time-gated `cablemesh*` meshes within ~1 m at (1282.0, -131.6, ~99.7), with **no pole entity and no feather** — so
+  the wiki's *plural* "another set of webs" is the accurate description and the journalism's "one huge web" is the
+  compression, **and the non-pole finding is confirmed from files** (though the files show no *tree* either way — a
+  tree is scenery, not a time-gated prop, so this neither confirms nor denies the substrate). The hour also sharpens
+  from "1–2 AM" to a file-verified **active hour 01**. A 🎮 glance is now only wanted for the substrate.
+  → [05](../threads/05-spider-web-trail-2025.md), [K51](known-facts.md)
 - **U10. [PARTLY RESOLVED 2026-07-05]** Fort Brennand tally counts and the three tower symbols. **Counts CONFIRMED B-tier
   ×2** (wiki + GameRant, [#81] pass): **6** (the fort's one outhouse, five-bar gate + 1) and **7** (gate + 2, above the
   **guard-tower** entrance, exterior; symbols opposite/above the interior doorframe). Symbols 1–2 undisputed (**telegraph
@@ -483,6 +512,70 @@ The live problem set. Anything here that gets resolved should move to [known-fac
   sourced bridges are [K38]+[K24] (both nod to GTA V Chiliad) and a shared **~2 AM** gate ([K11] centre webs 1–2 AM; [K37] UFO
   2 AM). No source links the sundial to the spider trail directly. Held **skeptical** — most likely two independent "mountain +
   UFO + time-gate" eggs, not one puzzle. → [09](../threads/09-mount-shann-sundial.md)
+
+## File-level questions opened by the CodeX readout ([#89], 2026-09-01)
+These are all **concrete and cheap** — three are answerable with the same tooling that produced [K45]–[K52], one needs a
+glance in-game.
+
+- **U36. Which ymap holds `cablemesh277747_hvlit001` (the Butcher Creek pentagram), and does it define Group 1's eastern
+  corner?** The pentagram's coordinates **(2592.52, 831.74, 82.79)** sit within **~1.1 m** of Group 1's `entitiesExtents`
+  X-max/Y-max corner **(2593.6, 880.6)** ([K48]/[K52]). If the pentagram (or an immediately adjacent prop) is the
+  easternmost entity in `jklm_7_10_rds_props_strm_0`, then **[S22]'s "the North boundary deliberately reaches Butcher
+  Creek" has a fully mundane cause**: the pentagram lives in the same region container as `B34`'s web, and the container's
+  box is simply drawn around its own contents. That would be a clean deflation of [S22]/[H21] — or, if the pentagram
+  turns out to be in a *different* ymap and the corner belongs to something else, the coincidence stays interesting.
+  ⚠️ Note the deflation is only of the *boundary* argument: the pentagram and the webs sharing an **asset family**
+  ([K52]) is a separate and still-live point for [S41]. **How:** one more CodeX query — which ymap contains that entity,
+  and which entity defines the G1 corner. → [K52](known-facts.md), [S22](speculation.md), [H21](speculation.md)
+- **U37. What does the webs' shared particle effect actually render?** Every one of the 8 archetypes carries an identical
+  `CExtensionDefParticleEffect` with `fxName = vYYFKTA_0xC5876498` — an **obfuscated/unresolved hash** absent from CodeX's
+  421k-line name dictionary — at the same offset, colour and probability, differing only in a meaningless per-item GUID
+  ([K46]). ⚡ **This CONFIRMS a claim the corpus was carrying at C-tier and had never independently checked:** the [#52]
+  datamine described the `spiderdream` fragment as carrying *"the blue particle glow"* (see [S39]). An effect
+  extension is now file-verified to exist and to be **identical on all 8** (so it is not a per-web channel); its
+  **identity and appearance are what's open**, including whether "blue glow" is even the right description. Two cheap
+  attacks:
+  a **wordlist/joaat attempt on the hash**, and an **in-game look** at a web at its hour (dust, drifting silk, a glow — and
+  is it on the feather, the strands, or both?). A visible effect would also matter to [K30]'s render-gating and to capture
+  technique. → [K46](known-facts.md), [S39](speculation.md)
+- **U38. What produces the [K40] SECOND feather, given `DrawableArrayCount = 0`?** Each `spiderdreamNNx.yft` fragment
+  carries **no embedded second drawable** ([K46]), yet every web demonstrably shows a main + a smaller secondary feather
+  at one socket (firsthand across all 8, plus [#10] in print). So the doubling must come from a **separate entity** or
+  from the **strand (`cablemesh`) geometry** — which are meaningfully different answers: a separate entity could in
+  principle carry its own per-web variation (a channel the corpus has never checked), whereas geometry baked into a
+  reused strand model could not. **How:** enumerate entities within a metre of a web's feather socket in the ymap, and
+  inspect the `cablemesh*_hvlit001` drawable for feather geometry. → [K40](known-facts.md), [K46](known-facts.md),
+  [U0](#highest-priority-could-break-the-case-open)
+- **U40. ⚠️ Is the corpus's "the 8 webs reuse 4 `cablemesh` models" claim WRONG — and if so, is per-web strand
+  geometry an unread channel?** A cross-check thrown up by integrating [#89]. The
+  [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md) file-uniqueness note (2026-06-14) states the web geometry is **4
+  reused `cablemesh*.ydr` models — `cablemesh87397/87399/87405/87455`** (thecochiti datamine,
+  [`web_cable-mesh_datamine.png`](../images/webs/web_cable-mesh_datamine.png)), and that "deliberateness is in
+  PLACEMENT, not unique files." But the [#89] census reads those **exact four names** — `cablemesh87397_thvy001`,
+  `cablemesh87399_thvy001`, `cablemesh87405_hvlit001`, `cablemesh87455_hvlit001` — as **one cluster within ~1 m at
+  (1282.0, -131.6), active only at hour 1: the CENTRE web** ([K51]). And it reports **994 archetypes / 994 placements,
+  1:1 — "each is a unique baked prop."** Those two pictures cannot both be right.
+  **If the census is right** (and it is the stronger source — a direct archetype-table read vs a C-tier community
+  wireframe): the four named meshes are the **centre cluster only**, each of the 8 outer webs has **its own uniquely
+  named strand archetypes**, and there is a **per-web geometry channel this corpus has never read** — which matters,
+  because [K46] closed the *feather* side of [U29] but says nothing about the strands. It would also mean
+  thecochiti's image is a picture of the **centre** web, and its yellow "feather attach points" annotation is that
+  author's inference — notable, since the centre is **featherless** ([K11]/[K51]).
+  **How to settle it (cheap, same tooling):** list every `cablemesh*` archetype with its placement coordinates, and
+  check whether the 8 web sites carry distinct names. Then diff their geometry — if the 8 outer webs' strand meshes
+  differ from each other by more than transform, that is a live [U29] channel; if they are 8 instances of one model,
+  the manifest's claim survives in spirit and only the *names* were mis-attributed.
+  ⚠️ Until settled, treat the manifest's "4 reused models" line as **suspect, not refuted** — flagged in place there.
+  → [K51](known-facts.md), [K46](known-facts.md), [K13a](known-facts.md), [U29](#highest-priority-could-break-the-case-open), [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md)
+- **U39. Do the four Fort Wallace buildings' staggered lighting hours mean anything?** `old_01_bsmith_em` 21:00–24:00 ·
+  `old_01_quater2_em` 22:00–03:00 · `old_01_quater_em` 23:00–05:00 · `old_01_capt_em` 00:00–06:00 — **four distinct
+  hand-authored schedules in one location, the densest cluster of schedule deviation in the game** ([K50]), with starts
+  laddering **21 → 22 → 23 → 00**. The mundane reading is set dressing (a fort settling down watch by watch), and that
+  is the favoured one. But this is **Fort Wallace — the mystery's last verified clue ([K16])** — and the corpus's own
+  discipline says log the data and don't build on it: see [S47]. **Open specifically:** is a 21/22/23/00 ladder a
+  *reused* Rockstar pattern (check other forts/camps in the census) or unique to `old_`? That is answerable from the
+  same census data and would settle it either way. → [K50](known-facts.md), [S47](speculation.md),
+  [06](../threads/06-bird-carving-giant-wapiti.md)
 
 ---
 

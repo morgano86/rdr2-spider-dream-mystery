@@ -51,6 +51,19 @@ polices elsewhere. (This is the same validate-by-what-you-find logic as the [K15
   carved in-world text about dreams sits at that shared node ([K10]); and the community's name for the whole mystery —
   on *both* sides — is the Spider **Dream**. The asset layer and the carved layer use the same word.
 
+### 🆕 An asset-level link (file data, 2026-09-01 — [K52], [#89])
+
+Every link above is narrative, geographic or stylistic. This one is **shared implementation**, read out of the shipped
+files: the **Butcher Creek floorboard pentagram** (2018 half) is **`cablemesh277747_hvlit001`** — the **same
+`cablemesh*_hvlit001` drawable family** as the eight spider-web strands (2025 half) — time-gated through the same
+`timeFlags` channel, at hour **04:00**. It makes [K15]'s loose *"the webs + pentagram are mesh cables"* precise, with
+asset names, and it is the first evidence that the two halves were built with the same tool by the same hand.
+
+⚠️ **Weight it honestly.** `cablemesh` is a **generic** engine drawable class, not a bespoke asset, and the two sites
+are near neighbours inside the same region container ([K48]) — either is a mundane reason to share one. It raises the
+floor under the relay verdict; it does not promote it. (The *boundary*-based version of this argument, [S22]/[H21], went
+the other way in the same pass: those zones turned out to be ordinary ymap extents — [H28].)
+
 ### Counters, weighed honestly
 
 1. **Community-assembly risk.** The chain as narrated is a late-2025 community assembly; links could be correlated
