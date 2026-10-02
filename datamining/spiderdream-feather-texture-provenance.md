@@ -2,7 +2,7 @@
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-**Task:** none (ad-hoc user question) · **Completed:** 2026-09-19 · **Outcome:** positive **One line:** The Wapiti feather source set ships albedo and normal only — no material map — so the spiderdream feather's `speculartex` slot was filled with `val_doc_feather01_ma`, a flat featureless tile whose only surviving copies in the entire game are the two spiderdream prop dictionaries; and the Valentine doctor's "feather" is a ball of down, not a plumed feather, which is why it can't be found by looking for one.
+**Date:** 2026-09-19 · **Outcome:** positive **One line:** The Wapiti feather source set ships albedo and normal only — no material map — so the spiderdream feather's `speculartex` slot was filled with `val_doc_feather01_ma`, a flat featureless tile whose only surviving copies in the entire game are the two spiderdream prop dictionaries; and the Valentine doctor's "feather" is a ball of down, not a plumed feather, which is why it can't be found by looking for one.
 
 ## Answer
 
@@ -37,21 +37,21 @@ Nothing here is anomalous for mystery purposes: it is ordinary texture-library s
   - `val_doc_feather01_ma` exists only in those same two dictionaries; `val_doc_feather01_nm` exists nowhere; `val_doctor_int`'s own dictionaries contain only `val_doc_feather01_abval_doc_feather01_al`.
 - **Pass C** — 225 PNGs dumped to `tex/`. Channel statistics via `PIL` over `val_doc_feather01_ma`: R constant 0 (sd 0), A constant 153 (sd 0), G mean 236.29 sd 11.19, B mean 250.91 sd 6.01. Both dictionary copies are statistically identical. (Note the dump goes through `Format32bppArgb`, so PNG channel order is the texture's BGRA; the flatness conclusion is order-independent.)
 - **Pass D** — 8,023 ymaps walked: `val_doctor_int` at (-286.211, 809.322, 118.410), ymap `val_03__interior_val_doctor_int_milo_`. The `val_doc_*` detail archetypes appear in no ymap entity list (MLO room contents).
-- Consistent with the earlier `SpiderSize` result (`completed/2026-07-23-spiderdream-fragment-diff.md`): the 4 textures in each regional dictionary are these 3 plus `blank_mb`, and `spiderdream03x` embeds its own copies because `jklm_7_10_rd_p_d` was never shipped.
+- Consistent with the earlier `SpiderSize` result ([`fragments-and-boundaries.md`](fragments-and-boundaries.md)): the 4 textures in each regional dictionary are these 3 plus `blank_mb`, and `spiderdream03x` embeds its own copies because `jklm_7_10_rd_p_d` was never shipped.
 
-## Method and tools
+## Method
 
-`tasks/tools/feathertex/` — `feathertex.exe` runs passes A-C (~2 min total), `feathertex.exe pos` runs pass D (~1 min). Console harness per `.claude/docs/rdr2-diag-harness.md`; build with MSBuild at `C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\MSBuild.exe` (note: VS **18**, and `/t:Restore` on first build). Outputs: `models.tsv`, `ytds.tsv`, `tex/*.png`, `run.log`.
+A console pass over the install parsed every model and texture dictionary: passes A–C (~2 min total) census the textures, pass D (~1 min) lists positions. Outputs were per-model and per-dictionary tables plus extracted PNGs.
 
-Reusable beyond feathers: both passes filter on a single `IsFeather(name)` predicate in `Program.cs` — change that one function to census any texture-name family across every model and every texture dictionary in the install.
+The census is reusable beyond feathers: both passes filter on a single name predicate, so swapping it censuses any texture-name family across the install.
 
 ## Caveats and blind spots
 
 - The sweep covers textures *packaged* in `.ytd` dictionaries. A texture supplied at runtime by another system (ped/clothing pipelines, cutscene-specific dictionaries loaded by name) would not appear; the `wap_*_ma` negative is about the shipped map/prop texture set.
 - "The Wapiti set has no material map" is a statement about what shipped, not about what the artist had in their source tree. The reason the spiderdream author reached for a *feather-named* `_ma` rather than `blank_ma` (which other feather assets do use) is inference from the naming, not established fact.
 - The identification of the Valentine down-ball as wadding/stuffing is from the texture image and the 140-tri mesh share; the object was not rendered or located in-game. Its exact identity in the back room is unconfirmed.
-- `wap_cs_feather01wap_gen_feather01_a` is read here as the blended-texture idiom (`tasks/tools/dockside/`, `<A>` + `<B>_a`), pairing a Wapiti cutscene feather with a Wapiti generic feather. The blend split for this particular suffix form (`_a`, not `_ab`/`_al`) was not independently verified.
-- Contrary to `.claude/rules/` guidance for mystery provenance work, this scan read all archives, not base packs only. Every hit landed in `levels_1.rpf` / `levels_3.rpf`, so the positive findings are base-pack facts regardless; the negatives are correspondingly stronger.
+- `wap_cs_feather01wap_gen_feather01_a` is read here as the blended-texture idiom (`<A>` + `<B>_a`), pairing a Wapiti cutscene feather with a Wapiti generic feather. The blend split for this particular suffix form (`_a`, not `_ab`/`_al`) was not independently verified.
+- Unlike the other readouts in this folder, this scan read all archives, not base packs only. Every hit landed in `levels_1.rpf` / `levels_3.rpf`, so the positive findings are base-pack facts regardless; the negatives are correspondingly stronger.
 
 ## Follow-ups
 

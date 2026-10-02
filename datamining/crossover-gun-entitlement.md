@@ -7,7 +7,7 @@
 
 User hypothesis: hidden content might be gated behind an online-service round-trip rather than script-calls- script, with the Double-Action Revolver crossover as the motivating real example. Verified first-hand from the script corpus: **no bespoke crossover script exists** - the gun rides the ordinary shop/award path, and RDR2 scripts only ever *read* awards/unlocks through shared ITEMDATABASE natives. The flag lives server-side and the award->item mapping is in the catalog/item-database metadata, **not** in bytecode. This confirms the user's round-trip intuition but refines it: there is no flag-then-validate script pair to find. Also debunked an external research lead - award id `0x521563CC` is a generic MP award-claim gate, not the revolver.
 
-**Key files:** harness `ScriptDiag` (`natstat` + new `const <hex>` modes)
+**Method:** script-diagnostic passes over the corpus (a native-call census and a constant look-up)
 
 ---
 
@@ -24,7 +24,7 @@ User's idea: a hidden secret might be gated behind an **online-service round-tri
 
 **External research + first-hand verification of its leads (2026-07-23):** research (Halen84 1491.50 decompile + alloc8or DB) confirmed the mechanism and named the natives: SP grant reads an **online award claim** (`NETWORK_AWARD_HAS_REACHED_MAXCLAIM` 0xFBE782B3165AC8EC → `_AWARDS_GET_UNLOCK_CLAIM_DATA` 0xB9467E41DAB1CF2C → `_ITEMDATABASE_FILLOUT_AWARD_UNLOCK_FLAG` 0x8D029948CA29409B); RDO uses `UNLOCK::UNLOCK_IS_UNLOCKED` 0xC4B660C7B6040E75; weapon-variant plumbing is `WEAPON::_GET_WEAPON_UNLOCK`. **No `ENTITLEMENT`-named native exists** — in RDR2 an entitlement check IS an award/unlock check. Requires linked Social Club account (`NETWORK_HAS_SOCIAL_CLUB_ACCOUNT`), gift delivery via `SOCIALCLUB::SC_INBOX_*`. Research flagged an award-claim in `startup.c` on award id `1377133516`/**0x521563CC** but couldn't prove it's the revolver.
 
-First-hand census (`natstat`) + new harness `const <hex…>` mode verified and REFINED this:
+First-hand census (native-call census) + a constant look-up pass verified and REFINED this:
 - Caller counts: `NETWORK_AWARD_HAS_REACHED_MAXCLAIM` 153; `UNLOCK_IS_UNLOCKED` **1,342** (everyday unlock check); `_GET_WEAPON_UNLOCK` 1,066; `_AWARDS_GET_UNLOCK_CLAIM_DATA`/`SC_INBOX` only `startup_mp`/`startup_tlg`; `NETWORK_HAS_SOCIAL_CLUB_ACCOUNT` 3; `_ITEMDATABASE_FILLOUT_AWARD_UNLOCK_FLAG` only `role_progression`.
 - **Award id 0x521563CC is a GENERIC award, NOT the revolver** — x1 in `startup`/`startup_mp`/`startup_tlg`, x4 in ~40 MP scripts (all shop_* MP, flow_controller MP, fm_*/net_* controllers). A baseline MP award-claim gate, not crossover-specific. The research's award-id lead is a red herring for the gun.
 - Double-action **weapon-type** hash `0x0797FBF5` (joaat `weapon_revolver_doubleaction`) in ~250 mission scripts (loadout/spawn refs; x10 each hints at a possible joaat collision, not chased); **model** hash `0x7890B0E7` (`w_revolver_doubleaction01`) in 7 (laramie1, long_update, fm_mission_controller, def_comp_brain, rcm_*).

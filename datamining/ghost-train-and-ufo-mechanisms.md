@@ -5,7 +5,7 @@
 - **Date:** 2026-09-01
 - **Status:** CLOSED — both UFOs and the ghost train fully decoded.
 - **Follows:** `2026-09-01-meteor-shower-mechanism.md`
-- **Sources:** decompiled corpus `tasks/tools/ysc-corpus-scan/corpus/1491.50` (2,194 scripts, build 1491.50); harness `tasks/tools/ufoscan/` (archetype/ymap/MLO walk + format-blind hash sweep incl. `.ysc`), output `tasks/tools/ufoscan/results.txt`; sweeps `tasks/tools/meteor/{tod,near,volumes}.py`.
+- **Sources:** decompiled script corpus (2,194 scripts, build 1491.50); an install-side walk (archetype/ymap/MLO walk + format-blind hash sweep incl. `.ysc`) plus time-of-day, proximity and volume sweeps.
 
 ## 1. Ghost train — exact trigger
 

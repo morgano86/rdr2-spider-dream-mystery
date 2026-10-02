@@ -2,7 +2,7 @@
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-Most of the Spider Dream Mystery is read off the screen. This folder holds the other kind of evidence: **readouts from the shipped game files and decompiled scripts**, run with the investigator's own tooling. They answer questions the screen can't — *is there a script behind this? is this prop special, or does the whole game do it? what is actually in that archive?* — and they explain several game mechanics that look mysterious from the outside (bird perches, the ghost train, the UFOs and the unplaced alien cave, the meteor shower, the Witch's Cauldron).
+Most of the Spider Dream Mystery is read off the screen. This folder holds the other kind of evidence: **readouts from the shipped game files and decompiled scripts**, run with the investigator's own local tooling (see [Provenance](#provenance-and-reproducibility) below). They answer questions the screen can't — *is there a script behind this? is this prop special, or does the whole game do it? what is actually in that archive?* — and they explain several game mechanics that look mysterious from the outside (bird perches, the ghost train, the UFOs and the unplaced alien cave, the meteor shower, the Witch's Cauldron).
 
 Each file is a **verbatim handoff document** from that tooling, kept so every claim stays checkable. The conclusions drawn from them live in the rollup as `K`/`U` facts (linked below) and in the source ledger ([#89]–[#101] in [`../sources/sources.md`](../sources/sources.md)).
 
@@ -10,8 +10,20 @@ Each file is a **verbatim handoff document** from that tooling, kept so every cl
 
 - **Evidence grades.** Direct reads of file contents (archives, `.ymap`, textures) are **A-tier**. Reads of the **decompiled script corpus** (a build-1491.50 dump class) are **B-tier**: they show what the code *can* do, not that it was run in-game. Each file says which applies.
 - **Many results are negative.** "No script touches the webs", "no bird is placed at any carving", "no hidden order field" are real findings: they close channels so effort isn't spent there. A negative that passed a positive control is the strongest kind.
-- **Tooling caveat.** One decoding bug in the explorer (scenario-point flags) was found and fixed on 2026-09-15; see [K59](../findings/known-facts.md) and the note in [`witches-cauldron-brew.md`](witches-cauldron-brew.md). No earlier readout in this corpus depended on those flags.
+- **Tooling caveat.** One decoding bug in the investigator's map viewer (scenario-point flags) was found and fixed on 2026-09-15; see [K59](../findings/known-facts.md) and the note in [`witches-cauldron-brew.md`](witches-cauldron-brew.md). No earlier readout in this corpus depended on those flags.
 - **Spider relevance.** Unless a row says otherwise, nothing here is a verified spider-trail step. The verified-trail boundary ([`CLAUDE.md`](../CLAUDE.md)) still applies.
+
+## Provenance and reproducibility
+
+The tools that produced these readouts (a CodeX-based archive/asset reader, small diagnostic passes over the install, and a decompiled-script corpus) are **local to the investigator and are not part of this repository**. Where a file mentions a "pass", "sweep" or "census", read it as a description of what was done, not as something you can run from here.
+
+What *is* checkable:
+
+- **Results are stated with the data needed to verify them** (coordinates, hashes, counts, script and archive names), so anyone with a legitimate install and a public tool such as [CodeWalker](https://github.com/dexyfex/CodeWalker) can re-read the same fields.
+- **Script-level claims** can be re-checked against the public decompiled-script dumps described in [#87] (`grep` for the strings and joaat hashes quoted).
+- **Nothing here depends on trusting the tooling alone:** each note says which evidence tier applies, and results that rest only on the local tooling are graded accordingly in the [source ledger](../sources/sources.md).
+
+Where a file says "the investigator's harness" or similar, that is this unpublished tooling.
 
 ## The readouts
 

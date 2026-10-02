@@ -2,7 +2,7 @@
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-**Date:** 2026-07-23 **Source:** CodeX (a separate local repo — an RDR2 archive/asset explorer + 3D scene viewer), read directly from the shipped RDR2 game files (`.ytyp`/`.ymap`/`.yft` binary data) via a throwaway diagnostic harness that boots CodeX's real archive/resource loader. This is genuine file-level readout, not a community datamine repost — for anything it states about raw file contents, treat it as at least as strong as this corpus's **A-tier**; anything about *why* the game behaves a certain way is a separate technical hypothesis, flagged as such below.
+**Date:** 2026-07-23 **Source:** CodeX (a separate local repo — an RDR2 archive/asset explorer + 3D scene viewer), read directly from the shipped RDR2 game files (`.ytyp`/`.ymap`/`.yft` binary data) via a throwaway diagnostic pass that boots CodeX's real archive/resource loader. This is genuine file-level readout, not a community datamine repost — for anything it states about raw file contents, treat it as at least as strong as this corpus's **A-tier**; anything about *why* the game behaves a certain way is a separate technical hypothesis, flagged as such below.
 
 > **Filed 2026-09-01** as corpus source **[#89]** (`sources/sources.md`), verbatim apart from this note and the file-path fix-ups at the bottom. **It HAS since been integrated** — see [K45]–[K52], [U36]–[U39], [H28], [S47] and the 2026-09-01 log entry. The "not yet integrated" status note below is preserved as it was written.
 

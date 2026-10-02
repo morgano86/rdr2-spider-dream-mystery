@@ -5,7 +5,7 @@
 - **Date:** 2026-09-14
 - **Status:** CLOSED. The emitter is found and fully decoded, including why its plume is thin (see "Why the plume is thin" below; matches the user's in-game footage). Viewer overlay added and awaiting the user's check.
 - **Prompt:** a report from about 2019 of smoke rising from an empty hillside near the Wapiti Reservation. Some people thought the puffs looked like symbols. The user found the spot in CodeX and saw no emitter there or under the map. Some had guessed it was a fog or weather emitter.
-- **Harness:** `tasks/tools/smoke/` (modes `near`, `fx`, `arch`, `ydr`, `scen`, `xml`, `fxtypes`, `grepa`, `strings`, `list`). Outputs: `near.txt`, `fx.txt`, `proxies.txt`, `list-effects.txt`, and XML dumps in `bin/x64/Debug/net10.0-windows7.0/xml/`.
+- **Method:** a local file-readout pass (near-placement, effect, archetype, model, scenario and string sweeps) over the install.
 - **Code:** new "Particle Effects" selection mode in `CodeX.Games.RDR2/RDR2Map.cs` (`UpdateParticleFxOverlay`, `EnsureEntityFxInfos`, `RDR2EntityFxInfo`).
 
 ## Answer
@@ -65,7 +65,7 @@ Markers follow the streamed entity set, so an emitter appears only when its enti
 
 ## Follow-up (same day): what `ent_amb_steam_geyser` draws
 
-Harness `tasks/tools/yptfx/` reads a ypt's `ptxFxList` root without a full parser. Modes: `YptFx.exe <asset> <effect...>` (rule graph + textures), `--evo <effect>` (per-event evolved keyframes and base spawn/life), `--behav <dict+38:rule>` (particle rule behaviour keyframes), `--dump <dict+XX:rule|@hex> [depth]` (annotated block dump), `--grep <substr>` (strings across all 385 ypts). `kfp.tsv` beside it is the 73-entry keyframe-property name table extracted from CodeWalker's `Particle.cs`; copy it next to the exe for `--evo`/`--behav`. In RDR2 the ypt holds **rules only**; textures live in `data\effects\ptfx\textures.rpf\<asset>.ytd` (HD copy under `update_4.rpf\x64\hd\...`). Root layout: `+0x10` name string, `+0x28` effect rules (core: 1,285), `+0x30` emitter rules (2,915), `+0x38` particle rules (2,404), each a `pgDictionary` (hashes at +0x20, entries at +0x30). Texture names sit beside a literal `"keyframeTexture"` string, which validates the decode.
+A small ypt reader (no full parser) reads a ypt's `ptxFxList` root. It reports a rule graph with textures, per-event evolved keyframes and base spawn/life, particle-rule behaviour keyframes, annotated block dumps, and string searches across all 385 ypts, using a 73-entry keyframe-property name table taken from CodeWalker's `Particle.cs`. In RDR2 the ypt holds **rules only**; textures live in `data\effects\ptfx\textures.rpf\<asset>.ytd` (HD copy under `update_4.rpf\x64\hd\...`). Root layout: `+0x10` name string, `+0x28` effect rules (core: 1,285), `+0x30` emitter rules (2,915), `+0x38` particle rules (2,404), each a `pgDictionary` (hashes at +0x20, entries at +0x30). Texture names sit beside a literal `"keyframeTexture"` string, which validates the decode.
 
 `ent_amb_steam_geyser` (core) is an **8-event** effect with evolutions **`Erupt`** and **`Steam`**:
 

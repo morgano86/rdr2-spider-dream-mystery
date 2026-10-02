@@ -2,7 +2,7 @@
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-**Task:** `completed/2026-09-19-cutscene-bird-blindspot.md` · **Completed:** 2026-09-19 · **Outcome:** positive **One line:** Yes. `.yas` scenes only list the birds they create themselves. The blue jay and other mission birds are spawned by the mission scripts, sometimes then handed to a cutscene, so the scene census could never see them.
+**Date:** 2026-09-19 · **Outcome:** positive **One line:** Yes. `.yas` scenes only list the birds they create themselves. The blue jay and other mission birds are spawned by the mission scripts, sometimes then handed to a cutscene, so the scene census could never see them.
 
 ## Answer
 
@@ -34,23 +34,21 @@
 
 ## Evidence
 
-- Scene census: `awk` over `tools/hunt/animscenes.tsv` column 5 for `a_c_*` bird models.
-- Archive search: `Hunt.exe ls bluejay` (and songbird, cardinal, robin, sparrow, oriole, waxwing), base packs. Blue jay assets exist only as the metaped model, textures, skinning animation, UI, audio and posematcher. There is no blue jay cutscene or animscene asset.
+- Scene census: the model column of the 938-scene animscene table, filtered for `a_c_*` bird models.
+- Archive search for `bluejay` (and songbird, cardinal, robin, sparrow, oriole, waxwing), base packs. Blue jay assets exist only as the metaped model, textures, skinning animation, UI, audio and posematcher. There is no blue jay cutscene or animscene asset.
 - Script grep over the decompiled corpus, build 1491.50, which matches the install.
 - Positive control: the known eagle in `cutscene@fin2_ext_p16` shows up in the scene census.
 
-## Method and tools
+## Method
 
-- `tasks/tools/hunt/animscenes.tsv` (Hunt `animscenes` mode).
-- `grep -liE 'a_c_(bluejay|...)' tasks/tools/ysc-corpus-scan/corpus/1491.50/script_rel/*.c`.
-- The seed greps are saved as `tasks/tools/missionbirds/seed.sh`.
+- An animscene table (scene, model, …) was exported from the game files.
+- Script grep: `grep -liE 'a_c_(bluejay|...)' script_rel/*.c` over the decompiled corpus.
 
 ## Caveats and blind spots
 
-- The decompiled corpus is a readable cross-reference. Absence claims still need first-hand `.ysc` greps (`rdr2-scripts.md`). The decompiler prints `joaat("name")` only for names it knows.
+- The decompiled corpus is a readable cross-reference. Absence claims still need first-hand `.ysc` greps. The decompiler prints `joaat("name")` only for names it knows.
 - Not yet established: which system makes the "two birds fly off" moments, and where each blue jay is placed apart from `beechers2_2_outro`.
 
 ## Follow-ups
 
-- `completed/2026-09-19-scripted-mission-birds.md`: the full census of script-placed birds, the two-birds pattern, the blue jay placements, and distances to the mystery sites against a control.
-- The cutscene task (`completed/2026-09-19-cutscene-content.md`) now carries a caveat on its "Birds" section.
+- [`scripted-mission-birds.md`](scripted-mission-birds.md): the full census of script-placed birds, the two-birds pattern, the blue jay placements, and distances to the mystery sites against a control.

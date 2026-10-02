@@ -2,7 +2,7 @@
 
 > *New here? See the [README](README.md) for the overview and the [glossary](GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
+Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed. For the current state of the case, read [`STATUS.md`](STATUS.md) first; this log is the full history.
 
 ## 2026-10-02 (feather-texture provenance, [#101]) — [K64]/[U43] minted: the web feather's textures are a mixed triple from three source sets (library scavenging); "dedicated texture" over-read corrected
 

@@ -6,8 +6,7 @@
 - **Status:** done (script-level answer); two in-game checks suggested, not run
 - **Question (user):** at `dis_grz_witch_lair` the player can drink from the cauldron and passes out. Community claims: eases Arthur's illness, refills cores/bars, drinkable once by Arthur and once by John. What does it do?
 - **Outcome:** it is the `WB_DISCO_WITCHES_CAULDRON` world discovery. Drinking plays a scenario, fades out, moves you **~53 m** down the hill, lays you on the ground for 3 s with your horse waiting, fades in, and sets the discovery complete. **No health, stamina, Dead Eye, core, illness, clock, weather, item, money or honor change.** It works once per **save**, with no check for which character is playing. The flag is never cleared.
-- **Sources:** decompiled corpus `tasks/tools/ysc-corpus-scan/corpus/1491.50/script_rel/discoverable_generic_location.ysc.c` (plus `sleeping_scenario.ysc.c`, `startup.ysc.c`), first-hand metadata sweep and scenario-region dump via `tasks/tools/witchbrew/` (copy of `firepit/`, adds a `hex` mode).
-- **Related rules:** `rdr2-scripts.md` ("Discoveries are scenario points"), `rdr2-diag-harness.md`.
+- **Sources:** decompiled script corpus, build 1491.50 (`discoverable_generic_location.ysc.c`, plus `sleeping_scenario.ysc.c`, `startup.ysc.c`), with a first-hand metadata sweep and scenario-region dump of the install.
 
 ## Identity
 
@@ -64,8 +63,7 @@ Other points at the lair: `ransack_reach_over_volume_narrow_0m5_0m5_2m0`, `ransa
 ## Reproduce
 
 ```
-grep -rn 1464664327 corpus/1491.50/script_rel      # every table/branch for the cauldron
-tasks/tools/witchbrew: WitchBrew.exe sweep <names…> | scen WB_DISCO_WITCHES_CAULDRON | props 70 | hex <file> <off…>
+grep -rn 1464664327 script_rel      # every table/branch for the cauldron, over the decompiled corpus
 ```
 
-`cg.py` (call graph, `up <func>` = caller chains, `down <roots> <regex>` = reachable lines matching regex) is kept in `tasks/tools/witchbrew/cg.py`.
+The install-side half (scenario-region dump, prop list, hex reads) used the investigator's local tooling, which is not published here; the coordinates and flags in this note are the checkable output. A call-graph helper (caller chains upward, reachable lines downward) was used for the script trace.

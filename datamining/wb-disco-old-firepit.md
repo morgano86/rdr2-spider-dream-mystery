@@ -5,8 +5,8 @@
 - **Date:** 2026-09-14
 - **Status:** CLOSED — mechanism and all placements decoded. Not a mystery lead.
 - **Prompt:** user asked to look into `WB_DISCO_OLD_FIREPIT`.
-- **Source:** decompiled corpus `tasks/tools/ysc-corpus-scan/corpus/1491.50` (mainly `discoverable_generic_location.ysc.c`) + first-hand data pass with harness `tasks/tools/firepit/` (outputs `scen.txt`, `props.txt`, `sweep.txt`; region XML dumps in `bin/.../xml/`).
-- **Related:** `completed/2026-09-01-meteor-shower-mechanism.md` (same discovery system), `rules/rdr2-scripts.md`.
+- **Source:** decompiled script corpus, build 1491.50 (mainly `discoverable_generic_location.ysc.c`) + a first-hand scenario-point and prop data pass over the install.
+- **Related:** [`meteor-shower-mechanism.md`](meteor-shower-mechanism.md) (same discovery system).
 
 ## What it is
 

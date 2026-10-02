@@ -2,7 +2,7 @@
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-**Task:** `completed/2026-09-19-bird-perch-scenarios.md` · **Completed:** 2026-09-19 · **Outcome:** negative **One line:** No bird or animal is placed to appear at any carving — and the tower carrying the two carved birds is the only one of Fort Wallace's four towers with **zero** bird-perch points near it.
+**Date:** 2026-09-19 · **Outcome:** negative **One line:** No bird or animal is placed to appear at any carving — and the tower carrying the two carved birds is the only one of Fort Wallace's four towers with **zero** bird-perch points near it.
 
 ## Answer
 
@@ -24,7 +24,7 @@ All five carved Butcher Creek outhouses have a `world_human_pee` point **1.1–1
 
 **Perch types** (base packs): `world_animal_bird_on_perch` 6,222 · `sparrow_on_perch` 1,862 · `crow_on_perch` 1,005 · `heron_on_perch` 328 · `vulture_on_perch` 322 · `eagle_on_perch` 270 · `seagull_on_perch` 214 · `pelican_on_perch` 82 · `eagle_eating_perched` 43 · `parrot_on_perch` 27 · `californiacondor_on_perch` 15 · `vulture_sunning_perched` 9 · `crow_drink_perched` 2.
 
-**Per-mark table** (`tasks/tools/perch/perch-run.txt`):
+**Per-mark table** (output of the perch pass):
 
 | mark | world | nearest perch | nearest bird | nearest animal | nearest any | perch ≤25 m | perch ≤50 m |
 |---|---|---|---|---|---|---|---|
@@ -39,7 +39,7 @@ All five carved Butcher Creek outhouses have a `world_human_pee` point **1.1–1
 | butcher_tally2 | (2513.27, 761.77, 74.02) | 13.1 | 13.1 | 9.0 | 1.1 | 1 | 1 |
 | butcher_tally1 | (2572.89, 821.51, 79.25) | 51.1 | 17.5 | 11.4 | 2.4 | 0 | **0** |
 
-**Controls.** Comparable places, not random points (the method rule in `rdr2-mysteries.md`):
+**Controls.** Comparable places, not random points:
 
 | control group | n | nearest perch: min / p10 / median / p90 | perch ≤25 m median (mean) |
 |---|---|---|---|
@@ -52,28 +52,23 @@ All five carved Butcher Creek outhouses have a `world_human_pee` point **1.1–1
 **Positive controls.**
 1. *Coordinate transform.* World = entity position + **R(q)ᵀ** · local (the stored ymap quaternion is the conjugate). All six world positions already recorded in `rdr2-carvings.md` reproduce from the local offsets to **≤ 0.01 m**. This is what licensed computing the three fort positions the doc was missing.
 2. *Layer completeness.* `Clusters` is empty in every base region, and every entity-override `spawnType` is a human seat/hitching-post prop, so `MyPoints` is the entire point set — there is no second place a bird perch could hide.
-3. *Point count* agrees with the independent 2026-07-25 metasweep parse (131,939 base vs 131,853 via `DataFileMgr`).
+3. *Point count* agrees with the independent 2026-07-25 parse (131,939 base vs 131,853 via `DataFileMgr`).
 
-## Method and tools
+## Method
 
-- `tasks/tools/hunt/` mode **`xml 'rdr3\scenario\' <dir>`** — dumps all 1,375 scenario-region `.ymt` copies to XML in 12 s. The `CScenarioPointRegion` schema resolves **fully**, so no hash cracking was needed: `ScenarioType`, `ModelSet`, `GroupName`, `InteriorName`, `iTimeStartOverride`/`iTimeEndOverride`, `iProbability`, `Flags`, `Pitch`, `vPositionAndDirection`.
-- `tasks/tools/hunt/` mode **`archsub <substr>...`** (new, `Place.cs`) — every base-ymap placement whose resolved archetype name contains any substring, with position and rotation. Written as the general control-group source for "is X near this thing" questions. Outputs kept as `tasks/tools/perch/outhouses.tsv` (194 rows) and `towers.tsv` (50 rows).
-- `tasks/tools/perch/perch.py <scenario-xml-dir>` — parses the XML dumps, classifies every point, applies the conjugate-rotation transform to the carving local offsets, and prints the per-mark table, the controls and every animal point within 60 m of a mark. Outputs `points.tsv` (131,939 rows) and `perch-run.txt`. Runtime ~40 s.
-- Existing `tasks/tools/metasweep/` mode `scenario` was **not** reused: it reads only `vPositionAndDirection` and reports a single nearest point per target, with no type, model set or time window.
+- All 1,375 scenario-region `.ymt` copies (`rdr3\scenario\`) were dumped to XML (12 s). The `CScenarioPointRegion` schema resolves **fully**, so no hash cracking was needed: `ScenarioType`, `ModelSet`, `GroupName`, `InteriorName`, `iTimeStartOverride`/`iTimeEndOverride`, `iProbability`, `Flags`, `Pitch`, `vPositionAndDirection`.
+- A placement query returned every base-ymap placement whose resolved archetype name contains a given substring, with position and rotation. It is the general control-group source for "is X near this thing" questions; here it produced the outhouse (194 rows) and tower (50 rows) control sets.
+- A parsing pass over the XML dumps classifies every point (131,939 rows), applies the conjugate-rotation transform to the carving local offsets, and prints the per-mark table, the controls and every animal point within 60 m of a mark. Runtime ~40 s.
+- An earlier, simpler scenario sweep was **not** reused: it read only `vPositionAndDirection` and reports a single nearest point per target, with no type, model set or time window.
 
 ## Caveats and blind spots
 
-- Base packs only (`levels_*.rpf`). `update_4.rpf` ships its own copies of the same 663 regions; they were dumped but not parsed. Since the point counts agree with metasweep's `DataFileMgr` walk, an update pack moving a perch onto a carving is unlikely but not excluded.
-- This measures the **scenario** layer only. Engine ambient bird spawning (`ambientbirdspawntunables.meta`), ambient vignettes and script-spawned birds are a different layer, and were closed separately and negatively on 2026-09-19 (`findings/2026-09-19-scripted-mission-birds.md`, `findings/2026-09-19-cutscene-bird-blindspot.md`).
-- 8 scenario **type** names and 2 recurring **flag** names are still unresolved hashes, including `0x02635C96` — the single most common type in the layer at 24,180 points. A 10,656-candidate joaat attempt found none. If one of those turns out to be a bird behaviour the perch classification would need redoing; the raised follow-up covers it. The chance is low: the classification keys off `world_animal_*` names, and the unresolved types cluster in generic navigation/ambient roles (they co-occur with `walk`, `stand` and `drive`).
+- Base packs only (`levels_*.rpf`). `update_4.rpf` ships its own copies of the same 663 regions; they were dumped but not parsed. Since the point counts agree with the independent `DataFileMgr` walk, an update pack moving a perch onto a carving is unlikely but not excluded.
+- This measures the **scenario** layer only. Engine ambient bird spawning (`ambientbirdspawntunables.meta`), ambient vignettes and script-spawned birds are a different layer, and were closed separately and negatively on 2026-09-19 ([`scripted-mission-birds.md`](scripted-mission-birds.md), [`cutscene-bird-blindspot.md`](cutscene-bird-blindspot.md)).
+- 8 scenario **type** names and 2 recurring **flag** names are still unresolved hashes, including `0x02635C96` — the single most common type in the layer at 24,180 points. A 10,656-candidate joaat attempt found none. If one of those turns out to be a bird behaviour the perch classification would need redoing; it is listed as an open follow-up below. The chance is low: the classification keys off `world_animal_*` names, and the unresolved types cluster in generic navigation/ambient roles (they co-occur with `walk`, `stand` and `drive`).
 - `iProbability` and the `Flags` (`NoSpawn`, `NoAttraction`, …) were recorded but not used to weight the counts — a point that exists is counted even if the game rarely or never fills it. That only makes the negative stronger.
 
 ## Follow-ups
 
-- Open follow-up: crack the unresolved scenario type and flag names, starting with `0x02635C96` (24,180 points).
+- Crack the unresolved scenario type and flag names, starting with `0x02635C96` (24,180 points).
 
-## Docs updated
-
-- `.claude/docs/rdr2-carvings.md` — the ground-truth table's three missing **world** positions are filled in (Fort Wallace and both Fort Brennand hosts), and the conjugate-rotation rule is stated with its verification.
-- `.claude/docs/rdr2-mysteries-tech.md` — new §10 on the scenario-point layer (scale, schema, what parses, the harnesses, this negative).
-- `.claude/docs/rdr2-mysteries.md` — this investigation line recorded as closed.

@@ -2,7 +2,7 @@
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-**Date:** 2026-09-05 · **Status:** investigation complete, negative on "hidden purpose" **Method:** grep/decode over the build-matched decompiled corpus `tasks/tools/ysc-corpus-scan/corpus/1491.50` (2,194 files, build 1491.50) — see `.claude/rules/rdr2-scripts.md` for the corpus caveats (inlined shared library; `joaat("x")` vs raw-hash are two different searches and both were run).
+**Date:** 2026-09-05 · **Status:** investigation complete, negative on "hidden purpose" **Method:** grep/decode over the build-matched decompiled script corpus (2,194 files, build 1491.50; the same dump class as [#87]). Corpus caveats: (inlined shared library; `joaat("x")` vs raw-hash are two different searches and both were run).
 
 **Question asked:** the Madam Irine fortune-teller machine comments on the player's weight, hair and masks; Abigail reacts to John wearing a mask. Which script drives that, and is there any *sneaky* use of these signals (mask-gated mission, fat-gated encounter, …) that players would never find?
 
@@ -91,7 +91,7 @@ The hat/outfit line is `func_550` case 4 (the friendly-visit state, after her ca
 
 1. **The 15-item mask list has exactly one consumer.** A corpus-wide sweep of "is the player wearing item X" call sites carrying a literal item hash returns only three families: the winter coat `CLOTHING_SP_COAT_WINTER01_VARIATION_01` (289×, the cold system), `clothing_hl_player_satchel_008_1`, and the fortune teller's 15 (1× each). A raw-hash sweep (120 numeric/hex/case forms of the 15 names) finds **zero** occurrences outside those `joaat()` renderings.
 2. **The discoverable pickup items** (animal/Aztec mask `1057717101`, ram mask, cat mask, pirate hat, viking gear, scarecrow hats, …) are referenced **only** by `discoverable_generic_carriable` and `discoverable_generic_corpse`. No other script in the game reads them.
-3. **Ambient spawn conditions carry no appearance field.** `init_all_sp.ysc`'s encounter record builder (`func_108`, 16 params) and the vignette builder (`func_119`) write only time-of-day, weather, story-progress, proximity, cooldown and probability into `Global_1310750[]` — consistent with `.claude/rules/rdr2-scripts.md` "spawn conditions live in director tables". So "start an encounter only while wearing mask X / while fat" is **not expressible** in that system.
+3. **Ambient spawn conditions carry no appearance field.** `init_all_sp.ysc`'s encounter record builder (`func_108`, 16 params) and the vignette builder (`func_119`) write only time-of-day, weather, story-progress, proximity, cooldown and probability into `Global_1310750[]` — consistent with the general pattern that spawn conditions live in director tables. So "start an encounter only while wearing mask X / while fat" is **not expressible** in that system.
 4. **Weight touches four files only** (`long_update`, `short_update`, `mary3`, `discoverable_generic_corpse`); the hair/beard globals are read only by the growth library and the fortune teller.
 
 Conclusion: the appearance layer is fully enumerable and entirely cosmetic-facing. It is a flavour system, not a gate — the weird masks have no scripted purpose beyond being wearable and being noticed by one fortune-teller machine.
@@ -99,5 +99,5 @@ Conclusion: the appearance layer is fully enumerable and entirely cosmetic-facin
 ## Leads not chased
 
 - Component-category hashes that resolve against neither `Codex.Games.RDR2.strings.txt` nor a 532k-entry vocabulary built from the corpus's own string literals: `-134124598`, `494009478`, `2071466316`, `-1968556728`, `-1455751347`, `43391475`, `149557334`, `1522539835`, `694822476`, `-1033766886`, `81053684`. (`-2061583405` = hats and `-525676072` = masks are known by usage, not by name.) Cracking them needs the item-database / metaped metadata, not the script corpus.
-- The `FTELL_*` **subtitle text** itself lives in the localised speech DB (the user's `WayJaCA_0x22639BA2` entry). Enumerating every reading per category is a text-DB job — the Explorer's new Subtitle Search is the right tool.
+- The `FTELL_*` **subtitle text** itself lives in the localised speech DB (the investigator's `WayJaCA_0x22639BA2` entry). Enumerating every reading per category is a text-DB job — a subtitle search over the localised text DB is the right tool.
 - Per-mask NPC speech variation, if any, is in the audio speech layer (`speech2.dat14`) — partially decoded (readout not published in this repo).

@@ -2,7 +2,7 @@
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-**Task:** `completed/2026-09-19-scripted-mission-birds.md` · **Completed:** 2026-09-19 · **Outcome:** negative **One line:** Mission scripts place birds only where each mission plays, 1.5 km or more from every mystery site. The "birds fly off as a cutscene starts" effect comes from ambient vignettes and engine birds, not from any per-cutscene authoring. The blue jay is Beecher's Hope homestead dressing.
+**Date:** 2026-09-19 · **Outcome:** negative **One line:** Mission scripts place birds only where each mission plays, 1.5 km or more from every mystery site. The "birds fly off as a cutscene starts" effect comes from ambient vignettes and engine birds, not from any per-cutscene authoring. The blue jay is Beecher's Hope homestead dressing.
 
 ## Answer
 
@@ -57,23 +57,22 @@
     - the `gang2` ride route end (72 m from the Fort Brennand outhouse, no bird on it);
     - a shared campfire location 83 m from `spiderdream07x`.
 
-## Method and tools
+## Method
 
-- `tasks/tools/missionbirds/`:
-  - `census.py` → `birds.tsv`, `flights.tsv`. About 12 s over the decompiled corpus `tasks/tools/ysc-corpus-scan/corpus/1491.50/script_rel`.
-  - `resolve.py` → `resolved.tsv`: mission framework slot → model → per-checkpoint position tables.
-  - `vignettes.py` → `vignettes.tsv`, flattened from `ambientvignettes.ymt.xml`.
-  - `near.py [R]` → `near.txt`: birds against sites, with the non-bird control. `webs.txt` holds the web positions.
-  - `bound.py [R] [scripts]`: coordinate bound for scripts whose spawns come from tables or vectors.
-  - `cutbirds.py [R]` → `cutbirds.tsv`: cutscene origins (`hunt/animscenes.tsv`) against bird vignettes.
-- The hand traces (`gang2` `func_1859`/`func_931`, `sadie3` `func_1860`, `finale2` line 75053, `winter2` `iLocal_380`, `rcm_beechers21` `func_192`) are recorded in the task file's Progress.
+- A bird census over the decompiled script corpus (about 12 s) produced the bird and flight tables.
+  - A slot resolver mapped the mission framework slot → model → per-checkpoint position tables.
+  - The ambient-vignette table was flattened from `ambientvignettes.ymt`.
+  - A proximity pass compared birds against the mystery sites, with a non-bird control and the web positions.
+  - A coordinate-bound pass handled scripts whose spawns come from tables or vectors.
+  - A cutscene pass compared cutscene origins (the animscene table) against bird vignettes.
+- The hand traces (`gang2` `func_1859`/`func_931`, `sadie3` `func_1860`, `finale2` line 75053, `winter2` `iLocal_380`, `rcm_beechers21` `func_192`) were followed by hand and are not reproduced here.
 
 ## Caveats and blind spots
 
-- **Decompiled corpus only.** The census reads decompiled source. Per `rdr2-scripts.md`, an absence claim should be confirmed with first-hand `.ysc` greps. The spawn census wasn't re-done that way.
+- **Decompiled corpus only.** The census reads decompiled source. An absence claim should be confirmed with first-hand `.ysc` greps. The spawn census wasn't re-done that way.
 - **Runtime-computed positions** (player-relative, random offsets, scenario points) cannot be bounded from the script. `braithwaites1`'s jays and `trelawny1`'s crows (random within 100 m of a zone) are of this kind. Their anchors are mission-local.
 - **The vignette second vector** (x2/y2/z2: a ground-level point 36–75 m away, loosely in front) is unresolved. It doesn't affect the distances.
-- **No in-engine viewing.** Script and vignette birds aren't map entities, so CodeX can't show them. The two nearest spots were checked through the entity census instead of by eye. Nothing checked where a jay looks inside a cutscene clip (`.ycd` track matching).
+- **No in-engine viewing.** Script and vignette birds aren't map entities, so a map viewer can't show them. The two nearest spots were checked through the entity census instead of by eye. Nothing checked where a jay looks inside a cutscene clip (`.ycd` track matching).
 - Only base-game scripts and the `update_2` vignette file were read; DLC mission scripts were not.
 
 ## Follow-ups

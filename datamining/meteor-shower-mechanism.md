@@ -5,8 +5,7 @@
 - **Date:** 2026-09-01
 - **Status:** CLOSED — mechanism fully decoded.
 - **Prompt:** user found the community report that standing near the Meteor House around 2 AM and looking up can show a meteor shower visible nowhere else, and asked what drives it — given the 2026-07-25 script cross-check found no timer-based meteor event and no `CTimeArchetypeDef` covers it.
-- **Source:** build-matched decompiled corpus `tasks/tools/ysc-corpus-scan/corpus/1491.50` (2,194 scripts, build 1491.50). Analysis scripts in `tasks/tools/meteor/`.
-- **Related rules:** `rdr2-scripts.md`, `rdr2-mysteries-tech.md` §3.
+- **Source:** build-matched decompiled corpus (2,194 scripts, build 1491.50).
 
 ## Why the earlier passes missed it
 
@@ -81,5 +80,5 @@ Conditions are read off the decompiled control flow, not inferred: the hour help
 
 ## Follow-ups (none blocking)
 
-- CodeX does not parse the scenario-point **type** field — `RDR2Map.cs:4372` reads only `vPositionAndDirection` from `Points`/`MyPoints`. Adding the type hash would let Explorer map every `WB_DISCO_*` placement in the world, which is the natural companion to Entity Search.
+- The investigator's map viewer did not parse the scenario-point **type** field when this was written, only `vPositionAndDirection`. Parsing the type hash would let it map every `WB_DISCO_*` placement in the world.
 - In-game check of the meteor shower against the decoded conditions.
