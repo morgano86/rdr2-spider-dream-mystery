@@ -48,7 +48,7 @@ Sources are graded **A** (primary / in-game / official), **B** (established game
 | [`datamining/`](datamining/README.md) | Readouts from the shipped game files and decompiled scripts — what the data says about the webs, carvings, bird perches and other mechanics. Mostly negative results; each is a verbatim handoff note behind a K-fact. |
 | [`locations/`](locations/) | A dossier per place the mystery touches ([index](locations/README.md)). |
 | [`experiments/`](experiments/) | Small, deterministic Python scripts that *test* claims (ciphers, combinatorics, geometry, likelihoods). Results are evidence, not fact. See [`experiments/README.md`](experiments/README.md). |
-| [`sources/`](sources/) | The [per-claim source ledger](sources/sources.md), a [resource directory with fetch recipes](sources/RESOURCES.md), the saved [primary wiki text](sources/PRIMARY-wiki-spider-dream.md), raw API data, and and raw data. |
+| [`sources/`](sources/) | The [per-claim source ledger](sources/sources.md), a [resource directory with fetch recipes](sources/RESOURCES.md), the saved [primary wiki text](sources/PRIMARY-wiki-spider-dream.md), and raw API data. |
 | [`images/`](images/) | Screenshots and maps, foldered by location. Provenance in [`images/README.md`](images/README.md); the [webs manifest](images/webs/WEBS-MANIFEST.md) catalogues all 8 webs. |
 | [`tools/`](tools/) | Housekeeping scripts (Markdown formatting). |
 
