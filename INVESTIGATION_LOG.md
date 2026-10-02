@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 5 of 12 — Wapiti "smoke" decoded, [#94]) — [K57] minted: a script-less geyser-steam emitter on a buried proxy cube; the "symbols" lead is deflated
+
+**What we did.** Filed the 2026-09-14 CodeX decode of the ~2019 "smoke from an empty hillside near Wapiti" report as source [#94]; minted [K57]; added a pointer on the Wapiti location dossier.
+
+**What we learned.** The smoke is map data: a buried `reg_bgv_vfx_proxy` cube carrying `ent_amb_steam_geyser`, the only map-placed use of that effect in the game. With no script setting its evolutions it plays only a thin fog layer (matches the investigator's footage versus the thick scripted Cotorra geysers). Weather, script, scenario, time-gating and smoke-signal rhythms are all ruled out; no bespoke texture exists. The UFO-painting texture on the cube is an authoring fingerprint of the same Big Valley pack, not a link.
+
+**What changed.** [K57], source #94, INDEX, Wapiti dossier pointer. Closed deflated side lead; verified-trail boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 4 of 12 — appearance-gated dialogue, [#93]) — [K56] minted: player appearance gates nothing by script (negative)
 
 **What we did.** Filed the 2026-09-05 fortune-teller / appearance-signal decode as source [#93]; minted [K56].

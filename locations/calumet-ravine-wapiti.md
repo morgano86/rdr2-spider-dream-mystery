@@ -22,3 +22,5 @@
 - [ ] Anything at the NW beta-location coordinates (with/without the 30-animals gate met)?
 
 > Sources: Red Dead Wiki *Calumet Ravine*, *Giant*, *Eagle Flies*, *Rains Fall*, *Spider Dream Mystery*; SegmentNext. URLs in [sources](../sources/sources.md).
+
+> **Side lead, closed (2026-10-02):** the ~2019 report of "smoke" on an empty hillside near the Wapiti Reservation (194.9, 2201.4, 281.4) is a map-placed geyser-steam emitter on a buried proxy cube — ordinary set dressing, not a signal ([K57], [#94](../sources/sources.md)).
