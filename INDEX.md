@@ -79,6 +79,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K60 | Scenario-point layer (131,939 pts) places NO bird/animal at any of the 10 carvings; the Fort Wallace carved tower has 0 perch points in 25 m (its other 3 towers 6–8); Brennand's 'hit' is fort-wide; carving world positions pinned | LIVE (negative) | [known-facts.md](findings/known-facts.md) · [#97](sources/sources.md) · [fort-wallace](locations/fort-wallace.md) |
 | K61 | `.yas` scene census is blind to script-spawned birds (no songbird/blue jay in any of 938 scenes; blue jay spawned by `beechers2_2_outro` etc.; 141 story scripts name a bird model) — method correction for the bird-at-carvings hunt | LIVE | [known-facts.md](findings/known-facts.md) · [#98](sources/sources.md) |
 | K62 | Mission/cutscene/vignette birds are all local to their missions or ambient; none near any carving/web (Fort Wallace nearest = eagle perch 48 m away, 57 m below); cutscene "birds fly off" = ambient vignettes; blue jay = homestead dressing; positive control = [K43] flock | LIVE (negative) | [known-facts.md](findings/known-facts.md) · [#99](sources/sources.md) |
+| K63 | No script addresses any carving (0 hits for the 8 host archetypes in 2,195 installed `.ysc`); coordinate hits near marks = mission staging at/below uncarved baseline (Fort Wallace: `native_son3`, 8 m below the glyph); no mundane-out-of-place one-off spawn; two scan-bug lessons | LIVE (negative, first-hand) | [known-facts.md](findings/known-facts.md) · [#100](sources/sources.md) |
 
 ---
 

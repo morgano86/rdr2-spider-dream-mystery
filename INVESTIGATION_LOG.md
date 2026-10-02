@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 11 of 12 — mission scripts near the carving sites, [#100]) — [K63] minted: no script addresses any carving (first-hand over all 2,195 `.ysc`); coordinate hits are mission staging at/below the uncarved baseline
+
+**What we did.** Filed the 2026-09-19 first-hand script scan as source [#100] (4th of five same-day notes); minted [K63].
+
+**What we learned.** None of the eight carved host archetypes appears in any installed script (ASCII or joaat). Coordinate literals within 5 m of the marks: carvings 0–5 scripts vs uncarved comparables 1–113; every surviving hit is mission staging (Fort Wallace: `native_son3` at walkway height, 8 m below the glyph). 383 single-script models, only 12 animal one-offs, none bird-related. Two transferable scan bugs were caught by the positive control (coordinates are strided `PUSH_F` immediates, not adjacent floats; byte-window matches components out of position) — a first run would have wrongly reported "nothing" and then "357 scripts".
+
+**What changed.** [K63], source #100, INDEX. Reinforces [K15]/[K16] (pure map geometry, no script layer); [K16] untouched; boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 10 of 12 — scripted mission birds, [#99]) — [K62] minted: no mission/cutscene bird near any carving or web; "birds fly off at cutscenes" is ambient vignettes
 
 **What we did.** Filed the 2026-09-19 full bird census as source [#99] (3rd of five same-day notes); minted [K62].
