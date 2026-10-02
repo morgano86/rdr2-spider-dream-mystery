@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 3 of 12 — meteor-shower mechanism, [#92]) — [K55] minted: a scenario-point script layer the `timeFlags` census can't see; no second hidden sky event
+
+**What we did.** Filed the 2026-09-01 meteor-shower decode as source [#92] (prerequisite of [#91]); minted [K55]; added a scope note to [K50].
+
+**What we learned.** The meteor shower is a `WB_DISCO_METEOR_SHOWER` scenario-point script (5 m volume, 02:00–03:59, once per save, no weather/RNG, no journal entry) driving a particle emitter parked in the SE sky. A three-way sweep (hour windows, named trigger volumes, sky-level positions) finds no comparable second event, and only one day-of-week-gated content script (`town_secrets_er_daughter`). Methodologically: conditional content can live in a script layer invisible to ymap/`timeFlags` — so [K50]'s "closed" is now scoped to the archetype layer.
+
+**What changed.** [K55], [K50] scope note, source #92, INDEX. No spider tie; the webs still have no script layer ([#87]). Boundary untouched. Follow-up recorded in the source: CodeX doesn't parse scenario-point type hashes.
+
 ## 2026-10-02 (tmp_uploads intake, 2 of 12 — ghost train + both UFOs decoded, [#91]) — [K54] minted: the "half moon" is not a trigger; Shann UFO gate = 01:00–02:59 + 14 m + once/day; [U42] unplaced alien-cave MLO
 
 **What we did.** Filed the 2026-09-01 script-decode note as source [#91] (verbatim copy in `sources/`), minted [K54]/[U42], added both to [thread 09](threads/09-mount-shann-sundial.md).
