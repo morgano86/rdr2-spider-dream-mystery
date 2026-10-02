@@ -23,3 +23,5 @@
 - [ ] The two guitars' headings; whether either aligns with the bird symbols or Spider Gorge.
 
 > Sources: Red Dead Wiki *Fort Wallace*, *The King's Son*, *Spider Dream Mystery*; pcgamesn. URLs in [sources](../sources/sources.md).
+
+> **Scenario-layer check (2026-10-02, [K60], [#97](../sources/sources.md)):** the carved tower `old_fort_twr3` — world (323.51, 1512.06, 194.70) — has **zero** bird-perch scenario points within 25 m (its other three towers have 6–8); no bird is placed at roof height anywhere in the fort. No live bird is staged beside the carved birds in that layer.

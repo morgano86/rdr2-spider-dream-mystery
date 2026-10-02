@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 8 of 12 — bird-perch scenarios near the carvings, [#97]) — [K60] minted: no bird/animal placed at any carving; the Fort Wallace carved tower is the least bird-populated of its four
+
+**What we did.** Filed the 2026-09-19 scenario-layer census as source [#97] (first of five same-day "bird at the carvings?" notes); minted [K60]; added a pointer to the Fort Wallace dossier.
+
+**What we learned.** Across all 131,939 scenario points, no bird or animal is staged at any of the ten known carvings: Fort Wallace's carved tower has 0 perch points within 25 m (other towers 6–8), Butcher Creek is typical-to-worse than baseline, Fort Brennand's apparent hit is a fort-wide sparrow-rig blanket shared by uncarved towers, and no scenario point is attached to a carved archetype. Carving world coordinates are now pinned (conjugate-rotation transform verified to ≤0.01 m). A side correlation (pee points at carved outhouses) is recorded as non-evidence (n=1 site).
+
+**What changed.** [K60], source #97, INDEX, Fort Wallace dossier. The [K16] frontier is untouched; the result supports reading the birds as modelled glyphs rather than a pointer to a live bird. Boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 7 of 12 — Witch's Cauldron brew, [#96]) — [K59] minted: the brew does nothing mechanical (once per save, ~53 m teleport); the raven is data, not script; CodeX scenario-flag decode bug recorded
 
 **What we did.** Filed the 2026-09-15 cauldron decode as source [#96]; minted [K59].
