@@ -80,8 +80,7 @@ This is **not** part of the Spider Dream Mystery. It is the **Kuhkowaba cult / U
 - **On the same mountain (SE, near the trail):** **Giant Remains** and a **Rock Carving** coordinate — the latter is one of the ten Francis Sinclair "Geology for Beginners" carvings ([Francis Sinclair egg](francis-sinclair-mural.md)), so Mount Shann geographically touches a *third* egg.
 
 ### Crossover hooks (held at [SPECULATION] / open)
-- **Mount Chiliad ([K38] + [K24]):** the wiki calls Mount Shann's landmarks + UFO an explicit **nod to GTA V's Mount Chiliad** (UFO + murals). The spider-web thread already ties to Chiliad from the other side ([K24], shared cable shader
-  + 1–2 AM gate) — so two RDR2 eggs point at the same GTA V node ([S33]).
+- **Mount Chiliad ([K38] + [K24]):** the wiki calls Mount Shann's landmarks + UFO an explicit **nod to GTA V's Mount Chiliad** (UFO + murals). The spider-web thread already ties to Chiliad from the other side ([K24], shared cable shader + 1–2 AM gate) — so two RDR2 eggs point at the same GTA V node ([S33]).
 - **~2 AM time-gate:** the UFO ([K37]) and the spider **centre webs** ([K11]) both key to the small hours (2 AM / 1–2 AM).
 - **Style ([S32]):** the arrows' deliberate obfuscation echoes the spider mystery's near-invisible, time-gated clue signature ([H13]) — a shared *style*, not a proven shared *puzzle*. Whether any real link exists is the open [U34].
 

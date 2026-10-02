@@ -27,6 +27,5 @@ Partner-reshuffle null (seed 0, N=200,000):
   2. **Thematic coherence:** both hit-couples are **tragic** — the man violently killed (Aug 1898 / May 1899), the woman left grieving (Sadie) or confined (Miriam).
   3. **Geography:** Joshua+Miriam *are* the Emerald Ranch story — **web node `B45`** — and the single in-game document narrating them (*Letter to Miriam Wegner*) spawns in the abandoned mail wagon **southwest of Fort Wallace** ([K16], the trail frontier).
   4. **Control negative:** Beau Gray + Penelope Braithwaite ({B,P}) — the flagship forbidden lovers at the very estates the markings inhabit — match **no** marking. Cooper + Lilly ({C,L}, the *other* Emerald Ranch couple) also match no marking.
-- **Coverage cap (logged):** RDR2 has no canonical couples registry; the 14-couple list is main-cast romances
-  + sourceable named minor couples. A missed couple can only *add* matches.
+- **Coverage cap (logged):** RDR2 has no canonical couples registry; the 14-couple list is main-cast romances + sourceable named minor couples. A missed couple can only *add* matches.
 - **Status:** → **[S45]**, [SPECULATION]. Home write-up: [thread 03](../../threads/03-matchstick-letters.md).

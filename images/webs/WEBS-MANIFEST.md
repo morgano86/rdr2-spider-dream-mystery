@@ -96,8 +96,7 @@ Feather tally check: Black = Cornwall, Oil Fields, Overflow, Emerald, Ringneck =
   at** — so render-gating is *not* a blanket engine behaviour, only the webs are hidden this way; reads as deliberate "hide the
   webs, show the pentagram," a weak point *for* web intentionality ([U2]/[H22] R3).
 - **[KNOWN — investigator data, 2026-06-14 → [K28]] Boundary GEOMETRY = an I-beam / "工".** **North** spans **east–west**,
-  **South** spans **east–west**, the **Connector** spans **north–south** (the vertical spine joining them); ~~**all three overlap
-  slightly near the map centre**~~ ⚠️ **CORRECTED 2026-09-01 ([K49], [#89]): there is NO triple overlap** — North and
+  **South** spans **east–west**, the **Connector** spans **north–south** (the vertical spine joining them). An earlier version of this entry said all three overlap slightly near the map centre. **Correction 2026-09-01 ([K49], [#89]): there is NO triple overlap** — North and
   South are disjoint by a 10.50 m band; each bar overlaps only the Connector spine. The overlap in any case
   **excludes the central featherless web** (whose file coordinates are (1282.0, −131.6), [K51]). Geographically grounds [H9]
   (index black `B34` = North bar; the 4 connector blacks = spine; the 3 reds = far South bar). The central overlap is the only
