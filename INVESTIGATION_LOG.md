@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 10 of 12 — scripted mission birds, [#99]) — [K62] minted: no mission/cutscene bird near any carving or web; "birds fly off at cutscenes" is ambient vignettes
+
+**What we did.** Filed the 2026-09-19 full bird census as source [#99] (3rd of five same-day notes); minted [K62].
+
+**What we learned.** Birds come from three independent layers (engine ambient, 4,569-point vignettes, mission scripts); every mission bird is local to its mission, none sits near a carving or web, and the nearest birds of any kind to the sites are ordinary ambient vignettes (nearest to Fort Wallace: an eagle perch 48 m away and 57 m below). The cutscene bird-fly-off pattern is ambient, not authored (346/708 bird vs 346/708 non-bird vignettes within 50 m of cutscene origins). Blue jays are homestead dressing 1.5–2.7 km from every site. Positive control: the [K43] Calumet flock was found by the census.
+
+**What changed.** [K62], source #99, INDEX. Together with [K60] this closes the "a live bird is staged to point at the carvings" family across scenario and script layers; [K16] untouched; boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 9 of 12 — cutscene-bird blind spot, [#98]) — [K61] minted: the `.yas` scene census can't see script-spawned birds (blue jay etc.)
 
 **What we did.** Filed the 2026-09-19 note as source [#98] (2nd of five same-day bird notes); minted [K61].
