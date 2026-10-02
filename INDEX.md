@@ -72,6 +72,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K53 | RDR2 scripts only READ awards/unlocks via shared ITEMDATABASE natives — no bespoke crossover/flag-then-validate script pair; entitlement gating is not script-visible; award `0x521563CC` lead refuted (generic MP gate) | LIVE (negative) | [known-facts.md](findings/known-facts.md) · [#90](sources/sources.md) |
 | K54 | Both UFOs + the ghost train fully script-decoded (Shann: 01:00–02:59, 14 m of summit, once/in-game day; Hani's: 00:00–03:59; ghost train 03:00–04:59 + weather); **no moon native exists** — "half moon" is flavour; no third UFO | LIVE | [known-facts.md](findings/known-facts.md) · [thread 09](threads/09-mount-shann-sundial.md) · refines [K37] |
 | K55 | Meteor shower = scenario-point–launched SCRIPT event (5 m volume, 02:00–03:59, once/save, no weather/RNG, off-journal); three-way sweep finds no 2nd hidden sky event — a script layer the archetype census can't see (scopes [K50]) | LIVE | [known-facts.md](findings/known-facts.md) · [#92](sources/sources.md) |
+| K56 | Player appearance (masks/hats/weight/hair/dirt/honor) gates nothing in scripts — only dialogue lines/animscene variants; fortune teller = `discoverable_generic_corpse` (Circus Wagons); a closed channel | LIVE (negative) | [known-facts.md](findings/known-facts.md) · [#93](sources/sources.md) |
 
 ---
 

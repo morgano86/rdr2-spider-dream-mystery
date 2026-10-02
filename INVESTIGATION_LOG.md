@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 4 of 12 — appearance-gated dialogue, [#93]) — [K56] minted: player appearance gates nothing by script (negative)
+
+**What we did.** Filed the 2026-09-05 fortune-teller / appearance-signal decode as source [#93]; minted [K56].
+
+**What we learned.** The fortune teller is `discoverable_generic_corpse.ysc` (Circus Wagons). Exhaustive enumeration of appearance reads across all scripts found only dialogue/animscene/stat-multiplier consumers; the 15 mask/hat items have a single consumer and ambient encounters carry no appearance field. A clean negative: appearance is a flavour layer, not a gate. Leads not chased (unresolved component-category hashes; `FTELL_*` text; per-mask NPC speech) are in the saved source.
+
+**What changed.** [K56], source #93, INDEX. No spider tie; boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 3 of 12 — meteor-shower mechanism, [#92]) — [K55] minted: a scenario-point script layer the `timeFlags` census can't see; no second hidden sky event
 
 **What we did.** Filed the 2026-09-01 meteor-shower decode as source [#92] (prerequisite of [#91]); minted [K55]; added a scope note to [K50].
