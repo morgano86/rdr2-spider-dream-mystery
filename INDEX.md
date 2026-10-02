@@ -80,6 +80,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K61 | `.yas` scene census is blind to script-spawned birds (no songbird/blue jay in any of 938 scenes; blue jay spawned by `beechers2_2_outro` etc.; 141 story scripts name a bird model) — method correction for the bird-at-carvings hunt | LIVE | [known-facts.md](findings/known-facts.md) · [#98](sources/sources.md) |
 | K62 | Mission/cutscene/vignette birds are all local to their missions or ambient; none near any carving/web (Fort Wallace nearest = eagle perch 48 m away, 57 m below); cutscene "birds fly off" = ambient vignettes; blue jay = homestead dressing; positive control = [K43] flock | LIVE (negative) | [known-facts.md](findings/known-facts.md) · [#99](sources/sources.md) |
 | K63 | No script addresses any carving (0 hits for the 8 host archetypes in 2,195 installed `.ysc`); coordinate hits near marks = mission staging at/below uncarved baseline (Fort Wallace: `native_son3`, 8 m below the glyph); no mundane-out-of-place one-off spawn; two scan-bug lessons | LIVE (negative, first-hand) | [known-facts.md](findings/known-facts.md) · [#100](sources/sources.md) |
+| K64 | Web-feather textures = a MIXED triple from 3 source sets (Wapiti albedo+normal; Valentine-doctor `val_doc_feather01_ma` as a flat constant specular, no `wap_*_ma` exists); unique in the game; the Valentine "feather" is a down-ball; ordinary library scavenging | LIVE | [known-facts.md](findings/known-facts.md) · [#101](sources/sources.md) · refines [K13]/[K47] |
 
 ---
 
@@ -131,6 +132,7 @@ Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted.
 | U40 | ⚠️ Is "the 8 webs reuse 4 `cablemesh` models" WRONG? Those 4 names read as the **centre** cluster ([K51]) and the census is 1:1 archetype:placement — if so, per-web STRAND geometry is an unread channel | LIVE (cheap, file-side) | [unknowns.md](findings/unknowns.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) |
 | U41 | Does the item-database/`catalog` metadata hold an award/unlock mapping to no known unlock? (the only place a script-invisible gate could hide; CodeX catalog-parse unverified) | LIVE (low prior, file-side) | [unknowns.md](findings/unknowns.md) · [K53](findings/known-facts.md) |
 | U42 | Why does the furnished-but-unplaced `dis_roa_aliencave_int` MLO exist (cut alien cave? scripted load missed by the census?) | LIVE (low prior, file-side) | [unknowns.md](findings/unknowns.md) · [K54](findings/known-facts.md) |
+| U43 | Why does the web feather borrow a Wapiti *cutscene* feather's albedo/normal — incidental scavenging (preferred) or a deliberate Wapiti nod? (and what owns `wap_cs_feather01`?) | LIVE (low prior) | [unknowns.md](findings/unknowns.md) · [K64](findings/known-facts.md) |
 
 ---
 

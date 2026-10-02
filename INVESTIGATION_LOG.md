@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 12 of 12 — feather-texture provenance, [#101]) — [K64]/[U43] minted: the web feather's textures are a mixed triple from three source sets (library scavenging); "dedicated texture" over-read corrected
+
+**What we did.** Filed the last of the 12 staged notes as source [#101]; minted [K64], [U43]; added scope notes to [K13] and the "dedicated, named assets" line in `analysis/carving-technique.md`. `tmp_uploads/` is now empty.
+
+**What we learned.** The `spiderdream` feather material binds a Wapiti albedo + normal and a Valentine-doctor `val_doc_feather01_ma` as specular — a mixed triple unique among ~40 feather materials, and the only users of any `wap_*feather*` texture. No `wap_*_ma` exists anywhere in the install, so the specular slot was filled with a flat constant tile that is itself shipped only in the spiderdream prop dictionaries. The Valentine doctor's "feather" is a ball of down. Reading: ordinary library scavenging; whether the Wapiti sourcing is incidental or a nod ([U43]) is unanswerable from data and the arbitrary specular borrow argues against a deliberate-provenance reading.
+
+**What changed.** [K64], [U43], source #101, INDEX, scope notes on [K13] and the carving-technique "dedicated assets" claim. **Intake summary:** 12 notes → sources [#90]–[#101], K53–K64, U41–U43; all negatives or deflations except the method findings; none touches the verified-trail boundary ([K16] frontier unchanged).
+
 ## 2026-10-02 (tmp_uploads intake, 11 of 12 — mission scripts near the carving sites, [#100]) — [K63] minted: no script addresses any carving (first-hand over all 2,195 `.ysc`); coordinate hits are mission staging at/below the uncarved baseline
 
 **What we did.** Filed the 2026-09-19 first-hand script scan as source [#100] (4th of five same-day notes); minted [K63].
