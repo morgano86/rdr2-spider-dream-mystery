@@ -1,27 +1,16 @@
 # Thread 04 — Gertrude Braithwaite's numbers (the "disconnected thread")
 
-**User flagged this as a possibly-related disconnected thread.** Gertrude Braithwaite is a member of the **Braithwaite**
-family at **Braithwaite Manor** (Scarlett Meadows, Lemoyne). In the epilogue she can be found imprisoned, having been
-**locked in the family's outhouse** — and she recites a repeating sequence of **numbers**.
+**User flagged this as a possibly-related disconnected thread.** Gertrude Braithwaite is a member of the **Braithwaite** family at **Braithwaite Manor** (Scarlett Meadows, Lemoyne). In the epilogue she can be found imprisoned, having been **locked in the family's outhouse** — and she recites a repeating sequence of **numbers**.
 
-Note the structural rhyme with Butcher Creek: **numbers, in/at an outhouse.** That alone makes her worth tracking against
-the Spider Dream chain even if the developers intended her only as a tragic vignette.
+Note the structural rhyme with Butcher Creek: **numbers, in/at an outhouse.** That alone makes her worth tracking against the Spider Dream chain even if the developers intended her only as a tragic vignette.
 
 ---
 
 ## [KNOWN]
 
-- **K14.** Gertrude is found (post-story / epilogue) shut inside the **southern outhouse** on the Braithwaite property; the
-  family never released her and the strong implication is she **starved to death / was left to rot** — a deliberately grim detail.
-- She **recites number sequences** repeatedly. ~~A commonly cited transcription (approximate, community-sourced)~~ →
-  **the complete canonical set is now on file from the game's own text — see [K42] below.**
-- **K42 — Gertrude's complete number-line set is CONFIRMED from the game's own subtitle text (2026-07-05, [#78]).** A
-  public GitHub dump of RDR2's in-game text (PC rip, **committed 2019-12-01** — it *predates* every community
-  transcription and the whole 2025 trail era, so it can't derive from them) contains Gertrude's entire voice-line file
-  (`0xFD1BB3EB.txt` — unmistakably hers: "Penelope… you bitch!", "Gerald! Where's my tea?", "Bartho-Bartholemew…").
-  **Independently re-fetched at the pinned commit and verified line-by-line 2026-07-05**; verbatim copy in-repo →
-  [`sources/gertrude-lines_0xFD1BB3EB.txt`](../sources/gertrude-lines_0xFD1BB3EB.txt). It carries **exactly 12
-  number-recitation lines** (subtitle timing tags stripped; `|` = the string's own segment break):
+- **K14.** Gertrude is found (post-story / epilogue) shut inside the **southern outhouse** on the Braithwaite property; the family never released her and the strong implication is she **starved to death / was left to rot** — a deliberately grim detail.
+- She **recites number sequences** repeatedly. ~~A commonly cited transcription (approximate, community-sourced)~~ → **the complete canonical set is now on file from the game's own text — see [K42] below.**
+- **K42 — Gertrude's complete number-line set is CONFIRMED from the game's own subtitle text (2026-07-05, [#78]).** A public GitHub dump of RDR2's in-game text (PC rip, **committed 2019-12-01** — it *predates* every community transcription and the whole 2025 trail era, so it can't derive from them) contains Gertrude's entire voice-line file (`0xFD1BB3EB.txt` — unmistakably hers: "Penelope… you bitch!", "Gerald! Where's my tea?", "Bartho-Bartholemew…"). **Independently re-fetched at the pinned commit and verified line-by-line 2026-07-05**; verbatim copy in-repo → [`sources/gertrude-lines_0xFD1BB3EB.txt`](../sources/gertrude-lines_0xFD1BB3EB.txt). It carries **exactly 12 number-recitation lines** (subtitle timing tags stripped; `|` = the string's own segment break):
 
   | # | String hash | Verbatim | Digits |
   |---|------------|----------|--------|
@@ -38,65 +27,16 @@ the Spider Dream chain even if the developers intended her only as a tragic vign
   | K | `0xFFA50A7E` | "One, one... one..." | `1 1 1` |
   | L | `0xB34A2731` | "Eight, nine, three..." | `8 9 3` |
 
-  **What K42 settles:** (1) **the tail text** — the clean-source confirm the checklist wanted, without audio (the
-  subtitles ARE the canonical text; an audio-vs-subtitle mismatch remains a theoretical residual only). (2) **The
-  "eleven" parse, RDR2-side:** line A's subtitle writes **"eleven"** — Gertrude says 11; the `…5,1,1,2` grouping is
-  purely the GTA/Nazar phone-format callback ([K23]/[#75]; both remain true in their own games). (3) **The L2/L7
-  Fibonacci fork ([S42] battery): both lines are REAL** — A's tail (`…3 5 8 13 14`, no 4) and B's tail (`…4 5 8 13 14 1`,
-  with the 4) are **two distinct canonical strings at edit distance 1**, not one take transcribed twice; the additive
-  run `3,5,8,13` is verbatim game text in line A (statistical weight settled by the 2026-07-05 battery re-run:
-  suggestive-not-significant, deflationary lean — see the [SPECULATION] battery note). (4) The
-  9-line video transcription **reconciles as chains of these 12 lines** (video L1+L2 = A; L4+L5 = C(+K); L6 = D + B's
-  head; L7 = B's tail; L8 = J/H/I/G; L9 = F+E) — **except video-L3 (`1 2 3 4 17 29 13`), which matches no game line**
-  and is a mis-segmented F+E with the 5 dropped: **demoted to a transcription artifact, not data.** (5) A corpus-wide
-  sweep of the dump found **no other recitation lines anywhere** — the community "hidden 3rd set / burn her for a dying
-  recitation" claim (r/reddeadmysteries `wm5p7h`, 2022) is **unsupported by the files**; rate it debunked-leaning.
-  *(Flavour note, [SPECULATION]-grade aside: her non-number lines include "I'm tired, but I better not sleep." — twice,
-  as two variants — a curious pre-echo of the dream/sleep motif ([H25]); recorded, not built on.)*
-- **K23 — Gertrude's numbers are echoed by a Rockstar cross-game Easter egg (the opening is `1237645112`).** Multiple
-  established outlets (GamesRadar, PCGamesN, TheGamer, SVG — **B-tier**) report that the **exact same digit string Gertrude
-  recites** — **`123 7645112`** — is spoken by the **Madam Nazar "Nazar Speaks" fortune-teller arcade machine** in
-  **GTA Online**. **This fixes the opening sequence as `1, 2, 3, 7, 6, 4, 5, 1, 1, 2`** (journalism parses the tail as the
-  phone-style digits `…5, 1, 1, 2`; our audio heard `…5, 11, 2` — *same audio, two parsings*; the opening seven `1,2,3,7,6,4,5`
-  is solid either way). ⚠️ **Chronology — the reference runs RDR2 → GTA, not the other way (user-flagged correction):**
-  Gertrude is **base-game RDR2 content (Oct 26, 2018)**, so the number existed **first**; the GTA Online machine that echoes it
-  came **later** (Diamond Casino Heist, **Dec 12, 2019**, ~14 months after). The GTA side is a **later callback, not a prior
-  origin** — it does **not** explain the RDR2 number away. If anything, Rockstar bothering to mirror the exact digits in
-  another game says the number is **deliberate and significant.** It does **not** prove the numbers are part of the *spider*
-  mystery — that's still open. Full crossover analysis → [gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md). *(Sources
-  #24, #40, #41, #42.)*
-  - **GTA-side delivery, now primary-sourced (#75 — GTA Wiki *Nazar Speaks*, fetched via the MediaWiki API 2026-07-04):**
-    the machine gives the digits as **three separate fortunes** — *"I see numbers. One, two, three."* / *"I see numbers.
-    Seven, six, four."* / *"I see numbers. Five, one, one, two."* — and **"after hearing all three sequences, the player can
-    reach Madam Nazar by calling `123-764-5112`."** So the GTA callback is delivered (and callable) in the **3-3-4 North
-    American phone-number grouping**, settling the phone-parse of the tail (`…5,1,1,2`) *on the GTA side* (Gertrude's own
-    audio still has the rival "…eleven…" hearing — see the transcription below).
-- There is a long-standing community thread treating this as **"The Braithwaite's Secret Code"** (GTAForums), i.e., players
-  have suspected for years the numbers are more than flavor.
-- **K41 — the outhouse *interior* holds no additional content (resolved-negative, 2025 community discovery).** Players found
-  a way **inside** the locked outhouse: drag an animal carcass against it and start skinning at the right angle to glitch
-  through (r/reddeadredemption video; covered by **GamingBible 2025-07-31** and **ScreenRant** — B-tier ×2, [#77]). Inside is
-  **only Gertrude's character model** (curled up, unresponsive to the glitched-in player); **no objects, notes, numbers, or
-  interactables.** Rockstar modelled her fully despite the intended inaccessibility — meticulous, but **no clue content**:
-  the interior is now a closed line for U6.
-- **Sourcing negative (2026-07-04, [#76]):** the **Red Dead Wiki's own *Gertrude Braithwaite* page does not document the
-  number recitation at all** — no transcription, no trivia mention. (It does fix small facts: the POI's official name is
-  **"Braithwaites' Secret"**; VA **Reyna de Courcy**; Arthur's journal drawing caption *"Found a crazy young woman, real
-  strange looking…"*; shooting toward the outhouse "can also shut her up.") So the B-tier wiki ecosystem has **no
-  authoritative transcription** — everything on the tail rides on community/video transcription (below).
+  **What K42 settles:** (1) **the tail text** — the clean-source confirm the checklist wanted, without audio (the subtitles ARE the canonical text; an audio-vs-subtitle mismatch remains a theoretical residual only). (2) **The "eleven" parse, RDR2-side:** line A's subtitle writes **"eleven"** — Gertrude says 11; the `…5,1,1,2` grouping is purely the GTA/Nazar phone-format callback ([K23]/[#75]; both remain true in their own games). (3) **The L2/L7 Fibonacci fork ([S42] battery): both lines are REAL** — A's tail (`…3 5 8 13 14`, no 4) and B's tail (`…4 5 8 13 14 1`, with the 4) are **two distinct canonical strings at edit distance 1**, not one take transcribed twice; the additive run `3,5,8,13` is verbatim game text in line A (statistical weight settled by the 2026-07-05 battery re-run: suggestive-not-significant, deflationary lean — see the [SPECULATION] battery note). (4) The 9-line video transcription **reconciles as chains of these 12 lines** (video L1+L2 = A; L4+L5 = C(+K); L6 = D + B's head; L7 = B's tail; L8 = J/H/I/G; L9 = F+E) — **except video-L3 (`1 2 3 4 17 29 13`), which matches no game line** and is a mis-segmented F+E with the 5 dropped: **demoted to a transcription artifact, not data.** (5) A corpus-wide sweep of the dump found **no other recitation lines anywhere** — the community "hidden 3rd set / burn her for a dying recitation" claim (r/reddeadmysteries `wm5p7h`, 2022) is **unsupported by the files**; rate it debunked-leaning. *(Flavour note, [SPECULATION]-grade aside: her non-number lines include "I'm tired, but I better not sleep." — twice, as two variants — a curious pre-echo of the dream/sleep motif ([H25]); recorded, not built on.)*
+- **K23 — Gertrude's numbers are echoed by a Rockstar cross-game Easter egg (the opening is `1237645112`).** Multiple established outlets (GamesRadar, PCGamesN, TheGamer, SVG — **B-tier**) report that the **exact same digit string Gertrude recites** — **`123 7645112`** — is spoken by the **Madam Nazar "Nazar Speaks" fortune-teller arcade machine** in **GTA Online**. **This fixes the opening sequence as `1, 2, 3, 7, 6, 4, 5, 1, 1, 2`** (journalism parses the tail as the phone-style digits `…5, 1, 1, 2`; our audio heard `…5, 11, 2` — *same audio, two parsings*; the opening seven `1,2,3,7,6,4,5` is solid either way). ⚠️ **Chronology — the reference runs RDR2 → GTA, not the other way (user-flagged correction):** Gertrude is **base-game RDR2 content (Oct 26, 2018)**, so the number existed **first**; the GTA Online machine that echoes it came **later** (Diamond Casino Heist, **Dec 12, 2019**, ~14 months after). The GTA side is a **later callback, not a prior origin** — it does **not** explain the RDR2 number away. If anything, Rockstar bothering to mirror the exact digits in another game says the number is **deliberate and significant.** It does **not** prove the numbers are part of the *spider* mystery — that's still open. Full crossover analysis → [gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md). *(Sources #24, #40, #41, #42.)*
+  - **GTA-side delivery, now primary-sourced (#75 — GTA Wiki *Nazar Speaks*, fetched via the MediaWiki API 2026-07-04):** the machine gives the digits as **three separate fortunes** — *"I see numbers. One, two, three."* / *"I see numbers. Seven, six, four."* / *"I see numbers. Five, one, one, two."* — and **"after hearing all three sequences, the player can reach Madam Nazar by calling `123-764-5112`."** So the GTA callback is delivered (and callable) in the **3-3-4 North American phone-number grouping**, settling the phone-parse of the tail (`…5,1,1,2`) *on the GTA side* (Gertrude's own audio still has the rival "…eleven…" hearing — see the transcription below).
+- There is a long-standing community thread treating this as **"The Braithwaite's Secret Code"** (GTAForums), i.e., players have suspected for years the numbers are more than flavor.
+- **K41 — the outhouse *interior* holds no additional content (resolved-negative, 2025 community discovery).** Players found a way **inside** the locked outhouse: drag an animal carcass against it and start skinning at the right angle to glitch through (r/reddeadredemption video; covered by **GamingBible 2025-07-31** and **ScreenRant** — B-tier ×2, [#77]). Inside is **only Gertrude's character model** (curled up, unresponsive to the glitched-in player); **no objects, notes, numbers, or interactables.** Rockstar modelled her fully despite the intended inaccessibility — meticulous, but **no clue content**: the interior is now a closed line for U6.
+- **Sourcing negative (2026-07-04, [#76]):** the **Red Dead Wiki's own *Gertrude Braithwaite* page does not document the number recitation at all** — no transcription, no trivia mention. (It does fix small facts: the POI's official name is **"Braithwaites' Secret"**; VA **Reyna de Courcy**; Arthur's journal drawing caption *"Found a crazy young woman, real strange looking…"*; shooting toward the outhouse "can also shut her up.") So the B-tier wiki ecosystem has **no authoritative transcription** — everything on the tail rides on community/video transcription (below).
 
 ## [UNKNOWN]
 
-- ~~**The exact, complete *tail* of the sequence**~~ — **✅ RESOLVED 2026-07-05 → [K42]** (game-text confirm, [#78]; the
-  canonical 12-line inventory is in [KNOWN] above). The history below is kept per the refute-don't-delete norm, with
-  two corrections the confirm forced: **(a) provenance circularity** — the "two independent transcriptions concur"
-  weight in point (b) was **probably circular**: the StrangeMan frame matches the original 2019 Reddit transcription
-  (`ec3nty`, [#79]) so closely, hesitations included, that the video almost certainly copied that post; both trace to
-  one 2019 listening (moot now — the game text agrees with them where they overlap). **(b) video-L3 is an artifact**
-  (mis-segmented F+E; no matching game line). *Original entry:*
-  A frame **from the StrangeMan video itself** (recovered via the [#43] exposé's embedded images —
-  on file: [`gertrude_numbers-transcription_strangeman-frame.jpg`](../images/gertrude/gertrude_numbers-transcription_strangeman-frame.jpg))
-  carries the fullest transcription yet: **nine distinct sequences**, not one loop —
+- ~~**The exact, complete *tail* of the sequence**~~ — **✅ RESOLVED 2026-07-05 → [K42]** (game-text confirm, [#78]; the canonical 12-line inventory is in [KNOWN] above). The history below is kept per the refute-don't-delete norm, with two corrections the confirm forced: **(a) provenance circularity** — the "two independent transcriptions concur" weight in point (b) was **probably circular**: the StrangeMan frame matches the original 2019 Reddit transcription (`ec3nty`, [#79]) so closely, hesitations included, that the video almost certainly copied that post; both trace to one 2019 listening (moot now — the game text agrees with them where they overlap). **(b) video-L3 is an artifact** (mis-segmented F+E; no matching game line). *Original entry:* A frame **from the StrangeMan video itself** (recovered via the [#43] exposé's embedded images — on file: [`gertrude_numbers-transcription_strangeman-frame.jpg`](../images/gertrude/gertrude_numbers-transcription_strangeman-frame.jpg)) carries the fullest transcription yet: **nine distinct sequences**, not one loop —
   ```
   1 2 3 7 6 4 5 11 2…
   1 2 10 3 5 8 13 14
@@ -108,178 +48,46 @@ the Spider Dream chain even if the developers intended her only as a tragic vign
   1… 1 2… 1 2 3 4… 1 2 3 4 7 3 6!
   1 2 3 4 5 17? 3 4 17? 29 13   ← 1–5 in red; caption: "she only manages to count up to five"
   ```
-  **Why this C-tier capture carries unusual weight:** (a) the **hostile parties agree on the raw data** — the [#43] debunker
-  *reuses* exactly these numbers ("17 thrice repeated, 4 twice, 29 the biggest number Gertrude reaches") while attacking the
-  video's *interpretation*; (b) it **contains our independently recorded fragment verbatim** — the corpus's old
-  *"…seven, six… four, five, eleven… two… uh, one, two, ten, thr…"* is precisely line 1 + the opening of line 2 (`1 2 10 3…`),
-  so two independent transcriptions concur where they overlap; (c) **line 1 is the [K23] Nazar-echoed string** (with the
-  "…11, 2" hearing our own audio pass also produced vs the GTA side's phone-parse `…5,1,1,2`).
-  **What it changes:** the *"does the loop repeat identically?"* sub-question now leans **NO** — she cycles **varied
-  ramblings** sharing motifs (openings `1 2 3 7 6…` / `1 2 10 3…` / `1 2 3 4 5…`; endings `29 13` and `8 13 14` recur;
-  every sequence **restarts from 1, 2…**). **Residual:** confirm against clean in-game audio or a dialogue-file dump (a
-  video transcription can mishear; whether in-game subtitles render the recitation is itself unchecked), and only then feed
-  the tail to the cipher harness.
-  ⚠️ ~~One eyeball note, flagged as exactly the pattern-picking [#43] warns about: lines 2/7 contain the Fibonacci run
-  `(3) 5 8 13`. **Not** to be tested before the audio confirm; recorded so it isn't re-discovered.~~ → **Tested 2026-07-04
-  at the investigator's explicit request** (structure-with-null-models only, not decode-fishing — the tail-*cipher* gate
-  stands): [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py)
-  ([results](../experiments/results/gertrude_tail_structure.md)). Outcome: **a fork, not a finding** — line 2's variant
-  carries a genuine 4-term additive chain `3,5,8,13` (exact permutation p = 0.039 pre-discount; ~0.23 after the post-hoc
-  family discount), **but the chain exists only in the L2 parse**: its near-duplicate line 7 (one inserted `4`, edit
-  distance 1 — plausibly the *same recorded line* transcribed twice) collapses it to an unremarkable 3-term run. The flag
-  hinges on precisely the least-reliable token difference in the dataset, so **the clean-audio confirm now decides two
-  things at once** (the tail text AND this flag) — its priority rises. Globally the tails show **no additive structure
-  beyond chance** (p = 0.44), supporting [S42].
-- **Whether the numbers encode anything** (coordinates, a date, a cipher index, tally counts) — and **which** mystery they
-  serve. K23 confirms the digits are deliberate and Rockstar-flagged, but the *meaning* is unsolved; A1Z26 already returned null.
-- **Whether Gertrude connects to the *Spider* Dream Mystery specifically**, or is a separate Braithwaite/Nazar Easter egg that
-  merely shares the "outhouse + numbers" motif. The GTA crossover doesn't decide this either way; the only thing arguing
-  *against* a spider link is the C-tier hoax exposé (see below).
-- Late-2025 video claims (Strange Man and others titled "Gertrude Braithwaite's Numbers Finally Solved – Spider Web
-  Mystery") assert a connection — **but a community exposé alleges that video is a hoax** (see SPECULATION). ~~The *claimed*
-  in-video solution is still not captured verbatim here~~ → **captured 2026-07-04** from the video's own frames (see
-  SPECULATION + [`images/gertrude/`](../images/gertrude/)); rated **hoax-leaning**.
+  **Why this C-tier capture carries unusual weight:** (a) the **hostile parties agree on the raw data** — the [#43] debunker *reuses* exactly these numbers ("17 thrice repeated, 4 twice, 29 the biggest number Gertrude reaches") while attacking the video's *interpretation*; (b) it **contains our independently recorded fragment verbatim** — the corpus's old *"…seven, six… four, five, eleven… two… uh, one, two, ten, thr…"* is precisely line 1 + the opening of line 2 (`1 2 10 3…`), so two independent transcriptions concur where they overlap; (c) **line 1 is the [K23] Nazar-echoed string** (with the "…11, 2" hearing our own audio pass also produced vs the GTA side's phone-parse `…5,1,1,2`). **What it changes:** the *"does the loop repeat identically?"* sub-question now leans **NO** — she cycles **varied ramblings** sharing motifs (openings `1 2 3 7 6…` / `1 2 10 3…` / `1 2 3 4 5…`; endings `29 13` and `8 13 14` recur; every sequence **restarts from 1, 2…**). **Residual:** confirm against clean in-game audio or a dialogue-file dump (a video transcription can mishear; whether in-game subtitles render the recitation is itself unchecked), and only then feed the tail to the cipher harness. ⚠️ ~~One eyeball note, flagged as exactly the pattern-picking [#43] warns about: lines 2/7 contain the Fibonacci run `(3) 5 8 13`. **Not** to be tested before the audio confirm; recorded so it isn't re-discovered.~~ → **Tested 2026-07-04 at the investigator's explicit request** (structure-with-null-models only, not decode-fishing — the tail-*cipher* gate stands): [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py) ([results](../experiments/results/gertrude_tail_structure.md)). Outcome: **a fork, not a finding** — line 2's variant carries a genuine 4-term additive chain `3,5,8,13` (exact permutation p = 0.039 pre-discount; ~0.23 after the post-hoc family discount), **but the chain exists only in the L2 parse**: its near-duplicate line 7 (one inserted `4`, edit distance 1 — plausibly the *same recorded line* transcribed twice) collapses it to an unremarkable 3-term run. The flag hinges on precisely the least-reliable token difference in the dataset, so **the clean-audio confirm now decides two things at once** (the tail text AND this flag) — its priority rises. Globally the tails show **no additive structure beyond chance** (p = 0.44), supporting [S42].
+- **Whether the numbers encode anything** (coordinates, a date, a cipher index, tally counts) — and **which** mystery they serve. K23 confirms the digits are deliberate and Rockstar-flagged, but the *meaning* is unsolved; A1Z26 already returned null.
+- **Whether Gertrude connects to the *Spider* Dream Mystery specifically**, or is a separate Braithwaite/Nazar Easter egg that merely shares the "outhouse + numbers" motif. The GTA crossover doesn't decide this either way; the only thing arguing *against* a spider link is the C-tier hoax exposé (see below).
+- Late-2025 video claims (Strange Man and others titled "Gertrude Braithwaite's Numbers Finally Solved – Spider Web Mystery") assert a connection — **but a community exposé alleges that video is a hoax** (see SPECULATION). ~~The *claimed* in-video solution is still not captured verbatim here~~ → **captured 2026-07-04** from the video's own frames (see SPECULATION + [`images/gertrude/`](../images/gertrude/)); rated **hoax-leaning**.
 
 ## [SPECULATION]
 
 - **User's lead:** Gertrude's numbers may be **a clue or key** for the wider mystery. Plausible mechanisms to test:
-  - The numbers as an **index** into the Butcher Creek tally marks (1–5) / Fort Brennand tallies (6, 7) — note her sequence
-    contains values **up to 10–11**, which would *extend past* the 1–7 tallies. ~~Worth lining up.~~ **Lined up 2026-07-05
-    → NEGATIVE ([U7], [thread 02](02-butcher-creek-carvings.md)):** on the canonical [K42] text no ascending run crosses
-    7 (`6` never → `7`, `7` never → `8`); 10/11 appear only inside derails; 12 is never said. The index form was
-    separately **closed-inexecutable** (attempt B, nodes 5/6 bare).
+  - The numbers as an **index** into the Butcher Creek tally marks (1–5) / Fort Brennand tallies (6, 7) — note her sequence contains values **up to 10–11**, which would *extend past* the 1–7 tallies. ~~Worth lining up.~~ **Lined up 2026-07-05 → NEGATIVE ([U7], [thread 02](02-butcher-creek-carvings.md)):** on the canonical [K42] text no ascending run crosses 7 (`6` never → `7`, `7` never → `8`); 10/11 appear only inside derails; 12 is never said. The index form was separately **closed-inexecutable** (attempt B, nodes 5/6 bare).
   - The numbers as **map references** (e.g., grid, pole counts on the 2025 web trail — "five poles west" echoes counting).
-  - The numbers as a **letter cipher** (1→A, 2→B …): "1,2,3,7,6,4,5,11,2,1,2,10,3" → A,B,C,G,F,D,E,K,B,A,B,J,C — does any
-    substring spell something? (e.g., **…B,A,B,J… / J,C**?). Speculative; record attempts in
-    [analysis/connections.md](../analysis/connections.md).
+  - The numbers as a **letter cipher** (1→A, 2→B …): "1,2,3,7,6,4,5,11,2,1,2,10,3" → A,B,C,G,F,D,E,K,B,A,B,J,C — does any substring spell something? (e.g., **…B,A,B,J… / J,C**?). Speculative; record attempts in [analysis/connections.md](../analysis/connections.md).
 - The shared **`J`/`M`** letters elsewhere + a Braithwaite tie is a stretch but logged for completeness.
 
 ### ⚠️ Adversarial: the "Gertrude solved → spider web" video is alleged to be a HOAX (2026-06-13; **FULLY CAPTURED 2026-07-04**)
-A Red Dead Wiki forum post — *"Exposing StrangeMan's 'Gertrude Braithwaite and Her Numbers Solved' Video (It's a Hoax)"*
-(source #43, **C-tier, single author** — u/**KidColt.45**, posted **2025-12-17**, assisted by wiki editor GoldenPegasus5).
-**2026-07-04: the full post + its 7 embedded images were recovered via the Fandom Discussions API** (the page 403s/JS-blocks
-normal fetch — recipe now in [RESOURCES.md](../sources/RESOURCES.md)); key images filed to
-[`images/gertrude/`](../images/gertrude/). The refutation, now verbatim-complete:
-1. **The "healthy Gertrude photo at Doyle's Tavern"** the video presents is a **reused generic PED model**, not Gertrude
-   (photo on file: [`gertrude_doyles-tavern-photo_strangeman-claim.jpg`](../images/gertrude/gertrude_doyles-tavern-photo_strangeman-claim.jpg)).
-2. **🆕 The family-photo counter-evidence (the exposé's strongest point, missed by our earlier snippet-level capture):** a
-   **family photo viewable inside Braithwaite Manor** "clearly depicts a much younger Gertrude, posing alongside Catherine's
-   sons (Gareth, Gerald, and Bartholomew)… show[ing] the same malformations and unique characteristics she is seen displaying
-   in 1899, **proving she was born that way**" — physical in-game evidence against the video's *demonic-possession /
-   Butcher-Creek-curse* backstory (which the exposé confirms was the video's actual frame). *(In-game checkable → cheap 🎮 verify.)*
-3. **The number analysis is unfalsifiable** — from the tail's `17/4/29` the author derives "a Biblical reference, mathematical
-   fractions, and some dates… You could obtain just about any type of result if the right set of numbers are selected."
+A Red Dead Wiki forum post — *"Exposing StrangeMan's 'Gertrude Braithwaite and Her Numbers Solved' Video (It's a Hoax)"* (source #43, **C-tier, single author** — u/**KidColt.45**, posted **2025-12-17**, assisted by wiki editor GoldenPegasus5). **2026-07-04: the full post + its 7 embedded images were recovered via the Fandom Discussions API** (the page 403s/JS-blocks normal fetch — recipe now in [RESOURCES.md](../sources/RESOURCES.md)); key images filed to [`images/gertrude/`](../images/gertrude/). The refutation, now verbatim-complete:
+1. **The "healthy Gertrude photo at Doyle's Tavern"** the video presents is a **reused generic PED model**, not Gertrude (photo on file: [`gertrude_doyles-tavern-photo_strangeman-claim.jpg`](../images/gertrude/gertrude_doyles-tavern-photo_strangeman-claim.jpg)).
+2. **🆕 The family-photo counter-evidence (the exposé's strongest point, missed by our earlier snippet-level capture):** a **family photo viewable inside Braithwaite Manor** "clearly depicts a much younger Gertrude, posing alongside Catherine's sons (Gareth, Gerald, and Bartholomew)… show[ing] the same malformations and unique characteristics she is seen displaying in 1899, **proving she was born that way**" — physical in-game evidence against the video's *demonic-possession / Butcher-Creek-curse* backstory (which the exposé confirms was the video's actual frame). *(In-game checkable → cheap 🎮 verify.)*
+3. **The number analysis is unfalsifiable** — from the tail's `17/4/29` the author derives "a Biblical reference, mathematical fractions, and some dates… You could obtain just about any type of result if the right set of numbers are selected."
 4. **Geography error:** the Braithwaites are from **Scarlett Meadows**, not Saint Denis (as the video implies).
-5. **Alignment error:** the outhouse's line points to **Copperhead Landing (Van Horn way)**, **not** Butcher Creek — the
-   exposé's own map overlay is on file
-   ([`gertrude_outhouse-line_van-horn-map.jpg`](../images/gertrude/gertrude_outhouse-line_van-horn-map.jpg)), and the video's
-   rival claim is captured verbatim in its own frame (*"THE SOLUTION TO THIS SECRET IS ALL THE WAY IN BUTCHER CREEK"* →
-   [`gertrude_butcher-creek-claim_strangeman-frame.jpg`](../images/gertrude/gertrude_butcher-creek-claim_strangeman-frame.jpg)).
+5. **Alignment error:** the outhouse's line points to **Copperhead Landing (Van Horn way)**, **not** Butcher Creek — the exposé's own map overlay is on file ([`gertrude_outhouse-line_van-horn-map.jpg`](../images/gertrude/gertrude_outhouse-line_van-horn-map.jpg)), and the video's rival claim is captured verbatim in its own frame (*"THE SOLUTION TO THIS SECRET IS ALL THE WAY IN BUTCHER CREEK"* → [`gertrude_butcher-creek-claim_strangeman-frame.jpg`](../images/gertrude/gertrude_butcher-creek-claim_strangeman-frame.jpg)).
 
-> **Discipline (per CLAUDE.md — refute, don't delete):** this is one C-tier rebuttal, not proof the connection is fake. But it
-> **independently** undercuts the Gertrude↔spider link, and it **lands a hit on our most-used trail documenter (Strange Man)** —
-> so treat Strange Man's *Gertrude* claim specifically as **unverified / disputed**, and lower our prior on a spider-cipher
-> reading. Note the alignment claim is **contested**: other community posts assert the outhouse line runs to **Butcher Creek
-> centre** (also C-tier, unverified) — record both, assert neither. The exposé's side-benefit is real either way: its embedded
-> **video frames preserved the fullest tail transcription on record** (see [UNKNOWN] above) — data both sides accept.
+> **Discipline (per CLAUDE.md — refute, don't delete):** this is one C-tier rebuttal, not proof the connection is fake. But it **independently** undercuts the Gertrude↔spider link, and it **lands a hit on our most-used trail documenter (Strange Man)** — so treat Strange Man's *Gertrude* claim specifically as **unverified / disputed**, and lower our prior on a spider-cipher reading. Note the alignment claim is **contested**: other community posts assert the outhouse line runs to **Butcher Creek centre** (also C-tier, unverified) — record both, assert neither. The exposé's side-benefit is real either way: its embedded **video frames preserved the fullest tail transcription on record** (see [UNKNOWN] above) — data both sides accept.
 
 ### S42 — the deflationary reading: the recitations are FAILED COUNTING (insanity characterisation), not a cipher
-*(Minted 2026-07-04.)* Both hostile parties converge here from opposite directions: **StrangeMan's own frame** highlights
-`1 2 3 4 5` in red with *"she only manages to count up to five"*, and the **exposé** concludes the numbers are "completely
-devoid of meaning… random." The captured transcription's *structure* supports it: every sequence **restarts at 1, 2…**, runs
-correctly to ~4–5, then derails into wrong jumps (7 6 4 5…, 10 3…, 17 29 13) — the shape of a mind trying and failing to
-count, i.e. **writing-room characterisation of her madness**, not an encoding. **Counterweight (why this stays [SPECULATION]
-and U6 stays open):** [K23] — Rockstar **echoed the exact opening string cross-game a year later and made it a callable phone
-number** (#75); studios don't usually canonise random babble. A middle reading: **the signature string `1237645112` is the
-deliberate token** (the thing Nazar echoes) while the *tail* is free-form madness texture — which would make chasing tail
-ciphers a dead end **by design**. → [speculation.md](../findings/speculation.md)
-**⚡ Statistically supported 2026-07-04** by [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py)
-([results](../experiments/results/gertrude_tail_structure.md)), an exact-permutation-null battery on the 9 provisional
-lines (counting prefix fixed under the null so "starts 1,2,3…" can't score as signal): **counting prefixes run 2–5 and
-never pass 5** (the video's own caption, now quantified); after derailing she repeatedly **"re-rails" into locally correct
-counting** (`3,4,5` / `13,14` / `8,9`) — the shape failed counting predicts and an encoding has no reason to produce;
-vocabulary is babble-shaped (contiguous 1–11, then isolated 13/14/17/29; **12 never said**); and the tails carry **no
-additive structure beyond chance globally (exact p = 0.44)**. One narrow exception logged in [UNKNOWN] above (the fragile
-L2-only Fibonacci fork, decided by the audio confirm). Also mechanically useful: **L1≈L6 and L2≈L7 at edit distance 1** →
-the 9 utterances collapse toward ~7 recorded-line templates, and the single-token differences are the transcription's
-least-trustworthy digits. All of it [SPECULATION]-grade on PROVISIONAL C-tier data.
-**⚡ Update 2026-07-05 ([K42]):** the provisional-data caveat is now lifted — the canonical set is **12 game lines**
-([#78]), and the battery's premises shift: **L2≈L7 are NOT one line transcribed twice** (both canonical, edit distance
-1 — the near-duplicate-template inference was wrong in mechanism, right that the pair is special); the `3,5,8,13` run
-is **real text in line A** (but note line B *inserts a 4 that breaks it* — if the chain were the deliberate token,
-preserving it in the variant would be the natural choice, which leans deflationary); video-L3 (one of the 9 inputs)
-was an artifact. The qualitative S42 shape **survives on the canonical data by inspection** (every full line still
-prefixes 1,2…-to-≤5 then derails; re-rails `3,4,5`/`8,9`/`13,14` still present; **12 is still never said** across all
-12 lines) — but the p-values need the **re-run on K42's inventory** before being quoted (→ Open tasks).
-**⚡ Battery RE-RUN on the canonical set, 2026-07-05** ([`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py)
-rewritten in place on the A-tier [K42] inventory; [results](../experiments/results/gertrude_tail_structure.md) supersede
-the provisional run): **S42 survives on clean data.** Every counting attempt in the game's own strings caps at **5**;
-the derailed tails carry **no additive structure beyond chance (global exact p = 0.335**, was 0.44 provisional); re-rail
-runs (`4,5`/`13,14`/`8,9`/`3,4`) and the babble vocabulary persist; **12 is still never said**. 🆕 Canonical-only
-structural finding: **the prefix-0 lines are continuation fragments of one babble stream** — B's head is *verbatim* A's
-tokens 7–13 (full relation: one inserted `4` + one appended `1`), and L (`8,9,3`) is *verbatim* C's tail-end; the 12
-lines read as **windows cut from one long VO take** (a standard barks-recording shape), which explains the fragment
-lines *inside* S42 and why the 2019 listeners chained them. The **line-A `3,5,8,13` chain** lands as a fixed fact of
-the text but **suggestive-not-significant**: per-unit exact p = 0.039, **~0.23 after the family-selection discount**,
-and — the fairer weight — only **p ≈ 0.16 for a ≥4-term chain anywhere in line A as one stream** (seeded MC, seed
-printed). Combined with B (the only other take of the passage) *breaking* the chain, verdict: **deflationary — do not
-build on the Fibonacci run without an independent hook.** The tail-cipher gate's audio-confirm clause is moot (the text
-is canonical); what gates decoding now is the absence of any sourced key.
+*(Minted 2026-07-04.)* Both hostile parties converge here from opposite directions: **StrangeMan's own frame** highlights `1 2 3 4 5` in red with *"she only manages to count up to five"*, and the **exposé** concludes the numbers are "completely devoid of meaning… random." The captured transcription's *structure* supports it: every sequence **restarts at 1, 2…**, runs correctly to ~4–5, then derails into wrong jumps (7 6 4 5…, 10 3…, 17 29 13) — the shape of a mind trying and failing to count, i.e. **writing-room characterisation of her madness**, not an encoding. **Counterweight (why this stays [SPECULATION] and U6 stays open):** [K23] — Rockstar **echoed the exact opening string cross-game a year later and made it a callable phone number** (#75); studios don't usually canonise random babble. A middle reading: **the signature string `1237645112` is the deliberate token** (the thing Nazar echoes) while the *tail* is free-form madness texture — which would make chasing tail ciphers a dead end **by design**. → [speculation.md](../findings/speculation.md) **⚡ Statistically supported 2026-07-04** by [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py) ([results](../experiments/results/gertrude_tail_structure.md)), an exact-permutation-null battery on the 9 provisional lines (counting prefix fixed under the null so "starts 1,2,3…" can't score as signal): **counting prefixes run 2–5 and never pass 5** (the video's own caption, now quantified); after derailing she repeatedly **"re-rails" into locally correct counting** (`3,4,5` / `13,14` / `8,9`) — the shape failed counting predicts and an encoding has no reason to produce; vocabulary is babble-shaped (contiguous 1–11, then isolated 13/14/17/29; **12 never said**); and the tails carry **no additive structure beyond chance globally (exact p = 0.44)**. One narrow exception logged in [UNKNOWN] above (the fragile L2-only Fibonacci fork, decided by the audio confirm). Also mechanically useful: **L1≈L6 and L2≈L7 at edit distance 1** → the 9 utterances collapse toward ~7 recorded-line templates, and the single-token differences are the transcription's least-trustworthy digits. All of it [SPECULATION]-grade on PROVISIONAL C-tier data. **⚡ Update 2026-07-05 ([K42]):** the provisional-data caveat is now lifted — the canonical set is **12 game lines** ([#78]), and the battery's premises shift: **L2≈L7 are NOT one line transcribed twice** (both canonical, edit distance 1 — the near-duplicate-template inference was wrong in mechanism, right that the pair is special); the `3,5,8,13` run is **real text in line A** (but note line B *inserts a 4 that breaks it* — if the chain were the deliberate token, preserving it in the variant would be the natural choice, which leans deflationary); video-L3 (one of the 9 inputs) was an artifact. The qualitative S42 shape **survives on the canonical data by inspection** (every full line still prefixes 1,2…-to-≤5 then derails; re-rails `3,4,5`/`8,9`/`13,14` still present; **12 is still never said** across all 12 lines) — but the p-values need the **re-run on K42's inventory** before being quoted (→ Open tasks). **⚡ Battery RE-RUN on the canonical set, 2026-07-05** ([`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py) rewritten in place on the A-tier [K42] inventory; [results](../experiments/results/gertrude_tail_structure.md) supersede the provisional run): **S42 survives on clean data.** Every counting attempt in the game's own strings caps at **5**; the derailed tails carry **no additive structure beyond chance (global exact p = 0.335**, was 0.44 provisional); re-rail runs (`4,5`/`13,14`/`8,9`/`3,4`) and the babble vocabulary persist; **12 is still never said**. 🆕 Canonical-only structural finding: **the prefix-0 lines are continuation fragments of one babble stream** — B's head is *verbatim* A's tokens 7–13 (full relation: one inserted `4` + one appended `1`), and L (`8,9,3`) is *verbatim* C's tail-end; the 12 lines read as **windows cut from one long VO take** (a standard barks-recording shape), which explains the fragment lines *inside* S42 and why the 2019 listeners chained them. The **line-A `3,5,8,13` chain** lands as a fixed fact of the text but **suggestive-not-significant**: per-unit exact p = 0.039, **~0.23 after the family-selection discount**, and — the fairer weight — only **p ≈ 0.16 for a ≥4-term chain anywhere in line A as one stream** (seeded MC, seed printed). Combined with B (the only other take of the passage) *breaking* the chain, verdict: **deflationary — do not build on the Fibonacci run without an independent hook.** The tail-cipher gate's audio-confirm clause is moot (the text is canonical); what gates decoding now is the absence of any sourced key.
 
 ### Reframe (2026-06-13, corrected): RDR2-original numbers, later Rockstar-flagged via Nazar — meaning still open
-The first version of this note had the chronology backwards. Corrected position: the `1237645112` string is **RDR2-original
-(base game, Oct 2018)**; the **GTA Online Nazar machine that echoes it is a later callback (Dec 2019)**, **not** the source.
-So the crossover does **not** demote the RDR2 reading — it **raises confidence the number is deliberate** (Rockstar echoed the
-exact digits cross-game). What it does **not** settle is **which** mystery the number serves: the **spider trail**, a
-**standalone Braithwaite/Nazar puzzle**, or **nothing decipherable** are all still on the table. Net: Gertrude's numbers are a
-**genuine, intentional, Rockstar-flagged RDR2 cipher-candidate** whose **spider-link is unproven** — neither dismissed nor
-confirmed. (Madam Nazar is, in-fiction, a guide-to-hidden-things, which is *consistent* with her flagging a real egg.)
+The first version of this note had the chronology backwards. Corrected position: the `1237645112` string is **RDR2-original (base game, Oct 2018)**; the **GTA Online Nazar machine that echoes it is a later callback (Dec 2019)**, **not** the source. So the crossover does **not** demote the RDR2 reading — it **raises confidence the number is deliberate** (Rockstar echoed the exact digits cross-game). What it does **not** settle is **which** mystery the number serves: the **spider trail**, a **standalone Braithwaite/Nazar puzzle**, or **nothing decipherable** are all still on the table. Net: Gertrude's numbers are a **genuine, intentional, Rockstar-flagged RDR2 cipher-candidate** whose **spider-link is unproven** — neither dismissed nor confirmed. (Madam Nazar is, in-fiction, a guide-to-hidden-things, which is *consistent* with her flagging a real egg.)
 
 ---
 
 ## Open tasks
-- [x] ~~Fetch/transcribe the Strange Man video claiming Gertrude's numbers are solved~~ — **done 2026-07-04:** the video's
-      claimed solution is now captured **from its own frames** (via the [#43] exposé's embedded images): backstory = demonic
-      possession / Butcher Creek curse; evidence = the Doyle's Tavern "healthy photo"; mechanism = the outhouse alignment →
-      "the solution… is all the way in Butcher Creek"; numbers = "she only manages to count up to five." Rated: **hoax-leaning**
-      (the [#43] five-point refutation, esp. the family-photo counter-evidence). Full-video re-watch now optional.
-- [x] ~~Record the **exact tail** of the sequence; confirm the loop~~ — **⚡ transcription captured 2026-07-04** (9 sequences,
-      max 29, no identical loop — see [UNKNOWN]). ~~**Residual:** confirm against clean audio / a dialogue-file dump~~ —
-      **✅ DONE 2026-07-05 → [K42]**: the game-text dump ([#78]) confirms the tail, resolves the L2/L7 fork (both lines
-      real), and collapses the 9 utterances to the true recorded-line set (12 lines). *(Historic negative kept: the
-      fangirl-ramblings Tumblr audio compilation is gang-camp dialogue only, no Gertrude.)*
-- [x] 🧠 ~~**Re-run the structure battery on the canonical [K42] inventory**~~ — **DONE 2026-07-05** (script rewritten
-      in place; old run marked superseded in its docstring, old headline numbers preserved there + in the log):
-      **S42 survives** (attempts cap at 5; global additive p = 0.335; 12 never said); line-A Fibonacci chain =
-      **suggestive-not-significant, deflationary lean** (per-unit p 0.039 → ~0.23 family-discounted → ~0.16 whole-line;
-      B-take breaks it); 🆕 fragment/windowing structure (see the ⚡ 2026-07-05 battery note above).
-- [x] **Structure battery on the provisional 9-line tail** *(2026-07-04, investigator-requested)* —
-      [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py)
-      ([results](../experiments/results/gertrude_tail_structure.md)): S42 shape statistically supported (prefixes capped at
-      5; re-rail runs; global additive p = 0.44); fragile L2-only Fibonacci fork logged; L1≈L6/L2≈L7 near-duplicate template
-      structure found. No decode attempted.
-- [ ] 🎮 (cheap, next Braithwaite visit) **Verify the manor family photo** — young Gertrude already malformed beside the three
-      brothers (the exposé's point 2); firsthand-confirms the born-that-way refutation.
-- [x] **Run a systematic cipher harness on the confirmed string** *(2026-06-21)* — [`gertrude_cipher.py`](../experiments/gertrude_cipher.py)
-      ([results](../experiments/results/gertrude_cipher.md)). **Null across the board** (A1Z26, arithmetic, dates, anchor
-      cross-reference), incl. **two readings tested for the first time**: a **phone-keypad/T9** reading (the natural "call the
-      number back" test from the GTA crossover — null; only a cherry-picked `FROG` window, a live demo of the #43 "any result"
-      warning) and the **permutation structure** of `1,2,3,7,6,4,5` — confirmed a permutation of 1–7 whose cycle structure is
-      **identity on {1,2,3} + a 4-cycle `(4 7 5 6)` on {4,5,6,7}**, so it would reorder *only* the #4→Fort-Brennand tally tail.
-- [x] ~~Test attempt B (read the seven tally nodes in the order `1,2,3,7,6,4,5`)~~ — **CLOSED-INEXECUTABLE 2026-07-05**:
-      the per-node content sweep ([thread 02](02-butcher-creek-carvings.md#per-node-content-2026-07-05), [#81]) found
-      **nodes 5 and 6 carry nothing beyond their bare tallies** in any source, so the {4,5,6,7} reorder permutes
-      {content, empty, empty, content} — **nothing to read/spell under any assignment**. Reopens only if the [H26]
-      letter-sweep finds content at node 5 or 6. See [connections.md §3](../analysis/connections.md).
-- [ ] Decide a confidence level on "spider-connected vs. standalone vs. flavour" — **current read: numbers are deliberate &
-      Rockstar-flagged (K23); their spider-link is genuinely undecided.** Track cross-game angle in
-      [gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md).
+- [x] ~~Fetch/transcribe the Strange Man video claiming Gertrude's numbers are solved~~ — **done 2026-07-04:** the video's claimed solution is now captured **from its own frames** (via the [#43] exposé's embedded images): backstory = demonic possession / Butcher Creek curse; evidence = the Doyle's Tavern "healthy photo"; mechanism = the outhouse alignment → "the solution… is all the way in Butcher Creek"; numbers = "she only manages to count up to five." Rated: **hoax-leaning** (the [#43] five-point refutation, esp. the family-photo counter-evidence). Full-video re-watch now optional.
+- [x] ~~Record the **exact tail** of the sequence; confirm the loop~~ — **⚡ transcription captured 2026-07-04** (9 sequences, max 29, no identical loop — see [UNKNOWN]). ~~**Residual:** confirm against clean audio / a dialogue-file dump~~ — **✅ DONE 2026-07-05 → [K42]**: the game-text dump ([#78]) confirms the tail, resolves the L2/L7 fork (both lines real), and collapses the 9 utterances to the true recorded-line set (12 lines). *(Historic negative kept: the fangirl-ramblings Tumblr audio compilation is gang-camp dialogue only, no Gertrude.)*
+- [x] 🧠 ~~**Re-run the structure battery on the canonical [K42] inventory**~~ — **DONE 2026-07-05** (script rewritten in place; old run marked superseded in its docstring, old headline numbers preserved there + in the log): **S42 survives** (attempts cap at 5; global additive p = 0.335; 12 never said); line-A Fibonacci chain = **suggestive-not-significant, deflationary lean** (per-unit p 0.039 → ~0.23 family-discounted → ~0.16 whole-line; B-take breaks it); 🆕 fragment/windowing structure (see the ⚡ 2026-07-05 battery note above).
+- [x] **Structure battery on the provisional 9-line tail** *(2026-07-04, investigator-requested)* — [`gertrude_tail_structure.py`](../experiments/gertrude_tail_structure.py) ([results](../experiments/results/gertrude_tail_structure.md)): S42 shape statistically supported (prefixes capped at 5; re-rail runs; global additive p = 0.44); fragile L2-only Fibonacci fork logged; L1≈L6/L2≈L7 near-duplicate template structure found. No decode attempted.
+- [ ] 🎮 (cheap, next Braithwaite visit) **Verify the manor family photo** — young Gertrude already malformed beside the three brothers (the exposé's point 2); firsthand-confirms the born-that-way refutation.
+- [x] **Run a systematic cipher harness on the confirmed string** *(2026-06-21)* — [`gertrude_cipher.py`](../experiments/gertrude_cipher.py) ([results](../experiments/results/gertrude_cipher.md)). **Null across the board** (A1Z26, arithmetic, dates, anchor cross-reference), incl. **two readings tested for the first time**: a **phone-keypad/T9** reading (the natural "call the number back" test from the GTA crossover — null; only a cherry-picked `FROG` window, a live demo of the #43 "any result" warning) and the **permutation structure** of `1,2,3,7,6,4,5` — confirmed a permutation of 1–7 whose cycle structure is **identity on {1,2,3} + a 4-cycle `(4 7 5 6)` on {4,5,6,7}**, so it would reorder *only* the #4→Fort-Brennand tally tail.
+- [x] ~~Test attempt B (read the seven tally nodes in the order `1,2,3,7,6,4,5`)~~ — **CLOSED-INEXECUTABLE 2026-07-05**: the per-node content sweep ([thread 02](02-butcher-creek-carvings.md#per-node-content-2026-07-05), [#81]) found **nodes 5 and 6 carry nothing beyond their bare tallies** in any source, so the {4,5,6,7} reorder permutes {content, empty, empty, content} — **nothing to read/spell under any assignment**. Reopens only if the [H26] letter-sweep finds content at node 5 or 6. See [connections.md §3](../analysis/connections.md).
+- [ ] Decide a confidence level on "spider-connected vs. standalone vs. flavour" — **current read: numbers are deliberate & Rockstar-flagged (K23); their spider-link is genuinely undecided.** Track cross-game angle in [gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md).
 
 ## Sources
-ScreenRant (Gertrude epilogue, #12); GTAForums "The Braithwaite's Secret Code" (#15); YouTube (Strange Man et al., "…Numbers
-Finally Solved – Spider Web Mystery", #17/#18); Red Dead Wiki (Gertrude Braithwaite, #4). **Cross-game crossover (K23):** SVG
-(#24), GamesRadar (#40), PCGamesN (#41), TheGamer (#42); **GTA Wiki *Nazar Speaks* (primary fortune list + callable number,
-#75)**. **Hoax exposé:** Red Dead Wiki forums (#43, C-tier — fully captured 2026-07-04 incl. the transcription frame).
-**Wiki-page negative:** Red Dead Wiki *Gertrude Braithwaite* via API (#76). **Outhouse interior (K41):** GamingBible +
-ScreenRant (#77). **⭐ Game-text confirm (K42):** GitHub text dump, file `0xFD1BB3EB.txt` (#78, in-repo copy) + the
-original 2019 transcription + audio it supersedes (#79). Full list in [sources/sources.md](../sources/sources.md).
+ScreenRant (Gertrude epilogue, #12); GTAForums "The Braithwaite's Secret Code" (#15); YouTube (Strange Man et al., "…Numbers Finally Solved – Spider Web Mystery", #17/#18); Red Dead Wiki (Gertrude Braithwaite, #4). **Cross-game crossover (K23):** SVG (#24), GamesRadar (#40), PCGamesN (#41), TheGamer (#42); **GTA Wiki *Nazar Speaks* (primary fortune list + callable number, #75)**. **Hoax exposé:** Red Dead Wiki forums (#43, C-tier — fully captured 2026-07-04 incl. the transcription frame). **Wiki-page negative:** Red Dead Wiki *Gertrude Braithwaite* via API (#76). **Outhouse interior (K41):** GamingBible + ScreenRant (#77). **⭐ Game-text confirm (K42):** GitHub text dump, file `0xFD1BB3EB.txt` (#78, in-repo copy) + the original 2019 transcription + audio it supersedes (#79). Full list in [sources/sources.md](../sources/sources.md).

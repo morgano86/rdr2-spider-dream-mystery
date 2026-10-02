@@ -1,20 +1,10 @@
 # Result — web file-number structure & provenance (`web_file_number_structure.py`)
 
-**Question.** Is the WEBS-MANIFEST's per-web `spiderdreamNN` numbering (a) sourced, and
-(b) structured w.r.t. the KNOWN colour/hour lattice? Tests **[U32]** (provenance) and feeds
-**[S29]** (the conditional reading). [SPECULATION] at most — see the double-edged note.
+**Question.** Is the WEBS-MANIFEST's per-web `spiderdreamNN` numbering (a) sourced, and (b) structured w.r.t. the KNOWN colour/hour lattice? Tests **[U32]** (provenance) and feeds **[S29]** (the conditional reading). [SPECULATION] at most — see the double-edged note.
 
-> ⚠️ **Provenance flag.** The number→location mapping is **uncited** in the corpus (present
-> since the first commit; no source maps a number to a location) and is **not** the #59 post's
-> *Clockwise Order*. Colour/hour are KNOWN ([K13a]); the per-web NUMBER is the datum under test.
+> ⚠️ **Provenance flag.** The number→location mapping is **uncited** in the corpus (present since the first commit; no source maps a number to a location) and is **not** the #59 post's *Clockwise Order*. Colour/hour are KNOWN ([K13a]); the per-web NUMBER is the datum under test.
 >
-> ✅ **ADDENDUM 2026-07-02 — [U32] RESOLVED: the mapping is publicly sourced (C-tier) → [K39].**
-> u/Artem_ab6's datamine comment (master thread, 2026-01-02, src [#65]) maps all 8 numbers to
-> locations on a map overlay **matching the manifest 8/8** — so the numbering is a genuine
-> community datamine, **not** a back-fit by this corpus, and the structure below attaches to
-> real file data ([S29] now live, C-tier). The "likelier back-fit" verdict at the bottom of
-> this file is **superseded** for the by-us reading; back-fit *by the source* remains possible
-> but unfavoured (the comment claims located in-game coordinates; author has a datamine record).
+> ✅ **ADDENDUM 2026-07-02 — [U32] RESOLVED: the mapping is publicly sourced (C-tier) → [K39].** u/Artem_ab6's datamine comment (master thread, 2026-01-02, src [#65]) maps all 8 numbers to locations on a map overlay **matching the manifest 8/8** — so the numbering is a genuine community datamine, **not** a back-fit by this corpus, and the structure below attaches to real file data ([S29] now live, C-tier). The "likelier back-fit" verdict at the bottom of this file is **superseded** for the by-us reading; back-fit *by the source* remains possible but unfavoured (the comment claims located in-game coordinates; author has a datamine record).
 
 ## The manifest numbering (ascending)
 
@@ -46,19 +36,9 @@
 
 ## Reading (evidence, not fact — [SPECULATION])
 
-The full structure is **1/3360** (~0.03%) under random labeling — **far too clean for**
-**arbitrary internal asset IDs.** That cleanliness is *double-edged*:
+The full structure is **1/3360** (~0.03%) under random labeling — **far too clean for** **arbitrary internal asset IDs.** That cleanliness is *double-edged*:
 
-- **(i) genuine datamine + deliberate dev numbering** → a real, striking intent finding
-  (the devs grouped the files by colour and mirror-paired the hour-twins), independently
-  corroborating that **colour is a first-class axis** ([H9]/[U29]/[S28]) and that the §5c
-  hour-twin lattice is **deliberate** (currently [SPECULATION]).
-- **(ii) the numbers were back-fit to the KNOWN lattice** by a prior session or a community
-  source → the structure is *circular* (it just re-expresses colour+hour, which we already
-  know) and carries **no** independent evidentiary weight.
+- **(i) genuine datamine + deliberate dev numbering** → a real, striking intent finding (the devs grouped the files by colour and mirror-paired the hour-twins), independently corroborating that **colour is a first-class axis** ([H9]/[U29]/[S28]) and that the §5c hour-twin lattice is **deliberate** (currently [SPECULATION]).
+- **(ii) the numbers were back-fit to the KNOWN lattice** by a prior session or a community source → the structure is *circular* (it just re-expresses colour+hour, which we already know) and carries **no** independent evidentiary weight.
 
-Because the mapping is **uncited** and (ii) explains the cleanliness at least as well as (i),
-this **cannot promote** the colour-axis reading. Its real result is a **corpus-integrity flag**:
-a datum presented with file-data authority (and propagated into location dossiers) is too
-structured to be arbitrary and has no citation → **source the datamine number→location mapping,**
-**or mark the numbers as an assignment.** → [U32]; the IF-genuine reading is held at [S29].
+Because the mapping is **uncited** and (ii) explains the cleanliness at least as well as (i), this **cannot promote** the colour-axis reading. Its real result is a **corpus-integrity flag**: a datum presented with file-data authority (and propagated into location dossiers) is too structured to be arbitrary and has no citation → **source the datamine number→location mapping,** **or mark the numbers as an assignment.** → [U32]; the IF-genuine reading is held at [S29].

@@ -10,15 +10,11 @@ Every image filename follows:
 ```
 
 - **All lowercase, ASCII.** Extension reflects the true format (`.webp` / `.png` / `.jpg`).
-- **Fields are separated by `_`; words *within* a field use `-`.** So `_` splits the meaning into parts, `-` keeps a
-  multi-word part readable: `fort-wallace_bird-symbols_tower.webp` → subject `fort-wallace`, detail `bird-symbols`, qualifier `tower`.
-- **`<subject>`** = the place or thing the image is *about* (kebab slug), e.g. `butcher-creek`, `fort-brennand`,
-  `vetters-echo`, `window-rock`, `the-giant`, `dreamcatcher`. This is the subject, **not necessarily the folder** — e.g.
-  the Fort Brennand shot lives in `butcher-creek/` (thematic grouping) but is named `fort-brennand_…`.
+- **Fields are separated by `_`; words *within* a field use `-`.** So `_` splits the meaning into parts, `-` keeps a multi-word part readable: `fort-wallace_bird-symbols_tower.webp` → subject `fort-wallace`, detail `bird-symbols`, qualifier `tower`.
+- **`<subject>`** = the place or thing the image is *about* (kebab slug), e.g. `butcher-creek`, `fort-brennand`, `vetters-echo`, `window-rock`, `the-giant`, `dreamcatcher`. This is the subject, **not necessarily the folder** — e.g. the Fort Brennand shot lives in `butcher-creek/` (thematic grouping) but is named `fort-brennand_…`.
 - **`<detail>`** = what it shows (kebab): `floorboard-pentagram`, `tower-symbols`, `journal-drawing`.
 - **`<qualifier>`** *(optional)* = disambiguator: a time (`1-2am`), a web code (`b34`), or a view index (`view1`, `view2`).
-- **Webs** are a documented sub-pattern: `web_<location>_<code>[_<detail>].webp` (code = colour+hour, e.g. `b34`, `r34`).
-  The centre cluster has no code: `web_centre_n-pole_1-2am.webp`. See [`webs/WEBS-MANIFEST.md`](webs/WEBS-MANIFEST.md).
+- **Webs** are a documented sub-pattern: `web_<location>_<code>[_<detail>].webp` (code = colour+hour, e.g. `b34`, `r34`). The centre cluster has no code: `web_centre_n-pole_1-2am.webp`. See [`webs/WEBS-MANIFEST.md`](webs/WEBS-MANIFEST.md).
 
 When you add an image: name it to this rule, drop it in the right folder, and add a provenance row below.
 
@@ -31,25 +27,16 @@ When you add an image: name it to this rule, drop it in the right folder, and ad
 - `window-rock/` — the Strange Statues cave-painting mural (birds w/ black & red feathers).
 - `dreamcatchers/` — the Dreamcatcher collectible + the journal drawing that connects the 20 points into an animal (see [analysis/dreamcatchers.md](../analysis/dreamcatchers.md)).
 - `saint-denis-vampire/` — the Saint Denis Vampire Easter egg ([K27]): the 5-clue **locations map / pentagram**, the **in-game journal** pages (wall writings + sketches), Arthur's & John's journal drawings, the vampire, and the Ornate Dagger reward. The shipped pentagram-mapping precedent (see [analysis/saint-denis-vampire.md](../analysis/saint-denis-vampire.md)).
-- `gertrude/` — the Gertrude Braithwaite numbers thread ([U6], [thread 04](../threads/04-gertrude-numbers.md)): the
-  StrangeMan-video frames (incl. the **9-sequence tail transcription**) + the [#43] exposé's evidence images.
+- `gertrude/` — the Gertrude Braithwaite numbers thread ([U6], [thread 04](../threads/04-gertrude-numbers.md)): the StrangeMan-video frames (incl. the **9-sequence tail transcription**) + the [#43] exposé's evidence images.
 - `wapiti-giant/` — the Giant's cave + map location (NW cold-frontier lead).
 - `register-rock/` — the Heartlands names-and-dates boulder ("S. Gray 1846") possibly named by the Fort Brennand 3rd symbol ([H11]).
 - `bacchus-bridge/` — the Cumberland Forest truss bridge with the hidden **empty heart** ([K22]) + the Flatneck heart datamine reference.
-- `maps/` — base-map crops, our own built overlays (labelled pole/web positions), and the **in-game prop-map coordinate
-  grids** ([K26]) — the two *"Railroad & State Map"* maps photographed at a stranger's camp.
-- `francis-sinclair/` — the **Geology for Beginners cabin mural** ([K32]/[U31]) — the *separate* time-traveller egg (not
-  verified-linked to the spider mystery; see [thread 08](../threads/08-francis-sinclair-mural.md)).
-- `mount-shann/` — the **Mount Shann "giant sundial"** ([K35]–[K37]) — a *separate* Kuhkowaba-cult / UFO egg (crossover only
-  via GTA V Chiliad; see [thread 09](../threads/09-mount-shann-sundial.md)). Ground + overhead in-game shots and the CodeX
-  `dis_bgv_sundial.ydr` model extraction showing the 7 red/orange/yellow arrows.
+- `maps/` — base-map crops, our own built overlays (labelled pole/web positions), and the **in-game prop-map coordinate grids** ([K26]) — the two *"Railroad & State Map"* maps photographed at a stranger's camp.
+- `francis-sinclair/` — the **Geology for Beginners cabin mural** ([K32]/[U31]) — the *separate* time-traveller egg (not verified-linked to the spider mystery; see [thread 08](../threads/08-francis-sinclair-mural.md)).
+- `mount-shann/` — the **Mount Shann "giant sundial"** ([K35]–[K37]) — a *separate* Kuhkowaba-cult / UFO egg (crossover only via GTA V Chiliad; see [thread 09](../threads/09-mount-shann-sundial.md)). Ground + overhead in-game shots and the CodeX `dis_bgv_sundial.ydr` model extraction showing the 7 red/orange/yellow arrows.
 
 ## Provenance log
-The wiki images below (16 pulled; one — `web_saint-denis_r34.webp`, wiki file `SpiderWebPole.png` — removed 2026-07-04 as
-superseded by the sharper [#59] front shot in `webs/feather-positions/`) were fetched **2026-06-13** from the Red Dead Wiki
-via its CDN (`static.wikia.nocookie.net/reddeadredemption`);
-the wiki web/page routes are Cloudflare-blocked but the MediaWiki API + CDN are not. Fandom files are **WebP**. Always log the
-**source URL/wiki file** for anything added — a sourced+verified web image is preferred over an in-game capture (see sourcing note).
+The wiki images below (16 pulled; one — `web_saint-denis_r34.webp`, wiki file `SpiderWebPole.png` — removed 2026-07-04 as superseded by the sharper [#59] front shot in `webs/feather-positions/`) were fetched **2026-06-13** from the Red Dead Wiki via its CDN (`static.wikia.nocookie.net/reddeadredemption`); the wiki web/page routes are Cloudflare-blocked but the MediaWiki API + CDN are not. Fandom files are **WebP**. Always log the **source URL/wiki file** for anything added — a sourced+verified web image is preferred over an in-game capture (see sourcing note).
 
 | File (current path) | Shows | Source file |
 |------|-------|-----------|
@@ -75,9 +62,7 @@ the wiki web/page routes are Cloudflare-blocked but the MediaWiki API + CDN are 
 | `wapiti-giant/the-giant_cave-home.jpg` | The Giant's cave interior / home | (wiki) |
 
 ### Added 2026-06-13 — community Google Site (Timeline & Facts pages, [source #36](../sources/sources.md)) · **C-tier, verify**
-Pulled from `lh3.googleusercontent.com` (the site is JS-rendered; image URLs were extracted from the raw page HTML, not
-the rendered DOM). Community-made overlays/datamines — credits are visible on the images (Jay_0048, thecochiti). Treat as
-leads corroborated against the manifest, **not** primary.
+Pulled from `lh3.googleusercontent.com` (the site is JS-rendered; image URLs were extracted from the raw page HTML, not the rendered DOM). Community-made overlays/datamines — credits are visible on the images (Jay_0048, thecochiti). Treat as leads corroborated against the manifest, **not** primary.
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
@@ -112,11 +97,7 @@ leads corroborated against the manifest, **not** primary.
 | `bacchus-bridge/flatneck-station_heart-carving_datamine.png` | **Reference:** the *filled* Flatneck "Lillie ♥ Alfred" heart (datamined `…treeplaceholder2` alpha) — the Bacchus heart is this shape but **blank** | Google Site Timeline (datamine) |
 
 ### Added 2026-06-13 — matchstick letter sets `J+M` & `S+J` (Reddit, via Arctic Shift mirror) · **C-tier, corroborated by investigator data**
-Reddit's HTML/JSON front door **403-blocks** our fetcher (UA-agnostic — it's an egress-IP block), but the **Arctic Shift**
-community data mirror (`arctic-shift.photon-reddit.com/api`) is **not** blocked and returns post metadata + image URLs; the
-`i.redd.it` image CDN is **also reachable**. Pulled the two missing letter sets from r/reddeadmysteries and **verified each
-against the user's own firsthand in-game screenshot** (2026-06-13) — same letters, same props, same pinned location. See the
-recipe in [`sources/RESOURCES.md`](../sources/RESOURCES.md#access-cookbook-the-fetch-recipes-that-actually-work).
+Reddit's HTML/JSON front door **403-blocks** our fetcher (UA-agnostic — it's an egress-IP block), but the **Arctic Shift** community data mirror (`arctic-shift.photon-reddit.com/api`) is **not** blocked and returns post metadata + image URLs; the `i.redd.it` image CDN is **also reachable**. Pulled the two missing letter sets from r/reddeadmysteries and **verified each against the user's own firsthand in-game screenshot** (2026-06-13) — same letters, same props, same pinned location. See the recipe in [`sources/RESOURCES.md`](../sources/RESOURCES.md#access-cookbook-the-fetch-recipes-that-actually-work).
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
@@ -124,11 +105,7 @@ recipe in [`sources/RESOURCES.md`](../sources/RESOURCES.md#access-cookbook-the-f
 | `matchsticks/caliga-hall_matchstick-sj.jpg` | **Matches spelling `S + J`** on a table at **Caliga Hall** (the Gray estate), with an ashtray of matches + a *Diablo's Matches* box; player holding a *Vistas of America* card. Confirms [K9] `S+J`@Caliga Hall | Reddit r/reddeadmysteries, u/KermitTheFraud92 ("on a table in caliga hall", [post](https://reddit.com/r/reddeadmysteries/comments/i75ax5/)) → `i.redd.it/zg1izs0cl6g51.jpg`. **Verified vs investigator screenshot 2026-06-13.** |
 
 ### Added 2026-06-13 — first feather-orientation captures (Reddit, via Arctic Shift mirror) · **C-tier, location unconfirmed**
-From the r/reddeadmysteries **"Zoological"** post (u/Suspicious-Ad6283, ~2026-06). Its two in-world web shots (one black,
-one red feather; `web_black-feather_railway-pole_loc-unconfirmed.jpg` / `web_red-feather_railway-pole_loc-unconfirmed.jpg`,
-source URLs `i.redd.it/3842h740f56h1.jpg` / `nwz8dz70f56h1.jpg`) were the repo's **first** feather-in-web captures, but were
-**removed 2026-07-04** — fully superseded by the location-mapped all-8 [#59] set in
-[`webs/feather-positions/`](webs/feather-positions/README.md). The cardinal reference below is kept for [S15].
+From the r/reddeadmysteries **"Zoological"** post (u/Suspicious-Ad6283, ~2026-06). Its two in-world web shots (one black, one red feather; `web_black-feather_railway-pole_loc-unconfirmed.jpg` / `web_red-feather_railway-pole_loc-unconfirmed.jpg`, source URLs `i.redd.it/3842h740f56h1.jpg` / `nwz8dz70f56h1.jpg`) were the repo's **first** feather-in-web captures, but were **removed 2026-07-04** — fully superseded by the location-mapped all-8 [#59] set in [`webs/feather-positions/`](webs/feather-positions/README.md). The cardinal reference below is kept for [S15].
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
@@ -137,11 +114,7 @@ source URLs `i.redd.it/3842h740f56h1.jpg` / `nwz8dz70f56h1.jpg`) were the repo's
 | `butcher-creek/butcher-creek_outhouse-datamine-names_pentagram.png` | The 5 outhouses (`but_01 outhouse cliff 000–004`) connected into the pentagram — datamine entity names visible. Corroborates [K5] | Reddit r/reddeadmysteries, u/fireflighTim "Decoding Butcher Creek" → `i.redd.it/xnevsg55hcig1.png` |
 
 ### Added 2026-06-13 — ★ FULL feather-position set, all 8 webs ([U0]/[H4], Reddit via Arctic Shift) · **C-tier, high-value**
-u/dropthepress's r/reddeadmysteries post **"High-quality spiderweb screenshots"** ([#59]) shot **every web front + side** — the
-first source to document feather position for all 8 (the repo's long-standing [#1 still-wanted](#still-wanted-images-source-from-the-web-first)
-item). **16 web shots + 1 location/colour map.** Saved under [`webs/feather-positions/`](webs/feather-positions/README.md)
-(full per-image index there). **Finding:** every feather **hangs tip-down by gravity** → **refutes [H4]**; only the per-web
-*attachment point* varies. *(Superseded the two loc-unconfirmed "Zoological" captures above, removed 2026-07-04.)*
+u/dropthepress's r/reddeadmysteries post **"High-quality spiderweb screenshots"** ([#59]) shot **every web front + side** — the first source to document feather position for all 8 (the repo's long-standing [#1 still-wanted](#still-wanted-images-source-from-the-web-first) item). **16 web shots + 1 location/colour map.** Saved under [`webs/feather-positions/`](webs/feather-positions/README.md) (full per-image index there). **Finding:** every feather **hangs tip-down by gravity** → **refutes [H4]**; only the per-web *attachment point* varies. *(Superseded the two loc-unconfirmed "Zoological" captures above, removed 2026-07-04.)*
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
@@ -149,8 +122,7 @@ item). **16 web shots + 1 location/colour map.** Saved under [`webs/feather-posi
 | `webs/web_map-overlay_locations-by-colour_dropthepress.png` | The 8 web locations on the map, **colour-coded by feather** (black/red legend) | same post |
 
 ### Added 2026-06-13 — extracted/transparent symbol assets (investigator-supplied) · **derived from in-game (A)**
-Clean alpha-channel extractions of the key carved symbols, dropped via `TEMP_IMG` and filed to their subject folders. Useful
-for overlay/comparison work (e.g. matching the spider etching to a map, reading the guitar/W-poles glyphs).
+Clean alpha-channel extractions of the key carved symbols, dropped via `TEMP_IMG` and filed to their subject folders. Useful for overlay/comparison work (e.g. matching the spider etching to a map, reading the guitar/W-poles glyphs).
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
@@ -161,10 +133,7 @@ for overlay/comparison work (e.g. matching the spider etching to a map, reading 
 | `window-rock/window-rock_strange-statues-mural_extracted.png` | The **Window Rock "Strange Statues" mural**, hi-res isolated. ⚠️ **Contrast-boosted / NOT colour-faithful** (reads ~half "black" — but its chromatic pixels are *also* 100% red): use the wiki `…mural.webp` for any colour question. Established 2026-06-21 via [`mural_colour_count.py`](../experiments/mural_colour_count.py) ([U14] negative) | Investigator-supplied extraction |
 
 ### Added 2026-06-13 — in-game map coordinate grids ([K26], investigator capture) · **firsthand, high-trust**
-The in-game map grid [U26] was blocked on. Two *"A Partial and Correct Railroad and State Map of the United States"* prop
-maps photographed at a **stranger's camp** (reportedly the camp near the *"Mysterious House"*/turtle house — the NPC who tells
-of three brothers' hidden gold; **camp identity uncertain**). Each carries a printed lettered+numbered grid. Tested in
-[`number_grid.py`](../experiments/number_grid.py): per-cell reading of the markings is **negative-leaning** (Map 2 admits only `EC`).
+The in-game map grid [U26] was blocked on. Two *"A Partial and Correct Railroad and State Map of the United States"* prop maps photographed at a **stranger's camp** (reportedly the camp near the *"Mysterious House"*/turtle house — the NPC who tells of three brothers' hidden gold; **camp identity uncertain**). Each carries a printed lettered+numbered grid. Tested in [`number_grid.py`](../experiments/number_grid.py): per-cell reading of the markings is **negative-leaning** (Map 2 admits only `EC`).
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
@@ -177,9 +146,7 @@ of three brothers' hidden gold; **camp identity uncertain**). Each carries a pri
 | `butcher-creek/butcher-creek_outhouse4-roof-droppings.jpg` | **Outhouse #4 roof, from above (axe in hand):** two large droppings side by side, a gap, then one small dropping at the far edge above the doorframe — three in a line ([U28]). Most likely ambient scenery; logged as an oddity attached to the key outhouse #4 | Firsthand investigator screenshot (PS5), 2026-06-13 |
 
 ### Added 2026-06-13 — Saint Denis Vampire precedent ([K27]/[H15]/[H16], wiki CDN) · **B-tier (in-game = A)**
-Pulled from the Red Dead Wiki CDN (`static.wikia.nocookie.net/reddeadredemption`) via the MediaWiki API for the file URLs
-(the wiki page itself 403s). The egg is base-game and **documented in the in-game journal** — these are the reference set for
-the [saint-denis-vampire.md](../analysis/saint-denis-vampire.md) dossier and source [#58](../sources/sources.md).
+Pulled from the Red Dead Wiki CDN (`static.wikia.nocookie.net/reddeadredemption`) via the MediaWiki API for the file URLs (the wiki page itself 403s). The egg is base-game and **documented in the in-game journal** — these are the reference set for the [saint-denis-vampire.md](../analysis/saint-denis-vampire.md) dossier and source [#58](../sources/sources.md).
 
 | File (current path) | Shows | Source file |
 |------|-------|-----------|
@@ -192,18 +159,14 @@ the [saint-denis-vampire.md](../analysis/saint-denis-vampire.md) dossier and sou
 | `saint-denis-vampire/saint-denis-vampire_ornate-dagger_reward.jpg` | The **Ornate Dagger** (missable reward looted from the Vampire) | Ornate Dagger handle.jpg |
 
 ### Added 2026-06-21 — Francis Sinclair cabin mural ([K32]/[U31], user-supplied HQ) · **B-tier (in-game asset = A); separate egg**
-The user's HQ photo of the mural, dropped into the repo because `i.imgur.com/fakkLOa.jpg` **geo-blocks our fetcher** (returns
-a "Content not viewable in your region" placeholder — see [memory: imgur-geoblocked-fetcher]). At 2822×2117 this is the real
-high-res capture. **Analysed firsthand 2026-06-21** for [U31] (composition logged in [thread 08](../threads/08-francis-sinclair-mural.md)).
+The user's HQ photo of the mural, dropped into the repo because `i.imgur.com/fakkLOa.jpg` **geo-blocks our fetcher** (returns a "Content not viewable in your region" placeholder — see [memory: imgur-geoblocked-fetcher]). At 2822×2117 this is the real high-res capture. **Analysed firsthand 2026-06-21** for [U31] (composition logged in [thread 08](../threads/08-francis-sinclair-mural.md)).
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
 | `francis-sinclair/francis-sinclair_cabin-mural_hq.jpg` | **The full cabin mural** (2822×2117): central suited figure stepping through an **oval portal**, ringed by a large crowned/haloed sunburst head above; **skyscrapers + factories + UFO/zeppelin** to the left, **pyramids + Sphinx + pharaoh bust + horse-drawn carriage** to the right, **leaping/running figures** flanking the portal, lightning/radiant lines throughout — all surrounded by the **individual pinned rock-carving sketches** the player mailed in. Sepia line-art after Diego Rivera's *Man, Controller of the Universe* (1934) | User-supplied HQ photo (orig. `i.imgur.com/fakkLOa.jpg`, geo-blocked to fetcher), 2026-06-21 |
 
 ### Added 2026-07-02 — Mount Shann sundial ([K35]–[K37], user-supplied) · **firsthand + A-tier datamine; separate egg**
-User-supplied captures + a datamined model extraction of the Mount Shann "giant sundial," dropped in at the user's request
-(2026-07-02) to open [thread 09](../threads/09-mount-shann-sundial.md). **Not the spider mystery** — a separate Kuhkowaba /
-UFO egg. The codex model is the key image: it confirms the 7 arrows are a **deliberate painted asset**.
+User-supplied captures + a datamined model extraction of the Mount Shann "giant sundial," dropped in at the user's request (2026-07-02) to open [thread 09](../threads/09-mount-shann-sundial.md). **Not the spider mystery** — a separate Kuhkowaba / UFO egg. The codex model is the key image: it confirms the 7 arrows are a **deliberate painted asset**.
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
@@ -218,22 +181,14 @@ UFO egg. The codex model is the key image: it confirms the 7 arrows are a **deli
 | `webs/web_diagram_feather-positions_vector.jpeg` | Vector diagram of **all 8 webs** labelled hour+colour with each feather at its socket. Socket positions match the [#59] reads **8/8** — likely derived from that set, so treat as **illustration, not independent evidence**. ⚠️ Known inaccuracy: draws the red feathers single, but in-game **all 8 feathers are doubled** ([K40]) | **Community-made, user-supplied 2026-07-04** — user recalls finding it on **Reddit** (exact post unpinned; C-tier) |
 
 ### Replaced 2026-07-04 — feather-position fronts re-shot firsthand (PS5 photo mode, 4K) · **firsthand, high-trust**
-The investigator re-shot **all 8 web fronts** on PS5 (photo mode, 3840×2160) and they were swapped in **file-for-file under
-the existing names** in [`webs/feather-positions/`](webs/feather-positions/README.md) — so every cross-link kept resolving,
-while the image tier for feather position rose from **C ([#59] Reddit uploads) to firsthand investigator data**. Each
-capture's background independently confirms its location (Emerald's station platform, Saint Denis' lit factory row,
-Ringneck's truss bridge, Scarlett's farm + water tower). **All 8 socket reads re-verified at 4K — 8/8 unchanged, all now
-high-confidence** (Scarlett's old C-vs-R ambiguity resolves to a clear `R`); the doubling ([K40]) is unambiguous on the
-four twinned blacks, hidden on the reds/BL56 from these angles (consistent with the [K40] front-angle caveat).
+The investigator re-shot **all 8 web fronts** on PS5 (photo mode, 3840×2160) and they were swapped in **file-for-file under the existing names** in [`webs/feather-positions/`](webs/feather-positions/README.md) — so every cross-link kept resolving, while the image tier for feather position rose from **C ([#59] Reddit uploads) to firsthand investigator data**. Each capture's background independently confirms its location (Emerald's station platform, Saint Denis' lit factory row, Ringneck's truss bridge, Scarlett's farm + water tower). **All 8 socket reads re-verified at 4K — 8/8 unchanged, all now high-confidence** (Scarlett's old C-vs-R ambiguity resolves to a clear `R`); the doubling ([K40]) is unambiguous on the four twinned blacks, hidden on the reds/BL56 from these angles (consistent with the [K40] front-angle caveat).
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
 | `webs/feather-positions/web_<location>_<code>_front.jpg` (8) | All 8 webs, front view, feather + socket clearly legible at 4K. ⚠️ `web_scarlett_r23_front.jpg` and `web_southfield_r45_front.jpg` carry a small photo-mode HUD overlay top-right (cosmetic) | Firsthand investigator screenshots (PS5 photo mode, 3840×2160), 2026-07-04 |
 
 ### Added 2026-07-04 — Gertrude numbers: hoax-exposé evidence set ([#43], via the Fandom Discussions API) · **C-tier**
-The [#43] exposé post's embedded images, recovered 2026-07-04 through the **Fandom Discussions API** (the `/f/` page 403s;
-recipe in [RESOURCES.md](../sources/RESOURCES.md)) from `static.wikia.nocookie.net` UUID URLs. Three are **frames from
-StrangeMan's video itself** (reposted by the exposé author) — i.e. the alleged-hoax video's claims preserved verbatim.
+The [#43] exposé post's embedded images, recovered 2026-07-04 through the **Fandom Discussions API** (the `/f/` page 403s; recipe in [RESOURCES.md](../sources/RESOURCES.md)) from `static.wikia.nocookie.net` UUID URLs. Three are **frames from StrangeMan's video itself** (reposted by the exposé author) — i.e. the alleged-hoax video's claims preserved verbatim.
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
@@ -243,43 +198,21 @@ StrangeMan's video itself** (reposted by the exposé author) — i.e. the allege
 | `gertrude/gertrude_outhouse-line_van-horn-map.jpg` | The exposé's own counter-alignment overlay: the outhouse's line drawn from Braithwaite Manor **NE to Van Horn / Copperhead Landing** — *not* Butcher Creek | [#43] author's map (u/KidColt.45) |
 
 ## Still-wanted images (source from the web first)
-Ordered by value. **Default to sourcing a clear, verifiable image from the wiki / community sites / the Strange Man video,
-then verify it** — only fall back to firsthand in-game capture for detail that genuinely isn't documented anywhere online.
+Ordered by value. **Default to sourcing a clear, verifiable image from the wiki / community sites / the Strange Man video, then verify it** — only fall back to firsthand in-game capture for detail that genuinely isn't documented anywhere online.
 
-1. **The 8 webs + feathers** — per the [WEBS-MANIFEST](webs/WEBS-MANIFEST.md): each web at its hour with **feather colour
-   and position/orientation** visible. *(Feather **orientation** is the one item with no known online source — the most
-   likely capture-only task; try the Strange Man video frames first.)* **Update 2026-06-13:** all 8 **locations** are now
-   covered by the labelled overlay maps above, and the `cablemesh` **datamine** shows feather positions *in the model* —
-   but per-web in-game shots showing each feather's **in-world orientation** are still missing. **Partial 2026-06-13:** two
-   feather-in-web captures sourced from Reddit (one black, one red — see provenance below), but **location-unconfirmed**, so
-   the per-web orientation grid is still open. Both show the feather hanging **tip-down by gravity**, not pointing along a
-   heading — a lead against the orientation-encodes-direction reading of [U0].
+1. **The 8 webs + feathers** — per the [WEBS-MANIFEST](webs/WEBS-MANIFEST.md): each web at its hour with **feather colour and position/orientation** visible. *(Feather **orientation** is the one item with no known online source — the most likely capture-only task; try the Strange Man video frames first.)* **Update 2026-06-13:** all 8 **locations** are now covered by the labelled overlay maps above, and the `cablemesh` **datamine** shows feather positions *in the model* — but per-web in-game shots showing each feather's **in-world orientation** are still missing. **Partial 2026-06-13:** two feather-in-web captures sourced from Reddit (one black, one red — see provenance below), but **location-unconfirmed**, so the per-web orientation grid is still open. Both show the feather hanging **tip-down by gravity**, not pointing along a heading — a lead against the orientation-encodes-direction reading of [U0].
 2. **The under-wood pole inscriptions** (verbatim) — most are screenshotted in community videos/threads; pull and verify.
-3. ~~**`J+M` (Cornwall K&T) and `S+J` (Caliga Hall) matchstick sets**~~ ✅ **DONE 2026-06-13** — both sourced from
-   r/reddeadmysteries via the Arctic Shift mirror and verified against the user's firsthand screenshots (see provenance
-   above). **Still wanted:** the **arrow** set — community pins it to the **Old Trail Rise** basement (u/Jeralt & deleted
-   posts; an imgur gallery `LrkkDcX` is referenced but unverified). Deprioritised (standard stash pointer, not an initial).
-4. ~~**Window Rock mural** — close enough to count each bird's **black vs red** feathers (for H3).~~ ✅ **DONE 2026-06-21
-   (NEGATIVE):** the colour-faithful wiki texture is conclusive without a closer shot — the mural is a **single red pigment**
-   (no black/red split; [U14]/[H3] refuted via [`mural_colour_count.py`](../experiments/mural_colour_count.py)).
+3. ~~**`J+M` (Cornwall K&T) and `S+J` (Caliga Hall) matchstick sets**~~ ✅ **DONE 2026-06-13** — both sourced from r/reddeadmysteries via the Arctic Shift mirror and verified against the user's firsthand screenshots (see provenance above). **Still wanted:** the **arrow** set — community pins it to the **Old Trail Rise** basement (u/Jeralt & deleted posts; an imgur gallery `LrkkDcX` is referenced but unverified). Deprioritised (standard stash pointer, not an initial).
+4. ~~**Window Rock mural** — close enough to count each bird's **black vs red** feathers (for H3).~~ ✅ **DONE 2026-06-21 (NEGATIVE):** the colour-faithful wiki texture is conclusive without a closer shot — the mural is a **single red pigment** (no black/red split; [U14]/[H3] refuted via [`mural_colour_count.py`](../experiments/mural_colour_count.py)).
 5. **Fort Brennand** three tower symbols + tally counts (6, 7), close up.
 
-> **Re-examined 2026-06-13 (the heart motif IS a lead).** The datamined `…treeplaceholder2` texture reveals the Flatneck
-> Station *"Lillie ♥ Alfred"* carving — itself a *separate* easter egg. **But** the same **heart-and-arrow shape recurs,
-> empty, hidden on a [Bacchus Bridge](../locations/bacchus-bridge.md) leg, in line of sight of the bird carving** (investigator
-> data → [K22]). So the **heart motif is now an active frontier lead** ([H10]/[U23]); the *Flatneck inscription itself*
-> remains an unrelated egg. The datamine image is kept as the comparison reference (`bacchus-bridge/flatneck-station_heart-carving_datamine.png`).
+> **Re-examined 2026-06-13 (the heart motif IS a lead).** The datamined `…treeplaceholder2` texture reveals the Flatneck Station *"Lillie ♥ Alfred"* carving — itself a *separate* easter egg. **But** the same **heart-and-arrow shape recurs, empty, hidden on a [Bacchus Bridge](../locations/bacchus-bridge.md) leg, in line of sight of the bird carving** (investigator data → [K22]). So the **heart motif is now an active frontier lead** ([H10]/[U23]); the *Flatneck inscription itself* remains an unrelated egg. The datamine image is kept as the comparison reference (`bacchus-bridge/flatneck-station_heart-carving_datamine.png`).
 
-> **Sourcing note:** fandom + GTAForums block automated download (403); use the wiki **CDN** + **API**, community sites, or
-> video frames. A **web-sourced image, verified against a second source**, is preferred and usually sufficient — reserve
-> in-game capture for the rare detail no online source records (e.g. feather orientation). Always log the source here.
+> **Sourcing note:** fandom + GTAForums block automated download (403); use the wiki **CDN** + **API**, community sites, or video frames. A **web-sourced image, verified against a second source**, is preferred and usually sufficient — reserve in-game capture for the rare detail no online source records (e.g. feather orientation). Always log the source here.
 
 ### Added 2026-09-01 — CodeX ymap-extent renders (source [#89])
 
-Four plots generated **from the shipped game files** by the investigator's CodeX diagnostic harness (matplotlib
-renders, not screenshots): the 3 boundary-group `.ymap` extent boxes drawn against the 8 feather positions. They are
-the visual evidence for [K48]/[K49] and the deflation of [S36]/[S22] — see
-[H28](../findings/speculation.md) and the [WEBS-MANIFEST](webs/WEBS-MANIFEST.md) file-data banner.
+Four plots generated **from the shipped game files** by the investigator's CodeX diagnostic harness (matplotlib renders, not screenshots): the 3 boundary-group `.ymap` extent boxes drawn against the 8 feather positions. They are the visual evidence for [K48]/[K49] and the deflation of [S36]/[S22] — see [H28](../findings/speculation.md) and the [WEBS-MANIFEST](webs/WEBS-MANIFEST.md) file-data banner.
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|

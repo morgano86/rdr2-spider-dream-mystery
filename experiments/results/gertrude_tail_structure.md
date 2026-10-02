@@ -1,13 +1,6 @@
 # Result -- Gertrude structure battery on the CANONICAL [K42] set (`gertrude_tail_structure.py`)
 
-Tests **[S42]** (failed-counting characterisation) vs *deliberate tail structure* on the
-**CANONICAL 12-line game-text inventory** ([K42], A-tier, #78 -- the game's own subtitle
-strings, in-repo copy on file). Exact permutation nulls; each unit's correct counting
-prefix is **fixed** under the null so the conceded "she starts 1,2,3..." shape cannot
-score as signal. **Supersedes the 2026-07-04 run on the provisional 9-line video
-transcription** (global p was 0.44; the 'L2' chain p was 0.039 read as a transcription
-fork -- K42 dissolved that frame: the fork's two variants are the REAL lines A and B).
-No decode attempted; a positive here is [SPECULATION] at most.
+Tests **[S42]** (failed-counting characterisation) vs *deliberate tail structure* on the **CANONICAL 12-line game-text inventory** ([K42], A-tier, #78 -- the game's own subtitle strings, in-repo copy on file). Exact permutation nulls; each unit's correct counting prefix is **fixed** under the null so the conceded "she starts 1,2,3..." shape cannot score as signal. **Supersedes the 2026-07-04 run on the provisional 9-line video transcription** (global p was 0.44; the 'L2' chain p was 0.039 read as a transcription fork -- K42 dissolved that frame: the fork's two variants are the REAL lines A and B). No decode attempted; a positive here is [SPECULATION] at most.
 
 ## 1. Counting-prefix shape (the S42 prediction)
 - Correct-prefix length per unit: A1=3, A2=2, B1=0, B2=0, C1=5, C2=2, D=3, E=0, F=5, G=4, H1=2, H2=4, I1=4, I2=2, I3=1, J=2, K=1, L=0.

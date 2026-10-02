@@ -1,8 +1,6 @@
 # Result -- dev-initials COHERENCE test (`credits_initials_coherence.py`)
 
-**Question.** Past the counts: if the five markings were a dev tribute, do their
-senior matches share a single home -- one studio, one discipline, or a world-building
-team? Tests U4/U25/S16 (the dev-initials counter-hypothesis). [SPECULATION] at most.
+**Question.** Past the counts: if the five markings were a dev tribute, do their senior matches share a single home -- one studio, one discipline, or a world-building team? Tests U4/U25/S16 (the dev-initials counter-hypothesis). [SPECULATION] at most.
 
 Source: rdr2-credits.txt (6345 people). Senior+ tiers only (exec/dir, lead, senior).
 
@@ -60,13 +58,7 @@ Source: rdr2-credits.txt (6345 people). Senior+ tiers only (exec/dir, lead, seni
 
 ## Reading (evidence, not fact -- [SPECULATION])
 
-- The dev-tribute reading needs a single coherent group; the test asks whether one
-  exists even in the best case (cherry-picking the most senior match per marking).
-- A shared **large** studio is *not* coherence -- Rockstar North is so big it lands in
-  almost every pool by chance. The discriminating question is the **world-building**
-  row: do design/environment people -- the ones who actually place hidden carvings --
-  appear for *every* marking, and could they be the same office? If not, the tribute
-  has no plausible authoring team, which is a stronger objection than the raw counts.
+- The dev-tribute reading needs a single coherent group; the test asks whether one exists even in the best case (cherry-picking the most senior match per marking).
+- A shared **large** studio is *not* coherence -- Rockstar North is so big it lands in almost every pool by chance. The discriminating question is the **world-building** row: do design/environment people -- the ones who actually place hidden carvings -- appear for *every* marking, and could they be the same office? If not, the tribute has no plausible authoring team, which is a stronger objection than the raw counts.
 
-This neither confirms nor refutes any name; it characterises whether dev-initials is
-even *organisationally* coherent, complementing `credits_initials_match.py` (counts).
+This neither confirms nor refutes any name; it characterises whether dev-initials is even *organisationally* coherent, complementing `credits_initials_match.py` (counts).

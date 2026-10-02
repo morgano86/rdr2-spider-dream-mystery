@@ -1,21 +1,14 @@
 # Cross-thread analysis — connections, letters, numbers
 
-This is the working theory bench. Everything here is **analysis, not fact** — but it's where threads get tied together and
-hypotheses get tested (including null results, which are valuable).
+This is the working theory bench. Everything here is **analysis, not fact** — but it's where threads get tied together and hypotheses get tested (including null results, which are valuable).
 
 ---
 
 ## 1. The letter set (now expanded with primary-wiki data)
 
-> **⚠️ Terminology discipline ([U25], user, 2026-06-13).** Call these **letters / letter-pairs / markings** — **not
-> "initials."** The **[KNOWN]** is only that the game *displays the letter-pairs* `LJ`, `SM`, `EC` (bare) and `J+M`, `S+J`
-> (with a `+` connective). That they are **initials of anything** (people, places, …) is a **[SPECULATION]** reading — it is
-> exactly what `S1`/`S2`/`S16` *propose*, not a confirmed fact. Using "initials" as the neutral term silently pre-commits the
-> puzzle to the name-hypothesis. Below, "initials" appears **only** when naming that hypothesis; the neutral default is
-> "letters." (Also: several readings are *reported* displays from secondary sources, not all firsthand-verified.)
+> **⚠️ Terminology discipline ([U25], user, 2026-06-13).** Call these **letters / letter-pairs / markings** — **not "initials."** The **[KNOWN]** is only that the game *displays the letter-pairs* `LJ`, `SM`, `EC` (bare) and `J+M`, `S+J` (with a `+` connective). That they are **initials of anything** (people, places, …) is a **[SPECULATION]** reading — it is exactly what `S1`/`S2`/`S16` *propose*, not a confirmed fact. Using "initials" as the neutral term silently pre-commits the puzzle to the name-hypothesis. Below, "initials" appears **only** when naming that hypothesis; the neutral default is "letters." (Also: several readings are *reported* displays from secondary sources, not all firsthand-verified.)
 
-The **user flagged two**: the toilet `LJ`/`SM` and the "`J+M` matchsticks." The primary wiki confirms a **larger letter
-system** — there are **four match-sets**, not one:
+The **user flagged two**: the toilet `LJ`/`SM` and the "`J+M` matchsticks." The primary wiki confirms a **larger letter system** — there are **four match-sets**, not one:
 
 | Source | Marking | Letters | Location | Note |
 |--------|---------|---------|----------|------|
@@ -25,18 +18,11 @@ system** — there are **four match-sets**, not one:
 | Matches | `S + J` | S, J | **Caliga Hall** | the **Gray** estate (Braithwaite rivals) |
 | Matches | arrow → stash | — | (TBD) | standard stash pointer — deprioritised |
 
-**Full letter multiset:** **{ C, E, J, J, J, L, M, M, S, S }** — i.e. **J×3, M×2, S×2**, plus C, E, L once each.
-*(Corrected 2026-06-13: an earlier draft wrote `{C,E,J,J,L,M,S,S}`, which silently dropped the **`J+M`** marking's two
-letters — caught by [`experiments/name_match.py`](../experiments/name_match.py), which recomputes from the markings.)*
-**Locations are a second layer:** 3 of 4 letter-sites are already
-mystery nodes (Butcher Creek, Cornwall K&T, Vetter's Echo); Caliga Hall adds the **Gray/Braithwaite feud** dimension.
+**Full letter multiset:** **{ C, E, J, J, J, L, M, M, S, S }** — i.e. **J×3, M×2, S×2**, plus C, E, L once each. *(Corrected 2026-06-13: an earlier draft wrote `{C,E,J,J,L,M,S,S}`, which silently dropped the **`J+M`** marking's two letters — caught by [`experiments/name_match.py`](../experiments/name_match.py), which recomputes from the markings.)* **Locations are a second layer:** 3 of 4 letter-sites are already mystery nodes (Butcher Creek, Cornwall K&T, Vetter's Echo); Caliga Hall adds the **Gray/Braithwaite feud** dimension.
 
 #### Letter GROUPS — test these separately, not as one flat set ([H12], user 2026-06-13)
 
-The five markings are **not equally tied to the mystery**, and lumping all ten letters together (as the multiset above does)
-blurs that. Going forward, **experiments should distinguish the groups** and report per-group, because a cipher/name reading
-that works on the firmly-tied letters but not the loosely-tied ones (or vice-versa) is itself a finding. The grouping by
-**connection confidence** and by **physical format**:
+The five markings are **not equally tied to the mystery**, and lumping all ten letters together (as the multiset above does) blurs that. Going forward, **experiments should distinguish the groups** and report per-group, because a cipher/name reading that works on the firmly-tied letters but not the loosely-tied ones (or vice-versa) is itself a finding. The grouping by **connection confidence** and by **physical format**:
 
 | Group | Markings | Format | Why grouped — tie to the mystery |
 |-------|----------|--------|----------------------------------|
@@ -45,19 +31,12 @@ that works on the firmly-tied letters but not the loosely-tied ones (or vice-ver
 | **Hybrid** | `LJ`, `SM`, **`EC`** | mixed | `EC` is matchstick-format but sits **beside the Black Widow spider cigarette card** — the single most on-theme object — so it groups **up** toward the carved pair. Test `LJ`/`SM`/`EC` together as the "spider-flagged" subset. |
 | **`J+M` — singled out** | `J+M` | matchstick | Loosely tied *by format*, but its **location is itself a confirmed node**: Cornwall Kerosene & Tar, the **spider-engraving START pole** of the 8-web trail. So `J+M` is load-bearing through *where* it is, even if the matchsticks are flavour. |
 
-> **Why this matters for testing.** [`name_match.py`](../experiments/name_match.py) now carries these as a `GROUPS` map and
-> can score each group against a name list independently. A name reading that lands cleanly on **Group 1 + hybrid `EC`** but
-> not on the matchsticks would argue the carved letters are the real key and the matchsticks are a parallel/flavour layer;
-> the reverse would argue the matchsticks (with `J+M` at the trail start) carry it. Per [U25] the umbrella term stays
-> **"letters."**
+> **Why this matters for testing.** [`name_match.py`](../experiments/name_match.py) now carries these as a `GROUPS` map and can score each group against a name list independently. A name reading that lands cleanly on **Group 1 + hybrid `EC`** but not on the matchsticks would argue the carved letters are the real key and the matchsticks are a parallel/flavour layer; the reverse would argue the matchsticks (with `J+M` at the trail start) carry it. Per [U25] the umbrella term stays **"letters."**
 
 **Observations**
-- The **toilet uses bare pairs** (`LJ`, `SM`); the **matches use a connective `+`** (`J + M`, `S + J`) — classic
-  lovers'-initials styling. The puzzle may want these read as **people / relationships**.
-- **J is the hub:** it appears in `LJ`, `J+M`, and `S+J` (3 of 5 markings). **S** appears twice (`SM`, `S+J`), **M** twice
-  (`SM`, `J+M`).
-- The user's key observation still holds and is *strengthened*: the **same letters connect differently** across sources
-  (`SM` vs `S+J`; `LJ` vs `J+M`) — a deliberate "**re-pair these**" nudge.
+- The **toilet uses bare pairs** (`LJ`, `SM`); the **matches use a connective `+`** (`J + M`, `S + J`) — classic lovers'-initials styling. The puzzle may want these read as **people / relationships**.
+- **J is the hub:** it appears in `LJ`, `J+M`, and `S+J` (3 of 5 markings). **S** appears twice (`SM`, `S+J`), **M** twice (`SM`, `J+M`).
+- The user's key observation still holds and is *strengthened*: the **same letters connect differently** across sources (`SM` vs `S+J`; `LJ` vs `J+M`) — a deliberate "**re-pair these**" nudge.
 
 **Graph of shared-letter links** (each marking = an edge between its two letters):
 ```
@@ -67,26 +46,11 @@ J —— M          (J+M)
 S —— J          (S+J)
 E —— C          (EC, isolated pair, sits beside the Black Widow card)
 ```
-→ Nodes J, M, S, L form a connected cluster (J is degree-3); **E–C is a separate component**. Reading the cluster as a
-**path** gives e.g. **L–J–M / L–J–S–M / S–J–M** orderings; reading it as **couples** gives candidate pairs {L,J}, {S,M} OR
-re-paired {J,M}, {S, ?}. **Unproven** — needs character names.
+→ Nodes J, M, S, L form a connected cluster (J is degree-3); **E–C is a separate component**. Reading the cluster as a **path** gives e.g. **L–J–M / L–J–S–M / S–J–M** orderings; reading it as **couples** gives candidate pairs {L,J}, {S,M} OR re-paired {J,M}, {S, ?}. **Unproven** — needs character names.
 
-**Candidate-name workstream — in-fiction list now BUILT ([thread 07](../threads/07-van-der-linde-roster.md), 2026-06-13).** The
-**Van der Linde gang roster** is the in-fiction name list, run through [`name_match.py`](../experiments/name_match.py). Result:
-**two EXACT one-person hits — `SM` = Sean MacGuire, `J+M` = John Marston** (both major characters), and the gang **supplies the
-`L`** (Lenny Summers / Leopold Strauss) that Register Rock lacked → **[S16]**. The **Annabella letters** turned out **unsigned**
-(no `E.C.`, [U16] resolved-negative), and **`EC` matches nothing** in any name source → **[S17]** (its non-match argues the
-letters are deliberate; argument-from-absence). **Coincidence-odds calc — DONE ([`initials_likelihood.py`](../experiments/initials_likelihood.py)),
-and it SOFTENS [S16]:** under uniform letters, 2-of-5 hits looks mildly surprising (P≈0.04) — **but** the markings use the
-**commonest name-initial letters** (J×3, S, M), and under a frequency-aware null the same 2 hits is **unsurprising (P≈0.59)**.
-So the **match _count_ is weak evidence**; [S16]'s only real weight is the unmodellable point that the hits are *major*
-characters (Sean, John). The **dev-credits** check stays weighted-down (founders/leads only).
+**Candidate-name workstream — in-fiction list now BUILT ([thread 07](../threads/07-van-der-linde-roster.md), 2026-06-13).** The **Van der Linde gang roster** is the in-fiction name list, run through [`name_match.py`](../experiments/name_match.py). Result: **two EXACT one-person hits — `SM` = Sean MacGuire, `J+M` = John Marston** (both major characters), and the gang **supplies the `L`** (Lenny Summers / Leopold Strauss) that Register Rock lacked → **[S16]**. The **Annabella letters** turned out **unsigned** (no `E.C.`, [U16] resolved-negative), and **`EC` matches nothing** in any name source → **[S17]** (its non-match argues the letters are deliberate; argument-from-absence). **Coincidence-odds calc — DONE ([`initials_likelihood.py`](../experiments/initials_likelihood.py)), and it SOFTENS [S16]:** under uniform letters, 2-of-5 hits looks mildly surprising (P≈0.04) — **but** the markings use the **commonest name-initial letters** (J×3, S, M), and under a frequency-aware null the same 2 hits is **unsurprising (P≈0.59)**. So the **match _count_ is weak evidence**; [S16]'s only real weight is the unmodellable point that the hits are *major* characters (Sean, John). The **dev-credits** check stays weighted-down (founders/leads only).
 
-**New candidate name-source — [Register Rock] ([H11]/[U24], investigator lead).** *If* the **third Fort Brennand symbol**
-depicts **[Register Rock](../locations/register-rock.md)** (central Heartlands, where the symbols point) rather than an "oil
-puddle," that boulder gives an **explicit, in-fiction list of names** to test — a far better source than the full dev credits.
-The **complete carving list** is now sourced (wiki + reddeadreference transcription blog + our journal image — full table and
-provenance in the [dossier](../locations/register-rock.md#complete-inscription-list)). The candidates that bear on the letters:
+**New candidate name-source — [Register Rock] ([H11]/[U24], investigator lead).** *If* the **third Fort Brennand symbol** depicts **[Register Rock](../locations/register-rock.md)** (central Heartlands, where the symbols point) rather than an "oil puddle," that boulder gives an **explicit, in-fiction list of names** to test — a far better source than the full dev credits. The **complete carving list** is now sourced (wiki + reddeadreference transcription blog + our journal image — full table and provenance in the [dossier](../locations/register-rock.md#complete-inscription-list)). The candidates that bear on the letters:
 
 | Name / mark (Register Rock) | Initials | Note |
 |-----------------------------|----------|------|
@@ -100,211 +64,66 @@ provenance in the [dossier](../locations/register-rock.md#complete-inscription-l
 | B. Ward | B.W | wiki *speculates* **Burt Ward** (Robin) — **unconfirmed**; keep as a live candidate (see caution below) |
 | C. Riley ("Wyoming") · A. Pickel ("41") · Doyle ("Missouri") · J.V. Henry (×2) · Henry Matilda · Mary · W.Y.B · R.S · R.S.G | C.R, A.P, … | the remainder — no obvious pairing with the mystery letters |
 
-- **⚠️ Methodological caution ([S13], user's point, important).** Do **not** discard a name just because it *also* reads as a
-  real-world or pop-culture reference. The West/Ward = *Batman* link is **wiki speculation, unconfirmed** — and even if true,
-  a deliberately-designed puzzle has every incentive to choose names that **double as plausible real-world references**, so
-  that players file them as "just a dev in-joke" and never test the in-game connection. **A name doubling as an outside
-  reference is camouflage, not disqualification.** This applies to all of them: Otis Miller / Billy Midnight are in-game RDR
-  references; West/Ward may be outside ones; both could *also* serve the puzzle. **Keep every name as a live candidate** and
-  let the test (not the vibe) decide.
-- **Current read (updated 2026-06-13, full list sourced):** two signals now land on existing mystery nodes —
-  **(1) J.M appears twice** ("Jm" + "Jasper Munson") echoing the **`J+M`** matchsticks at Cornwall, and **(2) S. Gray** →
-  the Gray estate / **`S+J`**. Against that: a real **partial-negative** — **no `LJ`, `SM`, or `EC` anywhere on the rock, and
-  no `L`-initial at all.** So Register Rock supplies J, M, S, C from the set **{C,E,J,J,J,L,M,M,S,S}** but **not** the `L`/`E`
-  legs; if it were the single name-key, that absence is awkward. **A lead to test, not a match** — and per the caution above,
-  the "obvious" outside references stay in too.
+- **⚠️ Methodological caution ([S13], user's point, important).** Do **not** discard a name just because it *also* reads as a real-world or pop-culture reference. The West/Ward = *Batman* link is **wiki speculation, unconfirmed** — and even if true, a deliberately-designed puzzle has every incentive to choose names that **double as plausible real-world references**, so that players file them as "just a dev in-joke" and never test the in-game connection. **A name doubling as an outside reference is camouflage, not disqualification.** This applies to all of them: Otis Miller / Billy Midnight are in-game RDR references; West/Ward may be outside ones; both could *also* serve the puzzle. **Keep every name as a live candidate** and let the test (not the vibe) decide.
+- **Current read (updated 2026-06-13, full list sourced):** two signals now land on existing mystery nodes — **(1) J.M appears twice** ("Jm" + "Jasper Munson") echoing the **`J+M`** matchsticks at Cornwall, and **(2) S. Gray** → the Gray estate / **`S+J`**. Against that: a real **partial-negative** — **no `LJ`, `SM`, or `EC` anywhere on the rock, and no `L`-initial at all.** So Register Rock supplies J, M, S, C from the set **{C,E,J,J,J,L,M,M,S,S}** but **not** the `L`/`E` legs; if it were the single name-key, that absence is awkward. **A lead to test, not a match** — and per the caution above, the "obvious" outside references stay in too.
 
-**Couples workstream — the `+`-styling test finally run (2026-07-05 → [S45]).** All prior name tests matched *individuals*;
-the lovers'-styling readings ([S2]/[S3]) predict *couples*. [`couples_match.py`](../experiments/couples_match.py) vs 14
-wiki-documented couples ([#86]): **`J+M` = Joshua Burgess + Miriam Wegner** (the **Emerald Ranch / web `B45`** secret-lovers
-tragedy, Joshua shot dead 1898) and **`S+J` = Sadie + Jake Adler** (Jake murdered 1899) — while the three **bare** markings
-match no documented couple: the split lands exactly on the styling line (2/2 `+` vs 0/3 bare). Nexus object: the *Letter to
-Miriam Wegner* spawns **SW of Fort Wallace** and name-drops the other Emerald couple (Cooper + Lilly). ⚠️ Initials alone are
-cheap (partner-reshuffle null p ≈ 0.11); the weight is structural (styling + both couples death-severed + geography), and the
-placement mismatch (markings ≠ the couples' homes) is an open counter. Full write-up + falsifiability:
-[thread 03](../threads/03-matchstick-letters.md); results: [`results/couples_match.md`](../experiments/results/couples_match.md).
+**Couples workstream — the `+`-styling test finally run (2026-07-05 → [S45]).** All prior name tests matched *individuals*; the lovers'-styling readings ([S2]/[S3]) predict *couples*. [`couples_match.py`](../experiments/couples_match.py) vs 14 wiki-documented couples ([#86]): **`J+M` = Joshua Burgess + Miriam Wegner** (the **Emerald Ranch / web `B45`** secret-lovers tragedy, Joshua shot dead 1898) and **`S+J` = Sadie + Jake Adler** (Jake murdered 1899) — while the three **bare** markings match no documented couple: the split lands exactly on the styling line (2/2 `+` vs 0/3 bare). Nexus object: the *Letter to Miriam Wegner* spawns **SW of Fort Wallace** and name-drops the other Emerald couple (Cooper + Lilly). ⚠️ Initials alone are cheap (partner-reshuffle null p ≈ 0.11); the weight is structural (styling + both couples death-severed + geography), and the placement mismatch (markings ≠ the couples' homes) is an open counter. Full write-up + falsifiability: [thread 03](../threads/03-matchstick-letters.md); results: [`results/couples_match.md`](../experiments/results/couples_match.md).
 
 **Counter-hypothesis — "developer initials" — explicitly weighted DOWN (user's reasoning):**
-- RDR2 had **thousands** of credited workers. For *any* two-letter pair, you can almost certainly find *some* matching
-  staffer — so a coincidental match is **near-certain and therefore near-worthless as evidence**. "We found a dev with those
-  initials" proves nothing on its own.
-- Low-level staff are very unlikely to be honoured with initials hidden in the world; only **founders / senior creative
-  leads** (e.g. **Sam & Dan Houser**, key directors/producers) would plausibly get that treatment — and even then, a
-  *coordinated set of matchstick puzzles beside a Black Widow card at four themed locations* is not how you'd honour someone.
-- **Stance:** treat the matchstick/carved letters as an **in-fiction mystery** (related to the spider puzzle, or a parallel
-  one). If checking dev initials at all, check **only the short high-rank list**, and treat any hit as *suggestive, not
-  proof*.
-- **The math is now confirmed empirically (full 6,345-person credits, 2026-06-21).** Two scripts close the dev-initials reading
-  on two independent grounds:
-  - **Counts → unfalsifiable** ([`credits_initials_match.py`](../experiments/credits_initials_match.py),
-    [results](../experiments/results/credits_initials_match.md)). Forward-only (X firstname + Y lastname), the markings match
-    `LJ` **5** · `SM` **87** · `EC` **13** · `J+M` **58** · `S+J` **22** credited people; the `+` "two people" reading is worse
-    (`J+M` = 603×621 ≈ 374k possible pairings). A dev-initials match is **near-certain by chance**, so its *existence* is no
-    evidence. Only the senior/exec shortlist per marking is worth a look (the rest is elimination fodder).
-  - **Coherence → incoherent** ([`credits_initials_coherence.py`](../experiments/credits_initials_coherence.py),
-    [results](../experiments/results/credits_initials_coherence.md)). The one way dev-initials could be *non-random* is if the
-    five senior matches share a home — one studio, or the **world/design/environment** people who actually place hidden content.
-    They don't: across all 5 senior pools there is **no common studio and no common discipline**, and `LJ` (the rarest/tightest
-    match, the Lazlow case) has **zero world-building seniors** at all. `SM`/`J+M` *do* contain Design Directors, but their senior
-    pools are huge (51/32) so that's expected by chance, and they sit in different studios (San Diego vs Toronto). The
-    "world-builder" bucket is deliberately generous, so this negative is conservative. **Net: dev-initials is weak on counts
-    *and* on organisation** — so the in-fiction reading ([S1]/[S16]) stays the working frame, weak as it is.
-- **CLOSED as a working line (2026-07-02, user call + desk synthesis).** Three independent grounds now stack, and the user has
-  called it: dev-initials is retired as a hypothesis we spend effort on (retained per repo norms as history — [S1]/[U4] keep the
-  record; a sourced dev statement could always reopen it):
+- RDR2 had **thousands** of credited workers. For *any* two-letter pair, you can almost certainly find *some* matching staffer — so a coincidental match is **near-certain and therefore near-worthless as evidence**. "We found a dev with those initials" proves nothing on its own.
+- Low-level staff are very unlikely to be honoured with initials hidden in the world; only **founders / senior creative leads** (e.g. **Sam & Dan Houser**, key directors/producers) would plausibly get that treatment — and even then, a *coordinated set of matchstick puzzles beside a Black Widow card at four themed locations* is not how you'd honour someone.
+- **Stance:** treat the matchstick/carved letters as an **in-fiction mystery** (related to the spider puzzle, or a parallel one). If checking dev initials at all, check **only the short high-rank list**, and treat any hit as *suggestive, not proof*.
+- **The math is now confirmed empirically (full 6,345-person credits, 2026-06-21).** Two scripts close the dev-initials reading on two independent grounds:
+  - **Counts → unfalsifiable** ([`credits_initials_match.py`](../experiments/credits_initials_match.py), [results](../experiments/results/credits_initials_match.md)). Forward-only (X firstname + Y lastname), the markings match `LJ` **5** · `SM` **87** · `EC` **13** · `J+M` **58** · `S+J` **22** credited people; the `+` "two people" reading is worse (`J+M` = 603×621 ≈ 374k possible pairings). A dev-initials match is **near-certain by chance**, so its *existence* is no evidence. Only the senior/exec shortlist per marking is worth a look (the rest is elimination fodder).
+  - **Coherence → incoherent** ([`credits_initials_coherence.py`](../experiments/credits_initials_coherence.py), [results](../experiments/results/credits_initials_coherence.md)). The one way dev-initials could be *non-random* is if the five senior matches share a home — one studio, or the **world/design/environment** people who actually place hidden content. They don't: across all 5 senior pools there is **no common studio and no common discipline**, and `LJ` (the rarest/tightest match, the Lazlow case) has **zero world-building seniors** at all. `SM`/`J+M` *do* contain Design Directors, but their senior pools are huge (51/32) so that's expected by chance, and they sit in different studios (San Diego vs Toronto). The "world-builder" bucket is deliberately generous, so this negative is conservative. **Net: dev-initials is weak on counts *and* on organisation** — so the in-fiction reading ([S1]/[S16]) stays the working frame, weak as it is.
+- **CLOSED as a working line (2026-07-02, user call + desk synthesis).** Three independent grounds now stack, and the user has called it: dev-initials is retired as a hypothesis we spend effort on (retained per repo norms as history — [S1]/[U4] keep the record; a sourced dev statement could always reopen it):
   1. **Counts → unfalsifiable** (above): with 6,345 credits, every pair matches dozens; a hit carries no information.
-  2. **Coherence → the asymmetry runs backwards.** A tribute needs an author who can place world content. Yet **`LJ` — the ONLY
-     marking whose mystery-membership is [KNOWN] via the carving technique [K15] — is the pair with ZERO world-building senior
-     matches** in the entire credits; its one famous candidate, **Lazlow**, matches only via a *stage* name (birth initials
-     J.C.J.) and is the **audio** director — and the chain contains **no audio-led clue anywhere** (user, 2026-07-02: the guitar
-     glyph is the lone audio-adjacent object, and even it has non-audio rival readings, [S34]). The strongest-tied marking being
-     the *worst* dev-initials fit is exactly what the in-fiction reading predicts and exactly what a tribute doesn't.
-  3. **Placement → co-carved with function.** The letters share one carved surface with a **functional pointer** (the Fort
-     Brennand symbol), rendered in the same concealment technique. Tributes in Rockstar games are overt (named NPCs, joke
-     gravestones); hiding a colleague's initials *inside working puzzle infrastructure* has no precedent we can source. Content
-     co-carved with a working pointer should be presumed functional until shown otherwise. *(Our argument, [SPECULATION]-grade
-     reasoning — but it is the placement fact [K6] doing the work.)*
-- The wiki's own "dev initials / modelling error" caveat is for the *separate* Fort Wallace bird-symbols; those at least have
-  the geometry-technique fingerprint arguing for intent (see [carving-technique.md](carving-technique.md)).
+  2. **Coherence → the asymmetry runs backwards.** A tribute needs an author who can place world content. Yet **`LJ` — the ONLY marking whose mystery-membership is [KNOWN] via the carving technique [K15] — is the pair with ZERO world-building senior matches** in the entire credits; its one famous candidate, **Lazlow**, matches only via a *stage* name (birth initials J.C.J.) and is the **audio** director — and the chain contains **no audio-led clue anywhere** (user, 2026-07-02: the guitar glyph is the lone audio-adjacent object, and even it has non-audio rival readings, [S34]). The strongest-tied marking being the *worst* dev-initials fit is exactly what the in-fiction reading predicts and exactly what a tribute doesn't.
+  3. **Placement → co-carved with function.** The letters share one carved surface with a **functional pointer** (the Fort Brennand symbol), rendered in the same concealment technique. Tributes in Rockstar games are overt (named NPCs, joke gravestones); hiding a colleague's initials *inside working puzzle infrastructure* has no precedent we can source. Content co-carved with a working pointer should be presumed functional until shown otherwise. *(Our argument, [SPECULATION]-grade reasoning — but it is the placement fact [K6] doing the work.)*
+- The wiki's own "dev initials / modelling error" caveat is for the *separate* Fort Wallace bird-symbols; those at least have the geometry-technique fingerprint arguing for intent (see [carving-technique.md](carving-technique.md)).
 
 ---
 
 ### 1a. Are these even *initials*? — the non-name readings tested ([U25], 2026-06-13)
 
-Prompted by the user's point that "initials" is itself an unconfirmed reading, we tested the two leading **non-name**
-readings with scripts + a gazetteer pass. Both come up short — which **narrows the field** without confirming any one reading.
+Prompted by the user's point that "initials" is itself an unconfirmed reading, we tested the two leading **non-name** readings with scripts + a gazetteer pass. Both come up short — which **narrows the field** without confirming any one reading.
 
-**(a) Whole-set anagram / cipher — structural NEGATIVE.** [`experiments/letters_cipher.py`](../experiments/letters_cipher.py):
-the 10-letter multiset `{C,E,J,J,J,L,M,M,S,S}` is **vowel-starved** (1 vowel = 10%; English runs ~38–40%) and **J-heavy**
-(×3), so it **cannot** be reshuffled into an English word/phrase — the subset-spell test yields only trivial `E`-words
-(MESS/JESS/LESS). ⇒ the letters are meant to be read as **pairs**, not reshuffled. A **positional / per-pair cipher** stays
-open but is **underdetermined** without an ordering key (the candidates: feather order [U0], the tally order, Gertrude's
-permutation [U6]). One A1Z26 flag worth keeping → **[S18]**: `EC → E=5, C=3`, i.e. the **5-black / 3-red feather split**
-([K13]), and `EC` is the marking beside the Black Widow card — suggestive but coincidence-prone (small ints).
+**(a) Whole-set anagram / cipher — structural NEGATIVE.** [`experiments/letters_cipher.py`](../experiments/letters_cipher.py): the 10-letter multiset `{C,E,J,J,J,L,M,M,S,S}` is **vowel-starved** (1 vowel = 10%; English runs ~38–40%) and **J-heavy** (×3), so it **cannot** be reshuffled into an English word/phrase — the subset-spell test yields only trivial `E`-words (MESS/JESS/LESS). ⇒ the letters are meant to be read as **pairs**, not reshuffled. A **positional / per-pair cipher** stays open but is **underdetermined** without an ordering key (the candidates: feather order [U0], the tally order, Gertrude's permutation [U6]). One A1Z26 flag worth keeping → **[S18]**: `EC → E=5, C=3`, i.e. the **5-black / 3-red feather split** ([K13]), and `EC` is the marking beside the Black Widow card — suggestive but coincidence-prone (small ints).
 
-**(b) Place-abbreviation reading — mostly NEGATIVE, two exceptions → [S19].** Gazetteer pass across every region (Red Dead
-Wiki, B): 🟢 **`EC` = Emerald Crossing** — a *real* E.C. location (a HUD-hidden railroad crossing by Emerald Ranch; note it's a
-different region from **Vetter's Echo** where the `EC` matches physically sit, so the match is nominal, not adjacency);
-🟢 **`SM` = Scarlett Meadows** — an exact region match that **contains Braithwaite Manor (Gertrude) and Caliga Hall (the
-Grays)**, the mystery's family estates; 🔴 **but `LJ`, `J+M`, `S+J` have no viable place reading — RDR2 has essentially no
-`J`-named locations** (only *Jorge's Gap*), yet `J` appears in three of the five markings. The `+` connective also reads as
-lovers' styling, not a place abbreviation, and **no community source** has ever proposed a place/coordinate reading. ⇒ the
-location reading survives only for `EC`/`SM`, as [SPECULATION].
+**(b) Place-abbreviation reading — mostly NEGATIVE, two exceptions → [S19].** Gazetteer pass across every region (Red Dead Wiki, B): 🟢 **`EC` = Emerald Crossing** — a *real* E.C. location (a HUD-hidden railroad crossing by Emerald Ranch; note it's a different region from **Vetter's Echo** where the `EC` matches physically sit, so the match is nominal, not adjacency); 🟢 **`SM` = Scarlett Meadows** — an exact region match that **contains Braithwaite Manor (Gertrude) and Caliga Hall (the Grays)**, the mystery's family estates; 🔴 **but `LJ`, `J+M`, `S+J` have no viable place reading — RDR2 has essentially no `J`-named locations** (only *Jorge's Gap*), yet `J` appears in three of the five markings. The `+` connective also reads as lovers' styling, not a place abbreviation, and **no community source** has ever proposed a place/coordinate reading. ⇒ the location reading survives only for `EC`/`SM`, as [SPECULATION].
 
-**(c) Numeric code — mostly NULL, one resonance ([S21]).** [`letters_cipher.py`](../experiments/letters_cipher.py) +
-[`number_grid.py`](../experiments/number_grid.py): no plain A1Z26 / sum / concat form of the markings matches any known number
-line (Gertrude's `1237645112` [K23], the 1–7 tallies, "five poles west"). The **user's punctuation-as-operator reading
-([S21], 2026-06-13)** is sharper and worth recording: read the matchsticks as numbers where the **displayed `+` means *add*
-and a bare pair means *concatenate*** — `J+M` = 10+13 = **23**, `S+J` = 19+10 = **29**, `EC` (bare) = **53**. As a set that's
-**{53, 23, 29}** (or "532329"); the carved pairs extend it `LJ`→1210, `SM`→1913. Two flags: 🟢 all three matchstick values are
-**prime** (echoing the Window Rock mural's prime counts 2,3,5,7, [K18]); 🟢 **`EC` = 53 = the 5-black/3-red feather split**
-([K13]), which reinforces [S18]. But the set still matches **no** known number line, and the operator rule is chosen to fit —
-so it's **suggestive-at-most**, coincidence-prone (small ints). A self-contained per-pair reading that, unlike (ii) below,
-needs no external ordering key.
+**(c) Numeric code — mostly NULL, one resonance ([S21]).** [`letters_cipher.py`](../experiments/letters_cipher.py) + [`number_grid.py`](../experiments/number_grid.py): no plain A1Z26 / sum / concat form of the markings matches any known number line (Gertrude's `1237645112` [K23], the 1–7 tallies, "five poles west"). The **user's punctuation-as-operator reading ([S21], 2026-06-13)** is sharper and worth recording: read the matchsticks as numbers where the **displayed `+` means *add* and a bare pair means *concatenate*** — `J+M` = 10+13 = **23**, `S+J` = 19+10 = **29**, `EC` (bare) = **53**. As a set that's **{53, 23, 29}** (or "532329"); the carved pairs extend it `LJ`→1210, `SM`→1913. Two flags: 🟢 all three matchstick values are **prime** (echoing the Window Rock mural's prime counts 2,3,5,7, [K18]); 🟢 **`EC` = 53 = the 5-black/3-red feather split** ([K13]), which reinforces [S18]. But the set still matches **no** known number line, and the operator rule is chosen to fit — so it's **suggestive-at-most**, coincidence-prone (small ints). A self-contained per-pair reading that, unlike (ii) below, needs no external ordering key.
 
-**(d) Map grid-reference reading — GRID CAPTURED [K26], reading tests NEGATIVE-leaning → [U26].** The idea: read e.g. `EC`
-as column-E, row-3. **Web research had found no documented grid** — the official Piggyback guide and every community
-interactive map use **continuous-numeric** coordinates (XYZ floats / Leaflet lat-lng), no lettered cells, and no source ever
-proposed a grid reading. **The investigator then captured the in-game grid firsthand** (PS5, 2026-06-13 — high-trust per
-CLAUDE.md, supersedes the web-negative): two *"A Partial and Correct Railroad and State Map of the United States"* prop maps
-photographed at a **stranger's camp** (reportedly near the *"Mysterious House"*/turtle house; camp identity uncertain). Each
-bears a printed coordinate grid — **[K26]**:
-- **Map 1 (continental US frame):** columns = **numbers 1–30** (left→right), rows = **letters A–U** (top→bottom). 30 × 21.
-  The letter axis is vertical (latitude-like) and the number axis horizontal (longitude-like) — **the same assignment as the
-  [K25] loading-screen device** (letter = latitude).
-- **Map 2 (regional — grid drawn over the playable world: West Elizabeth / New Hanover / Lemoyne / Ambarino):** columns =
-  **letters A–O** (left→right), rows = **numbers 1–7** (bottom→top). 15 × 7. Axes **flipped** vs Map 1. This is the grid
-  actually overlaid on the game map, so it is the one that could plot mystery nodes.
+**(d) Map grid-reference reading — GRID CAPTURED [K26], reading tests NEGATIVE-leaning → [U26].** The idea: read e.g. `EC` as column-E, row-3. **Web research had found no documented grid** — the official Piggyback guide and every community interactive map use **continuous-numeric** coordinates (XYZ floats / Leaflet lat-lng), no lettered cells, and no source ever proposed a grid reading. **The investigator then captured the in-game grid firsthand** (PS5, 2026-06-13 — high-trust per CLAUDE.md, supersedes the web-negative): two *"A Partial and Correct Railroad and State Map of the United States"* prop maps photographed at a **stranger's camp** (reportedly near the *"Mysterious House"*/turtle house; camp identity uncertain). Each bears a printed coordinate grid — **[K26]**:
+- **Map 1 (continental US frame):** columns = **numbers 1–30** (left→right), rows = **letters A–U** (top→bottom). 30 × 21. The letter axis is vertical (latitude-like) and the number axis horizontal (longitude-like) — **the same assignment as the [K25] loading-screen device** (letter = latitude).
+- **Map 2 (regional — grid drawn over the playable world: West Elizabeth / New Hanover / Lemoyne / Ambarino):** columns = **letters A–O** (left→right), rows = **numbers 1–7** (bottom→top). 15 × 7. Axes **flipped** vs Map 1. This is the grid actually overlaid on the game map, so it is the one that could plot mystery nodes.
 
-So RDR2 *does* render lettered+numbered map grids in-game — but running the markings through both via
-[`number_grid.py`](../experiments/number_grid.py) is **largely negative**:
-- On **Map 2** (the grid over the game world), **only `EC` is in range** (`E3` or `C5`). `LJ`/`SM`/`J+M`/`S+J` all fall **out** —
-  their second letters map to 10–19 (J=10, L=12, M=13, S=19), past the **7-row** cap. The "small grid throws J/S/M out of range
-  (against)" branch we flagged in advance is the one that came true on the relevant map. `EC` surviving is consistent with its
-  recurring oddity (sits by the Black Widow card; A1Z26 = 5,3 = the feather split [S18]).
-- On **Map 1** (continental frame), *every* marking yields an in-range cell (21 rows cover all letters, 30 cols cover all
-  A1Z26 seconds) — so it **discriminates nothing**, and its cells land mostly **off the playable world** (the fictional wider
-  USA), i.e. not node-plottable.
-- **No single grid validates all five markings.** Net: the clean per-cell grid reading is a **null-leaning result** — logged,
-  not a finding (CLAUDE.md: log the negatives).
+So RDR2 *does* render lettered+numbered map grids in-game — but running the markings through both via [`number_grid.py`](../experiments/number_grid.py) is **largely negative**:
+- On **Map 2** (the grid over the game world), **only `EC` is in range** (`E3` or `C5`). `LJ`/`SM`/`J+M`/`S+J` all fall **out** — their second letters map to 10–19 (J=10, L=12, M=13, S=19), past the **7-row** cap. The "small grid throws J/S/M out of range (against)" branch we flagged in advance is the one that came true on the relevant map. `EC` surviving is consistent with its recurring oddity (sits by the Black Widow card; A1Z26 = 5,3 = the feather split [S18]).
+- On **Map 1** (continental frame), *every* marking yields an in-range cell (21 rows cover all letters, 30 cols cover all A1Z26 seconds) — so it **discriminates nothing**, and its cells land mostly **off the playable world** (the fictional wider USA), i.e. not node-plottable.
+- **No single grid validates all five markings.** Net: the clean per-cell grid reading is a **null-leaning result** — logged, not a finding (CLAUDE.md: log the negatives).
 
-> **Precedent FOUND — Rockstar DOES use a letter/number coordinate device in RDR2 ([K25], user lead, 2026-06-13).** The flat
-> "web found no grid" above is **partially overturned.** RDR2's **loading-screen photographs** encode locations as **obfuscated
-> latitude/longitude coordinates** in a system where **letters = latitude, numbers = longitude**, mirroring the in-game
-> **fast-travel / Central Union Railroad map** (letter rows × number columns). Rockstar disguised it (letters drawn as
-> look-alike digits `O`→`0`, `Q`→`2`, `7`~`4`; format varies by in-fiction photographer) — decoded for Sisika, Hennigan's
-> Stead, Milesani's Claim, Tall Trees (BlueVelvetFrank, r/reddeadredemption, ~3.7k upvotes, Feb 2019 — **C-tier decode**, but
-> the annotations are in-game). So a **coordinate/grid reading now has documented in-game precedent**; the only part still
-> "undocumented" was the *per-cell* A1/B1 grid — **since captured ([K26], 2026-06-13); see (d) above for the (negative-leaning)
-> test result.** This motivates **[H14]:** read
-> the markings' **letters as latitude** and the **[S21] numbers (53/23/29) as longitude** — or the pairs as cells — pointing to
-> **map locations** rather than (or as well as) naming people. **Tested against the captured grids [K26]:** reading the S21
-> numbers as the numeric axis, only **Map 1** admits any (`J+M`=23, `S+J`=29 ≤ 30; `EC`=53 out of range), and **Map 2** admits
-> none. The remaining live form of [H14] is a free coordinate **plot** (not a per-cell grid lookup) — pick a frame, plot
-> candidate (letter-lat, number-long) points, and check for a mystery-node hit; underdetermined while each marking carries two
-> letters but one number.
+> **Precedent FOUND — Rockstar DOES use a letter/number coordinate device in RDR2 ([K25], user lead, 2026-06-13).** The flat "web found no grid" above is **partially overturned.** RDR2's **loading-screen photographs** encode locations as **obfuscated latitude/longitude coordinates** in a system where **letters = latitude, numbers = longitude**, mirroring the in-game **fast-travel / Central Union Railroad map** (letter rows × number columns). Rockstar disguised it (letters drawn as look-alike digits `O`→`0`, `Q`→`2`, `7`~`4`; format varies by in-fiction photographer) — decoded for Sisika, Hennigan's Stead, Milesani's Claim, Tall Trees (BlueVelvetFrank, r/reddeadredemption, ~3.7k upvotes, Feb 2019 — **C-tier decode**, but the annotations are in-game). So a **coordinate/grid reading now has documented in-game precedent**; the only part still "undocumented" was the *per-cell* A1/B1 grid — **since captured ([K26], 2026-06-13); see (d) above for the (negative-leaning) test result.** This motivates **[H14]:** read the markings' **letters as latitude** and the **[S21] numbers (53/23/29) as longitude** — or the pairs as cells — pointing to **map locations** rather than (or as well as) naming people. **Tested against the captured grids [K26]:** reading the S21 numbers as the numeric axis, only **Map 1** admits any (`J+M`=23, `S+J`=29 ≤ 30; `EC`=53 out of range), and **Map 2** admits none. The remaining live form of [H14] is a free coordinate **plot** (not a per-cell grid lookup) — pick a frame, plot candidate (letter-lat, number-long) points, and check for a mystery-node hit; underdetermined while each marking carries two letters but one number.
 
-> **Consolidation — `EC` behaves like a KEY, not a name ([S28], 2026-06-21).** Stepping back from the four readings above,
-> one marking accounts for a disproportionate share of the "exceptions": **`EC`**. It is the **isolated `E–C` graph component**
-> (§1, disconnected from the `{J,L,M,S}` cluster); the **spider-flagged** one (beside the Black Widow card); **name-negative in
-> every source** (no gang member [S17], no Register Rock inscription [U24]/`name_match.txt`, Annabella unsigned [U16]); and the
-> **lone survivor** of the negative readings — the only in-range Map-2 grid cell (d), one of two place hits [S19]. And the one
-> quantity it keeps yielding is **`5,3`** — A1Z26 [S18] and the [S21] concat `EC`=`53` — i.e. the **5-black/3-red web split
-> [K13]**. Read together that is the profile of a **decoder/index flagging the colour partition**, not a person's initials —
-> which would make `EC` a **"Rosetta" marking tying the letters thread to the [H9]/[U29] web-colour structure** (a weak point
-> toward "one puzzle" [U3]). ⚠️ The strong legs are *structural* (isolation + name-negativity + placement); the `5,3` leg is
-> **coincidence-prone** (small ints), and a rival reading fits equally — `EC` is simply the one **non-clue/decorative** marking,
-> its absence meaning *nothing* rather than *a key*. Both are absence-arguments; neither decodes anything. Falsifiable both ways
-> (a sourced `EC` referent collapses it toward [S17]/[S19]; the other four filtering cleanly by the 5/3 split strengthens it).
-> Held as [SPECULATION], upstream of the [K16] frontier. → [S28](../findings/speculation.md).
-> *(Extension leg, 2026-07-02: under [H27] — the webs as a display to READ, [solve-grammar.md](solve-grammar.md) — the
-> [H18] mural grammar transfers with the right verb: the webs' countable, decoy-filtered feature is colour, read-out
-> **(5,3)**, making `EC` the read-out's **checksum** rather than a shooting-order key. Same coincidence caveats; not promoted.)*
+> **Consolidation — `EC` behaves like a KEY, not a name ([S28], 2026-06-21).** Stepping back from the four readings above, one marking accounts for a disproportionate share of the "exceptions": **`EC`**. It is the **isolated `E–C` graph component** (§1, disconnected from the `{J,L,M,S}` cluster); the **spider-flagged** one (beside the Black Widow card); **name-negative in every source** (no gang member [S17], no Register Rock inscription [U24]/`name_match.txt`, Annabella unsigned [U16]); and the **lone survivor** of the negative readings — the only in-range Map-2 grid cell (d), one of two place hits [S19]. And the one quantity it keeps yielding is **`5,3`** — A1Z26 [S18] and the [S21] concat `EC`=`53` — i.e. the **5-black/3-red web split [K13]**. Read together that is the profile of a **decoder/index flagging the colour partition**, not a person's initials — which would make `EC` a **"Rosetta" marking tying the letters thread to the [H9]/[U29] web-colour structure** (a weak point toward "one puzzle" [U3]). ⚠️ The strong legs are *structural* (isolation + name-negativity + placement); the `5,3` leg is **coincidence-prone** (small ints), and a rival reading fits equally — `EC` is simply the one **non-clue/decorative** marking, its absence meaning *nothing* rather than *a key*. Both are absence-arguments; neither decodes anything. Falsifiable both ways (a sourced `EC` referent collapses it toward [S17]/[S19]; the other four filtering cleanly by the 5/3 split strengthens it). Held as [SPECULATION], upstream of the [K16] frontier. → [S28](../findings/speculation.md). *(Extension leg, 2026-07-02: under [H27] — the webs as a display to READ, [solve-grammar.md](solve-grammar.md) — the [H18] mural grammar transfers with the right verb: the webs' countable, decoy-filtered feature is colour, read-out **(5,3)**, making `EC` the read-out's **checksum** rather than a shooting-order key. Same coincidence caveats; not promoted.)*
 
-**Net.** Whole-set anagram impossible; place reading fails on the `J`-heavy markings; plain numeric code is null. The grid
-reading — once the most-alive non-name avenue — is now **largely deflated**: the grid the investigator predicted does exist
-in-game ([K26]), but on the one grid overlaid on the game world (Map 2, A–O × 1–7) **four of the five markings fall out of
-range**; only `EC` survives. So the field is: **(i)** names (initials/relationships — `S1`/`S2`/`S3`/`S16`, weak per the odds
-calc); **(ii)** a **positional per-pair cipher** keyed by an external order (feather order [U0] / tally order / Gertrude's
-permutation [U6]); **(iii)** **grid / coordinate references** ([U26]/[H14]) — tested against the real grids [K26] and
-**negative-leaning**, surviving only as a free coordinate *plot* with documented precedent ([K25]). Per [U25], the neutral
-term stays **"letters."**
+**Net.** Whole-set anagram impossible; place reading fails on the `J`-heavy markings; plain numeric code is null. The grid reading — once the most-alive non-name avenue — is now **largely deflated**: the grid the investigator predicted does exist in-game ([K26]), but on the one grid overlaid on the game world (Map 2, A–O × 1–7) **four of the five markings fall out of range**; only `EC` survives. So the field is: **(i)** names (initials/relationships — `S1`/`S2`/`S3`/`S16`, weak per the odds calc); **(ii)** a **positional per-pair cipher** keyed by an external order (feather order [U0] / tally order / Gertrude's permutation [U6]); **(iii)** **grid / coordinate references** ([U26]/[H14]) — tested against the real grids [K26] and **negative-leaning**, surviving only as a free coordinate *plot* with documented precedent ([K25]). Per [U25], the neutral term stays **"letters."**
 
 ---
 
 ### 1b. The WAYMARK reading — presence is the data, not content ([H26], fresh-pass 2026-07-02)
 
-Every decode of the letters' *content* has now come back negative or coincidence-grade (§1a: anagram structurally impossible,
-grid negative-leaning, places 2-of-5, numbers null-but-primes, names P≈0.59). [H26] proposes the readings all fail for the same
-reason: **the letters are not a payload to decode but a signature/waymark system — the presence of a letter-pair marks a
-designed node of the constellation, and *which sites carry letters* is the actual data.**
+Every decode of the letters' *content* has now come back negative or coincidence-grade (§1a: anagram structurally impossible, grid negative-leaning, places 2-of-5, numbers null-but-primes, names P≈0.59). [H26] proposes the readings all fail for the same reason: **the letters are not a payload to decode but a signature/waymark system — the presence of a letter-pair marks a designed node of the constellation, and *which sites carry letters* is the actual data.**
 
 **Legs:**
-1. **Entropy.** Five two-letter groups (10 letters) is far too little information to carry a cipher payload — but it is exactly
-   the right size for a maker's-mark/label system (compare geocache signatures, surveyor's benchmarks).
-2. **Distribution.** Every letter cluster sits at a mystery node or an adjacent-thread node: Butcher Creek (trail START, carved
-   with the pointer, [K6]) · Cornwall K&T (**the web-trail START pole**, `J+M`) · Vetter's Echo (the **Black Widow card**, `EC`)
-   · Caliga Hall (the **Gray** estate — Gertrude's family feud, `S+J`). Under "letters are set-dressing" that distribution is
-   surprising; under "letters mark designed sites" it is expected. The letters would then be doing for *sites* what the [K15]
-   technique does for *carvings*: authenticating membership.
-3. **Precedent inside the corpus.** [S25] already reads the Fort Wallace glyphs as a **self-label / maker's-mark**, and [H13]
-   says the clues share a signature medium. [H26] generalises both: the letter-pairs are the signature in letter form.
-4. **Discovery-lag support (user, 2026-07-02).** The Fort Brennand pointer carving on outhouse #4 took **~7–8 years** to find
-   despite sitting beside a tally mark known for years. So "no letters found at the other nodes" is **weak evidence of
-   absence** — the precedent is that content hides *at* known sites, closer than anyone looked.
+1. **Entropy.** Five two-letter groups (10 letters) is far too little information to carry a cipher payload — but it is exactly the right size for a maker's-mark/label system (compare geocache signatures, surveyor's benchmarks).
+2. **Distribution.** Every letter cluster sits at a mystery node or an adjacent-thread node: Butcher Creek (trail START, carved with the pointer, [K6]) · Cornwall K&T (**the web-trail START pole**, `J+M`) · Vetter's Echo (the **Black Widow card**, `EC`) · Caliga Hall (the **Gray** estate — Gertrude's family feud, `S+J`). Under "letters are set-dressing" that distribution is surprising; under "letters mark designed sites" it is expected. The letters would then be doing for *sites* what the [K15] technique does for *carvings*: authenticating membership.
+3. **Precedent inside the corpus.** [S25] already reads the Fort Wallace glyphs as a **self-label / maker's-mark**, and [H13] says the clues share a signature medium. [H26] generalises both: the letter-pairs are the signature in letter form.
+4. **Discovery-lag support (user, 2026-07-02).** The Fort Brennand pointer carving on outhouse #4 took **~7–8 years** to find despite sitting beside a tally mark known for years. So "no letters found at the other nodes" is **weak evidence of absence** — the precedent is that content hides *at* known sites, closer than anyone looked.
 
-**Falsifiable prediction → the letter-sweep.** If [H26] is right, additional letter-pairs should exist, undiscovered, at other
-verified nodes. 🎮 Sweep, with the [K15] viewing discipline (odd angles, changing light, moss/wood-texture seams): the **Fort
-Brennand tower + its outhouses**, the **8 web pole sites** (especially Cornwall's START pole beyond the known engraving), and
-the **Fort Wallace walls around the birds [K16]** — the frontier node, where a fresh letter-pair would also be the first
-forward step past the birds that *passes* the carving test. A positive anywhere is a major result; a careful negative
-meaningfully weakens [H26].
+**Falsifiable prediction → the letter-sweep.** If [H26] is right, additional letter-pairs should exist, undiscovered, at other verified nodes. 🎮 Sweep, with the [K15] viewing discipline (odd angles, changing light, moss/wood-texture seams): the **Fort Brennand tower + its outhouses**, the **8 web pole sites** (especially Cornwall's START pole beyond the known engraving), and the **Fort Wallace walls around the birds [K16]** — the frontier node, where a fresh letter-pair would also be the first forward step past the birds that *passes* the carving test. A positive anywhere is a major result; a careful negative meaningfully weakens [H26].
 
-**Counter (honest):** a pure signature doesn't need syntax — the deliberate `+` connective and the re-pair pattern
-(`LJ`/`SM` vs `S+J`/`J+M`, §1) look like *content*, not just presence. Rival: the letters are a name/relationship key still
-awaiting its name-list ([S2]/[S3]/[S16]). The readings can also coexist: waymarks whose letters carry flavour-level meaning.
-**[SPECULATION]**; upstream of nothing — the sweep is cheap and doesn't cross the [K16] frontier. → registered in
-[INDEX](../INDEX.md), rolled up in [speculation.md](../findings/speculation.md).
+**Counter (honest):** a pure signature doesn't need syntax — the deliberate `+` connective and the re-pair pattern (`LJ`/`SM` vs `S+J`/`J+M`, §1) look like *content*, not just presence. Rival: the letters are a name/relationship key still awaiting its name-list ([S2]/[S3]/[S16]). The readings can also coexist: waymarks whose letters carry flavour-level meaning. **[SPECULATION]**; upstream of nothing — the sweep is cheap and doesn't cross the [K16] frontier. → registered in [INDEX](../INDEX.md), rolled up in [speculation.md](../findings/speculation.md).
 
 ---
 
@@ -315,17 +134,9 @@ Three of our threads center on **outhouses**:
 - **Fort Brennand:** more outhouse/tower tallies (6, 7) + the three pointer symbols.
 - **Gertrude Braithwaite:** dies locked in the Braithwaite **outhouse**, reciting numbers.
 
-**Hypothesis H2:** the outhouse is the connective node type, and **Gertrude is a fourth tally-node**, not a disconnected
-thread. → Test: look for tally marks in/near Gertrude's outhouse; check if her numbers index the Butcher Creek/Brennand
-tallies.
+**Hypothesis H2:** the outhouse is the connective node type, and **Gertrude is a fourth tally-node**, not a disconnected thread. → Test: look for tally marks in/near Gertrude's outhouse; check if her numbers index the Butcher Creek/Brennand tallies.
 
-> **⚠️ H2 — what actually bears on it (2026-06-13, [K23] corrected + the #43 hoax exposé).** The GTA/Nazar number is **not** a
-> debunk of H2: Gertrude's numbers are **RDR2-original (2018)** and only **echoed** in GTA later (2019) — chronology leaves H2
-> untouched. The genuine caution is the **C-tier hoax exposé**, which disputes the Gertrude↔spider *video* and makes a
-> **contested geometry claim**: that Gertrude's outhouse line points to **Copperhead Landing (Van Horn way)**, *not* Butcher
-> Creek — whereas other (also C-tier) community posts claim it runs to **Butcher Creek centre**. **Both unverified — record
-> both, assert neither.** H2's *structural* core (outhouse + numbers recurs across Butcher Creek, Fort Brennand, Gertrude) is a
-> real motif; "Gertrude is a 4th node" stays an **open hypothesis**, neither promoted nor dismissed.
+> **⚠️ H2 — what actually bears on it (2026-06-13, [K23] corrected + the #43 hoax exposé).** The GTA/Nazar number is **not** a debunk of H2: Gertrude's numbers are **RDR2-original (2018)** and only **echoed** in GTA later (2019) — chronology leaves H2 untouched. The genuine caution is the **C-tier hoax exposé**, which disputes the Gertrude↔spider *video* and makes a **contested geometry claim**: that Gertrude's outhouse line points to **Copperhead Landing (Van Horn way)**, *not* Butcher Creek — whereas other (also C-tier) community posts claim it runs to **Butcher Creek centre**. **Both unverified — record both, assert neither.** H2's *structural* core (outhouse + numbers recurs across Butcher Creek, Fort Brennand, Gertrude) is a real motif; "Gertrude is a 4th node" stays an **open hypothesis**, neither promoted nor dismissed.
 
 ---
 
@@ -335,19 +146,11 @@ tallies.
 - Butcher Creek outhouses: **1, 2, 3, 4, 5** (tally per outhouse).
 - Fort Brennand: **6** (one outhouse) and **7** (tower entrance).
 - 2025 trail directional count: **"five poles west."**
-- Gertrude's recited sequence: **opening `1, 2, 3, 7, 6, 4, 5, 1, 1, 2`** (`123 7645112`) is now **sourced** ([K23] — the
-  GTA/Nazar crossover); the tail (**… 1, 2, 10, 3 …**) is still transcription-only.
+- Gertrude's recited sequence: **opening `1, 2, 3, 7, 6, 4, 5, 1, 1, 2`** (`123 7645112`) is now **sourced** ([K23] — the GTA/Nazar crossover); the tail (**… 1, 2, 10, 3 …**) is still transcription-only.
 
-**Hypothesis S4:** tallies are one running counter 1→7; Gertrude (reaching ~10–11) extends it. But her sequence is
-**scrambled and repeats** (1,2,3,7,6,4,5,…), so it's likely an **ordering/index**, not a simple count.
+**Hypothesis S4:** tallies are one running counter 1→7; Gertrude (reaching ~10–11) extends it. But her sequence is **scrambled and repeats** (1,2,3,7,6,4,5,…), so it's likely an **ordering/index**, not a simple count.
 
-**Hypothesis S20 — a number/timing motif (weak, pattern-seeking).** Separate from the *content* of the numbers, a few of the
-mystery's **structural** numbers recur: there are **8** webs ([K13a]); the floorboard pentagram appears at **exactly 4 AM**
-([K5]); and the onward clue branches from outhouse **#4**, not #5 ([U27]) — leaving the 1–5 tally run one short. Rockstar has
-a **documented affinity for 8 / infinity**: GTA V's *Infinite Eight* (the Infinity Killer, Merle Abrahams) hides **8** bodies
-and leaves the message *"8 is just infinity stood up."* So **8** and a deliberate **4** would be in-house numerology. **This is
-explicitly pattern-seeking** — small numbers recur everywhere by chance, and 8-webs/4-AM each have mundane explanations — so
-it is a **prompt to watch the numbers**, not evidence. Logged so the recurrence is on record without contaminating the facts.
+**Hypothesis S20 — a number/timing motif (weak, pattern-seeking).** Separate from the *content* of the numbers, a few of the mystery's **structural** numbers recur: there are **8** webs ([K13a]); the floorboard pentagram appears at **exactly 4 AM** ([K5]); and the onward clue branches from outhouse **#4**, not #5 ([U27]) — leaving the 1–5 tally run one short. Rockstar has a **documented affinity for 8 / infinity**: GTA V's *Infinite Eight* (the Infinity Killer, Merle Abrahams) hides **8** bodies and leaves the message *"8 is just infinity stood up."* So **8** and a deliberate **4** would be in-house numerology. **This is explicitly pattern-seeking** — small numbers recur everywhere by chance, and 8-webs/4-AM each have mundane explanations — so it is a **prompt to watch the numbers**, not evidence. Logged so the recurrence is on record without contaminating the facts.
 
 ### Worked attempt A — A1Z26 letter cipher on Gertrude's numbers
 Mapping 1→A … 26→Z on `1,2,3,7,6,4,5,11,2,1,2,10,3`:
@@ -356,61 +159,25 @@ Mapping 1→A … 26→Z on `1,2,3,7,6,4,5,11,2,1,2,10,3`:
 1  2  3  7  6  4  5  11 2  1  2  10 3
 A  B  C  G  F  D  E  K  B  A  B  J  C
 ```
-→ **A B C G F D E K B A B J C** — no obvious English word. **Inconclusive / likely null**, but note the late `J` (10→J)
-and that the sequence opens `A B C` then jumps. If the transcription is wrong (very possible), the mapping changes. **Do
-not treat this as solved or meaningful.**
+→ **A B C G F D E K B A B J C** — no obvious English word. **Inconclusive / likely null**, but note the late `J` (10→J) and that the sequence opens `A B C` then jumps. If the transcription is wrong (very possible), the mapping changes. **Do not treat this as solved or meaningful.**
 
 ### Worked attempt B — Gertrude's numbers as an index/permutation
-The sequence `1,2,3,7,6,4,5` looks like a **reordering of 1–7** (the exact tally range!): it uses each of 1–7 once
-(`1,2,3,4,5,6,7` rearranged), then continues `11,2,…,10,3`. The premise — that the opening really is `1,2,3,7,6,4,5` — is now
-**confirmed** ([K23]). → Test: read the carvings/symbols in the order `1,2,3,7,6,4,5` and see if they spell or point to something.
+The sequence `1,2,3,7,6,4,5` looks like a **reordering of 1–7** (the exact tally range!): it uses each of 1–7 once (`1,2,3,4,5,6,7` rearranged), then continues `11,2,…,10,3`. The premise — that the opening really is `1,2,3,7,6,4,5` — is now **confirmed** ([K23]). → Test: read the carvings/symbols in the order `1,2,3,7,6,4,5` and see if they spell or point to something.
 
-> **⚠️ Status (2026-06-13, [K23] corrected).** The opening `1237645112` is **confirmed and RDR2-original** (the GTA "Nazar
-> Speaks" machine echoes it *later*, Dec 2019 — a callback, not the source). So the input to attempt B is **solid**, and a
-> spider-cipher reading is **not** ruled out by the crossover. **Two honest caveats remain:** (1) the same digits are *also*
-> the Nazar phone-style string, so a tally-index "match" needs **independent** corroboration to mean anything; and (2) the
-> seven tally nodes are bare *counts* (1–7) plus the `LJ`/`SM` carving at #4 — there isn't a distinct letter at each node to
-> reorder into a word, so the test isn't cleanly executable **without more node-content data** (what, beyond a number, is at
-> each node?). **Net: attempt B is a legitimate test, but blocked on node content — gather that first.**
+> **⚠️ Status (2026-06-13, [K23] corrected).** The opening `1237645112` is **confirmed and RDR2-original** (the GTA "Nazar Speaks" machine echoes it *later*, Dec 2019 — a callback, not the source). So the input to attempt B is **solid**, and a spider-cipher reading is **not** ruled out by the crossover. **Two honest caveats remain:** (1) the same digits are *also* the Nazar phone-style string, so a tally-index "match" needs **independent** corroboration to mean anything; and (2) the seven tally nodes are bare *counts* (1–7) plus the `LJ`/`SM` carving at #4 — there isn't a distinct letter at each node to reorder into a word, so the test isn't cleanly executable **without more node-content data** (what, beyond a number, is at each node?). **Net: attempt B is a legitimate test, but blocked on node content — gather that first.**
 
-> **⛔ CLOSED-INEXECUTABLE (2026-07-05).** The node-content sweep ([#81] → [thread 02](../threads/02-butcher-creek-carvings.md#per-node-content-sweep-2026-07-05--a-sourced-negative))
-> answered the blocking question with a **sourced negative**: **nodes 5 and 6 carry nothing beyond their bare tallies**
-> (nodes 1–3 likewise; only 4 and 7 have content). Since the permutation is identity on {1,2,3} and reorders only
-> {4,5,6,7} = {content, empty, empty, content}, **there is nothing to read/spell under any assignment** — attempt B is
-> closed in its current form. The only residue, recorded and not pursued: in Gertrude order the two *pointer* nodes (4, 7)
-> land mid-sequence and the run **ends on the bare node 5** — no source proposes an interpretation, and none suggests
-> itself. **Reopener:** the 🎮 [H26] letter-sweep finding content at node 5 or 6. *(The [S43] green bottles can't reopen
-> it — claimed identical at nodes 1–5, they can't encode a reorder.)*
+> **⛔ CLOSED-INEXECUTABLE (2026-07-05).** The node-content sweep ([#81] → [thread 02](../threads/02-butcher-creek-carvings.md#per-node-content-sweep-2026-07-05--a-sourced-negative)) answered the blocking question with a **sourced negative**: **nodes 5 and 6 carry nothing beyond their bare tallies** (nodes 1–3 likewise; only 4 and 7 have content). Since the permutation is identity on {1,2,3} and reorders only {4,5,6,7} = {content, empty, empty, content}, **there is nothing to read/spell under any assignment** — attempt B is closed in its current form. The only residue, recorded and not pursued: in Gertrude order the two *pointer* nodes (4, 7) land mid-sequence and the run **ends on the bare node 5** — no source proposes an interpretation, and none suggests itself. **Reopener:** the 🎮 [H26] letter-sweep finding content at node 5 or 6. *(The [S43] green bottles can't reopen it — claimed identical at nodes 1–5, they can't encode a reorder.)*
 
-*(Caveat resolved 2026-07-05: the tail is no longer transcription-only — the full recitation set is **game-text
-confirmed**, [K42]/[#78]; canonical 12-line table in [thread 04](../threads/04-gertrude-numbers.md).)*
+*(Caveat resolved 2026-07-05: the tail is no longer transcription-only — the full recitation set is **game-text confirmed**, [K42]/[#78]; canonical 12-line table in [thread 04](../threads/04-gertrude-numbers.md).)*
 
 ### Systematic cipher harness — [`gertrude_cipher.py`](../experiments/gertrude_cipher.py) (2026-06-21)
-The two hand-attempts above were finally run as **one deterministic battery** on the **confirmed** string
-`1237645112` ([K23]) — the long-standing "cipher harness for Gertrude's numbers" open task. **Result: null across the
-board**, plus two readings tested for the *first* time and one durable structural finding:
-- **A1Z26** (reproduces attempt A): `1237645112` → **ABCGFDEAAB** — null. (The earlier `…K,J,…` letters only exist in the
-  *untrusted* `11`/`10` tail.)
-- **Phone-keypad / T9 — NEW, and the natural reading nobody had tried:** the GTA "Nazar Speaks" machine makes the digits a
-  number you literally **call back** ([K23]/[gta-rdr2-crossover.md](gta-rdr2-crossover.md)), so "read it on a keypad" is the
-  obvious test. On a keypad `1` carries no letters, so the string is the letter-runs `237645` + `2`. **No word fills a whole
-  run.** The only hit, `FROG` (`3764`), is a *chosen window* inside the run — and it was put in the target list **precisely
-  because it was spotted by eye**, making it a live demonstration of the #43 hoax-exposé warning (*"you can get any result if
-  you pick the right numbers"*). Coincidence, not a reading. **Net null.**
-- **Permutation structure — NEW, the one durable (non-decode) finding.** The opening `1,2,3,7,6,4,5` is confirmed a
-  permutation of **1–7** (the exact tally range), and its **cycle structure is identity on {1,2,3} + a single 4-cycle
-  `(4 7 5 6)` on {4,5,6,7}.** So *if* it ever indexes the seven tally nodes (attempt B), it **leaves Butcher Creek's 1–3
-  fixed and reorders only the #4→Fort-Brennand tail** — which is exactly where the `LJ`/`SM` carving and the Fort Brennand
-  pointer sit. This **refines** attempt B's premise but does **not** unblock it: the nodes still carry bare counts, so there
-  is nothing per-node to spell once reordered. A real structural fact about the number; its *relevance* stays [SPECULATION].
-- **Arithmetic / date / anchor cross-reference:** digit sum (28/32), first-differences, and date parses are all null; **no
-  multi-digit mystery anchor** (`12345`, `67`, `53`, …) appears as a contiguous substring. Full run →
-  [`results/gertrude_cipher.md`](../experiments/results/gertrude_cipher.md).
+The two hand-attempts above were finally run as **one deterministic battery** on the **confirmed** string `1237645112` ([K23]) — the long-standing "cipher harness for Gertrude's numbers" open task. **Result: null across the board**, plus two readings tested for the *first* time and one durable structural finding:
+- **A1Z26** (reproduces attempt A): `1237645112` → **ABCGFDEAAB** — null. (The earlier `…K,J,…` letters only exist in the *untrusted* `11`/`10` tail.)
+- **Phone-keypad / T9 — NEW, and the natural reading nobody had tried:** the GTA "Nazar Speaks" machine makes the digits a number you literally **call back** ([K23]/[gta-rdr2-crossover.md](gta-rdr2-crossover.md)), so "read it on a keypad" is the obvious test. On a keypad `1` carries no letters, so the string is the letter-runs `237645` + `2`. **No word fills a whole run.** The only hit, `FROG` (`3764`), is a *chosen window* inside the run — and it was put in the target list **precisely because it was spotted by eye**, making it a live demonstration of the #43 hoax-exposé warning (*"you can get any result if you pick the right numbers"*). Coincidence, not a reading. **Net null.**
+- **Permutation structure — NEW, the one durable (non-decode) finding.** The opening `1,2,3,7,6,4,5` is confirmed a permutation of **1–7** (the exact tally range), and its **cycle structure is identity on {1,2,3} + a single 4-cycle `(4 7 5 6)` on {4,5,6,7}.** So *if* it ever indexes the seven tally nodes (attempt B), it **leaves Butcher Creek's 1–3 fixed and reorders only the #4→Fort-Brennand tail** — which is exactly where the `LJ`/`SM` carving and the Fort Brennand pointer sit. This **refines** attempt B's premise but does **not** unblock it: the nodes still carry bare counts, so there is nothing per-node to spell once reordered. A real structural fact about the number; its *relevance* stays [SPECULATION].
+- **Arithmetic / date / anchor cross-reference:** digit sum (28/32), first-differences, and date parses are all null; **no multi-digit mystery anchor** (`12345`, `67`, `53`, …) appears as a contiguous substring. Full run → [`results/gertrude_cipher.md`](../experiments/results/gertrude_cipher.md).
 
-**Net:** the harness **logs the negative** (CLAUDE.md: log null results) and closes the "systematic cipher test" gap. Status
-of Gertrude's numbers is unchanged — a deliberate, Rockstar-flagged cipher-candidate ([K23]) whose decode and **spider-link
-remain open** ([U6]) — but the search space is now demonstrably narrower, and the permutation finding sharpens what attempt B
-would need (per-node content for the {4,5,6,7} tail) to ever become executable.
+**Net:** the harness **logs the negative** (CLAUDE.md: log null results) and closes the "systematic cipher test" gap. Status of Gertrude's numbers is unchanged — a deliberate, Rockstar-flagged cipher-candidate ([K23]) whose decode and **spider-link remain open** ([U6]) — but the search space is now demonstrably narrower, and the permutation finding sharpens what attempt B would need (per-node content for the {4,5,6,7} tail) to ever become executable.
 
 ---
 
@@ -435,58 +202,25 @@ Calumet Ravine / Giant's birds → "?" carving (out-of-bounds)  ── COLD FRON
 ```
 
 **The seams worth pressing:**
-- The **`LJ`/`SM`** letters sit at the **start** of the chain; the **`J+M`** matchsticks sit at the **pivot** (Oil Fields).
-  If they're a cipher, the answer may unlock the trail's **cold frontier** past Fort Wallace (now a waypoint, not the end).
+- The **`LJ`/`SM`** letters sit at the **start** of the chain; the **`J+M`** matchsticks sit at the **pivot** (Oil Fields). If they're a cipher, the answer may unlock the trail's **cold frontier** past Fort Wallace (now a waypoint, not the end).
 - Gertrude's index-of-7 (attempt B) maps onto the **seven tallies** that define the chain's first two stops.
 
-**The chain read as a difficulty curve ([H16], user, 2026-06-13).** Walked top-to-bottom, the chain rises in difficulty
-*and* changes the **kind** of clue at each step: countable tallies → a carving to find → harder tallies + complex tower
-symbols → a near-invisible time-gated **engraving that is itself a map with no overlay** (locate the poles physically, or use
-out-of-game tools — though "map" is loose: tested in §5e, the spider's legs do **not** decode to per-web bearings, [S30]) → 8 webs + an even-harder **central** web → the form shifts to **directional glyphs** (`N`/`W×5`/`NW`) →
-**physical objects as pointers** (the Fort Wallace guitars' facing = the heading) → the **ambiguous, unsolved bird carving**
-([K16]) — the hardest because the *action it asks for* is unknown. So the frontier going cold past the birds is **what the
-curve predicts**, which reframes [U2] (it doesn't decide buried-continuation vs cut-content). The whole shape has a shipped
-**precedent**: the [Saint Denis Vampire](saint-denis-vampire.md) ([K27]) is the same *5 points → pentagram → centre* puzzle
-as Butcher Creek but **journal-assisted** — the game's "training wheels" version ([H15]). Subjective ordering — a framing, not
-a fact. → [saint-denis-vampire.md](saint-denis-vampire.md)
+**The chain read as a difficulty curve ([H16], user, 2026-06-13).** Walked top-to-bottom, the chain rises in difficulty *and* changes the **kind** of clue at each step: countable tallies → a carving to find → harder tallies + complex tower symbols → a near-invisible time-gated **engraving that is itself a map with no overlay** (locate the poles physically, or use out-of-game tools — though "map" is loose: tested in §5e, the spider's legs do **not** decode to per-web bearings, [S30]) → 8 webs + an even-harder **central** web → the form shifts to **directional glyphs** (`N`/`W×5`/`NW`) → **physical objects as pointers** (the Fort Wallace guitars' facing = the heading) → the **ambiguous, unsolved bird carving** ([K16]) — the hardest because the *action it asks for* is unknown. So the frontier going cold past the birds is **what the curve predicts**, which reframes [U2] (it doesn't decide buried-continuation vs cut-content). The whole shape has a shipped **precedent**: the [Saint Denis Vampire](saint-denis-vampire.md) ([K27]) is the same *5 points → pentagram → centre* puzzle as Butcher Creek but **journal-assisted** — the game's "training wheels" version ([H15]). Subjective ordering — a framing, not a fact. → [saint-denis-vampire.md](saint-denis-vampire.md)
 
 ---
 
 ## 5. The feathers (colour, order) and the Window Rock cross-check
-- **Web feathers:** **5 "black" + 3 red.** Reds = **Saint Denis, Southfield, Scarlett**; "blacks" = **Cornwall, Oil Fields,
-  Overflow, Emerald, Ringneck** — ⚠️ two-toned (dirty white/grey on one side, black on the other; investigator data,
-  2026-07-03), so community "white"/"grey" mentions of these are likely the same feathers, not a separate sighting ([K13]).
-  **Refined 2026-07-04 → [K40]:** every feather (all 8 webs) is **DOUBLED** — a main + a smaller secondary feather at the
-  same socket, a uniform feature of the shared feather model (colour-tinted per group; investigator data, verified
-  in-game). Carries **no per-web or per-colour signal**, and may explain part of the two-tone effect.
-  A documented **non-respawn chain** exists: `Overflow(B23) → Emerald(B45) → Oil Fields(B56) →
-  Ringneck(BL56)` — all **"black"** — implying a correct **order**. The reds' place is unsettled.
-- **Window Rock "Strange Statues" mural** is a *solved separate* puzzle: tail-feather counts **2, 3, 5, 7** (first four
-  primes). Note **5** and **3** — the exact web colour split — both appear in that set. *(Reward = **4 gold bars**; the puzzle
-  is solved by feather **count** + **orientation** — upside-down birds are decoys — never by colour.)*
+- **Web feathers:** **5 "black" + 3 red.** Reds = **Saint Denis, Southfield, Scarlett**; "blacks" = **Cornwall, Oil Fields, Overflow, Emerald, Ringneck** — ⚠️ two-toned (dirty white/grey on one side, black on the other; investigator data, 2026-07-03), so community "white"/"grey" mentions of these are likely the same feathers, not a separate sighting ([K13]). **Refined 2026-07-04 → [K40]:** every feather (all 8 webs) is **DOUBLED** — a main + a smaller secondary feather at the same socket, a uniform feature of the shared feather model (colour-tinted per group; investigator data, verified in-game). Carries **no per-web or per-colour signal**, and may explain part of the two-tone effect. A documented **non-respawn chain** exists: `Overflow(B23) → Emerald(B45) → Oil Fields(B56) → Ringneck(BL56)` — all **"black"** — implying a correct **order**. The reds' place is unsettled.
+- **Window Rock "Strange Statues" mural** is a *solved separate* puzzle: tail-feather counts **2, 3, 5, 7** (first four primes). Note **5** and **3** — the exact web colour split — both appear in that set. *(Reward = **4 gold bars**; the puzzle is solved by feather **count** + **orientation** — upside-down birds are decoys — never by colour.)*
 - **Hypotheses to test (SPECULATION):**
-  - **H3. ⚠️ REFUTED 2026-06-21.** The mural's **black/red bird** counts equal the webs' **5 black / 3 red**, making the mural
-    the **order key**. *Tested by counting mural birds by colour* off the colour-faithful wiki texture
-    ([`mural_colour_count.py`](../experiments/mural_colour_count.py); [U14]): the mural is a **single red/ochre pigment**
-    (100% of chromatic pixels red-hued, 0% any other hue), so there is **no black/red split to count**. Dead. The webs' own 5/3
-    grouping is unaffected (it comes from the boundary data, [H9]/[U29], not the mural).
-  - **H4. ⚠️ REFUTED-leaning (2026-06-13).** **Feather orientation** encodes the shooting order; each feather points toward the
-    next web/pole. **Tested against the full 8-web photo set** ([#59], front+side of every web,
-    [`feather-positions/`](../images/webs/feather-positions/)): **every feather hangs tip-down by gravity** — there is no
-    per-web heading to read, and [U29] shows multiple orders work within a colour group, so no unique next-target exists to
-    encode. The orientation form is dead; only the weak *attachment-point* (which radial) survives → [U0]. See §5b.
-  - **H5.** Colour = a **binary** (black/red) reading around the ring, or maps to the **honor** mechanic (a documented
-    community guess). Unresolved.
+  - **H3. ⚠️ REFUTED 2026-06-21.** The mural's **black/red bird** counts equal the webs' **5 black / 3 red**, making the mural the **order key**. *Tested by counting mural birds by colour* off the colour-faithful wiki texture ([`mural_colour_count.py`](../experiments/mural_colour_count.py); [U14]): the mural is a **single red/ochre pigment** (100% of chromatic pixels red-hued, 0% any other hue), so there is **no black/red split to count**. Dead. The webs' own 5/3 grouping is unaffected (it comes from the boundary data, [H9]/[U29], not the mural).
+  - **H4. ⚠️ REFUTED-leaning (2026-06-13).** **Feather orientation** encodes the shooting order; each feather points toward the next web/pole. **Tested against the full 8-web photo set** ([#59], front+side of every web, [`feather-positions/`](../images/webs/feather-positions/)): **every feather hangs tip-down by gravity** — there is no per-web heading to read, and [U29] shows multiple orders work within a colour group, so no unique next-target exists to encode. The orientation form is dead; only the weak *attachment-point* (which radial) survives → [U0]. See §5b.
+  - **H5.** Colour = a **binary** (black/red) reading around the ring, or maps to the **honor** mechanic (a documented community guess). Unresolved.
 
 ### 5a. The boundary respawn mechanic ([K21]) and the 3-boundary partition ([H9])
-**Firsthand investigator finding (2026-06-13):** a shot feather drops to the ground (non-interactable) and **does not
-respawn while the player stays inside the boundary that web is tied to** — leaving the boundary respawns it. This is the
-*mechanism* behind the K13b non-respawn chain: it isn't only a shooting sequence, it's **spatial**. There are **three
-boundaries — north, south, and a connector joining them.**
+**Firsthand investigator finding (2026-06-13):** a shot feather drops to the ground (non-interactable) and **does not respawn while the player stays inside the boundary that web is tied to** — leaving the boundary respawns it. This is the *mechanism* behind the K13b non-respawn chain: it isn't only a shooting sequence, it's **spatial**. There are **three boundaries — north, south, and a connector joining them.**
 
-The Jay_0048 community map ([`web_map-overlay_despawn-zones_jay0048.jpg`](../images/webs/web_map-overlay_despawn-zones_jay0048.jpg)) draws the three
-as coloured rectangles and color-codes each web to one — originally a C-tier partition, now **firsthand-confirmed ([K31],
-2026-06-14, resolves [U22])**:
+The Jay_0048 community map ([`web_map-overlay_despawn-zones_jay0048.jpg`](../images/webs/web_map-overlay_despawn-zones_jay0048.jpg)) draws the three as coloured rectangles and color-codes each web to one — originally a C-tier partition, now **firsthand-confirmed ([K31], 2026-06-14, resolves [U22])**:
 
 | Boundary | Webs (codes) | Locations |
 |----------|--------------|-----------|
@@ -494,134 +228,36 @@ as coloured rectangles and color-codes each web to one — originally a C-tier p
 | **Connector** (yellow — a tall box bridging New Hanover ↓ Lemoyne) | `B23, B45, B56, B56L` | Overflow, Emerald, Oil Fields, Ringneck |
 | **South** (red) | `R23, R45, R34` | Scarlett, Southfield, Saint Denis |
 
-This is **clean and complete**: 1 + 4 + 3 = all 8 webs, each *tied* to exactly one boundary. The striking part — **the
-Connector's four webs are precisely the [K13b] non-respawn chain** `B23→B45→B56→BL56`. So the chain may simply be "the
-Connector boundary's members," and the reds/Cornwall form their own boundaries. **[U22] RESOLVED ([K31], 2026-06-14,
-firsthand):** every tied assignment is confirmed, the legend "R56" was the `R34` typo, and the North boundary really does hold
-only the one tied web (`B34`). **One refinement — the boundaries OVERLAP**, so each also *physically contains* (untied) some
-adjacent webs: **Top** also holds `B56/B23/B45`; **Middle** also holds `B34` (east side of the pole only — its west side is in
-the Top zone) and `R23/R45`; **Bottom** also holds `B56L`. Shooting a *contained-but-untied* web fires the **wrong** boundary's
-despawn — a routing hazard, and the reason the order problem is **scoped per-boundary** rather than across all 8 at once.
+This is **clean and complete**: 1 + 4 + 3 = all 8 webs, each *tied* to exactly one boundary. The striking part — **the Connector's four webs are precisely the [K13b] non-respawn chain** `B23→B45→B56→BL56`. So the chain may simply be "the Connector boundary's members," and the reds/Cornwall form their own boundaries. **[U22] RESOLVED ([K31], 2026-06-14, firsthand):** every tied assignment is confirmed, the legend "R56" was the `R34` typo, and the North boundary really does hold only the one tied web (`B34`). **One refinement — the boundaries OVERLAP**, so each also *physically contains* (untied) some adjacent webs: **Top** also holds `B56/B23/B45`; **Middle** also holds `B34` (east side of the pole only — its west side is in the Top zone) and `R23/R45`; **Bottom** also holds `B56L`. Shooting a *contained-but-untied* web fires the **wrong** boundary's despawn — a routing hazard, and the reason the order problem is **scoped per-boundary** rather than across all 8 at once.
 
-**Boundary GEOMETRY now pinned ([K28], firsthand investigator data 2026-06-14).** The three boundaries aren't arbitrary
-rectangles — they form an **I-beam / "工"**: the **North** boundary spans **east–west**, the **South** boundary spans
-**east–west**, and the **Connector** spans **north–south**, the vertical spine joining them. ~~**All three overlap slightly near
-the map centre**~~ ⚠️ **CORRECTED 2026-09-01 ([K49], [#89]): there is NO triple overlap** — each bar overlaps only the
-Connector spine, and the North and South boxes are **disjoint by 10.50 m**. (The overlap in any case **excluded the
-central featherless web** ([K11]), whose file coordinates are (1282.0, −131.6) — [K51].) This maps straight onto the [H9]
-partition: **B34**/Cornwall sits in the North bar, the four connector blacks run down the spine, and the three reds lie along
-the far South bar (consistent with Saint Denis being deep south). ~~The overlap is the one place you can be inside more than one
-boundary at once — so it is the natural candidate **mechanism** for *holding* one group's shot-off state while you work
-another.~~ ⚠️ **First direct test (2026-06-14) was negative-leaning:** camping in the "triple overlap" (whiskey tree)
-then *leaving* the boundary **reset** the shot feather to its web. **⚡ 2026-09-01 — that probe's negative result is now
-EXPLAINED and generalised ([K48]/[K49]/[H28], [#89]):** the boundaries are ordinary region-ymap extents, the North and
-South boxes are **disjoint**, and no spot exists inside both — so there was never an overlap to hold state in, and no
-amount of re-testing would have changed the answer. **[H22]-R1 is settled negative by geometry**, and the corresponding
-**Test A is moot**. The hidden-internal-flag possibility ([H22]-R2) is untouched and is now where the whole
-shooting-input family lives. Tied to [U29].
+**Boundary GEOMETRY now pinned ([K28], firsthand investigator data 2026-06-14).** The three boundaries aren't arbitrary rectangles — they form an **I-beam / "工"**: the **North** boundary spans **east–west**, the **South** boundary spans **east–west**, and the **Connector** spans **north–south**, the vertical spine joining them. ~~**All three overlap slightly near the map centre**~~ ⚠️ **CORRECTED 2026-09-01 ([K49], [#89]): there is NO triple overlap** — each bar overlaps only the Connector spine, and the North and South boxes are **disjoint by 10.50 m**. (The overlap in any case **excluded the central featherless web** ([K11]), whose file coordinates are (1282.0, −131.6) — [K51].) This maps straight onto the [H9] partition: **B34**/Cornwall sits in the North bar, the four connector blacks run down the spine, and the three reds lie along the far South bar (consistent with Saint Denis being deep south). ~~The overlap is the one place you can be inside more than one boundary at once — so it is the natural candidate **mechanism** for *holding* one group's shot-off state while you work another.~~ ⚠️ **First direct test (2026-06-14) was negative-leaning:** camping in the "triple overlap" (whiskey tree) then *leaving* the boundary **reset** the shot feather to its web. **⚡ 2026-09-01 — that probe's negative result is now EXPLAINED and generalised ([K48]/[K49]/[H28], [#89]):** the boundaries are ordinary region-ymap extents, the North and South boxes are **disjoint**, and no spot exists inside both — so there was never an overlap to hold state in, and no amount of re-testing would have changed the answer. **[H22]-R1 is settled negative by geometry**, and the corresponding **Test A is moot**. The hidden-internal-flag possibility ([H22]-R2) is untouched and is now where the whole shooting-input family lives. Tied to [U29].
 
-**What the geometry + the lattice force: a MULTI-NIGHT, one-colour-per-night solution ([H20], 2026-06-14).** Put three things
-together — the colour×hour lattice (§5c: each 2/3/4 AM hour = exactly **1 black + 1 red**), the geometry just above (an hour's
-black is on the North/Connector spine, its twin red is on the far South bar — **far apart**), and firsthand feasibility
-(investigator, 2026-06-14: **all-black in one night is hard-but-doable** incl. the doubled 5–6 — `B23→B34→B45→B56` easy core,
-the second 5–6 web `BL56` the hard extra; **all-red in one night very hard** — Saint Denis far, slow terrain demands an optimal
-route; **black + red in one night solo impossible**). The conclusion is forced: **each night you must pick one colour group**
-(the black connector-spine chain *or* the free-order red south run [U29]), so a full single-player solve **spans ≥2 nights.**
-This finally answers the standing "all 8 or a subset?" question — most likely **all 8, but split across nights, one colour
-group per night**, *not* a single 8-feather sequence. The difficulty escalation (core blacks → doubled 5–6 → the long red run)
-fits the [H16] curve. ⚠️ Feasibility/geometry are firsthand investigator data (high-trust); the **"intended design"** reading is
-inference. The live crux it sharpens: do shot feathers **persist across nights**, and is the **central overlap [K28]** how you
-hold state ([U29])? **✅ The persistence half is now ANSWERED ([K29], 2026-06-14): yes — shot feathers stay down for ≥12 in-game
-days while you remain in-boundary, so multi-night solving is mechanically viable.** The central-overlap-holds-state half tested
-**negative-leaning** (see §5a above). Online play would trivialise a multi-person version, so single-player-multi-night is the
-likelier intent (weak design aside). → [H20] in [findings/speculation.md](../findings/speculation.md),
-[K28](../findings/known-facts.md), [K29](../findings/known-facts.md).
+**What the geometry + the lattice force: a MULTI-NIGHT, one-colour-per-night solution ([H20], 2026-06-14).** Put three things together — the colour×hour lattice (§5c: each 2/3/4 AM hour = exactly **1 black + 1 red**), the geometry just above (an hour's black is on the North/Connector spine, its twin red is on the far South bar — **far apart**), and firsthand feasibility (investigator, 2026-06-14: **all-black in one night is hard-but-doable** incl. the doubled 5–6 — `B23→B34→B45→B56` easy core, the second 5–6 web `BL56` the hard extra; **all-red in one night very hard** — Saint Denis far, slow terrain demands an optimal route; **black + red in one night solo impossible**). The conclusion is forced: **each night you must pick one colour group** (the black connector-spine chain *or* the free-order red south run [U29]), so a full single-player solve **spans ≥2 nights.** This finally answers the standing "all 8 or a subset?" question — most likely **all 8, but split across nights, one colour group per night**, *not* a single 8-feather sequence. The difficulty escalation (core blacks → doubled 5–6 → the long red run) fits the [H16] curve. ⚠️ Feasibility/geometry are firsthand investigator data (high-trust); the **"intended design"** reading is inference. The live crux it sharpens: do shot feathers **persist across nights**, and is the **central overlap [K28]** how you hold state ([U29])? **✅ The persistence half is now ANSWERED ([K29], 2026-06-14): yes — shot feathers stay down for ≥12 in-game days while you remain in-boundary, so multi-night solving is mechanically viable.** The central-overlap-holds-state half tested **negative-leaning** (see §5a above). Online play would trivialise a multi-person version, so single-player-multi-night is the likelier intent (weak design aside). → [H20] in [findings/speculation.md](../findings/speculation.md), [K28](../findings/known-facts.md), [K29](../findings/known-facts.md).
 
-**The B34 boundary is OVERSIZED — and that may be the link back to the origin ([S22]/[H21], user, 2026-06-14).** B34's lone
-North boundary reaches **west to Valentine and east to Butcher Creek AND Fort Brennand**, far past what one spawn needs —
-while **only Fort Wallace remains outside** any boundary (⚠️ **corrected 2026-06-14:** Fort Brennand was first mis-recorded as
-outside; it is *inside* the top zone). So among the *feather-less* trail sites, **both 2018-origin Roanoke nodes — Butcher Creek
-and Fort Brennand — sit inside the top zone**, which *strengthens* the narrative-echo reading (the zone covers the whole
-BC→Fort Brennand→Cornwall origin chain), with Valentine the lone coarse-design counter.
-That matters because the respawn mechanic ([K21]) preserves a feather's shot-state **only inside its boundary** — so an
-oversized boundary is exactly what you'd build if you wanted the player to **carry the "B34 activated" flag to Butcher Creek
-without it resetting.** Read that way ([H21]): **successful web activation could unlock a state-gated, verifiable result at
-Butcher Creek (or Valentine)** — which would (a) **mechanically** tie the web trail to the **2018 Butcher-Creek origin thread**
-(already tied *narratively* by the [K8] pointer Butcher Creek→Cornwall), a strong **"one puzzle"** argument ([U3]); and (b)
-**explain why no payoff has ever surfaced** ([U2]/[K20]) — it would be gated behind a precondition (correct activation **+**
-arriving in-zone with state intact) that almost nobody meets, so **"nothing found at Valentine yet" reads as an un-triggered
-gate, not its absence.** ⚠️ Stays firmly [SPECULATION]: **no activation outcome or payoff has *ever* been confirmed** ([U2],
-[U15], [K20]); Valentine has **no** known mystery role, so the boundary could simply be **coarse** ([S22] counter). Don't
-present a Butcher-Creek payoff as real. Cleanest test: solve an activation, ride into the zone watching the B34 feather stay
-down (confirms extent), and look for any new state-gated element at Butcher Creek (the [K5] pentagram ~4–5 AM, outhouse #4) and
-Valentine. → [S22]/[H21] in [findings/speculation.md](../findings/speculation.md).
+**The B34 boundary is OVERSIZED — and that may be the link back to the origin ([S22]/[H21], user, 2026-06-14).** B34's lone North boundary reaches **west to Valentine and east to Butcher Creek AND Fort Brennand**, far past what one spawn needs — while **only Fort Wallace remains outside** any boundary (⚠️ **corrected 2026-06-14:** Fort Brennand was first mis-recorded as outside; it is *inside* the top zone). So among the *feather-less* trail sites, **both 2018-origin Roanoke nodes — Butcher Creek and Fort Brennand — sit inside the top zone**, which *strengthens* the narrative-echo reading (the zone covers the whole BC→Fort Brennand→Cornwall origin chain), with Valentine the lone coarse-design counter. That matters because the respawn mechanic ([K21]) preserves a feather's shot-state **only inside its boundary** — so an oversized boundary is exactly what you'd build if you wanted the player to **carry the "B34 activated" flag to Butcher Creek without it resetting.** Read that way ([H21]): **successful web activation could unlock a state-gated, verifiable result at Butcher Creek (or Valentine)** — which would (a) **mechanically** tie the web trail to the **2018 Butcher-Creek origin thread** (already tied *narratively* by the [K8] pointer Butcher Creek→Cornwall), a strong **"one puzzle"** argument ([U3]); and (b) **explain why no payoff has ever surfaced** ([U2]/[K20]) — it would be gated behind a precondition (correct activation **+** arriving in-zone with state intact) that almost nobody meets, so **"nothing found at Valentine yet" reads as an un-triggered gate, not its absence.** ⚠️ Stays firmly [SPECULATION]: **no activation outcome or payoff has *ever* been confirmed** ([U2], [U15], [K20]); Valentine has **no** known mystery role, so the boundary could simply be **coarse** ([S22] counter). Don't present a Butcher-Creek payoff as real. Cleanest test: solve an activation, ride into the zone watching the B34 feather stay down (confirms extent), and look for any new state-gated element at Butcher Creek (the [K5] pentagram ~4–5 AM, outhouse #4) and Valentine. → [S22]/[H21] in [findings/speculation.md](../findings/speculation.md).
 
-**The web order DECOMPOSES into 3 already-solved sub-chains; the only open part is the cross-boundary combine — and [K29]
-contradicts [H20] there ([H22], 2026-06-14, [`web_boundary_solve_protocol.py`](../experiments/web_boundary_solve_protocol.py)).**
-Stop reading the order as one 8-feather permutation (the frame the ~180-survivor count of
-[`web_colour_group_order.py`](../experiments/web_colour_group_order.py) lives in). Take the [K31] partition seriously and the
-within-boundary order is **already solved on every boundary**: **South** = {`R23`,`R34`,`R45`} works in *any* order ([U29]);
-**Connector** = `B23→B45→B56→BL56`, the [K13b] non-respawn chain (`B56`/`BL56` swap); **North** = `B34` alone (suspected
-last). Nothing about the *within-boundary* order is open. **Refinement (investigator, 2026-06-14): `B34` is NOT forced last** —
-its orange/North boundary **overlaps** the yellow/Connector boundary ([K31]: "Connector contains `B34`, east side of the pole"),
-so `B34` folds into the black run with no despawn (`B23→B34→B45→B56…`, staying east of the pole). The **5 blacks become one
-super-group**, leaving **two functional groups** — RED (South) and BLACK (Connector+`B34`) — and only **one hard crossing**
-(RED↔BLACK; round-trips despawn). Since only `B34`'s *tied* (orange) boundary is the oversized one reaching
-Valentine/Butcher Creek/Fort Brennand ([K28]/[S22]), BLACK should go **last**, ending on `B34`, whose state then **carries north**
-(the *carrier* feather). ⟹ **Favoured protocol: REDS first → BLACKS (`B23→B34→B45→B56→BL56`) → ride north to Butcher Creek /
-Valentine** — ~one protocol, not 180. **But the rub holds:** that one red↔black crossing still trips [K29] (state **resets the
-instant you leave a boundary**; the boundaries touch only at the central overlap, which tested **negative-leaning**, [K28]/§5a). So
-**[K29] (resets on exit) and [H20] (multi-night) still directly contradict** at the seam — leaving South to do the blacks should
-wipe the reds.
-The order is therefore **not** bottlenecked on "which sequence" — it is bottlenecked on a **cross-boundary state** question with
-exactly three exits, each a sharp falsifiable in-game test: **(R1)** the overlap *does* hold multi-boundary state (the one probe
-was incomplete) — *test:* solve South, camp at the whiskey tree [S23], cross to Connector, re-check South is still down (one
-session); **(R2)** an invisible "reds-done" flag persists even as the visible feather resets (generalises [H21]) — **the favoured
-protocol:** reds first (set flag), then blacks ending on `B34`, then ride `B34`'s state north, watching for any [U15]/[U2]
-trigger; **(R3)** there is **no** global combine — three independent mini-puzzles, no joint payoff — which would fit "no confirmed
-reward" ([U2]/[K20]) and push [U3] toward *many* puzzles. This is **[SPECULATION]/reframing** (reset rules C-tier; the
-overlap-interleave + "`B34` carries north" are investigator leads / gut-feel inference); a *negative* R1/R3
-result is itself a real finding worth logging. → [H22] in [findings/speculation.md](../findings/speculation.md).
+**The web order DECOMPOSES into 3 already-solved sub-chains; the only open part is the cross-boundary combine — and [K29] contradicts [H20] there ([H22], 2026-06-14, [`web_boundary_solve_protocol.py`](../experiments/web_boundary_solve_protocol.py)).** Stop reading the order as one 8-feather permutation (the frame the ~180-survivor count of [`web_colour_group_order.py`](../experiments/web_colour_group_order.py) lives in). Take the [K31] partition seriously and the within-boundary order is **already solved on every boundary**: **South** = {`R23`,`R34`,`R45`} works in *any* order ([U29]); **Connector** = `B23→B45→B56→BL56`, the [K13b] non-respawn chain (`B56`/`BL56` swap); **North** = `B34` alone (suspected last). Nothing about the *within-boundary* order is open. **Refinement (investigator, 2026-06-14): `B34` is NOT forced last** — its orange/North boundary **overlaps** the yellow/Connector boundary ([K31]: "Connector contains `B34`, east side of the pole"), so `B34` folds into the black run with no despawn (`B23→B34→B45→B56…`, staying east of the pole). The **5 blacks become one super-group**, leaving **two functional groups** — RED (South) and BLACK (Connector+`B34`) — and only **one hard crossing** (RED↔BLACK; round-trips despawn). Since only `B34`'s *tied* (orange) boundary is the oversized one reaching Valentine/Butcher Creek/Fort Brennand ([K28]/[S22]), BLACK should go **last**, ending on `B34`, whose state then **carries north** (the *carrier* feather). ⟹ **Favoured protocol: REDS first → BLACKS (`B23→B34→B45→B56→BL56`) → ride north to Butcher Creek / Valentine** — ~one protocol, not 180. **But the rub holds:** that one red↔black crossing still trips [K29] (state **resets the instant you leave a boundary**; the boundaries touch only at the central overlap, which tested **negative-leaning**, [K28]/§5a). So **[K29] (resets on exit) and [H20] (multi-night) still directly contradict** at the seam — leaving South to do the blacks should wipe the reds. The order is therefore **not** bottlenecked on "which sequence" — it is bottlenecked on a **cross-boundary state** question with exactly three exits, each a sharp falsifiable in-game test: **(R1)** the overlap *does* hold multi-boundary state (the one probe was incomplete) — *test:* solve South, camp at the whiskey tree [S23], cross to Connector, re-check South is still down (one session); **(R2)** an invisible "reds-done" flag persists even as the visible feather resets (generalises [H21]) — **the favoured protocol:** reds first (set flag), then blacks ending on `B34`, then ride `B34`'s state north, watching for any [U15]/[U2] trigger; **(R3)** there is **no** global combine — three independent mini-puzzles, no joint payoff — which would fit "no confirmed reward" ([U2]/[K20]) and push [U3] toward *many* puzzles. This is **[SPECULATION]/reframing** (reset rules C-tier; the overlap-interleave + "`B34` carries north" are investigator leads / gut-feel inference); a *negative* R1/R3 result is itself a real finding worth logging. → [H22] in [findings/speculation.md](../findings/speculation.md).
 
 ### 5b. The order mechanic, re-examined — it's group-based, not a sequence or a feather-heading (2026-06-13)
 
-Two pieces of work this session converge on the same conclusion: **the "order" is about which *groups* of feathers don't reset
-each other, not a single rigid sequence, and it is not encoded in the feathers themselves.**
+Two pieces of work this session converge on the same conclusion: **the "order" is about which *groups* of feathers don't reset each other, not a single rigid sequence, and it is not encoded in the feathers themselves.**
 
-**(i) The non-respawn "chain" is not a unique sequence — and is not chronological either ([U29], [H17]).** Sourced community
-brute-force testing (Google Sites timeline, 1/2/2026 entry, [#36], C-tier) reports *several* non-resetting orders, not one:
-- **Reds work in *any* internal order:** `R34→R45→R23`, `R45→R34→R23`, **and** `R23→R34→R45` all hold. Starting with any red
-  doesn't reset the other reds.
+**(i) The non-respawn "chain" is not a unique sequence — and is not chronological either ([U29], [H17]).** Sourced community brute-force testing (Google Sites timeline, 1/2/2026 entry, [#36], C-tier) reports *several* non-resetting orders, not one:
+- **Reds work in *any* internal order:** `R34→R45→R23`, `R45→R34→R23`, **and** `R23→R34→R45` all hold. Starting with any red doesn't reset the other reds.
 - **Mixed chains work:** e.g. `R34→R45→R23 → B23,B34,B45,B56,BL56` (reds may precede blacks).
-- **`B34`/Cornwall is special:** first reported "can't start," self-corrected to "can start," with a suspicion it is the **last**
-  feather. Plus an unexplained *"unique function to the red feathers"* and *"any red after BL56 resets."*
+- **`B34`/Cornwall is special:** first reported "can't start," self-corrected to "can start," with a suspicion it is the **last** feather. Plus an unexplained *"unique function to the red feathers"* and *"any red after BL56 resets."*
 
-I first proposed **[H17]: the order is keyed by the clock** — because the [K13b] black chain `B23→B45→B56→BL56` is *exactly*
-chronological (2–3 → 4–5 → 5–6 → 5–6), and [`web_time_order.py`](../experiments/web_time_order.py) shows that **sorting the
-[H9] Connector boundary by hour reproduces it with no feather data at all.** But the red orders above **falsify the strict
-form** — `R34→R45→R23` is non-chronological yet works. So the clock is *not* the key; what the synthesis really shows is that
-the order question collapses onto the **[H9] boundary partition** (reds = the South group, the Connector blacks = a group,
-Cornwall stands alone), and that **time-gating ≠ order key.** (Open upstream question in [U29]: are webs hard time-locked or do
-they persist — the latter is required for non-chronological orders to even be physically shootable in one run.)
+I first proposed **[H17]: the order is keyed by the clock** — because the [K13b] black chain `B23→B45→B56→BL56` is *exactly* chronological (2–3 → 4–5 → 5–6 → 5–6), and [`web_time_order.py`](../experiments/web_time_order.py) shows that **sorting the [H9] Connector boundary by hour reproduces it with no feather data at all.** But the red orders above **falsify the strict form** — `R34→R45→R23` is non-chronological yet works. So the clock is *not* the key; what the synthesis really shows is that the order question collapses onto the **[H9] boundary partition** (reds = the South group, the Connector blacks = a group, Cornwall stands alone), and that **time-gating ≠ order key.** (Open upstream question in [U29]: are webs hard time-locked or do they persist — the latter is required for non-chronological orders to even be physically shootable in one run.)
 
-**(ii) The feathers don't carry a heading ([H4] refuted).** The full 8-web front+side photo set ([#59],
-[`feather-positions/`](../images/webs/feather-positions/)) shows **every feather hangs tip-down by gravity** — no web's feather
-points anywhere distinctive. So even if a precise order existed, it is **not** written in feather orientation. The lone residual
-is the *attachment point* (which radial the thread hangs from), which varies left/centre/right between webs — a weak, unmapped
-signal kept alive under [U0].
+**(ii) The feathers don't carry a heading ([H4] refuted).** The full 8-web front+side photo set ([#59], [`feather-positions/`](../images/webs/feather-positions/)) shows **every feather hangs tip-down by gravity** — no web's feather points anywhere distinctive. So even if a precise order existed, it is **not** written in feather orientation. The lone residual is the *attachment point* (which radial the thread hangs from), which varies left/centre/right between webs — a weak, unmapped signal kept alive under [U0].
 
-**Net.** The leading "there's a secret feather-encoded sequence" reading is now doubly deflated: the sequence isn't unique
-(group-based resets, [U29]) and isn't in the feathers ([H4] dead). The live frame is the **[H9] boundary/group mechanic** plus
-the open puzzle of **`B34`'s special role** (start vs last) and the **red-feather function** — all in [U29].
+**Net.** The leading "there's a secret feather-encoded sequence" reading is now doubly deflated: the sequence isn't unique (group-based resets, [U29]) and isn't in the feathers ([H4] dead). The live frame is the **[H9] boundary/group mechanic** plus the open puzzle of **`B34`'s special role** (start vs last) and the **red-feather function** — all in [U29].
 
 ### 5c. The colour×hour lattice + the Window Rock mural read as a mechanic-"seed" ([H18], 2026-06-14)
 
-Two pieces this pass, both pushing the same way as §5b — **the operative structure is colour/group, not a feather-encoded
-sequence** — and one a genuinely new view of [KNOWN] data.
+Two pieces this pass, both pushing the same way as §5b — **the operative structure is colour/group, not a feather-encoded sequence** — and one a genuinely new view of [KNOWN] data.
 
-**(i) The colour×hour lattice — a [KNOWN] structure the corpus hadn't tabulated** (re-reading [K13a];
-[`web_colour_group_order.py`](../experiments/web_colour_group_order.py) verifies it). Laying the 8 webs out by hour and colour
-is unexpectedly clean:
+**(i) The colour×hour lattice — a [KNOWN] structure the corpus hadn't tabulated** (re-reading [K13a]; [`web_colour_group_order.py`](../experiments/web_colour_group_order.py) verifies it). Laying the 8 webs out by hour and colour is unexpectedly clean:
 
 | Hour | Black | Red |
 |------|-------|-----|
@@ -631,87 +267,27 @@ is unexpectedly clean:
 | 4–5 AM | **B45** Emerald | **R45** Southfield |
 | 5–6 AM | **B56** Oil Fields · **BL56** Ringneck | — |
 
-So **each hour 2/3/4 AM carries exactly one black + one red**, and **5–6 AM carries two blacks and no red.** That means each
-red is **hour-twinned to a black** — `B23↔R23`, `B34↔R34`, `B45↔R45` — and the **two untwinned blacks are B56/BL56**, which
-are *exactly* the [K13b] "interchangeable" pair. The hour-collision (two blacks at 5–6) **is** why those two are
-interchangeable in the chain — a mechanical, not mystical, reason. The reds form a tidy contiguous 2–5 AM band shadowing the
-first three blacks; the blacks run one hour longer and double at the end. **The lattice itself is [KNOWN]** (it's just [K13a]
-re-tabulated); **reading the twinning as *deliberate design* is [SPECULATION]**, but it is a sharp, checkable structure and it
-makes "colour is a first-class axis of the puzzle" concrete rather than hand-wavy.
+So **each hour 2/3/4 AM carries exactly one black + one red**, and **5–6 AM carries two blacks and no red.** That means each red is **hour-twinned to a black** — `B23↔R23`, `B34↔R34`, `B45↔R45` — and the **two untwinned blacks are B56/BL56**, which are *exactly* the [K13b] "interchangeable" pair. The hour-collision (two blacks at 5–6) **is** why those two are interchangeable in the chain — a mechanical, not mystical, reason. The reds form a tidy contiguous 2–5 AM band shadowing the first three blacks; the blacks run one hour longer and double at the end. **The lattice itself is [KNOWN]** (it's just [K13a] re-tabulated); **reading the twinning as *deliberate design* is [SPECULATION]**, but it is a sharp, checkable structure and it makes "colour is a first-class axis of the puzzle" concrete rather than hand-wavy.
 
-> **⚠️ Tier note (provenance audit, 2026-06-21).** "[KNOWN]" here is **softer than it looks**: the **primary wiki ([B])
-> independently confirms only** the aggregate 5 black / 3 red, **Saint Denis = 3–4 AM**, and the centre (1–2 AM / `N`+pole). The
-> rest of the per-web hour+colour cells — and therefore the *clean* "1 black + 1 red per hour" twinning this section leans on —
-> rest on the **[C]-tier community research site** (which already mis-labelled Saint Denis once, `R56`→`R34`). So the lattice is
-> *very likely* right but not A/B-locked per cell; the deliberateness reading ([S29] and the twinning-as-design line above)
-> inherits that C-tier risk until a second per-web hour/colour is independently confirmed. → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md) tier note.
+> **⚠️ Tier note (provenance audit, 2026-06-21).** "[KNOWN]" here is **softer than it looks**: the **primary wiki ([B]) independently confirms only** the aggregate 5 black / 3 red, **Saint Denis = 3–4 AM**, and the centre (1–2 AM / `N`+pole). The rest of the per-web hour+colour cells — and therefore the *clean* "1 black + 1 red per hour" twinning this section leans on — rest on the **[C]-tier community research site** (which already mis-labelled Saint Denis once, `R56`→`R34`). So the lattice is *very likely* right but not A/B-locked per cell; the deliberateness reading ([S29] and the twinning-as-design line above) inherits that C-tier risk until a second per-web hour/colour is independently confirmed. → [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md) tier note.
 
-> **The would-be corroboration SURVIVED its provenance test ([S29]/[U32] → [K39], updated 2026-07-02).** The manifest's
-> internal file numbers *do* encode this very lattice: `spiderdream01–08` are colour-grouped (1–5 = the 5 blacks, 6–8 = the 3
-> reds), the two untwinned 5–6 AM blacks sit at files 1–2, and every hour-twin pair **sums to 11** (`B23↔R23`=5+6, `B45↔R45`=4+7,
-> `B34↔R34`=3+8) — odds **≈1/3360** under random labeling ([`web_file_number_structure.py`](../experiments/web_file_number_structure.py)).
-> On 2026-06-21 this was held conditional because the mapping was uncited (suspected back-fit). **[U32] has since resolved
-> positive:** the mapping is a **public community datamine** (u/Artem_ab6, master thread, 2026-01-02, [#65] — image on file,
-> matches the manifest 8/8 → [K39]), so the back-fit-by-*us* reading is dead and the structure attaches to real file data —
-> **usable C-tier evidence that the devs treated colour + the hour-twinning as deliberate** ([S29], now live). ⚠️ Cite it *with*
-> its tier: single dataminer, "(testing)"-flagged, unreproduced; back-fit by the *source* not fully excludable until an
-> independent asset dump checks the instance names.
+> **The would-be corroboration SURVIVED its provenance test ([S29]/[U32] → [K39], updated 2026-07-02).** The manifest's internal file numbers *do* encode this very lattice: `spiderdream01–08` are colour-grouped (1–5 = the 5 blacks, 6–8 = the 3 reds), the two untwinned 5–6 AM blacks sit at files 1–2, and every hour-twin pair **sums to 11** (`B23↔R23`=5+6, `B45↔R45`=4+7, `B34↔R34`=3+8) — odds **≈1/3360** under random labeling ([`web_file_number_structure.py`](../experiments/web_file_number_structure.py)). On 2026-06-21 this was held conditional because the mapping was uncited (suspected back-fit). **[U32] has since resolved positive:** the mapping is a **public community datamine** (u/Artem_ab6, master thread, 2026-01-02, [#65] — image on file, matches the manifest 8/8 → [K39]), so the back-fit-by-*us* reading is dead and the structure attaches to real file data — **usable C-tier evidence that the devs treated colour + the hour-twinning as deliberate** ([S29], now live). ⚠️ Cite it *with* its tier: single dataminer, "(testing)"-flagged, unreproduced; back-fit by the *source* not fully excludable until an independent asset dump checks the instance names.
 
-**(ii) The Window Rock mural as a shipped "seed" for a FILTER mechanic ([H18], user lead).** The user's framing: just as the
-**Saint Denis Vampire** is the journal-assisted *seed* for the Butcher-Creek pentagram ([H15]) and the **Dreamcatchers** seed
-the connect-points→shape→eye grammar ([H6]), the **Window Rock "Strange Statues" mural** ([K18]) may be the shipped *seed* for
-the kind of reading the web puzzle demands. The mural is solved by **counting a per-element feature (tail feathers) while
-EXCLUDING decoys (upside-down birds)** → the prime counts `2,3,5,7` → input at the statues. Read as a transferable lesson, its
-core teaching is: **appearance is a per-element FILTER — *which elements to ignore* — not a heading.**
+**(ii) The Window Rock mural as a shipped "seed" for a FILTER mechanic ([H18], user lead).** The user's framing: just as the **Saint Denis Vampire** is the journal-assisted *seed* for the Butcher-Creek pentagram ([H15]) and the **Dreamcatchers** seed the connect-points→shape→eye grammar ([H6]), the **Window Rock "Strange Statues" mural** ([K18]) may be the shipped *seed* for the kind of reading the web puzzle demands. The mural is solved by **counting a per-element feature (tail feathers) while EXCLUDING decoys (upside-down birds)** → the prime counts `2,3,5,7` → input at the statues. Read as a transferable lesson, its core teaching is: **appearance is a per-element FILTER — *which elements to ignore* — not a heading.**
 
 Transferred honestly to the webs, most of the mural does **not** carry over, and saying so is the point:
-- 🔴 **No per-web "count."** Each web has exactly **one** feather, so "count the feathers on each" is trivially 1 — there is no
-  per-web number to read the way each mural bird gives one. The only count the webs offer is the system-level **5 black / 3
-  red** (already [S12]/[H3]); the mural's `{2,3,5,7}` vs the webs' `{5,3}` overlap is the weak, pre-existing 5/3 echo, not a new
-  key (and cherry-picks 5,3 out of 2,3,5,7).
-- 🟢 **The exclusion-filter lesson *does* carry over, and it cuts against [H4].** [H4] assumed feather **orientation** is a
-  *heading* (each feather points to the next web) — now refuted ([#59]: all feathers hang tip-down, uniform). The mural says
-  appearance is a **filter**, not a heading. Since web feather orientation is **uniform**, an orientation-filter would be
-  degenerate (it would include/exclude *all* of them equally) — so the filter must sit on the only other per-web binary axis,
-  **colour**. I.e. the mural-seed predicts **colour (red vs black) is the include/exclude partition** — which is precisely what
-  the [H9] boundary map (reds = the South group) and the [U29] brute-force resets (reds behave as one group, blacks as another,
-  Cornwall special) **already** show independently.
+- 🔴 **No per-web "count."** Each web has exactly **one** feather, so "count the feathers on each" is trivially 1 — there is no per-web number to read the way each mural bird gives one. The only count the webs offer is the system-level **5 black / 3 red** (already [S12]/[H3]); the mural's `{2,3,5,7}` vs the webs' `{5,3}` overlap is the weak, pre-existing 5/3 echo, not a new key (and cherry-picks 5,3 out of 2,3,5,7).
+- 🟢 **The exclusion-filter lesson *does* carry over, and it cuts against [H4].** [H4] assumed feather **orientation** is a *heading* (each feather points to the next web) — now refuted ([#59]: all feathers hang tip-down, uniform). The mural says appearance is a **filter**, not a heading. Since web feather orientation is **uniform**, an orientation-filter would be degenerate (it would include/exclude *all* of them equally) — so the filter must sit on the only other per-web binary axis, **colour**. I.e. the mural-seed predicts **colour (red vs black) is the include/exclude partition** — which is precisely what the [H9] boundary map (reds = the South group) and the [U29] brute-force resets (reds behave as one group, blacks as another, Cornwall special) **already** show independently.
 
-So three independent lines — the mural-as-seed, the Jay_0048 boundary partition ([H9]), and the community reset testing
-([U29]) — **converge on colour/group as the operative structure**, and all three sit *against* a feather-orientation sequence
-([H4]/[H17], both dead). [`web_colour_group_order.py`](../experiments/web_colour_group_order.py) checks the resulting
-**colour-group order** ("reds as a free group → the connector black chain → Cornwall `B34` last") against a conservative
-encoding of the [U29] rules: the [U29] rules alone collapse 8! = 40,320 orders to **180** (with "`B34` last"), and the
-colour-group shape is **consistent** with them (one sub-family of the survivors — **not** singled out, so consistency, not
-proof). **What [H18] is and isn't (kept honest, exactly as [H15]):** it is a **precedent/intent argument** about RDR2 design
-grammar — that "read the collection, filter the decoys" is shipped vocabulary — **not** evidence the mural and the webs are one
-puzzle, and **not** a confirmed key. The bird/feather theming the two share is also common across RDR2, so the link is
-suggestive at most.
+So three independent lines — the mural-as-seed, the Jay_0048 boundary partition ([H9]), and the community reset testing ([U29]) — **converge on colour/group as the operative structure**, and all three sit *against* a feather-orientation sequence ([H4]/[H17], both dead). [`web_colour_group_order.py`](../experiments/web_colour_group_order.py) checks the resulting **colour-group order** ("reds as a free group → the connector black chain → Cornwall `B34` last") against a conservative encoding of the [U29] rules: the [U29] rules alone collapse 8! = 40,320 orders to **180** (with "`B34` last"), and the colour-group shape is **consistent** with them (one sub-family of the survivors — **not** singled out, so consistency, not proof). **What [H18] is and isn't (kept honest, exactly as [H15]):** it is a **precedent/intent argument** about RDR2 design grammar — that "read the collection, filter the decoys" is shipped vocabulary — **not** evidence the mural and the webs are one puzzle, and **not** a confirmed key. The bird/feather theming the two share is also common across RDR2, so the link is suggestive at most.
 
-> **⚠️ REFINED 2026-06-21 — the mural colour test ([U14]), and what it does / doesn't touch.** The stronger sibling claim
-> [H3]/[S12] — that the mural is the order key because its birds split **5 black / 3 red** — has now been **tested and refuted**:
-> a pixel pass of the colour-faithful wiki texture ([`mural_colour_count.py`](../experiments/mural_colour_count.py)) finds the
-> mural is a **single red/ochre pigment** (100% of chromatic ink red-hued, 0% any other hue; the dark figures are shaded red, not
-> black), and every walkthrough codes the puzzle by **count + orientation (upside-down decoys), never colour.** Two consequences,
-> kept separate: **(a)** the mural's decoy axis is **orientation**, not colour — so it is genuine precedent for *"appearance is a
-> filter,"* but it **does not itself point to colour**; H18's step from "filter" to "colour" is *by elimination only* (web
-> orientation is uniform ⇒ colour is the last binary standing), not mural-backed. H18-as-precedent survives; **do not cite it as
-> mural evidence *for colour*.** **(b)** Critically, **the colour/group reading of the webs is undamaged** — it never depended on
-> the mural. It stands on the [H9] Jay_0048 boundary partition and the [U29] reset testing, which remain the live support. So this
-> is **two**, not three, independent lines converging on colour/group (mural-as-seed drops out as a colour witness). → [H18] in
-> [findings/speculation.md](../findings/speculation.md), [thread 06](../threads/06-bird-carving-giant-wapiti.md).
+> **⚠️ REFINED 2026-06-21 — the mural colour test ([U14]), and what it does / doesn't touch.** The stronger sibling claim [H3]/[S12] — that the mural is the order key because its birds split **5 black / 3 red** — has now been **tested and refuted**: a pixel pass of the colour-faithful wiki texture ([`mural_colour_count.py`](../experiments/mural_colour_count.py)) finds the mural is a **single red/ochre pigment** (100% of chromatic ink red-hued, 0% any other hue; the dark figures are shaded red, not black), and every walkthrough codes the puzzle by **count + orientation (upside-down decoys), never colour.** Two consequences, kept separate: **(a)** the mural's decoy axis is **orientation**, not colour — so it is genuine precedent for *"appearance is a filter,"* but it **does not itself point to colour**; H18's step from "filter" to "colour" is *by elimination only* (web orientation is uniform ⇒ colour is the last binary standing), not mural-backed. H18-as-precedent survives; **do not cite it as mural evidence *for colour*.** **(b)** Critically, **the colour/group reading of the webs is undamaged** — it never depended on the mural. It stands on the [H9] Jay_0048 boundary partition and the [U29] reset testing, which remain the live support. So this is **two**, not three, independent lines converging on colour/group (mural-as-seed drops out as a colour witness). → [H18] in [findings/speculation.md](../findings/speculation.md), [thread 06](../threads/06-bird-carving-giant-wapiti.md).
 
 ### 5d. Closing the [U0] socket gap — the camera-invariant read, and what it does/doesn't reveal ([H19], 2026-06-14)
 
-The last residual of [U0] was the per-web feather **socket** (which radial sector the feather hangs from). It had been parked
-as "camera-angle-confounded, not a finding — needs the datamine." This pass **closes it from the images** by changing the
-measurement frame, and tests the result for structure ([`web_socket_position.py`](../experiments/web_socket_position.py)).
+The last residual of [U0] was the per-web feather **socket** (which radial sector the feather hangs from). It had been parked as "camera-angle-confounded, not a finding — needs the datamine." This pass **closes it from the images** by changing the measurement frame, and tests the result for structure ([`web_socket_position.py`](../experiments/web_socket_position.py)).
 
-**The fix: measure against the web, not the screen.** Each half-web has a **central vertical radial** (the hub's straight-down
-strand). Position read as *left of / on / right of that radial* (`L`/`C`/`R`) is a property of the **web**, which rotates with
-it — so it survives the camera angle that confounded the screen-relative left/right. The datamine
-([`../images/webs/web_cable-mesh_datamine.png`](../images/webs/web_cable-mesh_datamine.png)) backs a **discrete** socket set:
-its attach-point highlights cluster at ~three radial positions, consistent with `L`/`C`/`R` rather than continuous placement.
+**The fix: measure against the web, not the screen.** Each half-web has a **central vertical radial** (the hub's straight-down strand). Position read as *left of / on / right of that radial* (`L`/`C`/`R`) is a property of the **web**, which rotates with it — so it survives the camera angle that confounded the screen-relative left/right. The datamine ([`../images/webs/web_cable-mesh_datamine.png`](../images/webs/web_cable-mesh_datamine.png)) backs a **discrete** socket set: its attach-point highlights cluster at ~three radial positions, consistent with `L`/`C`/`R` rather than continuous placement.
 
 Re-reading all 8 front shots ([#59]) this way:
 
@@ -723,149 +299,47 @@ Re-reading all 8 front shots ([#59]) this way:
 | 5–6 AM | B56 Oil Fields · **L** · BL56 Ringneck · **L** | — |
 
 **What it reveals (all tested):**
-- 🟢 **The reads are robust — 8/8 agree** with the old screen-relative reads. So the confound never *flipped* the gross call;
-  it only inflated the uncertainty. Socket is now a **usable weak signal**, promoted from "not a finding." The [U0] residual is
-  **closed from images** (raw entity data would upgrade C-tier→A-tier but is no longer needed to characterise it).
-- 🔴 **Colour↔side is NOT significant.** Reds do average further right (1.67 vs 0.60 on L=0/C=1/R=2) but the exact permutation
-  test over C(8,3)=56 colour assignments gives **p = 0.125**. The "reds-right/blacks-left" lean the old caveat feared is
-  confirmed *as a non-result* — quantified, not promoted.
-- 🟡 **One crisp sub-pattern survives:** the **three hour-twinned blacks sweep `L→C→R` with the clock** (B23=L → B34=C → B45=R;
-  null p≈0.04 exact / 0.07 monotone — but only 3 points, eyeballed). And the **5–6 AM pair B56/BL56 share both hour AND socket**
-  (both `L`) — a second co-location on top of the shared hour from §5c, reinforcing why they're the [K13b] interchangeable pair.
+- 🟢 **The reads are robust — 8/8 agree** with the old screen-relative reads. So the confound never *flipped* the gross call; it only inflated the uncertainty. Socket is now a **usable weak signal**, promoted from "not a finding." The [U0] residual is **closed from images** (raw entity data would upgrade C-tier→A-tier but is no longer needed to characterise it).
+- 🔴 **Colour↔side is NOT significant.** Reds do average further right (1.67 vs 0.60 on L=0/C=1/R=2) but the exact permutation test over C(8,3)=56 colour assignments gives **p = 0.125**. The "reds-right/blacks-left" lean the old caveat feared is confirmed *as a non-result* — quantified, not promoted.
+- 🟡 **One crisp sub-pattern survives:** the **three hour-twinned blacks sweep `L→C→R` with the clock** (B23=L → B34=C → B45=R; null p≈0.04 exact / 0.07 monotone — but only 3 points, eyeballed). And the **5–6 AM pair B56/BL56 share both hour AND socket** (both `L`) — a second co-location on top of the shared hour from §5c, reinforcing why they're the [K13b] interchangeable pair.
 
-**Net ([H19]):** closing the gap **characterises** the socket but does **not** hand us the order. It adds a *weak* independent
-line to the colour-as-first-class-axis reading (§5a–5c, [H9]/[U29]/[H18]) and tightens the interchangeable-pair story; it does
-**not** revive [H4] — socket ≠ orientation, and orientation is uniformly tip-down. All socket *structure* stays
-**[SPECULATION]** pending the raw per-instance entity placement. The most checkable next step is whether the `L→C→R` black
-sweep holds in the game files. → [H19] in [findings/speculation.md](../findings/speculation.md),
-[feather-positions/README.md](../images/webs/feather-positions/README.md).
+**Net ([H19]):** closing the gap **characterises** the socket but does **not** hand us the order. It adds a *weak* independent line to the colour-as-first-class-axis reading (§5a–5c, [H9]/[U29]/[H18]) and tightens the interchangeable-pair story; it does **not** revive [H4] — socket ≠ orientation, and orientation is uniformly tip-down. All socket *structure* stays **[SPECULATION]** pending the raw per-instance entity placement. The most checkable next step is whether the `L→C→R` black sweep holds in the game files. → [H19] in [findings/speculation.md](../findings/speculation.md), [feather-positions/README.md](../images/webs/feather-positions/README.md).
 
 ### 5e. Is the Cornwall ENGRAVING actually a bearing-map of the webs? — tested, mostly NO ([S30], 2026-06-21)
 
-[K11] (primary-wiki gloss) says the Cornwall pole engraving "shows the **direction** of 7 more webs," and the §4 difficulty-curve
-read calls it "an engraving that is itself a map with no overlay." Both are interpretive — and the corpus had deliberately
-**not** read precise geometry from the blurry doodle (anti-pareidolia). This pass adjudicates it with a number. The on-file
-extraction ([`web_cornwall_b34_engraving_transparent.webp`](../images/webs/web_cornwall_b34_engraving_transparent.webp)) is
-unmistakably a **spider**; legs were pulled **deterministically** (radial peak-finding, no hand-placed angles) and tested
-against the true web map bearings with a Monte-Carlo null ([`engraving_web_bearings.py`](../experiments/engraving_web_bearings.py),
-seed 20260621; [result](../experiments/results/engraving_web_bearings.md)):
+[K11] (primary-wiki gloss) says the Cornwall pole engraving "shows the **direction** of 7 more webs," and the §4 difficulty-curve read calls it "an engraving that is itself a map with no overlay." Both are interpretive — and the corpus had deliberately **not** read precise geometry from the blurry doodle (anti-pareidolia). This pass adjudicates it with a number. The on-file extraction ([`web_cornwall_b34_engraving_transparent.webp`](../images/webs/web_cornwall_b34_engraving_transparent.webp)) is unmistakably a **spider**; legs were pulled **deterministically** (radial peak-finding, no hand-placed angles) and tested against the true web map bearings with a Monte-Carlo null ([`engraving_web_bearings.py`](../experiments/engraving_web_bearings.py), seed 20260621; [result](../experiments/results/engraving_web_bearings.md)):
 
-- 🔴 **Literal reading REFUTED** — *legs = bearings **from Cornwall** to the other 7 webs.* From Cornwall (the cluster's NW
-  corner) every web lies in a single **~E–SSE wedge of just 89°**, but the engraving fans legs across the **full 360°** (strong
-  N/NW/NNW legs where Cornwall has no web). Match is **no better than random** (mean error 23.6° vs 25.7° null, **p=0.55**), and
-  this holds regardless of the (provisional) coordinate reads — Cornwall is unambiguously NW of everything.
-- 🟡 **Body-map reading WEAK, not significant** — *spider body = the central featherless "spider's-body" cluster; legs =
-  bearings to all 8 surrounding webs.* Better than chance but short of a pareidolia bar (16.7° vs 25.7° null, **p=0.13**): the
-  **NW leg-pair** ≈ Cornwall/Oil Fields and the **S/SSW legs** ≈ Southfield/Scarlett, but the **NE webs (Overflow 38°, Emerald
-  57°) fall in the figure's leg-GAP** — there simply is no leg there.
-- 🟡 **One crisp feature:** the **longest leg (SE, 128°) points at the farthest web** (Saint Denis, bearing 121°, 830 px out —
-  **7° agreement**). Suggestive *if* length meant distance, but it is **one** correspondence cherry-picked from ~6 legs.
+- 🔴 **Literal reading REFUTED** — *legs = bearings **from Cornwall** to the other 7 webs.* From Cornwall (the cluster's NW corner) every web lies in a single **~E–SSE wedge of just 89°**, but the engraving fans legs across the **full 360°** (strong N/NW/NNW legs where Cornwall has no web). Match is **no better than random** (mean error 23.6° vs 25.7° null, **p=0.55**), and this holds regardless of the (provisional) coordinate reads — Cornwall is unambiguously NW of everything.
+- 🟡 **Body-map reading WEAK, not significant** — *spider body = the central featherless "spider's-body" cluster; legs = bearings to all 8 surrounding webs.* Better than chance but short of a pareidolia bar (16.7° vs 25.7° null, **p=0.13**): the **NW leg-pair** ≈ Cornwall/Oil Fields and the **S/SSW legs** ≈ Southfield/Scarlett, but the **NE webs (Overflow 38°, Emerald 57°) fall in the figure's leg-GAP** — there simply is no leg there.
+- 🟡 **One crisp feature:** the **longest leg (SE, 128°) points at the farthest web** (Saint Denis, bearing 121°, 830 px out — **7° agreement**). Suggestive *if* length meant distance, but it is **one** correspondence cherry-picked from ~6 legs.
 
-**Net ([S30]):** the engraving is best read as a **stylised spider pictograph + a loose directional cue** — exactly [K11]'s
-"shows the *direction*" wording — and **not** a decodable per-web bearing-map. This **quantitatively backs the standing
-anti-over-reading stance** (don't extract geometry from the doodle) rather than overturning it, and contributes two structural
-facts: the 360°-fan-vs-89°-wedge refutation of the from-Cornwall reading, and the longest-leg→Saint-Denis hint. Upstream of the
-[K16] frontier — chases nothing past Fort Wallace. → [S30] in [findings/speculation.md](../findings/speculation.md).
+**Net ([S30]):** the engraving is best read as a **stylised spider pictograph + a loose directional cue** — exactly [K11]'s "shows the *direction*" wording — and **not** a decodable per-web bearing-map. This **quantitatively backs the standing anti-over-reading stance** (don't extract geometry from the doodle) rather than overturning it, and contributes two structural facts: the 360°-fan-vs-89°-wedge refutation of the from-Cornwall reading, and the longest-leg→Saint-Denis hint. Upstream of the [K16] frontier — chases nothing past Fort Wallace. → [S30] in [findings/speculation.md](../findings/speculation.md).
 
 ### 5f. Do the 8 web POSITIONS form a body-centred figure? — yes, with Saint Denis the lone far leg ([S31], 2026-06-21)
 
-§5e tested whether the **engraving's legs** point at the webs (mostly no). The complementary, never-run test is whether the
-**webs themselves** form a shape — RDR2's shipped grammar is *connect fixed points → a shape → its **centre/eye*** ([K5]
-tallies→pentagram→centre, [K27]/[H15] the Vampire, [H6] dreamcatchers, and the centre webs literally spelling `N`, [K11]), and
-the wiki calls the central featherless cluster the spider's **"body".** So: **does the body sit at the centroid of the webs?**
-Tested deterministically on the same provisional overlay coordinates as §5e
-([`web_geometry_shape.py`](../experiments/web_geometry_shape.py), seed 20260621):
+§5e tested whether the **engraving's legs** point at the webs (mostly no). The complementary, never-run test is whether the **webs themselves** form a shape — RDR2's shipped grammar is *connect fixed points → a shape → its **centre/eye*** ([K5] tallies→pentagram→centre, [K27]/[H15] the Vampire, [H6] dreamcatchers, and the centre webs literally spelling `N`, [K11]), and the wiki calls the central featherless cluster the spider's **"body".** So: **does the body sit at the centroid of the webs?** Tested deterministically on the same provisional overlay coordinates as §5e ([`web_geometry_shape.py`](../experiments/web_geometry_shape.py), seed 20260621):
 
-- 🟢 **7 of the 8 webs ring the body.** Their centroid lands **4.6 px** from the featherless cluster (the all-8 centroid is
-  **106 px** off, dragged SE); a random map point averages **375 px** away → **p = 0.0001**. The structure is **robust to ±25 px
-  coordinate noise** (100% of trials keep the 7-web centroid closer than the 8-web one).
-- 🟢 **Saint Denis is the singular far outlier — the "long leg".** Leave-one-out: removing Saint Denis is the *only* removal that
-  centres the figure (4.6 px; next-best 89 px, all others >108 px). It sits **830 px** from the body, **2.02×** the next-farthest,
-  and is the best-to-drop outlier in **100%** of noised trials. This is the **principled** subset (drop the one far point), not a
-  cherry-pick among equals.
-- **Cross-link — Saint Denis is now structurally singular on FOUR independent lines (4th added 2026-07-02):** (1) this centroid
-  outlier / longest "leg"; (2) the **[S30]** longest-*engraving*-leg → SE → Saint Denis; (3) it is the only red **hour-twinned to
-  the START/index pole** Cornwall (`B34↔R34`, both 3–4 AM, §5c) — so the figure pairs the **NW start** with the **SE far leg** on
-  a diagonal; (4) — **new, and the first ASSET-level line** — the recovered [#52] datamine reports **feather 08 as the lone
-  render-distance anomaly (31 m vs 37 m)**, and 08 = **Saint Denis** under the [K39] mapping (⚠️ C-tier, held loosely per [#52]'s
-  caveats — but authored blind to S30/S31, so uncontaminated by them; the sweep also surfaced the unused St-Denis-fence
-  "spider image" voice line + the glyph file's `nbx` = New Bordeaux prefix, [#74]). That convergence dovetails with the
-  **pre-existing unexplained red anomaly** in [U29] (*"a unique function to the red feathers"; "any
-  red after BL56 resets the red feather"*).
+- 🟢 **7 of the 8 webs ring the body.** Their centroid lands **4.6 px** from the featherless cluster (the all-8 centroid is **106 px** off, dragged SE); a random map point averages **375 px** away → **p = 0.0001**. The structure is **robust to ±25 px coordinate noise** (100% of trials keep the 7-web centroid closer than the 8-web one).
+- 🟢 **Saint Denis is the singular far outlier — the "long leg".** Leave-one-out: removing Saint Denis is the *only* removal that centres the figure (4.6 px; next-best 89 px, all others >108 px). It sits **830 px** from the body, **2.02×** the next-farthest, and is the best-to-drop outlier in **100%** of noised trials. This is the **principled** subset (drop the one far point), not a cherry-pick among equals.
+- **Cross-link — Saint Denis is now structurally singular on FOUR independent lines (4th added 2026-07-02):** (1) this centroid outlier / longest "leg"; (2) the **[S30]** longest-*engraving*-leg → SE → Saint Denis; (3) it is the only red **hour-twinned to the START/index pole** Cornwall (`B34↔R34`, both 3–4 AM, §5c) — so the figure pairs the **NW start** with the **SE far leg** on a diagonal; (4) — **new, and the first ASSET-level line** — the recovered [#52] datamine reports **feather 08 as the lone render-distance anomaly (31 m vs 37 m)**, and 08 = **Saint Denis** under the [K39] mapping (⚠️ C-tier, held loosely per [#52]'s caveats — but authored blind to S30/S31, so uncontaminated by them; the sweep also surfaced the unused St-Denis-fence "spider image" voice line + the glyph file's `nbx` = New Bordeaux prefix, [#74]). That convergence dovetails with the **pre-existing unexplained red anomaly** in [U29] (*"a unique function to the red feathers"; "any red after BL56 resets the red feather"*).
 
-**Net ([S31]).** The webs read as **a body + a ring of legs + one anomalous long leg**, matching the wiki's *spider-body+legs*
-gloss — a modest, **independent geometric** nudge toward **one deliberate construction** ([U3] one-puzzle), and a sharpened lead
-that **Saint Denis plays a special role.** ⚠️ Honest limits: the body being near the *middle* of its own figure is partly
-definitional; the coords are **eyeball reads off a community-drawn overlay** (not in-game — none are published), so the literal
-4.6 px rides on draftsmanship and only the *qualitative* result survives the noise test. It gives **no shooting order**, decodes
-nothing, and chases nothing past [K16]. **Falsifiable (in-game, [U29]):** if this is a designed figure, Saint Denis should be
-**functionally distinguished** in the shooting mechanic (special first/last red, or the source of the red anomaly); a null
-downgrades it to "the body just sits near the map centre." → [S31] in [findings/speculation.md](../findings/speculation.md),
-[results/web_geometry_shape.md](../experiments/results/web_geometry_shape.md).
+**Net ([S31]).** The webs read as **a body + a ring of legs + one anomalous long leg**, matching the wiki's *spider-body+legs* gloss — a modest, **independent geometric** nudge toward **one deliberate construction** ([U3] one-puzzle), and a sharpened lead that **Saint Denis plays a special role.** ⚠️ Honest limits: the body being near the *middle* of its own figure is partly definitional; the coords are **eyeball reads off a community-drawn overlay** (not in-game — none are published), so the literal 4.6 px rides on draftsmanship and only the *qualitative* result survives the noise test. It gives **no shooting order**, decodes nothing, and chases nothing past [K16]. **Falsifiable (in-game, [U29]):** if this is a designed figure, Saint Denis should be **functionally distinguished** in the shooting mechanic (special first/last red, or the source of the red anomaly); a null downgrades it to "the body just sits near the map centre." → [S31] in [findings/speculation.md](../findings/speculation.md), [results/web_geometry_shape.md](../experiments/results/web_geometry_shape.md).
 
 ### 5g. The fresh-pass re-read (2026-07-02) — the lattice as an hourly FORK, and the dream coda ([H24]/[H25]/[S34]/[S35])
 
-A deliberate re-interpretation session (full reasoning: [decoy-and-dream-hypotheses.md](decoy-and-dream-hypotheses.md))
-re-read §5c's colour×hour lattice from the player's seat: each 2/3/4 AM hour offers **one black *or* one red**
-(geographically mutually exclusive — the very [H20] feasibility data), and the 5–6 AM finale offers only blacks. **[H24]:**
-the reds are **decoys** ([H18]'s filter grammar taken literally — decoys are *excluded*, not sequenced), the solve is the
-**5 blacks only**, and the §5a seam contradiction ([K29] vs [H20]) **dissolves** — no RED↔BLACK
-crossing exists if reds aren't shot ("any red after BL56 resets" re-reads as a **completion guard**). *(Corrected same day,
-investigator geometry: `BL56` lies **outside the orange boundary**, so holding all 5 forces **`BL56` before `B34`** →
-`B34` on a later night — the within-black geometry mechanically **derives** the [U29] "B34 last" suspicion; all-5-down is
-reachable in ~2 nights via [K29], ending at the whiskey-tree overlap [S23].)* **[H25]:** the payoff
-is a **dream** — sleep in-boundary on the completed set (assets say `spiderdream`; [K29] state survives sleep by design;
-[K10] "KEEP YOUR DREAMS LIGHT" sits at the final-hour `B56` site = a finish-line instruction; answers [U11]'s mechanism —
-no documented solver has slept on a completed set). Composed into **Test C + a universal dream coda** in
-[web-order-field-test.md](web-order-field-test.md) — the cheapest in-game test on the board. Side leads: **[S34]** the
-"guitar" glyph as an **hourglass/figure-8** ([U12] candidate; black-widow field mark / Rockstar 8 [S20] / time icon [H13])
-— *checked against the extraction 2026-07-05: **guitar-leaning** (long neck + asymmetric bouts + waist sound-hole; the
-hourglass/8 fail their own diagnostics → weighed down, [decoy-and-dream-hypotheses.md §3](decoy-and-dream-hypotheses.md))*;
-**[S35]** the **Strange Man's shack** (inside Middle+Bottom boundaries, [K28]; the game's one state-watching location) as
-the southern [H21]-twin state-carry target for the reds — the designed **rival** of [H24] on the reds' role. All
-[SPECULATION]; rival frames [H20]/[H22] stay live; nothing moves the [K16] frontier.
+A deliberate re-interpretation session (full reasoning: [decoy-and-dream-hypotheses.md](decoy-and-dream-hypotheses.md)) re-read §5c's colour×hour lattice from the player's seat: each 2/3/4 AM hour offers **one black *or* one red** (geographically mutually exclusive — the very [H20] feasibility data), and the 5–6 AM finale offers only blacks. **[H24]:** the reds are **decoys** ([H18]'s filter grammar taken literally — decoys are *excluded*, not sequenced), the solve is the **5 blacks only**, and the §5a seam contradiction ([K29] vs [H20]) **dissolves** — no RED↔BLACK crossing exists if reds aren't shot ("any red after BL56 resets" re-reads as a **completion guard**). *(Corrected same day, investigator geometry: `BL56` lies **outside the orange boundary**, so holding all 5 forces **`BL56` before `B34`** → `B34` on a later night — the within-black geometry mechanically **derives** the [U29] "B34 last" suspicion; all-5-down is reachable in ~2 nights via [K29], ending at the whiskey-tree overlap [S23].)* **[H25]:** the payoff is a **dream** — sleep in-boundary on the completed set (assets say `spiderdream`; [K29] state survives sleep by design; [K10] "KEEP YOUR DREAMS LIGHT" sits at the final-hour `B56` site = a finish-line instruction; answers [U11]'s mechanism — no documented solver has slept on a completed set). Composed into **Test C + a universal dream coda** in [web-order-field-test.md](web-order-field-test.md) — the cheapest in-game test on the board. Side leads: **[S34]** the "guitar" glyph as an **hourglass/figure-8** ([U12] candidate; black-widow field mark / Rockstar 8 [S20] / time icon [H13]) — *checked against the extraction 2026-07-05: **guitar-leaning** (long neck + asymmetric bouts + waist sound-hole; the hourglass/8 fail their own diagnostics → weighed down, [decoy-and-dream-hypotheses.md §3](decoy-and-dream-hypotheses.md))*; **[S35]** the **Strange Man's shack** (inside Middle+Bottom boundaries, [K28]; the game's one state-watching location) as the southern [H21]-twin state-carry target for the reds — the designed **rival** of [H24] on the reds' role. All [SPECULATION]; rival frames [H20]/[H22] stay live; nothing moves the [K16] frontier.
 
 ## 6. Cross-site coincidences worth not dismissing
-- **Two cheat-carving sites sit on two independent mystery threads:** **Vetter's Echo** (the `EC` matches + Black Widow card)
-  and **Braithwaite Manor** (Gertrude). See [cheat-codes.md](cheat-codes.md). Could be coincidence (cheats are scattered
-  map-wide) — but worth noting the overlap.
-- **The "outhouse + numbers" motif** now spans Butcher Creek, Fort Brennand, **and** Gertrude — see §2 and
-  [narrative-connection.md](narrative-connection.md) for the geographic/thematic clustering.
-- **GTA↔RDR is an established Rockstar crossover channel ([K23]/[K24]) — full dossier:
-  [gta-rdr2-crossover.md](gta-rdr2-crossover.md).** Gertrude's `1237645112` is the **same number** the **Madam Nazar "Nazar
-  Speaks"** machine speaks in GTA Online; the same machine also gives the *"web…unraveling"* fortune ([U19]) and names other
-  RDR2 places ([S14]). And GTA V's **Mt Chiliad webs are base-game since 2013** ([K24]). ⚠️ **Direction matters (corrected
-  2026-06-13):** the RDR2 numbers (2018) and both games' webs (2013/2018) are **original-to-launch**; only the **2019 Nazar
-  callback** was added later. So the crossover **raises confidence the material is deliberate** — it does **not** supply a
-  "mundane pre-spider origin" that downgrades Gertrude. Net effect on the spider case: Gertrude's numbers are a **deliberate,
-  Rockstar-flagged RDR2 cipher-candidate** whose link to the **spider trail specifically** is still **undecided** (could be the
-  trail, a standalone Nazar/Braithwaite egg, or undecipherable).
+- **Two cheat-carving sites sit on two independent mystery threads:** **Vetter's Echo** (the `EC` matches + Black Widow card) and **Braithwaite Manor** (Gertrude). See [cheat-codes.md](cheat-codes.md). Could be coincidence (cheats are scattered map-wide) — but worth noting the overlap.
+- **The "outhouse + numbers" motif** now spans Butcher Creek, Fort Brennand, **and** Gertrude — see §2 and [narrative-connection.md](narrative-connection.md) for the geographic/thematic clustering.
+- **GTA↔RDR is an established Rockstar crossover channel ([K23]/[K24]) — full dossier: [gta-rdr2-crossover.md](gta-rdr2-crossover.md).** Gertrude's `1237645112` is the **same number** the **Madam Nazar "Nazar Speaks"** machine speaks in GTA Online; the same machine also gives the *"web…unraveling"* fortune ([U19]) and names other RDR2 places ([S14]). And GTA V's **Mt Chiliad webs are base-game since 2013** ([K24]). ⚠️ **Direction matters (corrected 2026-06-13):** the RDR2 numbers (2018) and both games' webs (2013/2018) are **original-to-launch**; only the **2019 Nazar callback** was added later. So the crossover **raises confidence the material is deliberate** — it does **not** supply a "mundane pre-spider origin" that downgrades Gertrude. Net effect on the spider case: Gertrude's numbers are a **deliberate, Rockstar-flagged RDR2 cipher-candidate** whose link to the **spider trail specifically** is still **undecided** (could be the trail, a standalone Nazar/Braithwaite egg, or undecipherable).
 
 ## Open analysis tasks
-*Several of these are computational — script them in [`../experiments/`](../experiments/) rather than by hand (a cipher
-harness for Gertrude's numbers, a coincidence-odds calc for the dev-initials argument, name-list matching). Results are
-[SPECULATION] until sourced; log null results.*
-- [x] Build the RDR2 character name list & test the initials *(2026-06-13)* — Van der Linde gang roster ([thread 07](../threads/07-van-der-linde-roster.md))
-  run through [`name_match.py`](../experiments/name_match.py): exact hits `SM`=Sean MacGuire, `J+M`=John Marston; gang supplies
-  `L`; `EC` matches nothing → [S16]/[S17]. **Coincidence-odds follow-up DONE** ([`initials_likelihood.py`](../experiments/initials_likelihood.py)):
-  the 2-of-5 hit count is **weak** (P≈0.59 under a realistic name-initial-frequency null) → [S16] softened to suggestive-only.
-- [x] Add **all** the **Register Rock** names ([U24]) to that name-matching script *(2026-06-21)* — the full sourced list (26
-  entries: full names, wiki-named outlaws, and bare marks, **no pre-filtering** of the West/Ward "Batman" names per [S13]) is in
-  [`name_match.py`](../experiments/name_match.py) and the run is now **captured** at
-  [`results/name_match.txt`](../experiments/results/name_match.txt). The scripted result **confirms the by-eye desk check
-  exactly**: 🟢 `J+M` = **Jasper Munson** + the **"Jm"** mark (Rule A, two hits); 🟢 `S+J` draws its **S** leg from **S. Gray**
-  (Rule B); 🔴 **no `LJ`/`SM`/`EC` as any one person, and `L` is the lone mystery-letter ABSENT from the rock entirely** (Rule C)
-  — a real **partial-negative** if Register Rock were the single name-key. (Still gated on [H11]: does the Fort Brennand third
-  symbol actually depict the rock?) The cross-source picture — gang roster supplies the `L` the rock lacks, but **`EC` matches
-  nothing in either source** — feeds the **[S28]** "`EC` is a key, not a name" consolidation (§1a below).
-- [x] **Decide [U3] — one puzzle or two?** *(2026-07-04)* — adjudicated in [one-puzzle-or-two.md](one-puzzle-or-two.md)
-  → **[S41]**: the 2018 chain + the 2025 trail are **one continuous designed relay** (the [K8] hand-off is
-  retro-validated by what sits at the Cornwall pole; shared Oil-Fields node [K10]+`B56`; shared [H13] signature; both
-  base-game). "Parallel eggs" rejected; the live residue is the **mechanic layer** ([U29], §5a — the verdict is
-  invariant to it) and **satellite membership** ([U6] Gertrude, the matchsticks — scorecard in the file).
-- [x] ~~Verify Gertrude's exact sequence, then test attempt B (read tally nodes in her order)~~ — **DONE both halves
-  2026-07-05:** sequence **game-text confirmed** ([K42]/[#78]); attempt B **closed-inexecutable** (§3 above — nodes 5/6
-  bare; reopens only via an [H26]-sweep find).
+*Several of these are computational — script them in [`../experiments/`](../experiments/) rather than by hand (a cipher harness for Gertrude's numbers, a coincidence-odds calc for the dev-initials argument, name-list matching). Results are [SPECULATION] until sourced; log null results.*
+- [x] Build the RDR2 character name list & test the initials *(2026-06-13)* — Van der Linde gang roster ([thread 07](../threads/07-van-der-linde-roster.md)) run through [`name_match.py`](../experiments/name_match.py): exact hits `SM`=Sean MacGuire, `J+M`=John Marston; gang supplies `L`; `EC` matches nothing → [S16]/[S17]. **Coincidence-odds follow-up DONE** ([`initials_likelihood.py`](../experiments/initials_likelihood.py)): the 2-of-5 hit count is **weak** (P≈0.59 under a realistic name-initial-frequency null) → [S16] softened to suggestive-only.
+- [x] Add **all** the **Register Rock** names ([U24]) to that name-matching script *(2026-06-21)* — the full sourced list (26 entries: full names, wiki-named outlaws, and bare marks, **no pre-filtering** of the West/Ward "Batman" names per [S13]) is in [`name_match.py`](../experiments/name_match.py) and the run is now **captured** at [`results/name_match.txt`](../experiments/results/name_match.txt). The scripted result **confirms the by-eye desk check exactly**: 🟢 `J+M` = **Jasper Munson** + the **"Jm"** mark (Rule A, two hits); 🟢 `S+J` draws its **S** leg from **S. Gray** (Rule B); 🔴 **no `LJ`/`SM`/`EC` as any one person, and `L` is the lone mystery-letter ABSENT from the rock entirely** (Rule C) — a real **partial-negative** if Register Rock were the single name-key. (Still gated on [H11]: does the Fort Brennand third symbol actually depict the rock?) The cross-source picture — gang roster supplies the `L` the rock lacks, but **`EC` matches nothing in either source** — feeds the **[S28]** "`EC` is a key, not a name" consolidation (§1a below).
+- [x] **Decide [U3] — one puzzle or two?** *(2026-07-04)* — adjudicated in [one-puzzle-or-two.md](one-puzzle-or-two.md) → **[S41]**: the 2018 chain + the 2025 trail are **one continuous designed relay** (the [K8] hand-off is retro-validated by what sits at the Cornwall pole; shared Oil-Fields node [K10]+`B56`; shared [H13] signature; both base-game). "Parallel eggs" rejected; the live residue is the **mechanic layer** ([U29], §5a — the verdict is invariant to it) and **satellite membership** ([U6] Gertrude, the matchsticks — scorecard in the file).
+- [x] ~~Verify Gertrude's exact sequence, then test attempt B (read tally nodes in her order)~~ — **DONE both halves 2026-07-05:** sequence **game-text confirmed** ([K42]/[#78]); attempt B **closed-inexecutable** (§3 above — nodes 5/6 bare; reopens only via an [H26]-sweep find).
 - [ ] Confirm the `J+M` matchsticks and compare the carving "hand"/style to outhouse #4.
 - [ ] Capture the under-wood messages (thread 05) — they may directly state what the letters/numbers mean.
 - [ ] Once images are in, overlay the spider symbol on a real map and label all poles.

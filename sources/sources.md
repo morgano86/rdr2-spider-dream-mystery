@@ -1,11 +1,8 @@
 # Sources
 
-Reliability legend: **A** = primary/in-game or official; **B** = established games journalism / long-standing wiki;
-**C** = forum/social/video (useful leads, verify before trusting). Retrieval date: **2026-06-13** unless noted.
+Reliability legend: **A** = primary/in-game or official; **B** = established games journalism / long-standing wiki; **C** = forum/social/video (useful leads, verify before trusting). Retrieval date: **2026-06-13** unless noted.
 
-> **This file is the per-claim citation ledger** (numbered sources tied to specific facts). For the **"where do I go for what?"**
-> resource directory — which sites/channels are useful for which kind of evidence, plus the fetch recipes — see
-> **[`RESOURCES.md`](RESOURCES.md)**.
+> **This file is the per-claim citation ledger** (numbered sources tied to specific facts). For the **"where do I go for what?"** resource directory — which sites/channels are useful for which kind of evidence, plus the fetch recipes — see **[`RESOURCES.md`](RESOURCES.md)**.
 
 ## Primary / wiki (A–B)
 | # | Source | URL | Notes |
@@ -64,17 +61,9 @@ Reliability legend: **A** = primary/in-game or official; **B** = established gam
 | 36 | Google Sites — "Spider Dreams Mystery / timeline" (community research) | https://sites.google.com/view/spider-dreams-mystery/timeline | **C-tier community tracker** — likely an origin of our per-web K13a catalogue. Verify before trusting. |
 | 37 | Red Dead Wiki — *Vetter's Echo* | https://reddead.fandom.com/wiki/Vetter's_Echo | For the `EC` matches / Black Widow card / letters to Annabella ([U16](../findings/unknowns.md)). |
 
-> **Verification scorecard (2nd deep-research run, 2026-06-13):** 25 claims tested, **20 confirmed / 5 killed**. Confirmed:
-> the N→W→NW+guitar chain, **no payoff / still unsolved June 2026**, 5 black + 3 red `spiderdream` feathers, the **Butterworth
-> = ex-QA, "real but not authored"** attribution, Fort Wallace = waypoint. Killed/refuted: "start spider pole only 3–4 AM";
-> "bird carvings on Fort Wallace tower roof" (→ unverified lead); "trail ends/dead-ends at NW-guitar" (it continues); plus two
-> wording-duplicate kills whose substance survived. **Not advanced this pass (still open):** Gertrude's numbers, per-feather
-> positions/order, matchstick identities (EC/Annabella/J+M/S+J), Window Rock mural, Nazar Speaks, canonical Strange Man video.
+> **Verification scorecard (2nd deep-research run, 2026-06-13):** 25 claims tested, **20 confirmed / 5 killed**. Confirmed: the N→W→NW+guitar chain, **no payoff / still unsolved June 2026**, 5 black + 3 red `spiderdream` feathers, the **Butterworth = ex-QA, "real but not authored"** attribution, Fort Wallace = waypoint. Killed/refuted: "start spider pole only 3–4 AM"; "bird carvings on Fort Wallace tower roof" (→ unverified lead); "trail ends/dead-ends at NW-guitar" (it continues); plus two wording-duplicate kills whose substance survived. **Not advanced this pass (still open):** Gertrude's numbers, per-feather positions/order, matchstick identities (EC/Annabella/J+M/S+J), Window Rock mural, Nazar Speaks, canonical Strange Man video.
 
-> **Verification scorecard (deep-research run, 2026-06-13):** 25 claims tested, **21 confirmed / 4 killed**. Killed: the
-> "Ambarino region" location; the named "Adam Butterworth confirmed intent"; the "leading theory = cut content"
-> characterisation; and the specific "arrow → dresser/wall-stash" resolution. Confirmed core: pentagram + LJ/SM, Cornwall
-> start pole, the 8-web W/NW/guitar trail to Fort Wallace & Spider Gorge, Gertrude-in-outhouse.
+> **Verification scorecard (deep-research run, 2026-06-13):** 25 claims tested, **21 confirmed / 4 killed**. Killed: the "Ambarino region" location; the named "Adam Butterworth confirmed intent"; the "leading theory = cut content" characterisation; and the specific "arrow → dresser/wall-stash" resolution. Confirmed core: pentagram + LJ/SM, Cornwall start pole, the 8-web W/NW/guitar trail to Fort Wallace & Spider Gorge, Gertrude-in-outhouse.
 
 ## Added 2026-06-13 (Register Rock pass — [U24]/[H11])
 | # | Source | URL | Notes |
@@ -139,9 +128,7 @@ Reliability legend: **A** = primary/in-game or official; **B** = established gam
 |---|--------|-----|-------|
 | 60 | Deep-research multi-outlet corroboration of the under-pole inscription chain ([K12]) | (batch — see URLs below) | **B (multi-outlet) — corroborates in-game text.** A 2026-06-14 fan-out/verify pass (15 sources, 25 claims adversarially verified) confirmed, with **independent agreement**: the north pole reads `W` + **exactly five** telephone-pole glyphs (count unanimous), the next pole (five west) reads `NW` + a **guitar-LIKE** symbol whose identity **every source hedges** (a flat "it IS a guitar" claim was **refuted 0-3**; Fandom Part 4 offers rock/map-shape/red-herring rivals → [U12]). **Bounded negative:** these are the **only two shot-to-reveal poles**; the `NW`+guitar pole is the **last documented under-pole message** — **no third is documented anywhere**; content "past" Fort Wallace is the [K16] bird carvings or out-of-bounds pareidolia, not under-pole text. Also: "bird carvings confirmed intentional via datamine" was **refuted 0-3** (consistent with the [K3] Butterworth walk-back). Key URLs: reddead.fandom.com/wiki/Spider_Dream_Mystery (via MediaWiki API), screenrant.com/red-dead-redemption-2-final-secret-spider-web, pcgamesn.com/red-dead-redemption-2/spiderweb-mystery, gamerant.com/red-dead-redemption-2-spider-dream-easter-egg-mysteries-explained, gamingbolt.com/red-dead-redemption-2s-spiderweb-mystery-continues-with-discovery-of-bird-carvings, dexerto.com (…3298689), rdr2.org. Resolves [U1]. |
 
-> **Note on [#36] (community timeline):** its **1/2/2026 brute-force-testing entry** is the source for the fuller feather
-> **reset ruleset** ([U29]): reds work in any internal order (`R34→R45→R23` etc.), mixed chains work, `B34`/Cornwall is special
-> (suspected last), "unique function to the red feathers." C-tier — corroborate before promoting.
+> **Note on [#36] (community timeline):** its **1/2/2026 brute-force-testing entry** is the source for the fuller feather **reset ruleset** ([U29]): reds work in any internal order (`R34→R45→R23` etc.), mixed chains work, `B34`/Cornwall is special (suspected last), "unique function to the red feathers." C-tier — corroborate before promoting.
 
 ## Added 2026-06-21 (Strange Statues mural — solution mechanic, corroborates [U14] colour-negative)
 | # | Source | URL | Notes |
@@ -218,5 +205,4 @@ Reliability legend: **A** = primary/in-game or official; **B** = established gam
 - ~~Any Reddit r/reddeadmysteries master thread.~~ ✅ **Found 2026-07-02 → #64** ("The Evergrowing Spiderweb Theories", `1pzutww`).
 - ~~Rockstar credits / artbook scans if the LJ/SM dev-initial question needs settling.~~ *(Full RDR2 credits now in-repo → source #62; dev-initials tested by counts + coherence, both weak — see S16/U4. Artbook scans still optional.)*
 
-> **Method note:** `fandom.com` and `gtaforums.com` block automated fetch (403). For those, browse manually and paste
-> verbatim excerpts into the relevant thread file, citing the source number here.
+> **Method note:** `fandom.com` and `gtaforums.com` block automated fetch (403). For those, browse manually and paste verbatim excerpts into the relevant thread file, citing the source number here.

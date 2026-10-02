@@ -1,18 +1,12 @@
 # ID INDEX — the registry of every stable claim
 
-Every fact (`K`), open question (`U`), hypothesis (`H`), and speculation (`S`) carries a stable ID. CLAUDE.md requires
-that when you reference, supersede, or correct a claim you update **every** place it appears. This index is the lookup
-that makes that possible: for each ID, its one-line claim, current status, and the **canonical home** to edit.
+Every fact (`K`), open question (`U`), hypothesis (`H`), and speculation (`S`) carries a stable ID. CLAUDE.md requires that when you reference, supersede, or correct a claim you update **every** place it appears. This index is the lookup that makes that possible: for each ID, its one-line claim, current status, and the **canonical home** to edit.
 
-**How to use:** changing a claim? Edit its **Home** file first, then its rollup, then anywhere `Also in` lists, then
-add a log line. New ID? Append it here in the same pass you create it. Keep IDs **append-only** — never recycle a number.
+**How to use:** changing a claim? Edit its **Home** file first, then its rollup, then anywhere `Also in` lists, then add a log line. New ID? Append it here in the same pass you create it. Keep IDs **append-only** — never recycle a number.
 
-> **Rows stay ONE line.** This is a lookup table, not a fourth rollup — detail, evidence, p-values, and correction
-> history live in the home file and the rollup. If a row needs more than a sentence, the overflow belongs in the home.
-> (Rows were slimmed back to this rule 2026-07-04; the full prose survives in the rollups and in git history.)
+> **Rows stay ONE line.** This is a lookup table, not a fourth rollup — detail, evidence, p-values, and correction history live in the home file and the rollup. If a row needs more than a sentence, the overflow belongs in the home. (Rows were slimmed back to this rule 2026-07-04; the full prose survives in the rollups and in git history.)
 
-> Statuses: **LIVE** (current) · **RESOLVED** (moved to a K-fact) · **DOWNGRADED**/**REFRAMED** (kept but weakened) ·
-> **REFUTED** (killed, history retained).
+> Statuses: **LIVE** (current) · **RESOLVED** (moved to a K-fact) · **DOWNGRADED**/**REFRAMED** (kept but weakened) · **REFUTED** (killed, history retained).
 
 ---
 
@@ -79,8 +73,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 ---
 
 ## U — Open questions
-Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted. **Source web/video first**
-([EVIDENCE-CHECKLIST](EVIDENCE-CHECKLIST.md)); 🎮 marks the rare item likely to need in-game play.
+Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted. **Source web/video first** ([EVIDENCE-CHECKLIST](EVIDENCE-CHECKLIST.md)); 🎮 marks the rare item likely to need in-game play.
 
 | ID | Question (short) | Status | Detail home |
 |----|------------------|--------|-------------|

@@ -1,164 +1,63 @@
 # Thread 06 — The bird carving → Calumet Ravine → the Giant (NW / Wapiti lead)
 
-**Your lead, and it holds up better than expected.** The trail's final leg (`NW` + guitar, the Fort Wallace "bird"/"w"
-symbols) points into the sparse NW corner — **Calumet Ravine**, beside the **Wapiti Indian Reservation**. That's where a
-**flock of birds** spawns and guides the player to **the Giant**. Your "bird carving → these birds" instinct is, in fact, the
-documented **Strange Man** theory — though it remains **SPECULATION**, with a live "modelling error / cut content"
-counter-theory.
+**Your lead, and it holds up better than expected.** The trail's final leg (`NW` + guitar, the Fort Wallace "bird"/"w" symbols) points into the sparse NW corner — **Calumet Ravine**, beside the **Wapiti Indian Reservation**. That's where a **flock of birds** spawns and guides the player to **the Giant**. Your "bird carving → these birds" instinct is, in fact, the documented **Strange Man** theory — though it remains **SPECULATION**, with a live "modelling error / cut content" counter-theory.
 
-> Images: [`fort-wallace_bird-symbols_tower.webp`](../images/fort-wallace/fort-wallace_bird-symbols_tower.webp) ·
-> [`the-giant_map-location.jpg`](../images/wapiti-giant/the-giant_map-location.jpg) ·
-> [`the-giant_cave-home.jpg`](../images/wapiti-giant/the-giant_cave-home.jpg)
+> Images: [`fort-wallace_bird-symbols_tower.webp`](../images/fort-wallace/fort-wallace_bird-symbols_tower.webp) · [`the-giant_map-location.jpg`](../images/wapiti-giant/the-giant_map-location.jpg) · [`the-giant_cave-home.jpg`](../images/wapiti-giant/the-giant_cave-home.jpg)
 
 ---
 
 ## [KNOWN]
 
 ### The Fort Wallace bird/"w" carving — **the last VERIFIED clue (working stance)**
-- In the **westernmost tower of Fort Wallace**, above one of the two guitars, are **two "w"-/bird-shaped symbols** **made from
-  the tower's geometry, shaded with moss texture** — the **same hidden-geometry technique** as the Butcher Creek outhouses
-  (pcgamesn: "same custom wireframe technique," "intentionally designed"). This passes our
-  [carving test](../analysis/carving-technique.md) on method, which is why it's taken seriously.
-- **We treat the bird carvings as the END of the verified trail ([K16]).** They are the **last clue that passes the carving
-  test**; everything beyond them (the Calumet/Giant continuation, the **"?" carving**, and the Bacchus heart's *relevance*) is
-  **unverified or contested** — see the SPECULATION section. Until new evidence promotes one of those, **investigation works
-  forward from here**, not from the "?" or the heart. *(User direction, 2026-06-13.)*
-- **Image analysis of the glyph itself (2026-06-16):** each is a **shallow scalloped double-arch with a central peak**,
-  **bistable** between "two birds in flight" and "two rounded W's"; **moss fills the recesses** (real depth, [carving
-  test](../analysis/carving-technique.md) #1 passes; method #2/[K15] too). It is **daylight-visible** ("Thu 04:31 PM") — but
-  ⚠️ **CORRECTED (investigator, same day):** that's **not distinguishing** — the *confirmed* Butcher Creek and Fort Brennand
-  carvings are equally always-visible; only spawned phenomena (webs/centre/pentagram) are time-gated, so the birds simply
-  **pattern with the verified static-carving class** ([H23]). Full referent/symbolism catalogue in
-  **[analysis/fort-wallace-bird-carving.md](../analysis/fort-wallace-bird-carving.md)**: **[S24]** eagles → "Eagle Flies"
-  (the only reading specific to *this* fort, where he's imprisoned — but **symbolism only**: investigator place-check of the
-  grave NW + Calumet eagle spawns is **negative**); **[S25]** the glyphs *label/point*, they don't *encode*; **[H23]**
-  static-carving class (non-time-gating is not evidence either way).
+- In the **westernmost tower of Fort Wallace**, above one of the two guitars, are **two "w"-/bird-shaped symbols** **made from the tower's geometry, shaded with moss texture** — the **same hidden-geometry technique** as the Butcher Creek outhouses (pcgamesn: "same custom wireframe technique," "intentionally designed"). This passes our [carving test](../analysis/carving-technique.md) on method, which is why it's taken seriously.
+- **We treat the bird carvings as the END of the verified trail ([K16]).** They are the **last clue that passes the carving test**; everything beyond them (the Calumet/Giant continuation, the **"?" carving**, and the Bacchus heart's *relevance*) is **unverified or contested** — see the SPECULATION section. Until new evidence promotes one of those, **investigation works forward from here**, not from the "?" or the heart. *(User direction, 2026-06-13.)*
+- **Image analysis of the glyph itself (2026-06-16):** each is a **shallow scalloped double-arch with a central peak**, **bistable** between "two birds in flight" and "two rounded W's"; **moss fills the recesses** (real depth, [carving test](../analysis/carving-technique.md) #1 passes; method #2/[K15] too). It is **daylight-visible** ("Thu 04:31 PM") — but ⚠️ **CORRECTED (investigator, same day):** that's **not distinguishing** — the *confirmed* Butcher Creek and Fort Brennand carvings are equally always-visible; only spawned phenomena (webs/centre/pentagram) are time-gated, so the birds simply **pattern with the verified static-carving class** ([H23]). Full referent/symbolism catalogue in **[analysis/fort-wallace-bird-carving.md](../analysis/fort-wallace-bird-carving.md)**: **[S24]** eagles → "Eagle Flies" (the only reading specific to *this* fort, where he's imprisoned — but **symbolism only**: investigator place-check of the grave NW + Calumet eagle spawns is **negative**); **[S25]** the glyphs *label/point*, they don't *encode*; **[H23]** static-carving class (non-time-gating is not evidence either way).
 
-> **🆕 File-data aside, 2026-09-01 ([K50]/[S47]/[U39], [#89]) — logged as DATA, not a lead.** A game-wide census of
-> time-gated props found that **four Fort Wallace buildings each carry their own hand-authored night-lighting schedule**,
-> laddering **21→22→23→00**: `old_01_bsmith_em` 21:00–24:00 · `old_01_quater2_em` 22:00–03:00 · `old_01_quater_em`
-> 23:00–05:00 · `old_01_capt_em` 00:00–06:00. (Dev region code `old_` = "Old Fort Wallace", confirmed via the
-> `AIMEMLOC_CML_OldFortWallace` / `establisher_old_fort_wallace_1` strings.) For scale, **921 of the game's 994
-> time-gated props sit on one standard 21:00–07:00 schedule**, and four distinct deviations in a single settlement occurs
-> **nowhere else in the game**. 🔴 **The favoured reading is ordinary set dressing** — a fort settling down watch by
-> watch — and it should stay favoured; this is **not** a step past [K16] and nothing here points anywhere. It is on file
-> because it is a four-step hour sequence at the mystery's last verified clue, and [U39] names the one cheap check that
-> settles it (is the 21/22/23/00 ladder reused at other forts/camps in the same census?).
+> **🆕 File-data aside, 2026-09-01 ([K50]/[S47]/[U39], [#89]) — logged as DATA, not a lead.** A game-wide census of time-gated props found that **four Fort Wallace buildings each carry their own hand-authored night-lighting schedule**, laddering **21→22→23→00**: `old_01_bsmith_em` 21:00–24:00 · `old_01_quater2_em` 22:00–03:00 · `old_01_quater_em` 23:00–05:00 · `old_01_capt_em` 00:00–06:00. (Dev region code `old_` = "Old Fort Wallace", confirmed via the `AIMEMLOC_CML_OldFortWallace` / `establisher_old_fort_wallace_1` strings.) For scale, **921 of the game's 994 time-gated props sit on one standard 21:00–07:00 schedule**, and four distinct deviations in a single settlement occurs **nowhere else in the game**. 🔴 **The favoured reading is ordinary set dressing** — a fort settling down watch by watch — and it should stay favoured; this is **not** a step past [K16] and nothing here points anywhere. It is on file because it is a four-step hour sequence at the mystery's last verified clue, and [U39] names the one cheap check that settles it (is the 21/22/23/00 ladder reused at other forts/camps in the same census?).
 
 ### The Bacchus Bridge empty heart — [K22] *(investigator data, 2026-06-13)*
-- Carved into a **leg of [Bacchus Bridge](../locations/bacchus-bridge.md)** (Cumberland Forest — the same region as Fort
-  Wallace) is a **cupid-style heart with an arrow through it**, **hard to find**, and reported to sit **in direct line of
-  sight of the bird carving** above.
-- It is the **blank twin of the Flatneck Station "Lillie ♥ Alfred" heart**: **identical shape, but empty** — no message, no
-  names, no initials. *(The filled Flatneck version is a separate, well-known easter egg; held for comparison as
-  [`flatneck-station_heart-carving_datamine.png`](../images/bacchus-bridge/flatneck-station_heart-carving_datamine.png).)*
-- **Why it may matter ([H10]/[U23]):** a hidden, *deliberately emptied* heart aligned with the bird carving reads more like a
-  **placed marker** than decoration. The "missing names" could even rhyme with the mystery's open **name** questions
-  (`LJ`/`SM`, matchsticks, [Register Rock](../locations/register-rock.md)). Hypothesis only — see [bacchus-bridge.md](../locations/bacchus-bridge.md).
-- ⚠️ **Relevance is contested — about as much as the "?" (user, 2026-06-13).** The heart *exists* (firsthand investigator data,
-  [K22]) — that is not in doubt. What is unproven, and **as controversial as the off-map "?" theory**, is whether it has
-  **anything to do with the spider mystery** at all. Do **not** present the heart as an established next step; it sits past the
-  last verified clue ([K16]) alongside the other contested leads.
+- Carved into a **leg of [Bacchus Bridge](../locations/bacchus-bridge.md)** (Cumberland Forest — the same region as Fort Wallace) is a **cupid-style heart with an arrow through it**, **hard to find**, and reported to sit **in direct line of sight of the bird carving** above.
+- It is the **blank twin of the Flatneck Station "Lillie ♥ Alfred" heart**: **identical shape, but empty** — no message, no names, no initials. *(The filled Flatneck version is a separate, well-known easter egg; held for comparison as [`flatneck-station_heart-carving_datamine.png`](../images/bacchus-bridge/flatneck-station_heart-carving_datamine.png).)*
+- **Why it may matter ([H10]/[U23]):** a hidden, *deliberately emptied* heart aligned with the bird carving reads more like a **placed marker** than decoration. The "missing names" could even rhyme with the mystery's open **name** questions (`LJ`/`SM`, matchsticks, [Register Rock](../locations/register-rock.md)). Hypothesis only — see [bacchus-bridge.md](../locations/bacchus-bridge.md).
+- ⚠️ **Relevance is contested — about as much as the "?" (user, 2026-06-13).** The heart *exists* (firsthand investigator data, [K22]) — that is not in doubt. What is unproven, and **as controversial as the off-map "?" theory**, is whether it has **anything to do with the spider mystery** at all. Do **not** present the heart as an established next step; it sits past the last verified clue ([K16]) alongside the other contested leads.
 
 ### The Giant
-- **Location:** a cave **east of Fairvale Shanty, Grizzlies East, Ambarino** (mountainside east of the Calumet River). The
-  Giant's *cave* is **not inside Calumet Ravine** — but the **flock that leads you there spawns at Calumet Ravine** and flies
-  **east** to the cave. (So "bird carving → Calumet → flock → Giant" is geographically coherent.)
-- **You HEAR but never SEE him** — confirmed. He speaks from behind a sealed cave entrance; an invisible NPC voices him
-  (voiced by Jake Hart) and can even be killed.
-- **Prerequisite — 30 animals studied — CONFIRMED:** the Giant can only be encountered after the player has **studied ≥30
-  different species** (Compendium "Studied" status), **excluding fish and horses**.
-- **He loves animals — confirmed and on-theme:** a **flock of birds guides you to him**, and he **mentions he's good with
-  animals**. Sample dialogue: *"Hello there, friend. How are you?"* / *"I'm rather lonely, you see... I'm too big."*
-- **K43 — the guide flock is DEDICATED SCRIPTED CONTENT, and it belongs to the GIANT's egg (script-dump read
-  2026-07-05, [#87]).** The dump carries a purpose-built script **`spd_giant_birds.ysc.c`** (865 lines) that spawns
-  **pheasants (`a_c_pheasant_01`)** in a tight cluster at **(≈620, 2195, 222)** — the Calumet Ravine spawn — with a
-  second working point at **(1708.8, 2160.9, 319)**, i.e. **~25 m from the Giant's own script anchor**
-  (`spd_giant.ysc.c` at 1706.7, 2183.5, 323). Two consequences, one each way: **(a)** the flock is **designed guide
-  behaviour, not ambient pareidolia** — the community was right that the birds are "real"; **(b)** the script's very
-  name files it under the **Giant** easter egg (`spd_` = the special-ped/easter-egg family: `spd_vampire`,
-  `spd_agnesdowd`, `spd_gavin`…), so the flock is the Giant's breadcrumb — **its membership in the spider trail
-  remains undemonstrated** (the [K16]→flock hop stays [SPECULATION], boundary discipline unchanged). Decompiled-dump
-  caveat as at [#87].
-- **Cut content:** he was originally meant to be **physically seen** (1899 & 1907 models exist), with cut dialogue about
-  escaping a circus; likeness based on actor Rondo Hatton. A second, unused cave exists nearby.
+- **Location:** a cave **east of Fairvale Shanty, Grizzlies East, Ambarino** (mountainside east of the Calumet River). The Giant's *cave* is **not inside Calumet Ravine** — but the **flock that leads you there spawns at Calumet Ravine** and flies **east** to the cave. (So "bird carving → Calumet → flock → Giant" is geographically coherent.)
+- **You HEAR but never SEE him** — confirmed. He speaks from behind a sealed cave entrance; an invisible NPC voices him (voiced by Jake Hart) and can even be killed.
+- **Prerequisite — 30 animals studied — CONFIRMED:** the Giant can only be encountered after the player has **studied ≥30 different species** (Compendium "Studied" status), **excluding fish and horses**.
+- **He loves animals — confirmed and on-theme:** a **flock of birds guides you to him**, and he **mentions he's good with animals**. Sample dialogue: *"Hello there, friend. How are you?"* / *"I'm rather lonely, you see... I'm too big."*
+- **K43 — the guide flock is DEDICATED SCRIPTED CONTENT, and it belongs to the GIANT's egg (script-dump read 2026-07-05, [#87]).** The dump carries a purpose-built script **`spd_giant_birds.ysc.c`** (865 lines) that spawns **pheasants (`a_c_pheasant_01`)** in a tight cluster at **(≈620, 2195, 222)** — the Calumet Ravine spawn — with a second working point at **(1708.8, 2160.9, 319)**, i.e. **~25 m from the Giant's own script anchor** (`spd_giant.ysc.c` at 1706.7, 2183.5, 323). Two consequences, one each way: **(a)** the flock is **designed guide behaviour, not ambient pareidolia** — the community was right that the birds are "real"; **(b)** the script's very name files it under the **Giant** easter egg (`spd_` = the special-ped/easter-egg family: `spd_vampire`, `spd_agnesdowd`, `spd_gavin`…), so the flock is the Giant's breadcrumb — **its membership in the spider trail remains undemonstrated** (the [K16]→flock hop stays [SPECULATION], boundary discipline unchanged). Decompiled-dump caveat as at [#87].
+- **Cut content:** he was originally meant to be **physically seen** (1899 & 1907 models exist), with cut dialogue about escaping a circus; likeness based on actor Rondo Hatton. A second, unused cave exists nearby.
 
 ### Calumet Ravine & the area
-- Natural ravine **east of the Wapiti Indian Reservation**; source of the Dakota River (over Donner Falls). Sparse but real
-  POIs: an **Ancient Tomahawk**, a **bone collectible**, a **Witches Cauldron** shack (Hair Tonic + Kentucky Bourbon). It's
-  deliberately under-developed frontier — lore-wise the Wapiti were forced to relocate here.
+- Natural ravine **east of the Wapiti Indian Reservation**; source of the Dakota River (over Donner Falls). Sparse but real POIs: an **Ancient Tomahawk**, a **bone collectible**, a **Witches Cauldron** shack (Hair Tonic + Kentucky Bourbon). It's deliberately under-developed frontier — lore-wise the Wapiti were forced to relocate here.
 
 ### Window Rock & the Strange Statues mural *(correction to an earlier assumption)*
 - Window Rock is **Grizzlies WEST** (not East), below Granite Pass. Under an overhang is the **Strange Statues cave painting**.
-- **The mural is the clue to the separate "Strange Statues" finger-puzzle POI:** you **count the tail feathers on each bird
-  (excluding upside-down birds)** → the prime counts **2, 3, 5, 7** → press the matching-finger statues → reward **4 gold
-  bars** (~$1500 fenced). This is a **solved, documented** puzzle, distinct from the Spider mystery.
-  → [`../images/window-rock/window-rock_strange-statues-poi.png`](../images/window-rock/window-rock_strange-statues-poi.png)
-- **[U14] RESOLVED-NEGATIVE 2026-06-21 — the mural has NO black/red colour split.** [H3]/[S12] hoped the mural's birds split
-  **5 black / 3 red** to mirror the web feathers, making the mural the web order key. **Two independent lines kill it:**
-  **(1)** a pixel test of the colour-faithful wiki texture ([`../experiments/mural_colour_count.py`](../experiments/mural_colour_count.py))
-  finds the mural is a **single red/ochre pigment** — **100% of chromatic pixels red-hued, 0% any other hue**; the dark
-  "black"-looking figures are deep/shaded red, not a second pigment (the on-file `_extracted.png` looks ~half-black only because
-  it was contrast-boosted — its chromatic pixels are *also* 100% red). **(2)** Every walkthrough (GamesRadar, Shacknews,
-  ScreenRant, Fandom) codes the mural by feather **count + orientation** (upside-down = decoy), **never colour**. ⟹ there is no
-  black/red bird set to count; **[H3]/[S12] are refuted.** Note: the webs' own 5/3 colour grouping is *unaffected* — it rests on
-  the [K21]/[H9] boundaries and [U29] reset data, not on the mural.
-- **[SPECULATION → [H18]] The mural read as a mechanic-"seed" for the web order (user lead, 2026-06-14).** The mural's solve
-  rule is *count a per-element feature (tail feathers) while **excluding decoys** (upside-down birds)*. Read as transferable
-  RDR2 design grammar — the same precedent-argument family as the **Vampire** ([H15]) and the **Dreamcatchers** ([H6]) — its
-  carrying lesson is that **appearance is a per-element *filter* (which to ignore), not a *heading*.** Applied to the webs that
-  **cuts against [H4]** (orientation-as-heading, already refuted) and — because feather orientation is **uniform** (tip-down)
-  — pushes the filter onto the only other binary axis, **colour**, predicting **red vs black is the include/exclude partition**
-  — which [H9]/[U29] already show. ⚠️ **Precedent/intent only, not evidence the mural and webs are one puzzle** (shared
-  bird/feather theming is common in RDR2); the per-web "count" does **not** transfer (one feather per web). ⚠️ **Refined
-  2026-06-21 ([U14] above):** the mural's decoy axis is **orientation** (upside-down birds) and the mural has **no colour
-  dimension at all** — so it is genuine precedent for "appearance is a filter," but it does **not** itself point to colour
-  (H18's jump to colour is by-elimination only). The mural↔web *colour* claim ([H3]/[S12]) is dead; H18-as-precedent survives.
-  Full reasoning + the [KNOWN] colour×hour lattice it surfaced: [analysis/connections.md §5c](../analysis/connections.md);
-  [`../experiments/web_colour_group_order.py`](../experiments/web_colour_group_order.py).
+- **The mural is the clue to the separate "Strange Statues" finger-puzzle POI:** you **count the tail feathers on each bird (excluding upside-down birds)** → the prime counts **2, 3, 5, 7** → press the matching-finger statues → reward **4 gold bars** (~$1500 fenced). This is a **solved, documented** puzzle, distinct from the Spider mystery. → [`../images/window-rock/window-rock_strange-statues-poi.png`](../images/window-rock/window-rock_strange-statues-poi.png)
+- **[U14] RESOLVED-NEGATIVE 2026-06-21 — the mural has NO black/red colour split.** [H3]/[S12] hoped the mural's birds split **5 black / 3 red** to mirror the web feathers, making the mural the web order key. **Two independent lines kill it:** **(1)** a pixel test of the colour-faithful wiki texture ([`../experiments/mural_colour_count.py`](../experiments/mural_colour_count.py)) finds the mural is a **single red/ochre pigment** — **100% of chromatic pixels red-hued, 0% any other hue**; the dark "black"-looking figures are deep/shaded red, not a second pigment (the on-file `_extracted.png` looks ~half-black only because it was contrast-boosted — its chromatic pixels are *also* 100% red). **(2)** Every walkthrough (GamesRadar, Shacknews, ScreenRant, Fandom) codes the mural by feather **count + orientation** (upside-down = decoy), **never colour**. ⟹ there is no black/red bird set to count; **[H3]/[S12] are refuted.** Note: the webs' own 5/3 colour grouping is *unaffected* — it rests on the [K21]/[H9] boundaries and [U29] reset data, not on the mural.
+- **[SPECULATION → [H18]] The mural read as a mechanic-"seed" for the web order (user lead, 2026-06-14).** The mural's solve rule is *count a per-element feature (tail feathers) while **excluding decoys** (upside-down birds)*. Read as transferable RDR2 design grammar — the same precedent-argument family as the **Vampire** ([H15]) and the **Dreamcatchers** ([H6]) — its carrying lesson is that **appearance is a per-element *filter* (which to ignore), not a *heading*.** Applied to the webs that **cuts against [H4]** (orientation-as-heading, already refuted) and — because feather orientation is **uniform** (tip-down) — pushes the filter onto the only other binary axis, **colour**, predicting **red vs black is the include/exclude partition** — which [H9]/[U29] already show. ⚠️ **Precedent/intent only, not evidence the mural and webs are one puzzle** (shared bird/feather theming is common in RDR2); the per-web "count" does **not** transfer (one feather per web). ⚠️ **Refined 2026-06-21 ([U14] above):** the mural's decoy axis is **orientation** (upside-down birds) and the mural has **no colour dimension at all** — so it is genuine precedent for "appearance is a filter," but it does **not** itself point to colour (H18's jump to colour is by-elimination only). The mural↔web *colour* claim ([H3]/[S12]) is dead; H18-as-precedent survives. Full reasoning + the [KNOWN] colour×hour lattice it surfaced: [analysis/connections.md §5c](../analysis/connections.md); [`../experiments/web_colour_group_order.py`](../experiments/web_colour_group_order.py).
 
 ## [UNKNOWN]
-- **Whether the bird carving's DIRECTION matters.** It's debated. Worth measuring its actual heading in-game (does it point
-  at the Calumet flock spawn, or elsewhere?). Per your note, direction *may* be a red herring — evaluate, don't assume.
-- **Whether reaching the Giant/flock is a step in the mystery, a prerequisite we must do first, or unrelated cut content.**
-  The NW heading points to a **beta location** (believed Wapiti / an army camp / Iron Cloud) — strong cut-content signal.
+- **Whether the bird carving's DIRECTION matters.** It's debated. Worth measuring its actual heading in-game (does it point at the Calumet flock spawn, or elsewhere?). Per your note, direction *may* be a red herring — evaluate, don't assume.
+- **Whether reaching the Giant/flock is a step in the mystery, a prerequisite we must do first, or unrelated cut content.** The NW heading points to a **beta location** (believed Wapiti / an army camp / Iron Cloud) — strong cut-content signal.
 - **Whether the "30 animals studied" gate is incidental or a deliberate prerequisite** the mystery expects.
-- **U23 — the [Bacchus Bridge empty heart](../locations/bacchus-bridge.md).** Is the blank heart-and-arrow a deliberate clue,
-  and is its **line of sight to the bird carving** an alignment cue or coincidence? Does it use the hidden-geometry technique
-  ([K15]) or is it a surface decal like the Flatneck original?
+- **U23 — the [Bacchus Bridge empty heart](../locations/bacchus-bridge.md).** Is the blank heart-and-arrow a deliberate clue, and is its **line of sight to the bird carving** an alignment cue or coincidence? Does it use the hidden-geometry technique ([K15]) or is it a surface decal like the Flatneck original?
 
 ## [SPECULATION]
-- **Strange Man's theory (updated 2026-06-13):** the two birds = the **flock to the Giant**; riding "straight ahead" from the
-  carving heads toward the Calumet birds. The current post-January frontier: the carvings are theorized to point at a **large
-  body of water in the northern map at Calumet Ravine** (described as "the vague shape of a bird with wings outstretched" near
-  the Giant's cave), and from that mountain a **"?" carving is visible on an out-of-bounds mountain** — where the trail **goes
-  cold again**. ⚠️ **Confidence:** this whole continuation is explicitly *"one possible theory"* (verified **2-1, medium**),
-  and the upstream **"bird carvings on the Fort Wallace tower roof"** step that launches it was itself voted **DOWN (1-2)** —
-  so treat the tower-roof→Calumet→"?" chain as an **unverified lead**, not [KNOWN]. **The "?" carving is NOT a popular or
-  widely accepted theory** — it is widely judged **pareidolia** (fails our [carving test](../analysis/carving-technique.md)):
-  it appears only in distant out-of-bounds mountain noise, has no named asset, isn't time-gated, and doesn't reproducibly
-  point onward. We log it for completeness, not as a live destination. *(GamingBolt, GamesRadar, Jan 2026.)*
-- **"Two birds" literal reading:** people checked **Two Crows** (New Austin) — found a **hatchet symbol under a table** —
-  inconclusive.
-- **Feather/Native resonance:** spider + feathers + the **`wap_`** (Wapiti) texture prefix + the NW-to-Reservation heading all
-  point at this region symbolically. Suggestive, unproven. See [narrative-connection.md](../analysis/narrative-connection.md).
+- **Strange Man's theory (updated 2026-06-13):** the two birds = the **flock to the Giant**; riding "straight ahead" from the carving heads toward the Calumet birds. The current post-January frontier: the carvings are theorized to point at a **large body of water in the northern map at Calumet Ravine** (described as "the vague shape of a bird with wings outstretched" near the Giant's cave), and from that mountain a **"?" carving is visible on an out-of-bounds mountain** — where the trail **goes cold again**. ⚠️ **Confidence:** this whole continuation is explicitly *"one possible theory"* (verified **2-1, medium**), and the upstream **"bird carvings on the Fort Wallace tower roof"** step that launches it was itself voted **DOWN (1-2)** — so treat the tower-roof→Calumet→"?" chain as an **unverified lead**, not [KNOWN]. **The "?" carving is NOT a popular or widely accepted theory** — it is widely judged **pareidolia** (fails our [carving test](../analysis/carving-technique.md)): it appears only in distant out-of-bounds mountain noise, has no named asset, isn't time-gated, and doesn't reproducibly point onward. We log it for completeness, not as a live destination. *(GamingBolt, GamesRadar, Jan 2026.)*
+- **"Two birds" literal reading:** people checked **Two Crows** (New Austin) — found a **hatchet symbol under a table** — inconclusive.
+- **Feather/Native resonance:** spider + feathers + the **`wap_`** (Wapiti) texture prefix + the NW-to-Reservation heading all point at this region symbolically. Suggestive, unproven. See [narrative-connection.md](../analysis/narrative-connection.md).
 
 ## [REFUTED / corrected]
-- **"Birds of Paradise plants" are NOT official RDR2 content.** There is **no plant named Bird(s) of Paradise** in the game
-  (not in the herb, orchid, or Exotics lists). The "~19 plants, 3–4 toward NW" claim traces to a **single fan YouTube video**
-  ("Birds of Paradise Plants in the Wild — New Map Pattern…", https://www.youtube.com/watch?v=RwyPHs32Yx0) that plots
-  real-world-looking flowers as a map pattern. The counts are **unverified fan data**; treat with heavy skepticism. *(Logged
-  so we don't chase it as fact — but the in-game flowers it points at could still be checked if you want to be thorough.)*
+- **"Birds of Paradise plants" are NOT official RDR2 content.** There is **no plant named Bird(s) of Paradise** in the game (not in the herb, orchid, or Exotics lists). The "~19 plants, 3–4 toward NW" claim traces to a **single fan YouTube video** ("Birds of Paradise Plants in the Wild — New Map Pattern…", https://www.youtube.com/watch?v=RwyPHs32Yx0) that plots real-world-looking flowers as a map pattern. The counts are **unverified fan data**; treat with heavy skepticism. *(Logged so we don't chase it as fact — but the in-game flowers it points at could still be checked if you want to be thorough.)*
 
 ## Open tasks
 - [ ] Measure the **actual heading** of the Fort Wallace bird carving; does it point at the Calumet flock spawn?
 - [ ] Confirm in-game whether the **30-animals** gate / the **Giant flock** does anything when approached "via" the carving.
 - [ ] Photograph the Fort Wallace bird symbols from multiple angles (prove depth → real carving, not texture).
-- [ ] **Bacchus Bridge:** capture the empty heart on the bridge leg; confirm/measure the **line of sight to the bird carving**;
-  test whether the heart is modelled geometry ([K15]) or a flat decal.
+- [ ] **Bacchus Bridge:** capture the empty heart on the bridge leg; confirm/measure the **line of sight to the bird carving**; test whether the heart is modelled geometry ([K15]) or a flat decal.
 - [ ] If pursuing the fan "Birds of Paradise" flowers, get the video's plotted locations and verify a few in-game.
 
 ## Sources
-Red Dead Wiki (Giant, Calumet Ravine, Window Rock, Strange Statues, Spider Dream Mystery), SegmentNext (Giant/30-animals),
-pcgamesn (bird carvings), GamesRadar, Dexerto, PowerPyx (exotics — confirms no "Bird of Paradise" plant), the fan YouTube
-video. URLs in [sources/sources.md](../sources/sources.md).
+Red Dead Wiki (Giant, Calumet Ravine, Window Rock, Strange Statues, Spider Dream Mystery), SegmentNext (Giant/30-animals), pcgamesn (bird carvings), GamesRadar, Dexerto, PowerPyx (exotics — confirms no "Bird of Paradise" plant), the fan YouTube video. URLs in [sources/sources.md](../sources/sources.md).
