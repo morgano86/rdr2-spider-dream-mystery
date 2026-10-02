@@ -2,15 +2,15 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
-## 2026-10-02 (tmp_uploads intake, 12 of 12 — feather-texture provenance, [#101]) — [K64]/[U43] minted: the web feather's textures are a mixed triple from three source sets (library scavenging); "dedicated texture" over-read corrected
+## 2026-10-02 (feather-texture provenance, [#101]) — [K64]/[U43] minted: the web feather's textures are a mixed triple from three source sets (library scavenging); "dedicated texture" over-read corrected
 
-**What we did.** Filed the last of the 12 staged notes as source [#101]; minted [K64], [U43]; added scope notes to [K13] and the "dedicated, named assets" line in `analysis/carving-technique.md`. `tmp_uploads/` is now empty.
+**What we did.** Filed the last of the 12 notes as source [#101]; minted [K64], [U43]; added scope notes to [K13] and the "dedicated, named assets" line in `analysis/carving-technique.md`.
 
 **What we learned.** The `spiderdream` feather material binds a Wapiti albedo + normal and a Valentine-doctor `val_doc_feather01_ma` as specular — a mixed triple unique among ~40 feather materials, and the only users of any `wap_*feather*` texture. No `wap_*_ma` exists anywhere in the install, so the specular slot was filled with a flat constant tile that is itself shipped only in the spiderdream prop dictionaries. The Valentine doctor's "feather" is a ball of down. Reading: ordinary library scavenging; whether the Wapiti sourcing is incidental or a nod ([U43]) is unanswerable from data and the arbitrary specular borrow argues against a deliberate-provenance reading.
 
-**What changed.** [K64], [U43], source #101, INDEX, scope notes on [K13] and the carving-technique "dedicated assets" claim. **Intake summary:** 12 notes → sources [#90]–[#101], K53–K64, U41–U43; all negatives or deflations except the method findings; none touches the verified-trail boundary ([K16] frontier unchanged).
+**What changed.** [K64], [U43], source #101, INDEX, scope notes on [K13] and the carving-technique "dedicated assets" claim. **Batch summary:** 12 notes → sources [#90]–[#101], K53–K64, U41–U43; all negatives or deflations except the method findings; none touches the verified-trail boundary ([K16] frontier unchanged).
 
-## 2026-10-02 (tmp_uploads intake, 11 of 12 — mission scripts near the carving sites, [#100]) — [K63] minted: no script addresses any carving (first-hand over all 2,195 `.ysc`); coordinate hits are mission staging at/below the uncarved baseline
+## 2026-10-02 (mission scripts near the carving sites, [#100]) — [K63] minted: no script addresses any carving (first-hand over all 2,195 `.ysc`); coordinate hits are mission staging at/below the uncarved baseline
 
 **What we did.** Filed the 2026-09-19 first-hand script scan as source [#100] (4th of five same-day notes); minted [K63].
 
@@ -18,7 +18,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K63], source #100, INDEX. Reinforces [K15]/[K16] (pure map geometry, no script layer); [K16] untouched; boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 10 of 12 — scripted mission birds, [#99]) — [K62] minted: no mission/cutscene bird near any carving or web; "birds fly off at cutscenes" is ambient vignettes
+## 2026-10-02 (scripted mission birds, [#99]) — [K62] minted: no mission/cutscene bird near any carving or web; "birds fly off at cutscenes" is ambient vignettes
 
 **What we did.** Filed the 2026-09-19 full bird census as source [#99] (3rd of five same-day notes); minted [K62].
 
@@ -26,7 +26,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K62], source #99, INDEX. Together with [K60] this closes the "a live bird is staged to point at the carvings" family across scenario and script layers; [K16] untouched; boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 9 of 12 — cutscene-bird blind spot, [#98]) — [K61] minted: the `.yas` scene census can't see script-spawned birds (blue jay etc.)
+## 2026-10-02 (cutscene-bird blind spot, [#98]) — [K61] minted: the `.yas` scene census can't see script-spawned birds (blue jay etc.)
 
 **What we did.** Filed the 2026-09-19 note as source [#98] (2nd of five same-day bird notes); minted [K61].
 
@@ -34,7 +34,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K61], source #98, INDEX. No spider tie in itself; boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 8 of 12 — bird-perch scenarios near the carvings, [#97]) — [K60] minted: no bird/animal placed at any carving; the Fort Wallace carved tower is the least bird-populated of its four
+## 2026-10-02 (bird-perch scenarios near the carvings, [#97]) — [K60] minted: no bird/animal placed at any carving; the Fort Wallace carved tower is the least bird-populated of its four
 
 **What we did.** Filed the 2026-09-19 scenario-layer census as source [#97] (first of five same-day "bird at the carvings?" notes); minted [K60]; added a pointer to the Fort Wallace dossier.
 
@@ -42,7 +42,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K60], source #97, INDEX, Fort Wallace dossier. The [K16] frontier is untouched; the result supports reading the birds as modelled glyphs rather than a pointer to a live bird. Boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 7 of 12 — Witch's Cauldron brew, [#96]) — [K59] minted: the brew does nothing mechanical (once per save, ~53 m teleport); the raven is data, not script; CodeX scenario-flag decode bug recorded
+## 2026-10-02 (Witch's Cauldron brew, [#96]) — [K59] minted: the brew does nothing mechanical (once per save, ~53 m teleport); the raven is data, not script; CodeX scenario-flag decode bug recorded
 
 **What we did.** Filed the 2026-09-15 cauldron decode as source [#96]; minted [K59].
 
@@ -50,7 +50,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K59], source #96, INDEX. No spider tie; boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 6 of 12 — `WB_DISCO_OLD_FIREPIT`, [#95]) — [K58] minted: ordinary discovery, not a lead; the Strange Man portrait's lives/dies fork comes from the `mudtown3` kill-witness choice
+## 2026-10-02 (`WB_DISCO_OLD_FIREPIT`, [#95]) — [K58] minted: ordinary discovery, not a lead; the Strange Man portrait's lives/dies fork comes from the `mudtown3` kill-witness choice
 
 **What we did.** Filed the 2026-09-14 firepit decode as source [#95]; minted [K58]; added the portrait-variant note to the Strange Man dossier.
 
@@ -58,7 +58,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K58], source #95, INDEX, Strange Man dossier. No spider tie; boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 5 of 12 — Wapiti "smoke" decoded, [#94]) — [K57] minted: a script-less geyser-steam emitter on a buried proxy cube; the "symbols" lead is deflated
+## 2026-10-02 (Wapiti "smoke" decoded, [#94]) — [K57] minted: a script-less geyser-steam emitter on a buried proxy cube; the "symbols" lead is deflated
 
 **What we did.** Filed the 2026-09-14 CodeX decode of the ~2019 "smoke from an empty hillside near Wapiti" report as source [#94]; minted [K57]; added a pointer on the Wapiti location dossier.
 
@@ -66,7 +66,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K57], source #94, INDEX, Wapiti dossier pointer. Closed deflated side lead; verified-trail boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 4 of 12 — appearance-gated dialogue, [#93]) — [K56] minted: player appearance gates nothing by script (negative)
+## 2026-10-02 (appearance-gated dialogue, [#93]) — [K56] minted: player appearance gates nothing by script (negative)
 
 **What we did.** Filed the 2026-09-05 fortune-teller / appearance-signal decode as source [#93]; minted [K56].
 
@@ -74,7 +74,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K56], source #93, INDEX. No spider tie; boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 3 of 12 — meteor-shower mechanism, [#92]) — [K55] minted: a scenario-point script layer the `timeFlags` census can't see; no second hidden sky event
+## 2026-10-02 (meteor-shower mechanism, [#92]) — [K55] minted: a scenario-point script layer the `timeFlags` census can't see; no second hidden sky event
 
 **What we did.** Filed the 2026-09-01 meteor-shower decode as source [#92] (prerequisite of [#91]); minted [K55]; added a scope note to [K50].
 
@@ -82,7 +82,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K55], [K50] scope note, source #92, INDEX. No spider tie; the webs still have no script layer ([#87]). Boundary untouched. Follow-up recorded in the source: CodeX doesn't parse scenario-point type hashes.
 
-## 2026-10-02 (tmp_uploads intake, 2 of 12 — ghost train + both UFOs decoded, [#91]) — [K54] minted: the "half moon" is not a trigger; Shann UFO gate = 01:00–02:59 + 14 m + once/day; [U42] unplaced alien-cave MLO
+## 2026-10-02 (ghost train + both UFOs decoded, [#91]) — [K54] minted: the "half moon" is not a trigger; Shann UFO gate = 01:00–02:59 + 14 m + once/day; [U42] unplaced alien-cave MLO
 
 **What we did.** Filed the 2026-09-01 script-decode note as source [#91] (verbatim copy in `sources/`), minted [K54]/[U42], added both to [thread 09](threads/09-mount-shann-sundial.md).
 
@@ -90,9 +90,9 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 **What changed.** [K54] (refines [K37]), [U42], source #91, INDEX rows, thread 09. **No spider tie:** the web hour gate is `timeFlags` ([K50]), a different mechanism, so [U34] stays skeptical. Verified-trail boundary untouched.
 
-## 2026-10-02 (tmp_uploads intake, 1 of 12 — crossover-gun entitlement census, [#90]) — [K53] minted: RDR2 scripts only READ awards/unlocks; entitlement gating is not script-visible; the `0x521563CC` award lead is refuted
+## 2026-10-02 (crossover-gun entitlement census, [#90]) — [K53] minted: RDR2 scripts only READ awards/unlocks; entitlement gating is not script-visible; the `0x521563CC` award lead is refuted
 
-**What we did.** First of 12 staged findings notes from `tmp_uploads/` (2026-07-23, investigator's `ScriptDiag` harness). Filed verbatim as source [#90] (`sources/codex-script-census-2026-07-23-crossover-gun-entitlement.md`).
+**What we did.** First of 12 findings notes (2026-07-23, investigator's `ScriptDiag` harness). Filed verbatim as source [#90] (`sources/codex-script-census-2026-07-23-crossover-gun-entitlement.md`).
 
 **What we learned.** Testing the idea that hidden content might be gated behind an online round-trip, using the Double-Action Revolver crossover as the real example: **no bespoke crossover script exists**; the gun rides the generic shop/award path and the award→item mapping lives in catalog/item-database metadata, not bytecode ([K53]). An external research lead (award `0x521563CC` = the revolver) was **refuted** — it is a generic MP claim gate. So script-side searching cannot see an entitlement gate; only a data-side catalog diff could ([U41], low prior).
 
@@ -100,7 +100,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 ## 2026-09-01 (CodeX file-readout integration — [#89]) — 8 K-facts from the shipped game files: no hidden order field, the "boundaries" are ordinary ymap streaming extents ([H28], supersedes [S36]), a hard 6-feather cap that kills the all-blacks-visible solve, and the centre web + Butcher Creek pentagram pinned as named assets
 
-**What we did.** Pulled in two findings handoffs plus four renders the user had staged in `tmp_uploads/` from the **CodeX** side (a separate local repo — an RDR2 archive/asset explorer + 3D scene viewer), produced by a diagnostic harness booting CodeX's real archive/resource loader against the shipped `.ytyp`/`.ymap`/`.yft` binaries. Filed them as source **[#89]** (`sources/codex-file-readout-2026-07-23-*.md`, images renamed to the repo convention as `images/webs/web_ymap-extents_*.png`), then integrated end-to-end: minted **[K45]–[K52]**, **[U36]–[U40]**, **[H28]**, **[S47]**, and pushed the corrections through every file each touched ID appears in. Tiering per CLAUDE.md: **A for raw file contents** (a direct binary read, not a datamine repost), **[SPECULATION] for the why-it-behaves-that-way inference** ([H28]), flagged at each use.
+**What we did.** Pulled in two findings handoffs plus four renders the user supplied from the **CodeX** side (a separate local repo — an RDR2 archive/asset explorer + 3D scene viewer), produced by a diagnostic harness booting CodeX's real archive/resource loader against the shipped `.ytyp`/`.ymap`/`.yft` binaries. Filed them as source **[#89]** (`sources/codex-file-readout-2026-07-23-*.md`, images renamed to the repo convention as `images/webs/web_ymap-extents_*.png`), then integrated end-to-end: minted **[K45]–[K52]**, **[U36]–[U40]**, **[H28]**, **[S47]**, and pushed the corrections through every file each touched ID appears in. Tiering per CLAUDE.md: **A for raw file contents** (a direct binary read, not a datamine repost), **[SPECULATION] for the why-it-behaves-that-way inference** ([H28]), flagged at each use.
 
 **What we learned.**
 
