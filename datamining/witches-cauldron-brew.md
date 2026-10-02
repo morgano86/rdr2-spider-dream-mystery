@@ -1,4 +1,4 @@
-# Witch's Cauldron brew (`dis_grz_witch_brew`) — what drinking it actually does
+# Witch's Cauldron brew (`dis_grz_witch_brew`) - what drinking it actually does
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
@@ -36,11 +36,11 @@
 ## The negative, and how it was checked
 
 - Call graph over the decompile (`scratchpad cg.py`, reproduced below): forward reachability from every cauldron function (`func_64/66/69/70/71/179`) finds no `ATTRIBUTE::` core setters, no `CLOCK::`, no weather and no inventory grant. The only `SET_ENTITY_HEALTH` and `SET_ATTRIBUTE_POINTS(…, 7)` it reaches are in `func_326`/`func_408`, which act on **horse slot** indices (0–6 via `func_322`), i.e. the horse library resolving your horse.
-- The script *can* restore cores — `func_192(100f)` sets health/stamina/Dead Eye to at least 100. The only caller is `func_75` case 9, the **Strange Statues** puzzle (`2000209669`). A good contrast: the author wired a reward there and nowhere on the cauldron path.
+- The script *can* restore cores - `func_192(100f)` sets health/stamina/Dead Eye to at least 100. The only caller is `func_75` case 9, the **Strange Statues** puzzle (`2000209669`). A good contrast: the author wired a reward there and nowhere on the cauldron path.
 - **Once per save:** the only code that clears a discoverable flag in the whole corpus is `func_51` in this script, and every call site clears bits 16/32 for other discoveries. Bit 2 is never cleared. `Global_40` is the single SP save struct Arthur and John share, and the cauldron path checks no character. So "Arthur once and John once" does not match the code. A save that never drank as Arthur can drink as John, which probably explains the reports.
 - First-hand sweep of 157,739 metadata/script entries for the brew/cauldron names: the only real referrers are the lair ymap/ytyp, `disco_grze.ymt`, the `discoverable_*` scripts, `map_app_event_handler`, and the anim `.ycd`. Hits in `campfire_always`/`campfire_gang`/`net_gun_for_hire_offline` are entries in a generic ~1,200-entry index→scenario-type-hash `switch` (`37 <u32> 50 02 01` = PUSH_CONST_U32 + LEAVE, byte-checked with `witchbrew hex`), not behaviour. Everything else is a chance hit inside anim/navmesh data.
 
-## Why people report refilled bars (hypothesis — untested)
+## Why people report refilled bars (hypothesis - untested)
 
 `world_player_sleep_ground` is the scenario the engine attaches `sleeping_scenario.ysc` to. No script launches that script, so the scenario data does. That script is the normal sleep system: time skip (`ADVANCE_CLOCK_TIME_TO`), full health (`SET_ENTITY_HEALTH` to max), core refills and overpower. But all of it sits behind the player **pressing the "Sleep" prompt** (states 6→7→…→10). If that prompt shows while you lie at the wake spot, and some players take it, that is an ordinary sleep and explains "it refilled my bars". Unknown whether an in-place scenario (no persistent point) gets the attached script. **In-game check:** after waking, watch for a Sleep prompt, and note the cores before drinking and after waking without touching anything.
 

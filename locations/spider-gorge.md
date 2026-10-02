@@ -3,11 +3,11 @@
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
 - **Region:** toward the Grizzlies / NW (Ambarino).
-- **Type:** Gorge. **Has "spider" in its name** — an obvious thematic flag.
+- **Type:** Gorge. **Has "spider" in its name** - an obvious thematic flag.
 
-## Mystery role — [SPECULATION — wiki-only, uncorroborated]
-- The wiki (Part 4 speculation) notes that **NW of the guitar pole "points directly to the very tip of Spider Gorge,"** and that Spider Gorge has a **vaguely guitar-shaped section** — pairing the trail's two final symbols (NW heading + guitar) with a single place whose **name and shape both fit**.
-- ⚠️ **Downgraded 2026-06-13:** a deep-research pass found **no secondary source corroborates Spider Gorge** — all journalism points the `NW`+guitar marker at **Fort Wallace** instead (where the trail then continues NW, *not* to this gorge). So this is a **thematically appealing but unsupported** wiki-only reading, **not** a co-equal or "stronger" destination. → [U13](../findings/unknowns.md)
+## Mystery role - [SPECULATION - wiki-only, uncorroborated]
+- The wiki (Part 4 speculation) notes that **NW of the guitar pole "points directly to the very tip of Spider Gorge,"** and that Spider Gorge has a **vaguely guitar-shaped section** - pairing the trail's two final symbols (NW heading + guitar) with a single place whose **name and shape both fit**.
+- ⚠️ **Downgraded 2026-06-13:** a deep-research pass found **no secondary source corroborates Spider Gorge** - all journalism points the `NW`+guitar marker at **Fort Wallace** instead (where the trail then continues NW, *not* to this gorge). So this is a **thematically appealing but unsupported** wiki-only reading, **not** a co-equal or "stronger" destination. → [U13](../findings/unknowns.md)
 
 ## Why it matters
 - If the guitar symbol means "a guitar-shaped landform," Spider Gorge satisfies it **and** carries the spider motif. Worth a thorough in-game sweep at the gorge's tip.

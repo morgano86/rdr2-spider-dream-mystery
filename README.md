@@ -1,19 +1,19 @@
-# RDR2 Spider Dream Mystery — a source-cited investigation
+# RDR2 Spider Dream Mystery - a source-cited investigation
 
-An open, evidence-graded investigation into the **Spider Dream Mystery** in *Red Dead Redemption 2* — an Easter egg that went undocumented for about seven years (the game shipped in October 2018; the trail resurfaced in late December 2025) — and the web of unsolved threads around it: the Butcher Creek outhouse carvings, the matchstick letters, Gertrude Braithwaite's numbers, and the 2025 "spider web" telegraph-pole trail.
+An open, evidence-graded investigation into the **Spider Dream Mystery** in *Red Dead Redemption 2* - an Easter egg that went undocumented for about seven years (the game shipped in October 2018; the trail resurfaced in late December 2025) - and the web of unsolved threads around it: the Butcher Creek outhouse carvings, the matchstick letters, Gertrude Braithwaite's numbers, and the 2025 "spider web" telegraph-pole trail.
 
-This is a **research corpus, not software**: Markdown prose, downloaded images, and a handful of small Python scripts that test specific claims. The goal is a trustworthy, cross-linked record of **what is actually known, what is open, and what is only a theory** — kept honest enough that you can tell which is which at a glance.
+This is a **research corpus, not software**: Markdown prose, downloaded images, and a handful of small Python scripts that test specific claims. The goal is a trustworthy, cross-linked record of **what is actually known, what is open, and what is only a theory** - kept honest enough that you can tell which is which at a glance.
 
 ## Where the case stands
 
-> **Status (updated 2026-10-02): UNSOLVED — no confirmed reward, cutscene or unlock.** Coverage in January 2026 reported *"no new loot, tools, or cutscenes"*; vindication is the only payoff anyone has found.
+> **Status (updated 2026-10-02): UNSOLVED - no confirmed reward, cutscene or unlock.** Coverage in January 2026 reported *"no new loot, tools, or cutscenes"*; vindication is the only payoff anyone has found.
 
 - **Verified trail.** The community decoded the chain from the Butcher Creek pentagram → Fort Brennand's tower symbols → a spider engraving on a telephone pole near Cornwall Kerosene & Tar → 8 time-locked "webs" with feathers → pole inscriptions (`N`, `W ✞✞✞✞✞`, `NW` + a guitar) → **Fort Wallace**. At Fort Wallace the **bird carvings** are the **last verified clue**.
-- **Past the birds is contested.** The Calumet / the Giant continuation, the off-map **`?` carving** (widely judged pareidolia) and the **Bacchus Bridge heart** are all unverified or disputed. This repo deliberately stops short of treating them as "the trail" — see [the verified-trail boundary](CLAUDE.md#the-verified-trail-boundary--do-not-chase-speculation-past-it-read-this-before-theorising).
-- **The recent work is mostly deflationary — by design.** Reads of the shipped game data and decompiled scripts found no hidden order field in the feathers ([K46]/[K47]), showed the "respawn boundaries" are ordinary map-streaming extents ([K48]), proved that "all five black feathers visibly down at once" is geometrically impossible ([K49]), and found no script anywhere that touches the webs ([#87], [H27]) or any carving ([K63]). Negative results are logged as findings, not hidden.
+- **Past the birds is contested.** The Calumet / the Giant continuation, the off-map **`?` carving** (widely judged pareidolia) and the **Bacchus Bridge heart** are all unverified or disputed. This repo deliberately stops short of treating them as "the trail" - see [the verified-trail boundary](CLAUDE.md#the-verified-trail-boundary---do-not-chase-speculation-past-it-read-this-before-theorising).
+- **The recent work is mostly deflationary - by design.** Reads of the shipped game data and decompiled scripts found no hidden order field in the feathers ([K46]/[K47]), showed the "respawn boundaries" are ordinary map-streaming extents ([K48]), proved that "all five black feathers visibly down at once" is geometrically impossible ([K49]), and found no script anywhere that touches the webs ([#87], [H27]) or any carving ([K63]). Negative results are logged as findings, not hidden.
 - **Authorship is unconfirmed.** A former Rockstar QA tester publicly confirmed the egg is *real*, but not that he designed it ([K3]).
 
-The live dashboard — ranked open questions and next actions — is [`STATUS.md`](STATUS.md).
+The live dashboard - ranked open questions and next actions - is [`STATUS.md`](STATUS.md).
 
 ## How to read this repo
 
@@ -31,21 +31,21 @@ The live dashboard — ranked open questions and next actions — is [`STATUS.md
 
 ### The one rule: every claim is tagged
 
-- **`[KNOWN]`** — verifiable in-game, or corroborated across multiple reliable sources.
-- **`[UNKNOWN]`** — an open question.
-- **`[SPECULATION]`** — a community or our own theory, not confirmed.
+- **`[KNOWN]`** - verifiable in-game, or corroborated across multiple reliable sources.
+- **`[UNKNOWN]`** - an open question.
+- **`[SPECULATION]`** - a community or our own theory, not confirmed.
 
-Sources are graded **A** (primary / in-game / official), **B** (established games journalism or a long-standing wiki) or **C** (forum / social / video — a lead to verify, never a fact). Nothing is promoted to a stronger tag without sourcing. Details in [`GLOSSARY.md`](GLOSSARY.md).
+Sources are graded **A** (primary / in-game / official), **B** (established games journalism or a long-standing wiki) or **C** (forum / social / video - a lead to verify, never a fact). Nothing is promoted to a stronger tag without sourcing. Details in [`GLOSSARY.md`](GLOSSARY.md).
 
 ## What's in each folder
 
 | Path | Purpose |
 |---|---|
-| [`threads/`](threads/) | One file per investigative thread (01–07) — the primary unit of detail. Each is split into KNOWN / UNKNOWN / SPECULATION. |
+| [`threads/`](threads/) | One file per investigative thread (01–07) - the primary unit of detail. Each is split into KNOWN / UNKNOWN / SPECULATION. |
 | [`findings/`](findings/) | Cross-thread rollups: [known facts](findings/known-facts.md), [open questions](findings/unknowns.md), [speculation](findings/speculation.md). |
-| [`analysis/`](analysis/README.md) | Working theories and method notes — e.g. [carving technique vs pareidolia](analysis/carving-technique.md), [letter/number connections](analysis/connections.md), [solve grammar](analysis/solve-grammar.md), [the web-order field test](analysis/web-order-field-test.md). |
+| [`analysis/`](analysis/README.md) | Working theories and method notes - e.g. [carving technique vs pareidolia](analysis/carving-technique.md), [letter/number connections](analysis/connections.md), [solve grammar](analysis/solve-grammar.md), [the web-order field test](analysis/web-order-field-test.md). |
 | [`other-mysteries/`](other-mysteries/README.md) | **Separate** RDR2 mysteries held at arm's length: the [Francis Sinclair mural](other-mysteries/francis-sinclair-mural.md), [Mount Shann sundial](other-mysteries/mount-shann-sundial.md), [ghost train & UFOs](other-mysteries/ghost-train-and-ufos.md), [meteor shower](other-mysteries/meteor-shower.md), [Witch's Cauldron](other-mysteries/witchs-cauldron.md), [Wapiti smoke](other-mysteries/wapiti-smoke.md), the [GTA crossover](other-mysteries/gta-rdr2-crossover.md), and the solved precedents ([Dreamcatchers](other-mysteries/dreamcatchers.md), [Saint Denis Vampire](other-mysteries/saint-denis-vampire.md)). |
-| [`datamining/`](datamining/README.md) | Readouts from the shipped game files and decompiled scripts — what the data says about the webs, carvings, bird perches and other mechanics. Mostly negative results; each is a verbatim handoff note behind a K-fact. |
+| [`datamining/`](datamining/README.md) | Readouts from the shipped game files and decompiled scripts - what the data says about the webs, carvings, bird perches and other mechanics. Mostly negative results; each is a verbatim handoff note behind a K-fact. |
 | [`locations/`](locations/) | A dossier per place the mystery touches ([index](locations/README.md)). |
 | [`experiments/`](experiments/) | Small, deterministic Python scripts that *test* claims (ciphers, combinatorics, geometry, likelihoods). Results are evidence, not fact. See [`experiments/README.md`](experiments/README.md). |
 | [`sources/`](sources/) | The [per-claim source ledger](sources/sources.md), a [resource directory with fetch recipes](sources/RESOURCES.md), the saved [primary wiki text](sources/PRIMARY-wiki-spider-dream.md), and raw API data. |
@@ -56,26 +56,26 @@ Sources are graded **A** (primary / in-game / official), **B** (established game
 
 ## The threads at a glance
 
-1. **[Spider Dream Mystery](threads/01-spider-dream.md)** — the named, wiki-documented mystery; the hub the other threads feed into.
-2. **[Butcher Creek outhouse carvings](threads/02-butcher-creek-carvings.md)** — five outhouses with tally marks that form a pentagram; outhouse #4 also carries **`LJ`**, **`SM`** and a **Fort Brennand** symbol.
-3. **[Matchstick letters](threads/03-matchstick-letters.md)** — match arrangements across the map spelling **`EC`** (by the Black Widow card at Vetter's Echo), **`J+M`**, **`S+J`** and an arrow; plus the oil-field **"KEEP YOUR DREAMS LIGHT"** carving.
-4. **[Gertrude Braithwaite's numbers](threads/04-gertrude-numbers.md)** — a girl who dies in an outhouse reciting a number sequence (`1237645112…`). The opening is RDR2-original and deliberate (Rockstar later echoed it via Madam Nazar in GTA Online, [K23]); its link to the spider trail is undecided. See the [crossover dossier](other-mysteries/gta-rdr2-crossover.md).
-5. **[The spider web trail (2025)](threads/05-spider-web-trail-2025.md)** — the spider engraving, **8 feathered webs** (5 black / 3 red) plus a centre web marked **`N`**, and a directional puzzle toward Fort Wallace.
-6. **[The bird carving → Calumet → the Giant](threads/06-bird-carving-giant-wapiti.md)** — the Fort Wallace bird symbols, the flock that leads to the Giant, and the (debunked) "Birds of Paradise plants". *Past the birds is contested.*
-7. **[Van der Linde gang roster](threads/07-van-der-linde-roster.md)** — the full gang list, doubling as an in-fiction name list for testing the letter markings.
+1. **[Spider Dream Mystery](threads/01-spider-dream.md)** - the named, wiki-documented mystery; the hub the other threads feed into.
+2. **[Butcher Creek outhouse carvings](threads/02-butcher-creek-carvings.md)** - five outhouses with tally marks that form a pentagram; outhouse #4 also carries **`LJ`**, **`SM`** and a **Fort Brennand** symbol.
+3. **[Matchstick letters](threads/03-matchstick-letters.md)** - match arrangements across the map spelling **`EC`** (by the Black Widow card at Vetter's Echo), **`J+M`**, **`S+J`** and an arrow; plus the oil-field **"KEEP YOUR DREAMS LIGHT"** carving.
+4. **[Gertrude Braithwaite's numbers](threads/04-gertrude-numbers.md)** - a girl who dies in an outhouse reciting a number sequence (`1237645112…`). The opening is RDR2-original and deliberate (Rockstar later echoed it via Madam Nazar in GTA Online, [K23]); its link to the spider trail is undecided. See the [crossover dossier](other-mysteries/gta-rdr2-crossover.md).
+5. **[The spider web trail (2025)](threads/05-spider-web-trail-2025.md)** - the spider engraving, **8 feathered webs** (5 black / 3 red) plus a centre web marked **`N`**, and a directional puzzle toward Fort Wallace.
+6. **[The bird carving → Calumet → the Giant](threads/06-bird-carving-giant-wapiti.md)** - the Fort Wallace bird symbols, the flock that leads to the Giant, and the (debunked) "Birds of Paradise plants". *Past the birds is contested.*
+7. **[Van der Linde gang roster](threads/07-van-der-linde-roster.md)** - the full gang list, doubling as an in-fiction name list for testing the letter markings.
 
 ### Other mysteries (separate from the spider trail)
 
 The repo also holds material on neighbouring RDR2 mysteries, kept in [`other-mysteries/`](other-mysteries/README.md) so they don't blur the verified spider trail:
 
-- **[Francis Sinclair / "Geology for Beginners" mural](other-mysteries/francis-sinclair-mural.md)** — a well-documented time-traveller egg with **no verified spider link**; watched because one of its carvings sits near Fort Wallace.
-- **[Mount Shann sundial](other-mysteries/mount-shann-sundial.md)** — a stone-circle sundial with 7 painted arrows and a ~2 AM UFO; the only bridge is a shared GTA V Mount Chiliad nod. Held skeptical.
-- **Unexplained spectacles, decoded** — the [ghost train and UFOs](other-mysteries/ghost-train-and-ufos.md), [meteor shower](other-mysteries/meteor-shower.md), [Witch's Cauldron](other-mysteries/witchs-cauldron.md) and [Wapiti smoke](other-mysteries/wapiti-smoke.md), explained from the game's own scripts and files ([`datamining/`](datamining/README.md)); plus the [GTA↔RDR2 crossover](other-mysteries/gta-rdr2-crossover.md) (Gertrude's numbers, Madam Nazar).
-- **Solved precedents** — the [Dreamcatchers](other-mysteries/dreamcatchers.md) and the [Saint Denis Vampire](other-mysteries/saint-denis-vampire.md) use the same "connect fixed points → a shape → a specific point" grammar the spider trail seems to.
+- **[Francis Sinclair / "Geology for Beginners" mural](other-mysteries/francis-sinclair-mural.md)** - a well-documented time-traveller egg with **no verified spider link**; watched because one of its carvings sits near Fort Wallace.
+- **[Mount Shann sundial](other-mysteries/mount-shann-sundial.md)** - a stone-circle sundial with 7 painted arrows and a ~2 AM UFO; the only bridge is a shared GTA V Mount Chiliad nod. Held skeptical.
+- **Unexplained spectacles, decoded** - the [ghost train and UFOs](other-mysteries/ghost-train-and-ufos.md), [meteor shower](other-mysteries/meteor-shower.md), [Witch's Cauldron](other-mysteries/witchs-cauldron.md) and [Wapiti smoke](other-mysteries/wapiti-smoke.md), explained from the game's own scripts and files ([`datamining/`](datamining/README.md)); plus the [GTA↔RDR2 crossover](other-mysteries/gta-rdr2-crossover.md) (Gertrude's numbers, Madam Nazar).
+- **Solved precedents** - the [Dreamcatchers](other-mysteries/dreamcatchers.md) and the [Saint Denis Vampire](other-mysteries/saint-denis-vampire.md) use the same "connect fixed points → a shape → a specific point" grammar the spider trail seems to.
 
 ### The best current understanding
 
-Butcher Creek's outhouse pentagram and carvings (`LJ`, `SM`, a Fort Brennand symbol) are the deliberate start of a clue chain. Fort Brennand's tower carries three more symbols (a telephone pole, a factory, an oil puddle) that point onward to a **spider carving on a telephone pole near Cornwall Kerosene & Tar**, visible only at a specific night hour. That engraving maps **7 more webs** (each with a feather, time-locked to a different hour) plus a central set of webs (1–2 AM, no feathers) that line up to spell **`N`** + a telephone pole. Going north and shooting the indicated pole reveals **`W ✞✞✞✞✞`** (five poles west; the "crosses" are telephone-pole glyphs); five poles west, another pole reveals **`NW`** and a symbol **believed to be a guitar**, pointing to **Fort Wallace** (which holds two guitars). Fort Wallace is a **waypoint, not the end** — its bird carvings are the last verified clue, and past them the trail goes cold in contested territory. There are **5 black + 3 red feathers**, in game files named *"spiderdream"*. Whether the matchstick letters and Gertrude's numbers feed this same puzzle, and whether there is any payoff at all, remains **unconfirmed**.
+Butcher Creek's outhouse pentagram and carvings (`LJ`, `SM`, a Fort Brennand symbol) are the deliberate start of a clue chain. Fort Brennand's tower carries three more symbols (a telephone pole, a factory, an oil puddle) that point onward to a **spider carving on a telephone pole near Cornwall Kerosene & Tar**, visible only at a specific night hour. That engraving maps **7 more webs** (each with a feather, time-locked to a different hour) plus a central set of webs (1–2 AM, no feathers) that line up to spell **`N`** + a telephone pole. Going north and shooting the indicated pole reveals **`W ✞✞✞✞✞`** (five poles west; the "crosses" are telephone-pole glyphs); five poles west, another pole reveals **`NW`** and a symbol **believed to be a guitar**, pointing to **Fort Wallace** (which holds two guitars). Fort Wallace is a **waypoint, not the end** - its bird carvings are the last verified clue, and past them the trail goes cold in contested territory. There are **5 black + 3 red feathers**, in game files named *"spiderdream"*. Whether the matchstick letters and Gertrude's numbers feed this same puzzle, and whether there is any payoff at all, remains **unconfirmed**.
 
 > **Shipped precedents.** Two *solved* RDR2 eggs use the same "connect fixed points → a deliberate shape → go to a specific point" grammar: the **[Dreamcatchers](other-mysteries/dreamcatchers.md)** (20 points → a drawn animal → the reward in its eye) and the **[Saint Denis Vampire](other-mysteries/saint-denis-vampire.md)** (5 wall-writings → an auto-drawn pentagram → the Vampire at its centre). The Vampire is the same pentagram-mapping puzzle as Butcher Creek, but fully hand-held.
 
@@ -85,12 +85,12 @@ Butcher Creek's outhouse pentagram and carvings (`LJ`, `SM`, a Fort Brennand sym
 |---|---|---|
 | Butcher Creek | Roanoke Ridge | 5 outhouses, tally-mark pentagram, `LJ`/`SM`/Fort Brennand carving on #4 |
 | Fort Brennand | Roanoke Ridge | Tower: tally marks (6, 7) + 3 symbols (telephone pole, factory, oil puddle) |
-| Cornwall Kerosene & Tar | near Annesburg | Telephone pole with the **spider engraving** — start of the web trail |
+| Cornwall Kerosene & Tar | near Annesburg | Telephone pole with the **spider engraving** - start of the web trail |
 | Vetter's Echo | cabin | Matchsticks **`EC`**, a Black Widow cigarette card, letters to Annabella |
 | Heartland Oil Fields | The Heartlands | "KEEP YOUR DREAMS LIGHT" desk-drawer carving (relevance unconfirmed) |
 | Braithwaite Manor | Scarlett Meadows | Gertrude dies in the southern outhouse reciting numbers |
 | Fort Wallace | Cumberland Forest | **Waypoint** at "NW + guitar"; bird carvings = last verified clue |
-| Spider Gorge | near Grizzlies | Wiki-only theory (guitar-shaped section) — **uncorroborated** |
+| Spider Gorge | near Grizzlies | Wiki-only theory (guitar-shaped section) - **uncorroborated** |
 
 Every location has a dossier in [`locations/`](locations/README.md).
 
@@ -101,7 +101,7 @@ Every location has a dossier in [`locations/`](locations/README.md).
 - This project is an independent fan investigation and is **not affiliated with or endorsed by Rockstar Games or Take-Two Interactive**. *Red Dead Redemption 2* and its assets are © Rockstar Games; screenshots and short excerpts are used for commentary and research.
 - Community wiki text saved under [`sources/`](sources/) comes from the Red Dead Wiki on Fandom (CC BY-SA) and is attributed in-file and keeps its own license; community posts and videos are cited by source and graded **C**.
 - Some findings rest on data read from a legitimately installed copy of the game (archives and decompiled scripts) using the investigator's own tooling, and on public third-party script dumps; each is labelled with how it was obtained in [`sources/sources.md`](sources/sources.md).
-- **License:** original prose and analysis are **CC BY-SA 4.0**, code is **MIT** — see [`LICENSE`](LICENSE) for the split and for what is *not* covered (game assets, wiki text, community posts).
+- **License:** original prose and analysis are **CC BY-SA 4.0**, code is **MIT** - see [`LICENSE`](LICENSE) for the split and for what is *not* covered (game assets, wiki text, community posts).
 - `CLAUDE.md` holds the working rules for the AI assistant used on this project; the same rules are summarised for human contributors in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 *This is a living investigation. Claims are re-tagged as evidence changes, and the history is kept rather than erased.*

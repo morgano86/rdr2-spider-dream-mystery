@@ -4,7 +4,7 @@
 Joins "soft-wrapped" continuation lines (a paragraph or list item that was
 broken at ~120 columns) back onto the line they continue, so each paragraph /
 list item is a single source line. Markdown renders a soft line break as a
-space, so the rendered output is unchanged — only the source gets cleaner.
+space, so the rendered output is unchanged - only the source gets cleaner.
 
 Left untouched: fenced code, indented code, tables, headings, horizontal
 rules / setext underlines, HTML lines, link reference definitions, and hard

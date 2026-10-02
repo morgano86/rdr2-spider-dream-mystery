@@ -2,11 +2,11 @@
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-Working theories, method notes and precedents. **Nothing here is established fact** unless it points to a `[KNOWN]` ID — this is where hypotheses get built and tested (null results included). Verified facts live in [`../findings/known-facts.md`](../findings/known-facts.md); see the [glossary](../GLOSSARY.md) for the ID and tag conventions.
+Working theories, method notes and precedents. **Nothing here is established fact** unless it points to a `[KNOWN]` ID - this is where hypotheses get built and tested (null results included). Verified facts live in [`../findings/known-facts.md`](../findings/known-facts.md); see the [glossary](../GLOSSARY.md) for the ID and tag conventions.
 
 | File | What it covers |
 |---|---|
-| [`carving-technique.md`](carving-technique.md) | How Rockstar makes a real carving (hidden geometry) vs. pareidolia — the test every clue must pass. |
+| [`carving-technique.md`](carving-technique.md) | How Rockstar makes a real carving (hidden geometry) vs. pareidolia - the test every clue must pass. |
 | [`fort-wallace-bird-carving.md`](fort-wallace-bird-carving.md) | What the two Fort Wallace bird glyphs ([K16], the last verified clue) are and might mean. |
 | [`connections.md`](connections.md) | The working bench: the letter set, the outhouse motif, Gertrude's numbers, the pointer chain, feather mechanics, and open analysis tasks. |
 | [`solve-grammar.md`](solve-grammar.md) | The common "solve grammar" of RDR2's solved eggs, and the webs read without the shooting premise ([H27]). |

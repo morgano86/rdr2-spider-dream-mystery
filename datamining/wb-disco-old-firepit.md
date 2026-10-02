@@ -1,9 +1,9 @@
-# RDR2 — `WB_DISCO_OLD_FIREPIT`
+# RDR2 - `WB_DISCO_OLD_FIREPIT`
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
 - **Date:** 2026-09-14
-- **Status:** CLOSED — mechanism and all placements decoded. Not a mystery lead.
+- **Status:** CLOSED - mechanism and all placements decoded. Not a mystery lead.
 - **Prompt:** user asked to look into `WB_DISCO_OLD_FIREPIT`.
 - **Source:** decompiled script corpus, build 1491.50 (mainly `discoverable_generic_location.ysc.c`) + a first-hand scenario-point and prop data pass over the install.
 - **Related:** [`meteor-shower-mechanism.md`](meteor-shower-mechanism.md) (same discovery system).

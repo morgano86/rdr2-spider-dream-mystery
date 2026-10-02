@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Are the spiderdream file NUMBERS the intended shooting ORDER? — the per-web
+"""Are the spiderdream file NUMBERS the intended shooting ORDER? - the per-web
 concordance test the [K39] datamine finally makes possible.
 
 Question + IDs
@@ -7,7 +7,7 @@ Question + IDs
 [K39] (2026-07-02) sourced the per-web `spiderdream0X` -> location mapping as a genuine
 public datamine (u/Artem_ab6, [#65]), turning the manifest's File column into real data
 and activating [S29] (the numbering's colour-grouped / twin-sum-11 structure, ~1/3360).
-What NOBODY — here or in the community — has tested is the numbering read as an
+What NOBODY - here or in the community - has tested is the numbering read as an
 ORDERING: shoot the webs in file order 1->8 (or 1->5 blacks-only, per [H24])?
 
 This script builds the full per-web concordance matrix (file #, colour, hour, socket
@@ -15,7 +15,7 @@ This script builds the full per-web concordance matrix (file #, colour, hour, so
 the file order against every ordering principle on record:
 
   1. chronology / reverse-chronology (the [H17] axis)
-  2. the [K13b] non-respawn chain — INCLUDING the investigator's eyeball observation
+  2. the [K13b] non-respawn chain - INCLUDING the investigator's eyeball observation
      that files 5->1 descending = B23,B45,B34,B56,BL56 = the chain with B34 inserted
      mid-run. That observation gets a proper null here, not trust.
   3. the [H19] socket sweep (L->C->R)
@@ -39,11 +39,11 @@ Inputs + provenance
   * Colour/hour: the [K13a] colour x hour lattice (manifest; per-web cells C-tier).
   * Socket L/C/R: [H19] camera-invariant reads (C-tier images, 8/8 agreement).
   * Tied boundary + zone containment: [K31] firsthand investigator data (2026-06-14).
-  * Map positions: # PROVISIONAL — the same eyeball pixel reads off the community
+  * Map positions: # PROVISIONAL - the same eyeball pixel reads off the community
     overlay used by web_geometry_shape.py ([S31]); +/-25 px, NOT in-game coords.
   * Night-feasibility rules: [K29] (state persists in-boundary, resets on exit),
     [H20] firsthand travel feasibility (black+red in one night solo-impossible;
-    the doubled 5-6 AM pair hard-but-doable) — the H20 leg is inference-grade.
+    the doubled 5-6 AM pair hard-but-doable) - the H20 leg is inference-grade.
 
 Run:  python experiments/web_file_order_concordance.py
 Deps: stdlib only. Deterministic (exhaustive enumeration; no sampling).
@@ -212,7 +212,7 @@ def main():
     full_perms = list(permutations(WEBS))                  # 40320 (raw null)
 
     # ---- Test 1: chronology ---------------------------------------------------------
-    print("## Test 1 — chronology / reverse-chronology (tau of hour along file order)")
+    print("## Test 1 - chronology / reverse-chronology (tau of hour along file order)")
     for label, seq, null in [("full 8, file ASC", FILE_ASC, full_cond),
                              ("blacks, file ASC", BLACKS_ASC, black_perms)]:
         t = tau_score(seq, lambda w: WEBS[w]["hour"])
@@ -222,7 +222,7 @@ def main():
     print("  -> DESC reads are the same test mirrored (tau -> -tau); no separate df.\n")
 
     # ---- Test 2: the K13b chain + the investigator's descending observation ---------
-    print("## Test 2 — [K13b] chain vs the file order (the eyeballed 5->1 claim)")
+    print("## Test 2 - [K13b] chain vs the file order (the eyeballed 5->1 claim)")
     print(f"  blacks DESC = {' > '.join(BLACKS_DESC)}")
     obs_desc = chain_consistent(BLACKS_DESC)
     obs_asc = chain_consistent(BLACKS_ASC)
@@ -233,12 +233,12 @@ def main():
                    if chain_consistent(p) or chain_consistent(p[::-1]))
     print(f"  null (random file assignment to the 5 blacks, conditional on [S29] colour blocks):")
     print(f"    P(a given direction preserves the chain, either 5-6 variant) = {p_str(k_one, n)}")
-    print(f"    P(EITHER direction preserves it — the read we'd have reported) = {p_str(k_either, n)}")
+    print(f"    P(EITHER direction preserves it - the read we'd have reported) = {p_str(k_either, n)}")
     print("  -> the observation is REAL but weak: ~1/12 one-direction, ~1/6 with the")
     print("     direction freedom, before counting the other principles tried below.\n")
 
     # ---- Test 3: socket sweep -------------------------------------------------------
-    print("## Test 3 — [H19] socket sweep (L->C->R) along the file order")
+    print("## Test 3 - [H19] socket sweep (L->C->R) along the file order")
     for label, seq, null in [("full 8, file ASC", FILE_ASC, full_cond),
                              ("blacks, file ASC", BLACKS_ASC, black_perms)]:
         t = tau_score(seq, lambda w: SOCKET_RANK[WEBS[w]["socket"]])
@@ -249,7 +249,7 @@ def main():
     print()
 
     # ---- Test 4: geometric paths ----------------------------------------------------
-    print("## Test 4 — geometric paths (PROVISIONAL overlay coords, [S31])")
+    print("## Test 4 - geometric paths (PROVISIONAL overlay coords, [S31])")
     print("  (a) clockwise winding around the body cluster (1 = clean CW/CCW tour)")
     for label, seq, null in [("full 8, file ASC", FILE_ASC, full_cond),
                              ("blacks, file ASC", BLACKS_ASC, black_perms)]:
@@ -271,11 +271,11 @@ def main():
         Ls = sorted(tour_len(p) for p in null)
         below = sum(1 for x in Ls if x <= L)
         print(f"      {label:18s} len={L:6.0f}px  percentile={below/len(Ls)*100:5.1f}% of null")
-    print("  (d) telegraph-line adjacency: NOT TESTABLE — no telegraph-line topology")
+    print("  (d) telegraph-line adjacency: NOT TESTABLE - no telegraph-line topology")
     print("      data is on file; skipped rather than invented.\n")
 
     # ---- Test 5: boundary-exit feasibility ([K29]/[K31] simulator) -------------------
-    print("## Test 5 — boundary-exit feasibility, visible-state semantics [K29]/[K31]")
+    print("## Test 5 - boundary-exit feasibility, visible-state semantics [K29]/[K31]")
     named = [
         ("file ASC full 1->8", FILE_ASC),
         ("file DESC full 8->1", FILE_DESC),
@@ -304,11 +304,11 @@ def main():
     feas8 = sum(1 for p in full_perms if simulate(list(p))[0])
     print(f"  full-8 sweep: {feas8}/40320 orders keep all 8 visibly down")
     print("    -> all-8-simultaneously-down is GEOMETRICALLY IMPOSSIBLE under visible-state")
-    print("       rules (R34 lives only in R; B34's hold needs O) — the [H22] seam, now")
+    print("       rules (R34 lives only in R; B34's hold needs O) - the [H22] seam, now")
     print("       exhaustively verified, colour-order independent.\n")
 
     # ---- Test 6: what the numbers DO encode (index structure, incl. a new one) -------
-    print("## Test 6 — index structure (context: the known [S29] blocks + a region check)")
+    print("## Test 6 - index structure (context: the known [S29] blocks + a region check)")
     nh_files = sorted(WEBS[w]["file"] for w in WEBS if WEBS[w]["region"] == "NewHanover")
     print(f"  New Hanover webs hold files {nh_files}; Lemoyne holds the rest.")
     contig = nh_files == list(range(nh_files[0], nh_files[0] + len(nh_files)))
@@ -320,10 +320,10 @@ def main():
                         [f for f in range(1, 6) if f != drop]))
     print(f"  contiguous block? {contig}  raw p = 5/{comb(8,4)} = {raw_p:.3f}; "
           f"conditional on [S29] colour blocks p = {cond_hits}/5 = {cond_hits/5:.2f}")
-    print("  -> region contiguity is mostly a FREE RIDER on the colour grouping —")
+    print("  -> region contiguity is mostly a FREE RIDER on the colour grouping -")
     print("     an example of why the conditional nulls above matter.\n")
 
-    print("## Verdict (evidence, not fact; ~6 primary tests were run — judge the")
+    print("## Verdict (evidence, not fact; ~6 primary tests were run - judge the")
     print("## strongest uncorrected p against that look-elsewhere)")
     print("  See results/web_file_order_concordance.md.")
 

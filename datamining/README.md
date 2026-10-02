@@ -1,8 +1,8 @@
-# Datamining — what the game's files and scripts say
+# Datamining - what the game's files and scripts say
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-Most of the Spider Dream Mystery is read off the screen. This folder holds the other kind of evidence: **readouts from the shipped game files and decompiled scripts**, run with the investigator's own local tooling (see [Provenance](#provenance-and-reproducibility) below). They answer questions the screen can't — *is there a script behind this? is this prop special, or does the whole game do it? what is actually in that archive?* — and they explain several game mechanics that look mysterious from the outside (bird perches, the ghost train, the UFOs and the unplaced alien cave, the meteor shower, the Witch's Cauldron).
+Most of the Spider Dream Mystery is read off the screen. This folder holds the other kind of evidence: **readouts from the shipped game files and decompiled scripts**, run with the investigator's own local tooling (see [Provenance](#provenance-and-reproducibility) below). They answer questions the screen can't - *is there a script behind this? is this prop special, or does the whole game do it? what is actually in that archive?* - and they explain several game mechanics that look mysterious from the outside (bird perches, the ghost train, the UFOs and the unplaced alien cave, the meteor shower, the Witch's Cauldron).
 
 Each file is a **verbatim handoff document** from that tooling, kept so every claim stays checkable. The conclusions drawn from them live in the rollup as `K`/`U` facts (linked below) and in the source ledger ([#89]–[#101] in [`../sources/sources.md`](../sources/sources.md)).
 
@@ -31,9 +31,9 @@ Where a file says "the investigator's harness" or similar, that is this unpublis
 
 | File | Date | Source | Facts | What it establishes |
 |---|---|---|---|---|
-| [`fragments-and-boundaries.md`](fragments-and-boundaries.md) | 2026-07-23 | [#89] | K45–K49 | The 8 feathers are fragments, byte-identical bar three known axes — **no hidden order field**. The "respawn boundaries" are ordinary map-streaming extents, and at most 6 feathers can be down at once. |
+| [`fragments-and-boundaries.md`](fragments-and-boundaries.md) | 2026-07-23 | [#89] | K45–K49 | The 8 feathers are fragments, byte-identical bar three known axes - **no hidden order field**. The "respawn boundaries" are ordinary map-streaming extents, and at most 6 feathers can be down at once. |
 | [`timeflags-census.md`](timeflags-census.md) | 2026-07-23 | [#89] | K50–K52 | A game-wide census of every time-gated prop: the time-gating channel is **closed**, the centre web is pinned at 01:00, and the Butcher Creek pentagram is the **same asset family** as the web strands. |
-| [`spiderdream-feather-texture-provenance.md`](spiderdream-feather-texture-provenance.md) | 2026-09-19 | [#101] | K64, U43 | The web feather's textures are a mixed triple from three source sets — library scavenging, not a dedicated asset. |
+| [`spiderdream-feather-texture-provenance.md`](spiderdream-feather-texture-provenance.md) | 2026-09-19 | [#101] | K64, U43 | The web feather's textures are a mixed triple from three source sets - library scavenging, not a dedicated asset. |
 | [`mission-scripts-carving-sites.md`](mission-scripts-carving-sites.md) | 2026-09-19 | [#100] | K63 | No script addresses any carving; coordinate hits near the marks are mission staging. |
 
 ### Birds, perches and the carvings
@@ -50,7 +50,7 @@ Where a file says "the investigator's harness" or similar, that is this unpublis
 |---|---|---|---|---|
 | [`ghost-train-and-ufo-mechanisms.md`](ghost-train-and-ufo-mechanisms.md) | 2026-09-01 | [#91] | K54, U42 | Both UFOs and the ghost train fully decoded; the "half moon" is not a trigger; the unplaced alien-cave interior is cut content. → [dossier](../other-mysteries/ghost-train-and-ufos.md) |
 | [`meteor-shower-mechanism.md`](meteor-shower-mechanism.md) | 2026-09-01 | [#92] | K55 | The meteor shower is a scenario-point-launched script event; no second hidden sky event. → [dossier](../other-mysteries/meteor-shower.md) |
-| [`wapiti-smoke-geyser-proxy.md`](wapiti-smoke-geyser-proxy.md) | 2026-09-14 | [#94] | K57 | The Wapiti "smoke" is a geyser-steam emitter on a buried cube — ordinary set dressing. → [dossier](../other-mysteries/wapiti-smoke.md) |
+| [`wapiti-smoke-geyser-proxy.md`](wapiti-smoke-geyser-proxy.md) | 2026-09-14 | [#94] | K57 | The Wapiti "smoke" is a geyser-steam emitter on a buried cube - ordinary set dressing. → [dossier](../other-mysteries/wapiti-smoke.md) |
 | [`witches-cauldron-brew.md`](witches-cauldron-brew.md) | 2026-09-15 | [#96] | K59 | The Witch's Cauldron brew does nothing mechanical beyond a ~53 m teleport and a flag. → [dossier](../other-mysteries/witchs-cauldron.md) |
 | [`wb-disco-old-firepit.md`](wb-disco-old-firepit.md) | 2026-09-14 | [#95] | K58 | `WB_DISCO_OLD_FIREPIT` is an ordinary three-site discovery; the discovery system is generic; the Strange Man portrait fork comes from a `mudtown3` choice. |
 
@@ -58,7 +58,7 @@ Where a file says "the investigator's harness" or similar, that is this unpublis
 
 | File | Date | Source | Facts | What it establishes |
 |---|---|---|---|---|
-| [`appearance-gated-dialogue.md`](appearance-gated-dialogue.md) | 2026-09-05 | [#93] | K56 | Player appearance (masks, weight, hair, dirt, honor) gates nothing by script — only dialogue lines and animscene variants (incl. the Madam Irine fortune teller). |
+| [`appearance-gated-dialogue.md`](appearance-gated-dialogue.md) | 2026-09-05 | [#93] | K56 | Player appearance (masks, weight, hair, dirt, honor) gates nothing by script - only dialogue lines and animscene variants (incl. the Madam Irine fortune teller). |
 | [`crossover-gun-entitlement.md`](crossover-gun-entitlement.md) | 2026-07-23 | [#90] | K53, U41 | RDR2 scripts only *read* awards/unlocks, so online-entitlement gating (e.g. the GTA Online → RDR2 revolver crossover) isn't visible in bytecode. → [crossover dossier](../other-mysteries/gta-rdr2-crossover.md) |
 
 ## Where the findings are used

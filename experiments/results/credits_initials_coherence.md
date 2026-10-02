@@ -22,39 +22,39 @@ Source: rdr2-credits.txt (6345 people). Senior+ tiers only (exec/dir, lead, seni
 
 ## World-building senior matches, listed (the only people who plausibly hide world content)
 
-- **`LJ`** — *no world-building senior match at all*
+- **`LJ`** - *no world-building senior match at all*
 - **`SM`**
-  - Silas Morse — Design Director: Systems, Rockstar San Diego  *(World/Design)*
-  - Scott Mitchell — Design Producer: Missions & Story Flow, Rockstar North  *(World/Design)*
-  - Stefan Mohrhardt — Producer: Environment, Rockstar North  *(Environment Art)*
-  - Steven Messinger — Senior Design Director: Open World Events, Rockstar San Diego  *(World/Design)*
-  - Sabrina Malana — Lead UI/UX Designer, Creator Platform, Rockstar Leeds  *(World/Design)*
-  - Simon Moles — Principal Designer: Systems, Rockstar North  *(World/Design)*
-  - Steven Mulholland — Associate Principal Artist: Environment, Rockstar North  *(Environment Art)*
-  - Sanoj Madaswamy — Senior Animator: Gameplay, Rockstar India  *(World/Design)*
-  - Sumanth Matlapudi — Senior Animator: Gameplay, Rockstar India  *(World/Design)*
-  - Shane Mitchell — Senior Animator: Gameplay, Rockstar Leeds  *(World/Design)*
-  - Sambhaji Madhav — Senior Artist: Environment, Rockstar India  *(Environment Art)*
-  - Siva Prasad Manepalli — Senior Artist: Environment, Rockstar India  *(Environment Art)*
-  - Srinivas Mamadapalli — Senior Artist: Environment, Rockstar India  *(Environment Art)*
-  - Sarah Matulis — Senior Artist: Environment, Rockstar North  *(Environment Art)*
-  - Soumen Chandra Mandal — Senior Artist: Props, Rockstar India  *(Environment Art)*
-  - Scott McLean — Senior Graphic Designer: 2D Design, Rockstar North  *(World/Design)*
-  - Snehal Mahajan — Senior Production Coordinator: Gameplay, Rockstar India  *(World/Design)*
+  - Silas Morse - Design Director: Systems, Rockstar San Diego  *(World/Design)*
+  - Scott Mitchell - Design Producer: Missions & Story Flow, Rockstar North  *(World/Design)*
+  - Stefan Mohrhardt - Producer: Environment, Rockstar North  *(Environment Art)*
+  - Steven Messinger - Senior Design Director: Open World Events, Rockstar San Diego  *(World/Design)*
+  - Sabrina Malana - Lead UI/UX Designer, Creator Platform, Rockstar Leeds  *(World/Design)*
+  - Simon Moles - Principal Designer: Systems, Rockstar North  *(World/Design)*
+  - Steven Mulholland - Associate Principal Artist: Environment, Rockstar North  *(Environment Art)*
+  - Sanoj Madaswamy - Senior Animator: Gameplay, Rockstar India  *(World/Design)*
+  - Sumanth Matlapudi - Senior Animator: Gameplay, Rockstar India  *(World/Design)*
+  - Shane Mitchell - Senior Animator: Gameplay, Rockstar Leeds  *(World/Design)*
+  - Sambhaji Madhav - Senior Artist: Environment, Rockstar India  *(Environment Art)*
+  - Siva Prasad Manepalli - Senior Artist: Environment, Rockstar India  *(Environment Art)*
+  - Srinivas Mamadapalli - Senior Artist: Environment, Rockstar India  *(Environment Art)*
+  - Sarah Matulis - Senior Artist: Environment, Rockstar North  *(Environment Art)*
+  - Soumen Chandra Mandal - Senior Artist: Props, Rockstar India  *(Environment Art)*
+  - Scott McLean - Senior Graphic Designer: 2D Design, Rockstar North  *(World/Design)*
+  - Snehal Mahajan - Senior Production Coordinator: Gameplay, Rockstar India  *(World/Design)*
 - **`EC`**
-  - Eoin Callan — Art Director: Props, Rockstar North  *(Environment Art)*
-  - Elliott Chatham — Principal Artist: Environment, Rockstar North  *(Environment Art)*
+  - Eoin Callan - Art Director: Props, Rockstar North  *(Environment Art)*
+  - Elliott Chatham - Principal Artist: Environment, Rockstar North  *(Environment Art)*
 - **`J+M`**
-  - John MacPherson — Senior Design Director: World & Population, Rockstar Toronto  *(World/Design)*
-  - Jill Menzies — Principal Graphic Designer: 2D Design, Rockstar Games  *(World/Design)*
-  - John Mariakis — Project Manager: In-World Photography, Rockstar Games  *(World/Design)*
-  - Jonny Martyr — Associate Lead UX Designer: Tools, Rockstar North  *(World/Design)*
-  - Jeremie Mallette-Lachance — Associate Principal AI/Gameplay Programmer, Rockstar Toronto  *(World/Design)*
-  - John Marcial — Associate Principal Designer: World & Population Content, Rockstar Toronto  *(World/Design)*
-  - Jenna Memmolo — Senior AI/Gameplay Programmer, Rockstar Toronto  *(World/Design)*
-  - John McDermott — Senior UX Designer: Tools, Rockstar North  *(World/Design)*
+  - John MacPherson - Senior Design Director: World & Population, Rockstar Toronto  *(World/Design)*
+  - Jill Menzies - Principal Graphic Designer: 2D Design, Rockstar Games  *(World/Design)*
+  - John Mariakis - Project Manager: In-World Photography, Rockstar Games  *(World/Design)*
+  - Jonny Martyr - Associate Lead UX Designer: Tools, Rockstar North  *(World/Design)*
+  - Jeremie Mallette-Lachance - Associate Principal AI/Gameplay Programmer, Rockstar Toronto  *(World/Design)*
+  - John Marcial - Associate Principal Designer: World & Population Content, Rockstar Toronto  *(World/Design)*
+  - Jenna Memmolo - Senior AI/Gameplay Programmer, Rockstar Toronto  *(World/Design)*
+  - John McDermott - Senior UX Designer: Tools, Rockstar North  *(World/Design)*
 - **`S+J`**
-  - Shivam Jakhmola — Senior Artist: Props, Rockstar India  *(Environment Art)*
+  - Shivam Jakhmola - Senior Artist: Props, Rockstar India  *(Environment Art)*
 
 ## Reading (evidence, not fact -- [SPECULATION])
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rollup-completeness audit — cross-check INDEX.md against the three findings/ rollups.
+"""Rollup-completeness audit - cross-check INDEX.md against the three findings/ rollups.
 
 CLAUDE.md invariant under test:
   - every K# in INDEX appears in findings/known-facts.md
@@ -8,7 +8,7 @@ CLAUDE.md invariant under test:
   - and vice-versa: no rollup carries an ID that INDEX doesn't register.
 
 This is a MECHANICAL presence check (does the ID string appear at all), not a
-semantic one — it can't tell whether the rollup text is in sync, only whether an
+semantic one - it can't tell whether the rollup text is in sync, only whether an
 ID is missing outright. Deterministic, stdlib-only, no inputs beyond the repo.
 
 Run from the repo root:  python experiments/rollup_completeness_audit.py
@@ -26,7 +26,7 @@ ROLLUPS = {
     "S": ROOT / "findings" / "speculation.md",
 }
 
-# IDs like K1, K13a, U0, H22, S42 — bracketed or bare. Word-boundary guarded so
+# IDs like K1, K13a, U0, H22, S42 - bracketed or bare. Word-boundary guarded so
 # S42 doesn't match inside S420. Excludes source refs (#78) and file names.
 ID_RE = re.compile(r"\b([KUHS])(\d+[a-z]?)\b")
 

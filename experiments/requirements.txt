@@ -1,7 +1,7 @@
 # Most experiments are Python-3 standard-library only and need nothing here.
 # The exceptions are the image-analysis scripts:
-#   mural_colour_count.py      (U14/H3/S12) — Pillow, to read the mural pixels.
-#   engraving_web_bearings.py  (S30/K11)    — Pillow + numpy, to extract the engraving's leg geometry.
+#   mural_colour_count.py      (U14/H3/S12) - Pillow, to read the mural pixels.
+#   engraving_web_bearings.py  (S30/K11)    - Pillow + numpy, to extract the engraving's leg geometry.
 # Install with:  python -m pip install -r experiments/requirements.txt
 Pillow>=10
 numpy>=1.26

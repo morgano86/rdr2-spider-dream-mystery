@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Do the 8 web POSITIONS form a shape centred on the featherless cluster (the
-"spider's body")? — applying RDR2's shipped "connect points -> shape -> centre/eye"
+"spider's body")? - applying RDR2's shipped "connect points -> shape -> centre/eye"
 grammar to the web coordinates themselves.
 
 Question + IDs
@@ -19,14 +19,14 @@ That grammar has been tested on the tallies and on the engraving's legs
 falsifiable question:
 
     Does the central featherless cluster sit at the geometric CENTRE (centroid) of the
-    8 outer webs — i.e. is the "body" actually the body of the figure the webs trace —
+    8 outer webs - i.e. is the "body" actually the body of the figure the webs trace -
     and if not all 8, which subset centres on it?
 
 A positive, robust result would be [SPECULATION] support that the webs are arranged as a
 deliberate figure around the body (one puzzle, geometric, [U3]/[H9]); it also cross-checks
 the [S30] "longest engraving leg -> farthest web = Saint Denis" hint from the other side.
 A negative result is a real finding: the webs are just where the map's towns/poles happen
-to be, with no body-centred geometry. UPSTREAM of the [K16] frontier — chases nothing past
+to be, with no body-centred geometry. UPSTREAM of the [K16] frontier - chases nothing past
 Fort Wallace.
 
 Inputs + provenance
@@ -34,13 +34,13 @@ Inputs + provenance
   * Web + centre positions: the SAME provisional pixel reads used by
     engraving_web_bearings.py, taken off the community overlay
     images/webs/web_map-overlay_all-labeled.jpg (1280x977). x=east+, y=south+.
-    ** PROVISIONAL ** — eyeball reads (+/- ~25 px) off a COMMUNITY-DRAWN overlay, NOT
+    ** PROVISIONAL ** - eyeball reads (+/- ~25 px) off a COMMUNITY-DRAWN overlay, NOT
     in-game coordinates (none are published, per WEBS-MANIFEST). So this measures the
     overlay's geometry, which only approximates true in-world placement. Robust
     conclusions are the ones that survive the +/-25 px noise test below.
 
 Run:  python experiments/web_geometry_shape.py
-Deps: numpy (already required by engraving_web_bearings.py — see requirements.txt).
+Deps: numpy (already required by engraving_web_bearings.py - see requirements.txt).
 Deterministic; Monte-Carlo seed printed.
 """
 import math
@@ -57,7 +57,7 @@ WEBS = {                       # name: (px_x, px_y, colour)
     "OilFields_B56":  (310, 150, "black"),
     "Overflow_B23":   (691, 151, "black"),
     "Emerald_B45":    (691, 281, "black"),
-    "SaintDenis_R34": (1196, 841, "red"),    # far SE — the farthest web
+    "SaintDenis_R34": (1196, 841, "red"),    # far SE - the farthest web
     "Ringneck_BL56":  (625, 642, "black"),
     "Southfield_R45": (443, 827, "red"),
     "Scarlett_R23":   (417, 718, "red"),
@@ -101,14 +101,14 @@ def main():
                ("7 webs (excl. Saint Denis)", no_sd),
                ("5 black webs", blacks),
                ("3 red webs", reds)]
-    print("## Test 1 — distance from the CENTRE cluster to each subset's centroid")
+    print("## Test 1 - distance from the CENTRE cluster to each subset's centroid")
     for label, ks in subsets:
         g = centroid(ks)
         print(f"  {label:30s} centroid=({g[0]:5.0f},{g[1]:5.0f})  -> {dist(C, g):6.1f} px from centre")
     print()
 
-    # ---- Test 2: leave-one-out — which single web, removed, best centres the rest? -
-    print("## Test 2 — leave-one-out: centroid of the OTHER 7 when each web is removed")
+    # ---- Test 2: leave-one-out - which single web, removed, best centres the rest? -
+    print("## Test 2 - leave-one-out: centroid of the OTHER 7 when each web is removed")
     loo = []
     for k in NAMES:
         g = centroid([j for j in NAMES if j != k])
@@ -121,7 +121,7 @@ def main():
     print()
 
     # ---- Test 3: Monte-Carlo significance + robustness to +/-25 px coord noise ------
-    print(f"## Test 3 — significance & robustness ({TRIALS:,} trials, +/-{NOISE_PX:.0f}px noise)")
+    print(f"## Test 3 - significance & robustness ({TRIALS:,} trials, +/-{NOISE_PX:.0f}px noise)")
     g7 = centroid(no_sd)
     obs7 = dist(C, g7)
     # (a) Is the CENTRE unusually close to the 7-web centroid vs a random map point?
@@ -154,7 +154,7 @@ def main():
     print()
 
     # ---- Test 4: Saint Denis as the farthest 'leg' (cross-link to [S30]) -----------
-    print("## Test 4 — Saint Denis as the singular far outlier (cross-check [S30])")
+    print("## Test 4 - Saint Denis as the singular far outlier (cross-check [S30])")
     dcen = {k: dist(C, P[k]) for k in NAMES}
     for k, d in sorted(dcen.items(), key=lambda x: -x[1]):
         print(f"  {k:16s} {d:6.0f} px from centre, bearing {bearing(CENTRE, P[k]):3.0f} deg")
@@ -165,7 +165,7 @@ def main():
     print("  [S30] independently found the engraving's LONGEST leg points SE -> Saint Denis.")
     print()
 
-    print("## Verdict (evidence, not fact — [SPECULATION] at most; provisional coords)")
+    print("## Verdict (evidence, not fact - [SPECULATION] at most; provisional coords)")
     print("  See results/web_geometry_shape.md.")
 
 

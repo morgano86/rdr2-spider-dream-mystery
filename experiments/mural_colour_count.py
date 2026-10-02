@@ -1,4 +1,4 @@
-"""Window Rock 'Strange Statues' mural — is there a BLACK vs RED pigment split? (tests U14 / H3 / S12; bears on H18)
+"""Window Rock 'Strange Statues' mural - is there a BLACK vs RED pigment split? (tests U14 / H3 / S12; bears on H18)
 
 QUESTION
 --------
@@ -28,7 +28,7 @@ WHAT A RESULT MEANS
 - If the faithful image is unimodally red (true-neutral black is a small minority that is just deep
   shading of the red), the premise has **no basis in the source art** -> a real NEGATIVE finding
   that demotes [H3]/[S12]. (Corroborated independently: every walkthrough codes the mural by feather
-  COUNT + ORIENTATION (upside-down decoys), never colour — GamesRadar/Shacknews/ScreenRant/Fandom.)
+  COUNT + ORIENTATION (upside-down decoys), never colour - GamesRadar/Shacknews/ScreenRant/Fandom.)
 
 A script TESTS; it does not establish fact. A negative here is a loggable finding (see experiments/README.md).
 
@@ -82,9 +82,9 @@ def classify(path, label):
 
 
 def main():
-    print("Mural pigment test (U14 / H3 / S12) — is there a black-vs-red split, or one red pigment?")
+    print("Mural pigment test (U14 / H3 / S12) - is there a black-vs-red split, or one red pigment?")
     faithful = classify(FAITHFUL, "COLOUR-FAITHFUL wiki texture (use this)")
-    classify(EXTRACTION, "investigator extraction (processed — NOT colour-faithful, shown for contrast)")
+    classify(EXTRACTION, "investigator extraction (processed - NOT colour-faithful, shown for contrast)")
 
     print("\n--- VERDICT (on the colour-faithful image) ---")
     print(f"  of genuinely-coloured pixels, {faithful['red_frac']:.1f}% are RED-hued; "

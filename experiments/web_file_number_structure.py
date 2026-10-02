@@ -89,11 +89,11 @@ def main():
 
     L = []
     w = L.append
-    w("# Result — web file-number structure & provenance (`web_file_number_structure.py`)")
+    w("# Result - web file-number structure & provenance (`web_file_number_structure.py`)")
     w("")
     w("**Question.** Is the WEBS-MANIFEST's per-web `spiderdreamNN` numbering (a) sourced, and")
     w("(b) structured w.r.t. the KNOWN colour/hour lattice? Tests **[U32]** (provenance) and feeds")
-    w("**[S29]** (the conditional reading). [SPECULATION] at most — see the double-edged note.")
+    w("**[S29]** (the conditional reading). [SPECULATION] at most - see the double-edged note.")
     w("")
     w("> ⚠️ **Provenance flag.** The number→location mapping is **uncited** in the corpus (present")
     w("> since the first commit; no source maps a number to a location) and is **not** the #59 post's")
@@ -120,9 +120,9 @@ def main():
     w(f"- P(+ untwinned blacks at 1–2) = {Pab}/{N} = **1/{N//Pab}** ≈ {Pab/N:.5f}")
     w(f"- P(+ all 3 hour-twins sum to 11) **[full structure]** = {Pabc}/{N} = **1/{N//Pabc}** ≈ {Pabc/N:.6f}")
     w("")
-    w("## Reading (evidence, not fact — [SPECULATION])")
+    w("## Reading (evidence, not fact - [SPECULATION])")
     w("")
-    w("The full structure is **1/3360** (~0.03%) under random labeling — **far too clean for**")
+    w("The full structure is **1/3360** (~0.03%) under random labeling - **far too clean for**")
     w("**arbitrary internal asset IDs.** That cleanliness is *double-edged*:")
     w("")
     w("- **(i) genuine datamine + deliberate dev numbering** → a real, striking intent finding")

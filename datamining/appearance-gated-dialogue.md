@@ -1,4 +1,4 @@
-# How RDR2 scripts read the player's look (mask / weight / hair / dirt) — and what uses it
+# How RDR2 scripts read the player's look (mask / weight / hair / dirt) - and what uses it
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
@@ -6,7 +6,7 @@
 
 **Question asked:** the Madam Irine fortune-teller machine comments on the player's weight, hair and masks; Abigail reacts to John wearing a mask. Which script drives that, and is there any *sneaky* use of these signals (mask-gated mission, fat-gated encounter, …) that players would never find?
 
-**Answer:** the fortune teller is `discoverable_generic_corpse.ysc` (`FTELL_*`), discoverable id `657666087` = the **Circus Wagons** discovery — prop `s_fortuneteller01x`, ped `u_f_m_circuswagon_01`, soundset `fortune_teller_soundset`, journal `journal_disc_circus_wagons_*`, audio bank `FTELLAU`, animscene sections `fortune_teller` / `punch_fortune_teller`. Appearance is read through four primitives (below). **Every consumer found across all 2,195 scripts selects a dialogue line or an animscene variant. Nothing gates a mission, spawn, reward or unlock.**
+**Answer:** the fortune teller is `discoverable_generic_corpse.ysc` (`FTELL_*`), discoverable id `657666087` = the **Circus Wagons** discovery - prop `s_fortuneteller01x`, ped `u_f_m_circuswagon_01`, soundset `fortune_teller_soundset`, journal `journal_disc_circus_wagons_*`, audio bank `FTELLAU`, animscene sections `fortune_teller` / `punch_fortune_teller`. Appearance is read through four primitives (below). **Every consumer found across all 2,195 scripts selects a dialogue line or an animscene variant. Nothing gates a mission, spawn, reward or unlock.**
 
 ---
 
@@ -14,16 +14,16 @@
 
 | signal | how a script reads it | range |
 |---|---|---|
-| **worn item (exact)** | `Global_1946054.f_1497.f_1[slot]` — the 39-slot equipped-item array; a `BOOL f(Hash)` helper maps item→slot then compares | item hash |
-| **worn item (category)** | `PED::_IS_META_PED_USING_COMPONENT(ped, <categoryHash>)` — `HATS`, `masks`, `neckties`, `Hair`, `heads`, `GLOVES`, `satchels`, **`strange_hat`/`strange_upper`/`strange_lower`**, `fancy_upper`, `wearable_masks`, `HORSE_SADDLES`, … | bool |
+| **worn item (exact)** | `Global_1946054.f_1497.f_1[slot]` - the 39-slot equipped-item array; a `BOOL f(Hash)` helper maps item→slot then compares | item hash |
+| **worn item (category)** | `PED::_IS_META_PED_USING_COMPONENT(ped, <categoryHash>)` - `HATS`, `masks`, `neckties`, `Hair`, `heads`, `GLOVES`, `satchels`, **`strange_hat`/`strange_upper`/`strange_lower`**, `fancy_upper`, `wearable_masks`, `HORSE_SADDLES`, … | bool |
 | **weight** | `Global_1347477.f_196`, mirror of `playerRPGData.fAttributePoints[13]`; `short_update` clamps it to **-10 … +10** and swaps the body metaped (`509283903` thin / `1822769204` normal / `1837059600` fat) | -10..10 |
 | **hair / beard / dirt / honor** | `Global_40.f_7748.f_1` (hair length), `Global_40.f_7731[0..2]` (beard: chin/chops/moustache), `ATTRIBUTE::GET_ATTRIBUTE_POINTS(ped, 22)` and `(ped, 16)` (dirtiness, 0-10000 scale), `Global_40.f_11095.f_35` = `playerRPGData.iHonor` | ints |
 
-`Global_40.f_11095` is the whole `playerRPGData` save struct — its field names are recoverable verbatim from `startup.ysc`'s savegame loader (`playerRPGData.fPlayerWeightUpperLimit`, `.iHonor`, `.fFatResist`, `.iOverfedTimer`, …), which is the cheapest way to name any field in it.
+`Global_40.f_11095` is the whole `playerRPGData` save struct - its field names are recoverable verbatim from `startup.ysc`'s savegame loader (`playerRPGData.fPlayerWeightUpperLimit`, `.iHonor`, `.fFatResist`, `.iOverfedTimer`, …), which is the cheapest way to name any field in it.
 
 ## The fortune teller decoded (`discoverable_generic_corpse.ysc`)
 
-State machine `func_293`; line chosen by `func_509(bIsRepeat)`; played via `AUDIO::CREATE_NEW_SCRIPTED_CONVERSATION` + `START_SCRIPT_CONVERSATION` on the root label — so the `FTELL_*` names are **conversation roots in the speech DB**, which is where the subtitle text lives.
+State machine `func_293`; line chosen by `func_509(bIsRepeat)`; played via `AUDIO::CREATE_NEW_SCRIPTED_CONVERSATION` + `START_SCRIPT_CONVERSATION` on the root label - so the `FTELL_*` names are **conversation roots in the speech DB**, which is where the subtitle text lives.
 
 Sequence: `FTELL_OPEN` → a reading → repeat; a 4th+ activation gives `FTELL_MANY`; 3 repeats in one session give `FTELL_GEN`. Player dead → `FTELL_GEN`.
 
@@ -41,10 +41,10 @@ Sequence: `FTELL_OPEN` → a reading → repeat; a 4th+ activation gives `FTELL_
 | 13 | `FTELL_BATH` | dirt attr 22 > 7500 **or** stat `baths_taken` < 1 |
 | 12 | `FTELL_MUD` | dirt attr 22 > 5000 |
 | 10 / 11 | `FTELL_HIGH_H` / `FTELL_LOW_H` | honor > 0 / else |
-| 7 | `FTELL_HUNGRY` | `func_679()` — **returns constant `true`** |
+| 7 | `FTELL_HUNGRY` | `func_679()` - **returns constant `true`** |
 | 14 | `FTELL_GEN` | fallback |
 
-**Dead branch worth noting:** in the deterministic (first-reading) path the chain ends `if (honor>0) return 10; if (!(honor>0)) return 11;` — exhaustive, so the following `FTELL_HUNGRY` test and the final `return 14` are **unreachable**. `FTELL_HUNGRY` can only ever play on a *repeat* reading, where the selector picks a category at random (`GET_RANDOM_INT_IN_RANGE(0,65536) % 14`).
+**Dead branch worth noting:** in the deterministic (first-reading) path the chain ends `if (honor>0) return 10; if (!(honor>0)) return 11;` - exhaustive, so the following `FTELL_HUNGRY` test and the final `return 14` are **unreachable**. `FTELL_HUNGRY` can only ever play on a *repeat* reading, where the selector picks a category at random (`GET_RANDOM_INT_IN_RANGE(0,65536) % 14`).
 
 ### The 15 "weird hat/mask" items she reacts to
 
@@ -91,13 +91,13 @@ The hat/outfit line is `func_550` case 4 (the friendly-visit state, after her ca
 
 1. **The 15-item mask list has exactly one consumer.** A corpus-wide sweep of "is the player wearing item X" call sites carrying a literal item hash returns only three families: the winter coat `CLOTHING_SP_COAT_WINTER01_VARIATION_01` (289×, the cold system), `clothing_hl_player_satchel_008_1`, and the fortune teller's 15 (1× each). A raw-hash sweep (120 numeric/hex/case forms of the 15 names) finds **zero** occurrences outside those `joaat()` renderings.
 2. **The discoverable pickup items** (animal/Aztec mask `1057717101`, ram mask, cat mask, pirate hat, viking gear, scarecrow hats, …) are referenced **only** by `discoverable_generic_carriable` and `discoverable_generic_corpse`. No other script in the game reads them.
-3. **Ambient spawn conditions carry no appearance field.** `init_all_sp.ysc`'s encounter record builder (`func_108`, 16 params) and the vignette builder (`func_119`) write only time-of-day, weather, story-progress, proximity, cooldown and probability into `Global_1310750[]` — consistent with the general pattern that spawn conditions live in director tables. So "start an encounter only while wearing mask X / while fat" is **not expressible** in that system.
+3. **Ambient spawn conditions carry no appearance field.** `init_all_sp.ysc`'s encounter record builder (`func_108`, 16 params) and the vignette builder (`func_119`) write only time-of-day, weather, story-progress, proximity, cooldown and probability into `Global_1310750[]` - consistent with the general pattern that spawn conditions live in director tables. So "start an encounter only while wearing mask X / while fat" is **not expressible** in that system.
 4. **Weight touches four files only** (`long_update`, `short_update`, `mary3`, `discoverable_generic_corpse`); the hair/beard globals are read only by the growth library and the fortune teller.
 
-Conclusion: the appearance layer is fully enumerable and entirely cosmetic-facing. It is a flavour system, not a gate — the weird masks have no scripted purpose beyond being wearable and being noticed by one fortune-teller machine.
+Conclusion: the appearance layer is fully enumerable and entirely cosmetic-facing. It is a flavour system, not a gate - the weird masks have no scripted purpose beyond being wearable and being noticed by one fortune-teller machine.
 
 ## Leads not chased
 
 - Component-category hashes that resolve against neither `Codex.Games.RDR2.strings.txt` nor a 532k-entry vocabulary built from the corpus's own string literals: `-134124598`, `494009478`, `2071466316`, `-1968556728`, `-1455751347`, `43391475`, `149557334`, `1522539835`, `694822476`, `-1033766886`, `81053684`. (`-2061583405` = hats and `-525676072` = masks are known by usage, not by name.) Cracking them needs the item-database / metaped metadata, not the script corpus.
-- The `FTELL_*` **subtitle text** itself lives in the localised speech DB (the investigator's `WayJaCA_0x22639BA2` entry). Enumerating every reading per category is a text-DB job — a subtitle search over the localised text DB is the right tool.
-- Per-mask NPC speech variation, if any, is in the audio speech layer (`speech2.dat14`) — partially decoded (readout not published in this repo).
+- The `FTELL_*` **subtitle text** itself lives in the localised speech DB (the investigator's `WayJaCA_0x22639BA2` entry). Enumerating every reading per category is a text-DB job - a subtitle search over the localised text DB is the right tool.
+- Per-mask NPC speech variation, if any, is in the audio speech layer (`speech2.dat14`) - partially decoded (readout not published in this repo).

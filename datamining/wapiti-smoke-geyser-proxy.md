@@ -1,4 +1,4 @@
-# RDR2 — the "smoke" near Wapiti at (194.9, 2201.4, 281.4)
+# RDR2 - the "smoke" near Wapiti at (194.9, 2201.4, 281.4)
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
@@ -38,7 +38,7 @@ It has been in the base `levels_1.rpf` since launch, which fits a report from ab
 - It sits at the far NE corner of a region ymap that covers (-2456,-1923)–(297,2304). Its lodDist alone sets the file's NE streaming extent. Its neighbours in that file are `reg_bgv_ufodecal01/02/04` (Mount Shann rock art), `frozenhorse_01..03`, `abdn_home`, bridges and tunnel dressing.
 - It is the only archetype game-wide with `vfx_proxy` in its name (`grepa proxy`: 381 proxy-named archetypes, mostly audio/interior proxies).
 
-### The UFO texture on the cube — probably a coincidence, recorded anyway
+### The UFO texture on the cube - probably a coincidence, recorded anyway
 
 The buried cube uses `o_06p_ufo_paintings_ab/_nm/_ma`, the same material as `reg_bgv_ufodecal01`, which sits in the same region pack. An invisible proxy box normally gets whatever material is handy in the DCC scene, and the UFO decal is the obvious one in that scene. Other `reg_bgv_*` assets use unrelated materials (`glue_001` uses `nbx_glue`, `frozenhorse` uses `horseRemains`). So this reads as an authoring fingerprint that dates the proxy to the same Big Valley regional pass as the UFO decals. It is **not** evidence of a link. The cube is 5 m underground and can never be seen.
 

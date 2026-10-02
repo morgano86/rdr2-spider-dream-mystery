@@ -177,9 +177,9 @@ def main():
         if wb:
             p(f"- **`{label}`**")
             for n, r, t, st, d in wb:
-                p(f"  - {n} — {r}  *({d})*")
+                p(f"  - {n} - {r}  *({d})*")
         else:
-            p(f"- **`{label}`** — *no world-building senior match at all*")
+            p(f"- **`{label}`** - *no world-building senior match at all*")
     p("")
     p("## Reading (evidence, not fact -- [SPECULATION])")
     p("")

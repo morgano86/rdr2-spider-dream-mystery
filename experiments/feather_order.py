@@ -24,7 +24,7 @@ Run: `python experiments/feather_order.py`   (Python 3, standard library only)
 
 from itertools import permutations
 
-# (code, location, colour) — KNOWN, from WEBS-MANIFEST.md
+# (code, location, colour) - KNOWN, from WEBS-MANIFEST.md
 WEBS = [
     ("B34",  "Cornwall (start/index pole)", "black"),
     ("B56",  "Oil Fields",                  "black"),
