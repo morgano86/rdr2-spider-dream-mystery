@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 7 of 12 — Witch's Cauldron brew, [#96]) — [K59] minted: the brew does nothing mechanical (once per save, ~53 m teleport); the raven is data, not script; CodeX scenario-flag decode bug recorded
+
+**What we did.** Filed the 2026-09-15 cauldron decode as source [#96]; minted [K59].
+
+**What we learned.** The brew is `WB_DISCO_WITCHES_CAULDRON`: a scenario, a fade, a ~53 m move and a completion bit — no stat change, once per save (no Arthur/John distinction). The community's "refilled bars" is plausibly an ordinary sleep via the Sleep prompt (untested). The raven is a hand-placed `world_animal_crow_on_perch` point carrying the only `StationaryReactions` flag among 1,504 crow/raven points. Method: CodeX mis-decoded scenario-point flags (5-bit shift mask) — fixed on the harness side; no earlier corpus data used those flags.
+
+**What changed.** [K59], source #96, INDEX. No spider tie; boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 6 of 12 — `WB_DISCO_OLD_FIREPIT`, [#95]) — [K58] minted: ordinary discovery, not a lead; the Strange Man portrait's lives/dies fork comes from the `mudtown3` kill-witness choice
 
 **What we did.** Filed the 2026-09-14 firepit decode as source [#95]; minted [K58]; added the portrait-variant note to the Strange Man dossier.
