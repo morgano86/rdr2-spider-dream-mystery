@@ -77,6 +77,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K58 | `WB_DISCO_OLD_FIREPIT` = ordinary 3-site walk-in discovery (not a lead; 3 coords on file); discovery system generic + telemetered; `mudtown3` kill-witness → `EASEL` bit 31 → `stranger_cryptic_lives/dies` (refines [U35]) | LIVE | [known-facts.md](findings/known-facts.md) · [#95](sources/sources.md) · [strange-man-shack](locations/strange-man-shack.md) |
 | K59 | Witch's Cauldron brew = a once-per-SAVE discovery that teleports you ~53 m (no core/health/illness effect; no character check); raven = data-authored `StationaryReactions` scenario point; ⚠️ CodeX scenario-flag decode bug found + fixed | LIVE (script-level; 2 in-game checks untested) | [known-facts.md](findings/known-facts.md) · [#96](sources/sources.md) |
 | K60 | Scenario-point layer (131,939 pts) places NO bird/animal at any of the 10 carvings; the Fort Wallace carved tower has 0 perch points in 25 m (its other 3 towers 6–8); Brennand's 'hit' is fort-wide; carving world positions pinned | LIVE (negative) | [known-facts.md](findings/known-facts.md) · [#97](sources/sources.md) · [fort-wallace](locations/fort-wallace.md) |
+| K61 | `.yas` scene census is blind to script-spawned birds (no songbird/blue jay in any of 938 scenes; blue jay spawned by `beechers2_2_outro` etc.; 141 story scripts name a bird model) — method correction for the bird-at-carvings hunt | LIVE | [known-facts.md](findings/known-facts.md) · [#98](sources/sources.md) |
 
 ---
 

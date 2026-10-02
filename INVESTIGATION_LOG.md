@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 9 of 12 — cutscene-bird blind spot, [#98]) — [K61] minted: the `.yas` scene census can't see script-spawned birds (blue jay etc.)
+
+**What we did.** Filed the 2026-09-19 note as source [#98] (2nd of five same-day bird notes); minted [K61].
+
+**What we learned.** No songbird or blue jay appears in any of 938 animscenes; mission scripts spawn them (blue jay: `beechers2_2_outro` and five other story scripts) and sometimes hand them to a scene, so scene-only negatives were a blind spot. 141 story scripts name some bird model; ambient `av_bird_*` vignettes are a separate candidate source. Which system makes the "two birds fly off" moments is still open (the follow-up note, filed next, is the full script census).
+
+**What changed.** [K61], source #98, INDEX. No spider tie in itself; boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 8 of 12 — bird-perch scenarios near the carvings, [#97]) — [K60] minted: no bird/animal placed at any carving; the Fort Wallace carved tower is the least bird-populated of its four
 
 **What we did.** Filed the 2026-09-19 scenario-layer census as source [#97] (first of five same-day "bird at the carvings?" notes); minted [K60]; added a pointer to the Fort Wallace dossier.
