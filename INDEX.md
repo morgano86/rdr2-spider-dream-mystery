@@ -69,6 +69,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K50 | Game-wide `timeFlags` census (994 archetypes, 19 patterns, 921 on the standard 21–07) — the time-gating channel is **exhaustively enumerated and closed** | LIVE | [known-facts.md](findings/known-facts.md) |
 | K51 | The **centre web** is file-confirmed: hour **01:00**, (1282.0, −131.6, ~99.7), 4 `cablemesh*` meshes (2 unique `_thvy`), **no pole, no feather**; no 9th `spiderdream` archetype | LIVE | [known-facts.md](findings/known-facts.md) · refines [K11]/[U9] |
 | K52 | The **Butcher Creek pentagram** = `cablemesh277747_hvlit001` @ hour **04:00** — same asset family as the webs ([S41] anchor) — and the game's only single-hour prop with the on-screen bit ([K30] file-confirmed) | LIVE | [known-facts.md](findings/known-facts.md) |
+| K53 | RDR2 scripts only READ awards/unlocks via shared ITEMDATABASE natives — no bespoke crossover/flag-then-validate script pair; entitlement gating is not script-visible; award `0x521563CC` lead refuted (generic MP gate) | LIVE (negative) | [known-facts.md](findings/known-facts.md) · [#90](sources/sources.md) |
 
 ---
 
@@ -118,6 +119,7 @@ Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted.
 | U38 | What produces the [K40] **second feather**, given `DrawableArrayCount = 0`? Separate entity (could vary per web) vs strand geometry (could not) | LIVE (cheap, file-side) | [unknowns.md](findings/unknowns.md) · [K46](findings/known-facts.md) |
 | U39 | Do Fort Wallace's staggered 21/22/23/00 building hours mean anything, or is the ladder a reused Rockstar pattern? (settles [S47]) | LIVE (deflation-leaning) | [unknowns.md](findings/unknowns.md) · [K50](findings/known-facts.md) |
 | U40 | ⚠️ Is "the 8 webs reuse 4 `cablemesh` models" WRONG? Those 4 names read as the **centre** cluster ([K51]) and the census is 1:1 archetype:placement — if so, per-web STRAND geometry is an unread channel | LIVE (cheap, file-side) | [unknowns.md](findings/unknowns.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) |
+| U41 | Does the item-database/`catalog` metadata hold an award/unlock mapping to no known unlock? (the only place a script-invisible gate could hide; CodeX catalog-parse unverified) | LIVE (low prior, file-side) | [unknowns.md](findings/unknowns.md) · [K53](findings/known-facts.md) |
 
 ---
 

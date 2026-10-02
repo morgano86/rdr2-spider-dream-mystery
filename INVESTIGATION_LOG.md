@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 1 of 12 — crossover-gun entitlement census, [#90]) — [K53] minted: RDR2 scripts only READ awards/unlocks; entitlement gating is not script-visible; the `0x521563CC` award lead is refuted
+
+**What we did.** First of 12 staged findings notes from `tmp_uploads/` (2026-07-23, investigator's `ScriptDiag` harness). Filed verbatim as source [#90] (`sources/codex-script-census-2026-07-23-crossover-gun-entitlement.md`).
+
+**What we learned.** Testing the idea that hidden content might be gated behind an online round-trip, using the Double-Action Revolver crossover as the real example: **no bespoke crossover script exists**; the gun rides the generic shop/award path and the award→item mapping lives in catalog/item-database metadata, not bytecode ([K53]). An external research lead (award `0x521563CC` = the revolver) was **refuted** — it is a generic MP claim gate. So script-side searching cannot see an entitlement gate; only a data-side catalog diff could ([U41], low prior).
+
+**What changed.** [K53], [U41], source #90, INDEX rows. Nothing touches the verified-trail boundary; [U2] unchanged.
+
 ## 2026-09-01 (CodeX file-readout integration — [#89]) — 8 K-facts from the shipped game files: no hidden order field, the "boundaries" are ordinary ymap streaming extents ([H28], supersedes [S36]), a hard 6-feather cap that kills the all-blacks-visible solve, and the centre web + Butcher Creek pentagram pinned as named assets
 
 **What we did.** Pulled in two findings handoffs plus four renders the user had staged in `tmp_uploads/` from the **CodeX** side (a separate local repo — an RDR2 archive/asset explorer + 3D scene viewer), produced by a diagnostic harness booting CodeX's real archive/resource loader against the shipped `.ytyp`/`.ymap`/`.yft` binaries. Filed them as source **[#89]** (`sources/codex-file-readout-2026-07-23-*.md`, images renamed to the repo convention as `images/webs/web_ymap-extents_*.png`), then integrated end-to-end: minted **[K45]–[K52]**, **[U36]–[U40]**, **[H28]**, **[S47]**, and pushed the corrections through every file each touched ID appears in. Tiering per CLAUDE.md: **A for raw file contents** (a direct binary read, not a datamine repost), **[SPECULATION] for the why-it-behaves-that-way inference** ([H28]), flagged at each use.
