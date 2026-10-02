@@ -100,4 +100,4 @@ Conclusion: the appearance layer is fully enumerable and entirely cosmetic-facin
 
 - Component-category hashes that resolve against neither `Codex.Games.RDR2.strings.txt` nor a 532k-entry vocabulary built from the corpus's own string literals: `-134124598`, `494009478`, `2071466316`, `-1968556728`, `-1455751347`, `43391475`, `149557334`, `1522539835`, `694822476`, `-1033766886`, `81053684`. (`-2061583405` = hats and `-525676072` = masks are known by usage, not by name.) Cracking them needs the item-database / metaped metadata, not the script corpus.
 - The `FTELL_*` **subtitle text** itself lives in the localised speech DB (the user's `WayJaCA_0x22639BA2` entry). Enumerating every reading per category is a text-DB job — the Explorer's new Subtitle Search is the right tool.
-- Per-mask NPC speech variation, if any, is in the audio speech layer (`speech2.dat14`) — partially decoded, see `tasks/completed/2026-07-26-audio-rel-layer.md`.
+- Per-mask NPC speech variation, if any, is in the audio speech layer (`speech2.dat14`) — partially decoded (readout not published in this repo).

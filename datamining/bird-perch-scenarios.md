@@ -70,7 +70,7 @@ All five carved Butcher Creek outhouses have a `world_human_pee` point **1.1–1
 
 ## Follow-ups
 
-- `tasks/todo/2026-09-19-scenario-type-hashes.md` — crack the unresolved scenario type and flag names, starting with `0x02635C96` (24,180 points).
+- Open follow-up: crack the unresolved scenario type and flag names, starting with `0x02635C96` (24,180 points).
 
 ## Docs updated
 

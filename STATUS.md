@@ -8,7 +8,7 @@ The operational dashboard. **This is the single entry point each session**: wher
 >
 > **Update 2026-09-01 (file data, [#89]):** the **mechanical** picture just got much harder-edged and more deflationary. The feather data contains **no hidden order field** ([K46]/[K47]), the "designed" reset boundaries are **ordinary ymap streaming extents** ([K48]/[H28], superseding [S36]), and their geometry makes **"all 5 blacks visibly down" impossible** ([K49]). Net: the shooting-input family of solutions now survives only in **hidden-flag** form, which raises the standing of **[H27]** (the webs are a read layer, not a shooting puzzle). None of this touches the verified-trail boundary — it is all upstream of [K16].
 
-- **Best one-paragraph understanding:** see [README.md](README.md#one-paragraph-summary-of-the-current-best-understanding).
+- **Best one-paragraph understanding:** see [README.md](README.md#the-best-current-understanding).
 - **Last verified clue / working frontier:** the **Fort Wallace bird carvings** ([K16]) → [thread 06](threads/06-bird-carving-giant-wapiti.md); glyph referent/symbolism deep-dive → [fort-wallace-bird-carving.md](analysis/fort-wallace-bird-carving.md) ([S24] eagles/"Eagle Flies", *symbolism only — place-check negative* / [S25] label-not-cipher / [H23] the birds pattern with the verified **static-carving class** — non-time-gating is shared by all wood carvings, ⚠️ not distinguishing). Past them (Calumet / Giant / "?" / Bacchus heart) is **contested**, not the established trail.
 
 ---
