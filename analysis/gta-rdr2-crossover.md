@@ -6,7 +6,7 @@
 
 ---
 
-## Confirmed timeline (the load-bearing fact)
+## Confirmed timeline (the key fact)
 
 | Date | Event | What it contains | Source |
 |------|-------|------------------|--------|

@@ -147,7 +147,7 @@ def main():
     p("Systematic battery on the **confirmed** string `1237645112` ([K23], B-tier) plus")
     p("the **provisional** tail ([U6], transcription-only). Tests U6/S5. Per the #43 hoax")
     p("expose's own warning -- *\"you can get any result if you pick the right numbers\"* --")
-    p("every positive below is **coincidence-prone [SPECULATION]**; the load-bearing result")
+    p("every positive below is **coincidence-prone [SPECULATION]**; the key result")
     p("is the **null landscape**. Nothing here is promoted; upstream of the [K16] frontier.")
     p("")
     p(f"- CONFIRMED [K23]: `{CONFIRMED}`  (opening seven `{OPENING7}` solid under any parsing)")

@@ -55,7 +55,7 @@ MARK_BY_LABEL = {label: pair for label, pair, _ in MARKINGS}
 #   hybrid            -- LJ, SM, EC   : EC sits by the Black Widow spider card, so it
 #                                       groups UP toward the carved pair (spider-flagged).
 #   jplusM_node       -- J+M     : singled out -- its LOCATION (Cornwall K&T) is itself
-#                                   the web-trail START node, so it is load-bearing.
+#                                   the web-trail START node, so it is essential.
 GROUPS = {
     "group1_carved":     ["LJ", "SM"],
     "group2_matchstick": ["EC", "J+M", "S+J"],

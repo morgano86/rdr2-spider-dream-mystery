@@ -62,7 +62,7 @@ The point that *matters here*: **the relay verdict is invariant to (b)'s outcome
 - Under [H24]/[H20]/[H22], they are an interactive stage *reached by* the relay — one puzzle with a mechanical layer.
 - Even [H22]-R3 ("no combine") splits the web *groups from each other*, not the trail from the 2018 chain.
 
-Separately, the **mechanical bridge** speculations ([S22]/[H21]: the oversized `B34` boundary reaching Butcher Creek + Fort Brennand; [S35]: the Strange Man shack as the southern twin) would, if ever confirmed, extend "one puzzle" from the narrative layer down to the **state layer**. They stay [SPECULATION] and are *not* load-bearing for §2's verdict.
+Separately, the **mechanical bridge** speculations ([S22]/[H21]: the oversized `B34` boundary reaching Butcher Creek + Fort Brennand; [S35]: the Strange Man shack as the southern twin) would, if ever confirmed, extend "one puzzle" from the narrative layer down to the **state layer**. They stay [SPECULATION] and are *not* key for §2's verdict.
 
 ---
 

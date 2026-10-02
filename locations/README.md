@@ -2,7 +2,7 @@
 
 One file per location that the mystery touches. Each dossier captures: **geography** (region, nearest landmark, coords), **in-world role / lore**, **story missions on-site**, **the mystery clue(s) physically present**, and **theories**. Tagged KNOWN / UNKNOWN / SPECULATION like everything else.
 
-Why this matters: the clue chain is a **tour of specific places**, and several are load-bearing in the game's Native arc (see [analysis/narrative-connection.md](../analysis/narrative-connection.md)). Understanding each place may reveal *why* it's a node.
+Why this matters: the clue chain is a **tour of specific places**, and several are central to the game's Native arc (see [analysis/narrative-connection.md](../analysis/narrative-connection.md)). Understanding each place may reveal *why* it's a node.
 
 ## Index & node summary
 

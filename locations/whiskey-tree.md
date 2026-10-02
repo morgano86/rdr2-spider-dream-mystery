@@ -14,6 +14,6 @@
 ## Open questions / to verify
 - [ ] Do the fire-pit hues at the whiskey tree, Fort Brennand, and the Butcher Creek pentagram **actually match** a single emissive value / asset (vs an eyeball match)? Do other mystery POIs carry the same pit?
 - [ ] Exact map coordinates; confirm the high-vantage line of sight to the web poles.
-- [ ] Is the overlap-zone position load-bearing for any state-carry mechanic ([H20]/[H21]), or incidental?
+- [ ] Is the overlap-zone position key for any state-carry mechanic ([H20]/[H21]), or incidental?
 
 > Sources: firsthand investigator observation, 2026-06-14 (high-trust per CLAUDE.md; undocumented online). Ties [S23], [K28], [K5]. See [WEBS-MANIFEST](../images/webs/WEBS-MANIFEST.md) for the boundary geometry.

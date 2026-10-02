@@ -12,7 +12,7 @@ gnomon's shadow at a specific time + cardinal; yellow appears once, uniquely at
 bearings as pointers, colour as a key), or is it faithful sundial set-dressing
 ([S32]'s deflationary counter)?
 
-Structure of the problem (the load-bearing observation):
+Structure of the problem (the key observation):
   On a physical gnomon dial the shadow bearing is a FUNCTION of the time
   (bearing = f(time; latitude, season)). If the observed arrows fit real solar
   geometry, the bearing layer carries NO free information — an arrow cannot be

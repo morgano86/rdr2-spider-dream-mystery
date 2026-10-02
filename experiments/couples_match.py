@@ -123,7 +123,7 @@ def report():
           "   (post-hoc statistic -- weigh accordingly)")
     print()
     print("READ: the initial matches alone are CHEAP (J is the commonest initial in")
-    print("the pool). The load-bearing observations are structural, outside the null:")
+    print("the pool). The key observations are structural, outside the null:")
     print("  1. Styling alignment: the two markings drawn WITH the lovers' '+' are")
     print("     exactly the two with canonical couple readings; the three bare ones")
     print("     have none. The styling rule was fixed BEFORE the couples were sought.")

@@ -1,6 +1,6 @@
 # Result -- Gertrude's numbers cipher harness (`gertrude_cipher.py`)
 
-Systematic battery on the **confirmed** string `1237645112` ([K23], B-tier) plus the **provisional** tail ([U6], transcription-only). Tests U6/S5. Per the #43 hoax expose's own warning -- *"you can get any result if you pick the right numbers"* -- every positive below is **coincidence-prone [SPECULATION]**; the load-bearing result is the **null landscape**. Nothing here is promoted; upstream of the [K16] frontier.
+Systematic battery on the **confirmed** string `1237645112` ([K23], B-tier) plus the **provisional** tail ([U6], transcription-only). Tests U6/S5. Per the #43 hoax expose's own warning -- *"you can get any result if you pick the right numbers"* -- every positive below is **coincidence-prone [SPECULATION]**; the key result is the **null landscape**. Nothing here is promoted; upstream of the [K16] frontier.
 
 - CONFIRMED [K23]: `[1, 2, 3, 7, 6, 4, 5, 1, 1, 2]`  (opening seven `[1, 2, 3, 7, 6, 4, 5]` solid under any parsing)
 - PROVISIONAL [U6]: `[1, 2, 3, 7, 6, 4, 5, 11, 2, 1, 2, 10, 3]`  (tail transcription-only -- do not trust)

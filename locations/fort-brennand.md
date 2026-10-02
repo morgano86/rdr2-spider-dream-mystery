@@ -17,7 +17,7 @@
 - **No Native-arc tie.** Only mission link is an optional **bounty** (Lemoyne Raiders leader Lindsey Wofford). Its backstory is a **Civil War massacre** (1863): surrendering Union soldiers executed and burned.
 
 ## Why it matters — and the caveat
-- It's a **load-bearing mystery node** (carries the tallies + the 3 pointing symbols) but the **weakest story node** — it **breaks the clean "follow the Wapiti plot" theory**. This argues the node-selection logic is **geographic/atmospheric** (army forts + industrial sites in NW New Hanover), not strictly narrative. See [narrative-connection.md](../analysis/narrative-connection.md).
+- It's a **key mystery node** (carries the tallies + the 3 pointing symbols) but the **weakest story node** — it **breaks the clean "follow the Wapiti plot" theory**. This argues the node-selection logic is **geographic/atmospheric** (army forts + industrial sites in NW New Hanover), not strictly narrative. See [narrative-connection.md](../analysis/narrative-connection.md).
 
 ## Open question
 - **Why 6 and 7?** Butcher Creek used tallies 1–5; Fort Brennand continues **6, 7**. Is the running count itself a key? (Cross-ref Gertrude's numbers, which reach ~10–11 — thread [04](../threads/04-gertrude-numbers.md).)
