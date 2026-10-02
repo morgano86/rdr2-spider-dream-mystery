@@ -90,8 +90,9 @@ Every location has a dossier in [`locations/`](locations/README.md).
 ## Notes on provenance and rights
 
 - This project is an independent fan investigation and is **not affiliated with or endorsed by Rockstar Games or Take-Two Interactive**. *Red Dead Redemption 2* and its assets are © Rockstar Games; screenshots and short excerpts are used for commentary and research.
-- Community wiki text saved under [`sources/`](sources/) comes from the Red Dead Wiki on Fandom (CC BY-SA) and is attributed in-file; community posts and videos are cited by source and graded **C**.
+- Community wiki text saved under [`sources/`](sources/) comes from the Red Dead Wiki on Fandom (CC BY-SA) and is attributed in-file and keeps its own license; community posts and videos are cited by source and graded **C**.
 - Some findings rest on data read from a legitimately installed copy of the game (archives and decompiled scripts) using the investigator's own tooling, and on public third-party script dumps; each is labelled with how it was obtained in [`sources/sources.md`](sources/sources.md).
+- **License:** original prose and analysis are **CC BY-SA 4.0**, code is **MIT** — see [`LICENSE`](LICENSE) for the split and for what is *not* covered (game assets, wiki text, community posts).
 - `CLAUDE.md` holds the working rules for the AI assistant used on this project; the same rules are summarised for human contributors in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 *This is a living investigation. Claims are re-tagged as evidence changes, and the history is kept rather than erased.*

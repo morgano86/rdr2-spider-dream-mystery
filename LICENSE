@@ -1,0 +1,32 @@
+This repository uses two licenses, split by content type, and excludes
+third-party material (see "Not covered" below).
+
+1. WRITTEN WORK - Creative Commons Attribution-ShareAlike 4.0 International
+   (CC BY-SA 4.0). Full text: LICENSES/CC-BY-SA-4.0.txt
+   Applies to the original prose, analysis, tables, findings and
+   investigator-made screenshots in: README.md, GLOSSARY.md, CONTRIBUTING.md,
+   STATUS.md, INDEX.md, EVIDENCE-CHECKLIST.md, INVESTIGATION_LOG.md,
+   threads/, findings/, analysis/, locations/, the original text in sources/
+   and images/, and the result write-ups in experiments/results/.
+   Credit as: "RDR2 Spider Dream Mystery investigation (morgano86 and
+   contributors), https://github.com/morgano86/rdr2-spider-dream-mystery".
+
+2. CODE - MIT License. Full text: LICENSES/MIT.txt
+   Applies to the Python scripts in experiments/ and tools/.
+
+NOT COVERED (these remain under their owners' rights or licenses):
+ - Red Dead Redemption 2 and all game assets, text, audio, models and
+   screenshots of them are (c) Rockstar Games / Take-Two Interactive. They
+   appear here for commentary and research. This project is not affiliated
+   with or endorsed by Rockstar or Take-Two.
+ - Red Dead Wiki (Fandom) text saved under sources/ is (c) its contributors
+   and licensed CC BY-SA (https://www.fandom.com/licensing). It is attributed
+   in each file.
+ - Quoted or archived community material (Reddit posts, forum threads,
+   videos, news articles, third-party script dumps) belongs to its authors
+   and is cited in sources/sources.md.
+ - sources/rdr2-credits.txt is a transcription of the game's credits.
+ - Images that other people made or supplied are credited in images/README.md
+   and keep their authors' rights.
+If you are a rights holder and want something removed or credited
+differently, open an issue.

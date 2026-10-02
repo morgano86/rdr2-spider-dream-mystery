@@ -1,5 +1,7 @@
 # PRIMARY SOURCE — Red Dead Wiki: "Spider Dream Mystery" (full text)
 
+> **Attribution & license:** text below is from the Red Dead Wiki on Fandom, *Spider Dream Mystery* (https://reddead.fandom.com/wiki/Spider_Dream_Mystery), by its wiki contributors (see the page history for authorship), used under **CC BY-SA** (https://www.fandom.com/licensing). Our transcription/cleanup stays under the same license; this file is **not** covered by the repo's other license terms.
+
 Retrieved **2026-06-13** via the Fandom MediaWiki API (`action=parse`, the web page itself 403s). This is the authoritative community page. Raw JSON preserved alongside as [`spider_dream_api.json`](spider_dream_api.json). Cleaned/transcribed below; gallery captions kept because they pin what each downloaded image shows.
 
 > The '''Spider Dream Mystery''' is an Easter egg and unsolved mystery in *Red Dead Redemption 2* and *Red Dead Online*.
