@@ -74,6 +74,7 @@ Home for all: [findings/known-facts.md](findings/known-facts.md) (rollup) ↔ th
 | K55 | Meteor shower = scenario-point–launched SCRIPT event (5 m volume, 02:00–03:59, once/save, no weather/RNG, off-journal); three-way sweep finds no 2nd hidden sky event — a script layer the archetype census can't see (scopes [K50]) | LIVE | [known-facts.md](findings/known-facts.md) · [#92](sources/sources.md) |
 | K56 | Player appearance (masks/hats/weight/hair/dirt/honor) gates nothing in scripts — only dialogue lines/animscene variants; fortune teller = `discoverable_generic_corpse` (Circus Wagons); a closed channel | LIVE (negative) | [known-facts.md](findings/known-facts.md) · [#93](sources/sources.md) |
 | K57 | The Wapiti hillside "smoke" = a map-placed geyser-steam emitter on a buried `reg_bgv_vfx_proxy` cube (ordinary set dressing; "symbols" = fog puffs; no timing, no signal, no script) — a deflated side lead | LIVE (closed negative) | [known-facts.md](findings/known-facts.md) · [#94](sources/sources.md) · [Wapiti](locations/calumet-ravine-wapiti.md) |
+| K58 | `WB_DISCO_OLD_FIREPIT` = ordinary 3-site walk-in discovery (not a lead; 3 coords on file); discovery system generic + telemetered; `mudtown3` kill-witness → `EASEL` bit 31 → `stranger_cryptic_lives/dies` (refines [U35]) | LIVE | [known-facts.md](findings/known-facts.md) · [#95](sources/sources.md) · [strange-man-shack](locations/strange-man-shack.md) |
 
 ---
 

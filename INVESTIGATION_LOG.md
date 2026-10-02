@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 6 of 12 — `WB_DISCO_OLD_FIREPIT`, [#95]) — [K58] minted: ordinary discovery, not a lead; the Strange Man portrait's lives/dies fork comes from the `mudtown3` kill-witness choice
+
+**What we did.** Filed the 2026-09-14 firepit decode as source [#95]; minted [K58]; added the portrait-variant note to the Strange Man dossier.
+
+**What we learned.** `WB_DISCO_OLD_FIREPIT` is a 3-site walk-in discovery (Heartlands, Roanoke, Cholla Springs) with no journal/region/time/weather gate; all discovery types report telemetry. The side find that matters: `mudtown3`'s kill-witness outcome sets bit 31 of the easel discovery slot, which selects `stranger_cryptic_dies` vs `_lives` — settling the cause of the previously undocumented variant noted at [U35]. CodeX already carries the scenario-point type, correcting the [#92] follow-up.
+
+**What changed.** [K58], source #95, INDEX, Strange Man dossier. No spider tie; boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 5 of 12 — Wapiti "smoke" decoded, [#94]) — [K57] minted: a script-less geyser-steam emitter on a buried proxy cube; the "symbols" lead is deflated
 
 **What we did.** Filed the 2026-09-14 CodeX decode of the ~2019 "smoke from an empty hillside near Wapiti" report as source [#94]; minted [K57]; added a pointer on the Wapiti location dossier.
