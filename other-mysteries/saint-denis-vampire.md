@@ -73,7 +73,7 @@ Read in discovery order, the chain's difficulty rises monotonically and the **ki
 
 The Vampire egg is **fully documented in the in-game journal** (it writes the clue texts down, sketches their locations, and **auto-draws the solving pentagram**). The spider mystery, by contrast, has **no in-game tracking of any kind** ([K20]). So Rockstar demonstrably **does** surface its solved eggs in the journal when it wants to — which makes the spider trail's **total absence** of any journal/log/counter a **meaningful difference in kind**: either the spider egg is deliberately the "graduate-level," untracked one (consistent with [H16]), or it is unfinished ([U2]). **Record both; assert neither.**
 
-### GTA crossover note (bears on [S8] / the [gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md) channel)
+### GTA crossover note (bears on [S8] / the [gta-rdr2-crossover.md](gta-rdr2-crossover.md) channel)
 
 The Red Dead Wiki itself flags that the Vampire's **five wall-writings** mirror the **GTA V "Murder Mystery"** (also solved by finding **mysterious writing on walls**), and links the occult/pentagram framing to a **GTA: Vice City** radio segment about the occult and "the truth of the pentagram." This is one more instance of the **established GTA↔RDR shared-mechanic channel** ([K23]/[K24]) — Rockstar re-using a puzzle grammar across its games — and is logged with the other crossovers, not leaned on.
 

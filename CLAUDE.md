@@ -43,7 +43,8 @@ The trail has a hard line between what is **verified** and what is **contested**
 
 **The corpus:**
 - **`threads/01–07`** — one investigative thread each; the primary unit of detail. (07 is adjacent context: the gang-roster name list.)
-- **`other-mysteries/`** — **separate** RDR2 eggs held at the boundary, not trail steps (Francis Sinclair mural, Mount Shann sundial) plus the solved precedents (Dreamcatchers, Saint Denis Vampire). Keep them out of the spider chain unless a verified link is sourced.
+- **`other-mysteries/`** — **separate** RDR2 eggs held at the boundary, not trail steps (Francis Sinclair mural, Mount Shann sundial), decoded spectacles (ghost train/UFOs, meteor shower, Witch's Cauldron, Wapiti smoke), the GTA crossover, and the solved precedents (Dreamcatchers, Saint Denis Vampire). Keep them out of the spider chain unless a verified link is sourced.
+- **`datamining/`** — verbatim handoff notes from game-file / decompiled-script readouts (sources [#89]–[#101]); the K-facts they support live in `findings/known-facts.md`. New readouts go here, with a row in `datamining/README.md` and a ledger entry in `sources/sources.md`.
 - **`findings/`** — cross-thread rollups (`known-facts.md`, `unknowns.md`, `speculation.md`). These **aggregate** the threads, so they must stay in sync: a fact stated in a thread should be reflected here and vice-versa.
 - **`analysis/`** — working theories (letter/number connections, carving-vs-pareidolia test, narrative tie, cheat codes).
 - **`experiments/`** — the one place we run **code instead of prose**: small Python scripts that *test* findings when the question is combinatorial/cipher/geometry/likelihood and reasoning isn't enough. See [`experiments/README.md`](experiments/README.md).

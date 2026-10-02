@@ -64,7 +64,7 @@ The *Mysterious Sermon* has **7 substantive lines** (plus a closing benediction)
 
 ---
 
-*Cross-refs: [K24]/[gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md) (the spider↔GTA V Chiliad link this shares), [K11] (spider centre webs, 1–2 AM), [H13]/[carving-technique.md](../analysis/carving-technique.md) (the "near-invisible, time-gated" signature [S32] echoes), [Francis Sinclair egg](francis-sinclair-mural.md) (the Rock Carving on the same mountain), [S20] (the corpus's number-motif discipline). Location dossier: [other-mysteries/mount-shann-sundial.md](mount-shann-sundial.md). Registry rows: [INDEX.md](../INDEX.md). Rollups: [known-facts](../findings/known-facts.md) · [unknowns](../findings/unknowns.md) · [speculation](../findings/speculation.md).* 
+*Cross-refs: [K24]/[gta-rdr2-crossover.md](gta-rdr2-crossover.md) (the spider↔GTA V Chiliad link this shares), [K11] (spider centre webs, 1–2 AM), [H13]/[carving-technique.md](../analysis/carving-technique.md) (the "near-invisible, time-gated" signature [S32] echoes), [Francis Sinclair egg](francis-sinclair-mural.md) (the Rock Carving on the same mountain), [S20] (the corpus's number-motif discipline). Location dossier: [other-mysteries/mount-shann-sundial.md](mount-shann-sundial.md). Registry rows: [INDEX.md](../INDEX.md). Rollups: [known-facts](../findings/known-facts.md) · [unknowns](../findings/unknowns.md) · [speculation](../findings/speculation.md).* 
 ---
 
 ## Location dossier — Mount Shann

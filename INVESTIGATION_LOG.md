@@ -94,7 +94,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 ## 2026-10-02 (crossover-gun entitlement census, [#90]) — [K53] minted: RDR2 scripts only READ awards/unlocks; entitlement gating is not script-visible; the `0x521563CC` award lead is refuted
 
-**What we did.** First of 12 findings notes (2026-07-23, investigator's `ScriptDiag` harness). Filed verbatim as source [#90] (`sources/codex-script-census-2026-07-23-crossover-gun-entitlement.md`).
+**What we did.** First of 12 findings notes (2026-07-23, investigator's `ScriptDiag` harness). Filed verbatim as source [#90] (`datamining/codex-script-census-2026-07-23-crossover-gun-entitlement.md`).
 
 **What we learned.** Testing the idea that hidden content might be gated behind an online round-trip, using the Double-Action Revolver crossover as the real example: **no bespoke crossover script exists**; the gun rides the generic shop/award path and the award→item mapping lives in catalog/item-database metadata, not bytecode ([K53]). An external research lead (award `0x521563CC` = the revolver) was **refuted** — it is a generic MP claim gate. So script-side searching cannot see an entitlement gate; only a data-side catalog diff could ([U41], low prior).
 
@@ -759,7 +759,7 @@ Propagated: H22 (INDEX, speculation, connections §5a), STATUS 🎮 favoured-pro
 **Three leads formalised (user steer: "go with what best represents finding a solution"; all C-tier, tagged accordingly):**
 1. **Cardinal-dimorphism theory** ("Zoological") → minted **[S15]**: web feathers = Northern Cardinal (♂ red / ♀ brown-dark), matching the dreamcatcher-outfit hat — a *deflationary rival* to the colour-cipher reading (S12/[H3]/[H5]). **Caveat noted:** dimorphism is red-vs-brown but the files call the dark feathers **black** ([K13]); theory must reconcile. Kept the ♀-cardinal reference image.
 2. **Gamedev datamine** (u/C0d3M3chan1c, removed) → attached as sourced evidence (no new ID): *feathers reuse the dreamcatcher props' exact particle config* → strengthens [H8]/[K20] (in [dreamcatchers.md](other-mysteries/dreamcatchers.md)); **two flags checked but never set** → cut-content lead on **[U2]** (in [unknowns.md](findings/unknowns.md)). Flagged unverifiable (post deleted).
-3. **Butcher Creek datamine names** (u/fireflighTim) → corroboration note on **[K24]** (in [gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md)): entity names `but_pignpole07x###`, `but_01 outhouse cliff 000–004`, `but_01_magicstuff001` confirm the cable/telegraph asset-folder grouping. Kept the two datamine-name maps; the gallery's pentagram/constellation overlays **not** adopted (one-author speculation).
+3. **Butcher Creek datamine names** (u/fireflighTim) → corroboration note on **[K24]** (in [gta-rdr2-crossover.md](other-mysteries/gta-rdr2-crossover.md)): entity names `but_pignpole07x###`, `but_01 outhouse cliff 000–004`, `but_01_magicstuff001` confirm the cable/telegraph asset-folder grouping. Kept the two datamine-name maps; the gallery's pentagram/constellation overlays **not** adopted (one-author speculation).
 
 **Changed:** new ID **[S15]** (INDEX + speculation.md); evidence notes on [U2], [H8]/[K20] (dreamcatchers.md), [K24] (gta-rdr2-crossover.md); 5 images filed (2 feather + cardinal ref + 2 datamine maps) with provenance in images/README; WEBS-MANIFEST orientation note + still-wanted #1; sources #51–53; this log.
 
@@ -792,7 +792,7 @@ Propagated: H22 (INDEX, speculation, connections §5a), STATUS 🎮 favoured-pro
 - **[K24] new** — **GTA V's two Mt Chiliad spider-webs are base-game since the 2013 launch, not DLC** (1–2 AM, by the cable-car/mural; "untouched for over a decade"); **same cable shader** as RDR2's webs; link surfaced **~Jan 2026 (Oddheader)**. So the webs in **both** games are original-to-launch; only the Nazar number callback was added later. *(Dexerto — #45.)* → answers part of [U18].
 - **Nazar's machine names real RDR2 places absent from GTA V's map** — incl. **Window Rock, Roanoke Ridge, Grizzlies, Strange Man**, the *"web…unraveling"* fortune ([U19], now confirmed a real line), and the number ([K23]). Logged as **[S14]** — flagged **weak** (Nazar references ~16+ RDR places map-wide; overlap partly expected by chance). *(gtaboom — #44.)*
 
-**New file: [analysis/gta-rdr2-crossover.md](analysis/gta-rdr2-crossover.md)** — the crossover dossier (timeline, fortune list, Mt Chiliad webs, what it does/doesn't prove). **Propagated** the correction across K23/K24/S14, U6/U18/U19, connections §2/§3/§6, speculation S4/S5/S8/H2 + new S14, STATUS, EVIDENCE-CHECKLIST, README, Braithwaite Manor; **sources #44–46** added.
+**New file: [other-mysteries/gta-rdr2-crossover.md](other-mysteries/gta-rdr2-crossover.md)** — the crossover dossier (timeline, fortune list, Mt Chiliad webs, what it does/doesn't prove). **Propagated** the correction across K23/K24/S14, U6/U18/U19, connections §2/§3/§6, speculation S4/S5/S8/H2 + new S14, STATUS, EVIDENCE-CHECKLIST, README, Braithwaite Manor; **sources #44–46** added.
 
 **Net:** the crossover **raises confidence the material is deliberate**; the decode/payoff is **as open as before**.
 

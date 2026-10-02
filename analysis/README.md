@@ -14,9 +14,8 @@ Working theories, method notes and precedents. **Nothing here is established fac
 | [`decoy-and-dream-hypotheses.md`](decoy-and-dream-hypotheses.md) | A fresh-eyes pass: the reds-as-decoys reading ([H24]) and the dream-trigger idea ([H25]). |
 | [`one-puzzle-or-two.md`](one-puzzle-or-two.md) | Adjudicates whether the 2018 carving chain and the 2025 web trail are one designed relay ([S41]). |
 | [`narrative-connection.md`](narrative-connection.md) | Whether the mystery's locations map onto the Native storyline (Rains Fall / Eagle Flies / Wapiti). |
-| [`gta-rdr2-crossover.md`](gta-rdr2-crossover.md) | Links between Gertrude's numbers, Madam Nazar and GTA V / GTA Online — and what they don't prove. |
 | [`cheat-codes.md`](cheat-codes.md) | Catalogue of RDR2 cheat-code phrases (incl. the carved "KEEP YOUR DREAMS LIGHT") and their thematic resonance. |
 
-The solved precedents (Dreamcatchers, Saint Denis Vampire) and the separate eggs now live in [`../other-mysteries/`](../other-mysteries/README.md).
+The solved precedents (Dreamcatchers, Saint Denis Vampire), the GTA crossover dossier and the separate eggs live in [`../other-mysteries/`](../other-mysteries/README.md).
 
 Scripts that test these ideas live in [`../experiments/`](../experiments/).
