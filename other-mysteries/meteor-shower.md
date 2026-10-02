@@ -6,7 +6,7 @@
 
 ## [KNOWN]
 
-*Source: [#92](../sources/sources.md) — script-corpus decode, 2026-09-01; B-tier (decompiled build 1491.50), **not verified in-game**. Readout: [`script-census-2026-09-01-meteor-shower-mechanism.md`](../datamining/script-census-2026-09-01-meteor-shower-mechanism.md). Rollup: [K55](../findings/known-facts.md).*
+*Source: [#92](../sources/sources.md) — script-corpus decode, 2026-09-01; B-tier (decompiled build 1491.50), **not verified in-game**. Readout: [`meteor-shower-mechanism.md`](../datamining/meteor-shower-mechanism.md). Rollup: [K55](../findings/known-facts.md).*
 
 - **Mechanism.** `discoverable_meteor_shower.ysc` is started by a `WB_DISCO_METEOR_SHOWER` scenario point (not a director script, not a placed entity). Standing in a **5 m cylinder** (`METEOR_SHOWER_CLIFF_SPAWN`) at (2383.7, 2032.6, 171.7) — 97 m from the Meteor House, on the cliff — during **hour 02:00–03:59** starts a looped particle effect (`scr_disc_meteor_shower`) parked in the sky at (2895.9, 1650.2, 1000.9), bearing 127° SE and 52° up, running for 60 s.
 - **Constraints.** **Once per save file; no weather condition; no randomness** — the community's "it's a possibility" is just the tiny volume plus the two-hour window.

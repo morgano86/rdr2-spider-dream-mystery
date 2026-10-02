@@ -94,7 +94,7 @@ Chronological record. Newest entries at the top. Keep it terse: what we did, wha
 
 ## 2026-10-02 (crossover-gun entitlement census, [#90]) — [K53] minted: RDR2 scripts only READ awards/unlocks; entitlement gating is not script-visible; the `0x521563CC` award lead is refuted
 
-**What we did.** First of 12 findings notes (2026-07-23, investigator's `ScriptDiag` harness). Filed verbatim as source [#90] (`datamining/codex-script-census-2026-07-23-crossover-gun-entitlement.md`).
+**What we did.** First of 12 findings notes (2026-07-23, investigator's `ScriptDiag` harness). Filed verbatim as source [#90] (`datamining/crossover-gun-entitlement.md`).
 
 **What we learned.** Testing the idea that hidden content might be gated behind an online round-trip, using the Double-Action Revolver crossover as the real example: **no bespoke crossover script exists**; the gun rides the generic shop/award path and the award→item mapping lives in catalog/item-database metadata, not bytecode ([K53]). An external research lead (award `0x521563CC` = the revolver) was **refuted** — it is a generic MP claim gate. So script-side searching cannot see an entitlement gate; only a data-side catalog diff could ([U41], low prior).
 

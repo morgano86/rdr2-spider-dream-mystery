@@ -6,7 +6,7 @@
 
 ## [KNOWN]
 
-*Source: [#96](../sources/sources.md) — script + file decode, 2026-09-15; B/A as noted; a **script-level answer, not run in-game**. Readout: [`script-census-2026-09-15-witches-cauldron-brew.md`](../datamining/script-census-2026-09-15-witches-cauldron-brew.md). Rollup: [K59](../findings/known-facts.md).*
+*Source: [#96](../sources/sources.md) — script + file decode, 2026-09-15; B/A as noted; a **script-level answer, not run in-game**. Readout: [`witches-cauldron-brew.md`](../datamining/witches-cauldron-brew.md). Rollup: [K59](../findings/known-facts.md).*
 
 - **The brew does nothing mechanical beyond a short teleport and a flag.** `WB_DISCO_WITCHES_CAULDRON` (id `1464664327`, save slot 129, a scenario point at (1182.75, 2035.95, 323.26) in `disco_grze.ymt`, run by `discoverable_generic_location.ysc`): drinking plays a scenario, fades out, **teleports the player ~53 m** to (1227.19, 2007.39, 319.34), lying on the ground for 3 s with the horse placed nearby, fades in, and sets the discovery-complete bit.
 - **No stat changes.** No health, stamina, Dead Eye, core, illness, clock, weather, item, money or honor change (call-graph reachability checked).

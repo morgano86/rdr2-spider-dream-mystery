@@ -28,7 +28,7 @@ Things players have long wondered about, since explained (or narrowed) by readin
 
 | File | What it is |
 |---|---|
-| [`gta-rdr2-crossover.md`](gta-rdr2-crossover.md) | How Gertrude's numbers, Madam Nazar's fortune and the GTA V Mount Chiliad nod link RDR2 and the GTA franchise — and what that does and doesn't prove ([K23], [K24]). See also the entitlement readout in [`../datamining/`](../datamining/codex-script-census-2026-07-23-crossover-gun-entitlement.md) ([K53]). |
+| [`gta-rdr2-crossover.md`](gta-rdr2-crossover.md) | How Gertrude's numbers, Madam Nazar's fortune and the GTA V Mount Chiliad nod link RDR2 and the GTA franchise — and what that does and doesn't prove ([K23], [K24]). See also the entitlement readout in [`../datamining/`](../datamining/crossover-gun-entitlement.md) ([K53]). |
 
 ## Solved precedents (same grammar as the spider trail)
 

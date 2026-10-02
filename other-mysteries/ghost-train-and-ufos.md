@@ -8,7 +8,7 @@
 
 ## [KNOWN]
 
-*Source: [#91](../sources/sources.md) — script-corpus decode, 2026-09-01; B-tier (decompiled build 1491.50), not run in-game. Readout: [`script-census-2026-09-01-ghost-train-and-ufo-mechanisms.md`](../datamining/script-census-2026-09-01-ghost-train-and-ufo-mechanisms.md). Rollup: [K54](../findings/known-facts.md), refining [K37](../findings/known-facts.md).*
+*Source: [#91](../sources/sources.md) — script-corpus decode, 2026-09-01; B-tier (decompiled build 1491.50), not run in-game. Readout: [`ghost-train-and-ufo-mechanisms.md`](../datamining/ghost-train-and-ufo-mechanisms.md). Rollup: [K54](../findings/known-facts.md), refining [K37](../findings/known-facts.md).*
 
 - **Mount Shann UFO** (`town_secrets_strawberry.ysc`, model `s_ufo01x`, 6.41 m — twice the Hani's Bethel craft): needs **hour 01:00–02:59**, the player within **14 m** of the summit (-1982.8, 22.3, 330.8), and a **once-per-in-game-day** cooldown; it descends 143 m to a point beside/above the summit.
 - **Hani's Bethel UFO** (`shack_loonycult1.ysc`, `s_ufo02x`): **hour 00:00–03:59** and the player inside the shack volume — nothing else; repeatable nightly.
