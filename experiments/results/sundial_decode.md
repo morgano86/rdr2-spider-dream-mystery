@@ -1,6 +1,6 @@
 # sundial_decode.py — results (2026-07-02)
 
-**Question.** [U33]: do the Mount Shann sundial's 7 arrows (3 red / 3 orange / 1 yellow; firsthand time+cardinal table, thread 09) *encode* anything, or are they faithful set-dressing? Treated like Gertrude's number: enumerate the readings, null each. Run: `python experiments/sundial_decode.py` (stdlib, exhaustive permutation nulls). Inputs PROVISIONAL (times ±~30–45 min, user-flagged).
+**Question.** [U33]: do the Mount Shann sundial's 7 arrows (3 red / 3 orange / 1 yellow; firsthand time+cardinal table, thread 09) *encode* anything, or are they faithful set-dressing? Treated like Gertrude's number: enumerate the readings, null each. Run: `python experiments/sundial_decode.py` (stdlib, exhaustive permutation nulls). Inputs PROVISIONAL (times ±~30–45 min, investigator-flagged).
 
 ## Headline: the DECODE branch of [U33] closes NEGATIVE — the dial is a physically faithful shadow clock with a decorative tick hierarchy
 

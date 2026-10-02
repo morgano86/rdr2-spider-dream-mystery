@@ -49,7 +49,7 @@ The trail has a hard line between what is **verified** and what is **contested**
 - **`locations/`** — one dossier per place the mystery touches; `locations/README.md` is the index.
 - **`sources/`** — the source list + saved primary wiki text and raw API JSON.
 - **`images/`** — screenshots/maps foldered by location; provenance in `images/README.md`. The [`images/webs/WEBS-MANIFEST.md`](images/webs/WEBS-MANIFEST.md) catalogues the 8 webs (location · time · feather colour · position).
-- **`README.md`** — overview, map of the mystery, current status.
+- **`README.md`** — public landing page: overview, map of the mystery, current status. **`GLOSSARY.md`** decodes the ID/jargon conventions; **`CONTRIBUTING.md`** is the human-contributor version of these rules. Keep the README's status line in step with `STATUS.md`.
 - **`INVESTIGATION_LOG.md`** — chronological log; **newest entries at the top.**
 
 ### Stable IDs and cross-links

@@ -6,3 +6,6 @@ venv/
 
 # Claude Code local settings (per-machine)
 .claude/settings.local.json
+
+# Local scratch / intake folders
+tmp_uploads/

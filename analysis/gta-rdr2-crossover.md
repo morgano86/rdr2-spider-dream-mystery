@@ -2,7 +2,7 @@
 
 **Why this file exists.** Several strands of the Spider Dream Mystery reach across into the *Grand Theft Auto* franchise — Gertrude's numbers ([K23]), Madam Nazar's "web…unraveling" fortune ([U19]), and the GTA V Mount Chiliad spider-webs ([K24], [U18]). They keep getting cited as if a *later* GTA reference "explains away" the RDR2 content. **The chronology shows the opposite**, so this dossier pins the dates and the direction of the references in one place.
 
-> **Editorial note (2026-06-13):** this file *corrects* an earlier framing. A prior pass treated the **2019 GTA Online Nazar number** as a "documented prior purpose" that demoted the RDR2 number's mystery reading. That was **backwards** — the RDR2 content predates the GTA callbacks. The correction is folded into [K23] and the rollups; recorded here per CLAUDE.md (refute/soften, don't silently rewrite history). *(User-flagged correction.)*
+> **Editorial note (2026-06-13):** this file *corrects* an earlier framing. A prior pass treated the **2019 GTA Online Nazar number** as a "documented prior purpose" that demoted the RDR2 number's mystery reading. That was **backwards** — the RDR2 content predates the GTA callbacks. The correction is folded into [K23] and the rollups; recorded here per CLAUDE.md (refute/soften, don't silently rewrite history). *(Investigator-flagged correction.)*
 
 ---
 
@@ -16,7 +16,7 @@
 | **Dec 12, 2019** | **GTA Online — "The Diamond Casino Heist"** | The arcade **"Nazar Speaks" fortune-teller machine** — speaks `123 7645112` and the *"web…unraveling"* line; players can **call the number back** to reach "Nazar" | #40/#41/#9 (GamesRadar/PCGamesN) |
 | **~Jan 2026** | Community connects GTA V's Mt Chiliad webs to RDR2's | Same **cable shader**; renews interest; presented by **Oddheader** | #45 |
 
-**Direction of reference (confirmed):** the **RDR2 (2018) and GTA V (2013) content came first**; the **GTA Online Nazar callbacks came later (2019)**. Whatever the numbers/webs mean, they were **embedded at each game's launch**, and Rockstar **later** pointed a cross-game spotlight at them via Madam Nazar. **Neither the RDR2 numbers nor either game's spider-webs were added in DLC/updates** — only the Nazar *callback* was. *(This is the user's thesis; it checks out.)*
+**Direction of reference (confirmed):** the **RDR2 (2018) and GTA V (2013) content came first**; the **GTA Online Nazar callbacks came later (2019)**. Whatever the numbers/webs mean, they were **embedded at each game's launch**, and Rockstar **later** pointed a cross-game spotlight at them via Madam Nazar. **Neither the RDR2 numbers nor either game's spider-webs were added in DLC/updates** — only the Nazar *callback* was. *(This is the investigator's thesis; it checks out.)*
 
 ---
 
@@ -64,7 +64,7 @@ The "Nazar Speaks" arcade machine cycles cryptic fortunes; **many name RDR2/RDO 
 
 ## A *second* RDR2 egg that points at Mount Chiliad — the Mount Shann sundial ([K38], thread 09)
 
-Logged 2026-07-02 (user request) as a **separate mystery**, but it belongs in this file because it independently lands on the **same GTA V node** the webs use. The Red Dead Wiki's own Trivia for **Mount Shann** states its *"mysterious landmarks and the UFO… are a nod to Mount Chiliad from Grand Theft Auto V… which similarly features a UFO and some strange murals."*
+Logged 2026-07-02 (investigator request) as a **separate mystery**, but it belongs in this file because it independently lands on the **same GTA V node** the webs use. The Red Dead Wiki's own Trivia for **Mount Shann** states its *"mysterious landmarks and the UFO… are a nod to Mount Chiliad from Grand Theft Auto V… which similarly features a UFO and some strange murals."*
 
 - So RDR2 nods at Chiliad from **two directions**: the **spider webs** (via shader + 1–2 AM gate, [K24]) and **Mount Shann** (via a wiki-stated UFO/mural homage, [K38]). Mount Shann's **UFO is gated to ~2 AM** ([K37]) — the **same small-hours window** as the webs' 1–2 AM ([K11]) and GTA V's Chiliad webs.
 - **What this does / doesn't mean.** It strengthens the general picture that Rockstar reuses a **"sacred mountain · UFO/mural · specific-hour reveal"** motif family across titles — but it is **not** evidence the sundial and the spider trail are one puzzle. Most likely they are **siblings under that reused template**, resembling each other **without** a solvable in-RDR2 link ([S33]). Held open + skeptical at **[U34]**; the sundial's own arrow puzzle is **[U33]**. Detail: [thread 09](../threads/09-mount-shann-sundial.md).

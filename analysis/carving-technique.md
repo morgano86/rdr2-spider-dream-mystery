@@ -22,7 +22,7 @@ A genuine, intentional clue should pass these. The first three are **objective**
 **Inverse caution ([S13]).** This test guards against seeing clues that aren't there. The *opposite* failure is **missing a real clue because it's dressed up as an obvious "dev in-joke" or real-world reference** (e.g. Register Rock's A. West / B. Ward → *Batman*, per unconfirmed wiki speculation). Camouflage-as-joke is plausible deliberate design, so don't discard a candidate on "that's just a gag" alone — apply the same evidence test instead. See [findings/speculation.md](../findings/speculation.md) S13.
 
 ## The shared medium — a unifying signature and a search heuristic — [SPECULATION → H13]
-*(user observation, 2026-06-13)*
+*(investigator observation, 2026-06-13)*
 
 Step back from any single carving and the clues share a strikingly **consistent medium** — which is itself a soft argument for one authored system, and a practical heuristic for **where to look next**:
 

@@ -1,6 +1,6 @@
 # Analysis — The Saint Denis Vampire (a shipped pentagram-mapping precedent + the difficulty curve)
 
-Why this is in `analysis/` and not `locations/`: like the [Dreamcatchers](dreamcatchers.md), the Vampire is here for a **theory connection**, not because it is a confirmed node of the spider trail. It is a **separate, fully-solved RDR2 Easter egg** — but its *mechanic* (find scattered writings → the game maps them into a **pentagram** → the **centre** is the payoff) is the **exact technique** the Butcher Creek outhouses use ([K5]), and the **hand-holding** it gives the player makes it the clearest in-game **tutorial / "seed"** for the kind of puzzle the spider mystery later runs **unaided**. It also anchors the user's broader read of the chain as a **monotonically rising difficulty curve**.
+Why this is in `analysis/` and not `locations/`: like the [Dreamcatchers](dreamcatchers.md), the Vampire is here for a **theory connection**, not because it is a confirmed node of the spider trail. It is a **separate, fully-solved RDR2 Easter egg** — but its *mechanic* (find scattered writings → the game maps them into a **pentagram** → the **centre** is the payoff) is the **exact technique** the Butcher Creek outhouses use ([K5]), and the **hand-holding** it gives the player makes it the clearest in-game **tutorial / "seed"** for the kind of puzzle the spider mystery later runs **unaided**. It also anchors the investigator's broader read of the chain as a **monotonically rising difficulty curve**.
 
 The hard facts below are wiki-/in-game-verifiable (`[KNOWN]`); the links to the Spider Dream Mystery are flagged `[SPECULATION]` / hypotheses ([H15], [H16]).
 
@@ -31,7 +31,7 @@ The hard facts below are wiki-/in-game-verifiable (`[KNOWN]`); the links to the 
 ## [SPECULATION] — why this bears on the Spider Dream Mystery
 
 ### H15 — The Vampire is the shipped **tutorial / "seed"** for the pentagram-mapping mechanic
-*(user, 2026-06-13)*
+*(investigator, 2026-06-13)*
 
 The single most important point: **the Vampire egg and the Butcher Creek outhouses use the identical mechanic** — *plot five fixed map points → the figure is a **pentagram** → go to the **centre/structure** of that figure for the payoff.* The Vampire is the **fully hand-held version**; Butcher Creek is the **same puzzle with the training wheels off**:
 
@@ -48,7 +48,7 @@ So Rockstar **"plants the seed"**: it teaches the connect-the-points-into-a-shap
 > **What this does and does not establish (kept honest).** The Vampire is a **self-contained, solved official egg** with a known reward (Ornate Dagger); there is **no evidence it connects to the spider trail**, shares its time-gating logic, or unlocks anything. "Tutorial / seed" is an inference about **design language and intent**, exactly like [H6] — it argues the spider trail's "lines → a shape → a centre" is **established RDR2 grammar, not pareidolia** ([carving-technique.md](carving-technique.md)), **not** that the two eggs are one puzzle.
 
 ### H16 — The chain is an **escalating difficulty curve**, and the clue **form mutates** along it
-*(user, 2026-06-13)*
+*(investigator, 2026-06-13)*
 
 Read in discovery order, the chain's difficulty rises monotonically and the **kind** of clue keeps changing — which both explains why the trail has stalled and predicts the *character* of anything still out there:
 

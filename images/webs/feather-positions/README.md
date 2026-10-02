@@ -33,7 +33,7 @@ Confidence is now **medium** on the previously "low" rows because the central-ra
 
 ## What these images settle, and what they don't
 
-**1. Web structure — confirmed as the user described.** Each web is a **half-web** (a semicircle hanging under the crossbeam), built from a hub at top-centre with **~7 radial strands → 6 angular "sections"** and **~3 concentric rings**. So a feather's position has two coordinates: **which section (1–6, left→right)** and **which ring (inner/mid/outer)**. The central vertical radial is the section-3 | section-4 boundary.
+**1. Web structure — confirmed as the investigator described.** Each web is a **half-web** (a semicircle hanging under the crossbeam), built from a hub at top-centre with **~7 radial strands → 6 angular "sections"** and **~3 concentric rings**. So a feather's position has two coordinates: **which section (1–6, left→right)** and **which ring (inner/mid/outer)**. The central vertical radial is the section-3 | section-4 boundary.
 
 **2. Orientation is uniform (tip-down) → [H4] refuted.** In all 16 shots the feather **hangs vertically under gravity**; no web points its feather along a heading. (Established last pass; unchanged.)
 
@@ -55,7 +55,7 @@ Confidence is now **medium** on the previously "low" rows because the central-ra
 
 ## File-uniqueness — double-checked (2026-06-14)
 
-The user's intuition (*"someone went to the effort of a unique position per web, not a clone"*) is **right on substance, but the "unique file per feather" mechanism is not**:
+The investigator's intuition (*"someone went to the effort of a unique position per web, not a clone"*) is **right on substance, but the "unique file per feather" mechanism is not**:
 - **Feather texture = one shared file**, `wap_gen_feather01` (singular) — sourced ([K13], #35). Not 8 textures.
 - **Web geometry = 4 reused `cablemesh*.ydr` models** — `cablemesh87399/87405/87397/87455`, per the thecochiti datamine we hold ([`../web_cable-mesh_datamine.png`](../web_cable-mesh_datamine.png)). Not 8 unique meshes.
 - **The 8 webs are named `spiderdream01–08`** ([K13a]) — but that names 8 *instances/scenarios*, not 8 unique asset files.

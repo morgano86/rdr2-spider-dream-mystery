@@ -2,7 +2,7 @@
 
 A tall wooden **truss rail bridge** spanning a gorge of the **Dakota River**, **Cumberland Forest, New Hanover**, near the Ambarino mountains. Lore-billed the *"Gateway to the West,"* it carries the rail line connecting Big Valley / West Elizabeth to Annesburg. Overview image: [`bacchus-bridge_overview.webp`](../images/bacchus-bridge/bacchus-bridge_overview.webp).
 
-> Why it's a node: it carries a **hidden, empty heart carving** ([K22]) that is the **blank twin of the Flatneck Station "Lillie ♥ Alfred" heart**, and the user reports it sits **in line of sight of the Fort Wallace bird carving** ([K16]) on the NW frontier. See [thread 06](../threads/06-bird-carving-giant-wapiti.md).
+> Why it's a node: it carries a **hidden, empty heart carving** ([K22]) that is the **blank twin of the Flatneck Station "Lillie ♥ Alfred" heart**, and the investigator reports it sits **in line of sight of the Fort Wallace bird carving** ([K16]) on the NW frontier. See [thread 06](../threads/06-bird-carving-giant-wapiti.md).
 
 ## [KNOWN]
 - **The empty heart carving — [K22] (investigator data, 2026-06-13).** Carved into a **leg/support of the bridge** is a **cupid-style heart with an arrow through it**, **reasonably difficult to find**. It is **identical in shape** to the heart in the Flatneck Station *"Lillie ♥ Alfred"* tree carving — but **empty**: **no message, no names, no initials**, just the heart-and-arrow. *(The filled Flatneck version, recovered from the datamined `…treeplaceholder2` texture, is held for comparison: [`flatneck-station_heart-carving_datamine.png`](../images/bacchus-bridge/flatneck-station_heart-carving_datamine.png) — "MARCH 1898 · LILLIE ♥ ALFRED · ALWAYS IN MY HEART …·  FEBRUARY 1903".)*

@@ -114,7 +114,7 @@ Home for all: [findings/unknowns.md](findings/unknowns.md) ↔ the thread noted.
 | U22 | Exact web↔boundary membership | **RESOLVED → [K31]** | [known-facts §K31](findings/known-facts.md) · [WEBS-MANIFEST](images/webs/WEBS-MANIFEST.md) |
 | U23 | What the Bacchus empty heart [K22] denotes — clue or scenery; is the line of sight to the birds meaningful? | LIVE | [thread 06](threads/06-bird-carving-giant-wapiti.md) |
 | U24 | Do the Register Rock names match the letters? Desk-test: 🟢 `J.M`×2 + `S. Gray`; 🔴 no `LJ`/`SM`/`EC`/`L` | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) · [connections.md](analysis/connections.md) |
-| U25 | Are the markings even "initials" at all? Neutral term is **"letters"** (user, 2026-06-13) | LIVE | [connections §1/1a](analysis/connections.md) |
+| U25 | Are the markings even "initials" at all? Neutral term is **"letters"** (investigator, 2026-06-13) | LIVE | [connections §1/1a](analysis/connections.md) |
 | U26 | Map grid-reference reading? Grids captured → [K26]; per-cell reading negative-leaning (only `EC` fits); survives as the [H14] free plot | LIVE (deflated) | [connections §1a(d)](analysis/connections.md) |
 | U27 | Why does the chain branch from outhouse #4 (tally 4), not #5? Deliberate ("4" signal, [S20]) or incidental? | LIVE | [thread 02](threads/02-butcher-creek-carvings.md) |
 | U28 | The 3-in-a-row droppings on outhouse #4's roof — placed pattern or ambient scenery? | LIVE (low-confidence) | [thread 02](threads/02-butcher-creek-carvings.md) · [butcher-creek.md](locations/butcher-creek.md) |
@@ -177,7 +177,7 @@ Home for all: [findings/speculation.md](findings/speculation.md) ↔ the file no
 
 | ID | Speculation (short) | Home |
 |----|---------------------|------|
-| S1 | `LJ`/`SM` are in-fiction clues, not dev initials (user) | [speculation.md](findings/speculation.md) |
+| S1 | `LJ`/`SM` are in-fiction clues, not dev initials (investigator) | [speculation.md](findings/speculation.md) |
 | S2 | The four letters form two pairs naming two couples / four people | [speculation.md](findings/speculation.md) |
 | S3 | `J+M` (lovers' carving) names a romantic pair; puzzle wants you to re-pair the letters | [speculation.md](findings/speculation.md) |
 | S4 | All "numbers" threads are one running counter; Gertrude continues it — **continuation half REFUTED-leaning 2026-07-05** ([U7]: no run crosses 7 in [K42]); the BC/Brennand 1→7 count stands | [speculation.md](findings/speculation.md) |
@@ -187,9 +187,9 @@ Home for all: [findings/speculation.md](findings/speculation.md) ↔ the file no
 | S8 | Connection to GTA V Mount Chiliad mystery aesthetics | [speculation.md](findings/speculation.md) |
 | S9 | Tie to "Birds of Paradise" plants / other collectibles | [speculation.md](findings/speculation.md) |
 | S10 | A GTA VI tease (late-2025 framing; no Rockstar confirmation) | [speculation.md](findings/speculation.md) |
-| S11 | RDR2 cheat phrases feel thematically loaded; worth cataloguing (user) | [speculation.md](findings/speculation.md) |
+| S11 | RDR2 cheat phrases feel thematically loaded; worth cataloguing (investigator) | [speculation.md](findings/speculation.md) |
 | S12 | The 5/3 colour split encodes the order — mural cross-check NEGATIVE ([U14]); rests on the boundary data only | [speculation.md](findings/speculation.md) |
-| S13 | Plausible-deniability camouflage: clues double as pop-culture references so players dismiss them (user) | [speculation.md](findings/speculation.md) |
+| S13 | Plausible-deniability camouflage: clues double as pop-culture references so players dismiss them (investigator) | [speculation.md](findings/speculation.md) |
 | S14 | Nazar's fortune lines as deliberate winks at mystery nodes — weak (she names ~16+ RDR places) | [speculation.md](findings/speculation.md) |
 | S15 | The feathers are Northern Cardinal (5/3 = sexual dimorphism) — must reconcile "black" vs brown; C-tier | [speculation.md](findings/speculation.md) |
 | S16 | The letters encode gang initials (`SM`=Sean, `J+M`=John) — SOFTENED (2-of-5 is weak, P≈0.59 under the null) | [thread 07](threads/07-van-der-linde-roster.md) · [speculation.md](findings/speculation.md) |
