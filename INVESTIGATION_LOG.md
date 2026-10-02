@@ -2,6 +2,14 @@
 
 Chronological record. Newest entries at the top. Keep it terse: what we did, what we learned, what changed.
 
+## 2026-10-02 (tmp_uploads intake, 2 of 12 — ghost train + both UFOs decoded, [#91]) — [K54] minted: the "half moon" is not a trigger; Shann UFO gate = 01:00–02:59 + 14 m + once/day; [U42] unplaced alien-cave MLO
+
+**What we did.** Filed the 2026-09-01 script-decode note as source [#91] (verbatim copy in `sources/`), minted [K54]/[U42], added both to [thread 09](threads/09-mount-shann-sundial.md).
+
+**What we learned.** Both UFOs and the ghost train are fully decoded from script; no moon/lunar native exists in the corpus, so [K37]'s sermon "half moon" gate is flavour and "~2 AM" is the 01:00–02:59 window. No third UFO. A furnished-but-never-placed `dis_roa_aliencave_int` MLO is the cleanest UFO-side cut-content artifact ([U42]). The note also records a method lesson: never `head` a corpus-wide grep whose absence you treat as evidence.
+
+**What changed.** [K54] (refines [K37]), [U42], source #91, INDEX rows, thread 09. **No spider tie:** the web hour gate is `timeFlags` ([K50]), a different mechanism, so [U34] stays skeptical. Verified-trail boundary untouched.
+
 ## 2026-10-02 (tmp_uploads intake, 1 of 12 — crossover-gun entitlement census, [#90]) — [K53] minted: RDR2 scripts only READ awards/unlocks; entitlement gating is not script-visible; the `0x521563CC` award lead is refuted
 
 **What we did.** First of 12 staged findings notes from `tmp_uploads/` (2026-07-23, investigator's `ScriptDiag` harness). Filed verbatim as source [#90] (`sources/codex-script-census-2026-07-23-crossover-gun-entitlement.md`).
