@@ -1,7 +1,6 @@
 # 2026-09-19: Birds that missions and cutscenes place on purpose: findings
 
-**Task:** `completed/2026-09-19-scripted-mission-birds.md` · **Completed:** 2026-09-19 · **Outcome:** negative
-**One line:** Mission scripts place birds only where each mission plays, 1.5 km or more from every mystery site. The "birds fly off as a cutscene starts" effect comes from ambient vignettes and engine birds, not from any per-cutscene authoring. The blue jay is Beecher's Hope homestead dressing.
+**Task:** `completed/2026-09-19-scripted-mission-birds.md` · **Completed:** 2026-09-19 · **Outcome:** negative **One line:** Mission scripts place birds only where each mission plays, 1.5 km or more from every mystery site. The "birds fly off as a cutscene starts" effect comes from ambient vignettes and engine birds, not from any per-cutscene authoring. The blue jay is Beecher's Hope homestead dressing.
 
 ## Answer
 

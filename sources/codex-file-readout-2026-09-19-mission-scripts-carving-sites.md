@@ -1,7 +1,6 @@
 # 2026-09-19: Mission scripts near the carving sites, and one-off mission spawns: findings
 
-**Task:** `completed/2026-09-19-mission-scripts-carving-sites.md` · **Completed:** 2026-09-19 · **Outcome:** negative
-**One line:** No script references any carving or its host model; the coordinates scripts do hold near the marks are mission staging, and uncarved outhouses score *higher* on the same test than the carved ones do.
+**Task:** `completed/2026-09-19-mission-scripts-carving-sites.md` · **Completed:** 2026-09-19 · **Outcome:** negative **One line:** No script references any carving or its host model; the coordinates scripts do hold near the marks are mission staging, and uncarved outhouses score *higher* on the same test than the carved ones do.
 
 ## Answer
 
