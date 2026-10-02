@@ -27,15 +27,15 @@ When you add an image: name it to this rule, drop it in the right folder, and ad
 - `trail-markers/` — the inscriptions that chain the poles (`W ✞✞✞✞✞`, `NW` + guitar) and the guitar pole location.
 - `fort-wallace/` — the disputed "w"/bird tower symbols + the alleged off-map "question mark" shots.
 - `window-rock/` — the Strange Statues cave-painting mural (birds w/ black & red feathers).
-- `dreamcatchers/` — the Dreamcatcher collectible + the journal drawing that connects the 20 points into an animal (see [analysis/dreamcatchers.md](../analysis/dreamcatchers.md)).
-- `saint-denis-vampire/` — the Saint Denis Vampire Easter egg ([K27]): the 5-clue **locations map / pentagram**, the **in-game journal** pages (wall writings + sketches), Arthur's & John's journal drawings, the vampire, and the Ornate Dagger reward. The shipped pentagram-mapping precedent (see [analysis/saint-denis-vampire.md](../analysis/saint-denis-vampire.md)).
+- `dreamcatchers/` — the Dreamcatcher collectible + the journal drawing that connects the 20 points into an animal (see [other-mysteries/dreamcatchers.md](../other-mysteries/dreamcatchers.md)).
+- `saint-denis-vampire/` — the Saint Denis Vampire Easter egg ([K27]): the 5-clue **locations map / pentagram**, the **in-game journal** pages (wall writings + sketches), Arthur's & John's journal drawings, the vampire, and the Ornate Dagger reward. The shipped pentagram-mapping precedent (see [other-mysteries/saint-denis-vampire.md](../other-mysteries/saint-denis-vampire.md)).
 - `gertrude/` — the Gertrude Braithwaite numbers thread ([U6], [thread 04](../threads/04-gertrude-numbers.md)): the StrangeMan-video frames (incl. the **9-sequence tail transcription**) + the [#43] exposé's evidence images.
 - `wapiti-giant/` — the Giant's cave + map location (NW cold-frontier lead).
 - `register-rock/` — the Heartlands names-and-dates boulder ("S. Gray 1846") possibly named by the Fort Brennand 3rd symbol ([H11]).
 - `bacchus-bridge/` — the Cumberland Forest truss bridge with the hidden **empty heart** ([K22]) + the Flatneck heart datamine reference.
 - `maps/` — base-map crops, our own built overlays (labelled pole/web positions), and the **in-game prop-map coordinate grids** ([K26]) — the two *"Railroad & State Map"* maps photographed at a stranger's camp.
-- `francis-sinclair/` — the **Geology for Beginners cabin mural** ([K32]/[U31]) — the *separate* time-traveller egg (not verified-linked to the spider mystery; see [thread 08](../threads/08-francis-sinclair-mural.md)).
-- `mount-shann/` — the **Mount Shann "giant sundial"** ([K35]–[K37]) — a *separate* Kuhkowaba-cult / UFO egg (crossover only via GTA V Chiliad; see [thread 09](../threads/09-mount-shann-sundial.md)). Ground + overhead in-game shots and the CodeX `dis_bgv_sundial.ydr` model extraction showing the 7 red/orange/yellow arrows.
+- `francis-sinclair/` — the **Geology for Beginners cabin mural** ([K32]/[U31]) — the *separate* time-traveller egg (not verified-linked to the spider mystery; see [Francis Sinclair egg](../other-mysteries/francis-sinclair-mural.md)).
+- `mount-shann/` — the **Mount Shann "giant sundial"** ([K35]–[K37]) — a *separate* Kuhkowaba-cult / UFO egg (crossover only via GTA V Chiliad; see [Mount Shann egg](../other-mysteries/mount-shann-sundial.md)). Ground + overhead in-game shots and the CodeX `dis_bgv_sundial.ydr` model extraction showing the 7 red/orange/yellow arrows.
 
 ## Provenance log
 The wiki images below (16 pulled; one — `web_saint-denis_r34.webp`, wiki file `SpiderWebPole.png` — removed 2026-07-04 as superseded by the sharper [#59] front shot in `webs/feather-positions/`) were fetched **2026-06-13** from the Red Dead Wiki via its CDN (`static.wikia.nocookie.net/reddeadredemption`); the wiki web/page routes are Cloudflare-blocked but the MediaWiki API + CDN are not. Fandom files are **WebP**. Always log the **source URL/wiki file** for anything added — a sourced+verified web image is preferred over an in-game capture (see sourcing note).
@@ -148,7 +148,7 @@ The in-game map grid [U26] was blocked on. Two *"A Partial and Correct Railroad 
 | `butcher-creek/butcher-creek_outhouse4-roof-droppings.jpg` | **Outhouse #4 roof, from above (axe in hand):** two large droppings side by side, a gap, then one small dropping at the far edge above the doorframe — three in a line ([U28]). Most likely ambient scenery; logged as an oddity attached to the key outhouse #4 | Firsthand investigator screenshot (PS5), 2026-06-13 |
 
 ### Added 2026-06-13 — Saint Denis Vampire precedent ([K27]/[H15]/[H16], wiki CDN) · **B-tier (in-game = A)**
-Pulled from the Red Dead Wiki CDN (`static.wikia.nocookie.net/reddeadredemption`) via the MediaWiki API for the file URLs (the wiki page itself 403s). The egg is base-game and **documented in the in-game journal** — these are the reference set for the [saint-denis-vampire.md](../analysis/saint-denis-vampire.md) dossier and source [#58](../sources/sources.md).
+Pulled from the Red Dead Wiki CDN (`static.wikia.nocookie.net/reddeadredemption`) via the MediaWiki API for the file URLs (the wiki page itself 403s). The egg is base-game and **documented in the in-game journal** — these are the reference set for the [saint-denis-vampire.md](../other-mysteries/saint-denis-vampire.md) dossier and source [#58](../sources/sources.md).
 
 | File (current path) | Shows | Source file |
 |------|-------|-----------|
@@ -161,14 +161,14 @@ Pulled from the Red Dead Wiki CDN (`static.wikia.nocookie.net/reddeadredemption`
 | `saint-denis-vampire/saint-denis-vampire_ornate-dagger_reward.jpg` | The **Ornate Dagger** (missable reward looted from the Vampire) | Ornate Dagger handle.jpg |
 
 ### Added 2026-06-21 — Francis Sinclair cabin mural ([K32]/[U31], investigator-supplied HQ) · **B-tier (in-game asset = A); separate egg**
-The investigator's HQ photo of the mural, dropped into the repo because `i.imgur.com/fakkLOa.jpg` **geo-blocks our fetcher** (returns a "Content not viewable in your region" placeholder — see [memory: imgur-geoblocked-fetcher]). At 2822×2117 this is the real high-res capture. **Analysed firsthand 2026-06-21** for [U31] (composition logged in [thread 08](../threads/08-francis-sinclair-mural.md)).
+The investigator's HQ photo of the mural, dropped into the repo because `i.imgur.com/fakkLOa.jpg` **geo-blocks our fetcher** (returns a "Content not viewable in your region" placeholder — see [memory: imgur-geoblocked-fetcher]). At 2822×2117 this is the real high-res capture. **Analysed firsthand 2026-06-21** for [U31] (composition logged in [Francis Sinclair egg](../other-mysteries/francis-sinclair-mural.md)).
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|
 | `francis-sinclair/francis-sinclair_cabin-mural_hq.jpg` | **The full cabin mural** (2822×2117): central suited figure stepping through an **oval portal**, ringed by a large crowned/haloed sunburst head above; **skyscrapers + factories + UFO/zeppelin** to the left, **pyramids + Sphinx + pharaoh bust + horse-drawn carriage** to the right, **leaping/running figures** flanking the portal, lightning/radiant lines throughout — all surrounded by the **individual pinned rock-carving sketches** the player mailed in. Sepia line-art after Diego Rivera's *Man, Controller of the Universe* (1934) | Investigator-supplied HQ photo (orig. `i.imgur.com/fakkLOa.jpg`, geo-blocked to fetcher), 2026-06-21 |
 
 ### Added 2026-07-02 — Mount Shann sundial ([K35]–[K37], investigator-supplied) · **firsthand + A-tier datamine; separate egg**
-Investigator-supplied captures + a datamined model extraction of the Mount Shann "giant sundial," dropped in at the investigator's request (2026-07-02) to open [thread 09](../threads/09-mount-shann-sundial.md). **Not the spider mystery** — a separate Kuhkowaba / UFO egg. The codex model is the key image: it confirms the 7 arrows are a **deliberate painted asset**.
+Investigator-supplied captures + a datamined model extraction of the Mount Shann "giant sundial," dropped in at the investigator's request (2026-07-02) to open [Mount Shann egg](../other-mysteries/mount-shann-sundial.md). **Not the spider mystery** — a separate Kuhkowaba / UFO egg. The codex model is the key image: it confirms the 7 arrows are a **deliberate painted asset**.
 
 | File (current path) | Shows | Source / credit |
 |------|-------|-----------|

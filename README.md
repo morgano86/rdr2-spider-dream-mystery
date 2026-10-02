@@ -41,9 +41,10 @@ Sources are graded **A** (primary / in-game / official), **B** (established game
 
 | Path | Purpose |
 |---|---|
-| [`threads/`](threads/) | One file per investigative thread (01–09) — the primary unit of detail. Each is split into KNOWN / UNKNOWN / SPECULATION. |
+| [`threads/`](threads/) | One file per investigative thread (01–07) — the primary unit of detail. Each is split into KNOWN / UNKNOWN / SPECULATION. |
 | [`findings/`](findings/) | Cross-thread rollups: [known facts](findings/known-facts.md), [open questions](findings/unknowns.md), [speculation](findings/speculation.md). |
-| [`analysis/`](analysis/README.md) | Working theories and method notes — e.g. [carving technique vs pareidolia](analysis/carving-technique.md), [letter/number connections](analysis/connections.md), [solve grammar](analysis/solve-grammar.md), [the web-order field test](analysis/web-order-field-test.md), plus precedents: [Dreamcatchers](analysis/dreamcatchers.md), [Saint Denis Vampire](analysis/saint-denis-vampire.md), [GTA↔RDR2 crossover](analysis/gta-rdr2-crossover.md). |
+| [`analysis/`](analysis/README.md) | Working theories and method notes — e.g. [carving technique vs pareidolia](analysis/carving-technique.md), [letter/number connections](analysis/connections.md), [solve grammar](analysis/solve-grammar.md), [the web-order field test](analysis/web-order-field-test.md), plus the [GTA↔RDR2 crossover](analysis/gta-rdr2-crossover.md). |
+| [`other-mysteries/`](other-mysteries/README.md) | **Separate** RDR2 mysteries held at arm's length — the [Francis Sinclair mural](other-mysteries/francis-sinclair-mural.md) and [Mount Shann sundial](other-mysteries/mount-shann-sundial.md) (no verified spider link), plus the solved precedents ([Dreamcatchers](other-mysteries/dreamcatchers.md), [Saint Denis Vampire](other-mysteries/saint-denis-vampire.md)). |
 | [`locations/`](locations/) | A dossier per place the mystery touches ([index](locations/README.md)). |
 | [`experiments/`](experiments/) | Small, deterministic Python scripts that *test* claims (ciphers, combinatorics, geometry, likelihoods). Results are evidence, not fact. See [`experiments/README.md`](experiments/README.md). |
 | [`sources/`](sources/) | The [per-claim source ledger](sources/sources.md), a [resource directory with fetch recipes](sources/RESOURCES.md), the saved [primary wiki text](sources/PRIMARY-wiki-spider-dream.md), raw API data, and verbatim game-file / script readouts. |
@@ -61,14 +62,20 @@ Sources are graded **A** (primary / in-game / official), **B** (established game
 5. **[The spider web trail (2025)](threads/05-spider-web-trail-2025.md)** — the spider engraving, **8 feathered webs** (5 black / 3 red) plus a centre web marked **`N`**, and a directional puzzle toward Fort Wallace.
 6. **[The bird carving → Calumet → the Giant](threads/06-bird-carving-giant-wapiti.md)** — the Fort Wallace bird symbols, the flock that leads to the Giant, and the (debunked) "Birds of Paradise plants". *Past the birds is contested.*
 7. **[Van der Linde gang roster](threads/07-van-der-linde-roster.md)** — the full gang list, doubling as an in-fiction name list for testing the letter markings.
-8. **[Francis Sinclair / "Geology for Beginners" mural](threads/08-francis-sinclair-mural.md)** — a **separate**, well-documented time-traveller egg with **no verified spider link**; watched because one of its carvings sits near Fort Wallace.
-9. **[Mount Shann sundial](threads/09-mount-shann-sundial.md)** — a **separate** mystery (stone-circle sundial with 7 painted arrows, plus a ~2 AM UFO); only bridge is a shared GTA V nod. Held skeptical.
+
+### Other mysteries (separate from the spider trail)
+
+The repo also holds material on neighbouring RDR2 mysteries, kept in [`other-mysteries/`](other-mysteries/README.md) so they don't blur the verified spider trail:
+
+- **[Francis Sinclair / "Geology for Beginners" mural](other-mysteries/francis-sinclair-mural.md)** — a well-documented time-traveller egg with **no verified spider link**; watched because one of its carvings sits near Fort Wallace.
+- **[Mount Shann sundial](other-mysteries/mount-shann-sundial.md)** — a stone-circle sundial with 7 painted arrows and a ~2 AM UFO; the only bridge is a shared GTA V Mount Chiliad nod. Held skeptical.
+- **Solved precedents** — the [Dreamcatchers](other-mysteries/dreamcatchers.md) and the [Saint Denis Vampire](other-mysteries/saint-denis-vampire.md) use the same "connect fixed points → a shape → a specific point" grammar the spider trail seems to.
 
 ### The best current understanding
 
 Butcher Creek's outhouse pentagram and carvings (`LJ`, `SM`, a Fort Brennand symbol) are the deliberate start of a clue chain. Fort Brennand's tower carries three more symbols (a telephone pole, a factory, an oil puddle) that point onward to a **spider carving on a telephone pole near Cornwall Kerosene & Tar**, visible only at a specific night hour. That engraving maps **7 more webs** (each with a feather, time-locked to a different hour) plus a central set of webs (1–2 AM, no feathers) that line up to spell **`N`** + a telephone pole. Going north and shooting the indicated pole reveals **`W ✞✞✞✞✞`** (five poles west; the "crosses" are telephone-pole glyphs); five poles west, another pole reveals **`NW`** and a symbol **believed to be a guitar**, pointing to **Fort Wallace** (which holds two guitars). Fort Wallace is a **waypoint, not the end** — its bird carvings are the last verified clue, and past them the trail goes cold in contested territory. There are **5 black + 3 red feathers**, in game files named *"spiderdream"*. Whether the matchstick letters and Gertrude's numbers feed this same puzzle, and whether there is any payoff at all, remains **unconfirmed**.
 
-> **Shipped precedents.** Two *solved* RDR2 eggs use the same "connect fixed points → a deliberate shape → go to a specific point" grammar: the **[Dreamcatchers](analysis/dreamcatchers.md)** (20 points → a drawn animal → the reward in its eye) and the **[Saint Denis Vampire](analysis/saint-denis-vampire.md)** (5 wall-writings → an auto-drawn pentagram → the Vampire at its centre). The Vampire is the same pentagram-mapping puzzle as Butcher Creek, but fully hand-held.
+> **Shipped precedents.** Two *solved* RDR2 eggs use the same "connect fixed points → a deliberate shape → go to a specific point" grammar: the **[Dreamcatchers](other-mysteries/dreamcatchers.md)** (20 points → a drawn animal → the reward in its eye) and the **[Saint Denis Vampire](other-mysteries/saint-denis-vampire.md)** (5 wall-writings → an auto-drawn pentagram → the Vampire at its centre). The Vampire is the same pentagram-mapping puzzle as Butcher Creek, but fully hand-held.
 
 ## Key locations
 

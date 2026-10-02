@@ -64,12 +64,12 @@ The "Nazar Speaks" arcade machine cycles cryptic fortunes; **many name RDR2/RDO 
 
 ---
 
-## A *second* RDR2 egg that points at Mount Chiliad — the Mount Shann sundial ([K38], thread 09)
+## A *second* RDR2 egg that points at Mount Chiliad — the Mount Shann sundial ([K38], Mount Shann file)
 
 Logged 2026-07-02 (investigator request) as a **separate mystery**, but it belongs in this file because it independently lands on the **same GTA V node** the webs use. The Red Dead Wiki's own Trivia for **Mount Shann** states its *"mysterious landmarks and the UFO… are a nod to Mount Chiliad from Grand Theft Auto V… which similarly features a UFO and some strange murals."*
 
 - So RDR2 nods at Chiliad from **two directions**: the **spider webs** (via shader + 1–2 AM gate, [K24]) and **Mount Shann** (via a wiki-stated UFO/mural homage, [K38]). Mount Shann's **UFO is gated to ~2 AM** ([K37]) — the **same small-hours window** as the webs' 1–2 AM ([K11]) and GTA V's Chiliad webs.
-- **What this does / doesn't mean.** It strengthens the general picture that Rockstar reuses a **"sacred mountain · UFO/mural · specific-hour reveal"** motif family across titles — but it is **not** evidence the sundial and the spider trail are one puzzle. Most likely they are **siblings under that reused template**, resembling each other **without** a solvable in-RDR2 link ([S33]). Held open + skeptical at **[U34]**; the sundial's own arrow puzzle is **[U33]**. Detail: [thread 09](../threads/09-mount-shann-sundial.md).
+- **What this does / doesn't mean.** It strengthens the general picture that Rockstar reuses a **"sacred mountain · UFO/mural · specific-hour reveal"** motif family across titles — but it is **not** evidence the sundial and the spider trail are one puzzle. Most likely they are **siblings under that reused template**, resembling each other **without** a solvable in-RDR2 link ([S33]). Held open + skeptical at **[U34]**; the sundial's own arrow puzzle is **[U33]**. Detail: [Mount Shann egg](../other-mysteries/mount-shann-sundial.md).
 
 ---
 

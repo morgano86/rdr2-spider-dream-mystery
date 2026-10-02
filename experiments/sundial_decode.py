@@ -30,7 +30,7 @@ decode branch (the in-game pointer question stays open separately).
 Inputs + provenance
 -------------------
   * The 7 (colour, time, cardinal) rows: firsthand investigator data
-    (thread 09 [U33] table, 2026-07-02).  # PROVISIONAL: "exact times may not be
+    (Mount Shann file [U33] table, 2026-07-02).  # PROVISIONAL: "exact times may not be
     perfectly precise" (user) — treat +/- ~30 min slack when judging residuals.
   * Solar geometry: standard alt/az from (latitude, declination, hour angle),
     assuming game time == local solar time (no equation of time).
@@ -41,7 +41,7 @@ Deps: stdlib only. Deterministic (exhaustive permutation nulls; no sampling).
 import math
 from itertools import permutations, combinations
 
-# --- The firsthand table (thread 09, [U33]) --- PROVISIONAL (times +/- ~30 min) ---
+# --- The firsthand table (Mount Shann file, [U33]) --- PROVISIONAL (times +/- ~30 min) ---
 ARROWS = [  # (colour, time_h, cardinal)
     ("red",    6.0,  "W"),
     ("orange", 9.0,  "WNW"),

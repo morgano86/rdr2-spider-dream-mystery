@@ -1,8 +1,8 @@
-# Thread 08 — Francis Sinclair, "Geology for Beginners," and the cabin mural
+# Francis Sinclair, "Geology for Beginners," and the cabin mural
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-**What this thread is.** A documented file on the **Francis Sinclair / "Geology for Beginners" Easter egg** — the RDR2 "time traveller" Stranger mission whose payoff is a **mural** assembled on the cabin wall from the ten rock-carving drawings the player mails in. It is logged here **because the investigator asked us to preserve it in case a link to the spider mystery ever surfaces** (investigator, 2026-06-21), and because **one of its ten rock carvings sits inside the exact geography of our verified frontier** — a short ride from the Fort Wallace bird carvings ([K16]) and the Bacchus Bridge heart ([K22]).
+**What this file is.** A documented file on the **Francis Sinclair / "Geology for Beginners" Easter egg** — the RDR2 "time traveller" Stranger mission whose payoff is a **mural** assembled on the cabin wall from the ten rock-carving drawings the player mails in. It is logged here **because the investigator asked us to preserve it in case a link to the spider mystery ever surfaces** (investigator, 2026-06-21), and because **one of its ten rock carvings sits inside the exact geography of our verified frontier** — a short ride from the Fort Wallace bird carvings ([K16]) and the Bacchus Bridge heart ([K22]).
 
 > ⚠️ **Read the boundary first.** This is a **separate, self-contained Easter egg with NO verified connection to the Spider Dream Mystery.** It lives in the same post-Fort-Wallace zone the [verified-trail boundary](../analysis/fort-wallace-bird-carving.md) warns us not to over-credit. Nothing here promotes a link; the geographic overlap is logged as a **watch-item** ([S26]), not a step. The frontier remains [K16].
 
@@ -75,4 +75,4 @@ Sliced the HQ image into a 4×3 overlapping grid (2× upscaled) and read each re
 
 ---
 
-*Cross-refs: [K16]/[thread 06](06-bird-carving-giant-wapiti.md) (the frontier birds), [K22]/[bacchus-bridge.md](../locations/bacchus-bridge.md) (the nearby heart), [K15]/[carving-technique.md](../analysis/carving-technique.md) (why the asset classes differ), [U2] (the payoff question this rhymes with). Registry rows: [INDEX.md](../INDEX.md). Rollups: [known-facts](../findings/known-facts.md) · [unknowns](../findings/unknowns.md) · [speculation](../findings/speculation.md).*
+*Cross-refs: [K16]/[thread 06](../threads/06-bird-carving-giant-wapiti.md) (the frontier birds), [K22]/[bacchus-bridge.md](../locations/bacchus-bridge.md) (the nearby heart), [K15]/[carving-technique.md](../analysis/carving-technique.md) (why the asset classes differ), [U2] (the payoff question this rhymes with). Registry rows: [INDEX.md](../INDEX.md). Rollups: [known-facts](../findings/known-facts.md) · [unknowns](../findings/unknowns.md) · [speculation](../findings/speculation.md).*

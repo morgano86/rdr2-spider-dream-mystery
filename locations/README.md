@@ -25,7 +25,7 @@ Why this matters: the clue chain is a **tour of specific places**, and several a
 | [Heartland Oil Fields](heartland-oil-fields.md) | The Heartlands | "KEEP YOUR DREAMS LIGHT" carving; final native battle site | **Strong** (My Last Boy) |
 | [Braithwaite Manor](braithwaite-manor.md) | Scarlett Meadows | Gertrude's outhouse + numbers (disconnected thread) | — |
 | [Whiskey Tree](whiskey-tree.md) | central (hilltop) | **Lead** — lone POI in the **triple-boundary overlap** ([K28]); anomalous red fire pit shared with BC pentagram + Fort Brennand ([S23]) | — |
-| [Mount Shann](mount-shann.md) | Big Valley, W. Elizabeth | **Separate mystery** — "giant sundial" w/ 7 red/orange/yellow arrows ([K35]/[K36]) + ~2 AM UFO ([K37]); crossover only via GTA V Chiliad ([K38]/[S33]) | — |
+| [Mount Shann](../other-mysteries/mount-shann-sundial.md) | Big Valley, W. Elizabeth | **Separate mystery** — "giant sundial" w/ 7 red/orange/yellow arrows ([K35]/[K36]) + ~2 AM UFO ([K37]); crossover only via GTA V Chiliad ([K38]/[S33]) | — |
 | [Strange Man's shack — Bayall Edge](strange-man-shack.md) | Bayou Nwa, Lemoyne | **[S35] test venue** — the game's one hidden-state reader (4-visit portrait, honor paintings, mirror apparition); in the Middle∩Bottom boundary overlap ([K28]); **no sourced spider link** | — |
 
-*(Mount Shann is a **separate egg**, logged at investigator request — see [thread 09](../threads/09-mount-shann-sundial.md); not part of the spider chain.)*
+*(Mount Shann is a **separate egg**, logged at investigator request — see [Mount Shann egg](../other-mysteries/mount-shann-sundial.md); not part of the spider chain.)*

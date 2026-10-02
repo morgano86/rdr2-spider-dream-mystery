@@ -1,8 +1,8 @@
-# Thread 09 — The Mount Shann Sundial (a separate mystery)
+# The Mount Shann Sundial (a separate mystery)
 
 > *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
 
-**What this thread is.** A documented file on the **Mount Shann "giant sundial"** and the surrounding **Kuhkowaba cult / UFO Easter egg** in RDR2 — a *different* mystery from the Spider Dream, opened here at the investigator's request (2026-07-02) because it is a live puzzle in its own right **and** because it shares two hooks with our corpus: the **GTA V Mount Chiliad** homage (which the spider-web thread already leans on, [K24]) and **~2 AM time-gating**.
+**What this file is.** A documented file on the **Mount Shann "giant sundial"** and the surrounding **Kuhkowaba cult / UFO Easter egg** in RDR2 — a *different* mystery from the Spider Dream, opened here at the investigator's request (2026-07-02) because it is a live puzzle in its own right **and** because it shares two hooks with our corpus: the **GTA V Mount Chiliad** homage (which the spider-web thread already leans on, [K24]) and **~2 AM time-gating**.
 
 > ⚠️ **Read the boundary first.** This is a **separate Easter egg with NO verified connection to the Spider Dream Mystery.** The investigator is explicit: *"I don't think it's directly related… but there could be some crossover."* Everything below that touches the spider trail is held at [SPECULATION] ([S33]) or logged as the open crossover question [U34]. The verified spider frontier is still the Fort Wallace birds ([K16]) — nothing here moves it.
 
@@ -16,7 +16,7 @@ On one of **Mount Shann's** peaks (Big Valley, West Elizabeth) sits a **ring of 
 
 ## [KNOWN]
 
-- **[K35] Mount Shann is a traversable peak in Big Valley, West Elizabeth, NW of Strawberry; a "giant sundial" (stone circle) sits on one of its peaks.** The wiki states the sundial "appears to be modeled after a Japanese archeological site called the **Ōyu Stone Circles**"; the mountain itself is modelled on **Mount Shasta** (N. California) / possibly **Mount Elbert** (Colorado). Also on the mountain (SE, near the trail): **Giant Remains** and a **Rock Carving** coordinate marker (one of the Francis Sinclair "Geology for Beginners" carvings — [thread 08](08-francis-sinclair-mural.md)). *(B-tier: [Red Dead Wiki — Mount Shann](https://reddead.fandom.com/wiki/Mount_Shann), via MediaWiki API 2026-07-02.)*
+- **[K35] Mount Shann is a traversable peak in Big Valley, West Elizabeth, NW of Strawberry; a "giant sundial" (stone circle) sits on one of its peaks.** The wiki states the sundial "appears to be modeled after a Japanese archeological site called the **Ōyu Stone Circles**"; the mountain itself is modelled on **Mount Shasta** (N. California) / possibly **Mount Elbert** (Colorado). Also on the mountain (SE, near the trail): **Giant Remains** and a **Rock Carving** coordinate marker (one of the Francis Sinclair "Geology for Beginners" carvings — [Francis Sinclair egg](francis-sinclair-mural.md)). *(B-tier: [Red Dead Wiki — Mount Shann](https://reddead.fandom.com/wiki/Mount_Shann), via MediaWiki API 2026-07-02.)*
 
 - **[K36] The sundial bears 7 painted arrows on its ring stones, colour-coded red / orange / yellow, deliberately obscured.** The arrows and their painted textures **exist in-game** and are visible on the stones (snow-covered; some perceptible only on close inspection) — **firsthand investigator observation (investigator, 2026-07-02), A-tier in-game.** The datamined model `dis_bgv_sundial.ydr` (extracted via **CodeX**, texture on file) is used here only to **show the arrows cleanly with the snow removed**, confirming the count and colours — **3 orange · 3 red · 1 yellow** — and that they are a **deliberate painted asset, not pareidolia or lighting.** The `dis_bgv_` ("Big Valley") name prefix is Rockstar's own. *(Arrow existence/colours: A-tier in-game, snow-stripped by the datamine. Their bearings/times are also firsthand in-game observation — see [U33].)*
 
@@ -64,4 +64,34 @@ The *Mysterious Sermon* has **7 substantive lines** (plus a closing benediction)
 
 ---
 
-*Cross-refs: [K24]/[gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md) (the spider↔GTA V Chiliad link this shares), [K11] (spider centre webs, 1–2 AM), [H13]/[carving-technique.md](../analysis/carving-technique.md) (the "near-invisible, time-gated" signature [S32] echoes), [thread 08](08-francis-sinclair-mural.md) (the Rock Carving on the same mountain), [S20] (the corpus's number-motif discipline). Location dossier: [locations/mount-shann.md](../locations/mount-shann.md). Registry rows: [INDEX.md](../INDEX.md). Rollups: [known-facts](../findings/known-facts.md) · [unknowns](../findings/unknowns.md) · [speculation](../findings/speculation.md).*
+*Cross-refs: [K24]/[gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md) (the spider↔GTA V Chiliad link this shares), [K11] (spider centre webs, 1–2 AM), [H13]/[carving-technique.md](../analysis/carving-technique.md) (the "near-invisible, time-gated" signature [S32] echoes), [Francis Sinclair egg](francis-sinclair-mural.md) (the Rock Carving on the same mountain), [S20] (the corpus's number-motif discipline). Location dossier: [other-mysteries/mount-shann-sundial.md](mount-shann-sundial.md). Registry rows: [INDEX.md](../INDEX.md). Rollups: [known-facts](../findings/known-facts.md) · [unknowns](../findings/unknowns.md) · [speculation](../findings/speculation.md).* 
+---
+
+## Location dossier — Mount Shann
+- **Region:** **Big Valley**, Commonwealth of **West Elizabeth** — roughly the centre of the region, **NW of Strawberry**. A large traversable mountain (RDR2 + Red Dead Online).
+- **Real-world model:** the mountain after **Mount Shasta** (N. California) / possibly **Mount Elbert** (Colorado); the summit **sundial** after Japan's **Ōyu Stone Circles**. ("Shan" 山 = "mountain" in Chinese.)
+- **Type:** mountain peak hosting a **stone-circle "giant sundial"** and a **~2 AM UFO** apparition.
+
+### Mystery role — a *separate* egg (see [Mount Shann egg](mount-shann-sundial.md))
+This is **not** part of the Spider Dream Mystery. It is the **Kuhkowaba cult / UFO** Easter egg, logged at the investigator's request (2026-07-02) for its own sake and for two crossover hooks (below). The verified spider frontier is unchanged ([K16]).
+
+- **The sundial ([K35]/[K36]):** a ring of stones with a central upright on one peak; **7 painted arrows** on the ring stones (visible **in-game**, firsthand), colour-coded **red / orange / yellow** (3 red · 3 orange · 1 yellow), most snow-covered / near-invisible. The datamined model `dis_bgv_sundial.ydr` (CodeX extraction on file) is used only to **show the arrows snow-free**, confirming count/colour and that they are a deliberate painted asset. The investigator observed each arrow aligning with the **gnomon's shadow** at a set time/cardinal, cross-checked over two day/night cycles ([U33]).
+- **The UFO ([K37]):** appears at the peak at **~2 AM**, then ascends and vanishes; foreshadowed by the **Mysterious Sermon** at **Hani's Bethel** (The Heartlands), whose 7th line names *"THE PEAK OF MOUNT SHANN."* Same egg family as the Hani's Bethel UFO + the ~11 cultist corpses (a Heaven's Gate allusion).
+- **On the same mountain (SE, near the trail):** **Giant Remains** and a **Rock Carving** coordinate — the latter is one of the ten Francis Sinclair "Geology for Beginners" carvings ([Francis Sinclair egg](francis-sinclair-mural.md)), so Mount Shann geographically touches a *third* egg.
+
+### Crossover hooks (held at [SPECULATION] / open)
+- **Mount Chiliad ([K38] + [K24]):** the wiki calls Mount Shann's landmarks + UFO an explicit **nod to GTA V's Mount Chiliad** (UFO + murals). The spider-web thread already ties to Chiliad from the other side ([K24], shared cable shader
+  + 1–2 AM gate) — so two RDR2 eggs point at the same GTA V node ([S33]).
+- **~2 AM time-gate:** the UFO ([K37]) and the spider **centre webs** ([K11]) both key to the small hours (2 AM / 1–2 AM).
+- **Style ([S32]):** the arrows' deliberate obfuscation echoes the spider mystery's near-invisible, time-gated clue signature ([H13]) — a shared *style*, not a proven shared *puzzle*. Whether any real link exists is the open [U34].
+
+### Open questions
+- **[U33]** What do the 7 arrows encode? (Some → collectible stones; one → the cult hut; others → "nowhere." Is the colour a 3-value key? The investigator's shadow-time/cardinal table is in [Mount Shann egg](mount-shann-sundial.md).)
+- **[U34]** Is any of this connected to the Spider Dream Mystery, or only via the shared Chiliad homage? (Skeptical.)
+
+### Images
+- [`../images/mount-shann/mount-shann_sundial_ground-view.jpg`](../images/mount-shann/mount-shann_sundial_ground-view.jpg) — the sundial from ground level (player + horse), snow-covered ring.
+- [`../images/mount-shann/mount-shann_sundial_overhead.jpg`](../images/mount-shann/mount-shann_sundial_overhead.jpg) — top-down; radial stone layout + faint painted arrows.
+- [`../images/mount-shann/mount-shann_sundial-arrows_codex-model.jpg`](../images/mount-shann/mount-shann_sundial-arrows_codex-model.jpg) — **CodeX** extraction of `dis_bgv_sundial.ydr`: the 7 red/orange/yellow arrows shown cleanly on the isolated model.
+
+> Sources: Red Dead Wiki *Mount Shann*, *Hani's Bethel*, *Mysterious Sermon* (via MediaWiki API, 2026-07-02); GameRant "Mount Shann Mystery Explained." Arrow count/colours/bearings + the codex asset = firsthand investigator data (investigator, 2026-07-02). URLs in [sources](../sources/sources.md).

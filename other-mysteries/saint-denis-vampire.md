@@ -47,7 +47,7 @@ The single most important point: **the Vampire egg and the Butcher Creek outhous
 
 So Rockstar **"plants the seed"**: it teaches the connect-the-points-into-a-shape-and-find-the-centre technique on an easy, journal-assisted egg, then **re-uses the exact shape (a pentagram) unaided** at Butcher Creek, then strips *all* assistance for the spider trail. **This is a precedent argument** (the same family as [H6], where the *Dreamcatchers* ship the "connect points → drawn shape → go to the **eye**" mechanic) — and it is **stronger than [H6] on shape**, because the Vampire produces the **literal pentagram** Butcher Creek reproduces, not merely "a shape." → see [dreamcatchers.md](dreamcatchers.md).
 
-> **What this does and does not establish (kept honest).** The Vampire is a **self-contained, solved official egg** with a known reward (Ornate Dagger); there is **no evidence it connects to the spider trail**, shares its time-gating logic, or unlocks anything. "Tutorial / seed" is an inference about **design language and intent**, exactly like [H6] — it argues the spider trail's "lines → a shape → a centre" is **established RDR2 grammar, not pareidolia** ([carving-technique.md](carving-technique.md)), **not** that the two eggs are one puzzle.
+> **What this does and does not establish (kept honest).** The Vampire is a **self-contained, solved official egg** with a known reward (Ornate Dagger); there is **no evidence it connects to the spider trail**, shares its time-gating logic, or unlocks anything. "Tutorial / seed" is an inference about **design language and intent**, exactly like [H6] — it argues the spider trail's "lines → a shape → a centre" is **established RDR2 grammar, not pareidolia** ([carving-technique.md](../analysis/carving-technique.md)), **not** that the two eggs are one puzzle.
 
 ### H16 — The chain is an **escalating difficulty curve**, and the clue **form mutates** along it
 *(investigator, 2026-06-13)*
@@ -73,7 +73,7 @@ Read in discovery order, the chain's difficulty rises monotonically and the **ki
 
 The Vampire egg is **fully documented in the in-game journal** (it writes the clue texts down, sketches their locations, and **auto-draws the solving pentagram**). The spider mystery, by contrast, has **no in-game tracking of any kind** ([K20]). So Rockstar demonstrably **does** surface its solved eggs in the journal when it wants to — which makes the spider trail's **total absence** of any journal/log/counter a **meaningful difference in kind**: either the spider egg is deliberately the "graduate-level," untracked one (consistent with [H16]), or it is unfinished ([U2]). **Record both; assert neither.**
 
-### GTA crossover note (bears on [S8] / the [gta-rdr2-crossover.md](gta-rdr2-crossover.md) channel)
+### GTA crossover note (bears on [S8] / the [gta-rdr2-crossover.md](../analysis/gta-rdr2-crossover.md) channel)
 
 The Red Dead Wiki itself flags that the Vampire's **five wall-writings** mirror the **GTA V "Murder Mystery"** (also solved by finding **mysterious writing on walls**), and links the occult/pentagram framing to a **GTA: Vice City** radio segment about the occult and "the truth of the pentagram." This is one more instance of the **established GTA↔RDR shared-mechanic channel** ([K23]/[K24]) — Rockstar re-using a puzzle grammar across its games — and is logged with the other crossovers, not leaned on.
 
@@ -81,7 +81,7 @@ The Red Dead Wiki itself flags that the Vampire's **five wall-writings** mirror 
 
 ## Bearing on the open questions
 - **[U2] (payoff vs cut content):** H16 says the frontier going cold is *expected* of an escalating puzzle, so it doesn't decide the question; the journal-documentation contrast (above) is a genuine, two-sided data point.
-- **Anti-pareidolia ([carving-technique.md](carving-technique.md)):** the Vampire (a shipped pentagram-mapping egg) reinforces that "connect fixed points → a deliberate shape → a centre" is **real RDR2 design language**, alongside the *Dreamcatchers* ([H6]).
+- **Anti-pareidolia ([carving-technique.md](../analysis/carving-technique.md)):** the Vampire (a shipped pentagram-mapping egg) reinforces that "connect fixed points → a deliberate shape → a centre" is **real RDR2 design language**, alongside the *Dreamcatchers* ([H6]).
 
 ## Open tasks
 - [x] Source the reference images (2026-06-13) — the locations/pentagram map, the in-game journal pages, and both Arthur's & John's journal drawings are now on file (wiki CDN; see [`images/README.md`](../images/README.md)).

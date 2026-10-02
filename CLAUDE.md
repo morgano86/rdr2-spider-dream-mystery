@@ -42,7 +42,8 @@ The trail has a hard line between what is **verified** and what is **contested**
 - **`EVIDENCE-CHECKLIST.md`** — the evidence worklist, ordered by value. **Default to web/video sourcing + verification** (wiki, community sites, forum threads, the Strange Man video); reserve in-game capture for detail no online source records (in practice, only feather *orientation*). Don't ask for an in-game screenshot when a verifiable web image exists.
 
 **The corpus:**
-- **`threads/01–09`** — one investigative thread each; the primary unit of detail. (07–09 are adjacent context: the gang-roster name list and two **separate** eggs — Francis Sinclair, Mount Shann — held at the boundary, not trail steps.)
+- **`threads/01–07`** — one investigative thread each; the primary unit of detail. (07 is adjacent context: the gang-roster name list.)
+- **`other-mysteries/`** — **separate** RDR2 eggs held at the boundary, not trail steps (Francis Sinclair mural, Mount Shann sundial) plus the solved precedents (Dreamcatchers, Saint Denis Vampire). Keep them out of the spider chain unless a verified link is sourced.
 - **`findings/`** — cross-thread rollups (`known-facts.md`, `unknowns.md`, `speculation.md`). These **aggregate** the threads, so they must stay in sync: a fact stated in a thread should be reflected here and vice-versa.
 - **`analysis/`** — working theories (letter/number connections, carving-vs-pareidolia test, narrative tie, cheat codes).
 - **`experiments/`** — the one place we run **code instead of prose**: small Python scripts that *test* findings when the question is combinatorial/cipher/geometry/likelihood and reasoning isn't enough. See [`experiments/README.md`](experiments/README.md).
