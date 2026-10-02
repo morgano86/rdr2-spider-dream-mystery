@@ -1,5 +1,7 @@
 # Sources
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 Reliability legend: **A** = primary/in-game or official; **B** = established games journalism / long-standing wiki; **C** = forum/social/video (useful leads, verify before trusting). Retrieval date: **2026-06-13** unless noted.
 
 > **This file is the per-claim citation ledger** (numbered sources tied to specific facts). For the **"where do I go for what?"** resource directory — which sites/channels are useful for which kind of evidence, plus the fetch recipes — see **[`RESOURCES.md`](RESOURCES.md)**.

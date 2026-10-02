@@ -1,5 +1,7 @@
 # Thread 02 — Butcher Creek outhouse carvings (LJ / SM / Fort Brennand)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Investigator's primary focus.** Butcher Creek is a poor, isolated hamlet in **Roanoke Ridge** (north-east of the map). It is the setting of the "Wisdom of the Elders" stranger mission (Arthur exposes the fraudulent shaman). Beyond the story, it hides the entry point to the Spider Dream clue chain.
 
 ---

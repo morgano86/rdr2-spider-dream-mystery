@@ -1,5 +1,7 @@
 # Window Rock
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** **Grizzlies WEST**, Ambarino (NW of Fort Wallace, below Granite Pass, south of Whinyard Strait). *(Correction: earlier assumed "East" — it's West.)*
 - **Type:** Rock-arch tourist formation; hosts the **Strange Statues cave painting** under an overhang.
 

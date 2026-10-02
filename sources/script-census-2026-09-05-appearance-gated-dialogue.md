@@ -1,5 +1,7 @@
 # How RDR2 scripts read the player's look (mask / weight / hair / dirt) — and what uses it
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Date:** 2026-09-05 · **Status:** investigation complete, negative on "hidden purpose" **Method:** grep/decode over the build-matched decompiled corpus `tasks/tools/ysc-corpus-scan/corpus/1491.50` (2,194 files, build 1491.50) — see `.claude/rules/rdr2-scripts.md` for the corpus caveats (inlined shared library; `joaat("x")` vs raw-hash are two different searches and both were run).
 
 **Question asked:** the Madam Irine fortune-teller machine comments on the player's weight, hair and masks; Abigail reacts to John wearing a mask. Which script drives that, and is there any *sneaky* use of these signals (mask-gated mission, fat-gated encounter, …) that players would never find?

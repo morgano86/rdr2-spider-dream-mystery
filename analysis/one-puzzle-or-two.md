@@ -1,5 +1,7 @@
 # One puzzle or two? — adjudicating [U3] (2026-07-04)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **The question ([U3], open since the corpus began):** are the 2018-era carving clues (Butcher Creek → Fort Brennand → the Heartlands) and the 2025-decoded telegraph-pole web trail the **same puzzle**, **sequential stages**, or **parallel Easter eggs sharing motifs**? It has sat at rank 2 on the dashboard and in the open-analysis-tasks list for weeks while evidence accumulated around it ([S22]/[H21], [S28], [S31], [K39]/[S29], [H27], the [#52] datamine). This file is the desk adjudication — a weighing of what the corpus already holds, **no new evidence**. The verdict is minted as **[S41]** (§5).
 
 **Why U3 stalled:** it bundles **three separable questions**, and they have different answers:

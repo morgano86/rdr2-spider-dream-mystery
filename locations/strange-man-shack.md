@@ -1,5 +1,7 @@
 # The Strange Man's shack — **Bayall Edge** (Bayou Nwa)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Why this dossier exists:** [S35] proposes walking into this shack **with the red-group feather state live** (the southern twin of [H21]'s state-carry reading). To recognise *anything* state-gated on arrival, the field session needs a precise baseline of what the shack **canonically** does — every stock behaviour below is a thing the session must NOT mistake for a spider-mystery reaction. Corpus pass 2026-07-02, B-tier first (Red Dead Wiki *Bayall Edge* + *Strange Man* via MediaWiki API, Gameranx guide — source [#68](../sources/sources.md)).
 
 ## Geography — [KNOWN]

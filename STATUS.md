@@ -1,5 +1,7 @@
 # STATUS — start here
 
+> *New here? See the [README](README.md) for the overview and the [glossary](GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 The operational dashboard. **This is the single entry point each session**: where the case stands, what's blocked on what, and what to do next. It holds *pointers and the live frontier*, not content — detail lives in the files it links. Keep it short; when something changes here, also touch the canonical file and the [log](INVESTIGATION_LOG.md).
 
 > **One-line status (original 2026-06-13; re-checked 2026-10-02 — unchanged):** **UNSOLVED — no confirmed reward/cutscene/unlock** (Jan 2026 coverage: *"no new loot, tools, or cutscenes"*). The community decoded the web-trail to **Fort Wallace** in late 2025; Fort Wallace is a **waypoint, not the end**. The **last VERIFIED clue is the Fort Wallace bird carvings** ([K16]); everything past them is unverified/contested — the off-map **"?" carving is NOT a widely accepted theory** (pareidolia), and the **Bacchus heart's relevance is about as contested as the "?"**. We work **forward from the bird carvings** unless new evidence lands. The egg is confirmed *real* by a former Rockstar QA tester ([K3](INDEX.md)), but authorship is unconfirmed.

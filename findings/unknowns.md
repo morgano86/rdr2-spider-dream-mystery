@@ -1,5 +1,7 @@
 # Open questions / unknowns
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 The live problem set. Anything here that gets resolved should move to [known-facts](known-facts.md) or [speculation](speculation.md) with a date and source.
 
 ## Highest priority (could break the case open)

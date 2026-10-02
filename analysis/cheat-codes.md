@@ -1,6 +1,8 @@
 # Analysis — RDR2 cheat codes (catalogue + thematic resonance)
 
-You flagged that the cheat-code **phrases** feel relevant. They're written as cryptic sentences, several are **carved at specific world locations** (exactly the kind of place a clue lives), and one — **"KEEP YOUR DREAMS LIGHT"** — sits at the **Heartland Oil Fields**, a node on our trail. The list/effects/locations below are **[KNOWN]**; any "this means something for the mystery" reading is **[SPECULATION]** — phrase resonance is tone, not evidence.
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
+The investigator flagged that the cheat-code **phrases** feel relevant. They're written as cryptic sentences, several are **carved at specific world locations** (exactly the kind of place a clue lives), and one — **"KEEP YOUR DREAMS LIGHT"** — sits at the **Heartland Oil Fields**, a node on our trail. The list/effects/locations below are **[KNOWN]**; any "this means something for the mystery" reading is **[SPECULATION]** — phrase resonance is tone, not evidence.
 
 ## Cheats carved/written at world locations — [KNOWN] *(the relevant ones for an environmental-clue hunt)*
 | Phrase | Effect | In-game location |

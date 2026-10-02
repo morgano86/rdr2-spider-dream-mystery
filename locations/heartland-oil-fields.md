@@ -1,5 +1,7 @@
 # Heartland Oil Fields
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** The Heartlands, New Hanover (central-east).
 - **Type:** Oil refinery (also Cornwall-owned industry).
 

@@ -1,5 +1,7 @@
 # Fort Wallace
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** Cumberland Forest, New Hanover (toward the Grizzlies).
 - **Type:** US Army fort, commanded by **Colonel Henry Favours**.
 

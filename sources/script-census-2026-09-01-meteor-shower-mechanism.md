@@ -1,5 +1,7 @@
 # RDR2 — the meteor shower mechanism (and a sweep for comparable hidden events)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Date:** 2026-09-01
 - **Status:** CLOSED — mechanism fully decoded.
 - **Prompt:** user found the community report that standing near the Meteor House around 2 AM and looking up can show a meteor shower visible nowhere else, and asked what drives it — given the 2026-07-25 script cross-check found no timer-based meteor event and no `CTimeArchetypeDef` covers it.

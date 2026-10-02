@@ -1,6 +1,8 @@
 # Thread 06 — The bird carving → Calumet Ravine → the Giant (NW / Wapiti lead)
 
-**Your lead, and it holds up better than expected.** The trail's final leg (`NW` + guitar, the Fort Wallace "bird"/"w" symbols) points into the sparse NW corner — **Calumet Ravine**, beside the **Wapiti Indian Reservation**. That's where a **flock of birds** spawns and guides the player to **the Giant**. The "bird carving → these birds" instinct is, in fact, the documented **Strange Man** theory — though it remains **SPECULATION**, with a live "modelling error / cut content" counter-theory.
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
+**The investigator's lead, and it holds up better than expected.** The trail's final leg (`NW` + guitar, the Fort Wallace "bird"/"w" symbols) points into the sparse NW corner — **Calumet Ravine**, beside the **Wapiti Indian Reservation**. That's where a **flock of birds** spawns and guides the player to **the Giant**. The "bird carving → these birds" instinct is, in fact, the documented **Strange Man** theory — though it remains **SPECULATION**, with a live "modelling error / cut content" counter-theory.
 
 > Images: [`fort-wallace_bird-symbols_tower.webp`](../images/fort-wallace/fort-wallace_bird-symbols_tower.webp) · [`the-giant_map-location.jpg`](../images/wapiti-giant/the-giant_map-location.jpg) · [`the-giant_cave-home.jpg`](../images/wapiti-giant/the-giant_cave-home.jpg)
 

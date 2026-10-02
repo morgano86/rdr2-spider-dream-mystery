@@ -1,5 +1,7 @@
 # Bacchus Bridge
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 A tall wooden **truss rail bridge** spanning a gorge of the **Dakota River**, **Cumberland Forest, New Hanover**, near the Ambarino mountains. Lore-billed the *"Gateway to the West,"* it carries the rail line connecting Big Valley / West Elizabeth to Annesburg. Overview image: [`bacchus-bridge_overview.webp`](../images/bacchus-bridge/bacchus-bridge_overview.webp).
 
 > Why it's a node: it carries a **hidden, empty heart carving** ([K22]) that is the **blank twin of the Flatneck Station "Lillie ♥ Alfred" heart**, and the investigator reports it sits **in line of sight of the Fort Wallace bird carving** ([K16]) on the NW frontier. See [thread 06](../threads/06-bird-carving-giant-wapiti.md).

@@ -1,5 +1,7 @@
 # Calumet Ravine & the Wapiti Indian Reservation
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** Grizzlies East, Ambarino (NW). Calumet Ravine lies **east of the Wapiti Indian Reservation**.
 - **Type:** Wilderness ravine (source of the Dakota River over Donner Falls) + the Wapiti homeland.
 

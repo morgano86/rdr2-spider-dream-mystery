@@ -1,5 +1,7 @@
 # Speculation (explicitly unconfirmed)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 Theories — community and our own. **None of this is established.** Each entry notes who proposed it and how testable it is. Keep hype quarantined here so it never contaminates [known-facts](known-facts.md).
 
 ## On the letters L, J, S, M

@@ -1,5 +1,7 @@
 # The solve grammar of RDR2's solved eggs — and the webs read WITHOUT the shooting premise ([H27])
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Status: [SPECULATION] throughout — home file for [H27]; extends [S28]; fresh-pass 2026-07-02 (second premise-drop session under the fresh-eyes rule).** The dropped premise this pass: **"the webs must be shot at all."** Every frame since late 2025 — [K13b], [U29], [H20], [H22], [H24], Tests A/B/C — assumes feather-shooting is the puzzle's input. This file re-reads the KNOWNs assuming the feathers are a **display to be witnessed/read**, not a target; formalizes the solve grammar of the game's three solved eggs; and scores which grammar the web system resembles. Built only from established data ([K5]/[K11]/[K12]/[K18]/[K21]/[K27]–[K31]/[U29]/[H6]/[H9]); nothing chases past the **[K16] frontier**.
 
 ---

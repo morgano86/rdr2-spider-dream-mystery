@@ -1,5 +1,7 @@
 # RDR2 — the "smoke" near Wapiti at (194.9, 2201.4, 281.4)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Date:** 2026-09-14
 - **Status:** CLOSED. The emitter is found and fully decoded, including why its plume is thin (see "Why the plume is thin" below; matches the user's in-game footage). Viewer overlay added and awaiting the user's check.
 - **Prompt:** a report from about 2019 of smoke rising from an empty hillside near the Wapiti Reservation. Some people thought the puffs looked like symbols. The user found the spot in CodeX and saw no emitter there or under the map. Some had guessed it was a fog or weather emitter.

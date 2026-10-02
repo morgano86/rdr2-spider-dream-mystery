@@ -1,5 +1,7 @@
 # experiments/ — computational tests
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 Small, self-contained scripts that **test** the investigation's findings when prose reasoning isn't enough and the question is really about *combinations, ciphers, geometry, or likelihoods*. This is the one place in the repo where you run code instead of writing prose — everything else is Markdown.
 
 > **A script TESTS; it does not establish fact.** Output is evidence subject to the same tagging discipline as everything else: a positive computational result is at most **[SPECULATION]** until corroborated in-game or by a source; a negative result (e.g. *"A1Z26 → null"*) is a real, loggable finding that can demote or kill a hypothesis. Nothing a script prints is **[KNOWN]** on its own.

@@ -1,5 +1,7 @@
 # Crossover-gun / online-entitlement gating investigation
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Date:** 2026-07-23
 - **Status:** closed - mechanism verified, hunt continues on a new axis (see TODO)
 

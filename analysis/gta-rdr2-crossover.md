@@ -1,5 +1,7 @@
 # GTA V / GTA Online ↔ RDR2 cross-game links (and what they do/don't tell us)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Why this file exists.** Several strands of the Spider Dream Mystery reach across into the *Grand Theft Auto* franchise — Gertrude's numbers ([K23]), Madam Nazar's "web…unraveling" fortune ([U19]), and the GTA V Mount Chiliad spider-webs ([K24], [U18]). They keep getting cited as if a *later* GTA reference "explains away" the RDR2 content. **The chronology shows the opposite**, so this dossier pins the dates and the direction of the references in one place.
 
 > **Editorial note (2026-06-13):** this file *corrects* an earlier framing. A prior pass treated the **2019 GTA Online Nazar number** as a "documented prior purpose" that demoted the RDR2 number's mystery reading. That was **backwards** — the RDR2 content predates the GTA callbacks. The correction is folded into [K23] and the rollups; recorded here per CLAUDE.md (refute/soften, don't silently rewrite history). *(Investigator-flagged correction.)*

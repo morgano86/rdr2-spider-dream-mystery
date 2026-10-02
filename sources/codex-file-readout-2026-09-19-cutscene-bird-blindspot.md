@@ -1,5 +1,7 @@
 # 2026-09-19: Did the cutscene bird check miss birds that scripts place?: findings
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Task:** `completed/2026-09-19-cutscene-bird-blindspot.md` · **Completed:** 2026-09-19 · **Outcome:** positive **One line:** Yes. `.yas` scenes only list the birds they create themselves. The blue jay and other mission birds are spawned by the mission scripts, sometimes then handed to a cutscene, so the scene census could never see them.
 
 ## Answer

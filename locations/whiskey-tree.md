@@ -1,5 +1,7 @@
 # Whiskey Tree (a.k.a. Bottle Tree)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** central map, on a **high point on a hill** — its elevation makes it **visible from most of the web locations** (firsthand investigator data, 2026-06-14).
 - **Type:** a lone tree hung with **whiskey bottles on ropes** (the source of the "whiskey tree" / "bottle tree" names); beside it, an **ever-smouldering fire pit**.
 - **Coords:** not yet recorded.

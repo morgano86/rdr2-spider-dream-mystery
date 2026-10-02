@@ -1,5 +1,7 @@
 # Location dossiers
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 One file per location that the mystery touches. Each dossier captures: **geography** (region, nearest landmark, coords), **in-world role / lore**, **story missions on-site**, **the mystery clue(s) physically present**, and **theories**. Tagged KNOWN / UNKNOWN / SPECULATION like everything else.
 
 Why this matters: the clue chain is a **tour of specific places**, and several are central to the game's Native arc (see [analysis/narrative-connection.md](../analysis/narrative-connection.md)). Understanding each place may reveal *why* it's a node.

@@ -1,5 +1,7 @@
 # Analysis — The Saint Denis Vampire (a shipped pentagram-mapping precedent + the difficulty curve)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 Why this is in `analysis/` and not `locations/`: like the [Dreamcatchers](dreamcatchers.md), the Vampire is here for a **theory connection**, not because it is a confirmed node of the spider trail. It is a **separate, fully-solved RDR2 Easter egg** — but its *mechanic* (find scattered writings → the game maps them into a **pentagram** → the **centre** is the payoff) is the **exact technique** the Butcher Creek outhouses use ([K5]), and the **hand-holding** it gives the player makes it the clearest in-game **tutorial / "seed"** for the kind of puzzle the spider mystery later runs **unaided**. It also anchors the investigator's broader read of the chain as a **monotonically rising difficulty curve**.
 
 The hard facts below are wiki-/in-game-verifiable (`[KNOWN]`); the links to the Spider Dream Mystery are flagged `[SPECULATION]` / hypotheses ([H15], [H16]).

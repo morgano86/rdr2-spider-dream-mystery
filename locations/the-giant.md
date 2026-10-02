@@ -1,5 +1,7 @@
 # The Giant
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** Cave **east of Fairvale Shanty, Grizzlies East, Ambarino** (mountainside east of the Calumet River).
 - **Type:** Hidden NPC "stranger" encounter. Voiced by Jake Hart; likeness based on actor **Rondo Hatton** (acromegaly).
 

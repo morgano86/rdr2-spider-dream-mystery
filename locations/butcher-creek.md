@@ -1,5 +1,7 @@
 # Butcher Creek
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** Roanoke Ridge, New Hanover (NE), near the Murfree Brood territory.
 - **Type:** Poor, isolated, inbred-coded settlement; setting of the "Wisdom of the Elders" stranger mission.
 

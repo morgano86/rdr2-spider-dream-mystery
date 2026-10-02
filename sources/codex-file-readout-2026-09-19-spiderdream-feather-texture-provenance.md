@@ -1,5 +1,7 @@
 # 2026-09-19: Why does spiderdream01x bind val_doc_feather01_ma?: findings
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Task:** none (ad-hoc user question) · **Completed:** 2026-09-19 · **Outcome:** positive **One line:** The Wapiti feather source set ships albedo and normal only — no material map — so the spiderdream feather's `speculartex` slot was filled with `val_doc_feather01_ma`, a flat featureless tile whose only surviving copies in the entire game are the two spiderdream prop dictionaries; and the Valentine doctor's "feather" is a ball of down, not a plumed feather, which is why it can't be found by looking for one.
 
 ## Answer

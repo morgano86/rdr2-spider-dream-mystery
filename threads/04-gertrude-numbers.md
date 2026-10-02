@@ -1,5 +1,7 @@
 # Thread 04 — Gertrude Braithwaite's numbers (the "disconnected thread")
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Investigator flagged this as a possibly-related disconnected thread.** Gertrude Braithwaite is a member of the **Braithwaite** family at **Braithwaite Manor** (Scarlett Meadows, Lemoyne). In the epilogue she can be found imprisoned, having been **locked in the family's outhouse** — and she recites a repeating sequence of **numbers**.
 
 Note the structural rhyme with Butcher Creek: **numbers, in/at an outhouse.** That alone makes her worth tracking against the Spider Dream chain even if the developers intended her only as a tragic vignette.

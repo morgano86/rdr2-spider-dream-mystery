@@ -1,5 +1,7 @@
 # Thread 05 — The Spider Web telegraph-pole trail (most active branch)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 The concrete, navigable core of the mystery and the reason it resurfaced after ~7 years (the first webs were found and the chain assembled in **late 2025**). This thread now follows the **primary Red Dead Wiki** text (Parts 2–4); see [PRIMARY-wiki-spider-dream.md](../sources/PRIMARY-wiki-spider-dream.md). Downloaded images are referenced inline.
 
 ---

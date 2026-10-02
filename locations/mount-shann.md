@@ -1,5 +1,7 @@
 # Mount Shann
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** **Big Valley**, Commonwealth of **West Elizabeth** — roughly the centre of the region, **NW of Strawberry**. A large traversable mountain (RDR2 + Red Dead Online).
 - **Real-world model:** the mountain after **Mount Shasta** (N. California) / possibly **Mount Elbert** (Colorado); the summit **sundial** after Japan's **Ōyu Stone Circles**. ("Shan" 山 = "mountain" in Chinese.)
 - **Type:** mountain peak hosting a **stone-circle "giant sundial"** and a **~2 AM UFO** apparition.

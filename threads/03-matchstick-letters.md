@@ -1,5 +1,7 @@
 # Thread 03 — The matchstick letters (EC / J+M / S+J / arrow) + the oil-field "dream" carving
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Investigator's focus, now corrected against the primary wiki.** The investigator remembered "**J+M** matchsticks at the oil fields." The matchsticks are **real and confirmed**, but the authoritative Red Dead Wiki places them differently than memory had it: they are a **set of four match arrangements scattered around the map**, and the documented one is at **Vetter's Echo**, spelling **"EC"** beside the **Black Widow spider cigarette card**. `J+M` is one of the *other three* sets.
 
 > Images on file (all three letter sets now held):

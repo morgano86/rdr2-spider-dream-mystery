@@ -1,5 +1,7 @@
 # Images
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 Downloaded screenshots, maps, and diagrams, organized **by location/topic** so every image backs a specific claim.
 
 ## Naming convention (enforced)

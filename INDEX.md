@@ -1,5 +1,7 @@
 # ID INDEX — the registry of every stable claim
 
+> *New here? See the [README](README.md) for the overview and the [glossary](GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 Every fact (`K`), open question (`U`), hypothesis (`H`), and speculation (`S`) carries a stable ID. CLAUDE.md requires that when you reference, supersede, or correct a claim you update **every** place it appears. This index is the lookup that makes that possible: for each ID, its one-line claim, current status, and the **canonical home** to edit.
 
 **How to use:** changing a claim? Edit its **Home** file first, then its rollup, then anywhere `Also in` lists, then add a log line. New ID? Append it here in the same pass you create it. Keep IDs **append-only** — never recycle a number.

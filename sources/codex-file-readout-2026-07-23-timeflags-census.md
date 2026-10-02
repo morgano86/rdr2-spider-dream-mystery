@@ -1,5 +1,7 @@
 # CodeX finding relay — time-schedule outlier scan (2026-07-23)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 > **Filed 2026-09-01** as part of corpus source **[#89]** (`sources/sources.md`), verbatim apart from this note. **It HAS since been integrated** — see [K50]–[K52], [U39], [S47] and the 2026-09-01 log entry.
 
 Staged for later integration into the corpus (K/U/H/S organization to be done by a future session — same convention as the fragment/boundary relay from earlier today). Source: game-wide `timeFlags` bucketing of every `CTimeArchetypeDef` archetype/placement in the RDR2 install, run from the CodeX diagnostic harness (LightDiag, session scratchpad). All numbers below are first-hand file data, not community sourced.

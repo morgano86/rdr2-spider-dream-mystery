@@ -1,5 +1,7 @@
 # Thread 01 — The Spider Dream Mystery (hub)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 The umbrella mystery. The Red Dead Wiki documents it as the **Spider Dream Mystery**; it is the named container that the Butcher Creek, Fort Brennand, Oil Fields, and (arguably) Gertrude threads feed into. The 2025 "spider web" telegraph-pole trail is the newest and most active branch.
 
 > **Source-access note:** The primary wiki page (`reddead.fandom.com/wiki/Spider_Dream_Mystery`) returns HTTP 403 to automated fetches. Content below is reconstructed from search excerpts and secondary coverage (Dexerto, RDR2.org, GamesRadar, GTAForums). Verify wording against the live page in a browser; file any images per the [images index](../images/README.md) (foldered by location/topic — there is no flat `spider-dream/` folder).

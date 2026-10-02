@@ -1,6 +1,6 @@
 # Spider Webs — master manifest
 
-The webs are the live heart of the puzzle. This file is the **single source of truth** for every web: its location, the hour it appears, the feather **colour**, and — the part you flagged as potentially vital and which **no online source documents** — the feather **position/orientation**. If the puzzle requires interacting with webs in a specific **order**, feather position is our most likely encoding of that order, and capturing it is the single highest-value in-game task.
+The webs are the live heart of the puzzle. This file is the **single source of truth** for every web: its location, the hour it appears, the feather **colour**, and — the part the investigator flagged as potentially vital and which **no online source documents** — the feather **position/orientation**. If the puzzle requires interacting with webs in a specific **order**, feather position is our most likely encoding of that order, and capturing it is the single highest-value in-game task.
 
 > **Capture standard (per web):** a clear, zoomed screenshot of the web with the feather visible, **at the correct hour**, plus (a) exact map location + coordinates, (b) **which way the feather points / where it sits in the web**, (c) feather colour (confirm against the table). Name files `web_<location>_<code>[_<detail>].webp` (per the [images naming convention](../README.md#naming-convention-enforced)) and drop them here; fill the row.
 >

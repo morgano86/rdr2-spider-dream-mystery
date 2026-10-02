@@ -1,5 +1,7 @@
 # Analysis — The Dreamcatchers collectible (and its tie to the Spider *Dream* Mystery)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 Why this is in `analysis/` and not `locations/`: the **Dreamcatchers** are a **map-wide collectible strand**, not a single place — and the reason they matter here is a **theory connection**, not a confirmed node of the spider trail. The hard facts below are wiki-/in-game-verifiable (`[KNOWN]`); the links to the Spider Dream Mystery are flagged `[SPECULATION]`.
 
 > **Primary source:** Red Dead Wiki — *Dreamcatchers* (MediaWiki API `action=parse`; raw JSON saved to [`sources/dreamcatchers_api.json`](../sources/dreamcatchers_api.json)). Listed as source **#26** in [sources/sources.md](../sources/sources.md). Tier **B** (long-standing wiki), with the reward/mechanic also **A** (in-game verifiable).

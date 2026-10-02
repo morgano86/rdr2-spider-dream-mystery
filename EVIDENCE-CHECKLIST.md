@@ -1,5 +1,7 @@
 # EVIDENCE CHECKLIST
 
+> *New here? See the [README](README.md) for the overview and the [glossary](GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 The worklist for turning open questions into sourced evidence, ordered by value. **Default to the web:** the wiki, community research sites, forum threads, and the Strange Man video already document almost everything — **find the image/clip, then verify it against a second independent source.** Reserve **firsthand in-game capture for the rare detail that genuinely isn't recorded anywhere online.** When you do capture in-game, log it as dated investigator data.
 
 > **Channel tags:** 🌐 = source from web/video + verify (the default). 🎮 = likely needs in-game play (use only when web sourcing has actually failed). Name any saved image to the [convention](images/README.md#naming-convention-enforced). Item numbers are stable (historical log entries cite them); finished items move to **Completed** at the bottom.

@@ -1,5 +1,7 @@
 # Witch's Cauldron brew (`dis_grz_witch_brew`) — what drinking it actually does
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Date:** 2026-09-15
 - **Status:** done (script-level answer); two in-game checks suggested, not run
 - **Question (user):** at `dis_grz_witch_lair` the player can drink from the cauldron and passes out. Community claims: eases Arthur's illness, refills cores/bars, drinkable once by Arthur and once by John. What does it do?

@@ -1,5 +1,7 @@
 # Fort Brennand
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** Roanoke Ridge, New Hanover (NE).
 - **Type:** Former **Union Army** fort (Civil War), abandoned, reoccupied by the **Lemoyne Raiders** by 1899.
 

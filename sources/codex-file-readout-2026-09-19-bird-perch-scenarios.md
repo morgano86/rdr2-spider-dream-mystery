@@ -1,5 +1,7 @@
 # 2026-09-19: Bird perch scenario points near the carvings: findings
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Task:** `completed/2026-09-19-bird-perch-scenarios.md` · **Completed:** 2026-09-19 · **Outcome:** negative **One line:** No bird or animal is placed to appear at any carving — and the tower carrying the two carved birds is the only one of Fort Wallace's four towers with **zero** bird-perch points near it.
 
 ## Answer

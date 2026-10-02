@@ -1,5 +1,7 @@
 # Research resources — where to look for what
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 A curated directory of the **recurring resources** this investigation draws on, and **what each is genuinely useful for**. This is the "where do I go for X?" map; it is **not** the citation ledger. For a specific numbered citation tied to a claim, see [`sources.md`](sources.md). When you find a resource you'll use again, add it here with a one-line "useful for."
 
 > Reliability legend (same as [`sources.md`](sources.md)): **A** = primary / in-game / official · **B** = established games journalism or a long-standing wiki · **C** = forum / social / video — useful *leads*, verify before trusting.

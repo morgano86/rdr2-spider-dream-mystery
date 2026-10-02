@@ -1,5 +1,7 @@
 # Thread 09 — The Mount Shann Sundial (a separate mystery)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **What this thread is.** A documented file on the **Mount Shann "giant sundial"** and the surrounding **Kuhkowaba cult / UFO Easter egg** in RDR2 — a *different* mystery from the Spider Dream, opened here at the investigator's request (2026-07-02) because it is a live puzzle in its own right **and** because it shares two hooks with our corpus: the **GTA V Mount Chiliad** homage (which the spider-web thread already leans on, [K24]) and **~2 AM time-gating**.
 
 > ⚠️ **Read the boundary first.** This is a **separate Easter egg with NO verified connection to the Spider Dream Mystery.** The investigator is explicit: *"I don't think it's directly related… but there could be some crossover."* Everything below that touches the spider trail is held at [SPECULATION] ([S33]) or logged as the open crossover question [U34]. The verified spider frontier is still the Fort Wallace birds ([K16]) — nothing here moves it.

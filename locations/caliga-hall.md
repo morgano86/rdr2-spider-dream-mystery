@@ -1,5 +1,7 @@
 # Caliga Hall (Gray estate)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** Scarlett Meadows, Lemoyne (S), near Rhodes.
 - **Type:** Tobacco plantation of the **Gray** family — the **Braithwaites' rivals** in the Chapter 3 feud.
 

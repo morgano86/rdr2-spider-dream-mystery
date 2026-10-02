@@ -1,5 +1,7 @@
 # Vetter's Echo
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** Roanoke Ridge, New Hanover (NE) — a cabin.
 - **Type:** Abandoned cabin; a small in-world vignette.
 

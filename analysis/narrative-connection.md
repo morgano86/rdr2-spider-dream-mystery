@@ -1,6 +1,8 @@
 # Analysis — does the mystery map onto the Native American storyline?
 
-**Your lead:** the mystery's locations seem to rhyme with the **Rains Fall / Eagle Flies / Wapiti vs. US Army & Leviticus Cornwall** arc. Researched and graded below. **Bottom line:** the *geographic + thematic* overlap is **real and strong (4 of 5 locations)**; a *designed, causal* link to the specific characters is **unproven speculation**. Fort Brennand is the clean-theory-breaker.
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
+**Investigator's lead:** the mystery's locations seem to rhyme with the **Rains Fall / Eagle Flies / Wapiti vs. US Army & Leviticus Cornwall** arc. Researched and graded below. **Bottom line:** the *geographic + thematic* overlap is **real and strong (4 of 5 locations)**; a *designed, causal* link to the specific characters is **unproven speculation**. Fort Brennand is the clean-theory-breaker.
 
 > Sources: Red Dead Wiki (via API) — Cornwall Kerosene & Tar, Fort Wallace, The King's Son, Fort Brennand, Butcher Creek, Eagle Flies, Rains Fall, A Rage Unleashed; GameRant overview. Full URLs in [sources/sources.md](../sources/sources.md).
 

@@ -1,5 +1,7 @@
 # Cornwall Kerosene & Tar
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** New Hanover, near **Annesburg** (Roanoke Ridge area, NE).
 - **Type:** Oil refinery owned by **Leviticus Cornwall** — the gang's chief industrialist antagonist.
 

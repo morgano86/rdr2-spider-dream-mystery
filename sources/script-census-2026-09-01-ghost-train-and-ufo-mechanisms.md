@@ -1,5 +1,7 @@
 # RDR2 — ghost train trigger, and both UFO events (moon-phase question settled)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Date:** 2026-09-01
 - **Status:** CLOSED — both UFOs and the ghost train fully decoded.
 - **Follows:** `2026-09-01-meteor-shower-mechanism.md`

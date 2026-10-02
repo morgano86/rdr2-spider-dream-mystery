@@ -1,5 +1,7 @@
 # Cross-thread analysis — connections, letters, numbers
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 This is the working theory bench. Everything here is **analysis, not fact** — but it's where threads get tied together and hypotheses get tested (including null results, which are valuable).
 
 ---

@@ -1,5 +1,7 @@
 # Fresh-pass readings (2026-07-02) — the decoy reading, the dream trigger, and two side leads
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Status: [SPECULATION] throughout — home file for [H24], [H25], [S34], [S35].** A deliberate fresh-eyes pass over the corpus (new session, instruction: re-interpret, don't just extend). Everything here is built **only from already-established facts** ([K13a] lattice, [K21]/[K28]/[K29]/[K31] boundaries, [U29] reset data, [K10], [K30]) re-read from a different angle; nothing chases past the **[K16] frontier**. Each section states its falsifiable test. Null results are loggable findings.
 
 ---

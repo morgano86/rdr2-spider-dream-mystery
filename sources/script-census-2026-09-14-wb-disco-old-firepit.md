@@ -1,5 +1,7 @@
 # RDR2 — `WB_DISCO_OLD_FIREPIT`
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Date:** 2026-09-14
 - **Status:** CLOSED — mechanism and all placements decoded. Not a mystery lead.
 - **Prompt:** user asked to look into `WB_DISCO_OLD_FIREPIT`.

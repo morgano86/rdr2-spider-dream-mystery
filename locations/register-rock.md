@@ -1,5 +1,7 @@
 # Register Rock
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 A **memorial boulder inscribed with names and dates**, a point of interest in **The Heartlands, New Hanover** — between **Twin Stack Pass**, the **Heartland Oil Fields**, and **Emerald Ranch** (map: [`register-rock_map-location.webp`](../images/register-rock/register-rock_map-location.webp)). It mirrors the real-world Register Rock (Oregon Trail, Idaho) where emigrants carved their names.
 
 > Why it may be a node: the investigator proposes the **third, debated symbol** in the Fort Brennand tower carving — the one read as a "telephone pole · factory · **oil puddle**" — may actually depict **this rock** (it's right in the area the symbols point to). If so, the **names carved on Register Rock could be the mystery's name-puzzle** ([H11]/[U24]) — directly relevant to the `LJ`/`SM` and matchstick (`EC`, `J+M`, `S+J`) letter questions. See [thread 02](../threads/02-butcher-creek-carvings.md) and [connections](../analysis/connections.md).

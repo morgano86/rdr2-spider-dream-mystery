@@ -1,5 +1,7 @@
 # Field-test protocol — the cross-boundary STATE question ([U29]/[H22])
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 **Status: method, not a claim.** This file mints no new IDs. It operationalises the [H22] reframing of the web-order problem into the **single in-game experiment that can actually move the case** — and it is written for the investigator to follow *during play*, because the reasoning currently lives only inside [`web_boundary_solve_protocol.py`](../experiments/web_boundary_solve_protocol.py)'s console output, which you cannot follow in the field. Everything an *outcome* would establish is [SPECULATION] until observed; a clean **negative** here is itself a real, loggable finding (CLAUDE.md). This sits **upstream of, and never past, the [K16] frontier** — it is about the verified web mechanic, not the contested `?`/Bacchus leads.
 
 ## Why this is the bottleneck (one paragraph)

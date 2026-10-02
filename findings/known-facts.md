@@ -1,5 +1,7 @@
 # Known facts (cross-thread)
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 Facts that are verifiable in-game and/or corroborated across multiple reliable sources. Each links to its thread. If a fact later proves shaky, demote it to [unknowns](unknowns.md) with a note.
 
 ## The mystery itself

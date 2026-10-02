@@ -1,5 +1,7 @@
 # Spider Gorge
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** toward the Grizzlies / NW (Ambarino).
 - **Type:** Gorge. **Has "spider" in its name** — an obvious thematic flag.
 

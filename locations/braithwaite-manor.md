@@ -1,5 +1,7 @@
 # Braithwaite Manor
 
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
 - **Region:** Scarlett Meadows, Lemoyne (S).
 - **Type:** Plantation estate of the Braithwaite family (rivals of the Grays).
 

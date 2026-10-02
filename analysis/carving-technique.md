@@ -1,6 +1,8 @@
 # Analysis — the carving technique, and how to tell a real carving from pareidolia
 
-You made the key methodological point: the clues that matter are **visibly, verifiably carved into the model** — not textures, and not shapes people *imagine* in noisy surfaces (pareidolia). This file pins down **how Rockstar made these symbols** and gives a **repeatable test** to separate genuine clues from wishful pattern-matching. This test is how we decide what's allowed into [known-facts](../findings/known-facts.md) vs. quarantined in [speculation](../findings/speculation.md).
+> *New here? See the [README](../README.md) for the overview and the [glossary](../GLOSSARY.md) for the ID/tag conventions (`K13`, `[#89]`, `H27`…).*
+
+The investigator made the key methodological point: the clues that matter are **visibly, verifiably carved into the model** — not textures, and not shapes people *imagine* in noisy surfaces (pareidolia). This file pins down **how Rockstar made these symbols** and gives a **repeatable test** to separate genuine clues from wishful pattern-matching. This test is how we decide what's allowed into [known-facts](../findings/known-facts.md) vs. quarantined in [speculation](../findings/speculation.md).
 
 ## How the symbols are actually made — [KNOWN]
 - The signature symbols are **modelled into the 3D mesh geometry itself, then disguised under the surface (moss/wood) texture** — *not* painted onto a flat texture, *not* a decal. The wiki's key sentence (about the Fort Wallace marks): *"two 'w' or bird symbols that are made from the **tower's geometry** and **shaded with the moss texture**,"* and *"the same method of **hiding symbols into the geometry** is used for the Butcher Creek outhouses and **not seen anywhere else**."*
